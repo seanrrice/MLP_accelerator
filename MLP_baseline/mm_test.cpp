@@ -98,6 +98,10 @@ void readImages(const string& imgfilename, DTYPE* data) {
     imgFile.close();
 }
 
+//=======================================
+//Original test bench
+// ======================================
+
 // const int N = 1024;
 // const int M = 784;
 // const int P = 128;
@@ -139,7 +143,9 @@ void readImages(const string& imgfilename, DTYPE* data) {
  
 // }
 
-
+//===========================================================================
+//Modified Testbench to enable cosim to work
+//=========================================================================
 
 void mm_sw_cosim(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P) {
     for (int i = 0; i < N; i++) {
