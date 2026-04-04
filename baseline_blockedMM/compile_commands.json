@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "C:\\Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM",
+    "arguments": [
+      "C:\\Xilinx\\2025.1\\Vitis\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\Xilinx\\2025.1\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\2025.1\\Vitis\\common\\technology\\autopilot",
+      "-fhlstoplevel=MM",
+      "-c",
+      "C:\\Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\..\\MLP_baseline\\mm.cpp"
+    ],
+    "file": "C:\\Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\..\\MLP_baseline\\mm.cpp"
+  },
+  {
+    "directory": "C:\\Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM",
+    "arguments": [
+      "C:\\Xilinx\\2025.1\\Vitis\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\Xilinx\\2025.1\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=C:\\Xilinx\\2025.1\\Vitis\\include",
+      "-c",
+      "C:\\Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\..\\MLP_baseline\\mm_test.cpp"
+    ],
+    "file": "C:\\Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\..\\MLP_baseline\\mm_test.cpp"
+  }
+]

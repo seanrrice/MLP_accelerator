@@ -1,0 +1,13 @@
+{
+  "name": "baseline_blockedMM",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "hls_config.cfg"
+    ],
+    "work_dir": "baseline_blockedMM"
+  },
+  "useSysrootToolchain": false,
+  "template": "empty_hls_component"
+}
