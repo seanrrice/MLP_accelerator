@@ -3,8 +3,8 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Mon Apr  6 21:40:40 2026
-# Process ID         : 18480
+# Start of session at: Mon Apr  6 22:38:28 2026
+# Process ID         : 12044
 # Current directory  : C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/ip
 # Command line       : vivado.exe -notrace -mode batch -source run_ippack.tcl
 # Log file           : C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/ip/vivado.log
@@ -17,9 +17,9 @@
 # CPU Physical cores : 2
 # CPU Logical cores  : 4
 # Host memory        : 8241 MB
-# Swap memory        : 15864 MB
-# Total Virtual      : 24105 MB
-# Available Virtual  : 4013 MB
+# Swap memory        : 16588 MB
+# Total Virtual      : 24830 MB
+# Available Virtual  : 3659 MB
 #-----------------------------------------------------------
 source run_ippack.tcl -notrace
 INFO: calling package_hls_ip ip_types=vitis sysgen json_file=C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/hls_data.json outdir=C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/ip srcdir=C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls ippack_options_dict= ippack_options_dict=
@@ -27,7 +27,7 @@ INFO: Copied 1 ipmisc file(s) to C:/Users/seanr/vitis_projects/Lab3_MLP_optimiza
 INFO: Copied 7 verilog file(s) to C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/ip/hdl/verilog
 INFO: Copied 7 vhdl file(s) to C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/ip/hdl/vhdl
 INFO: Copied 10 swdriver file(s) to C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/ip/drivers
-ipx::create_core: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 518.625 ; gain = 207.168
+ipx::create_core: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 517.914 ; gain = 206.191
 INFO: Import ports from HDL: C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/ip/hdl/vhdl/MM.vhd (MM)
 INFO: Add axi4lite interface s_axi_control
 INFO: Add clock interface ap_clk
@@ -42,4 +42,4 @@ INFO: Calling post_process_sysgen to specialize IP
 Generating sysgen info xml from json file
 INFO: Created IP C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/ip/component.xml
 INFO: Created IP archive C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/ip/xilinx_com_hls_MM_1_0.zip
-INFO: [Common 17-206] Exiting Vivado at Mon Apr  6 21:40:55 2026...
+INFO: [Common 17-206] Exiting Vivado at Mon Apr  6 22:38:44 2026...

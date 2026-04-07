@@ -3,8 +3,8 @@ set SynModuleInfo {
     SUBMODULES {
       {MODELNAME MM_mul_32ns_32s_62_2_1 RTLNAME MM_mul_32ns_32s_62_2_1 BINDTYPE op TYPE mul IMPL auto LATENCY 1 ALLOW_PRAGMA 1}
       {MODELNAME MM_mul_32s_32s_32_2_1 RTLNAME MM_mul_32s_32s_32_2_1 BINDTYPE op TYPE mul IMPL auto LATENCY 1 ALLOW_PRAGMA 1}
+      {MODELNAME MM_mul_5ns_32s_37_2_1 RTLNAME MM_mul_5ns_32s_37_2_1 BINDTYPE op TYPE mul IMPL auto LATENCY 1 ALLOW_PRAGMA 1}
       {MODELNAME MM_AB_block_RAM_AUTO_1R1W RTLNAME MM_AB_block_RAM_AUTO_1R1W BINDTYPE storage TYPE ram IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
-      {MODELNAME MM_B_line_RAM_AUTO_1R1W RTLNAME MM_B_line_RAM_AUTO_1R1W BINDTYPE storage TYPE ram IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
       {MODELNAME MM_gmem_m_axi RTLNAME MM_gmem_m_axi BINDTYPE interface TYPE adapter IMPL m_axi}
       {MODELNAME MM_control_s_axi RTLNAME MM_control_s_axi BINDTYPE interface TYPE interface_s_axilite}
     }

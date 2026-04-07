@@ -6,33 +6,33 @@
 </RunData>
 <TimingReport>
   <TargetClockPeriod>10.000</TargetClockPeriod>
-  <AchievedClockPeriod>7.095</AchievedClockPeriod>
+  <AchievedClockPeriod>6.336</AchievedClockPeriod>
   <CLOCK_NAME>ap_clk</CLOCK_NAME>
-  <CP_FINAL>7.095</CP_FINAL>
-  <CP_ROUTE>7.095</CP_ROUTE>
+  <CP_FINAL>6.336</CP_FINAL>
+  <CP_ROUTE>6.336</CP_ROUTE>
   <CP_SYNTH>5.745</CP_SYNTH>
   <CP_TARGET>10.000</CP_TARGET>
-  <SLACK_FINAL>2.905</SLACK_FINAL>
-  <SLACK_ROUTE>2.905</SLACK_ROUTE>
+  <SLACK_FINAL>3.664</SLACK_FINAL>
+  <SLACK_ROUTE>3.664</SLACK_ROUTE>
   <SLACK_SYNTH>4.255</SLACK_SYNTH>
   <TIMING_MET>TRUE</TIMING_MET>
   <TNS_FINAL>0.000</TNS_FINAL>
   <TNS_ROUTE>0.000</TNS_ROUTE>
   <TNS_SYNTH>0.000</TNS_SYNTH>
-  <WNS_FINAL>2.905</WNS_FINAL>
-  <WNS_ROUTE>2.905</WNS_ROUTE>
+  <WNS_FINAL>3.664</WNS_FINAL>
+  <WNS_ROUTE>3.664</WNS_ROUTE>
   <WNS_SYNTH>4.255</WNS_SYNTH>
 </TimingReport>
 <AreaReport>
   <Resources>
     <BRAM>2</BRAM>
     <CLB>0</CLB>
-    <DSP>7</DSP>
-    <FF>4085</FF>
+    <DSP>9</DSP>
+    <FF>4192</FF>
     <LATCH>0</LATCH>
-    <LUT>2661</LUT>
+    <LUT>2671</LUT>
     <SLICE>1129</SLICE>
-    <SRL>142</SRL>
+    <SRL>145</SRL>
     <URAM>0</URAM>
   </Resources>
   <AvailableResources>
@@ -47,46 +47,105 @@
 </AreaReport>
 <RtlModules>
   <RtlModule CELL="inst" DEPTH="0" FILE_NAME="bd_0_hls_inst_0.v" ORIG_REF_NAME="MM" TOP_CELL="bd_0_i/hls_inst/inst">
-    <SubModules count="6">AB_block_U B_line_U control_s_axi_U gmem_m_axi_U mul_32ns_32s_62_2_1_U1 mul_32s_32s_32_2_1_U2</SubModules>
-    <Resources BRAM="2" DSP="7" FF="4085" LUT="2661" LUTRAM="32" LogicLUT="2487" RAMB18="2" SRL="142"/>
-    <LocalResources FF="1857" LUT="629" LogicLUT="629"/>
+    <SubModules count="6">AB_block_U control_s_axi_U gmem_m_axi_U mul_32ns_32s_62_2_1_U1 mul_32s_32s_32_2_1_U2 mul_5ns_32s_37_2_1_U3</SubModules>
+    <Resources BRAM="2" DSP="9" FF="4192" LUT="2671" LogicLUT="2526" RAMB18="2" SRL="145"/>
+    <LocalResources FF="1947" LUT="634" LogicLUT="631" SRL="3"/>
   </RtlModule>
   <RtlModule CELL="inst/AB_block_U" DEPTH="1" FILE_NAME="MM.v" ORIG_REF_NAME="MM_AB_block_RAM_AUTO_1R1W">
-    <Resources BRAM="1" LUT="65" LogicLUT="65" RAMB18="1"/>
-  </RtlModule>
-  <RtlModule CELL="inst/B_line_U" DEPTH="1" FILE_NAME="MM.v" ORIG_REF_NAME="MM_B_line_RAM_AUTO_1R1W">
+    <Resources BRAM="1" LUT="76" LogicLUT="76" RAMB18="1"/>
   </RtlModule>
   <RtlModule CELL="inst/control_s_axi_U" DEPTH="1" FILE_NAME="MM.v" ORIG_REF_NAME="MM_control_s_axi">
     <Resources FF="406" LUT="622" LogicLUT="622"/>
   </RtlModule>
   <RtlModule CELL="inst/gmem_m_axi_U" DEPTH="1" FILE_NAME="MM.v" ORIG_REF_NAME="MM_gmem_m_axi">
-    <Resources BRAM="1" FF="1771" LUT="1250" LogicLUT="1108" RAMB18="1" SRL="142"/>
+    <Resources BRAM="1" FF="1771" LUT="1263" LogicLUT="1121" RAMB18="1" SRL="142"/>
   </RtlModule>
   <RtlModule CELL="inst/mul_32ns_32s_62_2_1_U1" DEPTH="1" FILE_NAME="MM.v" ORIG_REF_NAME="MM_mul_32ns_32s_62_2_1">
   </RtlModule>
   <RtlModule CELL="inst/mul_32s_32s_32_2_1_U2" DEPTH="1" FILE_NAME="MM.v" ORIG_REF_NAME="MM_mul_32s_32s_32_2_1">
   </RtlModule>
+  <RtlModule CELL="inst/mul_5ns_32s_37_2_1_U3" DEPTH="1" FILE_NAME="MM.v" ORIG_REF_NAME="MM_mul_5ns_32s_37_2_1">
+  </RtlModule>
 </RtlModules>
 <TimingPaths>
-  <TPATH DATAPATH_DELAY="6.806" DATAPATH_LOGIC_DELAY="0.456" DATAPATH_NET_DELAY="6.350" ENDPOINT_PIN="bd_0_i/hls_inst/inst/ABC_read_reg_1165_reg[32]/CE" LOGIC_LEVELS="0" MAX_FANOUT="376" SLACK="2.905" STARTPOINT_PIN="bd_0_i/hls_inst/inst/ap_CS_fsm_reg[0]/C">
-    <CELL NAME="bd_0_i/hls_inst/inst/ap_CS_fsm_reg[0]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDSE" FILE_NAME="MM.v" LINE_NUMBER="723"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/ABC_read_reg_1165_reg[32]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM.v" LINE_NUMBER="851"/>
+  <TPATH DATAPATH_DELAY="6.314" DATAPATH_LOGIC_DELAY="3.791" DATAPATH_NET_DELAY="2.523" ENDPOINT_PIN="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[61]/D" LOGIC_LEVELS="16" MAX_FANOUT="4" SLACK="3.664" STARTPOINT_PIN="bd_0_i/hls_inst/inst/zext_ln43_reg_1357_reg[13]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/zext_ln43_reg_1357_reg[13]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM.v" LINE_NUMBER="1287"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404[15]_i_9" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="MM.v" LINE_NUMBER="2199"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[15]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[19]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[23]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[27]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[31]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[35]_i_3" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404[35]_i_6" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="MM.v" LINE_NUMBER="2037"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[35]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[39]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[43]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[47]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[51]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[55]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[59]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[61]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[61]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM.v" LINE_NUMBER="1160"/>
   </TPATH>
-  <TPATH DATAPATH_DELAY="6.806" DATAPATH_LOGIC_DELAY="0.456" DATAPATH_NET_DELAY="6.350" ENDPOINT_PIN="bd_0_i/hls_inst/inst/ABC_read_reg_1165_reg[33]/CE" LOGIC_LEVELS="0" MAX_FANOUT="376" SLACK="2.905" STARTPOINT_PIN="bd_0_i/hls_inst/inst/ap_CS_fsm_reg[0]/C">
-    <CELL NAME="bd_0_i/hls_inst/inst/ap_CS_fsm_reg[0]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDSE" FILE_NAME="MM.v" LINE_NUMBER="723"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/ABC_read_reg_1165_reg[33]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM.v" LINE_NUMBER="851"/>
+  <TPATH DATAPATH_DELAY="6.203" DATAPATH_LOGIC_DELAY="3.680" DATAPATH_NET_DELAY="2.523" ENDPOINT_PIN="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[60]/D" LOGIC_LEVELS="16" MAX_FANOUT="4" SLACK="3.775" STARTPOINT_PIN="bd_0_i/hls_inst/inst/zext_ln43_reg_1357_reg[13]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/zext_ln43_reg_1357_reg[13]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM.v" LINE_NUMBER="1287"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404[15]_i_9" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="MM.v" LINE_NUMBER="2199"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[15]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[19]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[23]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[27]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[31]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[35]_i_3" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404[35]_i_6" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="MM.v" LINE_NUMBER="2037"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[35]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[39]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[43]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[47]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[51]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[55]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[59]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[61]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[60]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM.v" LINE_NUMBER="1160"/>
   </TPATH>
-  <TPATH DATAPATH_DELAY="6.806" DATAPATH_LOGIC_DELAY="0.456" DATAPATH_NET_DELAY="6.350" ENDPOINT_PIN="bd_0_i/hls_inst/inst/ABC_read_reg_1165_reg[34]/CE" LOGIC_LEVELS="0" MAX_FANOUT="376" SLACK="2.905" STARTPOINT_PIN="bd_0_i/hls_inst/inst/ap_CS_fsm_reg[0]/C">
-    <CELL NAME="bd_0_i/hls_inst/inst/ap_CS_fsm_reg[0]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDSE" FILE_NAME="MM.v" LINE_NUMBER="723"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/ABC_read_reg_1165_reg[34]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM.v" LINE_NUMBER="851"/>
+  <TPATH DATAPATH_DELAY="6.200" DATAPATH_LOGIC_DELAY="3.677" DATAPATH_NET_DELAY="2.523" ENDPOINT_PIN="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[57]/D" LOGIC_LEVELS="15" MAX_FANOUT="4" SLACK="3.778" STARTPOINT_PIN="bd_0_i/hls_inst/inst/zext_ln43_reg_1357_reg[13]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/zext_ln43_reg_1357_reg[13]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM.v" LINE_NUMBER="1287"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404[15]_i_9" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="MM.v" LINE_NUMBER="2199"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[15]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[19]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[23]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[27]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[31]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[35]_i_3" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404[35]_i_6" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="MM.v" LINE_NUMBER="2037"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[35]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[39]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[43]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[47]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[51]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[55]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[59]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="1871"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[57]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM.v" LINE_NUMBER="1160"/>
   </TPATH>
-  <TPATH DATAPATH_DELAY="6.806" DATAPATH_LOGIC_DELAY="0.456" DATAPATH_NET_DELAY="6.350" ENDPOINT_PIN="bd_0_i/hls_inst/inst/ABC_read_reg_1165_reg[35]/CE" LOGIC_LEVELS="0" MAX_FANOUT="376" SLACK="2.905" STARTPOINT_PIN="bd_0_i/hls_inst/inst/ap_CS_fsm_reg[0]/C">
-    <CELL NAME="bd_0_i/hls_inst/inst/ap_CS_fsm_reg[0]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDSE" FILE_NAME="MM.v" LINE_NUMBER="723"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/ABC_read_reg_1165_reg[35]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM.v" LINE_NUMBER="851"/>
+  <TPATH DATAPATH_DELAY="5.746" DATAPATH_LOGIC_DELAY="1.950" DATAPATH_NET_DELAY="3.796" ENDPOINT_PIN="bd_0_i/hls_inst/inst/phi_mul19_fu_174_reg[32]/CE" LOGIC_LEVELS="6" MAX_FANOUT="85" SLACK="3.798" STARTPOINT_PIN="bd_0_i/hls_inst/inst/div2_reg_1251_reg[1]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/div2_reg_1251_reg[1]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM.v" LINE_NUMBER="1098"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/gmem_m_axi_U/load_unit_0/fifo_rreq/ap_CS_fsm[3]_i_33" PRIMITIVE_TYPE="LUT.others.LUT4" FILE_NAME="MM.v" LINE_NUMBER="810"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/gmem_m_axi_U/load_unit_0/fifo_rreq/ap_CS_fsm_reg[3]_i_17" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="810"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/gmem_m_axi_U/load_unit_0/fifo_rreq/ap_CS_fsm_reg[3]_i_8" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="810"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/gmem_m_axi_U/load_unit_0/fifo_rreq/ap_CS_fsm_reg[3]_i_3" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="810"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/gmem_m_axi_U/load_unit_0/fifo_rreq/ap_CS_fsm_reg[3]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="810"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/ib_fu_178[26]_i_2" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="MM.v" LINE_NUMBER="810"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/phi_mul19_fu_174_reg[32]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM.v" LINE_NUMBER="1077"/>
   </TPATH>
-  <TPATH DATAPATH_DELAY="6.727" DATAPATH_LOGIC_DELAY="0.456" DATAPATH_NET_DELAY="6.271" ENDPOINT_PIN="bd_0_i/hls_inst/inst/div22_reg_1195_reg[0]/CE" LOGIC_LEVELS="0" MAX_FANOUT="376" SLACK="3.020" STARTPOINT_PIN="bd_0_i/hls_inst/inst/ap_CS_fsm_reg[0]/C">
-    <CELL NAME="bd_0_i/hls_inst/inst/ap_CS_fsm_reg[0]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDSE" FILE_NAME="MM.v" LINE_NUMBER="723"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/div22_reg_1195_reg[0]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM.v" LINE_NUMBER="855"/>
+  <TPATH DATAPATH_DELAY="5.746" DATAPATH_LOGIC_DELAY="1.950" DATAPATH_NET_DELAY="3.796" ENDPOINT_PIN="bd_0_i/hls_inst/inst/phi_mul19_fu_174_reg[33]/CE" LOGIC_LEVELS="6" MAX_FANOUT="85" SLACK="3.798" STARTPOINT_PIN="bd_0_i/hls_inst/inst/div2_reg_1251_reg[1]/C">
+    <CELL NAME="bd_0_i/hls_inst/inst/div2_reg_1251_reg[1]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM.v" LINE_NUMBER="1098"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/gmem_m_axi_U/load_unit_0/fifo_rreq/ap_CS_fsm[3]_i_33" PRIMITIVE_TYPE="LUT.others.LUT4" FILE_NAME="MM.v" LINE_NUMBER="810"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/gmem_m_axi_U/load_unit_0/fifo_rreq/ap_CS_fsm_reg[3]_i_17" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="810"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/gmem_m_axi_U/load_unit_0/fifo_rreq/ap_CS_fsm_reg[3]_i_8" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="810"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/gmem_m_axi_U/load_unit_0/fifo_rreq/ap_CS_fsm_reg[3]_i_3" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="810"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/gmem_m_axi_U/load_unit_0/fifo_rreq/ap_CS_fsm_reg[3]_i_2" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM.v" LINE_NUMBER="810"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/ib_fu_178[26]_i_2" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="MM.v" LINE_NUMBER="810"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/phi_mul19_fu_174_reg[33]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM.v" LINE_NUMBER="1077"/>
   </TPATH>
 </TimingPaths>
 <VivadoReportFiles>

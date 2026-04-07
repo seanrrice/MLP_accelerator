@@ -217,7 +217,7 @@
       <key>filename</key>
       <string>../MLP_baseline/mm.cpp</string>
       <key>line</key>
-      <integer>31</integer>
+      <integer>30</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -233,7 +233,7 @@
       <key>filename</key>
       <string>../MLP_baseline/mm.cpp</string>
       <key>line</key>
-      <integer>33</integer>
+      <integer>32</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -249,7 +249,7 @@
       <key>filename</key>
       <string>../MLP_baseline/mm.cpp</string>
       <key>line</key>
-      <integer>37</integer>
+      <integer>36</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -265,7 +265,7 @@
       <key>filename</key>
       <string>../MLP_baseline/mm.cpp</string>
       <key>line</key>
-      <integer>39</integer>
+      <integer>44</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -313,23 +313,7 @@
       <key>filename</key>
       <string>../MLP_baseline/mm.cpp</string>
       <key>line</key>
-      <integer>50</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=off_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>../MLP_baseline/mm.cpp</string>
-      <key>line</key>
-      <integer>56</integer>
+      <integer>52</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>
@@ -346,38 +330,6 @@
       <string>../MLP_baseline/mm.cpp</string>
       <key>line</key>
       <integer>62</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=off_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>../MLP_baseline/mm.cpp</string>
-      <key>line</key>
-      <integer>71</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=off_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>../MLP_baseline/mm.cpp</string>
-      <key>line</key>
-      <integer>73</integer>
       <key>column</key>
       <integer>9</integer>
       <key>message</key>

@@ -1,6 +1,5 @@
   **** HLS Build v2025.1 6135595
 INFO: [HLS 200-2005] Using work_dir C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM 
-WARNING: cannot remove old output: C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/sim
 INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/vitis-comp.json
 INFO: [HLS 200-10] Creating and opening component 'C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM'.
 INFO: [HLS 200-1505] Using default flow_target 'vivado'
@@ -30,37 +29,42 @@ INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from C:/Users/se
 INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
 INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(5)
 INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/vitis-comp.json
-INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2 seconds. CPU system time: 2 seconds. Elapsed time: 5.684 seconds; current allocated memory: 164.180 MB.
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2 seconds. CPU system time: 2 seconds. Elapsed time: 6.297 seconds; current allocated memory: 163.727 MB.
 INFO: [HLS 200-10] Analyzing design file '../MLP_baseline/mm.cpp' ... 
-INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 6.107 seconds; current allocated memory: 166.941 MB.
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 7.233 seconds; current allocated memory: 166.590 MB.
 INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
-INFO: [HLS 200-1995] There were 181 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 143 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 126 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 123 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 123 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 124 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 124 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 124 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 124 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 135 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 135 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 135 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 132 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 132 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 148 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 200-1995] There were 185 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 214-115] Multiple burst reads of length 16 and bit width 32 in loop 'VITIS_LOOP_36_3'(../MLP_baseline/mm.cpp:36:19) has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../MLP_baseline/mm.cpp:36:19)
-INFO: [HLS 214-115] Multiple burst reads of length 16 and bit width 32 in loop 'VITIS_LOOP_55_8'(../MLP_baseline/mm.cpp:55:42) has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../MLP_baseline/mm.cpp:55:42)
-INFO: [HLS 214-115] Multiple burst writes of length 16 and bit width 32 in loop 'VITIS_LOOP_72_11'(../MLP_baseline/mm.cpp:72:20) has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../MLP_baseline/mm.cpp:72:20)
-INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 11.054 seconds; current allocated memory: 169.160 MB.
-INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.005 seconds; current allocated memory: 169.160 MB.
+INFO: [HLS 200-1995] There were 161 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 131 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 115 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 113 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 113 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 114 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 114 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 114 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 114 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 125 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 125 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 125 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 122 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 122 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 138 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 171 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_63_10> at ../MLP_baseline/mm.cpp:63:20 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_37_4> at ../MLP_baseline/mm.cpp:37:19 
+INFO: [HLS 214-115] Multiple burst reads of length 16 and bit width 32 in loop 'VITIS_LOOP_35_3'(../MLP_baseline/mm.cpp:35:19) has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../MLP_baseline/mm.cpp:35:19)
+INFO: [HLS 214-115] Multiple burst writes of length 16 and bit width 32 in loop 'VITIS_LOOP_63_10'(../MLP_baseline/mm.cpp:63:20) has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../MLP_baseline/mm.cpp:63:20)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 9.49 seconds; current allocated memory: 168.863 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.009 seconds; current allocated memory: 168.863 MB.
 INFO: [HLS 200-10] Starting code transformations ...
-INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.158 seconds; current allocated memory: 174.453 MB.
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.211 seconds; current allocated memory: 174.055 MB.
 INFO: [HLS 200-10] Checking synthesizability ...
-INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.091 seconds; current allocated memory: 177.047 MB.
-INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.177 seconds; current allocated memory: 200.168 MB.
-INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.187 seconds; current allocated memory: 200.172 MB.
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.087 seconds; current allocated memory: 177.027 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.231 seconds; current allocated memory: 200.023 MB.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_35_3'(../MLP_baseline/mm.cpp:35:19) and 'VITIS_LOOP_37_4'(../MLP_baseline/mm.cpp:37:19) in function 'MM' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_61_9'(../MLP_baseline/mm.cpp:61:30) and 'VITIS_LOOP_63_10'(../MLP_baseline/mm.cpp:63:20) in function 'MM' into perfectly nested loops.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_35_3' (../MLP_baseline/mm.cpp:35:19) in function 'MM'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_61_9' (../MLP_baseline/mm.cpp:61:30) in function 'MM'.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.303 seconds; current allocated memory: 200.195 MB.
 INFO: [HLS 200-10] Starting hardware synthesis ...
 INFO: [HLS 200-10] Synthesizing 'MM' ...
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
@@ -68,14 +72,18 @@ INFO: [HLS 200-10] -------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'MM' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_35_3_VITIS_LOOP_37_4'.
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_61_9_VITIS_LOOP_63_10'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 3, loop 'VITIS_LOOP_35_3_VITIS_LOOP_37_4'
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 12, loop 'VITIS_LOOP_61_9_VITIS_LOOP_63_10'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.39 seconds; current allocated memory: 200.172 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.767 seconds; current allocated memory: 200.289 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.174 seconds; current allocated memory: 200.453 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.186 seconds; current allocated memory: 201.652 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'MM' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -92,16 +100,16 @@ INFO: [RTGEN 206-500] Setting interface mode on function 'MM' to 's_axilite & ap
 INFO: [RTGEN 206-100] Bundling port 'A', 'B', 'C', 'ABC', 'N', 'M', 'P' to AXI-Lite port control.
 INFO: [RTGEN 206-100] Generating core module 'mul_32ns_32s_62_2_1': 1 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mul_32s_32s_32_2_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_5ns_32s_37_2_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'MM'.
 INFO: [RTMG 210-278] Implementing memory 'MM_AB_block_RAM_AUTO_1R1W' using auto RAMs.
-INFO: [RTMG 210-278] Implementing memory 'MM_B_line_RAM_AUTO_1R1W' using auto RAMs.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.835 seconds; current allocated memory: 204.613 MB.
-INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.436 seconds; current allocated memory: 211.699 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.449 seconds; current allocated memory: 206.500 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.683 seconds; current allocated memory: 213.375 MB.
 INFO: [HLS 200-1603] Design has inferred MAXI bursts and missed bursts, see Vitis HLS GUI synthesis summary report for detailed information.
-INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 1.4 seconds; current allocated memory: 217.281 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 2.811 seconds; current allocated memory: 218.867 MB.
 INFO: [VHDL 208-304] Generating VHDL RTL for MM.
 INFO: [VLOG 209-307] Generating Verilog RTL for MM.
 INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
 INFO: [HLS 200-789] **** Estimated Fmax: 136.99 MHz
-INFO: [HLS 200-112] Total CPU user time: 5 seconds. Total CPU system time: 3 seconds. Total elapsed time: 27.738 seconds; peak allocated memory: 217.324 MB.
-INFO: [v++ 60-791] Total elapsed time: 0h 0m 33s
+INFO: [HLS 200-112] Total CPU user time: 5 seconds. Total CPU system time: 4 seconds. Total elapsed time: 29.837 seconds; peak allocated memory: 218.891 MB.
+INFO: [v++ 60-791] Total elapsed time: 0h 0m 36s

@@ -8,13 +8,13 @@
   **** SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
   **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
   **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-  **** Start of session at: Mon Apr  6 21:41:30 2026
+  **** Start of session at: Mon Apr  6 22:39:21 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source bd_0_hls_inst_0.tcl -notrace
-INFO: Dispatch client connection id - 54475
-create_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 512.711 ; gain = 214.770
+INFO: Dispatch client connection id - 51190
+create_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 511.316 ; gain = 213.117
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/ip'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/2025.1/Vivado/data/ip'.
@@ -27,81 +27,82 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020
 INFO: [Device 21-403] Loading part xc7z020clg400-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 12980
+INFO: [Synth 8-7075] Helper process launched with PID 26732
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1244.863 ; gain = 491.148
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1248.523 ; gain = 493.020
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'bd_0_hls_inst_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/synth/bd_0_hls_inst_0.v:53]
-INFO: [Synth 8-6157] synthesizing module 'MM' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM.v:9]
-INFO: [Synth 8-6157] synthesizing module 'MM_AB_block_RAM_AUTO_1R1W' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_AB_block_RAM_AUTO_1R1W.v:7]
-INFO: [Synth 8-6155] done synthesizing module 'MM_AB_block_RAM_AUTO_1R1W' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_AB_block_RAM_AUTO_1R1W.v:7]
-INFO: [Synth 8-6157] synthesizing module 'MM_B_line_RAM_AUTO_1R1W' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_B_line_RAM_AUTO_1R1W.v:7]
-INFO: [Synth 8-6155] done synthesizing module 'MM_B_line_RAM_AUTO_1R1W' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_B_line_RAM_AUTO_1R1W.v:7]
-INFO: [Synth 8-6157] synthesizing module 'MM_control_s_axi' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_control_s_axi.v:9]
-INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_control_s_axi.v:258]
-INFO: [Synth 8-6155] done synthesizing module 'MM_control_s_axi' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_control_s_axi.v:9]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:9]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_store' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:903]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3774]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3774]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl__parameterized0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3774]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl__parameterized0' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3774]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized0' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized1' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl__parameterized1' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3774]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl__parameterized1' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3774]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized1' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized2' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl__parameterized2' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3774]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl__parameterized2' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3774]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized2' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized3' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl__parameterized3' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3774]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl__parameterized3' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3774]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized3' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_store' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:903]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_load' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:413]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized4' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_mem' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3814]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_mem' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3814]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized4' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_load' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:413]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_write' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:1934]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_burst_converter' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:2229]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_burst_sequential' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:2835]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_reg_slice' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3457]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_reg_slice' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3457]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_burst_sequential' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:2835]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_burst_converter' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:2229]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_throttle' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3188]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized5' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl__parameterized4' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3774]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl__parameterized4' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3774]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized5' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3457]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized0' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3457]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized1' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3457]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized1' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3457]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_throttle' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3188]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized2' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3457]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized2' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3457]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_write' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:1934]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_read' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:1682]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized3' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3457]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized3' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3457]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_read' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:1682]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:9]
-INFO: [Synth 8-6157] synthesizing module 'MM_mul_32ns_32s_62_2_1' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_mul_32ns_32s_62_2_1.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'MM_mul_32ns_32s_62_2_1' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_mul_32ns_32s_62_2_1.v:5]
-INFO: [Synth 8-6157] synthesizing module 'MM_mul_32s_32s_32_2_1' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_mul_32s_32s_32_2_1.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'MM_mul_32s_32s_32_2_1' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_mul_32s_32s_32_2_1.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'MM' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MM' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MM_AB_block_RAM_AUTO_1R1W' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_AB_block_RAM_AUTO_1R1W.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'MM_AB_block_RAM_AUTO_1R1W' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_AB_block_RAM_AUTO_1R1W.v:7]
+INFO: [Synth 8-6157] synthesizing module 'MM_control_s_axi' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_control_s_axi.v:9]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_control_s_axi.v:258]
+INFO: [Synth 8-6155] done synthesizing module 'MM_control_s_axi' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_control_s_axi.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_store' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:903]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl__parameterized0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl__parameterized0' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized0' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized1' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl__parameterized1' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl__parameterized1' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized1' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized2' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl__parameterized2' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl__parameterized2' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized2' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized3' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl__parameterized3' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl__parameterized3' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized3' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_store' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:903]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_load' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:413]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized4' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_mem' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3814]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_mem' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3814]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized4' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_load' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:413]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_write' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:1934]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_burst_converter' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:2229]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_burst_sequential' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:2835]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_reg_slice' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_reg_slice' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_burst_sequential' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:2835]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_burst_converter' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:2229]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_throttle' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3188]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized5' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl__parameterized4' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl__parameterized4' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized5' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized0' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized1' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized1' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_throttle' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3188]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized2' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized2' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_write' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:1934]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_read' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:1682]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized3' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized3' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_read' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:1682]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MM_mul_32ns_32s_62_2_1' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_mul_32ns_32s_62_2_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MM_mul_32ns_32s_62_2_1' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_mul_32ns_32s_62_2_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'MM_mul_32s_32s_32_2_1' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_mul_32s_32s_32_2_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MM_mul_32s_32s_32_2_1' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_mul_32s_32s_32_2_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'MM_mul_5ns_32s_37_2_1' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_mul_5ns_32s_37_2_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MM_mul_5ns_32s_37_2_1' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_mul_5ns_32s_37_2_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MM' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM.v:9]
 INFO: [Synth 8-6155] done synthesizing module 'bd_0_hls_inst_0' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/synth/bd_0_hls_inst_0.v:53]
-WARNING: [Synth 8-6014] Unused sequential element int_ap_done_reg was removed.  [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_control_s_axi.v:355]
+WARNING: [Synth 8-6014] Unused sequential element int_ap_done_reg was removed.  [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_control_s_axi.v:355]
 INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+WARNING: [Synth 8-7129] Port reset in module MM_mul_5ns_32s_37_2_1 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port reset in module MM_mul_32s_32s_32_2_1 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port reset in module MM_mul_32ns_32s_62_2_1 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port in_BUS_RID[0] in module MM_gmem_m_axi_read is either unconnected or has no load
@@ -122,21 +123,20 @@ WARNING: [Synth 8-7129] Port in_BUS_BRESP[0] in module MM_gmem_m_axi_write is ei
 WARNING: [Synth 8-7129] Port in_BUS_BUSER[0] in module MM_gmem_m_axi_write is either unconnected or has no load
 WARNING: [Synth 8-7129] Port AWADDR[1] in module MM_control_s_axi is either unconnected or has no load
 WARNING: [Synth 8-7129] Port AWADDR[0] in module MM_control_s_axi is either unconnected or has no load
-WARNING: [Synth 8-7129] Port reset in module MM_B_line_RAM_AUTO_1R1W is either unconnected or has no load
 WARNING: [Synth 8-7129] Port reset in module MM_AB_block_RAM_AUTO_1R1W is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1389.270 ; gain = 635.555
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:19 . Memory (MB): peak = 1395.777 ; gain = 640.273
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1389.270 ; gain = 635.555
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:20 . Memory (MB): peak = 1395.777 ; gain = 640.273
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1389.270 ; gain = 635.555
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:20 . Memory (MB): peak = 1395.777 ; gain = 640.273
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.235 . Memory (MB): peak = 1389.270 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.192 . Memory (MB): peak = 1395.777 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -147,27 +147,27 @@ Parsing XDC File [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_b
 Finished Parsing XDC File [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1452.434 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1459.375 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.239 . Memory (MB): peak = 1456.297 ; gain = 3.863
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.228 . Memory (MB): peak = 1461.633 ; gain = 2.258
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:29 ; elapsed = 00:00:34 . Memory (MB): peak = 1456.297 ; gain = 702.582
+Finished Constraint Validation : Time (s): cpu = 00:00:27 ; elapsed = 00:00:36 . Memory (MB): peak = 1461.633 ; gain = 706.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:29 ; elapsed = 00:00:34 . Memory (MB): peak = 1456.297 ; gain = 702.582
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:27 ; elapsed = 00:00:36 . Memory (MB): peak = 1461.633 ; gain = 706.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:34 . Memory (MB): peak = 1456.297 ; gain = 702.582
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:36 . Memory (MB): peak = 1461.633 ; gain = 706.129
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'wstate_reg' in module 'MM_control_s_axi'
 INFO: [Synth 8-802] inferred FSM for state register 'rstate_reg' in module 'MM_control_s_axi'
@@ -176,6 +176,7 @@ INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'MM_gm
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'MM_gmem_m_axi_reg_slice__parameterized1'
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'MM_gmem_m_axi_reg_slice__parameterized2'
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'MM_gmem_m_axi_reg_slice__parameterized3'
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
 INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
 INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
 ---------------------------------------------------------------------------------------------------
@@ -238,7 +239,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'MM_gmem_m_axi_reg_slice__parameterized3'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:31 ; elapsed = 00:00:37 . Memory (MB): peak = 1456.297 ; gain = 702.582
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:38 . Memory (MB): peak = 1461.633 ; gain = 706.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -246,21 +247,22 @@ Start RTL Component Statistics
 Detailed RTL Component Info : 
 +---Adders : 
 	   2 Input   64 Bit       Adders := 4     
-	   3 Input   62 Bit       Adders := 1     
-	   2 Input   62 Bit       Adders := 3     
+	   2 Input   63 Bit       Adders := 1     
+	   3 Input   62 Bit       Adders := 2     
+	   2 Input   62 Bit       Adders := 1     
 	   2 Input   58 Bit       Adders := 2     
 	   2 Input   52 Bit       Adders := 2     
-	   2 Input   36 Bit       Adders := 3     
+	   2 Input   36 Bit       Adders := 2     
 	   2 Input   32 Bit       Adders := 6     
 	   2 Input   28 Bit       Adders := 3     
 	   2 Input   27 Bit       Adders := 3     
 	   2 Input   12 Bit       Adders := 4     
 	   3 Input    9 Bit       Adders := 1     
-	   2 Input    9 Bit       Adders := 2     
+	   2 Input    9 Bit       Adders := 4     
 	   3 Input    8 Bit       Adders := 1     
 	   2 Input    8 Bit       Adders := 6     
 	   2 Input    6 Bit       Adders := 4     
-	   2 Input    5 Bit       Adders := 23    
+	   2 Input    5 Bit       Adders := 24    
 	   2 Input    4 Bit       Adders := 12    
 	   2 Input    3 Bit       Adders := 6     
 +---XORs : 
@@ -270,58 +272,55 @@ Detailed RTL Component Info :
 	               96 Bit    Registers := 2     
 	               73 Bit    Registers := 2     
 	               64 Bit    Registers := 11    
-	               63 Bit    Registers := 4     
+	               63 Bit    Registers := 5     
 	               62 Bit    Registers := 5     
 	               58 Bit    Registers := 7     
+	               57 Bit    Registers := 1     
 	               52 Bit    Registers := 2     
-	               48 Bit    Registers := 1     
-	               36 Bit    Registers := 6     
+	               45 Bit    Registers := 1     
+	               37 Bit    Registers := 3     
+	               36 Bit    Registers := 4     
 	               34 Bit    Registers := 4     
-	               32 Bit    Registers := 24    
+	               32 Bit    Registers := 23    
 	               31 Bit    Registers := 1     
 	               28 Bit    Registers := 3     
 	               27 Bit    Registers := 9     
 	               20 Bit    Registers := 2     
 	               10 Bit    Registers := 8     
-	                9 Bit    Registers := 6     
-	                8 Bit    Registers := 10    
+	                9 Bit    Registers := 8     
+	                8 Bit    Registers := 15    
 	                7 Bit    Registers := 1     
 	                6 Bit    Registers := 4     
-	                5 Bit    Registers := 29    
-	                4 Bit    Registers := 20    
-	                3 Bit    Registers := 3     
+	                5 Bit    Registers := 30    
+	                4 Bit    Registers := 14    
+	                3 Bit    Registers := 4     
 	                2 Bit    Registers := 7     
-	                1 Bit    Registers := 87    
+	                1 Bit    Registers := 129   
 +---Multipliers : 
 	              32x33  Multipliers := 1     
+	               6x32  Multipliers := 1     
 	              32x32  Multipliers := 1     
 +---RAMs : 
 	               8K Bit	(256 X 32 bit)          RAMs := 1     
 	               8K Bit	(255 X 34 bit)          RAMs := 1     
-	              512 Bit	(16 X 32 bit)          RAMs := 1     
 +---Muxes : 
 	   2 Input   97 Bit        Muxes := 2     
 	   2 Input   73 Bit        Muxes := 1     
 	   2 Input   64 Bit        Muxes := 8     
 	   2 Input   52 Bit        Muxes := 2     
-	   2 Input   48 Bit        Muxes := 1     
+	   2 Input   45 Bit        Muxes := 2     
 	   2 Input   44 Bit        Muxes := 1     
-	   2 Input   43 Bit        Muxes := 1     
 	   2 Input   41 Bit        Muxes := 1     
-	   2 Input   39 Bit        Muxes := 1     
-	   2 Input   38 Bit        Muxes := 1     
-	   2 Input   34 Bit        Muxes := 2     
+	   2 Input   34 Bit        Muxes := 1     
 	   2 Input   33 Bit        Muxes := 1     
-	   2 Input   32 Bit        Muxes := 4     
-	   2 Input   30 Bit        Muxes := 1     
-	   2 Input   28 Bit        Muxes := 3     
-	   2 Input   23 Bit        Muxes := 1     
-	   2 Input   22 Bit        Muxes := 1     
-	   2 Input   21 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 5     
+	   2 Input   28 Bit        Muxes := 4     
+	   2 Input   27 Bit        Muxes := 1     
 	   2 Input   20 Bit        Muxes := 2     
-	   2 Input   17 Bit        Muxes := 1     
-	   2 Input   15 Bit        Muxes := 1     
-	   2 Input   14 Bit        Muxes := 2     
+	   2 Input   19 Bit        Muxes := 1     
+	   2 Input   18 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 1     
+	   2 Input   13 Bit        Muxes := 1     
 	   4 Input   12 Bit        Muxes := 2     
 	   2 Input   10 Bit        Muxes := 6     
 	   2 Input    9 Bit        Muxes := 2     
@@ -329,15 +328,15 @@ Detailed RTL Component Info :
 	   4 Input    8 Bit        Muxes := 4     
 	   2 Input    8 Bit        Muxes := 3     
 	   2 Input    6 Bit        Muxes := 3     
-	   2 Input    5 Bit        Muxes := 8     
+	   2 Input    5 Bit        Muxes := 13    
 	   4 Input    4 Bit        Muxes := 1     
-	   2 Input    4 Bit        Muxes := 12    
+	   2 Input    4 Bit        Muxes := 11    
 	   3 Input    3 Bit        Muxes := 1     
 	   2 Input    3 Bit        Muxes := 6     
 	   2 Input    2 Bit        Muxes := 94    
 	   3 Input    2 Bit        Muxes := 18    
 	   4 Input    2 Bit        Muxes := 6     
-	   2 Input    1 Bit        Muxes := 123   
+	   2 Input    1 Bit        Muxes := 127   
 	   4 Input    1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
@@ -355,16 +354,27 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
-WARNING: [Synth 8-3936] Found unconnected internal register 'wreq_throttle/rs_req/data_p1_reg' and it is trimmed from '73' to '72' bits. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3490]
-WARNING: [Synth 8-3936] Found unconnected internal register 'wreq_throttle/rs_req/data_p2_reg' and it is trimmed from '73' to '72' bits. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3511]
-WARNING: [Synth 8-3936] Found unconnected internal register 'sext_ln30_1_reg_1206_reg' and it is trimmed from '34' to '32' bits. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM.v:858]
+WARNING: [Synth 8-3936] Found unconnected internal register 'wreq_throttle/rs_req/data_p1_reg' and it is trimmed from '73' to '72' bits. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3490]
+WARNING: [Synth 8-3936] Found unconnected internal register 'wreq_throttle/rs_req/data_p2_reg' and it is trimmed from '73' to '72' bits. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM_gmem_m_axi.v:3511]
+WARNING: [Synth 8-3936] Found unconnected internal register 'sext_ln29_1_reg_1266_reg' and it is trimmed from '37' to '32' bits. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM.v:1100]
+WARNING: [Synth 8-3936] Found unconnected internal register 'sext_ln29_reg_1261_reg' and it is trimmed from '34' to '32' bits. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/f74a/hdl/verilog/MM.v:1103]
+DSP Report: Generating DSP mul_5ns_32s_37_2_1_U3/tmp_product, operation Mode is: A2*B2.
+DSP Report: register mul_5ns_32s_37_2_1_U3/tmp_product is absorbed into DSP mul_5ns_32s_37_2_1_U3/tmp_product.
+DSP Report: register mul_5ns_32s_37_2_1_U3/tmp_product is absorbed into DSP mul_5ns_32s_37_2_1_U3/tmp_product.
+DSP Report: operator mul_5ns_32s_37_2_1_U3/tmp_product is absorbed into DSP mul_5ns_32s_37_2_1_U3/tmp_product.
+DSP Report: operator mul_5ns_32s_37_2_1_U3/tmp_product is absorbed into DSP mul_5ns_32s_37_2_1_U3/tmp_product.
+DSP Report: Generating DSP mul_5ns_32s_37_2_1_U3/buff0_reg, operation Mode is: (PCIN>>17)+A*B2.
+DSP Report: register mul_5ns_32s_37_2_1_U3/buff0_reg is absorbed into DSP mul_5ns_32s_37_2_1_U3/buff0_reg.
+DSP Report: register mul_5ns_32s_37_2_1_U3/buff0_reg is absorbed into DSP mul_5ns_32s_37_2_1_U3/buff0_reg.
+DSP Report: operator mul_5ns_32s_37_2_1_U3/tmp_product is absorbed into DSP mul_5ns_32s_37_2_1_U3/buff0_reg.
+DSP Report: operator mul_5ns_32s_37_2_1_U3/tmp_product is absorbed into DSP mul_5ns_32s_37_2_1_U3/buff0_reg.
 DSP Report: Generating DSP mul_32ns_32s_62_2_1_U1/tmp_product, operation Mode is: A2*B2.
-DSP Report: register empty_54_reg_1326_reg is absorbed into DSP mul_32ns_32s_62_2_1_U1/tmp_product.
+DSP Report: register add_ln53_reg_1451_reg is absorbed into DSP mul_32ns_32s_62_2_1_U1/tmp_product.
 DSP Report: register mul_32ns_32s_62_2_1_U1/tmp_product is absorbed into DSP mul_32ns_32s_62_2_1_U1/tmp_product.
 DSP Report: operator mul_32ns_32s_62_2_1_U1/tmp_product is absorbed into DSP mul_32ns_32s_62_2_1_U1/tmp_product.
 DSP Report: operator mul_32ns_32s_62_2_1_U1/tmp_product is absorbed into DSP mul_32ns_32s_62_2_1_U1/tmp_product.
 DSP Report: Generating DSP mul_32ns_32s_62_2_1_U1/buff0_reg, operation Mode is: (PCIN>>17)+A2*B.
-DSP Report: register empty_54_reg_1326_reg is absorbed into DSP mul_32ns_32s_62_2_1_U1/buff0_reg.
+DSP Report: register add_ln53_reg_1451_reg is absorbed into DSP mul_32ns_32s_62_2_1_U1/buff0_reg.
 DSP Report: register mul_32ns_32s_62_2_1_U1/buff0_reg is absorbed into DSP mul_32ns_32s_62_2_1_U1/buff0_reg.
 DSP Report: operator mul_32ns_32s_62_2_1_U1/tmp_product is absorbed into DSP mul_32ns_32s_62_2_1_U1/buff0_reg.
 DSP Report: operator mul_32ns_32s_62_2_1_U1/tmp_product is absorbed into DSP mul_32ns_32s_62_2_1_U1/buff0_reg.
@@ -378,26 +388,20 @@ DSP Report: register mul_32ns_32s_62_2_1_U1/buff0_reg is absorbed into DSP mul_3
 DSP Report: register mul_32ns_32s_62_2_1_U1/buff0_reg is absorbed into DSP mul_32ns_32s_62_2_1_U1/buff0_reg.
 DSP Report: operator mul_32ns_32s_62_2_1_U1/tmp_product is absorbed into DSP mul_32ns_32s_62_2_1_U1/buff0_reg.
 DSP Report: operator mul_32ns_32s_62_2_1_U1/tmp_product is absorbed into DSP mul_32ns_32s_62_2_1_U1/buff0_reg.
-DSP Report: Generating DSP mul_32s_32s_32_2_1_U2/tmp_product, operation Mode is: A2*B''.
-DSP Report: register B_line_U/q0_reg is absorbed into DSP mul_32s_32s_32_2_1_U2/tmp_product.
-DSP Report: register B_line_load_reg_1412_reg is absorbed into DSP mul_32s_32s_32_2_1_U2/tmp_product.
+DSP Report: Generating DSP mul_32s_32s_32_2_1_U2/tmp_product, operation Mode is: A2*B.
 DSP Report: register mul_32s_32s_32_2_1_U2/tmp_product is absorbed into DSP mul_32s_32s_32_2_1_U2/tmp_product.
 DSP Report: operator mul_32s_32s_32_2_1_U2/tmp_product is absorbed into DSP mul_32s_32s_32_2_1_U2/tmp_product.
 DSP Report: operator mul_32s_32s_32_2_1_U2/tmp_product is absorbed into DSP mul_32s_32s_32_2_1_U2/tmp_product.
-DSP Report: Generating DSP mul_32s_32s_32_2_1_U2/buff0_reg, operation Mode is: (PCIN>>17)+A''*B.
-DSP Report: register B_line_U/q0_reg is absorbed into DSP mul_32s_32s_32_2_1_U2/buff0_reg.
-DSP Report: register B_line_load_reg_1412_reg is absorbed into DSP mul_32s_32s_32_2_1_U2/buff0_reg.
+DSP Report: Generating DSP mul_32s_32s_32_2_1_U2/buff0_reg, operation Mode is: (PCIN>>17)+A*B.
 DSP Report: register mul_32s_32s_32_2_1_U2/buff0_reg is absorbed into DSP mul_32s_32s_32_2_1_U2/buff0_reg.
 DSP Report: operator mul_32s_32s_32_2_1_U2/tmp_product is absorbed into DSP mul_32s_32s_32_2_1_U2/buff0_reg.
 DSP Report: operator mul_32s_32s_32_2_1_U2/tmp_product is absorbed into DSP mul_32s_32s_32_2_1_U2/buff0_reg.
-DSP Report: Generating DSP mul_32s_32s_32_2_1_U2/tmp_product, operation Mode is: A''*B2.
-DSP Report: register mul_32s_32s_32_2_1_U2/tmp_product is absorbed into DSP mul_32s_32s_32_2_1_U2/tmp_product.
+DSP Report: Generating DSP mul_32s_32s_32_2_1_U2/tmp_product, operation Mode is: A2*B2.
 DSP Report: register mul_32s_32s_32_2_1_U2/tmp_product is absorbed into DSP mul_32s_32s_32_2_1_U2/tmp_product.
 DSP Report: register mul_32s_32s_32_2_1_U2/tmp_product is absorbed into DSP mul_32s_32s_32_2_1_U2/tmp_product.
 DSP Report: operator mul_32s_32s_32_2_1_U2/tmp_product is absorbed into DSP mul_32s_32s_32_2_1_U2/tmp_product.
 DSP Report: operator mul_32s_32s_32_2_1_U2/tmp_product is absorbed into DSP mul_32s_32s_32_2_1_U2/tmp_product.
-DSP Report: Generating DSP mul_32s_32s_32_2_1_U2/buff0_reg, operation Mode is: (PCIN>>17)+A''*B.
-DSP Report: register mul_32s_32s_32_2_1_U2/buff0_reg is absorbed into DSP mul_32s_32s_32_2_1_U2/buff0_reg.
+DSP Report: Generating DSP mul_32s_32s_32_2_1_U2/buff0_reg, operation Mode is: (PCIN>>17)+A2*B.
 DSP Report: register mul_32s_32s_32_2_1_U2/buff0_reg is absorbed into DSP mul_32s_32s_32_2_1_U2/buff0_reg.
 DSP Report: register mul_32s_32s_32_2_1_U2/buff0_reg is absorbed into DSP mul_32s_32s_32_2_1_U2/buff0_reg.
 DSP Report: operator mul_32s_32s_32_2_1_U2/tmp_product is absorbed into DSP mul_32s_32s_32_2_1_U2/buff0_reg.
@@ -414,6 +418,37 @@ WARNING: [Synth 8-7129] Port AWADDR[1] in module MM_control_s_axi is either unco
 WARNING: [Synth 8-7129] Port AWADDR[0] in module MM_control_s_axi is either unconnected or has no load
 WARNING: [Synth 8-3332] Sequential element (FSM_onehot_wstate_reg[0]) is unused and will be removed from module MM_control_s_axi.
 WARNING: [Synth 8-3332] Sequential element (FSM_onehot_rstate_reg[0]) is unused and will be removed from module MM_control_s_axi.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[47]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[46]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[45]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[44]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[43]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[42]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[41]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[40]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[39]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[38]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[37]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[36]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[35]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[34]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[33]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[32]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[31]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[30]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[29]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[28]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[27]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[26]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[25]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[24]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[23]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[22]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[21]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[20]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[19]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[18]) is unused and will be removed from module MM.
+WARNING: [Synth 8-3332] Sequential element (mul_5ns_32s_37_2_1_U3/buff0_reg[17]) is unused and will be removed from module MM.
 WARNING: [Synth 8-3332] Sequential element (mul_32ns_32s_62_2_1_U1/buff0_reg[47]) is unused and will be removed from module MM.
 WARNING: [Synth 8-3332] Sequential element (mul_32ns_32s_62_2_1_U1/buff0_reg[46]) is unused and will be removed from module MM.
 WARNING: [Synth 8-3332] Sequential element (mul_32ns_32s_62_2_1_U1/buff0_reg[45]) is unused and will be removed from module MM.
@@ -481,49 +516,20 @@ WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[46])
 WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[45]) is unused and will be removed from module MM.
 WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[44]) is unused and will be removed from module MM.
 WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[43]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[42]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[41]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[40]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[39]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[38]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[37]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[36]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[35]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[34]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[33]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[32]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[31]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[30]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[29]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[28]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[27]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[26]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[25]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[24]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[23]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[22]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[21]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[20]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[19]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[18]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[17]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[16]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[15]) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[47]__0) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[46]__0) is unused and will be removed from module MM.
-WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[45]__0) is unused and will be removed from module MM.
 INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:56 ; elapsed = 00:01:05 . Memory (MB): peak = 1492.602 ; gain = 738.887
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:47 ; elapsed = 00:01:01 . Memory (MB): peak = 1497.094 ; gain = 741.590
 ---------------------------------------------------------------------------------
- Sort Area is  mul_32s_32s_32_2_1_U2/tmp_product_6 : 0 0 : 3155 5892 : Used 1 time 0
- Sort Area is  mul_32s_32s_32_2_1_U2/tmp_product_6 : 0 1 : 2737 5892 : Used 1 time 0
- Sort Area is  mul_32ns_32s_62_2_1_U1/tmp_product_0 : 0 0 : 3137 5856 : Used 1 time 0
- Sort Area is  mul_32ns_32s_62_2_1_U1/tmp_product_0 : 0 1 : 2719 5856 : Used 1 time 0
- Sort Area is  mul_32ns_32s_62_2_1_U1/tmp_product_3 : 0 0 : 2793 5400 : Used 1 time 0
- Sort Area is  mul_32ns_32s_62_2_1_U1/tmp_product_3 : 0 1 : 2607 5400 : Used 1 time 0
- Sort Area is  mul_32s_32s_32_2_1_U2/tmp_product_9 : 0 0 : 2682 5245 : Used 1 time 0
- Sort Area is  mul_32s_32s_32_2_1_U2/tmp_product_9 : 0 1 : 2563 5245 : Used 1 time 0
+ Sort Area is  mul_32ns_32s_62_2_1_U1/tmp_product_3 : 0 0 : 3137 5856 : Used 1 time 0
+ Sort Area is  mul_32ns_32s_62_2_1_U1/tmp_product_3 : 0 1 : 2719 5856 : Used 1 time 0
+ Sort Area is  mul_32s_32s_32_2_1_U2/tmp_product_9 : 0 0 : 3137 5856 : Used 1 time 0
+ Sort Area is  mul_32s_32s_32_2_1_U2/tmp_product_9 : 0 1 : 2719 5856 : Used 1 time 0
+ Sort Area is  mul_32ns_32s_62_2_1_U1/tmp_product_6 : 0 0 : 2793 5400 : Used 1 time 0
+ Sort Area is  mul_32ns_32s_62_2_1_U1/tmp_product_6 : 0 1 : 2607 5400 : Used 1 time 0
+ Sort Area is  mul_32s_32s_32_2_1_U2/tmp_product_a : 0 0 : 2652 5185 : Used 1 time 0
+ Sort Area is  mul_32s_32s_32_2_1_U2/tmp_product_a : 0 1 : 2533 5185 : Used 1 time 0
+ Sort Area is  mul_5ns_32s_37_2_1_U3/tmp_product_0 : 0 0 : 1092 2167 : Used 1 time 0
+ Sort Area is  mul_5ns_32s_37_2_1_U3/tmp_product_0 : 0 1 : 1075 2167 : Used 1 time 0
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
@@ -538,28 +544,21 @@ Block RAM: Preliminary Mapping Report (see note below)
 
 Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
 
-Distributed RAM: Preliminary Mapping Report (see note below)
-+------------+------------------+-----------+----------------------+----------------+
-|Module Name | RTL Object       | Inference | Size (Depth x Width) | Primitives     | 
-+------------+------------------+-----------+----------------------+----------------+
-|inst        | B_line_U/ram_reg | Implied   | 16 x 32              | RAM16X1S x 32  | 
-+------------+------------------+-----------+----------------------+----------------+
-
-Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
-
 DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
-+------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
-|Module Name | DSP Mapping      | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
-+------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
-|MM          | A2*B2            | 18     | 16     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
-|MM          | (PCIN>>17)+A2*B  | 16     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
-|MM          | A2*B2            | 18     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
-|MM          | (PCIN>>17)+A2*B  | 18     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
-|MM          | A2*B''           | 18     | 15     | -      | -      | 48     | 1    | 2    | -    | -    | -     | 0    | 0    | 
-|MM          | (PCIN>>17)+A''*B | 15     | 15     | -      | -      | 48     | 2    | 0    | -    | -    | -     | 0    | 1    | 
-|MM          | A''*B2           | 18     | 18     | -      | -      | 48     | 2    | 1    | -    | -    | -     | 0    | 0    | 
-|MM          | (PCIN>>17)+A''*B | 18     | 15     | -      | -      | 48     | 2    | 0    | -    | -    | -     | 0    | 1    | 
-+------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
++------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping     | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|MM          | A2*B2           | 18     | 6      | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MM          | (PCIN>>17)+A*B2 | 15     | 6      | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 1    | 
+|MM          | A2*B2           | 18     | 16     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MM          | (PCIN>>17)+A2*B | 16     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM          | A2*B2           | 18     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MM          | (PCIN>>17)+A2*B | 18     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM          | A2*B            | 18     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|MM          | (PCIN>>17)+A*B  | 15     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|MM          | A2*B2           | 18     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MM          | (PCIN>>17)+A2*B | 18     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
++------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
 
 Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
 ---------------------------------------------------------------------------------
@@ -569,13 +568,13 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:11 ; elapsed = 00:01:24 . Memory (MB): peak = 1650.898 ; gain = 897.184
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:59 ; elapsed = 00:01:15 . Memory (MB): peak = 1644.211 ; gain = 888.707
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:14 ; elapsed = 00:01:27 . Memory (MB): peak = 1672.918 ; gain = 919.203
+Finished Timing Optimization : Time (s): cpu = 00:01:01 ; elapsed = 00:01:17 . Memory (MB): peak = 1666.156 ; gain = 910.652
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -589,14 +588,6 @@ Block RAM: Final Mapping Report
 |inst/gmem_m_axi_U | load_unit_0/buff_rdata/U_fifo_mem/mem_reg | 255 x 34(READ_FIRST)   | W |   | 255 x 34(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
 +------------------+-------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
 
-
-Distributed RAM: Final Mapping Report
-+------------+------------------+-----------+----------------------+----------------+
-|Module Name | RTL Object       | Inference | Size (Depth x Width) | Primitives     | 
-+------------+------------------+-----------+----------------------+----------------+
-|inst        | B_line_U/ram_reg | Implied   | 16 x 32              | RAM16X1S x 32  | 
-+------------+------------------+-----------+----------------------+----------------+
-
 ---------------------------------------------------------------------------------
 Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
@@ -605,7 +596,7 @@ Start Technology Mapping
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-7052] The timing for the instance inst/gmem_m_axi_U/load_unit_0/buff_rdata/U_fifo_mem/mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:17 ; elapsed = 00:01:33 . Memory (MB): peak = 1712.289 ; gain = 958.574
+Finished Technology Mapping : Time (s): cpu = 00:01:04 ; elapsed = 00:01:20 . Memory (MB): peak = 1706.113 ; gain = 950.609
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -623,41 +614,51 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:26 ; elapsed = 00:01:46 . Memory (MB): peak = 1905.836 ; gain = 1152.121
+Finished IO Insertion : Time (s): cpu = 00:01:11 ; elapsed = 00:01:29 . Memory (MB): peak = 1900.387 ; gain = 1144.883
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:27 ; elapsed = 00:01:47 . Memory (MB): peak = 1905.836 ; gain = 1152.121
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:11 ; elapsed = 00:01:29 . Memory (MB): peak = 1900.387 ; gain = 1144.883
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:28 ; elapsed = 00:01:49 . Memory (MB): peak = 1905.836 ; gain = 1152.121
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:11 ; elapsed = 00:01:30 . Memory (MB): peak = 1900.387 ; gain = 1144.883
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:28 ; elapsed = 00:01:49 . Memory (MB): peak = 1905.836 ; gain = 1152.121
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:11 ; elapsed = 00:01:30 . Memory (MB): peak = 1900.387 ; gain = 1144.883
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:28 ; elapsed = 00:01:50 . Memory (MB): peak = 1910.816 ; gain = 1157.102
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:11 ; elapsed = 00:01:30 . Memory (MB): peak = 1905.363 ; gain = 1149.859
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:28 ; elapsed = 00:01:51 . Memory (MB): peak = 1910.816 ; gain = 1157.102
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:11 ; elapsed = 00:01:30 . Memory (MB): peak = 1905.363 ; gain = 1149.859
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+--------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                                   | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+--------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|MM          | icmp_ln61_reg_1492_pp1_iter5_reg_reg[0]    | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|MM          | first_iter_1_reg_1507_pp1_iter4_reg_reg[0] | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|MM          | icmp_ln63_1_reg_1521_pp1_iter10_reg_reg[0] | 9      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++------------+--------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
 
 Dynamic Shift Register Report:
 +------------+-------------+--------+------------+--------+---------+--------+--------+--------+
@@ -679,17 +680,19 @@ Start Writing Synthesis Report
 ---------------------------------------------------------------------------------
 
 DSP Final Report (the ' indicates corresponding REG is set)
-+------------+--------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
-|Module Name | DSP Mapping        | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
-+------------+--------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
-|MM          | A'*B'              | 17     | 15     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
-|MM          | (PCIN>>17+A'*B')'  | 15     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
-|MM          | A'*B'              | 17     | 17     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
-|MM          | (PCIN>>17+A'*B')'  | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
-|MM          | (A'*B'')'          | 17     | 18     | -      | -      | 48     | 1    | 2    | -    | -    | -     | 0    | 1    | 
-|MM          | A''*B'             | 17     | 17     | -      | -      | 48     | 2    | 1    | -    | -    | -     | 0    | 0    | 
-|MM          | (PCIN>>17+A''*B')' | 17     | 18     | -      | -      | 48     | 2    | 1    | -    | -    | -     | 0    | 1    | 
-+------------+--------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
++------------+-------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping       | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|MM          | A'*B'             | 17     | 15     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MM          | (PCIN>>17+A'*B')' | 15     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM          | A'*B'             | 17     | 17     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MM          | (PCIN>>17+A'*B')' | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM          | (A'*B')'          | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM          | A'*B'             | 17     | 17     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MM          | (PCIN>>17+A'*B')' | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM          | A'*B'             | 17     | 5      | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MM          | (PCIN>>17+A'*B')' | 30     | 5      | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
++------------+-------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
 
 
 Report BlackBoxes: 
@@ -702,48 +705,46 @@ Report Cell Usage:
 +------+---------+------+
 |      |Cell     |Count |
 +------+---------+------+
-|1     |CARRY4   |   393|
-|2     |DSP48E1  |     7|
-|7     |LUT1     |   250|
-|8     |LUT2     |   800|
-|9     |LUT3     |   964|
-|10    |LUT4     |   466|
-|11    |LUT5     |   237|
-|12    |LUT6     |   385|
-|13    |RAM16X1S |    32|
-|14    |RAMB18E1 |     2|
-|16    |SRL16E   |   196|
-|17    |SRLC32E  |    36|
-|18    |FDRE     |  4067|
-|19    |FDSE     |    18|
+|1     |CARRY4   |   384|
+|2     |DSP48E1  |     9|
+|4     |LUT1     |   249|
+|5     |LUT2     |   768|
+|6     |LUT3     |   960|
+|7     |LUT4     |   527|
+|8     |LUT5     |   292|
+|9     |LUT6     |   383|
+|10    |RAMB18E1 |     2|
+|12    |SRL16E   |   199|
+|13    |SRLC32E  |    36|
+|14    |FDRE     |  4174|
+|15    |FDSE     |    18|
 +------+---------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:28 ; elapsed = 00:01:51 . Memory (MB): peak = 1910.816 ; gain = 1157.102
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:12 ; elapsed = 00:01:30 . Memory (MB): peak = 1905.363 ; gain = 1149.859
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 142 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:01:09 ; elapsed = 00:01:46 . Memory (MB): peak = 1910.816 ; gain = 1090.074
-Synthesis Optimization Complete : Time (s): cpu = 00:01:28 ; elapsed = 00:01:53 . Memory (MB): peak = 1910.816 ; gain = 1157.102
+Synthesis finished with 0 errors, 0 critical warnings and 174 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:53 ; elapsed = 00:01:24 . Memory (MB): peak = 1905.363 ; gain = 1084.004
+Synthesis Optimization Complete : Time (s): cpu = 00:01:12 ; elapsed = 00:01:30 . Memory (MB): peak = 1905.363 ; gain = 1149.859
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.224 . Memory (MB): peak = 1919.883 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 434 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.124 . Memory (MB): peak = 1914.516 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 395 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1923.562 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1918.152 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 32 instances were transformed.
-  RAM16X1S => RAM32X1S (RAMS32): 32 instances
+No Unisim elements were transformed.
 
-Synth Design complete | Checksum: cf8047c3
+Synth Design complete | Checksum: 9c8da80d
 INFO: [Common 17-83] Releasing license: Synthesis
-106 Infos, 138 Warnings, 0 Critical Warnings and 0 Errors encountered.
+107 Infos, 139 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:38 ; elapsed = 00:02:08 . Memory (MB): peak = 1923.562 ; gain = 1389.512
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.058 . Memory (MB): peak = 1923.562 ; gain = 0.000
+synth_design: Time (s): cpu = 00:01:18 ; elapsed = 00:01:41 . Memory (MB): peak = 1918.152 ; gain = 1389.699
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 1918.152 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1/bd_0_hls_inst_0.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP bd_0_hls_inst_0, cache-ID = 356fde73b5545c38
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP bd_0_hls_inst_0, cache-ID = 7dd3724576ff0b6d
 INFO: [Coretcl 2-1174] Renamed 42 cell refs.
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 1923.562 ; gain = 0.000
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 1918.152 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1/bd_0_hls_inst_0.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file bd_0_hls_inst_0_utilization_synth.rpt -pb bd_0_hls_inst_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Apr  6 21:43:59 2026...
+INFO: [Common 17-206] Exiting Vivado at Mon Apr  6 22:41:25 2026...

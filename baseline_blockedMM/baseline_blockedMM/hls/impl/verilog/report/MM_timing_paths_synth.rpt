@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
-| Date         : Mon Apr  6 21:46:03 2026
+| Date         : Mon Apr  6 22:43:19 2026
 | Host         : LAPTOP-L6H807T2 running 64-bit major release  (build 9200)
 | Command      : report_timing -max_paths 10 -file ./report/MM_timing_paths_synth.rpt
 | Design       : bd_0_wrapper
@@ -36,7 +36,7 @@ Slack (MET) :             4.255ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=4359, unset)         0.973     0.973    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
+                         net (fo=4439, unset)         0.973     0.973    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/tmp_product/CLK
   -------------------------------------------------------------------    -------------------
                          DSP48E1 (Prop_dsp48e1_CLK_PCOUT[0])
@@ -47,7 +47,7 @@ Slack (MET) :             4.255ns  (required time - arrival time)
 
                          (clock ap_clk rise edge)    10.000    10.000 r  
                                                       0.000    10.000 r  ap_clk (IN)
-                         net (fo=4359, unset)         0.924    10.924    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
+                         net (fo=4439, unset)         0.924    10.924    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/buff0_reg/CLK
                          clock pessimism              0.000    10.924    
                          clock uncertainty           -0.035    10.889    
@@ -83,7 +83,7 @@ Slack (MET) :             4.255ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=4359, unset)         0.973     0.973    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
+                         net (fo=4439, unset)         0.973     0.973    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/tmp_product/CLK
   -------------------------------------------------------------------    -------------------
                          DSP48E1 (Prop_dsp48e1_CLK_PCOUT[10])
@@ -94,7 +94,7 @@ Slack (MET) :             4.255ns  (required time - arrival time)
 
                          (clock ap_clk rise edge)    10.000    10.000 r  
                                                       0.000    10.000 r  ap_clk (IN)
-                         net (fo=4359, unset)         0.924    10.924    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
+                         net (fo=4439, unset)         0.924    10.924    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/buff0_reg/CLK
                          clock pessimism              0.000    10.924    
                          clock uncertainty           -0.035    10.889    
@@ -130,7 +130,7 @@ Slack (MET) :             4.255ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=4359, unset)         0.973     0.973    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
+                         net (fo=4439, unset)         0.973     0.973    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/tmp_product/CLK
   -------------------------------------------------------------------    -------------------
                          DSP48E1 (Prop_dsp48e1_CLK_PCOUT[11])
@@ -141,7 +141,7 @@ Slack (MET) :             4.255ns  (required time - arrival time)
 
                          (clock ap_clk rise edge)    10.000    10.000 r  
                                                       0.000    10.000 r  ap_clk (IN)
-                         net (fo=4359, unset)         0.924    10.924    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
+                         net (fo=4439, unset)         0.924    10.924    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/buff0_reg/CLK
                          clock pessimism              0.000    10.924    
                          clock uncertainty           -0.035    10.889    
@@ -177,7 +177,7 @@ Slack (MET) :             4.255ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=4359, unset)         0.973     0.973    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
+                         net (fo=4439, unset)         0.973     0.973    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/tmp_product/CLK
   -------------------------------------------------------------------    -------------------
                          DSP48E1 (Prop_dsp48e1_CLK_PCOUT[12])
@@ -188,7 +188,7 @@ Slack (MET) :             4.255ns  (required time - arrival time)
 
                          (clock ap_clk rise edge)    10.000    10.000 r  
                                                       0.000    10.000 r  ap_clk (IN)
-                         net (fo=4359, unset)         0.924    10.924    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
+                         net (fo=4439, unset)         0.924    10.924    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/buff0_reg/CLK
                          clock pessimism              0.000    10.924    
                          clock uncertainty           -0.035    10.889    
@@ -224,7 +224,7 @@ Slack (MET) :             4.255ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=4359, unset)         0.973     0.973    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
+                         net (fo=4439, unset)         0.973     0.973    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/tmp_product/CLK
   -------------------------------------------------------------------    -------------------
                          DSP48E1 (Prop_dsp48e1_CLK_PCOUT[13])
@@ -235,7 +235,7 @@ Slack (MET) :             4.255ns  (required time - arrival time)
 
                          (clock ap_clk rise edge)    10.000    10.000 r  
                                                       0.000    10.000 r  ap_clk (IN)
-                         net (fo=4359, unset)         0.924    10.924    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
+                         net (fo=4439, unset)         0.924    10.924    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/buff0_reg/CLK
                          clock pessimism              0.000    10.924    
                          clock uncertainty           -0.035    10.889    
@@ -271,7 +271,7 @@ Slack (MET) :             4.255ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=4359, unset)         0.973     0.973    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
+                         net (fo=4439, unset)         0.973     0.973    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/tmp_product/CLK
   -------------------------------------------------------------------    -------------------
                          DSP48E1 (Prop_dsp48e1_CLK_PCOUT[14])
@@ -282,7 +282,7 @@ Slack (MET) :             4.255ns  (required time - arrival time)
 
                          (clock ap_clk rise edge)    10.000    10.000 r  
                                                       0.000    10.000 r  ap_clk (IN)
-                         net (fo=4359, unset)         0.924    10.924    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
+                         net (fo=4439, unset)         0.924    10.924    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/buff0_reg/CLK
                          clock pessimism              0.000    10.924    
                          clock uncertainty           -0.035    10.889    
@@ -318,7 +318,7 @@ Slack (MET) :             4.255ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=4359, unset)         0.973     0.973    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
+                         net (fo=4439, unset)         0.973     0.973    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/tmp_product/CLK
   -------------------------------------------------------------------    -------------------
                          DSP48E1 (Prop_dsp48e1_CLK_PCOUT[15])
@@ -329,7 +329,7 @@ Slack (MET) :             4.255ns  (required time - arrival time)
 
                          (clock ap_clk rise edge)    10.000    10.000 r  
                                                       0.000    10.000 r  ap_clk (IN)
-                         net (fo=4359, unset)         0.924    10.924    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
+                         net (fo=4439, unset)         0.924    10.924    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/buff0_reg/CLK
                          clock pessimism              0.000    10.924    
                          clock uncertainty           -0.035    10.889    
@@ -365,7 +365,7 @@ Slack (MET) :             4.255ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=4359, unset)         0.973     0.973    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
+                         net (fo=4439, unset)         0.973     0.973    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/tmp_product/CLK
   -------------------------------------------------------------------    -------------------
                          DSP48E1 (Prop_dsp48e1_CLK_PCOUT[16])
@@ -376,7 +376,7 @@ Slack (MET) :             4.255ns  (required time - arrival time)
 
                          (clock ap_clk rise edge)    10.000    10.000 r  
                                                       0.000    10.000 r  ap_clk (IN)
-                         net (fo=4359, unset)         0.924    10.924    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
+                         net (fo=4439, unset)         0.924    10.924    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/buff0_reg/CLK
                          clock pessimism              0.000    10.924    
                          clock uncertainty           -0.035    10.889    
@@ -412,7 +412,7 @@ Slack (MET) :             4.255ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=4359, unset)         0.973     0.973    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
+                         net (fo=4439, unset)         0.973     0.973    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/tmp_product/CLK
   -------------------------------------------------------------------    -------------------
                          DSP48E1 (Prop_dsp48e1_CLK_PCOUT[17])
@@ -423,7 +423,7 @@ Slack (MET) :             4.255ns  (required time - arrival time)
 
                          (clock ap_clk rise edge)    10.000    10.000 r  
                                                       0.000    10.000 r  ap_clk (IN)
-                         net (fo=4359, unset)         0.924    10.924    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
+                         net (fo=4439, unset)         0.924    10.924    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/buff0_reg/CLK
                          clock pessimism              0.000    10.924    
                          clock uncertainty           -0.035    10.889    
@@ -459,7 +459,7 @@ Slack (MET) :             4.255ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=4359, unset)         0.973     0.973    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
+                         net (fo=4439, unset)         0.973     0.973    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/tmp_product/CLK
   -------------------------------------------------------------------    -------------------
                          DSP48E1 (Prop_dsp48e1_CLK_PCOUT[18])
@@ -470,7 +470,7 @@ Slack (MET) :             4.255ns  (required time - arrival time)
 
                          (clock ap_clk rise edge)    10.000    10.000 r  
                                                       0.000    10.000 r  ap_clk (IN)
-                         net (fo=4359, unset)         0.924    10.924    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
+                         net (fo=4439, unset)         0.924    10.924    bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/mul_32ns_32s_62_2_1_U1/buff0_reg/CLK
                          clock pessimism              0.000    10.924    
                          clock uncertainty           -0.035    10.889    

@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
-| Date         : Mon Apr  6 21:49:19 2026
+| Date         : Mon Apr  6 22:46:37 2026
 | Host         : LAPTOP-L6H807T2 running 64-bit major release  (build 9200)
 | Command      : report_utilization -hierarchical -hierarchical_depth 5 -file ./report/MM_utilization_hierarchical_routed.rpt
 | Design       : bd_0_wrapper
@@ -22,18 +22,18 @@ Table of Contents
 +-------------------------+-------------------------------------------+------------+------------+---------+------+------+--------+--------+------------+
 |         Instance        |                   Module                  | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP Blocks |
 +-------------------------+-------------------------------------------+------------+------------+---------+------+------+--------+--------+------------+
-| bd_0_wrapper            |                                     (top) |       2661 |       2487 |      32 |  142 | 4085 |      0 |      2 |          7 |
-|   bd_0_i                |                                      bd_0 |       2661 |       2487 |      32 |  142 | 4085 |      0 |      2 |          7 |
-|     hls_inst            |                           bd_0_hls_inst_0 |       2661 |       2487 |      32 |  142 | 4085 |      0 |      2 |          7 |
-|       inst              |                        bd_0_hls_inst_0_MM |       2661 |       2487 |      32 |  142 | 4085 |      0 |      2 |          7 |
-|         (inst)          |                        bd_0_hls_inst_0_MM |        629 |        629 |       0 |    0 | 1857 |      0 |      0 |          0 |
-|         AB_block_U      | bd_0_hls_inst_0_MM_AB_block_RAM_AUTO_1R1W |         65 |         65 |       0 |    0 |    0 |      0 |      1 |          0 |
+| bd_0_wrapper            |                                     (top) |       2671 |       2526 |       0 |  145 | 4192 |      0 |      2 |          9 |
+|   bd_0_i                |                                      bd_0 |       2671 |       2526 |       0 |  145 | 4192 |      0 |      2 |          9 |
+|     hls_inst            |                           bd_0_hls_inst_0 |       2671 |       2526 |       0 |  145 | 4192 |      0 |      2 |          9 |
+|       inst              |                        bd_0_hls_inst_0_MM |       2671 |       2526 |       0 |  145 | 4192 |      0 |      2 |          9 |
+|         (inst)          |                        bd_0_hls_inst_0_MM |        634 |        631 |       0 |    3 | 1947 |      0 |      0 |          0 |
+|         AB_block_U      | bd_0_hls_inst_0_MM_AB_block_RAM_AUTO_1R1W |         76 |         76 |       0 |    0 |    0 |      0 |      1 |          0 |
 |         control_s_axi_U |          bd_0_hls_inst_0_MM_control_s_axi |        622 |        622 |       0 |    0 |  406 |      0 |      0 |          0 |
-|         gmem_m_axi_U    |             bd_0_hls_inst_0_MM_gmem_m_axi |       1250 |       1108 |       0 |  142 | 1771 |      0 |      1 |          0 |
+|         gmem_m_axi_U    |             bd_0_hls_inst_0_MM_gmem_m_axi |       1263 |       1121 |       0 |  142 | 1771 |      0 |      1 |          0 |
 |           bus_read      |        bd_0_hls_inst_0_MM_gmem_m_axi_read |        371 |        370 |       0 |    1 |  568 |      0 |      0 |          0 |
 |           bus_write     |       bd_0_hls_inst_0_MM_gmem_m_axi_write |        469 |        436 |       0 |   33 |  759 |      0 |      0 |          0 |
-|           load_unit_0   |        bd_0_hls_inst_0_MM_gmem_m_axi_load |        194 |        160 |       0 |   34 |  183 |      0 |      1 |          0 |
-|           store_unit_0  |       bd_0_hls_inst_0_MM_gmem_m_axi_store |        218 |        144 |       0 |   74 |  261 |      0 |      0 |          0 |
+|           load_unit_0   |        bd_0_hls_inst_0_MM_gmem_m_axi_load |        201 |        167 |       0 |   34 |  183 |      0 |      1 |          0 |
+|           store_unit_0  |       bd_0_hls_inst_0_MM_gmem_m_axi_store |        223 |        149 |       0 |   74 |  261 |      0 |      0 |          0 |
 +-------------------------+-------------------------------------------+------------+------------+---------+------+------+--------+--------+------------+
 * Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
 

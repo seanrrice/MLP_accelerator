@@ -11,8 +11,6 @@ INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/seanr/vitis_projects
 INFO: [VRFC 10-311] analyzing module MM
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/sim/verilog/MM_AB_block_RAM_AUTO_1R1W.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module MM_AB_block_RAM_AUTO_1R1W
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/sim/verilog/MM_B_line_RAM_AUTO_1R1W.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module MM_B_line_RAM_AUTO_1R1W
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/sim/verilog/MM_control_s_axi.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module MM_control_s_axi
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/sim/verilog/MM_gmem_m_axi.v" into library xil_defaultlib
@@ -33,6 +31,8 @@ INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/seanr/vitis_projects
 INFO: [VRFC 10-311] analyzing module MM_mul_32ns_32s_62_2_1
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/sim/verilog/MM_mul_32s_32s_32_2_1.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module MM_mul_32s_32s_32_2_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/sim/verilog/MM_mul_5ns_32s_37_2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MM_mul_5ns_32s_37_2_1
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module dataflow_monitor
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/sim/verilog/file_agent/file_agent_pkg.sv" into library xil_defaultlib
@@ -59,7 +59,6 @@ Compiling package xil_defaultlib.MM_subsystem_pkg
 Compiling package xil_defaultlib.file_agent_pkg
 Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
 Compiling module xil_defaultlib.MM_AB_block_RAM_AUTO_1R1W
-Compiling module xil_defaultlib.MM_B_line_RAM_AUTO_1R1W
 Compiling module xil_defaultlib.MM_control_s_axi
 Compiling module xil_defaultlib.MM_gmem_m_axi_srl(DATA_WIDTH=96,...
 Compiling module xil_defaultlib.MM_gmem_m_axi_fifo(DATA_WIDTH=96...
@@ -89,13 +88,15 @@ Compiling module xil_defaultlib.MM_gmem_m_axi_read(C_USER_VALUE=...
 Compiling module xil_defaultlib.MM_gmem_m_axi(C_M_AXI_ADDR_WIDTH...
 Compiling module xil_defaultlib.MM_mul_32ns_32s_62_2_1(NUM_STAGE...
 Compiling module xil_defaultlib.MM_mul_32s_32s_32_2_1(NUM_STAGE=...
+Compiling module xil_defaultlib.MM_mul_5ns_32s_37_2_1(NUM_STAGE=...
 Compiling module xil_defaultlib.MM
 Compiling module xil_defaultlib.misc_interface_default
 Compiling module xil_defaultlib.axi_if(ADDR_WIDTH=64,STRB_WIDTH=...
 Compiling module xil_defaultlib.axi_if(ADDR_WIDTH=7,STRB_WIDTH=4...
 Compiling module xil_defaultlib.sv_module_top
 Compiling module xil_defaultlib.nodf_module_intf_default
-Compiling module xil_defaultlib.seq_loop_intf(FSM_WIDTH=48)
+Compiling module xil_defaultlib.pp_loop_intf(FSM_WIDTH=45)
+Compiling module xil_defaultlib.seq_loop_intf(FSM_WIDTH=45)
 Compiling module xil_defaultlib.dataflow_monitor_1
 Compiling module xil_defaultlib.apatb_MM_top
 Compiling module xil_defaultlib.glbl

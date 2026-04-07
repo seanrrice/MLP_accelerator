@@ -12,7 +12,7 @@ Args:
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 36, Column: 19 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 35, Column: 19 }
 Function:        MM
 Args:            
   - String:          'Sequential '
@@ -26,9 +26,9 @@ Args:
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_36_3
+  - LoopName:        VITIS_LOOP_35_3
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:36:19'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:35:19'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 7, Column: 0 }
@@ -36,12 +36,12 @@ Args:
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      load
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_38_4.load.5
+  - OrigID:          VITIS_LOOP_37_4.load.5
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 55, Column: 42 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 47, Column: 19 }
 Function:        MM
 Args:            
   - String:          'Sequential '
@@ -55,23 +55,23 @@ Args:
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_55_8
+  - LoopName:        VITIS_LOOP_47_7
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:55:42'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:47:19'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 7, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 57, Column: 14 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 49, Column: 16 }
   - OrigDirection:   read
-  - OrigID:          for.inc58.load.6
+  - OrigID:          VITIS_LOOP_51_8.load.6
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 72, Column: 20 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 20 }
 Function:        MM
 Args:            
   - String:          'Sequential '
@@ -85,37 +85,39 @@ Args:
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_72_11
+  - LoopName:        VITIS_LOOP_63_10
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:72:20'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:63:20'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 7, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 57 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 64, Column: 76 }
   - OrigDirection:   write
-  - OrigID:          for.inc108.store.8
+  - OrigID:          for.inc96.store.8
 ...
 --- !Missed
 Pass:            reflow-burst-inference
-Name:            AccessClobbered
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 52, Column: 16 }
+Name:            IncompatibleStride
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 53, Column: 16 }
 Function:        MM
 Args:            
-  - String:          'Access is clobbered by '
-  - ClobberedBy:     load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 57, Column: 14 }
+  - String:          Stride is incompatible
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      Atemp
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 52, Column: 16 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 53, Column: 16 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_55_8.load.8
+  - OrigID:          for.inc62.load.6
   - ArrayName:       A
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
+  - LoopName:        VITIS_LOOP_51_8
+  - String:          ' '
+  - LoopLoc:         '../MLP_baseline/mm.cpp:51:42'
+  - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 7, Column: 0 }
   - String:          ' '
@@ -123,22 +125,22 @@ Args:
 --- !Missed
 Pass:            reflow-burst-inference
 Name:            IncompatibleStride
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 55, Column: 42 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 47, Column: 19 }
 Function:        MM
 Args:            
   - String:          Stride is incompatible
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 55, Column: 42 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 47, Column: 19 }
   - OrigDirection:   read
   - OrigID:          scevgep5seq
   - ArrayName:       B
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_49_7
+  - LoopName:        VITIS_LOOP_45_6
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:49:19'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:45:19'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 7, Column: 0 }
@@ -147,22 +149,22 @@ Args:
 --- !Missed
 Pass:            reflow-burst-inference
 Name:            IncompatibleStride
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 72, Column: 20 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 20 }
 Function:        MM
 Args:            
   - String:          Stride is incompatible
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 72, Column: 20 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 20 }
   - OrigDirection:   write
   - OrigID:          scevgep6seq
   - ArrayName:       ABC
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_70_10
+  - LoopName:        VITIS_LOOP_61_9
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:70:31'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:61:30'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 7, Column: 0 }
@@ -171,22 +173,22 @@ Args:
 --- !Missed
 Pass:            reflow-burst-inference
 Name:            IncompatibleStride
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 36, Column: 19 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 35, Column: 19 }
 Function:        MM
 Args:            
   - String:          Stride is incompatible
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 36, Column: 19 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 35, Column: 19 }
   - OrigDirection:   read
   - OrigID:          scevgepseq
   - ArrayName:       C
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_32_2
+  - LoopName:        VITIS_LOOP_31_2
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:32:19'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:31:19'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 7, Column: 0 }
@@ -195,7 +197,7 @@ Args:
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualThreshold
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 72, Column: 20 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 20 }
 Function:        MM
 Args:            
   - String:          'Could not widen since type '
@@ -204,16 +206,16 @@ Args:
   - Threshold:       '0'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 72, Column: 20 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 20 }
   - OrigDirection:   write
   - OrigID:          scevgep6seq
   - ArrayName:       ABC
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_72_11
+  - LoopName:        VITIS_LOOP_63_10
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:72:20'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:63:20'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 7, Column: 0 }
@@ -222,7 +224,7 @@ Args:
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualThreshold
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 55, Column: 42 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 47, Column: 19 }
 Function:        MM
 Args:            
   - String:          'Could not widen since type '
@@ -231,16 +233,16 @@ Args:
   - Threshold:       '0'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 55, Column: 42 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 47, Column: 19 }
   - OrigDirection:   read
   - OrigID:          scevgep5seq
   - ArrayName:       B
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_55_8
+  - LoopName:        VITIS_LOOP_47_7
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:55:42'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:47:19'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 7, Column: 0 }
@@ -249,7 +251,7 @@ Args:
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualThreshold
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 36, Column: 19 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 35, Column: 19 }
 Function:        MM
 Args:            
   - String:          'Could not widen since type '
@@ -258,16 +260,58 @@ Args:
   - Threshold:       '0'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 36, Column: 19 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 35, Column: 19 }
   - OrigDirection:   read
   - OrigID:          scevgepseq
   - ArrayName:       C
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_36_3
+  - LoopName:        VITIS_LOOP_35_3
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:36:19'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:35:19'
+  - String:          ' '
+  - Function:        MM
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 7, Column: 0 }
+  - String:          ' '
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        VITIS_LOOP_63_10
+  - String:          '> at '
+  - LoopLoc:         '../MLP_baseline/mm.cpp:63:20'
+  - String:          ' '
+...
+--- !HLSReportInfo
+Pass:            auto-loop-pipeline
+Name:            AutoLoopPipeline
+Args:            
+  - String:          'automatically set the pipeline for Loop< '
+  - LoopName:        VITIS_LOOP_37_4
+  - String:          '> at '
+  - LoopLoc:         '../MLP_baseline/mm.cpp:37:19'
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            BurstConflict
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 47, Column: 19 }
+Function:        MM
+Args:            
+  - String:          'Could not burst due to multiple potential '
+  - Direction:       reads
+  - String:          ' to the same bundle in the same region.'
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      call
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 47, Column: 19 }
+  - OrigDirection:   read
+  - OrigID:          seq1
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      gmem
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 7, Column: 0 }
@@ -276,7 +320,7 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredVerboseSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 36, Column: 19 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 35, Column: 19 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -293,9 +337,9 @@ Args:
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_36_3
+  - LoopName:        VITIS_LOOP_35_3
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:36:19'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:35:19'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 7, Column: 0 }
@@ -304,7 +348,7 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 36, Column: 19 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 35, Column: 19 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -314,9 +358,9 @@ Args:
   - String:          ' and bit width '
   - Width:           '32'
   - String:          ' in loop '''
-  - LoopName:        VITIS_LOOP_36_3
+  - LoopName:        VITIS_LOOP_35_3
   - String:          '''('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:36:19'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:35:19'
   - String:          ')'
   - String:          ' has been inferred on bundle '''
   - BundleName:      gmem
@@ -326,57 +370,7 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredVerboseSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 55, Column: 42 }
-Function:        MM
-Args:            
-  - String:          'Multiple burst '
-  - Direction:       reads
-  - String:          ' of length '
-  - Length:          '16'
-  - String:          ' and bit width '
-  - Width:           '32'
-  - String:          ' has been inferred.'
-  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
-  - String:          ' _XLX_SEP_ '
-  - AccessID:        seq1
-  - ArrayName:       ''
-  - String:          ' '
-  - BundleName:      gmem
-  - String:          ' '
-  - LoopName:        VITIS_LOOP_55_8
-  - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:55:42'
-  - String:          ' '
-  - Function:        MM
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 7, Column: 0 }
-  - String:          ' '
-...
---- !Passed
-Pass:            reflow-burst-summary
-Name:            BurstInferredSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 55, Column: 42 }
-Function:        MM
-Args:            
-  - String:          'Multiple burst '
-  - Direction:       reads
-  - String:          ' of length '
-  - Length:          '16'
-  - String:          ' and bit width '
-  - Width:           '32'
-  - String:          ' in loop '''
-  - LoopName:        VITIS_LOOP_55_8
-  - String:          '''('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:55:42'
-  - String:          ')'
-  - String:          ' has been inferred on bundle '''
-  - BundleName:      gmem
-  - String:          '''.'
-  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
-...
---- !Passed
-Pass:            reflow-burst-summary
-Name:            BurstInferredVerboseSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 72, Column: 20 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 20 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -393,9 +387,9 @@ Args:
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_72_11
+  - LoopName:        VITIS_LOOP_63_10
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:72:20'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:63:20'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 7, Column: 0 }
@@ -404,7 +398,7 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 72, Column: 20 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 20 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -414,9 +408,9 @@ Args:
   - String:          ' and bit width '
   - Width:           '32'
   - String:          ' in loop '''
-  - LoopName:        VITIS_LOOP_72_11
+  - LoopName:        VITIS_LOOP_63_10
   - String:          '''('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:72:20'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:63:20'
   - String:          ')'
   - String:          ' has been inferred on bundle '''
   - BundleName:      gmem

@@ -178,7 +178,7 @@ set NewPortList {[
 
 set ArgLastReadFirstWriteLatency {
 	MM {
-		gmem {Type IO LastRead 28 FirstWrite 18}
+		gmem {Type IO LastRead 41 FirstWrite 22}
 		A {Type I LastRead 0 FirstWrite -1}
 		B {Type I LastRead 0 FirstWrite -1}
 		C {Type I LastRead 0 FirstWrite -1}
@@ -195,6 +195,8 @@ set PerformanceInfo {[
 ]}
 
 set PipelineEnableSignalInfo {[
+	{"Pipeline" : "0", "EnableSignal" : "ap_enable_pp0"}
+	{"Pipeline" : "1", "EnableSignal" : "ap_enable_pp1"}
 ]}
 
 set Spec2ImplPortList { 

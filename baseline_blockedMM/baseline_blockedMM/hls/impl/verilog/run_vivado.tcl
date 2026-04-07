@@ -49,7 +49,7 @@ dict set report_options clock_name $clock
 dict set report_options error_if_impl_timing_fails false
 dict set report_options topmodule "MM"
 dict set report_options funcmodules {}
-dict set report_options bindmodules {MM_mul_32ns_32s_62_2_1 MM_mul_32s_32s_32_2_1 MM_AB_block_RAM_AUTO_1R1W MM_B_line_RAM_AUTO_1R1W MM_gmem_m_axi MM_control_s_axi}
+dict set report_options bindmodules {MM_mul_32ns_32s_62_2_1 MM_mul_32s_32s_32_2_1 MM_mul_5ns_32s_37_2_1 MM_AB_block_RAM_AUTO_1R1W MM_gmem_m_axi MM_control_s_axi}
 dict set report_options max_module_depth 5
 
 

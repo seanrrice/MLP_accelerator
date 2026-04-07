@@ -42117,42 +42117,33 @@ void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P) {
 #pragma HLS INTERFACE s_axilite port=return bundle=control
 
     DTYPE AB_block[BLOCK_SIZE][BLOCK_SIZE];
-    DTYPE B_line[BLOCK_SIZE];
 
     for (int ib = 0; ib < N / BLOCK_SIZE; ib++) {
-#pragma HLS pipeline off
+#pragma HLS PIPELINE off
         for (int jb = 0; jb < P / BLOCK_SIZE; jb++) {
-#pragma HLS pipeline off
+#pragma HLS PIPELINE off
 
 
             for (int i = 0; i < BLOCK_SIZE; i++) {
-#pragma HLS pipeline off
+#pragma HLS PIPELINE off
                 for (int j = 0; j < BLOCK_SIZE; j++) {
-#pragma HLS pipeline off
                     AB_block[i][j] = C[ib * BLOCK_SIZE + i];
                 }
             }
 
 
             for (int kb = 0; kb < M / BLOCK_SIZE; kb++) {
-#pragma HLS pipeline off
-                for (int i = 0; i < BLOCK_SIZE; i++) {
-#pragma HLS pipeline off
-                    for (int k = 0; k < BLOCK_SIZE; k++) {
-#pragma HLS pipeline off
+#pragma HLS PIPELINE off
+                for (int k = 0; k < BLOCK_SIZE; k++) {
+#pragma HLS PIPELINE off
+                    for (int j = 0; j < BLOCK_SIZE; j++) {
+#pragma HLS PIPELINE off
+                        DTYPE Btemp = B[(kb * BLOCK_SIZE + k) * P + (jb * BLOCK_SIZE + j)];
 
-                        DTYPE Atemp = A[(ib * BLOCK_SIZE + i) * M + (kb * BLOCK_SIZE + k)];
-
-
-                        for (int j = 0; j < BLOCK_SIZE; j++) {
-#pragma HLS pipeline off
-                            B_line[j] = B[(kb * BLOCK_SIZE + k) * P + (jb * BLOCK_SIZE + j)];
-                        }
-
-
-                        for (int j = 0; j < BLOCK_SIZE; j++) {
-#pragma HLS pipeline off
-                            AB_block[i][j] += Atemp * B_line[j];
+                        for (int i = 0; i < BLOCK_SIZE; i++) {
+#pragma HLS PIPELINE off
+                            DTYPE Atemp = A[(ib * BLOCK_SIZE + i) * M + (kb * BLOCK_SIZE + k)];
+                            AB_block[i][j] += Atemp * Btemp;
                         }
                     }
                 }
@@ -42160,9 +42151,8 @@ void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P) {
 
 
             for (int i = 0; i < BLOCK_SIZE; i++) {
-#pragma HLS pipeline off
+#pragma HLS PIPELINE off
                 for (int j = 0; j < BLOCK_SIZE; j++) {
-#pragma HLS pipeline off
                     ABC[(ib * BLOCK_SIZE + i) * P + (jb * BLOCK_SIZE + j)] = AB_block[i][j];
                 }
             }
@@ -42194,6 +42184,6 @@ apatb_MM_ir(A, B, C, ABC, N, M, P);
 return ;
 }
 #endif
-# 79 "C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm.cpp"
+# 69 "C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm.cpp"
 
 }

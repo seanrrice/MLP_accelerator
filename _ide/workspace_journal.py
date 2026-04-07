@@ -1,4 +1,4 @@
-# 2026-04-06T21:21:36.592352300
+# 2026-04-06T22:17:23.473185700
 import vitis
 
 client = vitis.create_client()
@@ -10,12 +10,6 @@ comp.run(operation="C_SIMULATION")
 comp.run(operation="C_SIMULATION")
 
 comp.run(operation="C_SIMULATION")
-
-comp.run(operation="C_SIMULATION")
-
-comp.run(operation="SYNTHESIS")
-
-comp.run(operation="CO_SIMULATION")
 
 comp.run(operation="C_SIMULATION")
 

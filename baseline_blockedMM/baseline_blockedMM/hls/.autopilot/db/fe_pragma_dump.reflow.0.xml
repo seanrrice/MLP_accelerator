@@ -1,15 +1,12 @@
 <pragmas>
-<pragma file="../MLP_baseline/mm.cpp" line="31" pragmaType="pipeline" parentfunction="MM" off="1" ii="0" rewind="0" style=""/>
-<pragma file="../MLP_baseline/mm.cpp" line="33" pragmaType="pipeline" parentfunction="MM" off="1" ii="0" rewind="0" style=""/>
-<pragma file="../MLP_baseline/mm.cpp" line="37" pragmaType="pipeline" parentfunction="MM" off="1" ii="0" rewind="0" style=""/>
-<pragma file="../MLP_baseline/mm.cpp" line="46" pragmaType="pipeline" parentfunction="MM" off="1" ii="0" rewind="0" style=""/>
-<pragma file="../MLP_baseline/mm.cpp" line="71" pragmaType="pipeline" parentfunction="MM" off="1" ii="0" rewind="0" style=""/>
-<pragma file="../MLP_baseline/mm.cpp" line="39" pragmaType="pipeline" parentfunction="MM" off="1" ii="0" rewind="0" style=""/>
-<pragma file="../MLP_baseline/mm.cpp" line="48" pragmaType="pipeline" parentfunction="MM" off="1" ii="0" rewind="0" style=""/>
-<pragma file="../MLP_baseline/mm.cpp" line="73" pragmaType="pipeline" parentfunction="MM" off="1" ii="0" rewind="0" style=""/>
-<pragma file="../MLP_baseline/mm.cpp" line="50" pragmaType="pipeline" parentfunction="MM" off="1" ii="0" rewind="0" style=""/>
-<pragma file="../MLP_baseline/mm.cpp" line="56" pragmaType="pipeline" parentfunction="MM" off="1" ii="0" rewind="0" style=""/>
+<pragma file="../MLP_baseline/mm.cpp" line="30" pragmaType="pipeline" parentfunction="MM" off="1" ii="0" rewind="0" style=""/>
+<pragma file="../MLP_baseline/mm.cpp" line="32" pragmaType="pipeline" parentfunction="MM" off="1" ii="0" rewind="0" style=""/>
+<pragma file="../MLP_baseline/mm.cpp" line="36" pragmaType="pipeline" parentfunction="MM" off="1" ii="0" rewind="0" style=""/>
+<pragma file="../MLP_baseline/mm.cpp" line="44" pragmaType="pipeline" parentfunction="MM" off="1" ii="0" rewind="0" style=""/>
 <pragma file="../MLP_baseline/mm.cpp" line="62" pragmaType="pipeline" parentfunction="MM" off="1" ii="0" rewind="0" style=""/>
+<pragma file="../MLP_baseline/mm.cpp" line="46" pragmaType="pipeline" parentfunction="MM" off="1" ii="0" rewind="0" style=""/>
+<pragma file="../MLP_baseline/mm.cpp" line="48" pragmaType="pipeline" parentfunction="MM" off="1" ii="0" rewind="0" style=""/>
+<pragma file="../MLP_baseline/mm.cpp" line="52" pragmaType="pipeline" parentfunction="MM" off="1" ii="0" rewind="0" style=""/>
 <pragma file="../MLP_baseline/mm.cpp" line="13" pragmaType="interface" parentfunction="MM" mode="m_axi" port="A" bundle="gmem" offset="" name="" depth="1024" num_read_outstanding="-1" num_write_outstanding="-1" max_burst_read_length="-1" max_burst_write_length="-1" latency="-1" max_widen_bitwidth="-1" channel=""/>
 <pragma file="../MLP_baseline/mm.cpp" line="14" pragmaType="interface" parentfunction="MM" mode="m_axi" port="B" bundle="gmem" offset="" name="" depth="1024" num_read_outstanding="-1" num_write_outstanding="-1" max_burst_read_length="-1" max_burst_write_length="-1" latency="-1" max_widen_bitwidth="-1" channel=""/>
 <pragma file="../MLP_baseline/mm.cpp" line="15" pragmaType="interface" parentfunction="MM" mode="m_axi" port="C" bundle="gmem" offset="" name="" depth="32" num_read_outstanding="-1" num_write_outstanding="-1" max_burst_read_length="-1" max_burst_write_length="-1" latency="-1" max_widen_bitwidth="-1" channel=""/>

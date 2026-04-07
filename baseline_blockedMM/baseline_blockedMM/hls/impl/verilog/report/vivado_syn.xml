@@ -27,11 +27,11 @@
   <Resources>
     <BRAM>2</BRAM>
     <CLB>0</CLB>
-    <DSP>7</DSP>
-    <FF>4085</FF>
+    <DSP>9</DSP>
+    <FF>4192</FF>
     <LATCH>0</LATCH>
-    <LUT>2800</LUT>
-    <SRL>232</SRL>
+    <LUT>2793</LUT>
+    <SRL>235</SRL>
     <URAM>0</URAM>
   </Resources>
   <AvailableResources>
@@ -45,24 +45,24 @@
 </AreaReport>
 <RtlModules>
   <RtlModule CELL="inst" DEPTH="0" FILE_NAME="bd_0_hls_inst_0.v" ORIG_REF_NAME="MM" TOP_CELL="bd_0_i/hls_inst/inst">
-    <SubModules count="6">AB_block_U B_line_U control_s_axi_U gmem_m_axi_U mul_32ns_32s_62_2_1_U1 mul_32s_32s_32_2_1_U2</SubModules>
-    <Resources BRAM="2" DSP="7" FF="4085" LUT="2800" LUTRAM="32" LogicLUT="2536" RAMB18="2" SRL="232"/>
-    <LocalResources FF="1857" LUT="632" LogicLUT="632"/>
+    <SubModules count="6">AB_block_U control_s_axi_U gmem_m_axi_U mul_32ns_32s_62_2_1_U1 mul_32s_32s_32_2_1_U2 mul_5ns_32s_37_2_1_U3</SubModules>
+    <Resources BRAM="2" DSP="9" FF="4192" LUT="2793" LogicLUT="2558" RAMB18="2" SRL="235"/>
+    <LocalResources FF="1947" LUT="636" LogicLUT="633" SRL="3"/>
   </RtlModule>
   <RtlModule CELL="inst/AB_block_U" DEPTH="1" FILE_NAME="MM.v" ORIG_REF_NAME="MM_AB_block_RAM_AUTO_1R1W">
-    <Resources BRAM="1" LUT="86" LogicLUT="86" RAMB18="1"/>
-  </RtlModule>
-  <RtlModule CELL="inst/B_line_U" DEPTH="1" FILE_NAME="MM.v" ORIG_REF_NAME="MM_B_line_RAM_AUTO_1R1W">
+    <Resources BRAM="1" LUT="80" LogicLUT="80" RAMB18="1"/>
   </RtlModule>
   <RtlModule CELL="inst/control_s_axi_U" DEPTH="1" FILE_NAME="MM.v" ORIG_REF_NAME="MM_control_s_axi">
     <Resources FF="406" LUT="626" LogicLUT="626"/>
   </RtlModule>
   <RtlModule CELL="inst/gmem_m_axi_U" DEPTH="1" FILE_NAME="MM.v" ORIG_REF_NAME="MM_gmem_m_axi">
-    <Resources BRAM="1" FF="1771" LUT="1358" LogicLUT="1126" RAMB18="1" SRL="232"/>
+    <Resources BRAM="1" FF="1771" LUT="1373" LogicLUT="1141" RAMB18="1" SRL="232"/>
   </RtlModule>
   <RtlModule CELL="inst/mul_32ns_32s_62_2_1_U1" DEPTH="1" FILE_NAME="MM.v" ORIG_REF_NAME="MM_mul_32ns_32s_62_2_1">
   </RtlModule>
   <RtlModule CELL="inst/mul_32s_32s_32_2_1_U2" DEPTH="1" FILE_NAME="MM.v" ORIG_REF_NAME="MM_mul_32s_32s_32_2_1">
+  </RtlModule>
+  <RtlModule CELL="inst/mul_5ns_32s_37_2_1_U3" DEPTH="1" FILE_NAME="MM.v" ORIG_REF_NAME="MM_mul_5ns_32s_37_2_1">
   </RtlModule>
 </RtlModules>
 <TimingPaths>

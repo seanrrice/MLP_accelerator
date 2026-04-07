@@ -40967,53 +40967,43 @@ __attribute__((sdx_kernel("MM", 0))) void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE
 #pragma HLS INTERFACE s_axilite port=return bundle=control
 
  DTYPE AB_block[BLOCK_SIZE][BLOCK_SIZE];
-    DTYPE B_line[BLOCK_SIZE];
 
-    VITIS_LOOP_30_1: for (int ib = 0; ib < N / BLOCK_SIZE; ib++) {
-#pragma HLS pipeline off
- VITIS_LOOP_32_2: for (int jb = 0; jb < P / BLOCK_SIZE; jb++) {
-#pragma HLS pipeline off
+    VITIS_LOOP_29_1: for (int ib = 0; ib < N / BLOCK_SIZE; ib++) {
+#pragma HLS PIPELINE off
+ VITIS_LOOP_31_2: for (int jb = 0; jb < P / BLOCK_SIZE; jb++) {
+#pragma HLS PIPELINE off
 
 
- VITIS_LOOP_36_3: for (int i = 0; i < BLOCK_SIZE; i++) {
-#pragma HLS pipeline off
- VITIS_LOOP_38_4: for (int j = 0; j < BLOCK_SIZE; j++) {
-#pragma HLS pipeline off
- AB_block[i][j] = C[ib * BLOCK_SIZE + i];
+ VITIS_LOOP_35_3: for (int i = 0; i < BLOCK_SIZE; i++) {
+#pragma HLS PIPELINE off
+ VITIS_LOOP_37_4: for (int j = 0; j < BLOCK_SIZE; j++) {
+                    AB_block[i][j] = C[ib * BLOCK_SIZE + i];
                 }
             }
 
 
-            VITIS_LOOP_45_5: for (int kb = 0; kb < M / BLOCK_SIZE; kb++) {
-#pragma HLS pipeline off
- VITIS_LOOP_47_6: for (int i = 0; i < BLOCK_SIZE; i++) {
-#pragma HLS pipeline off
- VITIS_LOOP_49_7: for (int k = 0; k < BLOCK_SIZE; k++) {
-#pragma HLS pipeline off
+            VITIS_LOOP_43_5: for (int kb = 0; kb < M / BLOCK_SIZE; kb++) {
+#pragma HLS PIPELINE off
+ VITIS_LOOP_45_6: for (int k = 0; k < BLOCK_SIZE; k++) {
+#pragma HLS PIPELINE off
+ VITIS_LOOP_47_7: for (int j = 0; j < BLOCK_SIZE; j++) {
+#pragma HLS PIPELINE off
+ DTYPE Btemp = B[(kb * BLOCK_SIZE + k) * P + (jb * BLOCK_SIZE + j)];
 
+                        VITIS_LOOP_51_8: for (int i = 0; i < BLOCK_SIZE; i++) {
+#pragma HLS PIPELINE off
  DTYPE Atemp = A[(ib * BLOCK_SIZE + i) * M + (kb * BLOCK_SIZE + k)];
-
-
-                        VITIS_LOOP_55_8: for (int j = 0; j < BLOCK_SIZE; j++) {
-#pragma HLS pipeline off
- B_line[j] = B[(kb * BLOCK_SIZE + k) * P + (jb * BLOCK_SIZE + j)];
-                        }
-
-
-                        VITIS_LOOP_61_9: for (int j = 0; j < BLOCK_SIZE; j++) {
-#pragma HLS pipeline off
- AB_block[i][j] += Atemp * B_line[j];
+                            AB_block[i][j] += Atemp * Btemp;
                         }
                     }
                 }
             }
 
 
-            VITIS_LOOP_70_10: for (int i = 0; i < BLOCK_SIZE; i++) {
-#pragma HLS pipeline off
- VITIS_LOOP_72_11: for (int j = 0; j < BLOCK_SIZE; j++) {
-#pragma HLS pipeline off
- ABC[(ib * BLOCK_SIZE + i) * P + (jb * BLOCK_SIZE + j)] = AB_block[i][j];
+            VITIS_LOOP_61_9: for (int i = 0; i < BLOCK_SIZE; i++) {
+#pragma HLS PIPELINE off
+ VITIS_LOOP_63_10: for (int j = 0; j < BLOCK_SIZE; j++) {
+                    ABC[(ib * BLOCK_SIZE + i) * P + (jb * BLOCK_SIZE + j)] = AB_block[i][j];
                 }
             }
         }
