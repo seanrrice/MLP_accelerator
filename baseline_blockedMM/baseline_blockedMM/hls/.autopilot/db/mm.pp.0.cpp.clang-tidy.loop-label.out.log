@@ -1,40 +1,55 @@
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40967:2: warning: Added loop label VITIS_LOOP_34_1:   [xilinx-label-all-loops]
- for (int i=0; i < N; i++){
- ^~~
- VITIS_LOOP_34_1: 
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40967:2: note: FIX-IT applied suggested code changes
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40968:9: warning: Added loop label VITIS_LOOP_35_2:   [xilinx-label-all-loops]
-        for(int j= 0; j < P; j++){
-        ^~~
-        VITIS_LOOP_35_2: 
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40968:9: note: FIX-IT applied suggested code changes
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40974:5: warning: Added loop label VITIS_LOOP_41_3:   [xilinx-label-all-loops]
-    for(int ib = 0; ib < N; ib += BLOCK_SIZE){
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40969:5: warning: Added loop label VITIS_LOOP_44_1:   [xilinx-label-all-loops]
+    for(int ib = 0; ib < N/BLOCK_SIZE; ib ++){
     ^~~
-    VITIS_LOOP_41_3: 
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40974:5: note: FIX-IT applied suggested code changes
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40975:9: warning: Added loop label VITIS_LOOP_42_4:   [xilinx-label-all-loops]
-        for(int jb = 0; jb < P; jb += BLOCK_SIZE){
-        ^~~
-        VITIS_LOOP_42_4: 
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40975:9: note: FIX-IT applied suggested code changes
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40976:13: warning: Added loop label VITIS_LOOP_43_5:   [xilinx-label-all-loops]
-            for (int kb = 0; kb < M; kb += BLOCK_SIZE){
+    VITIS_LOOP_44_1: 
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40969:5: note: FIX-IT applied suggested code changes
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40971:2: warning: Added loop label VITIS_LOOP_46_2:   [xilinx-label-all-loops]
+ for(int jb = 0; jb < P/BLOCK_SIZE; jb ++){
+ ^~~
+ VITIS_LOOP_46_2: 
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40971:2: note: FIX-IT applied suggested code changes
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40973:2: warning: Added loop label VITIS_LOOP_48_3:   [xilinx-label-all-loops]
+ for(int i=0;i<BLOCK_SIZE;i++){
+ ^~~
+ VITIS_LOOP_48_3: 
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40973:2: note: FIX-IT applied suggested code changes
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40975:2: warning: Added loop label VITIS_LOOP_50_4:   [xilinx-label-all-loops]
+ for(int j=0;j<BLOCK_SIZE;j++){
+ ^~~
+ VITIS_LOOP_50_4: 
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40975:2: note: FIX-IT applied suggested code changes
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40980:13: warning: Added loop label VITIS_LOOP_55_5:   [xilinx-label-all-loops]
+            for (int kb = 0; kb < M/BLOCK_SIZE; kb ++){
             ^~~
-            VITIS_LOOP_43_5: 
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40976:13: note: FIX-IT applied suggested code changes
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40979:17: warning: Added loop label VITIS_LOOP_46_6:   [xilinx-label-all-loops]
-                for (int i = ib; i < ib + BLOCK_SIZE && i < N; i++ ){
-                ^~~
-                VITIS_LOOP_46_6: 
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40979:17: note: FIX-IT applied suggested code changes
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40980:21: warning: Added loop label VITIS_LOOP_47_7:   [xilinx-label-all-loops]
-                    for (int j = jb; j < jb + BLOCK_SIZE && j < P; j++){
+            VITIS_LOOP_55_5: 
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40980:13: note: FIX-IT applied suggested code changes
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40982:2: warning: Added loop label VITIS_LOOP_57_6:   [xilinx-label-all-loops]
+ for(int k = 0; k < BLOCK_SIZE; k++){
+ ^~~
+ VITIS_LOOP_57_6: 
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40982:2: note: FIX-IT applied suggested code changes
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40984:2: warning: Added loop label VITIS_LOOP_59_7:   [xilinx-label-all-loops]
+ for(int j=0; j < BLOCK_SIZE; j++){
+ ^~~
+ VITIS_LOOP_59_7: 
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40984:2: note: FIX-IT applied suggested code changes
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40988:21: warning: Added loop label VITIS_LOOP_63_8:   [xilinx-label-all-loops]
+                    for(int i=0;i<BLOCK_SIZE;i++){
                     ^~~
-                    VITIS_LOOP_47_7: 
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40980:21: note: FIX-IT applied suggested code changes
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40983:26: warning: Added loop label VITIS_LOOP_50_8:   [xilinx-label-all-loops]
-                         for (int k = kb; k < kb + BLOCK_SIZE && k < M; k++) {
-                         ^~~
-                         VITIS_LOOP_50_8: 
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40983:26: note: FIX-IT applied suggested code changes
+                    VITIS_LOOP_63_8: 
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40988:21: note: FIX-IT applied suggested code changes
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40991:25: warning: Added loop label VITIS_LOOP_66_9:   [xilinx-label-all-loops]
+                        for(int j=0;j<BLOCK_SIZE;j++){
+                        ^~~
+                        VITIS_LOOP_66_9: 
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40991:25: note: FIX-IT applied suggested code changes
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40998:13: warning: Added loop label VITIS_LOOP_73_10:   [xilinx-label-all-loops]
+            for(int i=0;i<BLOCK_SIZE;i++){
+            ^~~
+            VITIS_LOOP_73_10: 
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:40998:13: note: FIX-IT applied suggested code changes
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41000:2: warning: Added loop label VITIS_LOOP_75_11:   [xilinx-label-all-loops]
+ for(int j=0;j<BLOCK_SIZE;j++){
+ ^~~
+ VITIS_LOOP_75_11: 
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41000:2: note: FIX-IT applied suggested code changes

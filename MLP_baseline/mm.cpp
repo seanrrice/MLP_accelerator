@@ -8,7 +8,7 @@ void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P) {
     // Baseline blocked matrix multiplication
     // A: N x M
     // B: M x P
-    // C: N
+    // C: N (bias b)
     // ABC: N x P
     
     //========================================
@@ -37,28 +37,44 @@ void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P) {
     #pragma HLS INTERFACE s_axilite port=P      bundle=control
     #pragma HLS INTERFACE s_axilite port=return bundle=control
 
-
-    // Initialize output matrix to zero
-    for (int i=0; i < N; i++){
-        for(int j= 0; j < P; j++){
-            ABC[i * P + j] = C[i];         //This handles the added bias term
-        }
-    }
-    cout << "Entering MM..." << endl;
+    DTYPE AB_block[BLOCK_SIZE][BLOCK_SIZE];
+    DTYPE B_line[BLOCK_SIZE];
+    
     // Blocked matmul
-    for(int ib = 0; ib < N; ib += BLOCK_SIZE){
-        for(int jb = 0; jb < P; jb += BLOCK_SIZE){
-            for (int kb = 0; kb < M; kb += BLOCK_SIZE){
-
-                // Compute one C block
-                for (int i = ib; i < ib + BLOCK_SIZE && i < N; i++ ){
-                    for (int j = jb; j < jb + BLOCK_SIZE && j < P; j++){
-                        
-                         // Accumulate partial sum for C[i][j]
-                         for (int k = kb; k < kb + BLOCK_SIZE && k < M; k++) {
-                            ABC[i * P + j] += A[i * M + k] * B[k * P + j];
-                         }
+    for(int ib = 0; ib < N/BLOCK_SIZE; ib ++){
+        #pragma HLS pipeline off
+        for(int jb = 0; jb < P/BLOCK_SIZE; jb ++){
+            #pragma HLS pipeline off
+            for(int i=0;i<BLOCK_SIZE;i++){
+                #pragma HLS pipeline off
+                for(int j=0;j<BLOCK_SIZE;j++){
+                    #pragma HLS pipeline off
+                    AB_block[i][j] = C[ib*BLOCK_SIZE+i];
+                }
+            }
+            for (int kb = 0; kb < M/BLOCK_SIZE; kb ++){
+                #pragma HLS pipeline off
+                for(int k = 0; k < BLOCK_SIZE; k++){
+                    #pragma HLS pipeline off
+                    for(int j=0; j < BLOCK_SIZE; j++){
+                        #pragma HLS pipeline off
+                        B_line[j] = B[(kb*BLOCK_SIZE+k)*P + jb*BLOCK_SIZE + j];
                     }
+                    for(int i=0;i<BLOCK_SIZE;i++){
+                        #pragma HLS pipeline off
+                        DTYPE Atemp = A[(ib*BLOCK_SIZE+i)*M + kb*BLOCK_SIZE + k];
+                        for(int j=0;j<BLOCK_SIZE;j++){
+                            #pragma HLS pipeline off
+                            AB_block[i][j] += Atemp * B_line[j];
+                        }
+                    }
+                }
+            }
+            for(int i=0;i<BLOCK_SIZE;i++){
+                #pragma HLS pipeline off
+                for(int j=0;j<BLOCK_SIZE;j++){
+                    #pragma HLS pipeline off
+                    ABC[(ib*BLOCK_SIZE+i)*P + jb*BLOCK_SIZE + j] = AB_block[i][j];
                 }
             }
         }

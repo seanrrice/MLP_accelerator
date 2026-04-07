@@ -1,10 +1,12 @@
-# 2026-04-04T16:06:02.205643900
+# 2026-04-06T20:25:15.903255100
 import vitis
 
 client = vitis.create_client()
 client.set_workspace(path="Lab3_MLP_optimization")
 
 comp = client.get_component(name="baseline_blockedMM")
+comp.run(operation="C_SIMULATION")
+
 comp.run(operation="SYNTHESIS")
 
 comp.run(operation="CO_SIMULATION")

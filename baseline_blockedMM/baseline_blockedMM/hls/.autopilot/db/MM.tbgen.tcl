@@ -14,7 +14,7 @@ set hasInterrupt 0
 set DLRegFirstOffset 0
 set DLRegItemOffset 0
 set svuvm_can_support 1
-set cdfgNum 5
+set cdfgNum 3
 set C_modelName {MM}
 set C_modelType { void 0 }
 set ap_memory_interface_dict [dict create]
@@ -32,7 +32,7 @@ set hasAXIMCache 0
 set l_AXIML2Cache [list]
 set AXIMCacheInstDict [dict create]
 set C_modelArgMapList {[ 
-	{ "Name" : "gmem", "interface" : "axi_master", "bitwidth" : 32, "direction" : "READWRITE", "bitSlice":[ {"cElement": [{"cName": "A","offset": { "type": "dynamic","port_name": "A","bundle": "control"},"direction": "READONLY"},{"cName": "B","offset": { "type": "dynamic","port_name": "B","bundle": "control"},"direction": "READONLY"},{"cName": "C","offset": { "type": "dynamic","port_name": "C","bundle": "control"},"direction": "READONLY"},{"cName": "ABC","offset": { "type": "dynamic","port_name": "ABC","bundle": "control"},"direction": "READWRITE"}]}]} , 
+	{ "Name" : "gmem", "interface" : "axi_master", "bitwidth" : 32, "direction" : "READWRITE", "bitSlice":[ {"cElement": [{"cName": "A","offset": { "type": "dynamic","port_name": "A","bundle": "control"},"direction": "READONLY"},{"cName": "B","offset": { "type": "dynamic","port_name": "B","bundle": "control"},"direction": "READONLY"},{"cName": "C","offset": { "type": "dynamic","port_name": "C","bundle": "control"},"direction": "READONLY"},{"cName": "ABC","offset": { "type": "dynamic","port_name": "ABC","bundle": "control"},"direction": "WRITEONLY"}]}]} , 
  	{ "Name" : "A", "interface" : "axi_slave", "bundle":"control","type":"ap_none","bitwidth" : 64, "direction" : "READONLY", "offset" : {"in":16}, "offset_end" : {"in":27}} , 
  	{ "Name" : "B", "interface" : "axi_slave", "bundle":"control","type":"ap_none","bitwidth" : 64, "direction" : "READONLY", "offset" : {"in":28}, "offset_end" : {"in":39}} , 
  	{ "Name" : "C", "interface" : "axi_slave", "bundle":"control","type":"ap_none","bitwidth" : 64, "direction" : "READONLY", "offset" : {"in":40}, "offset_end" : {"in":51}} , 
@@ -178,38 +178,20 @@ set NewPortList {[
 
 set ArgLastReadFirstWriteLatency {
 	MM {
-		gmem {Type IO LastRead 22 FirstWrite 1}
+		gmem {Type IO LastRead 37 FirstWrite 18}
 		A {Type I LastRead 0 FirstWrite -1}
 		B {Type I LastRead 0 FirstWrite -1}
 		C {Type I LastRead 0 FirstWrite -1}
 		ABC {Type I LastRead 0 FirstWrite -1}
 		N {Type I LastRead 0 FirstWrite -1}
 		M {Type I LastRead 0 FirstWrite -1}
-		P {Type I LastRead 0 FirstWrite -1}}
-	MM_Pipeline_VITIS_LOOP_35_2 {
-		gmem {Type O LastRead -1 FirstWrite 1}
-		P {Type I LastRead 0 FirstWrite -1}
-		sext_ln34 {Type I LastRead 0 FirstWrite -1}
-		gmem_addr_1_read {Type I LastRead 0 FirstWrite -1}}
-	MM_Pipeline_VITIS_LOOP_46_6_VITIS_LOOP_47_7_VITIS_LOOP_50_8 {
-		zext_ln41_3 {Type I LastRead 0 FirstWrite -1}
-		zext_ln42 {Type I LastRead 0 FirstWrite -1}
-		zext_ln43 {Type I LastRead 0 FirstWrite -1}
-		gmem {Type IO LastRead 22 FirstWrite 21}
-		mul_ln43_1 {Type I LastRead 0 FirstWrite -1}
-		mul_ln43 {Type I LastRead 0 FirstWrite -1}
-		sext_ln43_3 {Type I LastRead 0 FirstWrite -1}
-		sext_ln41 {Type I LastRead 0 FirstWrite -1}
-		P_cast8 {Type I LastRead 0 FirstWrite -1}
-		ABC {Type I LastRead 0 FirstWrite -1}
-		A {Type I LastRead 0 FirstWrite -1}
-		B {Type I LastRead 0 FirstWrite -1}}}
+		P {Type I LastRead 0 FirstWrite -1}}}
 
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "-1", "Max" : "-1"}
-	, {"Name" : "Interval", "Min" : "0", "Max" : "0"}
+	{"Name" : "Latency", "Min" : "1", "Max" : "-1"}
+	, {"Name" : "Interval", "Min" : "2", "Max" : "0"}
 ]}
 
 set PipelineEnableSignalInfo {[

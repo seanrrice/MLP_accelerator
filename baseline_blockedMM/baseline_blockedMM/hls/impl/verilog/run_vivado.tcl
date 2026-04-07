@@ -48,9 +48,9 @@ dict set report_options language $language
 dict set report_options clock_name $clock
 dict set report_options error_if_impl_timing_fails false
 dict set report_options topmodule "MM"
-dict set report_options funcmodules {MM_MM_Pipeline_VITIS_LOOP_35_2 MM_MM_Pipeline_VITIS_LOOP_46_6_VITIS_LOOP_47_7_VITIS_LOOP_50_8}
-dict set report_options bindmodules {MM_flow_control_loop_pipe_sequential_init MM_mul_32s_32s_32_2_1 MM_mul_62s_32s_62_5_1 MM_mul_32ns_32ns_62_2_1 MM_mul_64ns_64ns_128_5_1 MM_mul_64ns_128ns_192_5_1 MM_gmem_m_axi MM_control_s_axi}
-dict set report_options max_module_depth 6
+dict set report_options funcmodules {}
+dict set report_options bindmodules {MM_mul_32ns_32s_62_2_1 MM_mul_32s_32s_32_2_1 MM_AB_block_RAM_AUTO_1R1W MM_B_line_RAM_AUTO_1R1W MM_gmem_m_axi MM_control_s_axi}
+dict set report_options max_module_depth 5
 
 
 create_project $vivado_proj_name $vivado_proj_dir -part $target_device -force

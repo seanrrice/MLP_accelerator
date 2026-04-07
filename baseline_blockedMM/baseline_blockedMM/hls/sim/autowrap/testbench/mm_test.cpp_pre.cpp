@@ -42182,7 +42182,7 @@ void readImages(const string& imgfilename, DTYPE* data) {
 
     imgFile.close();
 }
-# 144 "C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm_test.cpp"
+# 150 "C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm_test.cpp"
 void mm_sw_cosim(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P) {
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < P; j++) {
