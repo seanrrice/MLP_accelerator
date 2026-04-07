@@ -40947,7 +40947,11 @@ __attribute__((sdx_kernel("MM", 0))) void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE
 #pragma HLSDIRECTIVE TOP name=MM
 # 7 "../MLP_baseline/mm.cpp"
 
-# 18 "../MLP_baseline/mm.cpp"
+
+
+
+
+
 #pragma HLS INTERFACE m_axi port=A bundle=gmem depth=1024
 #pragma HLS INTERFACE m_axi port=B bundle=gmem depth=1024
 #pragma HLS INTERFACE m_axi port=C bundle=gmem depth=32
@@ -40962,32 +40966,57 @@ __attribute__((sdx_kernel("MM", 0))) void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE
 #pragma HLS INTERFACE s_axilite port=P bundle=control
 #pragma HLS INTERFACE s_axilite port=return bundle=control
 
+ DTYPE AB_block[BLOCK_SIZE][BLOCK_SIZE];
+    DTYPE B_line[BLOCK_SIZE];
+
+    VITIS_LOOP_30_1: for (int ib = 0; ib < N / BLOCK_SIZE; ib++) {
+#pragma HLS pipeline off
+ VITIS_LOOP_32_2: for (int jb = 0; jb < P / BLOCK_SIZE; jb++) {
+#pragma HLS pipeline off
 
 
- VITIS_LOOP_34_1: for (int i=0; i < N; i++){
-        VITIS_LOOP_35_2: for(int j= 0; j < P; j++){
-            ABC[i * P + j] = C[i];
-        }
-    }
-    cout << "Entering MM..." << endl;
-
-    VITIS_LOOP_41_3: for(int ib = 0; ib < N; ib += BLOCK_SIZE){
-        VITIS_LOOP_42_4: for(int jb = 0; jb < P; jb += BLOCK_SIZE){
-            VITIS_LOOP_43_5: for (int kb = 0; kb < M; kb += BLOCK_SIZE){
+ VITIS_LOOP_36_3: for (int i = 0; i < BLOCK_SIZE; i++) {
+#pragma HLS pipeline off
+ VITIS_LOOP_38_4: for (int j = 0; j < BLOCK_SIZE; j++) {
+#pragma HLS pipeline off
+ AB_block[i][j] = C[ib * BLOCK_SIZE + i];
+                }
+            }
 
 
-                VITIS_LOOP_46_6: for (int i = ib; i < ib + BLOCK_SIZE && i < N; i++ ){
-                    VITIS_LOOP_47_7: for (int j = jb; j < jb + BLOCK_SIZE && j < P; j++){
+            VITIS_LOOP_45_5: for (int kb = 0; kb < M / BLOCK_SIZE; kb++) {
+#pragma HLS pipeline off
+ VITIS_LOOP_47_6: for (int i = 0; i < BLOCK_SIZE; i++) {
+#pragma HLS pipeline off
+ VITIS_LOOP_49_7: for (int k = 0; k < BLOCK_SIZE; k++) {
+#pragma HLS pipeline off
+
+ DTYPE Atemp = A[(ib * BLOCK_SIZE + i) * M + (kb * BLOCK_SIZE + k)];
 
 
-                         VITIS_LOOP_50_8: for (int k = kb; k < kb + BLOCK_SIZE && k < M; k++) {
-                            ABC[i * P + j] += A[i * M + k] * B[k * P + j];
-                         }
+                        VITIS_LOOP_55_8: for (int j = 0; j < BLOCK_SIZE; j++) {
+#pragma HLS pipeline off
+ B_line[j] = B[(kb * BLOCK_SIZE + k) * P + (jb * BLOCK_SIZE + j)];
+                        }
+
+
+                        VITIS_LOOP_61_9: for (int j = 0; j < BLOCK_SIZE; j++) {
+#pragma HLS pipeline off
+ AB_block[i][j] += Atemp * B_line[j];
+                        }
                     }
+                }
+            }
+
+
+            VITIS_LOOP_70_10: for (int i = 0; i < BLOCK_SIZE; i++) {
+#pragma HLS pipeline off
+ VITIS_LOOP_72_11: for (int j = 0; j < BLOCK_SIZE; j++) {
+#pragma HLS pipeline off
+ ABC[(ib * BLOCK_SIZE + i) * P + (jb * BLOCK_SIZE + j)] = AB_block[i][j];
                 }
             }
         }
     }
-    cout << "Finished initial MM" << endl;
 }
 }

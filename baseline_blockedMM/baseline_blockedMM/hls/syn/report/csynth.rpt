@@ -4,7 +4,7 @@
 == Synthesis Summary Report of 'MM'
 ================================================================
 + General Information: 
-    * Date:           Sat Apr  4 16:08:47 2026
+    * Date:           Mon Apr  6 21:33:23 2026
     * Version:        2025.1 (Build 6135595 on May 21 2025)
     * Project:        baseline_blockedMM
     * Solution:       hls (Vivado IP Flow Target)
@@ -15,20 +15,23 @@
 + Performance & Resource Estimates: 
     
     PS: '+' for module; 'o' for loop; '*' for dataflow
-    +-------------------------------------------------------------------+------+------+---------+-----+----------+---------+-----------+----------+---------+----------+-----------+------------+-----+
-    |                              Modules                              | Issue|      |    Latency    | Iteration|         |    Trip   |          |         |          |           |            |     |
-    |                              & Loops                              | Type | Slack| (cycles)| (ns)|  Latency | Interval|   Count   | Pipelined|  BRAM   |    DSP   |     FF    |     LUT    | URAM|
-    +-------------------------------------------------------------------+------+------+---------+-----+----------+---------+-----------+----------+---------+----------+-----------+------------+-----+
-    |+ MM                                                               |     -|  0.00|        -|    -|         -|        -|          -|        no|  2 (~0%)|  69 (31%)|  7945 (7%)|  7542 (14%)|    -|
-    | o VITIS_LOOP_34_1                                                 |     -|  7.30|        -|    -|         -|        -|          -|        no|        -|         -|          -|           -|    -|
-    |  + MM_Pipeline_VITIS_LOOP_35_2                                    |     -|  0.00|        -|    -|         -|        0|          -|    rewind|        -|         -|   34 (~0%)|   125 (~0%)|    -|
-    |   o VITIS_LOOP_35_2                                               |     -|  7.30|        -|    -|         2|        1|          -|       yes|        -|         -|          -|           -|    -|
-    | o VITIS_LOOP_41_3                                                 |     -|  7.30|        -|    -|         -|        -|  268435456|        no|        -|         -|          -|           -|    -|
-    |  o VITIS_LOOP_42_4                                                |     -|  7.30|        -|    -|         -|        -|  268435456|        no|        -|         -|          -|           -|    -|
-    |   o VITIS_LOOP_43_5                                               |     -|  7.30|        -|    -|         -|        -|  268435456|        no|        -|         -|          -|           -|    -|
-    |    + MM_Pipeline_VITIS_LOOP_46_6_VITIS_LOOP_47_7_VITIS_LOOP_50_8  |     -|  0.00|        -|    -|         -|        0|          -|    rewind|        -|   17 (7%)|  3050 (2%)|   2715 (5%)|    -|
-    |     o VITIS_LOOP_46_6_VITIS_LOOP_47_7_VITIS_LOOP_50_8             |    II|  7.30|        -|    -|        27|       16|          -|       yes|        -|         -|          -|           -|    -|
-    +-------------------------------------------------------------------+------+------+---------+-----+----------+---------+-----------+----------+---------+----------+-----------+------------+-----+
+    +-------------------------+------+------+---------------+-----------+---------------+---------+-----------+----------+--------+--------+-----------+-----------+-----+
+    |         Modules         | Issue|      |          Latency          |   Iteration   |         |    Trip   |          |        |        |           |           |     |
+    |         & Loops         | Type | Slack|    (cycles)   |    (ns)   |    Latency    | Interval|   Count   | Pipelined|  BRAM  |   DSP  |     FF    |    LUT    | URAM|
+    +-------------------------+------+------+---------------+-----------+---------------+---------+-----------+----------+--------+--------+-----------+-----------+-----+
+    |+ MM                     |     -|  0.00|              -|          -|              -|        -|          -|        no|  3 (1%)|  7 (3%)|  3679 (3%)|  3800 (7%)|    -|
+    | o VITIS_LOOP_30_1       |     -|  7.30|              -|          -|              -|        -|  134217727|        no|       -|       -|          -|          -|    -|
+    |  o VITIS_LOOP_32_2      |     -|  7.30|              -|          -|  4821369190522|        -|  134217727|        no|       -|       -|          -|          -|    -|
+    |   o VITIS_LOOP_36_3     |     -|  7.30|            304|  3.040e+03|             19|        -|         16|        no|       -|       -|          -|          -|    -|
+    |    o VITIS_LOOP_38_4    |     -|  7.30|             16|    160.000|              1|        -|         16|        no|       -|       -|          -|          -|    -|
+    |   o VITIS_LOOP_45_5     |     -|  7.30|  4821369189294|  4.821e+13|          35922|        -|  134217727|        no|       -|       -|          -|          -|    -|
+    |    o VITIS_LOOP_47_6    |     -|  7.30|          35920|  3.592e+05|           2245|        -|         16|        no|       -|       -|          -|          -|    -|
+    |     o VITIS_LOOP_49_7   |     -|  7.30|           2240|  2.240e+04|            140|        -|         16|        no|       -|       -|          -|          -|    -|
+    |      o VITIS_LOOP_55_8  |     -|  7.30|             48|    480.000|              3|        -|         16|        no|       -|       -|          -|          -|    -|
+    |      o VITIS_LOOP_61_9  |     -|  7.30|             80|    800.000|              5|        -|         16|        no|       -|       -|          -|          -|    -|
+    |   o VITIS_LOOP_70_10    |     -|  7.30|            912|  9.120e+03|             57|        -|         16|        no|       -|       -|          -|          -|    -|
+    |    o VITIS_LOOP_72_11   |     -|  7.30|             48|    480.000|              3|        -|         16|        no|       -|       -|          -|          -|    -|
+    +-------------------------+------+------+---------------+-----------+---------------+---------+-----------+----------+--------+--------+-----------+-----------+-----+
 
 
 ================================================================
@@ -125,128 +128,105 @@
  Note: All burst requests might be further partitioned into multiple requests during RTL generation based on max_read_burst_length or max_write_burst_length settings.
 
 * Inferred Burst Summary
-+--------------+-----------+----------+-------+-----------------+------------------------------+
-| HW Interface | Direction | Length   | Width | Loop            | Loop Location                |
-+--------------+-----------+----------+-------+-----------------+------------------------------+
-| m_axi_gmem   | read      | variable | 32    | VITIS_LOOP_34_1 | ../MLP_baseline/mm.cpp:34:19 |
-| m_axi_gmem   | write     | variable | 32    |                 |                              |
-+--------------+-----------+----------+-------+-----------------+------------------------------+
++--------------+-----------+--------+-------+------------------+------------------------------+
+| HW Interface | Direction | Length | Width | Loop             | Loop Location                |
++--------------+-----------+--------+-------+------------------+------------------------------+
+| m_axi_gmem   | read      | 16     | 32    | VITIS_LOOP_36_3  | ../MLP_baseline/mm.cpp:36:19 |
+| m_axi_gmem   | read      | 16     | 32    | VITIS_LOOP_55_8  | ../MLP_baseline/mm.cpp:55:42 |
+| m_axi_gmem   | write     | 16     | 32    | VITIS_LOOP_72_11 | ../MLP_baseline/mm.cpp:72:20 |
++--------------+-----------+--------+-------+------------------+------------------------------+
 
 * All M_AXI Variable Accesses
-+--------------+----------+------------------------------+-----------+--------------+----------+-----------------+------------------------------+------------+-------------------------------------------------------------------------------------------------------+
-| HW Interface | Variable | Access Location              | Direction | Burst Status | Length   | Loop            | Loop Location                | Resolution | Problem                                                                                               |
-+--------------+----------+------------------------------+-----------+--------------+----------+-----------------+------------------------------+------------+-------------------------------------------------------------------------------------------------------+
-| m_axi_gmem   | ABC      | ../MLP_baseline/mm.cpp:36:28 | write     | Widen Fail   |          | VITIS_LOOP_35_2 | ../MLP_baseline/mm.cpp:35:26 | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
-| m_axi_gmem   | ABC      | ../MLP_baseline/mm.cpp:36:28 | write     | Inferred     | variable | VITIS_LOOP_34_1 | ../MLP_baseline/mm.cpp:34:19 |            |                                                                                                       |
-+--------------+----------+------------------------------+-----------+--------------+----------+-----------------+------------------------------+------------+-------------------------------------------------------------------------------------------------------+
++--------------+----------+------------------------------+-----------+--------------+--------+------------------+------------------------------+------------+-------------------------------------------------------------------------------------------------------+
+| HW Interface | Variable | Access Location              | Direction | Burst Status | Length | Loop             | Loop Location                | Resolution | Problem                                                                                               |
++--------------+----------+------------------------------+-----------+--------------+--------+------------------+------------------------------+------------+-------------------------------------------------------------------------------------------------------+
+| m_axi_gmem   | C        | ../MLP_baseline/mm.cpp:36:19 | read      | Widen Fail   |        | VITIS_LOOP_36_3  | ../MLP_baseline/mm.cpp:36:19 | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem   | C        | ../MLP_baseline/mm.cpp:36:19 | read      | Fail         |        | VITIS_LOOP_32_2  | ../MLP_baseline/mm.cpp:32:19 | 214-230    | Stride is incompatible                                                                                |
+| m_axi_gmem   | C        | ../MLP_baseline/mm.cpp:36:19 | read      | Inferred     | 16     | VITIS_LOOP_36_3  | ../MLP_baseline/mm.cpp:36:19 |            |                                                                                                       |
+| m_axi_gmem   | A        | ../MLP_baseline/mm.cpp:52:16 | read      | Fail         |        |                  |                              | 214-231    | Access is clobbered by load                                                                           |
+| m_axi_gmem   | B        | ../MLP_baseline/mm.cpp:57:14 | read      | Widen Fail   |        | VITIS_LOOP_55_8  | ../MLP_baseline/mm.cpp:55:42 | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem   | B        | ../MLP_baseline/mm.cpp:57:14 | read      | Fail         |        | VITIS_LOOP_49_7  | ../MLP_baseline/mm.cpp:49:19 | 214-230    | Stride is incompatible                                                                                |
+| m_axi_gmem   | B        | ../MLP_baseline/mm.cpp:57:14 | read      | Inferred     | 16     | VITIS_LOOP_55_8  | ../MLP_baseline/mm.cpp:55:42 |            |                                                                                                       |
+| m_axi_gmem   | ABC      | ../MLP_baseline/mm.cpp:74:57 | write     | Widen Fail   |        | VITIS_LOOP_72_11 | ../MLP_baseline/mm.cpp:72:20 | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem   | ABC      | ../MLP_baseline/mm.cpp:74:57 | write     | Fail         |        | VITIS_LOOP_70_10 | ../MLP_baseline/mm.cpp:70:31 | 214-230    | Stride is incompatible                                                                                |
+| m_axi_gmem   | ABC      | ../MLP_baseline/mm.cpp:74:57 | write     | Inferred     | 16     | VITIS_LOOP_72_11 | ../MLP_baseline/mm.cpp:72:20 |            |                                                                                                       |
++--------------+----------+------------------------------+-----------+--------------+--------+------------------+------------------------------+------------+-------------------------------------------------------------------------------------------------------+
 
     * Resolution URL: docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=XXX-YYY.html (replace XXX-YYY with column value)
 
 ================================================================
 == Bind Op Report
 ================================================================
-+----------------------------------------------------------------+-----+--------+---------------+--------+----------+---------+
-| Name                                                           | DSP | Pragma | Variable      | Op     | Impl     | Latency |
-+----------------------------------------------------------------+-----+--------+---------------+--------+----------+---------+
-| + MM                                                           | 69  |        |               |        |          |         |
-|   icmp_ln34_fu_374_p2                                          |     |        | icmp_ln34     | setgt  | auto     | 0       |
-|   cmp28_fu_380_p2                                              |     |        | cmp28         | setgt  | auto     | 0       |
-|   mul_32ns_32ns_62_2_1_U22                                     | 4   |        | mul_ln34      | mul    | auto     | 1       |
-|   select_ln34_fu_435_p3                                        |     |        | select_ln34   | select | auto_sel | 0       |
-|   select_ln34_1_fu_390_p3                                      |     |        | select_ln34_1 | select | auto_sel | 0       |
-|   icmp_ln34_1_fu_471_p2                                        |     |        | icmp_ln34_1   | seteq  | auto     | 0       |
-|   add_ln34_fu_476_p2                                           |     |        | add_ln34      | add    | fabric   | 0       |
-|   icmp_ln41_fu_507_p2                                          |     |        | icmp_ln41     | setlt  | auto     | 0       |
-|   sub_ln41_fu_525_p2                                           |     |        | sub_ln41      | sub    | fabric   | 0       |
-|   icmp_ln41_1_fu_512_p2                                        |     |        | icmp_ln41_1   | setgt  | auto     | 0       |
-|   select_ln41_fu_531_p3                                        |     |        | select_ln41   | select | auto_sel | 0       |
-|   sub_ln41_1_fu_540_p2                                         |     |        | sub_ln41_1    | sub    | fabric   | 0       |
-|   icmp_ln41_2_fu_546_p2                                        |     |        | icmp_ln41_2   | setgt  | auto     | 0       |
-|   select_ln41_1_fu_552_p3                                      |     |        | select_ln41_1 | select | auto_sel | 0       |
-|   add_ln41_fu_584_p2                                           |     |        | add_ln41      | add    | fabric   | 0       |
-|   icmp_ln42_fu_613_p2                                          |     |        | icmp_ln42     | setlt  | auto     | 0       |
-|   icmp_ln42_2_fu_618_p2                                        |     |        | icmp_ln42_2   | setgt  | auto     | 0       |
-|   select_ln42_fu_661_p3                                        |     |        | select_ln42   | select | auto_sel | 0       |
-|   sub_ln42_fu_672_p2                                           |     |        | sub_ln42      | sub    | fabric   | 0       |
-|   icmp_ln42_1_fu_624_p2                                        |     |        | icmp_ln42_1   | setgt  | auto     | 0       |
-|   select_ln42_1_fu_681_p3                                      |     |        | select_ln42_1 | select | auto_sel | 0       |
-|   add_ln42_fu_629_p2                                           |     |        | add_ln42      | add    | fabric   | 0       |
-|   sub_ln43_3_fu_691_p2                                         |     |        | sub_ln43_3    | sub    | fabric   | 0       |
-|   icmp_ln42_3_fu_696_p2                                        |     |        | icmp_ln42_3   | setgt  | auto     | 0       |
-|   select_ln42_2_fu_702_p3                                      |     |        | select_ln42_2 | select | auto_sel | 0       |
-|   icmp_ln43_fu_747_p2                                          |     |        | icmp_ln43     | setlt  | auto     | 0       |
-|   icmp_ln43_3_fu_752_p2                                        |     |        | icmp_ln43_3   | setgt  | auto     | 0       |
-|   select_ln43_fu_758_p3                                        |     |        | select_ln43   | select | auto_sel | 0       |
-|   sub_ln43_5_fu_834_p2                                         |     |        | sub_ln43_5    | sub    | fabric   | 0       |
-|   sub_ln43_fu_847_p2                                           |     |        | sub_ln43      | sub    | fabric   | 0       |
-|   icmp_ln43_1_fu_766_p2                                        |     |        | icmp_ln43_1   | setgt  | auto     | 0       |
-|   select_ln43_1_fu_853_p3                                      |     |        | select_ln43_1 | select | auto_sel | 0       |
-|   sub_ln43_1_fu_863_p2                                         |     |        | sub_ln43_1    | sub    | fabric   | 0       |
-|   icmp_ln43_2_fu_892_p2                                        |     |        | icmp_ln43_2   | setgt  | auto     | 0       |
-|   select_ln43_2_fu_896_p3                                      |     |        | select_ln43_2 | select | auto_sel | 0       |
-|   sub_ln43_2_fu_906_p2                                         |     |        | sub_ln43_2    | sub    | fabric   | 0       |
-|   add_ln43_2_fu_771_p2                                         |     |        | add_ln43_2    | add    | fabric   | 0       |
-|   sub_ln46_fu_869_p2                                           |     |        | sub_ln46      | sub    | fabric   | 0       |
-|   icmp_ln43_4_fu_874_p2                                        |     |        | icmp_ln43_4   | setgt  | auto     | 0       |
-|   select_ln43_3_fu_880_p3                                      |     |        | select_ln43_3 | select | auto_sel | 0       |
-|   mul_64ns_64ns_128_5_1_U23                                    | 16  |        | mul_ln43      | mul    | auto     | 4       |
-|   mul_64ns_128ns_192_5_1_U24                                   | 32  |        | mul_ln43_1    | mul    | auto     | 4       |
-|   add_ln43_1_fu_777_p2                                         |     |        | add_ln43_1    | add    | fabric   | 0       |
-|   add_ln43_3_fu_783_p2                                         |     |        | add_ln43_3    | add    | fabric   | 0       |
-|   add_ln43_4_fu_789_p2                                         |     |        | add_ln43_4    | add    | fabric   | 0       |
-|   add_ln43_5_fu_795_p2                                         |     |        | add_ln43_5    | add    | fabric   | 0       |
-|   add_ln43_6_fu_801_p2                                         |     |        | add_ln43_6    | add    | fabric   | 0       |
-|   add_ln42_1_fu_807_p2                                         |     |        | add_ln42_1    | add    | fabric   | 0       |
-|   add_ln42_2_fu_813_p2                                         |     |        | add_ln42_2    | add    | fabric   | 0       |
-|   add_ln42_3_fu_819_p2                                         |     |        | add_ln42_3    | add    | fabric   | 0       |
-|   add_ln42_4_fu_825_p2                                         |     |        | add_ln42_4    | add    | fabric   | 0       |
-|   add_ln41_1_fu_635_p2                                         |     |        | add_ln41_1    | add    | fabric   | 0       |
-|   add_ln41_2_fu_641_p2                                         |     |        | add_ln41_2    | add    | fabric   | 0       |
-|  + MM_Pipeline_VITIS_LOOP_35_2                                 | 0   |        |               |        |          |         |
-|    icmp_ln35_fu_100_p2                                         |     |        | icmp_ln35     | seteq  | auto     | 0       |
-|    add_ln35_fu_106_p2                                          |     |        | add_ln35      | add    | fabric   | 0       |
-|  + MM_Pipeline_VITIS_LOOP_46_6_VITIS_LOOP_47_7_VITIS_LOOP_50_8 | 17  |        |               |        |          |         |
-|    icmp_ln46_fu_291_p2                                         |     |        | icmp_ln46     | seteq  | auto     | 0       |
-|    add_ln46_fu_296_p2                                          |     |        | add_ln46      | add    | fabric   | 0       |
-|    icmp_ln47_fu_314_p2                                         |     |        | icmp_ln47     | seteq  | auto     | 0       |
-|    select_ln46_fu_319_p3                                       |     |        | select_ln46   | select | auto_sel | 0       |
-|    select_ln46_1_fu_367_p3                                     |     |        | select_ln46_1 | select | auto_sel | 0       |
-|    icmp_ln50_fu_326_p2                                         |     |        | icmp_ln50     | seteq  | auto     | 0       |
-|    icmp_ln50_1_fu_330_p2                                       |     |        | icmp_ln50_1   | seteq  | auto     | 0       |
-|    select_ln46_2_fu_335_p3                                     |     |        | select_ln46_2 | select | auto_sel | 0       |
-|    add_ln46_1_fu_343_p2                                        |     |        | add_ln46_1    | add    | fabric   | 0       |
-|    select_ln46_3_fu_349_p3                                     |     |        | select_ln46_3 | select | auto_sel | 0       |
-|    add_ln47_fu_372_p2                                          |     |        | add_ln47      | add    | fabric   | 0       |
-|    k_1_mid2_fu_377_p3                                          |     |        | k_1_mid2      | select | auto_sel | 0       |
-|    select_ln47_fu_383_p3                                       |     |        | select_ln47   | select | auto_sel | 0       |
-|    mul_62s_32s_62_5_1_U6                                       | 7   |        | empty         | mul    | auto     | 4       |
-|    mul_62s_32s_62_5_1_U7                                       | 7   |        | empty_30      | mul    | auto     | 4       |
-|    empty_31_fu_421_p2                                          |     |        | empty_31      | add    | fabric   | 0       |
-|    empty_32_fu_433_p2                                          |     |        | empty_32      | add    | fabric   | 0       |
-|    add_ln51_fu_458_p2                                          |     |        | add_ln51      | add    | fabric   | 0       |
-|    add_ln51_1_fu_471_p2                                        |     |        | add_ln51_1    | add    | fabric   | 0       |
-|    mul_62s_32s_62_5_1_U6                                       | 7   |        | mul_ln51      | mul    | auto     | 4       |
-|    add_ln51_2_fu_496_p2                                        |     |        | add_ln51_2    | add    | fabric   | 0       |
-|    add_ln51_3_fu_509_p2                                        |     |        | add_ln51_3    | add    | fabric   | 0       |
-|    mul_32s_32s_32_2_1_U5                                       | 3   |        | mul_ln51_1    | mul    | auto     | 1       |
-|    add_ln51_4_fu_544_p2                                        |     |        | add_ln51_4    | add    | fabric   | 0       |
-|    add_ln50_fu_534_p2                                          |     |        | add_ln50      | add    | fabric   | 0       |
-|    add_ln47_1_fu_361_p2                                        |     |        | add_ln47_1    | add    | fabric   | 0       |
-|    select_ln47_1_fu_397_p3                                     |     |        | select_ln47_1 | select | auto_sel | 0       |
-+----------------------------------------------------------------+-----+--------+---------------+--------+----------+---------+
++--------------------------+-----+--------+------------+--------+----------+---------+
+| Name                     | DSP | Pragma | Variable   | Op     | Impl     | Latency |
++--------------------------+-----+--------+------------+--------+----------+---------+
+| + MM                     | 7   |        |            |        |          |         |
+|   p_neg9_fu_480_p2       |     |        | p_neg9     | sub    | fabric   | 0       |
+|   p_neg_t11_fu_496_p2    |     |        | p_neg_t11  | sub    | fabric   | 0       |
+|   div_fu_512_p3          |     |        | div        | select | auto_sel | 0       |
+|   p_neg3_fu_528_p2       |     |        | p_neg3     | sub    | fabric   | 0       |
+|   p_neg_t5_fu_544_p2     |     |        | p_neg_t5   | sub    | fabric   | 0       |
+|   div2_fu_560_p3         |     |        | div2       | select | auto_sel | 0       |
+|   p_neg_fu_576_p2        |     |        | p_neg      | sub    | fabric   | 0       |
+|   p_neg_t_fu_592_p2      |     |        | p_neg_t    | sub    | fabric   | 0       |
+|   div22_fu_608_p3        |     |        | div22      | select | auto_sel | 0       |
+|   add_ln30_1_fu_644_p2   |     |        | add_ln30_1 | add    | fabric   | 0       |
+|   icmp_ln30_fu_653_p2    |     |        | icmp_ln30  | setlt  | auto     | 0       |
+|   add_ln30_fu_658_p2     |     |        | add_ln30   | add    | fabric   | 0       |
+|   empty_fu_684_p2        |     |        | empty      | add    | fabric   | 0       |
+|   icmp_ln32_fu_725_p2    |     |        | icmp_ln32  | setlt  | auto     | 0       |
+|   add_ln32_fu_730_p2     |     |        | add_ln32   | add    | fabric   | 0       |
+|   icmp_ln36_fu_744_p2    |     |        | icmp_ln36  | seteq  | auto     | 0       |
+|   add_ln36_fu_750_p2     |     |        | add_ln36   | add    | fabric   | 0       |
+|   icmp_ln38_fu_783_p2    |     |        | icmp_ln38  | seteq  | auto     | 0       |
+|   add_ln38_fu_789_p2     |     |        | add_ln38   | add    | fabric   | 0       |
+|   add_ln40_fu_799_p2     |     |        | add_ln40   | add    | fabric   | 0       |
+|   add_ln45_1_fu_809_p2   |     |        | add_ln45_1 | add    | fabric   | 0       |
+|   icmp_ln45_fu_818_p2    |     |        | icmp_ln45  | setlt  | auto     | 0       |
+|   add_ln45_fu_823_p2     |     |        | add_ln45   | add    | fabric   | 0       |
+|   icmp_ln47_fu_849_p2    |     |        | icmp_ln47  | seteq  | auto     | 0       |
+|   add_ln47_fu_855_p2     |     |        | add_ln47   | add    | fabric   | 0       |
+|   empty_54_fu_869_p2     |     |        | empty_54   | add    | fabric   | 0       |
+|   mul_32ns_32s_62_2_1_U1 | 4   |        | empty_55   | mul    | auto     | 1       |
+|   add_ln52_fu_885_p2     |     |        | add_ln52   | add    | fabric   | 0       |
+|   add_ln49_1_fu_889_p2   |     |        | add_ln49_1 | add    | fabric   | 0       |
+|   icmp_ln49_fu_894_p2    |     |        | icmp_ln49  | seteq  | auto     | 0       |
+|   add_ln49_fu_900_p2     |     |        | add_ln49   | add    | fabric   | 0       |
+|   add_ln52_1_fu_906_p2   |     |        | add_ln52_1 | add    | fabric   | 0       |
+|   add_ln52_5_fu_915_p2   |     |        | add_ln52_5 | add    | fabric   | 0       |
+|   add_ln52_2_fu_973_p2   |     |        | add_ln52_2 | add    | fabric   | 0       |
+|   add_ln52_3_fu_928_p2   |     |        | add_ln52_3 | add    | fabric   | 0       |
+|   add_ln52_4_fu_941_p2   |     |        | add_ln52_4 | add    | fabric   | 0       |
+|   icmp_ln55_fu_998_p2    |     |        | icmp_ln55  | seteq  | auto     | 0       |
+|   add_ln55_fu_1004_p2    |     |        | add_ln55   | add    | fabric   | 0       |
+|   icmp_ln61_fu_1015_p2   |     |        | icmp_ln61  | seteq  | auto     | 0       |
+|   add_ln61_fu_1021_p2    |     |        | add_ln61   | add    | fabric   | 0       |
+|   add_ln63_1_fu_1036_p2  |     |        | add_ln63_1 | add    | fabric   | 0       |
+|   mul_32s_32s_32_2_1_U2  | 3   |        | mul_ln63   | mul    | auto     | 1       |
+|   add_ln63_fu_1045_p2    |     |        | add_ln63   | add    | fabric   | 0       |
+|   add_ln70_1_fu_1051_p2  |     |        | add_ln70_1 | add    | fabric   | 0       |
+|   icmp_ln70_fu_1056_p2   |     |        | icmp_ln70  | seteq  | auto     | 0       |
+|   add_ln70_fu_1062_p2    |     |        | add_ln70   | add    | fabric   | 0       |
+|   empty_58_fu_1093_p2    |     |        | empty_58   | add    | fabric   | 0       |
+|   icmp_ln72_fu_1125_p2   |     |        | icmp_ln72  | seteq  | auto     | 0       |
+|   add_ln72_fu_1131_p2    |     |        | add_ln72   | add    | fabric   | 0       |
+|   add_ln74_fu_1141_p2    |     |        | add_ln74   | add    | fabric   | 0       |
++--------------------------+-----+--------+------------+--------+----------+---------+
 
 
 ================================================================
 == Storage Report
 ================================================================
-+-------------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
-| Name              | Usage     | Type      | BRAM | URAM | Pragma | Variable | Impl | Latency | Bitwidth, Depth, |
-|                   |           |           |      |      |        |          |      |         | Banks            |
-+-------------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
-| + MM              |           |           | 2    | 0    |        |          |      |         |                  |
-|   control_s_axi_U | interface | s_axilite |      |      |        |          |      |         |                  |
-|   gmem_m_axi_U    | interface | m_axi     | 2    |      |        |          |      |         |                  |
-+-------------------+-----------+-----------+------+------+--------+----------+------+---------+------------------+
++-------------------+--------------+-----------+------+------+--------+----------+------+---------+------------------+
+| Name              | Usage        | Type      | BRAM | URAM | Pragma | Variable | Impl | Latency | Bitwidth, Depth, |
+|                   |              |           |      |      |        |          |      |         | Banks            |
++-------------------+--------------+-----------+------+------+--------+----------+------+---------+------------------+
+| + MM              |              |           | 3    | 0    |        |          |      |         |                  |
+|   control_s_axi_U | interface    | s_axilite |      |      |        |          |      |         |                  |
+|   gmem_m_axi_U    | interface    | m_axi     | 2    |      |        |          |      |         |                  |
+|   AB_block_U      | ram_1p array |           | 1    |      |        | AB_block | auto | 1       | 32, 256, 1       |
+|   B_line_U        | ram_1p array |           |      |      |        | B_line   | auto | 1       | 32, 16, 1        |
++-------------------+--------------+-----------+------+------+--------+----------+------+---------+------------------+
 
 
 ================================================================
@@ -256,18 +236,29 @@
 +-----------+---------------------------------------+-----------------------------------------+
 | Type      | Options                               | Location                                |
 +-----------+---------------------------------------+-----------------------------------------+
-| INTERFACE | m_axi port=A bundle=gmem depth=1024   | ../MLP_baseline/mm.cpp:18 in mm, A      |
-| INTERFACE | m_axi port=B bundle=gmem depth=1024   | ../MLP_baseline/mm.cpp:19 in mm, B      |
-| INTERFACE | m_axi port=C bundle=gmem depth=32     | ../MLP_baseline/mm.cpp:20 in mm, C      |
-| INTERFACE | m_axi port=ABC bundle=gmem depth=1024 | ../MLP_baseline/mm.cpp:21 in mm, ABC    |
-| INTERFACE | s_axilite port=A bundle=control       | ../MLP_baseline/mm.cpp:23 in mm, A      |
-| INTERFACE | s_axilite port=B bundle=control       | ../MLP_baseline/mm.cpp:24 in mm, B      |
-| INTERFACE | s_axilite port=C bundle=control       | ../MLP_baseline/mm.cpp:25 in mm, C      |
-| INTERFACE | s_axilite port=ABC bundle=control     | ../MLP_baseline/mm.cpp:26 in mm, ABC    |
-| INTERFACE | s_axilite port=N bundle=control       | ../MLP_baseline/mm.cpp:27 in mm, N      |
-| INTERFACE | s_axilite port=M bundle=control       | ../MLP_baseline/mm.cpp:28 in mm, M      |
-| INTERFACE | s_axilite port=P bundle=control       | ../MLP_baseline/mm.cpp:29 in mm, P      |
-| INTERFACE | s_axilite port=return bundle=control  | ../MLP_baseline/mm.cpp:30 in mm, return |
+| INTERFACE | m_axi port=A bundle=gmem depth=1024   | ../MLP_baseline/mm.cpp:13 in mm, A      |
+| INTERFACE | m_axi port=B bundle=gmem depth=1024   | ../MLP_baseline/mm.cpp:14 in mm, B      |
+| INTERFACE | m_axi port=C bundle=gmem depth=32     | ../MLP_baseline/mm.cpp:15 in mm, C      |
+| INTERFACE | m_axi port=ABC bundle=gmem depth=1024 | ../MLP_baseline/mm.cpp:16 in mm, ABC    |
+| INTERFACE | s_axilite port=A bundle=control       | ../MLP_baseline/mm.cpp:18 in mm, A      |
+| INTERFACE | s_axilite port=B bundle=control       | ../MLP_baseline/mm.cpp:19 in mm, B      |
+| INTERFACE | s_axilite port=C bundle=control       | ../MLP_baseline/mm.cpp:20 in mm, C      |
+| INTERFACE | s_axilite port=ABC bundle=control     | ../MLP_baseline/mm.cpp:21 in mm, ABC    |
+| INTERFACE | s_axilite port=N bundle=control       | ../MLP_baseline/mm.cpp:22 in mm, N      |
+| INTERFACE | s_axilite port=M bundle=control       | ../MLP_baseline/mm.cpp:23 in mm, M      |
+| INTERFACE | s_axilite port=P bundle=control       | ../MLP_baseline/mm.cpp:24 in mm, P      |
+| INTERFACE | s_axilite port=return bundle=control  | ../MLP_baseline/mm.cpp:25 in mm, return |
+| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:31 in mm         |
+| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:33 in mm         |
+| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:37 in mm         |
+| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:39 in mm         |
+| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:46 in mm         |
+| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:48 in mm         |
+| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:50 in mm         |
+| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:56 in mm         |
+| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:62 in mm         |
+| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:71 in mm         |
+| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:73 in mm         |
 +-----------+---------------------------------------+-----------------------------------------+
 
 

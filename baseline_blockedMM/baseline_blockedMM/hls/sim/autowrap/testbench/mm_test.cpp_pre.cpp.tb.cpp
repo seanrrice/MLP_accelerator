@@ -42197,7 +42197,7 @@ void readImages(const string& imgfilename, DTYPE* data) {
 
     imgFile.close();
 }
-# 144 "C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm_test.cpp"
+# 150 "C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm_test.cpp"
 void mm_sw_cosim(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P) {
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < P; j++) {
@@ -42216,7 +42216,7 @@ const int P = 32;
 
 
 #ifndef HLS_FASTSIM
-# 160 "C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm_test.cpp"
+# 166 "C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm_test.cpp"
 int main() {
     DTYPE* y_hw = new DTYPE[N * P];
     DTYPE* y_sw = new DTYPE[N * P];
@@ -42233,13 +42233,13 @@ int main() {
 #ifndef HLS_FASTSIM
 #define MM apatb_MM_sw
 #endif
-# 172 "C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm_test.cpp"
+# 178 "C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm_test.cpp"
 MM
 #undef MM
-# 172 "C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm_test.cpp"
+# 178 "C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm_test.cpp"
 (A, B, C, y_hw, N, M, P);
 #undef MM
-# 172 "C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm_test.cpp"
+# 178 "C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm_test.cpp"
 
 
     bool match = true;
@@ -42262,5 +42262,5 @@ MM
     }
 }
 #endif
-# 192 "C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm_test.cpp"
+# 198 "C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm_test.cpp"
 

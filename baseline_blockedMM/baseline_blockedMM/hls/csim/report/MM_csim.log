@@ -1,6 +1,5 @@
 INFO: [SIM 2] *************** CSIM start ***************
 INFO: [SIM 4] CSIM will launch CLANG as the compiler.
-   Compiling ../../../../../MLP_baseline/mm_test.cpp in debug mode
    Compiling ../../../../../MLP_baseline/mm.cpp in debug mode
    Generating csim.exe
 
@@ -10,8 +9,6 @@ INFO: [SIM 4] CSIM will launch CLANG as the compiler.
 number of read values for weights: 802816
 number of read values for biases: 1024
 About to call MM...
-Entering MM...
-Finished initial MM
 Returned from MM.
 Comparing against output data 
 *******************************************
