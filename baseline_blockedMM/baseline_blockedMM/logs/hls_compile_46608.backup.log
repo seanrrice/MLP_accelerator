@@ -1,0 +1,166 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir T:/Documents/ECE574/Labs/MLP_accelerator/baseline_blockedMM/baseline_blockedMM 
+INFO: [HLS 200-2176] Writing Vitis IDE component file T:/Documents/ECE574/Labs/MLP_accelerator/baseline_blockedMM/baseline_blockedMM/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'T:/Documents/ECE574/Labs/MLP_accelerator/baseline_blockedMM/baseline_blockedMM'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../MLP_baseline/mm.cpp' from hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'T:/Documents/ECE574/Labs/MLP_accelerator/MLP_baseline/mm.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../MLP_baseline/mm.h' from hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'T:/Documents/ECE574/Labs/MLP_accelerator/MLP_baseline/mm.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/first_layer_golden_output.txt' from hls_config.cfg(9)
+INFO: [HLS 200-10] Adding test bench file 'T:/Documents/ECE574/Labs/MLP_accelerator/MLP_baseline/first_layer_golden_output.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/mm_test.cpp' from hls_config.cfg(10)
+INFO: [HLS 200-10] Adding test bench file 'T:/Documents/ECE574/Labs/MLP_accelerator/MLP_baseline/mm_test.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/mnist_images_int.txt' from hls_config.cfg(11)
+INFO: [HLS 200-10] Adding test bench file 'T:/Documents/ECE574/Labs/MLP_accelerator/MLP_baseline/mnist_images_int.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/weights_layer1.txt' from hls_config.cfg(12)
+INFO: [HLS 200-10] Adding test bench file 'T:/Documents/ECE574/Labs/MLP_accelerator/MLP_baseline/weights_layer1.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/weights_layer2.txt' from hls_config.cfg(13)
+INFO: [HLS 200-10] Adding test bench file 'T:/Documents/ECE574/Labs/MLP_accelerator/MLP_baseline/weights_layer2.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/weights_layer3.txt' from hls_config.cfg(14)
+INFO: [HLS 200-10] Adding test bench file 'T:/Documents/ECE574/Labs/MLP_accelerator/MLP_baseline/weights_layer3.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=MM' from hls_config.cfg(15)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file T:/Documents/ECE574/Labs/MLP_accelerator/baseline_blockedMM/baseline_blockedMM/vitis-comp.json
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2 seconds. CPU system time: 1 seconds. Elapsed time: 6.215 seconds; current allocated memory: 163.113 MB.
+INFO: [HLS 200-2191] C-Synthesis will use clang-16 as the compiler
+INFO: [HLS 200-10] Analyzing design file '../MLP_baseline/mm.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 6.265 seconds; current allocated memory: 165.941 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 188 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (T:/Documents/ECE574/Labs/MLP_accelerator/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,465 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (T:/Documents/ECE574/Labs/MLP_accelerator/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,127 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (T:/Documents/ECE574/Labs/MLP_accelerator/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,829 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (T:/Documents/ECE574/Labs/MLP_accelerator/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,829 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (T:/Documents/ECE574/Labs/MLP_accelerator/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 6,722 instructions in the design after the 'Array/Struct' phase of compilation. See the Design Size Report for more details (T:/Documents/ECE574/Labs/MLP_accelerator/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,341 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (T:/Documents/ECE574/Labs/MLP_accelerator/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,341 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (T:/Documents/ECE574/Labs/MLP_accelerator/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,341 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (T:/Documents/ECE574/Labs/MLP_accelerator/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 4,417 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (T:/Documents/ECE574/Labs/MLP_accelerator/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 4,160 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (T:/Documents/ECE574/Labs/MLP_accelerator/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,880 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (T:/Documents/ECE574/Labs/MLP_accelerator/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,830 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (T:/Documents/ECE574/Labs/MLP_accelerator/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,805 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (T:/Documents/ECE574/Labs/MLP_accelerator/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,866 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details (T:/Documents/ECE574/Labs/MLP_accelerator/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,607 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (T:/Documents/ECE574/Labs/MLP_accelerator/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 214-291] Loop 'VITIS_LOOP_69_9' is marked as complete unroll implied by the pipeline pragma (../MLP_baseline/mm.cpp:69:42)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_53_3' (../MLP_baseline/mm.cpp:53:30) in function 'MM' completely with a factor of 16 (../MLP_baseline/mm.cpp:7:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_55_4' (../MLP_baseline/mm.cpp:55:34) in function 'MM' completely with a factor of 16 (../MLP_baseline/mm.cpp:7:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_62_7' (../MLP_baseline/mm.cpp:62:38) in function 'MM' completely with a factor of 16 (../MLP_baseline/mm.cpp:7:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_69_9' (../MLP_baseline/mm.cpp:69:42) in function 'MM' completely with a factor of 16 (../MLP_baseline/mm.cpp:7:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_77_10' (../MLP_baseline/mm.cpp:77:31) in function 'MM' completely with a factor of 16 (../MLP_baseline/mm.cpp:7:0)
+INFO: [HLS 214-186] Unrolling loop 'VITIS_LOOP_79_11' (../MLP_baseline/mm.cpp:79:35) in function 'MM' completely with a factor of 16 (../MLP_baseline/mm.cpp:7:0)
+WARNING: [HLS 214-253] Ignored unsupported array_partition pragma on variable 'B'. This can happen when applying a pragma on a function argument with mismatched array size w.r.t. its call site, or when providing a dim too deep on an array of insufficient dimension. (../MLP_baseline/mm.cpp:44:1)
+INFO: [HLS 214-248] Applying array_partition to 'AB_block': Complete partitioning on dimension 1. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-437] Disabling loop flattening for loop 'VITIS_LOOP_61_6'. (../MLP_baseline/mm.cpp:61:34)
+INFO: [HLS 214-449] Partitioning array 'AB_block_0' dimension 1 due to constant index. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-449] Partitioning array 'AB_block_1' dimension 1 due to constant index. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-449] Partitioning array 'AB_block_2' dimension 1 due to constant index. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-449] Partitioning array 'AB_block_3' dimension 1 due to constant index. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-449] Partitioning array 'AB_block_4' dimension 1 due to constant index. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-449] Partitioning array 'AB_block_5' dimension 1 due to constant index. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-449] Partitioning array 'AB_block_6' dimension 1 due to constant index. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-449] Partitioning array 'AB_block_7' dimension 1 due to constant index. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-449] Partitioning array 'AB_block_8' dimension 1 due to constant index. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-449] Partitioning array 'AB_block_9' dimension 1 due to constant index. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-449] Partitioning array 'AB_block_10' dimension 1 due to constant index. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-449] Partitioning array 'AB_block_11' dimension 1 due to constant index. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-449] Partitioning array 'AB_block_12' dimension 1 due to constant index. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-449] Partitioning array 'AB_block_13' dimension 1 due to constant index. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-449] Partitioning array 'AB_block_14' dimension 1 due to constant index. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-449] Partitioning array 'AB_block_15' dimension 1 due to constant index. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-248] Applying array_partition to 'AB_block_0': Complete partitioning on dimension 1. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-248] Applying array_partition to 'AB_block_1': Complete partitioning on dimension 1. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-248] Applying array_partition to 'AB_block_2': Complete partitioning on dimension 1. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-248] Applying array_partition to 'AB_block_3': Complete partitioning on dimension 1. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-248] Applying array_partition to 'AB_block_4': Complete partitioning on dimension 1. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-248] Applying array_partition to 'AB_block_5': Complete partitioning on dimension 1. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-248] Applying array_partition to 'AB_block_6': Complete partitioning on dimension 1. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-248] Applying array_partition to 'AB_block_7': Complete partitioning on dimension 1. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-248] Applying array_partition to 'AB_block_8': Complete partitioning on dimension 1. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-248] Applying array_partition to 'AB_block_9': Complete partitioning on dimension 1. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-248] Applying array_partition to 'AB_block_10': Complete partitioning on dimension 1. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-248] Applying array_partition to 'AB_block_11': Complete partitioning on dimension 1. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-248] Applying array_partition to 'AB_block_12': Complete partitioning on dimension 1. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-248] Applying array_partition to 'AB_block_13': Complete partitioning on dimension 1. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-248] Applying array_partition to 'AB_block_14': Complete partitioning on dimension 1. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-248] Applying array_partition to 'AB_block_15': Complete partitioning on dimension 1. (../MLP_baseline/mm.cpp:40:11)
+INFO: [HLS 214-115] Multiple burst reads of length 16 and bit width 32 has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../MLP_baseline/mm.cpp:57:38)
+INFO: [HLS 214-115] Multiple burst reads of length 16 and bit width 32 has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../MLP_baseline/mm.cpp:64:37)
+INFO: [HLS 214-115] Multiple burst writes of length 16 and bit width 32 has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../MLP_baseline/mm.cpp:81:45)
+INFO: [HLS 214-115] Multiple burst writes of length 16 and bit width 32 has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../MLP_baseline/mm.cpp:51:64)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 16.856 seconds; current allocated memory: 171.504 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.004 seconds; current allocated memory: 171.504 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.208 seconds; current allocated memory: 180.891 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.105 seconds; current allocated memory: 183.402 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.54 seconds; current allocated memory: 213.137 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 1.858 seconds; current allocated memory: 241.910 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'MM' ...
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'MM_Pipeline_VITIS_LOOP_66_8' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_66_8'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 17, loop 'VITIS_LOOP_66_8'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 1.987 seconds; current allocated memory: 274.285 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.837 seconds; current allocated memory: 274.285 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'MM' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 2 seconds. CPU system time: 1 seconds. Elapsed time: 1.4 seconds; current allocated memory: 289.844 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.459 seconds; current allocated memory: 289.844 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'MM_Pipeline_VITIS_LOOP_66_8' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'MM_Pipeline_VITIS_LOOP_66_8' pipeline 'VITIS_LOOP_66_8' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-104] Estimated max fanout for 'MM_Pipeline_VITIS_LOOP_66_8' is 8720 from HDL expression: ((1'b0 == ap_block_pp0_stage0_subdone_grp0_done_reg) & (1'b0 == ap_block_pp0_stage0_11001_grp0))
+INFO: [RTGEN 206-100] Generating core module 'mul_31ns_32s_62_2_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_32s_32s_32_2_1': 16 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_32_1_1': 16 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'MM_Pipeline_VITIS_LOOP_66_8'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 1.927 seconds; current allocated memory: 298.062 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'MM' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/A' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/C' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/ABC' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/N' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/M' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/P' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'MM' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'A', 'B', 'C', 'ABC', 'N', 'M', 'P' to AXI-Lite port control.
+INFO: [RTGEN 206-104] Estimated max fanout for 'MM' is 9337 from HDL expression: (1'b1 == ap_CS_fsm_state34)
+INFO: [RTGEN 206-100] Finished creating RTL model for 'MM'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 2.791 seconds; current allocated memory: 340.992 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 2.494 seconds; current allocated memory: 377.316 MB.
+ERROR: [HLS 200-2014] Failed to generated HBM driver object file hbm_helper_aarch64.o
+ERROR: Problem generating csynth RTL: Failed to generate HBM driver object file hbm_helper_aarch64.o
+INFO: [HLS 200-112] Total CPU user time: 16 seconds. Total CPU system time: 3 seconds. Total elapsed time: 45.7 seconds; peak allocated memory: 377.316 MB.

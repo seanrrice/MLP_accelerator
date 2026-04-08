@@ -1,6 +1,6 @@
 // ==============================================================
-// Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.1 (64-bit)
-// Tool Version Limit: 2025.05
+// Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.2 (64-bit)
+// Tool Version Limit: 2025.11
 // Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 // Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 // 
@@ -15,7 +15,7 @@
 `define AUTOTB_PER_RESULT_TRANS_FILE "MM.performance.result.transaction.xml"
 `define AUTOTB_TOP_INST AESL_inst_apatb_MM_top
 `define AUTOTB_MAX_ALLOW_LATENCY  15000000
-`define AUTOTB_CLOCK_PERIOD_DIV2 5.00
+`define AUTOTB_CLOCK_PERIOD_DIV2 7.50
 
 `define AESL_DEPTH_gmem 1
 `define AESL_DEPTH_A 1

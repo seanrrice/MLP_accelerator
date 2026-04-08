@@ -1,0 +1,59 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM 
+INFO: [HLS 200-2176] Writing Vitis IDE component file Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM'.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../MLP_baseline/mm.cpp' from hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'Z:/Labs/clab/MLP_baseline/mm.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../MLP_baseline/mm.h' from hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'Z:/Labs/clab/MLP_baseline/mm.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/first_layer_golden_output.txt' from hls_config.cfg(9)
+INFO: [HLS 200-10] Adding test bench file 'Z:/Labs/clab/MLP_baseline/first_layer_golden_output.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/mm_test.cpp' from hls_config.cfg(10)
+INFO: [HLS 200-10] Adding test bench file 'Z:/Labs/clab/MLP_baseline/mm_test.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/mnist_images_int.txt' from hls_config.cfg(11)
+INFO: [HLS 200-10] Adding test bench file 'Z:/Labs/clab/MLP_baseline/mnist_images_int.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/weights_layer1.txt' from hls_config.cfg(12)
+INFO: [HLS 200-10] Adding test bench file 'Z:/Labs/clab/MLP_baseline/weights_layer1.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/weights_layer2.txt' from hls_config.cfg(13)
+INFO: [HLS 200-10] Adding test bench file 'Z:/Labs/clab/MLP_baseline/weights_layer2.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/weights_layer3.txt' from hls_config.cfg(14)
+INFO: [HLS 200-10] Adding test bench file 'Z:/Labs/clab/MLP_baseline/weights_layer3.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=MM' from hls_config.cfg(15)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from hls_config.cfg(1)
+INFO: [HLS 200-1465] Applying config ini 'clock=15' from hls_config.cfg(16)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 15ns.
+INFO: [HLS 200-1465] Applying config ini 'cosim.trace_level=all' from hls_config.cfg(17)
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/vitis-comp.json
+INFO: [COSIM 212-47] Using XSIM for RTL simulation.
+INFO: [COSIM 212-14] Instrumenting C test bench ...
+   Build using "T:/AMDDesignTools/2025.2/Vitis/win64/tools/clang-16/bin/clang++"
+   Compiling apatb_MM.cpp
+   Compiling mm.cpp_pre.cpp.tb.cpp
+   Compiling mm_test.cpp_pre.cpp.tb.cpp
+   Compiling apatb_MM_ir.ll
+   Generating cosim.tv.exe
+INFO: [COSIM 212-302] Starting C TB testing ... 
+ERROR: System received a signal named SIGSEGV and the program has to stop immediately!
+This signal was generated when a program tries to read or write outside the memory that is allocated for it, or to write memory that can only be read.
+Possible cause of this problem may be:
+  1) Missing depth information for one or more pointers to arrays in the interface;
+  2) Insufficient depth setting for array argument(s);
+  3) Excessive depth setting for array argument(s), that exceeds the maximum virtual memory size for the process;
+  4) Null pointer etc.
+Current execution stopped during CodeState = ENTER_WRAPC.
+You can search CodeState variable name in apatb*.cpp file under ./sim/wrapc dir to locate the position.
+
+ERROR: [COSIM 212-360] Aborting co-simulation: C TB simulation failed.
+ERROR: [COSIM 212-320] C TB testing failed, stop generating test vectors. Please check C TB or re-run cosim.
+ERROR: [COSIM 212-5] *** C/RTL co-simulation file generation failed. ***
+ERROR: [COSIM 212-4] *** C/RTL co-simulation finished: FAIL ***
+ERROR: 
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 2 seconds. Total elapsed time: 14.575 seconds; peak allocated memory: 231.656 MB.

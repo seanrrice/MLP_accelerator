@@ -1,6 +1,6 @@
 # ==============================================================
-# Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.1 (64-bit)
-# Tool Version Limit: 2025.05
+# Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.2 (64-bit)
+# Tool Version Limit: 2025.11
 # Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 # Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 # 
@@ -11,7 +11,7 @@ source -notrace ./extraction.tcl
 set vivado_proj_name project
 set vivado_proj_dir .
 set target_device "${device}${package}${speed}"
-set target_clk_period_ns "10.000"
+set target_clk_period_ns "15.000"
 set target_clk_freq_hz [expr {floor(1000 / $target_clk_period_ns) * 1000000}]
 set other_clks_freq_hz {}
 set ip_vlnv xilinx.com:hls:MM:1.0
@@ -48,8 +48,8 @@ dict set report_options language $language
 dict set report_options clock_name $clock
 dict set report_options error_if_impl_timing_fails false
 dict set report_options topmodule "MM"
-dict set report_options funcmodules {MM_MM_Pipeline_VITIS_LOOP_35_2 MM_MM_Pipeline_VITIS_LOOP_46_6_VITIS_LOOP_47_7_VITIS_LOOP_50_8}
-dict set report_options bindmodules {MM_flow_control_loop_pipe_sequential_init MM_mul_32s_32s_32_2_1 MM_mul_62s_32s_62_5_1 MM_mul_32ns_32ns_62_2_1 MM_mul_64ns_64ns_128_5_1 MM_mul_64ns_128ns_192_5_1 MM_gmem_m_axi MM_control_s_axi}
+dict set report_options funcmodules MM_MM_Pipeline_VITIS_LOOP_65_8
+dict set report_options bindmodules {MM_mul_31ns_32s_62_1_1 MM_mul_32s_32s_32_1_1 MM_sparsemux_33_4_32_1_1 MM_flow_control_loop_pipe_sequential_init MM_gmem_m_axi MM_control_s_axi}
 dict set report_options max_module_depth 6
 
 

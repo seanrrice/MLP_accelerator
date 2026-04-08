@@ -1,5 +1,4 @@
 INFO: [SIM 2] *************** CSIM start ***************
-   Compiling ../../../../../MLP_baseline/mm_test.cpp in debug mode
    Compiling ../../../../../MLP_baseline/mm.cpp in debug mode
    Generating csim.exe
 Entering MM...

@@ -10,6 +10,7 @@
 typedef int DTYPE;
 const int BATCH_SIZE = 128;
 const int IMAGE_SIZE = 28*28;
+const int BLOCK_SIZE = 16; //block size
 
 using namespace std;
 

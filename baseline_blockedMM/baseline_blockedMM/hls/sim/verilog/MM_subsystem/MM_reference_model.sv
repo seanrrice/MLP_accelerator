@@ -1,6 +1,6 @@
 //==============================================================
-//Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.1 (64-bit)
-//Tool Version Limit: 2025.05
+//Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.2 (64-bit)
+//Tool Version Limit: 2025.11
 //Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 //Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 //
@@ -88,19 +88,19 @@ misc_if.dut2tb_ap_done = 0;
 
         fpath.push_back(`TV_IN_N);
         mem_blk_pages_control_N = mem_model_pages#(32,8)::type_id::create("mem_blk_pages_control_N");
-        mem_blk_pages_control_N.tvinload_pagechk_atinit(fpath, 1*((32+7)/8), 0, 64, "");
+        mem_blk_pages_control_N.tvinload_pagechk_atinit(fpath, 1*((32+7)/8), 0, 64);
         fpath.delete;
 
 
         fpath.push_back(`TV_IN_M);
         mem_blk_pages_control_M = mem_model_pages#(32,8)::type_id::create("mem_blk_pages_control_M");
-        mem_blk_pages_control_M.tvinload_pagechk_atinit(fpath, 1*((32+7)/8), 0, 72, "");
+        mem_blk_pages_control_M.tvinload_pagechk_atinit(fpath, 1*((32+7)/8), 0, 72);
         fpath.delete;
 
 
         fpath.push_back(`TV_IN_P);
         mem_blk_pages_control_P = mem_model_pages#(32,8)::type_id::create("mem_blk_pages_control_P");
-        mem_blk_pages_control_P.tvinload_pagechk_atinit(fpath, 1*((32+7)/8), 0, 80, "");
+        mem_blk_pages_control_P.tvinload_pagechk_atinit(fpath, 1*((32+7)/8), 0, 80);
         fpath.delete;
 
         fpath.push_back(`TV_IN_gmem);
@@ -111,7 +111,7 @@ misc_if.dut2tb_ap_done = 0;
         mem_blk_pages_gmem.maxi_bundlevar_fpath["C"]=`TV_IN_OFFSET_C;
         mem_blk_pages_gmem.maxi_bundlevar_fpath["ABC"]=`TV_IN_OFFSET_ABC;
         mem_blk_pages_gmem.set_binary(1);
-        mem_blk_pages_gmem.tvinload_pagechk_atinit(fpath, 3104*((32+7)/8), 0, 0, "");
+        mem_blk_pages_gmem.tvinload_pagechk_atinit(fpath, 3104*((32+7)/8), 0, 0);
         mem_blk_pages_gmem.tvoutdump_atinit(`TV_OUT_gmem);
         fpath.delete();
 
@@ -180,6 +180,20 @@ misc_if.dut2tb_ap_done = 0;
                 `uvm_info(this.get_full_name(), "trigger event DUT2TB_AP_READY", UVM_LOW)
                 -> dut2tb_ap_ready;
                  misc_if.tb2dut_ap_start = 0;
+            end
+            forever begin
+                forever begin
+                    @(negedge misc_if.clock);
+                    if (misc_if.dut2tb_ap_done_kernel === 1)   break;
+                end
+                @(posedge misc_if.clock);
+                fork
+                    begin
+                        @(negedge misc_if.clock);
+                        `uvm_info(this.get_full_name(), "trigger event dut2tb_ap_done_kernel_evt", UVM_LOW)
+                        -> misc_if.dut2tb_ap_done_kernel_evt;
+                    end
+                join_none
             end
         join
     endtask

@@ -1,6 +1,6 @@
 [
   {
-    "directory": "T:\\Documents\\ECE574\\Labs\\MLP_accelerator\\baseline_blockedMM",
+    "directory": "Z:\\Labs\\MLP_accelerator\\baseline_blockedMM",
     "arguments": [
       "T:\\AMDDesignTools\\2025.2\\Vitis\\win64\\tools\\vcxx\\libexec\\clang++.exe",
       "--sysroot=T:\\AMDDesignTools\\2025.2\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
@@ -8,20 +8,20 @@
       "-hls-syn-headers-dir=T:\\AMDDesignTools\\2025.2\\Vitis\\common\\technology\\autopilot",
       "-fhlstoplevel=MM",
       "-c",
-      "T:\\Documents\\ECE574\\Labs\\MLP_accelerator\\MLP_baseline\\mm.cpp"
+      "Z:\\Labs\\MLP_accelerator\\MLP_baseline\\mm.cpp"
     ],
-    "file": "T:\\Documents\\ECE574\\Labs\\MLP_accelerator\\MLP_baseline\\mm.cpp"
+    "file": "Z:\\Labs\\MLP_accelerator\\MLP_baseline\\mm.cpp"
   },
   {
-    "directory": "T:\\Documents\\ECE574\\Labs\\MLP_accelerator\\baseline_blockedMM",
+    "directory": "Z:\\Labs\\MLP_accelerator\\baseline_blockedMM",
     "arguments": [
       "T:\\AMDDesignTools\\2025.2\\Vitis\\win64\\tools\\vcxx\\libexec\\clang++.exe",
       "--sysroot=T:\\AMDDesignTools\\2025.2\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
       "-fhls-tb",
       "-hls-sim-headers-dir=T:\\AMDDesignTools\\2025.2\\Vitis\\include",
       "-c",
-      "T:\\Documents\\ECE574\\Labs\\MLP_accelerator\\MLP_baseline\\mm_test.cpp"
+      "Z:\\Labs\\MLP_accelerator\\MLP_baseline\\mm_test.cpp"
     ],
-    "file": "T:\\Documents\\ECE574\\Labs\\MLP_accelerator\\MLP_baseline\\mm_test.cpp"
+    "file": "Z:\\Labs\\MLP_accelerator\\MLP_baseline\\mm_test.cpp"
   }
 ]

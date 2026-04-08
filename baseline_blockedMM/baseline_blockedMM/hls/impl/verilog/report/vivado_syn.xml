@@ -1,37 +1,37 @@
 <profile>
 <RunData>
   <RUN_TYPE>synth</RUN_TYPE>
-  <VIVADO_VERSION>v.2025.1</VIVADO_VERSION>
+  <VIVADO_VERSION>v.2025.2</VIVADO_VERSION>
   <ROOT_MODULE_CELL>bd_0_i/hls_inst</ROOT_MODULE_CELL>
 </RunData>
 <TimingReport>
-  <TargetClockPeriod>10.000</TargetClockPeriod>
-  <AchievedClockPeriod>9.012</AchievedClockPeriod>
+  <TargetClockPeriod>15.000</TargetClockPeriod>
+  <AchievedClockPeriod>7.791</AchievedClockPeriod>
   <CLOCK_NAME>ap_clk</CLOCK_NAME>
-  <CP_FINAL>9.012</CP_FINAL>
+  <CP_FINAL>7.791</CP_FINAL>
   <CP_ROUTE>NA</CP_ROUTE>
-  <CP_SYNTH>9.012</CP_SYNTH>
-  <CP_TARGET>10.000</CP_TARGET>
-  <SLACK_FINAL>0.988</SLACK_FINAL>
+  <CP_SYNTH>7.791</CP_SYNTH>
+  <CP_TARGET>15.000</CP_TARGET>
+  <SLACK_FINAL>7.209</SLACK_FINAL>
   <SLACK_ROUTE></SLACK_ROUTE>
-  <SLACK_SYNTH>0.988</SLACK_SYNTH>
+  <SLACK_SYNTH>7.209</SLACK_SYNTH>
   <TIMING_MET>TRUE</TIMING_MET>
   <TNS_FINAL>0.000</TNS_FINAL>
   <TNS_ROUTE>NA</TNS_ROUTE>
   <TNS_SYNTH>0.000</TNS_SYNTH>
-  <WNS_FINAL>0.988</WNS_FINAL>
+  <WNS_FINAL>7.209</WNS_FINAL>
   <WNS_ROUTE>NA</WNS_ROUTE>
-  <WNS_SYNTH>0.988</WNS_SYNTH>
+  <WNS_SYNTH>7.209</WNS_SYNTH>
 </TimingReport>
 <AreaReport>
   <Resources>
     <BRAM>1</BRAM>
     <CLB>0</CLB>
-    <DSP>68</DSP>
-    <FF>7002</FF>
+    <DSP>52</DSP>
+    <FF>32193</FF>
     <LATCH>0</LATCH>
-    <LUT>4527</LUT>
-    <SRL>292</SRL>
+    <LUT>28453</LUT>
+    <SRL>270</SRL>
     <URAM>0</URAM>
   </Resources>
   <AvailableResources>
@@ -45,217 +45,124 @@
 </AreaReport>
 <RtlModules>
   <RtlModule CELL="inst" DEPTH="0" FILE_NAME="bd_0_hls_inst_0.v" ORIG_REF_NAME="MM" TOP_CELL="bd_0_i/hls_inst/inst">
-    <SubModules count="7">control_s_axi_U gmem_m_axi_U grp_MM_Pipeline_VITIS_LOOP_35_2_fu_326 grp_MM_Pipeline_VITIS_LOOP_46_6_VITIS_LOOP_47_7_VITIS_LOOP_50_8_fu_335 mul_32ns_32ns_62_2_1_U22 mul_64ns_128ns_192_5_1_U24 mul_64ns_64ns_128_5_1_U23</SubModules>
-    <Resources BRAM="1" DSP="68" FF="7002" LUT="4527" LogicLUT="4235" RAMB18="1" SRL="292"/>
-    <LocalResources FF="2108" LUT="591" LogicLUT="591"/>
+    <SubModules count="3">control_s_axi_U gmem_m_axi_U grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200</SubModules>
+    <Resources BRAM="1" DSP="52" FF="32193" LUT="28453" LogicLUT="28183" RAMB18="1" SRL="270"/>
+    <LocalResources FF="21257" LUT="6895" LogicLUT="6891" SRL="4"/>
   </RtlModule>
   <RtlModule CELL="inst/control_s_axi_U" DEPTH="1" FILE_NAME="MM.v" ORIG_REF_NAME="MM_control_s_axi">
-    <Resources FF="406" LUT="449" LogicLUT="449"/>
+    <Resources FF="406" LUT="667" LogicLUT="667"/>
   </RtlModule>
   <RtlModule CELL="inst/gmem_m_axi_U" DEPTH="1" FILE_NAME="MM.v" ORIG_REF_NAME="MM_gmem_m_axi">
-    <Resources BRAM="1" FF="2007" LUT="1485" LogicLUT="1193" RAMB18="1" SRL="292"/>
+    <Resources BRAM="1" FF="1879" LUT="6122" LogicLUT="5861" RAMB18="1" SRL="261"/>
   </RtlModule>
-  <RtlModule CELL="inst/grp_MM_Pipeline_VITIS_LOOP_35_2_fu_326" DEPTH="1" FILE_NAME="MM.v" ORIG_REF_NAME="MM_MM_Pipeline_VITIS_LOOP_35_2">
-    <SubModules count="1">flow_control_loop_pipe_sequential_init_U</SubModules>
-    <Resources FF="34" LUT="63" LogicLUT="63"/>
+  <RtlModule CELL="inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200" DEPTH="1" FILE_NAME="MM.v" ORIG_REF_NAME="MM_MM_Pipeline_VITIS_LOOP_65_8">
+    <SubModules count="18">flow_control_loop_pipe_sequential_init_U mul_31ns_32s_62_1_1_U1 mul_32s_32s_32_1_1_U10 mul_32s_32s_32_1_1_U11 mul_32s_32s_32_1_1_U12 mul_32s_32s_32_1_1_U13 mul_32s_32s_32_1_1_U14 mul_32s_32s_32_1_1_U15 mul_32s_32s_32_1_1_U16 mul_32s_32s_32_1_1_U17 mul_32s_32s_32_1_1_U2 mul_32s_32s_32_1_1_U3 mul_32s_32s_32_1_1_U4 mul_32s_32s_32_1_1_U5 mul_32s_32s_32_1_1_U6 mul_32s_32s_32_1_1_U7 mul_32s_32s_32_1_1_U8 mul_32s_32s_32_1_1_U9</SubModules>
+    <Resources DSP="52" FF="8651" LUT="14769" LogicLUT="14764" SRL="5"/>
+    <LocalResources DSP="16" FF="8649" LUT="6187" LogicLUT="6182" SRL="5"/>
   </RtlModule>
-  <RtlModule CELL="inst/grp_MM_Pipeline_VITIS_LOOP_35_2_fu_326/flow_control_loop_pipe_sequential_init_U" DEPTH="2" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_35_2.v" ORIG_REF_NAME="MM_flow_control_loop_pipe_sequential_init">
-    <Resources FF="2" LUT="62" LogicLUT="62"/>
+  <RtlModule CELL="inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/flow_control_loop_pipe_sequential_init_U" DEPTH="2" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_65_8.v" ORIG_REF_NAME="MM_flow_control_loop_pipe_sequential_init">
+    <Resources FF="2" LUT="5613" LogicLUT="5613"/>
   </RtlModule>
-  <RtlModule CELL="inst/grp_MM_Pipeline_VITIS_LOOP_46_6_VITIS_LOOP_47_7_VITIS_LOOP_50_8_fu_335" DEPTH="1" FILE_NAME="MM.v" ORIG_REF_NAME="MM_MM_Pipeline_VITIS_LOOP_46_6_VITIS_LOOP_47_7_VITIS_LOOP_50_8">
-    <SubModules count="4">flow_control_loop_pipe_sequential_init_U mul_32s_32s_32_2_1_U5 mul_62s_32s_62_5_1_U6 mul_62s_32s_62_5_1_U7</SubModules>
-    <Resources DSP="17" FF="1940" LUT="1137" LogicLUT="1137"/>
-    <LocalResources FF="1729" LUT="852" LogicLUT="852"/>
+  <RtlModule CELL="inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_31ns_32s_62_1_1_U1" DEPTH="2" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_65_8.v" ORIG_REF_NAME="MM_mul_31ns_32s_62_1_1">
+    <Resources DSP="2" LUT="106" LogicLUT="106"/>
   </RtlModule>
-  <RtlModule CELL="inst/grp_MM_Pipeline_VITIS_LOOP_46_6_VITIS_LOOP_47_7_VITIS_LOOP_50_8_fu_335/flow_control_loop_pipe_sequential_init_U" DEPTH="2" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_46_6_VITIS_LOOP_47_7_VITIS_LOOP_50_8.v" ORIG_REF_NAME="MM_flow_control_loop_pipe_sequential_init">
-    <Resources FF="2" LUT="67" LogicLUT="67"/>
+  <RtlModule CELL="inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U10" DEPTH="2" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_65_8.v" ORIG_REF_NAME="MM_mul_32s_32s_32_1_1">
+    <Resources DSP="2" LUT="271" LogicLUT="271"/>
   </RtlModule>
-  <RtlModule CELL="inst/grp_MM_Pipeline_VITIS_LOOP_46_6_VITIS_LOOP_47_7_VITIS_LOOP_50_8_fu_335/mul_32s_32s_32_2_1_U5" DEPTH="2" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_46_6_VITIS_LOOP_47_7_VITIS_LOOP_50_8.v" ORIG_REF_NAME="MM_mul_32s_32s_32_2_1">
+  <RtlModule CELL="inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U11" DEPTH="2" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_65_8.v" ORIG_REF_NAME="MM_mul_32s_32s_32_1_1">
+    <Resources DSP="2" LUT="271" LogicLUT="271"/>
   </RtlModule>
-  <RtlModule CELL="inst/grp_MM_Pipeline_VITIS_LOOP_46_6_VITIS_LOOP_47_7_VITIS_LOOP_50_8_fu_335/mul_62s_32s_62_5_1_U6" DEPTH="2" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_46_6_VITIS_LOOP_47_7_VITIS_LOOP_50_8.v" ORIG_REF_NAME="MM_mul_62s_32s_62_5_1">
-    <Resources DSP="7" FF="96" LUT="124" LogicLUT="124"/>
+  <RtlModule CELL="inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U12" DEPTH="2" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_65_8.v" ORIG_REF_NAME="MM_mul_32s_32s_32_1_1">
+    <Resources DSP="2" LUT="271" LogicLUT="271"/>
   </RtlModule>
-  <RtlModule CELL="inst/grp_MM_Pipeline_VITIS_LOOP_46_6_VITIS_LOOP_47_7_VITIS_LOOP_50_8_fu_335/mul_62s_32s_62_5_1_U7" DEPTH="2" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_46_6_VITIS_LOOP_47_7_VITIS_LOOP_50_8.v" ORIG_REF_NAME="MM_mul_62s_32s_62_5_1">
-    <Resources DSP="7" FF="96" LUT="76" LogicLUT="76"/>
+  <RtlModule CELL="inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U13" DEPTH="2" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_65_8.v" ORIG_REF_NAME="MM_mul_32s_32s_32_1_1">
+    <Resources DSP="2" LUT="271" LogicLUT="271"/>
   </RtlModule>
-  <RtlModule CELL="inst/mul_32ns_32ns_62_2_1_U22" DEPTH="1" FILE_NAME="MM.v" ORIG_REF_NAME="MM_mul_32ns_32ns_62_2_1">
+  <RtlModule CELL="inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U14" DEPTH="2" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_65_8.v" ORIG_REF_NAME="MM_mul_32s_32s_32_1_1">
+    <Resources DSP="2" LUT="271" LogicLUT="271"/>
   </RtlModule>
-  <RtlModule CELL="inst/mul_64ns_128ns_192_5_1_U24" DEPTH="1" FILE_NAME="MM.v" ORIG_REF_NAME="MM_mul_64ns_128ns_192_5_1">
-    <Resources DSP="32" FF="311" LUT="517" LogicLUT="517"/>
+  <RtlModule CELL="inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U15" DEPTH="2" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_65_8.v" ORIG_REF_NAME="MM_mul_32s_32s_32_1_1">
+    <Resources DSP="2" LUT="271" LogicLUT="271"/>
   </RtlModule>
-  <RtlModule CELL="inst/mul_64ns_64ns_128_5_1_U23" DEPTH="1" FILE_NAME="MM.v" ORIG_REF_NAME="MM_mul_64ns_64ns_128_5_1">
-    <Resources DSP="16" FF="179" LUT="270" LogicLUT="270"/>
+  <RtlModule CELL="inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U16" DEPTH="2" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_65_8.v" ORIG_REF_NAME="MM_mul_32s_32s_32_1_1">
+    <Resources DSP="2" LUT="271" LogicLUT="271"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U17" DEPTH="2" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_65_8.v" ORIG_REF_NAME="MM_mul_32s_32s_32_1_1">
+    <Resources DSP="2" LUT="271" LogicLUT="271"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U2" DEPTH="2" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_65_8.v" ORIG_REF_NAME="MM_mul_32s_32s_32_1_1">
+    <Resources DSP="2" LUT="271" LogicLUT="271"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U3" DEPTH="2" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_65_8.v" ORIG_REF_NAME="MM_mul_32s_32s_32_1_1">
+    <Resources DSP="2" LUT="271" LogicLUT="271"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U4" DEPTH="2" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_65_8.v" ORIG_REF_NAME="MM_mul_32s_32s_32_1_1">
+    <Resources DSP="2" LUT="271" LogicLUT="271"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U5" DEPTH="2" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_65_8.v" ORIG_REF_NAME="MM_mul_32s_32s_32_1_1">
+  </RtlModule>
+  <RtlModule CELL="inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U6" DEPTH="2" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_65_8.v" ORIG_REF_NAME="MM_mul_32s_32s_32_1_1">
+    <Resources DSP="2" LUT="271" LogicLUT="271"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U7" DEPTH="2" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_65_8.v" ORIG_REF_NAME="MM_mul_32s_32s_32_1_1">
+    <Resources DSP="2" LUT="271" LogicLUT="271"/>
+  </RtlModule>
+  <RtlModule CELL="inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U8" DEPTH="2" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_65_8.v" ORIG_REF_NAME="MM_mul_32s_32s_32_1_1">
+  </RtlModule>
+  <RtlModule CELL="inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U9" DEPTH="2" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_65_8.v" ORIG_REF_NAME="MM_mul_32s_32s_32_1_1">
+    <Resources DSP="2" LUT="271" LogicLUT="271"/>
   </RtlModule>
 </RtlModules>
 <TimingPaths>
-  <TPATH DATAPATH_DELAY="9.037" DATAPATH_LOGIC_DELAY="5.895" DATAPATH_NET_DELAY="3.142" ENDPOINT_PIN="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[189]/D" LOGIC_LEVELS="30" MAX_FANOUT="166" SLACK="0.988" STARTPOINT_PIN="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff1_reg__9/CLK">
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff1_reg__9" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2[59]_i_13" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[59]_i_10" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[63]_i_10" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[67]_i_10" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[71]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[75]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[79]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[83]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[87]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[91]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[95]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[99]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[135]_i_10" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[139]_i_10" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2[139]_i_3" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2[139]_i_7" PRIMITIVE_TYPE="LUT.others.LUT4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[139]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[143]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[147]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[151]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[155]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[159]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[163]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[167]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[171]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[175]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[179]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[183]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[187]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[191]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[189]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="76"/>
+  <TPATH DATAPATH_DELAY="7.816" DATAPATH_LOGIC_DELAY="6.952" DATAPATH_NET_DELAY="0.864" ENDPOINT_PIN="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_ln70_3_reg_13661_reg[29]/D" LOGIC_LEVELS="6" MAX_FANOUT="2" SLACK="7.209" STARTPOINT_PIN="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U5/tmp_product__0/CLK">
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U5/tmp_product__0" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U5/tmp_product__1" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U5/mul_ln70_3_reg_13661[19]_i_4" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U5/mul_ln70_3_reg_13661_reg[19]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U5/mul_ln70_3_reg_13661_reg[23]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U5/mul_ln70_3_reg_13661_reg[27]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U5/mul_ln70_3_reg_13661_reg[31]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_ln70_3_reg_13661_reg[29]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_65_8.v" LINE_NUMBER="6921"/>
   </TPATH>
-  <TPATH DATAPATH_DELAY="9.031" DATAPATH_LOGIC_DELAY="5.889" DATAPATH_NET_DELAY="3.142" ENDPOINT_PIN="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[191]/D" LOGIC_LEVELS="30" MAX_FANOUT="166" SLACK="0.994" STARTPOINT_PIN="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff1_reg__9/CLK">
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff1_reg__9" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2[59]_i_13" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[59]_i_10" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[63]_i_10" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[67]_i_10" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[71]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[75]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[79]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[83]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[87]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[91]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[95]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[99]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[135]_i_10" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[139]_i_10" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2[139]_i_3" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2[139]_i_7" PRIMITIVE_TYPE="LUT.others.LUT4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[139]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[143]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[147]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[151]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[155]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[159]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[163]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[167]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[171]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[175]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[179]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[183]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[187]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[191]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[191]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="76"/>
+  <TPATH DATAPATH_DELAY="7.816" DATAPATH_LOGIC_DELAY="6.952" DATAPATH_NET_DELAY="0.864" ENDPOINT_PIN="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_ln70_6_reg_13676_reg[29]/D" LOGIC_LEVELS="6" MAX_FANOUT="2" SLACK="7.209" STARTPOINT_PIN="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U8/tmp_product__0/CLK">
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U8/tmp_product__0" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U8/tmp_product__1" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U8/mul_ln70_6_reg_13676[19]_i_4" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U8/mul_ln70_6_reg_13676_reg[19]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U8/mul_ln70_6_reg_13676_reg[23]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U8/mul_ln70_6_reg_13676_reg[27]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U8/mul_ln70_6_reg_13676_reg[31]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_ln70_6_reg_13676_reg[29]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_65_8.v" LINE_NUMBER="6924"/>
   </TPATH>
-  <TPATH DATAPATH_DELAY="8.956" DATAPATH_LOGIC_DELAY="5.814" DATAPATH_NET_DELAY="3.142" ENDPOINT_PIN="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[190]/D" LOGIC_LEVELS="30" MAX_FANOUT="166" SLACK="1.069" STARTPOINT_PIN="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff1_reg__9/CLK">
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff1_reg__9" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2[59]_i_13" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[59]_i_10" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[63]_i_10" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[67]_i_10" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[71]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[75]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[79]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[83]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[87]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[91]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[95]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[99]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[135]_i_10" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[139]_i_10" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2[139]_i_3" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2[139]_i_7" PRIMITIVE_TYPE="LUT.others.LUT4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[139]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[143]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[147]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[151]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[155]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[159]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[163]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[167]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[171]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[175]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[179]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[183]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[187]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[191]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[190]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="76"/>
+  <TPATH DATAPATH_DELAY="7.810" DATAPATH_LOGIC_DELAY="6.946" DATAPATH_NET_DELAY="0.864" ENDPOINT_PIN="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_ln70_3_reg_13661_reg[31]/D" LOGIC_LEVELS="6" MAX_FANOUT="2" SLACK="7.215" STARTPOINT_PIN="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U5/tmp_product__0/CLK">
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U5/tmp_product__0" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U5/tmp_product__1" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U5/mul_ln70_3_reg_13661[19]_i_4" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U5/mul_ln70_3_reg_13661_reg[19]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U5/mul_ln70_3_reg_13661_reg[23]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U5/mul_ln70_3_reg_13661_reg[27]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U5/mul_ln70_3_reg_13661_reg[31]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_ln70_3_reg_13661_reg[31]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_65_8.v" LINE_NUMBER="6921"/>
   </TPATH>
-  <TPATH DATAPATH_DELAY="8.932" DATAPATH_LOGIC_DELAY="5.790" DATAPATH_NET_DELAY="3.142" ENDPOINT_PIN="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[188]/D" LOGIC_LEVELS="30" MAX_FANOUT="166" SLACK="1.093" STARTPOINT_PIN="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff1_reg__9/CLK">
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff1_reg__9" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2[59]_i_13" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[59]_i_10" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[63]_i_10" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[67]_i_10" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[71]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[75]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[79]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[83]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[87]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[91]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[95]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[99]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[135]_i_10" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[139]_i_10" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2[139]_i_3" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2[139]_i_7" PRIMITIVE_TYPE="LUT.others.LUT4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[139]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[143]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[147]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[151]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[155]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[159]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[163]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[167]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[171]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[175]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[179]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[183]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[187]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[191]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[188]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="76"/>
+  <TPATH DATAPATH_DELAY="7.810" DATAPATH_LOGIC_DELAY="6.946" DATAPATH_NET_DELAY="0.864" ENDPOINT_PIN="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_ln70_6_reg_13676_reg[31]/D" LOGIC_LEVELS="6" MAX_FANOUT="2" SLACK="7.215" STARTPOINT_PIN="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U8/tmp_product__0/CLK">
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U8/tmp_product__0" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U8/tmp_product__1" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U8/mul_ln70_6_reg_13676[19]_i_4" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U8/mul_ln70_6_reg_13676_reg[19]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U8/mul_ln70_6_reg_13676_reg[23]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U8/mul_ln70_6_reg_13676_reg[27]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U8/mul_ln70_6_reg_13676_reg[31]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_ln70_6_reg_13676_reg[31]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_65_8.v" LINE_NUMBER="6924"/>
   </TPATH>
-  <TPATH DATAPATH_DELAY="8.920" DATAPATH_LOGIC_DELAY="5.778" DATAPATH_NET_DELAY="3.142" ENDPOINT_PIN="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[185]/D" LOGIC_LEVELS="29" MAX_FANOUT="166" SLACK="1.105" STARTPOINT_PIN="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff1_reg__9/CLK">
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff1_reg__9" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2[59]_i_13" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[59]_i_10" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[63]_i_10" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[67]_i_10" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[71]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[75]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[79]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[83]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[87]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[91]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[95]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[99]_i_11" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[135]_i_10" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[139]_i_10" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2[139]_i_3" PRIMITIVE_TYPE="LUT.others.LUT3" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2[139]_i_7" PRIMITIVE_TYPE="LUT.others.LUT4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[139]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[143]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[147]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[151]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[155]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[159]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[163]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[167]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[171]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[175]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[179]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[183]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[187]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="56"/>
-    <CELL NAME="bd_0_i/hls_inst/inst/mul_64ns_128ns_192_5_1_U24/buff2_reg[185]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM_mul_64ns_128ns_192_5_1.v" LINE_NUMBER="76"/>
+  <TPATH DATAPATH_DELAY="7.735" DATAPATH_LOGIC_DELAY="6.871" DATAPATH_NET_DELAY="0.864" ENDPOINT_PIN="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_ln70_3_reg_13661_reg[30]/D" LOGIC_LEVELS="6" MAX_FANOUT="2" SLACK="7.290" STARTPOINT_PIN="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U5/tmp_product__0/CLK">
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U5/tmp_product__0" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U5/tmp_product__1" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U5/mul_ln70_3_reg_13661[19]_i_4" PRIMITIVE_TYPE="LUT.others.LUT2" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U5/mul_ln70_3_reg_13661_reg[19]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U5/mul_ln70_3_reg_13661_reg[23]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U5/mul_ln70_3_reg_13661_reg[27]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_32s_32s_32_1_1_U5/mul_ln70_3_reg_13661_reg[31]_i_1" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_32s_32s_32_1_1.v" LINE_NUMBER="44"/>
+    <CELL NAME="bd_0_i/hls_inst/inst/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/mul_ln70_3_reg_13661_reg[30]" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM_MM_Pipeline_VITIS_LOOP_65_8.v" LINE_NUMBER="6921"/>
   </TPATH>
 </TimingPaths>
 <VivadoReportFiles>

@@ -1,6 +1,6 @@
 //==============================================================
-//Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.1 (64-bit)
-//Tool Version Limit: 2025.05
+//Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.2 (64-bit)
+//Tool Version Limit: 2025.11
 //Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 //Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 //
@@ -136,14 +136,12 @@
                                 axi_master_wr_control_seq.StableAxiliteNoUpdate=1;
                                 axi_master_wr_control_seq.datamerge_inavg(databusbit_P, 0, 80, 1);
                                 `uvm_send(axi_master_wr_control_seq);
-                                @(posedge refm.misc_if.clock); //wait address 2 rsp done
-                                @(posedge refm.misc_if.clock);
                                 refm.write_data_finish_control = 1;
                                 `uvm_info("control data writting thread", $sformatf("%0dth(total 1): waiting for all write data finish event",i), UVM_LOW)
                                 wait(refm.allaxilite_write_data_finish.triggered);
                                 refm.write_data_finish_control = 0;
                                 fork
-                                    begin
+                                    begin // configure start to enable DUT
                                         axi_master_wr_control_seq.wr_addr_data.push_back( (1<<0)+(0<<32) );
                                         `uvm_info("control start dut by axilite", $sformatf("%0dth(total 1): begin to set start bit",i), UVM_LOW)
                                         `uvm_send(axi_master_wr_control_seq);

@@ -9,34 +9,34 @@
 <ENTRY>
 {
  "type": "ET_CmdStep",
- "dateTimestamp": "04/05/26 18:11:40",
- "timestampMillis": "1775437900169",
+ "dateTimestamp": "04/06/26 18:32:48",
+ "timestampMillis": "1775525568922",
  "buildStep": {
-  "cmdId": "e2471d3d-61f5-4986-8c83-2ce87d7ca942",
+  "cmdId": "a6cad933-1ea3-496a-8245-fa65f8f71a81",
   "name": "vitis-run",
   "logFile": "Z:/Labs\\MLP_accelerator\\baseline_blockedMM\\baseline_blockedMM\\logs\\baseline_blockedMM.steps.log",
-  "commandLine": "T:/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config T:\\Documents\\ECE574\\Labs\\clab\\baseline_blockedMM\\hls_config.cfg --work_dir baseline_blockedMM ",
+  "commandLine": "T:/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --csim --config Z:\\Labs\\clab\\baseline_blockedMM\\hls_config.cfg --work_dir baseline_blockedMM ",
   "args": [
    "--mode",
    "hls",
    "--csim",
    "--config",
-   "T:\\Documents\\ECE574\\Labs\\clab\\baseline_blockedMM\\hls_config.cfg",
+   "Z:\\Labs\\clab\\baseline_blockedMM\\hls_config.cfg",
    "--work_dir",
    "baseline_blockedMM"
   ],
   "iniFiles": [],
-  "cwd": "T:\\Documents\\ECE574\\Labs\\clab\\baseline_blockedMM"
+  "cwd": "Z:\\Labs\\clab\\baseline_blockedMM"
  }
 }
 </ENTRY>
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/05/26 18:11:40",
- "timestampMillis": "1775437900171",
+ "dateTimestamp": "04/06/26 18:32:48",
+ "timestampMillis": "1775525568923",
  "status": {
-  "cmdId": "e2471d3d-61f5-4986-8c83-2ce87d7ca942",
+  "cmdId": "a6cad933-1ea3-496a-8245-fa65f8f71a81",
   "state": "CS_RUNNING"
  }
 }
@@ -44,8 +44,8 @@
 <ENTRY>
 {
  "type": "ET_FlowMetaData",
- "dateTimestamp": "04/05/26 18:12:22",
- "timestampMillis": "1775437942876",
+ "dateTimestamp": "04/06/26 18:32:54",
+ "timestampMillis": "1775525574311",
  "buildSummary": {
   "hardwarePlatform": "",
   "hardwareDsa": "",
@@ -81,26 +81,26 @@
 <ENTRY>
 {
  "type": "ET_SubCmdStep",
- "dateTimestamp": "04/05/26 18:12:22",
- "timestampMillis": "1775437942881",
+ "dateTimestamp": "04/06/26 18:32:54",
+ "timestampMillis": "1775525574312",
  "buildStep": {
-  "cmdId": "835d5aff-6fbc-48e2-84ed-25f9ef5d83ac",
+  "cmdId": "815e3d10-2f41-4941-b6e8-f31954d9351b",
   "name": "",
   "logFile": "Z:/Labs\\MLP_accelerator\\baseline_blockedMM\\baseline_blockedMM\\hls\\hls.log",
   "commandLine": "",
   "args": [],
   "iniFiles": [],
-  "cwd": "T:\\Documents\\ECE574\\Labs\\clab\\baseline_blockedMM"
+  "cwd": "Z:\\Labs\\clab\\baseline_blockedMM"
  }
 }
 </ENTRY>
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/05/26 18:12:22",
- "timestampMillis": "1775437942883",
+ "dateTimestamp": "04/06/26 18:32:54",
+ "timestampMillis": "1775525574313",
  "status": {
-  "cmdId": "835d5aff-6fbc-48e2-84ed-25f9ef5d83ac",
+  "cmdId": "815e3d10-2f41-4941-b6e8-f31954d9351b",
   "state": "CS_RUNNING"
  }
 }
@@ -108,10 +108,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/05/26 18:12:50",
- "timestampMillis": "1775437970240",
+ "dateTimestamp": "04/06/26 18:32:56",
+ "timestampMillis": "1775525576800",
  "status": {
-  "cmdId": "835d5aff-6fbc-48e2-84ed-25f9ef5d83ac",
+  "cmdId": "815e3d10-2f41-4941-b6e8-f31954d9351b",
   "state": "CS_PASSED"
  }
 }
@@ -119,10 +119,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/05/26 18:12:51",
- "timestampMillis": "1775437971032",
+ "dateTimestamp": "04/06/26 18:32:56",
+ "timestampMillis": "1775525576916",
  "status": {
-  "cmdId": "e2471d3d-61f5-4986-8c83-2ce87d7ca942",
+  "cmdId": "a6cad933-1ea3-496a-8245-fa65f8f71a81",
   "state": "CS_PASSED"
  }
 }
@@ -130,8 +130,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/05/26 18:12:51",
- "timestampMillis": "1775437971043",
+ "dateTimestamp": "04/06/26 18:32:56",
+ "timestampMillis": "1775525576916",
  "report": {
   "path": "",
   "name": "",
@@ -144,8 +144,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/05/26 18:12:51",
- "timestampMillis": "1775437971046",
+ "dateTimestamp": "04/06/26 18:32:56",
+ "timestampMillis": "1775525576916",
  "report": {
   "path": "",
   "name": "",

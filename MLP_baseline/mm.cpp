@@ -1,7 +1,6 @@
 #include "mm.h"
 
-typedef int DTYPE;
-const int BLOCK_SIZE = 16; //block size
+
 
 extern "C" {
 void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P) {
@@ -39,31 +38,45 @@ void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P) {
 
     DTYPE AB_block[BLOCK_SIZE][BLOCK_SIZE];
     DTYPE B_line[BLOCK_SIZE];
+    #pragma HLS ARRAY_PARTITION variable=AB_block type=complete
+    #pragma HLS ARRAY_PARTITION variable=B_line type=complete
+    //#pragma HLS ARRAY_PARTITION variable=B type=complete
+    
+
     
     cout << "Entering MM..." << endl;
     // Blocked matmul
     for(int ib = 0; ib < N/BLOCK_SIZE; ib ++){
         for(int jb = 0; jb < P/BLOCK_SIZE; jb ++){
+            // Initialize block with bias vector data
             for(int i=0;i<BLOCK_SIZE;i++){
+                #pragma HLS UNROLL
                 for(int j=0;j<BLOCK_SIZE;j++){
+                    #pragma HLS UNROLL
                     AB_block[i][j] = C[ib*BLOCK_SIZE+i];
                 }
             }
             for (int kb = 0; kb < M/BLOCK_SIZE; kb ++){
                 for(int k = 0; k < BLOCK_SIZE; k++){
                     for(int j=0; j < BLOCK_SIZE; j++){
+                        #pragma HLS UNROLL
                         B_line[j] = B[(kb*BLOCK_SIZE+k)*P + jb*BLOCK_SIZE + j];
                     }
                     for(int i=0;i<BLOCK_SIZE;i++){
+                        #pragma HLS PIPELINE II=1
                         DTYPE Atemp = A[(ib*BLOCK_SIZE+i)*M + kb*BLOCK_SIZE + k];
                         for(int j=0;j<BLOCK_SIZE;j++){
+                            #pragma HLS UNROLL
                             AB_block[i][j] += Atemp * B_line[j];
                         }
                     }
                 }
             }
+            // Copy AB_block to output
             for(int i=0;i<BLOCK_SIZE;i++){
+                #pragma HLS UNROLL
                 for(int j=0;j<BLOCK_SIZE;j++){
+                    #pragma HLS UNROLL
                     ABC[(ib*BLOCK_SIZE+i)*P + jb*BLOCK_SIZE + j] = AB_block[i][j];
                 }
             }

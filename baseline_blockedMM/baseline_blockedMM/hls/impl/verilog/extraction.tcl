@@ -1,6 +1,6 @@
 ## ==============================================================
-## Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.1 (64-bit)
-## Tool Version Limit: 2025.05
+## Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.2 (64-bit)
+## Tool Version Limit: 2025.11
 ## Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ## Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ## 
@@ -303,11 +303,11 @@ proc get_rpt_suffix {is_impl} {
 
 proc get_all_vv_rpt_files {is_impl reportdir reportbasename {relative_root_dir ""}} {
   if { [string length $relative_root_dir] } {
-    package require fileutil
     set relative_root_dir [file normalize $relative_root_dir]
     set reportdir [file normalize $reportdir]
   }
 
+  package require fileutil
   set res [dict create]
   foreach filetype [lsort [get_all_vv_rpt_file_types]] {
     set filepath [get_vv_rpt_file $filetype $is_impl $reportdir $reportbasename]

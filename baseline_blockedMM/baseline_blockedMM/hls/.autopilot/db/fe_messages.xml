@@ -1,42 +1,194 @@
 <xilinx:hls_fe_msgs>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="directive:1:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="directive:1:1" msg_body="HLS pragma dump">
         <args ARG_PragmaContext="directive" ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=MM" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:18:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=A bundle=gmem depth=1024" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:25:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=A bundle=gmem depth=1024" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:19:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=B bundle=gmem depth=1024" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:26:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=B bundle=gmem depth=1024" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:20:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=C bundle=gmem depth=32" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:27:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=C bundle=gmem depth=32" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:21:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=ABC bundle=gmem depth=1024" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:28:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=ABC bundle=gmem depth=1024" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:23:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=A bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:30:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=A bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:24:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=B bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:31:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=B bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:25:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=C bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:32:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=C bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:26:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=ABC bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:33:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=ABC bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:27:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=N bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:34:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=N bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:28:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=M bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:35:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=M bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:29:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=P bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:36:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=P bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:30:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=return bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:37:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=return bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:41:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=AB_block type=complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:42:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=B_line type=complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:53:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:55:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:62:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:66:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:69:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:77:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:79:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:68:42" msg_body="Loop 'VITIS_LOOP_68_9' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_68_9"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:6:0" msg_body="Unrolling loop 'VITIS_LOOP_52_3' (../MLP_baseline/mm.cpp:52:30) in function 'MM' completely with a factor of 16">
+        <args Factor="16" LoopLoc="../MLP_baseline/mm.cpp:52:30" LoopName="VITIS_LOOP_52_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:6:0" msg_body="Unrolling loop 'VITIS_LOOP_54_4' (../MLP_baseline/mm.cpp:54:34) in function 'MM' completely with a factor of 16">
+        <args Factor="16" LoopLoc="../MLP_baseline/mm.cpp:54:34" LoopName="VITIS_LOOP_54_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:6:0" msg_body="Unrolling loop 'VITIS_LOOP_61_7' (../MLP_baseline/mm.cpp:61:38) in function 'MM' completely with a factor of 16">
+        <args Factor="16" LoopLoc="../MLP_baseline/mm.cpp:61:38" LoopName="VITIS_LOOP_61_7"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:6:0" msg_body="Unrolling loop 'VITIS_LOOP_68_9' (../MLP_baseline/mm.cpp:68:42) in function 'MM' completely with a factor of 16">
+        <args Factor="16" LoopLoc="../MLP_baseline/mm.cpp:68:42" LoopName="VITIS_LOOP_68_9"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:6:0" msg_body="Unrolling loop 'VITIS_LOOP_76_10' (../MLP_baseline/mm.cpp:76:31) in function 'MM' completely with a factor of 16">
+        <args Factor="16" LoopLoc="../MLP_baseline/mm.cpp:76:31" LoopName="VITIS_LOOP_76_10"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:6:0" msg_body="Unrolling loop 'VITIS_LOOP_78_11' (../MLP_baseline/mm.cpp:78:35) in function 'MM' completely with a factor of 16">
+        <args Factor="16" LoopLoc="../MLP_baseline/mm.cpp:78:35" LoopName="VITIS_LOOP_78_11"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Applying array_partition to 'AB_block': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="AB_block"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-437" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:60:34" msg_body="Disabling loop flattening for loop 'VITIS_LOOP_60_6'.">
+        <args LoopName="VITIS_LOOP_60_6"/>
+    </msg>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:60:34" msg_body="loop_flatten off  1 MM ../MLP_baseline/mm.cpp:66:1VITIS_LOOP_60_6 ../MLP_baseline/mm.cpp:60:34">
+        <args LoopLoc="../MLP_baseline/mm.cpp:60:34" LoopLoc-DebugLoc="File ../MLP_baseline/mm.cpp Line 60 Column 34" LoopName="VITIS_LOOP_60_6" PragmaFunction="MM" PragmaIsAuto="1" PragmaOptions="off" PragmaSrcLoc="../MLP_baseline/mm.cpp:66:1" PragmaSrcLoc-DebugLoc="File ../MLP_baseline/mm.cpp Line 66 Column 1" PragmaType="loop_flatten"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Partitioning array 'AB_block_0' dimension 1 due to constant index.">
+        <args Dim="1" Value="AB_block_0"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Partitioning array 'AB_block_1' dimension 1 due to constant index.">
+        <args Dim="1" Value="AB_block_1"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Partitioning array 'AB_block_2' dimension 1 due to constant index.">
+        <args Dim="1" Value="AB_block_2"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Partitioning array 'AB_block_3' dimension 1 due to constant index.">
+        <args Dim="1" Value="AB_block_3"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Partitioning array 'AB_block_4' dimension 1 due to constant index.">
+        <args Dim="1" Value="AB_block_4"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Partitioning array 'AB_block_5' dimension 1 due to constant index.">
+        <args Dim="1" Value="AB_block_5"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Partitioning array 'AB_block_6' dimension 1 due to constant index.">
+        <args Dim="1" Value="AB_block_6"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Partitioning array 'AB_block_7' dimension 1 due to constant index.">
+        <args Dim="1" Value="AB_block_7"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Partitioning array 'AB_block_8' dimension 1 due to constant index.">
+        <args Dim="1" Value="AB_block_8"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Partitioning array 'AB_block_9' dimension 1 due to constant index.">
+        <args Dim="1" Value="AB_block_9"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Partitioning array 'AB_block_10' dimension 1 due to constant index.">
+        <args Dim="1" Value="AB_block_10"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Partitioning array 'AB_block_11' dimension 1 due to constant index.">
+        <args Dim="1" Value="AB_block_11"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Partitioning array 'AB_block_12' dimension 1 due to constant index.">
+        <args Dim="1" Value="AB_block_12"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Partitioning array 'AB_block_13' dimension 1 due to constant index.">
+        <args Dim="1" Value="AB_block_13"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Partitioning array 'AB_block_14' dimension 1 due to constant index.">
+        <args Dim="1" Value="AB_block_14"/>
+    </msg>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Partitioning array 'AB_block_15' dimension 1 due to constant index.">
+        <args Dim="1" Value="AB_block_15"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Applying array_partition to 'AB_block_0': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="AB_block_0"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Applying array_partition to 'AB_block_1': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="AB_block_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Applying array_partition to 'AB_block_2': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="AB_block_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Applying array_partition to 'AB_block_3': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="AB_block_3"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Applying array_partition to 'AB_block_4': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="AB_block_4"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Applying array_partition to 'AB_block_5': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="AB_block_5"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Applying array_partition to 'AB_block_6': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="AB_block_6"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Applying array_partition to 'AB_block_7': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="AB_block_7"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Applying array_partition to 'AB_block_8': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="AB_block_8"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Applying array_partition to 'AB_block_9': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="AB_block_9"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Applying array_partition to 'AB_block_10': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="AB_block_10"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Applying array_partition to 'AB_block_11': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="AB_block_11"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Applying array_partition to 'AB_block_12': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="AB_block_12"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Applying array_partition to 'AB_block_13': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="AB_block_13"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Applying array_partition to 'AB_block_14': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="AB_block_14"/>
+    </msg>
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:39:11" msg_body="Applying array_partition to 'AB_block_15': Complete partitioning on dimension 1.">
+        <args Dim="1" Mode="Complete" UOName="AB_block_15"/>
     </msg>
 </xilinx:hls_fe_msgs>
-

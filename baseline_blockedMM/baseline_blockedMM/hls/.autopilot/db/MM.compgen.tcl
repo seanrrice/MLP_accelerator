@@ -1,23 +1,5 @@
 # This script segment is generated automatically by AutoPilot
 
-set name MM_mul_32ns_32ns_62_2_1
-if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 1 ALLOW_PRAGMA 1
-}
-
-
-set name MM_mul_64ns_64ns_128_5_1
-if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 4 ALLOW_PRAGMA 1
-}
-
-
-set name MM_mul_64ns_128ns_192_5_1
-if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 4 ALLOW_PRAGMA 1
-}
-
-
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler MM_gmem_m_axi BINDTYPE {interface} TYPE {adapter} IMPL {m_axi}
 }
@@ -102,7 +84,7 @@ dict set axilite_register_dict control $port_control
 if {${::AESL::PGuard_simmodel_gen}} {
 	if {[info proc ::AESL_LIB_XILADAPTER::s_axilite_gen] == "::AESL_LIB_XILADAPTER::s_axilite_gen"} {
 		eval "::AESL_LIB_XILADAPTER::s_axilite_gen { \
-			id 28 \
+			id 571 \
 			corename MM_control_axilite \
 			name MM_control_s_axi \
 			ports {$port_control} \

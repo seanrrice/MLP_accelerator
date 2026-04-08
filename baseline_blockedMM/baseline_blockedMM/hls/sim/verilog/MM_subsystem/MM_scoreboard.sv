@@ -1,6 +1,6 @@
 //==============================================================
-//Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.1 (64-bit)
-//Tool Version Limit: 2025.05
+//Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.2 (64-bit)
+//Tool Version Limit: 2025.11
 //Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 //Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 //
@@ -40,14 +40,10 @@
                     void'(refm.mem_blk_pages_control_P.pages.pop_front());
                 end
                                                                                                
-                forever begin                                                                  
-                    @refm.dut2tb_ap_done;                                                             
-                    `uvm_info(this.get_full_name(), "receive ap_done_for_nexttrans and do axim dump", UVM_LOW)           
-                    for(int j=0; j<refm.ap_done_cnt; j++) begin
-                        if(j<refm.trans_num_total) begin
+                forever begin
+                    @refm.dut2tb_ap_done;
+                    `uvm_info(this.get_full_name(), "receive dut2tb_ap_done and do axim dump", UVM_LOW)
                             refm.mem_blk_pages_gmem.tvout_dump_frontpage(1);
-                        end
-                    end
                 end                                                                            
                 begin                                                                          
                     @refm.finish;                                                              
