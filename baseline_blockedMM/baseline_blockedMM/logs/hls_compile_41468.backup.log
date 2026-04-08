@@ -1,0 +1,336 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM 
+INFO: [HLS 200-2176] Writing Vitis IDE component file Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../MLP_baseline/mm.cpp' from hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'Z:/Labs/clab/MLP_baseline/mm.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../MLP_baseline/mm.h' from hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'Z:/Labs/clab/MLP_baseline/mm.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/first_layer_golden_output.txt' from hls_config.cfg(9)
+INFO: [HLS 200-10] Adding test bench file 'Z:/Labs/clab/MLP_baseline/first_layer_golden_output.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/mm_test.cpp' from hls_config.cfg(10)
+INFO: [HLS 200-10] Adding test bench file 'Z:/Labs/clab/MLP_baseline/mm_test.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/mnist_images_int.txt' from hls_config.cfg(11)
+INFO: [HLS 200-10] Adding test bench file 'Z:/Labs/clab/MLP_baseline/mnist_images_int.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/weights_layer1.txt' from hls_config.cfg(12)
+INFO: [HLS 200-10] Adding test bench file 'Z:/Labs/clab/MLP_baseline/weights_layer1.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/weights_layer2.txt' from hls_config.cfg(13)
+INFO: [HLS 200-10] Adding test bench file 'Z:/Labs/clab/MLP_baseline/weights_layer2.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/weights_layer3.txt' from hls_config.cfg(14)
+INFO: [HLS 200-10] Adding test bench file 'Z:/Labs/clab/MLP_baseline/weights_layer3.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=MM' from hls_config.cfg(15)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1465] Applying config ini 'clock=15' from hls_config.cfg(16)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 15ns.
+INFO: [HLS 200-1465] Applying config ini 'cosim.trace_level=all' from hls_config.cfg(17)
+INFO: [HLS 200-1465] Applying config ini 'package.output.file=Z:\Labs\MLP_accelerator\package' from hls_config.cfg(18)
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/vitis-comp.json
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 3.95 seconds; current allocated memory: 163.387 MB.
+INFO: [HLS 200-2191] C-Synthesis will use clang-16 as the compiler
+INFO: [HLS 200-10] Analyzing design file '../MLP_baseline/mm.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 6.076 seconds; current allocated memory: 166.816 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 263 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 6,911 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 3,620 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,389 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,475 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 6,566 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,183 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 6,892 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 13,458 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 13,459 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 11,164 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 11,116 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 11,113 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 11,113 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 11,358 instructions in the design after the 'HW Transforms' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 13,259 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 214-291] Loop 'j_loop' is marked as complete unroll implied by the pipeline pragma (../MLP_baseline/mm.cpp:71:33)
+INFO: [HLS 214-186] Unrolling loop 'block_init_outer_loop' (../MLP_baseline/mm.cpp:54:36) in function 'MM' completely with a factor of 16 (../MLP_baseline/mm.cpp:6:0)
+INFO: [HLS 214-186] Unrolling loop 'block_init_inner_loop' (../MLP_baseline/mm.cpp:56:40) in function 'MM' completely with a factor of 16 (../MLP_baseline/mm.cpp:6:0)
+INFO: [HLS 214-186] Unrolling loop 'j_loop' (../MLP_baseline/mm.cpp:71:33) in function 'MM' completely with a factor of 16 (../MLP_baseline/mm.cpp:6:0)
+INFO: [HLS 214-186] Unrolling loop 'j_output_loop' (../MLP_baseline/mm.cpp:80:28) in function 'MM' completely with a factor of 16 (../MLP_baseline/mm.cpp:6:0)
+INFO: [HLS 214-186] Unrolling loop 'i_output_loop' (../MLP_baseline/mm.cpp:83:32) in function 'MM' completely with a factor of 16 (../MLP_baseline/mm.cpp:6:0)
+WARNING: [HLS 214-366] Duplicating function 'std::array<int, 16ul>::operator[](unsigned long)' as different function signatures were detected between this call site and other call site(s). This may impact the resources used in the design. (../MLP_baseline/mm.cpp:73:29)
+WARNING: [HLS 214-366] Duplicating function 'std::array<int, 16ul>::operator[](unsigned long)' as different function signatures were detected between this call site and other call site(s). This may impact the resources used in the design. (../MLP_baseline/mm.cpp:58:21)
+WARNING: [HLS 214-366] Duplicating function 'std::__array_traits<int, 16ul>::_S_ref(int const (&) [16], unsigned long)' as different function signatures were detected between this call site and other call site(s). This may impact the resources used in the design. (T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:186:16)
+INFO: [HLS 214-178] Inlining function 'std::__array_traits<int, 16ul>::_S_ref(int const (&) [16], unsigned long)' into 'std::array<int, 16ul>::operator[](unsigned long) (.1)' (T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:186:0)
+INFO: [HLS 214-178] Inlining function 'std::__array_traits<int, 16ul>::_S_ref(int const (&) [16], unsigned long) (.2)' into 'std::array<int, 16ul>::operator[](unsigned long)' (T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:186:0)
+INFO: [HLS 214-178] Inlining function 'std::array<int, 16ul>::operator[](unsigned long) (.1)' into 'MM' (../MLP_baseline/mm.cpp:6:0)
+INFO: [HLS 214-178] Inlining function 'std::array<int, 16ul>::operator[](unsigned long)' into 'MM' (../MLP_baseline/mm.cpp:6:0)
+INFO: [HLS 214-248] Applying array_partition to 'AB_block': Complete partitioning on dimension 1. (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-248] Applying array_partition to 'B': Complete partitioning on dimension 1. (../MLP_baseline/mm.cpp:6:0)
+INFO: [HLS 214-241] Aggregating maxi variable 'AT' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'ABC' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_15' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_14' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_13' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_12' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_11' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_10' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_9' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_8' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_7' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_6' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_5' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_4' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_3' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_2' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_1' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_0' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'A_line' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:41:16)
+INFO: [HLS 214-241] Aggregating maxi variable 'B_0' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_1' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_2' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_3' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_4' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_5' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_6' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_7' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_8' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_9' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_10' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_11' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_12' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_13' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_14' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_15' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_16' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_17' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_18' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_19' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_20' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_21' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_22' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_23' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_24' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_25' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_26' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_27' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_28' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_29' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_30' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_31' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_32' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_33' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_34' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_35' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_36' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_37' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_38' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_39' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_40' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_41' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_42' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_43' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_44' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_45' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_46' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_47' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_48' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_49' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_50' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_51' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_52' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_53' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_54' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_55' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_56' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_57' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_58' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_59' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_60' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_61' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_62' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B_63' with compact=none mode in 512-bits
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 19.017 seconds; current allocated memory: 175.477 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.004 seconds; current allocated memory: 175.477 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.535 seconds; current allocated memory: 206.234 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 1.751 seconds; current allocated memory: 209.160 MB.
+INFO: [XFORM 203-11] Balancing expressions in function 'MM' (../MLP_baseline/mm.cpp:6:29)...224 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 5 seconds. CPU system time: 0 seconds. Elapsed time: 4.678 seconds; current allocated memory: 254.098 MB.
+INFO: [HLS 200-2061] Successfully converted nested loops 'k_loop'(../MLP_baseline/mm.cpp:63:25) and 'i_loop'(../MLP_baseline/mm.cpp:68:29) in function 'MM' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'k_BLOCK_loop'(../MLP_baseline/mm.cpp:61:27) and 'k_loop'(../MLP_baseline/mm.cpp:63:25) in function 'MM' into perfectly nested loops.
+INFO: [HLS 200-2060] Failed to convert nested loops 'j_BLOCK_loop'(../MLP_baseline/mm.cpp:51:23) and 'k_BLOCK_loop'(../MLP_baseline/mm.cpp:61:27) in function 'MM' into perfectly nested loops.
+INFO: [XFORM 203-541] Flattening a loop nest 'k_loop' (../MLP_baseline/mm.cpp:63:25) in function 'MM'.
+INFO: [XFORM 203-541] Flattening a loop nest 'k_BLOCK_loop' (../MLP_baseline/mm.cpp:61:27) in function 'MM'.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.659 seconds; current allocated memory: 254.098 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'MM' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'MM' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'k_BLOCK_loop_k_loop_i_loop'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 16, loop 'k_BLOCK_loop_k_loop_i_loop'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 3 seconds. CPU system time: 0 seconds. Elapsed time: 3.219 seconds; current allocated memory: 258.809 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.756 seconds; current allocated memory: 258.809 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'MM' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_0' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_1' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_2' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_3' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_4' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_5' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_6' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_7' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_8' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_9' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_10' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_11' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_12' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_13' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_14' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_15' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_16' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_17' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_18' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_19' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_20' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_21' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_22' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_23' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_24' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_25' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_26' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_27' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_28' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_29' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_30' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_31' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_32' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_33' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_34' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_35' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_36' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_37' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_38' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_39' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_40' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_41' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_42' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_43' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_44' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_45' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_46' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_47' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_48' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_49' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_50' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_51' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_52' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_53' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_54' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_55' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_56' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_57' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_58' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_59' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_60' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_61' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_62' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem_63' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/AT' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_0' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_1' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_2' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_3' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_4' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_5' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_6' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_7' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_8' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_9' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_10' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_11' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_12' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_13' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_14' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_15' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_16' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_17' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_18' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_19' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_20' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_21' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_22' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_23' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_24' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_25' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_26' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_27' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_28' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_29' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_30' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_31' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_32' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_33' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_34' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_35' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_36' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_37' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_38' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_39' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_40' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_41' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_42' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_43' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_44' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_45' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_46' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_47' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_48' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_49' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_50' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_51' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_52' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_53' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_54' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_55' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_56' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_57' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_58' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_59' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_60' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_61' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_62' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B_63' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/C' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/ABC' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/N' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/M' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/P' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'MM' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'AT', 'B_0', 'B_1', 'B_2', 'B_3', 'B_4', 'B_5', 'B_6', 'B_7', 'B_8', 'B_9', 'B_10', 'B_11', 'B_12', 'B_13', 'B_14', 'B_15', 'B_16', 'B_17', 'B_18', 'B_19', 'B_20', 'B_21', 'B_22', 'B_23', 'B_24', 'B_25', 'B_26', 'B_27', 'B_28', 'B_29', 'B_30', 'B_31', 'B_32', 'B_33', 'B_34', 'B_35', 'B_36', 'B_37', 'B_38', 'B_39', 'B_40', 'B_41', 'B_42', 'B_43', 'B_44', 'B_45', 'B_46', 'B_47', 'B_48', 'B_49', 'B_50', 'B_51', 'B_52', 'B_53', 'B_54', 'B_55', 'B_56', 'B_57', 'B_58', 'B_59', 'B_60', 'B_61', 'B_62', 'B_63', 'C', 'ABC', 'N', 'M', 'P' and 'return' to AXI-Lite port control.
+INFO: [RTGEN 206-104] Estimated max fanout for 'MM' is 41059 from HDL expression: (1'b1 == ap_CS_fsm_state10)
+INFO: [RTGEN 206-100] Generating core module 'mul_27ns_28s_28_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_32s_32s_32_1_1': 18 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_129_32_512_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_32_1_1': 16 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'MM'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 3 seconds. CPU system time: 1 seconds. Elapsed time: 5.254 seconds; current allocated memory: 291.148 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 2 seconds. CPU system time: 2 seconds. Elapsed time: 6.245 seconds; current allocated memory: 331.824 MB.
+ERROR: [HLS 200-2014] Failed to generated HBM driver object file hbm_helper_aarch64.o
+ERROR: Problem generating csynth RTL: Failed to generate HBM driver object file hbm_helper_aarch64.o
+INFO: [HLS 200-112] Total CPU user time: 35 seconds. Total CPU system time: 4 seconds. Total elapsed time: 69.932 seconds; peak allocated memory: 382.484 MB.

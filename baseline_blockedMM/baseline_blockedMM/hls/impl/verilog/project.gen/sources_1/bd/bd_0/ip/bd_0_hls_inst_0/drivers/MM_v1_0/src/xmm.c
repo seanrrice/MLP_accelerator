@@ -76,22 +76,22 @@ void XMm_DisableAutoRestart(XMm *InstancePtr) {
     XMm_WriteReg(InstancePtr->Control_BaseAddress, XMM_CONTROL_ADDR_AP_CTRL, 0);
 }
 
-void XMm_Set_A(XMm *InstancePtr, u64 Data) {
+void XMm_Set_AT(XMm *InstancePtr, u64 Data) {
     Xil_AssertVoid(InstancePtr != NULL);
     Xil_AssertVoid(InstancePtr->IsReady == XIL_COMPONENT_IS_READY);
 
-    XMm_WriteReg(InstancePtr->Control_BaseAddress, XMM_CONTROL_ADDR_A_DATA, (u32)(Data));
-    XMm_WriteReg(InstancePtr->Control_BaseAddress, XMM_CONTROL_ADDR_A_DATA + 4, (u32)(Data >> 32));
+    XMm_WriteReg(InstancePtr->Control_BaseAddress, XMM_CONTROL_ADDR_AT_DATA, (u32)(Data));
+    XMm_WriteReg(InstancePtr->Control_BaseAddress, XMM_CONTROL_ADDR_AT_DATA + 4, (u32)(Data >> 32));
 }
 
-u64 XMm_Get_A(XMm *InstancePtr) {
+u64 XMm_Get_AT(XMm *InstancePtr) {
     u64 Data;
 
     Xil_AssertNonvoid(InstancePtr != NULL);
     Xil_AssertNonvoid(InstancePtr->IsReady == XIL_COMPONENT_IS_READY);
 
-    Data = XMm_ReadReg(InstancePtr->Control_BaseAddress, XMM_CONTROL_ADDR_A_DATA);
-    Data += (u64)XMm_ReadReg(InstancePtr->Control_BaseAddress, XMM_CONTROL_ADDR_A_DATA + 4) << 32;
+    Data = XMm_ReadReg(InstancePtr->Control_BaseAddress, XMM_CONTROL_ADDR_AT_DATA);
+    Data += (u64)XMm_ReadReg(InstancePtr->Control_BaseAddress, XMM_CONTROL_ADDR_AT_DATA + 4) << 32;
     return Data;
 }
 

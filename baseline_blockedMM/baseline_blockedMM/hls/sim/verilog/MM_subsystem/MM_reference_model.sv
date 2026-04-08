@@ -23,12 +23,12 @@ endclass
 class MM_reference_model extends uvm_component;
 `define TV_IN_gmem "../tv/cdatafile/c.MM.autotvin_gmem.dat"
 `define TV_OUT_gmem "../tv/rtldatafile/rtl.MM.autotvout_gmem.dat"
-`define TV_IN_OFFSET_A "../tv/cdatafile/c.MM.autotvin_A.dat"
+`define TV_IN_OFFSET_AT "../tv/cdatafile/c.MM.autotvin_AT.dat"
 `define TV_IN_OFFSET_B "../tv/cdatafile/c.MM.autotvin_B.dat"
 `define TV_IN_OFFSET_C "../tv/cdatafile/c.MM.autotvin_C.dat"
 `define TV_IN_OFFSET_ABC "../tv/cdatafile/c.MM.autotvin_ABC.dat"
-`define TV_IN_A "../tv/cdatafile/c.MM.autotvin_A.dat"
-`define TV_OUT_A ""
+`define TV_IN_AT "../tv/cdatafile/c.MM.autotvin_AT.dat"
+`define TV_OUT_AT ""
 `define TV_IN_B "../tv/cdatafile/c.MM.autotvin_B.dat"
 `define TV_OUT_B ""
 `define TV_IN_C "../tv/cdatafile/c.MM.autotvin_C.dat"
@@ -56,7 +56,7 @@ class MM_reference_model extends uvm_component;
     MM_config MM_cfg;
     virtual interface misc_interface misc_if;
 
-    mem_model_pages_with_diffofst#(32,8) mem_blk_pages_gmem;
+    mem_model_pages_with_diffofst#(512,8) mem_blk_pages_gmem;
     int blk_id_gmem = 0;
     memaccess_axi_state_cbs axi_memaccess_cb_gmem;
 
@@ -104,14 +104,14 @@ misc_if.dut2tb_ap_done = 0;
         fpath.delete;
 
         fpath.push_back(`TV_IN_gmem);
-        mem_blk_pages_gmem = mem_model_pages_with_diffofst#(32,8)::type_id::create("mem_blk_pages_gmem");
-        mem_blk_pages_gmem.whole_page_size=12480;
-        mem_blk_pages_gmem.maxi_bundlevar_fpath["A"]=`TV_IN_OFFSET_A;
+        mem_blk_pages_gmem = mem_model_pages_with_diffofst#(512,8)::type_id::create("mem_blk_pages_gmem");
+        mem_blk_pages_gmem.whole_page_size=13440;
+        mem_blk_pages_gmem.maxi_bundlevar_fpath["AT"]=`TV_IN_OFFSET_AT;
         mem_blk_pages_gmem.maxi_bundlevar_fpath["B"]=`TV_IN_OFFSET_B;
         mem_blk_pages_gmem.maxi_bundlevar_fpath["C"]=`TV_IN_OFFSET_C;
         mem_blk_pages_gmem.maxi_bundlevar_fpath["ABC"]=`TV_IN_OFFSET_ABC;
         mem_blk_pages_gmem.set_binary(1);
-        mem_blk_pages_gmem.tvinload_pagechk_atinit(fpath, 3104*((32+7)/8), 0, 0);
+        mem_blk_pages_gmem.tvinload_pagechk_atinit(fpath, 194*((512+7)/8), 0, 0);
         mem_blk_pages_gmem.tvoutdump_atinit(`TV_OUT_gmem);
         fpath.delete();
 

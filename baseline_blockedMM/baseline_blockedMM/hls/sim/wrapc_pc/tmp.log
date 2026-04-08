@@ -1,1 +1,5 @@
-PASS
+Calling MM kernel...
+Returned from MM kernel.
+*******************************************
+PASS: The output matches the golden output!
+*******************************************

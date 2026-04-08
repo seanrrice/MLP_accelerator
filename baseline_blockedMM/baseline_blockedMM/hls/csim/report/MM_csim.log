@@ -1,8 +1,12 @@
 INFO: [SIM 2] *************** CSIM start ***************
    Compiling ../../../../../MLP_baseline/mm.cpp in debug mode
    Generating csim.exe
+Calling MM kernel...
 Entering MM...
 Finished initial MM
-PASS
+Returned from MM kernel.
+*******************************************
+PASS: The output matches the golden output!
+*******************************************
 INFO: [SIM 1] CSim done with 0 errors.
 INFO: [SIM 3] *************** CSIM finish ***************

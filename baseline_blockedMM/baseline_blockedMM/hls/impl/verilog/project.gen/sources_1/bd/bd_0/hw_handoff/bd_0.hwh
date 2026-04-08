@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Mon Apr  6 18:38:02 2026" VIVADOVERSION="2025.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Apr  8 12:51:21 2026" VIVADOVERSION="2025.2">
 
   <SYSTEMINFO ARCH="zynq" DEVICE="7z020" NAME="bd_0" PACKAGE="clg400" SPEEDGRADE="-1"/>
 
@@ -159,7 +159,7 @@
         <CONNECTION INSTANCE="hls_inst" PORT="m_axi_gmem_BVALID"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="I" LEFT="31" NAME="m_axi_gmem_rdata" RIGHT="0" SIGIS="undef" SIGNAME="hls_inst_m_axi_gmem_RDATA">
+    <PORT DIR="I" LEFT="511" NAME="m_axi_gmem_rdata" RIGHT="0" SIGIS="undef" SIGNAME="hls_inst_m_axi_gmem_RDATA">
       <CONNECTIONS>
         <CONNECTION INSTANCE="hls_inst" PORT="m_axi_gmem_RDATA"/>
       </CONNECTIONS>
@@ -189,7 +189,7 @@
         <CONNECTION INSTANCE="hls_inst" PORT="m_axi_gmem_RVALID"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="O" LEFT="31" NAME="m_axi_gmem_wdata" RIGHT="0" SIGIS="undef" SIGNAME="hls_inst_m_axi_gmem_WDATA">
+    <PORT DIR="O" LEFT="511" NAME="m_axi_gmem_wdata" RIGHT="0" SIGIS="undef" SIGNAME="hls_inst_m_axi_gmem_WDATA">
       <CONNECTIONS>
         <CONNECTION INSTANCE="hls_inst" PORT="m_axi_gmem_WDATA"/>
       </CONNECTIONS>
@@ -209,7 +209,7 @@
         <CONNECTION INSTANCE="hls_inst" PORT="m_axi_gmem_WREADY"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="O" LEFT="3" NAME="m_axi_gmem_wstrb" RIGHT="0" SIGIS="undef" SIGNAME="hls_inst_m_axi_gmem_WSTRB">
+    <PORT DIR="O" LEFT="63" NAME="m_axi_gmem_wstrb" RIGHT="0" SIGIS="undef" SIGNAME="hls_inst_m_axi_gmem_WSTRB">
       <CONNECTIONS>
         <CONNECTION INSTANCE="hls_inst" PORT="m_axi_gmem_WSTRB"/>
       </CONNECTIONS>
@@ -307,13 +307,13 @@
   </EXTERNALPORTS>
 
   <EXTERNALINTERFACES>
-    <BUSINTERFACE BUSNAME="hls_inst_m_axi_gmem" DATAWIDTH="32" NAME="m_axi_gmem" TYPE="MASTER">
+    <BUSINTERFACE BUSNAME="hls_inst_m_axi_gmem" DATAWIDTH="512" NAME="m_axi_gmem" TYPE="MASTER">
       <PARAMETER NAME="ADDR_WIDTH" VALUE="64"/>
       <PARAMETER NAME="ARUSER_WIDTH" VALUE="0"/>
       <PARAMETER NAME="AWUSER_WIDTH" VALUE="0"/>
       <PARAMETER NAME="BUSER_WIDTH" VALUE="0"/>
       <PARAMETER NAME="CLK_DOMAIN" VALUE="bd_0_ap_clk_0"/>
-      <PARAMETER NAME="DATA_WIDTH" VALUE="32"/>
+      <PARAMETER NAME="DATA_WIDTH" VALUE="512"/>
       <PARAMETER NAME="FREQ_HZ" VALUE="66000000.0"/>
       <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
       <PARAMETER NAME="HAS_BURST" VALUE="0"/>
@@ -443,7 +443,7 @@
   </EXTERNALINTERFACES>
 
   <MODULES>
-    <MODULE COREREVISION="2114554117" FULLNAME="/hls_inst" HWVERSION="1.0" INSTANCE="hls_inst" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="MM" VLNV="xilinx.com:hls:MM:1.0">
+    <MODULE COREREVISION="2114556650" FULLNAME="/hls_inst" HWVERSION="1.0" INSTANCE="hls_inst" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="MM" VLNV="xilinx.com:hls:MM:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
         <PARAMETER NAME="C_M_AXI_GMEM_ADDR_WIDTH" VALUE="64"/>
@@ -451,7 +451,7 @@
         <PARAMETER NAME="C_M_AXI_GMEM_AWUSER_WIDTH" VALUE="1"/>
         <PARAMETER NAME="C_M_AXI_GMEM_BUSER_WIDTH" VALUE="1"/>
         <PARAMETER NAME="C_M_AXI_GMEM_CACHE_VALUE" VALUE="&quot;0011&quot;"/>
-        <PARAMETER NAME="C_M_AXI_GMEM_DATA_WIDTH" VALUE="32"/>
+        <PARAMETER NAME="C_M_AXI_GMEM_DATA_WIDTH" VALUE="512"/>
         <PARAMETER NAME="C_M_AXI_GMEM_ID_WIDTH" VALUE="1"/>
         <PARAMETER NAME="C_M_AXI_GMEM_PROT_VALUE" VALUE="&quot;000&quot;"/>
         <PARAMETER NAME="C_M_AXI_GMEM_RUSER_WIDTH" VALUE="1"/>
@@ -627,7 +627,7 @@
             <CONNECTION INSTANCE="bd_0_imp" PORT="m_axi_gmem_bvalid"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="31" NAME="m_axi_gmem_RDATA" RIGHT="0" SIGIS="undef" SIGNAME="hls_inst_m_axi_gmem_RDATA">
+        <PORT DIR="I" LEFT="511" NAME="m_axi_gmem_RDATA" RIGHT="0" SIGIS="undef" SIGNAME="hls_inst_m_axi_gmem_RDATA">
           <CONNECTIONS>
             <CONNECTION INSTANCE="bd_0_imp" PORT="m_axi_gmem_rdata"/>
           </CONNECTIONS>
@@ -657,7 +657,7 @@
             <CONNECTION INSTANCE="bd_0_imp" PORT="m_axi_gmem_rvalid"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" LEFT="31" NAME="m_axi_gmem_WDATA" RIGHT="0" SIGIS="undef" SIGNAME="hls_inst_m_axi_gmem_WDATA">
+        <PORT DIR="O" LEFT="511" NAME="m_axi_gmem_WDATA" RIGHT="0" SIGIS="undef" SIGNAME="hls_inst_m_axi_gmem_WDATA">
           <CONNECTIONS>
             <CONNECTION INSTANCE="bd_0_imp" PORT="m_axi_gmem_wdata"/>
           </CONNECTIONS>
@@ -677,7 +677,7 @@
             <CONNECTION INSTANCE="bd_0_imp" PORT="m_axi_gmem_wready"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" LEFT="3" NAME="m_axi_gmem_WSTRB" RIGHT="0" SIGIS="undef" SIGNAME="hls_inst_m_axi_gmem_WSTRB">
+        <PORT DIR="O" LEFT="63" NAME="m_axi_gmem_WSTRB" RIGHT="0" SIGIS="undef" SIGNAME="hls_inst_m_axi_gmem_WSTRB">
           <CONNECTIONS>
             <CONNECTION INSTANCE="bd_0_imp" PORT="m_axi_gmem_wstrb"/>
           </CONNECTIONS>
@@ -826,13 +826,13 @@
             <PORTMAP LOGICAL="WVALID" PHYSICAL="s_axi_control_WVALID"/>
           </PORTMAPS>
         </BUSINTERFACE>
-        <BUSINTERFACE BUSNAME="hls_inst_m_axi_gmem" DATAWIDTH="32" NAME="m_axi_gmem" TYPE="MASTER" VLNV="xilinx.com:interface:aximm:1.0">
+        <BUSINTERFACE BUSNAME="hls_inst_m_axi_gmem" DATAWIDTH="512" NAME="m_axi_gmem" TYPE="MASTER" VLNV="xilinx.com:interface:aximm:1.0">
           <PARAMETER NAME="ADDR_WIDTH" VALUE="64"/>
           <PARAMETER NAME="ARUSER_WIDTH" VALUE="0"/>
           <PARAMETER NAME="AWUSER_WIDTH" VALUE="0"/>
           <PARAMETER NAME="BUSER_WIDTH" VALUE="0"/>
           <PARAMETER NAME="CLK_DOMAIN" VALUE="bd_0_ap_clk_0"/>
-          <PARAMETER NAME="DATA_WIDTH" VALUE="32"/>
+          <PARAMETER NAME="DATA_WIDTH" VALUE="512"/>
           <PARAMETER NAME="FREQ_HZ" VALUE="66000000.0"/>
           <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
           <PARAMETER NAME="HAS_BURST" VALUE="0"/>

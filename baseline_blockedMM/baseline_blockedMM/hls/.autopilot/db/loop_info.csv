@@ -1,5 +1,7 @@
-,VITIS_LOOP_60_6,seq_loop_status1.csv
-,VITIS_LOOP_59_5,seq_loop_status2.csv
-,VITIS_LOOP_50_2,seq_loop_status3.csv
-,VITIS_LOOP_49_1,seq_loop_status4.csv
-grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200,VITIS_LOOP_65_8,upc_loop_status1.csv
+,k_loop,seq_loop_status1.csv
+,k_BLOCK_loop,seq_loop_status2.csv
+,i_output_loop,seq_loop_status3.csv
+,j_output_loop,seq_loop_status4.csv
+,j_BLOCK_loop,seq_loop_status5.csv
+,i_BLOCK_loop,seq_loop_status6.csv
+grp_MM_Pipeline_i_loop_fu_879,i_loop,upc_loop_status1.csv

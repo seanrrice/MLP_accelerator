@@ -3,8 +3,8 @@
 # SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
 # IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
 # SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-# Start of session at: Mon Apr  6 18:35:37 2026
-# Process ID         : 3764
+# Start of session at: Wed Apr  8 12:48:17 2026
+# Process ID         : 32616
 # Current directory  : Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/sim/verilog
 # Command line       : xsim.exe -mode tcl -source {xsim.dir/MM/xsim_script.tcl}
 # Log file           : Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/sim/verilog/xsim.log
@@ -19,23 +19,23 @@
 # Host memory        : 16541 MB
 # Swap memory        : 15032 MB
 # Total Virtual      : 31573 MB
-# Available Virtual  : 13563 MB
+# Available Virtual  : 3671 MB
 #-----------------------------------------------------------
 source xsim.dir/MM/xsim_script.tcl
 # xsim {MM} -testplusarg UVM_VERBOSITY=UVM_NONE -testplusarg UVM_TESTNAME=MM_test_lib -testplusarg UVM_TIMEOUT=20000000000000 -view {{MM_dataflow_ana.wcfg}} -tclbatch {MM.tcl} -protoinst {MM.protoinst}
 INFO: [Wavedata 42-565] Reading protoinst file MM.protoinst
 INFO: [Wavedata 42-564]   Found protocol instance at /apatb_MM_top/AESL_inst_MM//AESL_inst_MM_activity
-INFO: [Wavedata 42-564]   Found protocol instance at /apatb_MM_top/AESL_inst_MM/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_MM_top/AESL_inst_MM/grp_MM_Pipeline_i_loop_fu_879/grp_MM_Pipeline_i_loop_fu_879_activity
 Time resolution is 1 ps
 open_wave_config MM_dataflow_ana.wcfg
 source MM.tcl
 ## log_wave -r /
 ## set designtopgroup [add_wave_group "Design Top Signals"]
 ## set cinoutgroup [add_wave_group "C InOuts" -into $designtopgroup]
-## set A__B__C__ABC_group [add_wave_group A__B__C__ABC(axi_master) -into $cinoutgroup]
-## set rdata_group [add_wave_group "Read Channel" -into $A__B__C__ABC_group]
-## set wdata_group [add_wave_group "Write Channel" -into $A__B__C__ABC_group]
-## set ctrl_group [add_wave_group "Handshakes" -into $A__B__C__ABC_group]
+## set AT__B__C__ABC_group [add_wave_group AT__B__C__ABC(axi_master) -into $cinoutgroup]
+## set rdata_group [add_wave_group "Read Channel" -into $AT__B__C__ABC_group]
+## set wdata_group [add_wave_group "Write Channel" -into $AT__B__C__ABC_group]
+## set ctrl_group [add_wave_group "Handshakes" -into $AT__B__C__ABC_group]
 ## add_wave /apatb_MM_top/AESL_inst_MM/m_axi_gmem_BUSER -into $wdata_group -radix hex
 ## add_wave /apatb_MM_top/AESL_inst_MM/m_axi_gmem_BID -into $wdata_group -radix hex
 ## add_wave /apatb_MM_top/AESL_inst_MM/m_axi_gmem_BRESP -into $wdata_group -radix hex
@@ -81,25 +81,25 @@ source MM.tcl
 ## add_wave /apatb_MM_top/AESL_inst_MM/m_axi_gmem_AWADDR -into $wdata_group -radix hex
 ## add_wave /apatb_MM_top/AESL_inst_MM/m_axi_gmem_AWREADY -into $ctrl_group -color #ffff00 -radix hex
 ## add_wave /apatb_MM_top/AESL_inst_MM/m_axi_gmem_AWVALID -into $ctrl_group -color #ffff00 -radix hex
-## set A__B__C__ABC__N__M__P__return_group [add_wave_group A__B__C__ABC__N__M__P__return(axi_slave) -into $cinoutgroup]
-## add_wave /apatb_MM_top/AESL_inst_MM/interrupt -into $A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_BRESP -into $A__B__C__ABC__N__M__P__return_group -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_BREADY -into $A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_BVALID -into $A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_RRESP -into $A__B__C__ABC__N__M__P__return_group -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_RDATA -into $A__B__C__ABC__N__M__P__return_group -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_RREADY -into $A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_RVALID -into $A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_ARREADY -into $A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_ARVALID -into $A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_ARADDR -into $A__B__C__ABC__N__M__P__return_group -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_WSTRB -into $A__B__C__ABC__N__M__P__return_group -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_WDATA -into $A__B__C__ABC__N__M__P__return_group -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_WREADY -into $A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_WVALID -into $A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_AWREADY -into $A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_AWVALID -into $A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_AWADDR -into $A__B__C__ABC__N__M__P__return_group -radix hex
+## set AT__B__C__ABC__N__M__P__return_group [add_wave_group AT__B__C__ABC__N__M__P__return(axi_slave) -into $cinoutgroup]
+## add_wave /apatb_MM_top/AESL_inst_MM/interrupt -into $AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_BRESP -into $AT__B__C__ABC__N__M__P__return_group -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_BREADY -into $AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_BVALID -into $AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_RRESP -into $AT__B__C__ABC__N__M__P__return_group -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_RDATA -into $AT__B__C__ABC__N__M__P__return_group -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_RREADY -into $AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_RVALID -into $AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_ARREADY -into $AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_ARVALID -into $AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_ARADDR -into $AT__B__C__ABC__N__M__P__return_group -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_WSTRB -into $AT__B__C__ABC__N__M__P__return_group -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_WDATA -into $AT__B__C__ABC__N__M__P__return_group -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_WREADY -into $AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_WVALID -into $AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_AWREADY -into $AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_AWVALID -into $AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_AWADDR -into $AT__B__C__ABC__N__M__P__return_group -radix hex
 ## set blocksiggroup [add_wave_group "Block-level IO Handshake(internal)" -into $designtopgroup]
 ## add_wave /apatb_MM_top/AESL_inst_MM/ap_done -into $blocksiggroup
 ## add_wave /apatb_MM_top/AESL_inst_MM/ap_idle -into $blocksiggroup
@@ -116,8 +116,8 @@ source MM.tcl
 ## add_wave /apatb_MM_top/AUTOTB_TRANSACTION_NUM -into $tb_simstatus_group -radix hex
 ## add_wave /apatb_MM_top/ready_cnt -into $tb_simstatus_group -radix hex
 ## add_wave /apatb_MM_top/done_cnt -into $tb_simstatus_group -radix hex
-## add_wave /apatb_MM_top/LENGTH_A -into $tb_portdepth_group -radix hex
 ## add_wave /apatb_MM_top/LENGTH_ABC -into $tb_portdepth_group -radix hex
+## add_wave /apatb_MM_top/LENGTH_AT -into $tb_portdepth_group -radix hex
 ## add_wave /apatb_MM_top/LENGTH_B -into $tb_portdepth_group -radix hex
 ## add_wave /apatb_MM_top/LENGTH_C -into $tb_portdepth_group -radix hex
 ## add_wave /apatb_MM_top/LENGTH_M -into $tb_portdepth_group -radix hex
@@ -125,10 +125,10 @@ source MM.tcl
 ## add_wave /apatb_MM_top/LENGTH_P -into $tb_portdepth_group -radix hex
 ## add_wave /apatb_MM_top/LENGTH_gmem -into $tb_portdepth_group -radix hex
 ## set tbcinoutgroup [add_wave_group "C InOuts" -into $testbenchgroup]
-## set tb_A__B__C__ABC_group [add_wave_group A__B__C__ABC(axi_master) -into $tbcinoutgroup]
-## set rdata_group [add_wave_group "Read Channel" -into $tb_A__B__C__ABC_group]
-## set wdata_group [add_wave_group "Write Channel" -into $tb_A__B__C__ABC_group]
-## set ctrl_group [add_wave_group "Handshakes" -into $tb_A__B__C__ABC_group]
+## set tb_AT__B__C__ABC_group [add_wave_group AT__B__C__ABC(axi_master) -into $tbcinoutgroup]
+## set rdata_group [add_wave_group "Read Channel" -into $tb_AT__B__C__ABC_group]
+## set wdata_group [add_wave_group "Write Channel" -into $tb_AT__B__C__ABC_group]
+## set ctrl_group [add_wave_group "Handshakes" -into $tb_AT__B__C__ABC_group]
 ## add_wave /apatb_MM_top/gmem_BUSER -into $wdata_group -radix hex
 ## add_wave /apatb_MM_top/gmem_BID -into $wdata_group -radix hex
 ## add_wave /apatb_MM_top/gmem_BRESP -into $wdata_group -radix hex
@@ -174,25 +174,25 @@ source MM.tcl
 ## add_wave /apatb_MM_top/gmem_AWADDR -into $wdata_group -radix hex
 ## add_wave /apatb_MM_top/gmem_AWREADY -into $ctrl_group -color #ffff00 -radix hex
 ## add_wave /apatb_MM_top/gmem_AWVALID -into $ctrl_group -color #ffff00 -radix hex
-## set tb_A__B__C__ABC__N__M__P__return_group [add_wave_group A__B__C__ABC__N__M__P__return(axi_slave) -into $tbcinoutgroup]
-## add_wave /apatb_MM_top/control_INTERRUPT -into $tb_A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/control_BRESP -into $tb_A__B__C__ABC__N__M__P__return_group -radix hex
-## add_wave /apatb_MM_top/control_BREADY -into $tb_A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/control_BVALID -into $tb_A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/control_RRESP -into $tb_A__B__C__ABC__N__M__P__return_group -radix hex
-## add_wave /apatb_MM_top/control_RDATA -into $tb_A__B__C__ABC__N__M__P__return_group -radix hex
-## add_wave /apatb_MM_top/control_RREADY -into $tb_A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/control_RVALID -into $tb_A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/control_ARREADY -into $tb_A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/control_ARVALID -into $tb_A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/control_ARADDR -into $tb_A__B__C__ABC__N__M__P__return_group -radix hex
-## add_wave /apatb_MM_top/control_WSTRB -into $tb_A__B__C__ABC__N__M__P__return_group -radix hex
-## add_wave /apatb_MM_top/control_WDATA -into $tb_A__B__C__ABC__N__M__P__return_group -radix hex
-## add_wave /apatb_MM_top/control_WREADY -into $tb_A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/control_WVALID -into $tb_A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/control_AWREADY -into $tb_A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/control_AWVALID -into $tb_A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/control_AWADDR -into $tb_A__B__C__ABC__N__M__P__return_group -radix hex
+## set tb_AT__B__C__ABC__N__M__P__return_group [add_wave_group AT__B__C__ABC__N__M__P__return(axi_slave) -into $tbcinoutgroup]
+## add_wave /apatb_MM_top/control_INTERRUPT -into $tb_AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/control_BRESP -into $tb_AT__B__C__ABC__N__M__P__return_group -radix hex
+## add_wave /apatb_MM_top/control_BREADY -into $tb_AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/control_BVALID -into $tb_AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/control_RRESP -into $tb_AT__B__C__ABC__N__M__P__return_group -radix hex
+## add_wave /apatb_MM_top/control_RDATA -into $tb_AT__B__C__ABC__N__M__P__return_group -radix hex
+## add_wave /apatb_MM_top/control_RREADY -into $tb_AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/control_RVALID -into $tb_AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/control_ARREADY -into $tb_AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/control_ARVALID -into $tb_AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/control_ARADDR -into $tb_AT__B__C__ABC__N__M__P__return_group -radix hex
+## add_wave /apatb_MM_top/control_WSTRB -into $tb_AT__B__C__ABC__N__M__P__return_group -radix hex
+## add_wave /apatb_MM_top/control_WDATA -into $tb_AT__B__C__ABC__N__M__P__return_group -radix hex
+## add_wave /apatb_MM_top/control_WREADY -into $tb_AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/control_WVALID -into $tb_AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/control_AWREADY -into $tb_AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/control_AWVALID -into $tb_AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/control_AWADDR -into $tb_AT__B__C__ABC__N__M__P__return_group -radix hex
 ## save_wave_config MM.wcfg
 ## run all
 UVM_INFO T:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
@@ -490,10 +490,8 @@ UVM_INFO T:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_pa
 // RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
 ////////////////////////////////////////////////////////////////////////////////////
 // RTL Simulation : 0 / 1 [n/a] @ "143000"
-// RTL Simulation : 1 / 1 [n/a] @ "160793000"
+// RTL Simulation : 1 / 1 [n/a] @ "110633000"
 ////////////////////////////////////////////////////////////////////////////////////
-$finish called at time : 160897500 ps : File "T:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
-run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 242.551 ; gain = 0.000
+$finish called at time : 110737500 ps : File "T:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
 ## quit
-INFO: xsimkernel Simulation Memory Usage: 196976 KB (Peak: 196976 KB), Simulation CPU Usage: 4155 ms
-INFO: [Common 17-206] Exiting xsim at Mon Apr  6 18:35:49 2026...
+INFO: [Common 17-206] Exiting xsim at Wed Apr  8 12:48:26 2026...

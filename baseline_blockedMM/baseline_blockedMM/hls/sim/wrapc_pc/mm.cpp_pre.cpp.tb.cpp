@@ -42082,33 +42082,353 @@ namespace std
 
 }
 # 6 "Z:/Labs/clab/MLP_baseline/mm.h" 2
+# 1 "T:/AMDDesignTools/2025.2/Vitis/include\\hls_vector.h" 1
 
 
 
 
-typedef int DTYPE;
+
+
+
+
+# 1 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\include\\c++\\9.5.0\\cassert" 1 3
+# 42 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\include\\c++\\9.5.0\\cassert" 3
+
+
+# 1 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\x86_64-w64-mingw32\\include\\assert.h" 1 3
+# 17 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\x86_64-w64-mingw32\\include\\assert.h" 3
+# 1 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\include\\c++\\9.5.0\\stdlib.h" 1 3
+# 36 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\include\\c++\\9.5.0\\stdlib.h" 3
+# 1 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\include\\c++\\9.5.0\\cstdlib" 1 3
+# 40 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\include\\c++\\9.5.0\\cstdlib" 3
+# 37 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\include\\c++\\9.5.0\\stdlib.h" 2 3
+
+using std::abort;
+using std::atexit;
+using std::exit;
+# 51 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\include\\c++\\9.5.0\\stdlib.h" 3
+using std::div_t;
+using std::ldiv_t;
+
+using std::abs;
+using std::atof;
+using std::atoi;
+using std::atol;
+using std::bsearch;
+using std::calloc;
+using std::div;
+using std::free;
+using std::getenv;
+using std::labs;
+using std::ldiv;
+using std::malloc;
+
+using std::mblen;
+using std::mbstowcs;
+using std::mbtowc;
+
+using std::qsort;
+using std::rand;
+using std::realloc;
+using std::srand;
+using std::strtod;
+using std::strtol;
+using std::strtoul;
+using std::system;
+
+using std::wcstombs;
+using std::wctomb;
+# 18 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\x86_64-w64-mingw32\\include\\assert.h" 2 3
+
+
+
+extern "C" {
+
+
+__attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _wassert(const wchar_t *_Message,const wchar_t *_File,unsigned _Line);
+__attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _assert (const char *_Message, const char *_File, unsigned _Line);
+
+
+}
+# 45 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\include\\c++\\9.5.0\\cassert" 2 3
+# 10 "T:/AMDDesignTools/2025.2/Vitis/include\\hls_vector.h" 2
+# 1 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\include\\c++\\9.5.0\\cstddef" 1 3
+# 43 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\include\\c++\\9.5.0\\cstddef" 3
+
+
+
+
+
+
+
+# 1 "T:\\AMDDesignTools\\2025.2\\Vitis\\win64\\tools\\clang-16\\lib\\clang\\16\\include\\stddef.h" 1 3
+# 51 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\include\\c++\\9.5.0\\cstddef" 2 3
+
+extern "C++"
+{
+
+namespace std
+{
+
+  using ::max_align_t;
+}
+# 197 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\include\\c++\\9.5.0\\cstddef" 3
+}
+# 11 "T:/AMDDesignTools/2025.2/Vitis/include\\hls_vector.h" 2
+
+
+
+namespace hls {
+# 41 "T:/AMDDesignTools/2025.2/Vitis/include\\hls_vector.h"
+template <typename _R, typename _Fn, typename... _Args>
+struct is_invocable_r {
+private:
+  template <
+    typename _U,
+    typename = typename std::result_of<_U&&(_Args&&...)>::type,
+    typename = typename std::enable_if<
+      std::is_convertible<
+        typename std::result_of<_U&&(_Args&&...)>::type, _R
+      >::value
+    >::type
+  >
+  static std::true_type test(int);
+
+  template <typename>
+  static std::false_type test(...);
+
+public:
+  static constexpr bool value = decltype(test<_Fn>(0))::value;
+};
+
+template <typename _R, typename _Fn, typename... _Args>
+constexpr bool is_invocable_r_v = is_invocable_r<_R, _Fn, _Args...>::value;
+
+template <typename _From, typename _To>
+constexpr bool is_convertible_v = std::is_convertible<_From, _To>::value;
+
+
+
+
+
+namespace details {
+
+
+constexpr size_t gp2(size_t n) {
+  if (n == 0)
+    return 0;
+  if (n % 2 != 0)
+    return 1;
+  return 2 * gp2(n / 2);
+}
+
+}
+
+
+template <typename _T, size_t _N>
+class alignas(details::gp2(sizeof(_T) * _N)) vector {
+  static_assert(_N > 0, "vector must have at least one element");
+
+  using data_t = std::array<_T, _N>;
+  data_t data;
+
+public:
+
+
+  using value_type = typename data_t::value_type;
+  using size_type = typename data_t::size_type;
+  using difference_type = typename data_t::difference_type;
+  using reference = typename data_t::reference;
+  using const_reference = typename data_t::const_reference;
+  using pointer = typename data_t::pointer;
+  using const_pointer = typename data_t::const_pointer;
+  using iterator = typename data_t::iterator;
+  using const_iterator = typename data_t::const_iterator;
+  using reverse_iterator = typename data_t::reverse_iterator;
+  using const_reverse_iterator = typename data_t::const_reverse_iterator;
+# 121 "T:/AMDDesignTools/2025.2/Vitis/include\\hls_vector.h"
+  inline iterator begin() { pragma(); return data.begin(); }
+  inline iterator end() { pragma(); return data.end(); }
+  inline reverse_iterator rbegin() { pragma(); return data.rbegin(); }
+  inline reverse_iterator rend() { pragma(); return data.rend(); }
+  inline const_iterator begin() const { pragma(); return data.begin(); }
+  inline const_iterator end() const { pragma(); return data.end(); }
+  inline const_iterator cbegin() const { pragma(); return data.cbegin(); }
+  inline const_iterator cend() const { pragma(); return data.cend(); }
+  inline const_reverse_iterator rbegin() const { pragma(); return data.rbegin(); }
+  inline const_reverse_iterator rend() const { pragma(); return data.rend(); }
+  inline const_reverse_iterator crbegin() const { pragma(); return data.crbegin(); }
+  inline const_reverse_iterator crend() const { pragma(); return data.crend(); }
+
+  inline bool empty() const { pragma(); return data.empty(); }
+  inline size_type size() const { pragma(); return data.size(); }
+  inline size_type max_size() const { pragma(); return data.max_size(); }
+
+
+
+
+protected:
+
+
+  inline void pragma() const {
+
+  }
+
+public:
+
+  vector() = default;
+
+  vector(const vector &other) = default;
+
+  vector(vector &&other) = default;
+
+  vector &operator=(const vector &other) = default;
+
+  vector &operator=(vector &&other) = default;
+
+  ~vector() = default;
+
+
+
+
+
+
+  template <size_t _N2 = _N, typename = typename std::enable_if_t<_N2 == 1>>
+  inline operator _T() const {
+    pragma();
+    return data[0];
+  }
+
+
+  inline vector(const _T &val) {
+    pragma();
+    for (size_t i = 0; i < _N; ++i) {
+
+      data[i] = val;
+    }
+  }
+
+
+  inline vector(const std::array<_T, _N> &data) : data{data} {
+    pragma();
+  }
+
+
+  inline vector(std::initializer_list<_T> l) {
+    pragma();
+    (void) ((!!(l.size() == _N && "Initializer list must be the same size as the vector")) || (_assert("l.size() == _N && \"Initializer list must be the same size as the vector\"","T:/AMDDesignTools/2025.2/Vitis/include\\hls_vector.h",191),0));
+
+    for (size_t i = 0; i < _N; ++i) {
+
+      data[i] = l.begin()[i];
+    }
+  }
+
+
+
+
+  template<typename _L,
+           typename = typename std::enable_if_t<hls::is_invocable_r_v<_T, _L, size_t> &&
+                                               !hls::is_convertible_v<_L, _T>>>
+  inline vector(_L init) {
+    pragma();
+    for (size_t i = 0; i < _N; ++i) {
+
+      data[i] = init(i);
+    }
+  }
+
+
+  inline _T &operator[](size_t idx) {
+    pragma();
+    return data[idx];
+  }
+  inline const _T &operator[](size_t idx) const {
+    pragma();
+    return data[idx];
+  }
+# 232 "T:/AMDDesignTools/2025.2/Vitis/include\\hls_vector.h"
+  inline vector &operator ++() { pragma(); for (size_t i = 0; i < _N; ++i) { ++ data[i]; } return *this; }
+  inline vector &operator --() { pragma(); for (size_t i = 0; i < _N; ++i) { -- data[i]; } return *this; }
+# 245 "T:/AMDDesignTools/2025.2/Vitis/include\\hls_vector.h"
+  inline vector operator ++(int) { pragma(); vector orig = *this; ++ *this; return orig; }
+  inline vector operator --(int) { pragma(); vector orig = *this; -- *this; return orig; }
+# 261 "T:/AMDDesignTools/2025.2/Vitis/include\\hls_vector.h"
+  inline vector &operator +=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { data[i] += rhs[i]; } return *this; }
+  inline vector &operator -=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { data[i] -= rhs[i]; } return *this; }
+  inline vector &operator *=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { data[i] *= rhs[i]; } return *this; }
+  inline vector &operator /=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { data[i] /= rhs[i]; } return *this; }
+  inline vector &operator %=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { data[i] %= rhs[i]; } return *this; }
+  inline vector &operator &=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { data[i] &= rhs[i]; } return *this; }
+  inline vector &operator |=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { data[i] |= rhs[i]; } return *this; }
+  inline vector &operator ^=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { data[i] ^= rhs[i]; } return *this; }
+  inline vector &operator <<=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { data[i] <<= rhs[i]; } return *this; }
+  inline vector &operator >>=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { data[i] >>= rhs[i]; } return *this; }
+# 285 "T:/AMDDesignTools/2025.2/Vitis/include\\hls_vector.h"
+  inline _T reduce_add() const { pragma(); _T res = data[0]; for (size_t i = 1; i < _N; ++i) { res += data[i]; } return res; }
+  inline _T reduce_mult() const { pragma(); _T res = data[0]; for (size_t i = 1; i < _N; ++i) { res *= data[i]; } return res; }
+  inline _T reduce_and() const { pragma(); _T res = data[0]; for (size_t i = 1; i < _N; ++i) { res &= data[i]; } return res; }
+  inline _T reduce_or() const { pragma(); _T res = data[0]; for (size_t i = 1; i < _N; ++i) { res |= data[i]; } return res; }
+  inline _T reduce_xor() const { pragma(); _T res = data[0]; for (size_t i = 1; i < _N; ++i) { res ^= data[i]; } return res; }
+# 320 "T:/AMDDesignTools/2025.2/Vitis/include\\hls_vector.h"
+  inline friend bool operator <(const vector &lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { if (lhs[i] == rhs[i]) continue; return lhs[i] < rhs[i]; } return _T{} < _T{}; }
+  inline friend bool operator <=(const vector &lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { if (lhs[i] == rhs[i]) continue; return lhs[i] <= rhs[i]; } return _T{} <= _T{}; }
+  inline friend bool operator ==(const vector &lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { if (lhs[i] == rhs[i]) continue; return lhs[i] == rhs[i]; } return _T{} == _T{}; }
+  inline friend bool operator !=(const vector &lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { if (lhs[i] == rhs[i]) continue; return lhs[i] != rhs[i]; } return _T{} != _T{}; }
+  inline friend bool operator >=(const vector &lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { if (lhs[i] == rhs[i]) continue; return lhs[i] >= rhs[i]; } return _T{} >= _T{}; }
+  inline friend bool operator >(const vector &lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { if (lhs[i] == rhs[i]) continue; return lhs[i] > rhs[i]; } return _T{} > _T{}; }
+# 338 "T:/AMDDesignTools/2025.2/Vitis/include\\hls_vector.h"
+  inline friend vector operator +(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs += rhs; }
+  inline friend vector operator -(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs -= rhs; }
+  inline friend vector operator *(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs *= rhs; }
+  inline friend vector operator /(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs /= rhs; }
+  inline friend vector operator %(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs %= rhs; }
+  inline friend vector operator &(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs &= rhs; }
+  inline friend vector operator |(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs |= rhs; }
+  inline friend vector operator ^(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs ^= rhs; }
+  inline friend vector operator <<(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs <<= rhs; }
+  inline friend vector operator >>(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs >>= rhs; }
+
+
+
+
+  static inline vector iota(_T start = {}) {
+    return vector([start](size_t i) { return start + i; });
+  }
+};
+
+}
+# 7 "Z:/Labs/clab/MLP_baseline/mm.h" 2
+
+
+
+
+
 const int BATCH_SIZE = 128;
 const int IMAGE_SIZE = 28*28;
 const int BLOCK_SIZE = 16;
 
+typedef int DTYPE;
+typedef hls::vector<DTYPE, BLOCK_SIZE> WIDE_DTYPE;
+
 using namespace std;
 
 extern "C"{
-void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P);
+void MM(WIDE_DTYPE* A, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P);
 }
 # 2 "Z:/Labs/clab/MLP_baseline/mm.cpp" 2
 
 
 
 extern "C" {
-void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P) {
+void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P) {
 # 25 "Z:/Labs/clab/MLP_baseline/mm.cpp"
-#pragma HLS INTERFACE m_axi port=A bundle=gmem depth=1024
-#pragma HLS INTERFACE m_axi port=B bundle=gmem depth=1024
+#pragma HLS INTERFACE m_axi port=AT bundle=gmem depth=64
+#pragma HLS INTERFACE m_axi port=B bundle=gmem depth=64
 #pragma HLS INTERFACE m_axi port=C bundle=gmem depth=32
-#pragma HLS INTERFACE m_axi port=ABC bundle=gmem depth=1024
+#pragma HLS INTERFACE m_axi port=ABC bundle=gmem depth=64
 
-#pragma HLS INTERFACE s_axilite port=A bundle=control
+#pragma HLS INTERFACE s_axilite port=AT bundle=control
 #pragma HLS INTERFACE s_axilite port=B bundle=control
 #pragma HLS INTERFACE s_axilite port=C bundle=control
 #pragma HLS INTERFACE s_axilite port=ABC bundle=control
@@ -42117,49 +42437,54 @@ void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P) {
 #pragma HLS INTERFACE s_axilite port=P bundle=control
 #pragma HLS INTERFACE s_axilite port=return bundle=control
 
-    DTYPE AB_block[BLOCK_SIZE][BLOCK_SIZE];
-    DTYPE B_line[BLOCK_SIZE];
+    WIDE_DTYPE AB_block[BLOCK_SIZE];
+    WIDE_DTYPE B_line;
+    WIDE_DTYPE A_line;
 #pragma HLS ARRAY_PARTITION variable=AB_block type=complete
-#pragma HLS ARRAY_PARTITION variable=B_line type=complete
-
 
 
 
     cout << "Entering MM..." << endl;
 
-    for(int ib = 0; ib < N/BLOCK_SIZE; ib ++){
-        for(int jb = 0; jb < P/BLOCK_SIZE; jb ++){
+    i_BLOCK_loop: for(int ib = 0; ib < N/BLOCK_SIZE; ib ++){
+#pragma HLS PIPELINE off
+        j_BLOCK_loop: for(int jb = 0; jb < P/BLOCK_SIZE; jb ++){
+#pragma HLS PIPELINE off
 
-            for(int i=0;i<BLOCK_SIZE;i++){
+            block_init_outer_loop: for(int i=0;i<BLOCK_SIZE;i++){
 #pragma HLS UNROLL
-                for(int j=0;j<BLOCK_SIZE;j++){
+                block_init_inner_loop: for(int j=0;j<BLOCK_SIZE;j++){
 #pragma HLS UNROLL
                     AB_block[i][j] = C[ib*BLOCK_SIZE+i];
                 }
             }
-            for (int kb = 0; kb < M/BLOCK_SIZE; kb ++){
-                for(int k = 0; k < BLOCK_SIZE; k++){
-                    for(int j=0; j < BLOCK_SIZE; j++){
-#pragma HLS UNROLL
-                        B_line[j] = B[(kb*BLOCK_SIZE+k)*P + jb*BLOCK_SIZE + j];
-                    }
-                    for(int i=0;i<BLOCK_SIZE;i++){
+            k_BLOCK_loop: for (int kb = 0; kb < M/BLOCK_SIZE; kb ++){
+#pragma HLS PIPELINE off
+                k_loop: for(int k = 0; k < BLOCK_SIZE; k++){
+                    B_line = B[((kb*BLOCK_SIZE+k)*P + jb*BLOCK_SIZE) / BLOCK_SIZE];
+
+
+                    A_line = AT[((kb*BLOCK_SIZE+k)*N + ib*BLOCK_SIZE) / BLOCK_SIZE];
+                    i_loop: for(int i=0;i<BLOCK_SIZE;i++){
 #pragma HLS PIPELINE II=1
-                        DTYPE Atemp = A[(ib*BLOCK_SIZE+i)*M + kb*BLOCK_SIZE + k];
-                        for(int j=0;j<BLOCK_SIZE;j++){
+
+                        j_loop: for(int j=0;j<BLOCK_SIZE;j++){
 #pragma HLS UNROLL
-                            AB_block[i][j] += Atemp * B_line[j];
+                            AB_block[i][j] += A_line[i] * B_line[j];
                         }
                     }
                 }
             }
 
-            for(int i=0;i<BLOCK_SIZE;i++){
-#pragma HLS UNROLL
-                for(int j=0;j<BLOCK_SIZE;j++){
-#pragma HLS UNROLL
-                    ABC[(ib*BLOCK_SIZE+i)*P + jb*BLOCK_SIZE + j] = AB_block[i][j];
+
+            j_output_loop: for(int j=0; j<BLOCK_SIZE; j++){
+#pragma HLS PIPELINE OFF
+                WIDE_DTYPE col_vec;
+                i_output_loop: for(int i=0; i<BLOCK_SIZE; i++){
+#pragma HLS PIPELINE OFF
+                    col_vec[i] = AB_block[i][j];
                 }
+                ABC[((jb*BLOCK_SIZE+j)*N + ib*BLOCK_SIZE)/BLOCK_SIZE] = col_vec;
             }
         }
     }
@@ -42169,12 +42494,12 @@ void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P) {
 #ifdef __cplusplus
 extern "C"
 #endif
-void apatb_MM_ir(int *, int *, int *, int *, int, int, int);
+void apatb_MM_ir(hls::vector<int, 16> *, hls::vector<int, 16> *, int *, hls::vector<int, 16> *, int, int, int);
 #ifdef __cplusplus
 extern "C"
 #endif
-void MM_hw_stub(int *A, int *B, int *C, int *ABC, int N, int M, int P){
-MM(A, B, C, ABC, N, M, P);
+void MM_hw_stub(hls::vector<int, 16> *AT, hls::vector<int, 16> *B, int *C, hls::vector<int, 16> *ABC, int N, int M, int P){
+MM(AT, B, C, ABC, N, M, P);
 return ;
 }
 #ifdef __cplusplus
@@ -42184,12 +42509,12 @@ void refine_signal_handler();
 #ifdef __cplusplus
 extern "C"
 #endif
-void apatb_MM_sw(int *A, int *B, int *C, int *ABC, int N, int M, int P){
+void apatb_MM_sw(hls::vector<int, 16> *AT, hls::vector<int, 16> *B, int *C, hls::vector<int, 16> *ABC, int N, int M, int P){
 refine_signal_handler();
-apatb_MM_ir(A, B, C, ABC, N, M, P);
+apatb_MM_ir(AT, B, C, ABC, N, M, P);
 return ;
 }
 #endif
-# 86 "Z:/Labs/clab/MLP_baseline/mm.cpp"
+# 91 "Z:/Labs/clab/MLP_baseline/mm.cpp"
 
 }

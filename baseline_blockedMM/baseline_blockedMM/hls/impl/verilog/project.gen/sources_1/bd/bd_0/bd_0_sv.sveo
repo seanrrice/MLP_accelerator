@@ -61,7 +61,7 @@
 // INCLUDE_TAG_END ------  End cut for INTERFACE INSTANTIATION Include  ------
 
 // INTF_TAG     ------ Begin cut for INTERFACE INSTANTIATION Template ------
-vivado_aximm_v1_0 #(.ADDR_WIDTH(64), .ID_WIDTH(1)) m_axi_gmem();
+vivado_aximm_v1_0 #(.ADDR_WIDTH(64), .DATA_WIDTH(512), .ID_WIDTH(1)) m_axi_gmem();
 vivado_axi4_lite_v1_0 s_axi_control();
 // INTF_TAG_END ------  End cut for INTERFACE INSTANTIATION Template  ------
 

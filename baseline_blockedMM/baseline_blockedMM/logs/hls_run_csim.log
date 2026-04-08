@@ -30,6 +30,7 @@ INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
 INFO: [HLS 200-1465] Applying config ini 'clock=15' from hls_config.cfg(16)
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 15ns.
 INFO: [HLS 200-1465] Applying config ini 'cosim.trace_level=all' from hls_config.cfg(17)
+INFO: [HLS 200-1465] Applying config ini 'package.output.file=Z:\Labs\MLP_accelerator\package' from hls_config.cfg(18)
 INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
 INFO: [HLS 200-2176] Writing Vitis IDE component file Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/vitis-comp.json
 INFO: [SIM 211-2] *************** CSIM start ***************
@@ -37,10 +38,14 @@ INFO: [HLS 200-2191] C-Simulation will use clang-16 as the compiler
 INFO: [HLS 200-2036] Building debug C Simulation binaries
    Compiling ../../../../../MLP_baseline/mm.cpp in debug mode
    Generating csim.exe
+Calling MM kernel...
 Entering MM...
 Finished initial MM
-PASS
+Returned from MM kernel.
+*******************************************
+PASS: The output matches the golden output!
+*******************************************
 INFO: [SIM 211-1] CSim done with 0 errors.
 INFO: [SIM 211-3] *************** CSIM finish ***************
-INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 1 seconds. Total elapsed time: 5.639 seconds; peak allocated memory: 163.559 MB.
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 2 seconds. Total elapsed time: 5.069 seconds; peak allocated memory: 163.863 MB.
 INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 10s

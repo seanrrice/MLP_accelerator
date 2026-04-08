@@ -32,7 +32,7 @@
     output wire                          RVALID,
     input  wire                          RREADY,
     output wire                          interrupt,
-    output wire [63:0]                   A,
+    output wire [63:0]                   AT,
     output wire [63:0]                   B,
     output wire [63:0]                   C,
     output wire [63:0]                   ABC,
@@ -66,10 +66,10 @@
 //        bit 0 - ap_done (Read/TOW)
 //        bit 1 - ap_ready (Read/TOW)
 //        others - reserved
-// 0x10 : Data signal of A
-//        bit 31~0 - A[31:0] (Read/Write)
-// 0x14 : Data signal of A
-//        bit 31~0 - A[63:32] (Read/Write)
+// 0x10 : Data signal of AT
+//        bit 31~0 - AT[31:0] (Read/Write)
+// 0x14 : Data signal of AT
+//        bit 31~0 - AT[63:32] (Read/Write)
 // 0x18 : reserved
 // 0x1c : Data signal of B
 //        bit 31~0 - B[31:0] (Read/Write)
@@ -103,9 +103,9 @@ localparam
     ADDR_GIE        = 7'h04,
     ADDR_IER        = 7'h08,
     ADDR_ISR        = 7'h0c,
-    ADDR_A_DATA_0   = 7'h10,
-    ADDR_A_DATA_1   = 7'h14,
-    ADDR_A_CTRL     = 7'h18,
+    ADDR_AT_DATA_0  = 7'h10,
+    ADDR_AT_DATA_1  = 7'h14,
+    ADDR_AT_CTRL    = 7'h18,
     ADDR_B_DATA_0   = 7'h1c,
     ADDR_B_DATA_1   = 7'h20,
     ADDR_B_CTRL     = 7'h24,
@@ -157,7 +157,7 @@ localparam
     reg                           int_gie = 1'b0;
     reg  [1:0]                    int_ier = 2'b0;
     reg  [1:0]                    int_isr = 2'b0;
-    reg  [63:0]                   int_A = 'b0;
+    reg  [63:0]                   int_AT = 'b0;
     reg  [63:0]                   int_B = 'b0;
     reg  [63:0]                   int_C = 'b0;
     reg  [63:0]                   int_ABC = 'b0;
@@ -273,11 +273,11 @@ always @(posedge ACLK) begin
                 ADDR_ISR: begin
                     rdata <= int_isr;
                 end
-                ADDR_A_DATA_0: begin
-                    rdata <= int_A[31:0];
+                ADDR_AT_DATA_0: begin
+                    rdata <= int_AT[31:0];
                 end
-                ADDR_A_DATA_1: begin
-                    rdata <= int_A[63:32];
+                ADDR_AT_DATA_1: begin
+                    rdata <= int_AT[63:32];
                 end
                 ADDR_B_DATA_0: begin
                     rdata <= int_B[31:0];
@@ -318,7 +318,7 @@ assign ap_start          = int_ap_start;
 assign task_ap_done      = (ap_done && !auto_restart_status) || auto_restart_done;
 assign task_ap_ready     = ap_ready && !int_auto_restart;
 assign auto_restart_done = auto_restart_status && (ap_idle && !int_ap_idle);
-assign A                 = int_A;
+assign AT                = int_AT;
 assign B                 = int_B;
 assign C                 = int_C;
 assign ABC               = int_ABC;
@@ -457,23 +457,23 @@ always @(posedge ACLK) begin
     end
 end
 
-// int_A[31:0]
+// int_AT[31:0]
 always @(posedge ACLK) begin
     if (ARESET)
-        int_A[31:0] <= 0;
+        int_AT[31:0] <= 0;
     else if (ACLK_EN) begin
-        if (w_hs && waddr == ADDR_A_DATA_0)
-            int_A[31:0] <= (WDATA[31:0] & wmask) | (int_A[31:0] & ~wmask);
+        if (w_hs && waddr == ADDR_AT_DATA_0)
+            int_AT[31:0] <= (WDATA[31:0] & wmask) | (int_AT[31:0] & ~wmask);
     end
 end
 
-// int_A[63:32]
+// int_AT[63:32]
 always @(posedge ACLK) begin
     if (ARESET)
-        int_A[63:32] <= 0;
+        int_AT[63:32] <= 0;
     else if (ACLK_EN) begin
-        if (w_hs && waddr == ADDR_A_DATA_1)
-            int_A[63:32] <= (WDATA[31:0] & wmask) | (int_A[63:32] & ~wmask);
+        if (w_hs && waddr == ADDR_AT_DATA_1)
+            int_AT[63:32] <= (WDATA[31:0] & wmask) | (int_AT[63:32] & ~wmask);
     end
 end
 

@@ -21,8 +21,8 @@
 using namespace std;
 
 // wrapc file define:
-#define AUTOTB_TVIN_A "../tv/cdatafile/c.MM.autotvin_A.dat"
-#define AUTOTB_TVOUT_A "../tv/cdatafile/c.MM.autotvout_A.dat"
+#define AUTOTB_TVIN_AT "../tv/cdatafile/c.MM.autotvin_AT.dat"
+#define AUTOTB_TVOUT_AT "../tv/cdatafile/c.MM.autotvout_AT.dat"
 #define AUTOTB_TVIN_B "../tv/cdatafile/c.MM.autotvin_B.dat"
 #define AUTOTB_TVOUT_B "../tv/cdatafile/c.MM.autotvout_B.dat"
 #define AUTOTB_TVIN_C "../tv/cdatafile/c.MM.autotvin_C.dat"
@@ -1268,19 +1268,19 @@ extern "C"
 void MM_hw_stub_wrapper(void*, void*, void*, void*, hls::sim::Byte<4>, hls::sim::Byte<4>, hls::sim::Byte<4>);
 
 extern "C"
-void apatb_MM_hw(void* __xlx_apatb_param_A, void* __xlx_apatb_param_B, void* __xlx_apatb_param_C, void* __xlx_apatb_param_ABC, hls::sim::Byte<4> __xlx_apatb_param_N, hls::sim::Byte<4> __xlx_apatb_param_M, hls::sim::Byte<4> __xlx_apatb_param_P)
+void apatb_MM_hw(void* __xlx_apatb_param_AT, void* __xlx_apatb_param_B, void* __xlx_apatb_param_C, void* __xlx_apatb_param_ABC, hls::sim::Byte<4> __xlx_apatb_param_N, hls::sim::Byte<4> __xlx_apatb_param_M, hls::sim::Byte<4> __xlx_apatb_param_P)
 {
-  static hls::sim::Byte<4> __xlx_offset_byte_param_A;
+  static hls::sim::Byte<4> __xlx_offset_byte_param_AT;
   static hls::sim::Register port0 {
-    .name = "A",
+    .name = "AT",
     .width = 32,
 #ifdef POST_CHECK
 #else
     .owriter = nullptr,
-    .iwriter = new hls::sim::Writer(AUTOTB_TVIN_A),
+    .iwriter = new hls::sim::Writer(AUTOTB_TVIN_AT),
 #endif
   };
-  port0.param = &__xlx_offset_byte_param_A;
+  port0.param = &__xlx_offset_byte_param_AT;
 
   static hls::sim::Byte<4> __xlx_offset_byte_param_B;
   static hls::sim::Register port1 {
@@ -1356,8 +1356,8 @@ void apatb_MM_hw(void* __xlx_apatb_param_A, void* __xlx_apatb_param_B, void* __x
 #else
   static hls::sim::Memory<hls::sim::Reader, hls::sim::Writer> port7 {
 #endif
-    .width = 32,
-    .asize = 4,
+    .width = 512,
+    .asize = 64,
     .hbm = false,
     .name = { "gmem" },
 #ifdef POST_CHECK
@@ -1381,8 +1381,8 @@ void apatb_MM_hw(void* __xlx_apatb_param_A, void* __xlx_apatb_param_B, void* __x
     .hasWrite = { true, true, true, true },
     .max_nbytes = { 0, 0, 0, 0 },
   };
-  port7.param = { __xlx_apatb_param_A, __xlx_apatb_param_B, __xlx_apatb_param_C, __xlx_apatb_param_ABC };
-  port7.mname = { "A", "B", "C", "ABC" };
+  port7.param = { __xlx_apatb_param_AT, __xlx_apatb_param_B, __xlx_apatb_param_C, __xlx_apatb_param_ABC };
+  port7.mname = { "AT", "B", "C", "ABC" };
   port7.nbytes = { 4096, 4096, 128, 4096 };
   for (size_t i = 0; i < port7.nbytes.size(); ++i) {
     if (port7.nbytes[i] > port7.max_nbytes[i]) {
@@ -1394,10 +1394,10 @@ void apatb_MM_hw(void* __xlx_apatb_param_A, void* __xlx_apatb_param_B, void* __x
     port7.offset.push_back(off);
     off += hls::sim::divide_ceil(port7.max_nbytes[i], port7.asize);
   }
-  __xlx_offset_byte_param_A = port7.offset[0]*4;
-  __xlx_offset_byte_param_B = port7.offset[1]*4;
-  __xlx_offset_byte_param_C = port7.offset[2]*4;
-  __xlx_offset_byte_param_ABC = port7.offset[3]*4;
+  __xlx_offset_byte_param_AT = port7.offset[0]*64;
+  __xlx_offset_byte_param_B = port7.offset[1]*64;
+  __xlx_offset_byte_param_C = port7.offset[2]*64;
+  __xlx_offset_byte_param_ABC = port7.offset[3]*64;
 
   try {
 #ifdef POST_CHECK
@@ -1424,7 +1424,7 @@ void apatb_MM_hw(void* __xlx_apatb_param_A, void* __xlx_apatb_param_B, void* __x
     port6.doTCL(tcl);
     port7.doTCL(tcl);
     CodeState = CALL_C_DUT;
-    MM_hw_stub_wrapper(__xlx_apatb_param_A, __xlx_apatb_param_B, __xlx_apatb_param_C, __xlx_apatb_param_ABC, __xlx_apatb_param_N, __xlx_apatb_param_M, __xlx_apatb_param_P);
+    MM_hw_stub_wrapper(__xlx_apatb_param_AT, __xlx_apatb_param_B, __xlx_apatb_param_C, __xlx_apatb_param_ABC, __xlx_apatb_param_N, __xlx_apatb_param_M, __xlx_apatb_param_P);
     CodeState = DUMP_OUTPUTS;
     dump(port7, port7.owriter, tcl.AESL_transaction);
     tcl.AESL_transaction++;

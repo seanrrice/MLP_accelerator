@@ -30,6 +30,7 @@ INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from hls_config.
 INFO: [HLS 200-1465] Applying config ini 'clock=15' from hls_config.cfg(16)
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 15ns.
 INFO: [HLS 200-1465] Applying config ini 'cosim.trace_level=all' from hls_config.cfg(17)
+INFO: [HLS 200-1465] Applying config ini 'package.output.file=Z:\Labs\MLP_accelerator\package' from hls_config.cfg(18)
 INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
 INFO: [HLS 200-2176] Writing Vitis IDE component file Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/vitis-comp.json
 INFO: [COSIM 212-47] Using XSIM for RTL simulation.
@@ -41,9 +42,13 @@ INFO: [COSIM 212-14] Instrumenting C test bench ...
    Compiling apatb_MM_ir.ll
    Generating cosim.tv.exe
 INFO: [COSIM 212-302] Starting C TB testing ... 
+Calling MM kernel...
 Entering MM...
 Finished initial MM
-PASS
+Returned from MM kernel.
+*******************************************
+PASS: The output matches the golden output!
+*******************************************
 INFO: [COSIM 212-333] Generating C post check test bench ...
 INFO: [COSIM 212-12] Generating RTL test bench ...
 INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
@@ -82,10 +87,10 @@ INFO: [VRFC 10-311] analyzing module MM_gmem_m_axi_reg_slice
 INFO: [VRFC 10-311] analyzing module MM_gmem_m_axi_fifo
 INFO: [VRFC 10-311] analyzing module MM_gmem_m_axi_srl
 INFO: [VRFC 10-311] analyzing module MM_gmem_m_axi_mem
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "Z:/Labs/MLP_accelerator/baseline_blockedMM/baseline_blockedMM/hls/sim/verilog/MM_MM_Pipeline_VITIS_LOOP_65_8.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module MM_MM_Pipeline_VITIS_LOOP_65_8
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "Z:/Labs/MLP_accelerator/baseline_blockedMM/baseline_blockedMM/hls/sim/verilog/MM_mul_31ns_32s_62_1_1.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module MM_mul_31ns_32s_62_1_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "Z:/Labs/MLP_accelerator/baseline_blockedMM/baseline_blockedMM/hls/sim/verilog/MM_MM_Pipeline_i_loop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MM_MM_Pipeline_i_loop
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "Z:/Labs/MLP_accelerator/baseline_blockedMM/baseline_blockedMM/hls/sim/verilog/MM_mul_31ns_32s_32_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MM_mul_31ns_32s_32_1_1
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "Z:/Labs/MLP_accelerator/baseline_blockedMM/baseline_blockedMM/hls/sim/verilog/MM_mul_32s_32s_32_1_1.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module MM_mul_32s_32s_32_1_1
 INFO: [VRFC 10-2263] Analyzing SystemVerilog file "Z:/Labs/MLP_accelerator/baseline_blockedMM/baseline_blockedMM/hls/sim/verilog/MM_sparsemux_33_4_32_1_1.v" into library xil_defaultlib
@@ -113,18 +118,17 @@ Compiling package xil_defaultlib.axi_pkg
 Compiling package xil_defaultlib.MM_subsystem_pkg
 Compiling package xil_defaultlib.file_agent_pkg
 Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
-Compiling module xil_defaultlib.MM_mul_31ns_32s_62_1_1(NUM_STAGE...
 Compiling module xil_defaultlib.MM_mul_32s_32s_32_1_1(NUM_STAGE=...
 Compiling module xil_defaultlib.MM_sparsemux_33_4_32_1_1(din0_WI...
 Compiling module xil_defaultlib.MM_flow_control_loop_pipe_sequen...
-Compiling module xil_defaultlib.MM_MM_Pipeline_VITIS_LOOP_65_8
+Compiling module xil_defaultlib.MM_MM_Pipeline_i_loop
 Compiling module xil_defaultlib.MM_control_s_axi
 Compiling module xil_defaultlib.MM_gmem_m_axi_srl(DATA_WIDTH=96,...
 Compiling module xil_defaultlib.MM_gmem_m_axi_fifo(DATA_WIDTH=96...
 Compiling module xil_defaultlib.MM_gmem_m_axi_srl(DATA_WIDTH=8,A...
 Compiling module xil_defaultlib.MM_gmem_m_axi_fifo(DATA_WIDTH=8,...
-Compiling module xil_defaultlib.MM_gmem_m_axi_srl(DATA_WIDTH=36,...
-Compiling module xil_defaultlib.MM_gmem_m_axi_fifo(DATA_WIDTH=36...
+Compiling module xil_defaultlib.MM_gmem_m_axi_srl(DATA_WIDTH=576...
+Compiling module xil_defaultlib.MM_gmem_m_axi_fifo(DATA_WIDTH=57...
 Compiling module xil_defaultlib.MM_gmem_m_axi_srl(DATA_WIDTH=1,A...
 Compiling module xil_defaultlib.MM_gmem_m_axi_fifo(DATA_WIDTH=1,...
 Compiling module xil_defaultlib.MM_gmem_m_axi_srl(DATA_WIDTH=1,A...
@@ -134,8 +138,8 @@ Compiling module xil_defaultlib.MM_gmem_m_axi_mem(MEM_STYLE="blo...
 Compiling module xil_defaultlib.MM_gmem_m_axi_fifo(MEM_STYLE="bl...
 Compiling module xil_defaultlib.MM_gmem_m_axi_load(NUM_READ_OUTS...
 Compiling module xil_defaultlib.MM_gmem_m_axi_reg_slice(DATA_WID...
-Compiling module xil_defaultlib.MM_gmem_m_axi_burst_sequential(A...
-Compiling module xil_defaultlib.MM_gmem_m_axi_burst_converter(AD...
+Compiling module xil_defaultlib.MM_gmem_m_axi_burst_sequential(D...
+Compiling module xil_defaultlib.MM_gmem_m_axi_burst_converter(DA...
 Compiling module xil_defaultlib.MM_gmem_m_axi_reg_slice(DATA_WID...
 Compiling module xil_defaultlib.MM_gmem_m_axi_srl(DATA_WIDTH=64,...
 Compiling module xil_defaultlib.MM_gmem_m_axi_fifo(DATA_WIDTH=64...
@@ -146,13 +150,14 @@ Compiling module xil_defaultlib.MM_gmem_m_axi_write(CONSERVATIVE...
 Compiling module xil_defaultlib.MM_gmem_m_axi_reg_slice(DATA_WID...
 Compiling module xil_defaultlib.MM_gmem_m_axi_read(C_USER_VALUE=...
 Compiling module xil_defaultlib.MM_gmem_m_axi(C_M_AXI_ADDR_WIDTH...
+Compiling module xil_defaultlib.MM_mul_31ns_32s_32_1_1(NUM_STAGE...
 Compiling module xil_defaultlib.MM
 Compiling module xil_defaultlib.misc_interface_default
 Compiling module xil_defaultlib.axi_if(ADDR_WIDTH=64,STRB_WIDTH=...
 Compiling module xil_defaultlib.axi_if(ADDR_WIDTH=7,STRB_WIDTH=4...
 Compiling module xil_defaultlib.sv_module_top
 Compiling module xil_defaultlib.nodf_module_intf_default
-Compiling module xil_defaultlib.seq_loop_intf(FSM_WIDTH=323)
+Compiling module xil_defaultlib.seq_loop_intf(FSM_WIDTH=58)
 Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=1)
 Compiling module xil_defaultlib.dataflow_monitor_1
 Compiling module xil_defaultlib.apatb_MM_top
@@ -163,7 +168,7 @@ Built simulation snapshot MM
   **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
   **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
   **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-  **** Start of session at: Mon Apr  6 18:35:37 2026
+  **** Start of session at: Wed Apr  8 12:48:17 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 
@@ -171,17 +176,17 @@ source xsim.dir/MM/xsim_script.tcl
 # xsim {MM} -testplusarg UVM_VERBOSITY=UVM_NONE -testplusarg UVM_TESTNAME=MM_test_lib -testplusarg UVM_TIMEOUT=20000000000000 -view {{MM_dataflow_ana.wcfg}} -tclbatch {MM.tcl} -protoinst {MM.protoinst}
 INFO: [Wavedata 42-565] Reading protoinst file MM.protoinst
 INFO: [Wavedata 42-564]   Found protocol instance at /apatb_MM_top/AESL_inst_MM//AESL_inst_MM_activity
-INFO: [Wavedata 42-564]   Found protocol instance at /apatb_MM_top/AESL_inst_MM/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200/grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200_activity
+INFO: [Wavedata 42-564]   Found protocol instance at /apatb_MM_top/AESL_inst_MM/grp_MM_Pipeline_i_loop_fu_879/grp_MM_Pipeline_i_loop_fu_879_activity
 Time resolution is 1 ps
 open_wave_config MM_dataflow_ana.wcfg
 source MM.tcl
 ## log_wave -r /
 ## set designtopgroup [add_wave_group "Design Top Signals"]
 ## set cinoutgroup [add_wave_group "C InOuts" -into $designtopgroup]
-## set A__B__C__ABC_group [add_wave_group A__B__C__ABC(axi_master) -into $cinoutgroup]
-## set rdata_group [add_wave_group "Read Channel" -into $A__B__C__ABC_group]
-## set wdata_group [add_wave_group "Write Channel" -into $A__B__C__ABC_group]
-## set ctrl_group [add_wave_group "Handshakes" -into $A__B__C__ABC_group]
+## set AT__B__C__ABC_group [add_wave_group AT__B__C__ABC(axi_master) -into $cinoutgroup]
+## set rdata_group [add_wave_group "Read Channel" -into $AT__B__C__ABC_group]
+## set wdata_group [add_wave_group "Write Channel" -into $AT__B__C__ABC_group]
+## set ctrl_group [add_wave_group "Handshakes" -into $AT__B__C__ABC_group]
 ## add_wave /apatb_MM_top/AESL_inst_MM/m_axi_gmem_BUSER -into $wdata_group -radix hex
 ## add_wave /apatb_MM_top/AESL_inst_MM/m_axi_gmem_BID -into $wdata_group -radix hex
 ## add_wave /apatb_MM_top/AESL_inst_MM/m_axi_gmem_BRESP -into $wdata_group -radix hex
@@ -227,25 +232,25 @@ source MM.tcl
 ## add_wave /apatb_MM_top/AESL_inst_MM/m_axi_gmem_AWADDR -into $wdata_group -radix hex
 ## add_wave /apatb_MM_top/AESL_inst_MM/m_axi_gmem_AWREADY -into $ctrl_group -color #ffff00 -radix hex
 ## add_wave /apatb_MM_top/AESL_inst_MM/m_axi_gmem_AWVALID -into $ctrl_group -color #ffff00 -radix hex
-## set A__B__C__ABC__N__M__P__return_group [add_wave_group A__B__C__ABC__N__M__P__return(axi_slave) -into $cinoutgroup]
-## add_wave /apatb_MM_top/AESL_inst_MM/interrupt -into $A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_BRESP -into $A__B__C__ABC__N__M__P__return_group -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_BREADY -into $A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_BVALID -into $A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_RRESP -into $A__B__C__ABC__N__M__P__return_group -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_RDATA -into $A__B__C__ABC__N__M__P__return_group -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_RREADY -into $A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_RVALID -into $A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_ARREADY -into $A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_ARVALID -into $A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_ARADDR -into $A__B__C__ABC__N__M__P__return_group -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_WSTRB -into $A__B__C__ABC__N__M__P__return_group -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_WDATA -into $A__B__C__ABC__N__M__P__return_group -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_WREADY -into $A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_WVALID -into $A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_AWREADY -into $A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_AWVALID -into $A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_AWADDR -into $A__B__C__ABC__N__M__P__return_group -radix hex
+## set AT__B__C__ABC__N__M__P__return_group [add_wave_group AT__B__C__ABC__N__M__P__return(axi_slave) -into $cinoutgroup]
+## add_wave /apatb_MM_top/AESL_inst_MM/interrupt -into $AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_BRESP -into $AT__B__C__ABC__N__M__P__return_group -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_BREADY -into $AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_BVALID -into $AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_RRESP -into $AT__B__C__ABC__N__M__P__return_group -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_RDATA -into $AT__B__C__ABC__N__M__P__return_group -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_RREADY -into $AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_RVALID -into $AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_ARREADY -into $AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_ARVALID -into $AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_ARADDR -into $AT__B__C__ABC__N__M__P__return_group -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_WSTRB -into $AT__B__C__ABC__N__M__P__return_group -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_WDATA -into $AT__B__C__ABC__N__M__P__return_group -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_WREADY -into $AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_WVALID -into $AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_AWREADY -into $AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_AWVALID -into $AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/AESL_inst_MM/s_axi_control_AWADDR -into $AT__B__C__ABC__N__M__P__return_group -radix hex
 ## set blocksiggroup [add_wave_group "Block-level IO Handshake(internal)" -into $designtopgroup]
 ## add_wave /apatb_MM_top/AESL_inst_MM/ap_done -into $blocksiggroup
 ## add_wave /apatb_MM_top/AESL_inst_MM/ap_idle -into $blocksiggroup
@@ -262,8 +267,8 @@ source MM.tcl
 ## add_wave /apatb_MM_top/AUTOTB_TRANSACTION_NUM -into $tb_simstatus_group -radix hex
 ## add_wave /apatb_MM_top/ready_cnt -into $tb_simstatus_group -radix hex
 ## add_wave /apatb_MM_top/done_cnt -into $tb_simstatus_group -radix hex
-## add_wave /apatb_MM_top/LENGTH_A -into $tb_portdepth_group -radix hex
 ## add_wave /apatb_MM_top/LENGTH_ABC -into $tb_portdepth_group -radix hex
+## add_wave /apatb_MM_top/LENGTH_AT -into $tb_portdepth_group -radix hex
 ## add_wave /apatb_MM_top/LENGTH_B -into $tb_portdepth_group -radix hex
 ## add_wave /apatb_MM_top/LENGTH_C -into $tb_portdepth_group -radix hex
 ## add_wave /apatb_MM_top/LENGTH_M -into $tb_portdepth_group -radix hex
@@ -271,10 +276,10 @@ source MM.tcl
 ## add_wave /apatb_MM_top/LENGTH_P -into $tb_portdepth_group -radix hex
 ## add_wave /apatb_MM_top/LENGTH_gmem -into $tb_portdepth_group -radix hex
 ## set tbcinoutgroup [add_wave_group "C InOuts" -into $testbenchgroup]
-## set tb_A__B__C__ABC_group [add_wave_group A__B__C__ABC(axi_master) -into $tbcinoutgroup]
-## set rdata_group [add_wave_group "Read Channel" -into $tb_A__B__C__ABC_group]
-## set wdata_group [add_wave_group "Write Channel" -into $tb_A__B__C__ABC_group]
-## set ctrl_group [add_wave_group "Handshakes" -into $tb_A__B__C__ABC_group]
+## set tb_AT__B__C__ABC_group [add_wave_group AT__B__C__ABC(axi_master) -into $tbcinoutgroup]
+## set rdata_group [add_wave_group "Read Channel" -into $tb_AT__B__C__ABC_group]
+## set wdata_group [add_wave_group "Write Channel" -into $tb_AT__B__C__ABC_group]
+## set ctrl_group [add_wave_group "Handshakes" -into $tb_AT__B__C__ABC_group]
 ## add_wave /apatb_MM_top/gmem_BUSER -into $wdata_group -radix hex
 ## add_wave /apatb_MM_top/gmem_BID -into $wdata_group -radix hex
 ## add_wave /apatb_MM_top/gmem_BRESP -into $wdata_group -radix hex
@@ -320,25 +325,25 @@ source MM.tcl
 ## add_wave /apatb_MM_top/gmem_AWADDR -into $wdata_group -radix hex
 ## add_wave /apatb_MM_top/gmem_AWREADY -into $ctrl_group -color #ffff00 -radix hex
 ## add_wave /apatb_MM_top/gmem_AWVALID -into $ctrl_group -color #ffff00 -radix hex
-## set tb_A__B__C__ABC__N__M__P__return_group [add_wave_group A__B__C__ABC__N__M__P__return(axi_slave) -into $tbcinoutgroup]
-## add_wave /apatb_MM_top/control_INTERRUPT -into $tb_A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/control_BRESP -into $tb_A__B__C__ABC__N__M__P__return_group -radix hex
-## add_wave /apatb_MM_top/control_BREADY -into $tb_A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/control_BVALID -into $tb_A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/control_RRESP -into $tb_A__B__C__ABC__N__M__P__return_group -radix hex
-## add_wave /apatb_MM_top/control_RDATA -into $tb_A__B__C__ABC__N__M__P__return_group -radix hex
-## add_wave /apatb_MM_top/control_RREADY -into $tb_A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/control_RVALID -into $tb_A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/control_ARREADY -into $tb_A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/control_ARVALID -into $tb_A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/control_ARADDR -into $tb_A__B__C__ABC__N__M__P__return_group -radix hex
-## add_wave /apatb_MM_top/control_WSTRB -into $tb_A__B__C__ABC__N__M__P__return_group -radix hex
-## add_wave /apatb_MM_top/control_WDATA -into $tb_A__B__C__ABC__N__M__P__return_group -radix hex
-## add_wave /apatb_MM_top/control_WREADY -into $tb_A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/control_WVALID -into $tb_A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/control_AWREADY -into $tb_A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/control_AWVALID -into $tb_A__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
-## add_wave /apatb_MM_top/control_AWADDR -into $tb_A__B__C__ABC__N__M__P__return_group -radix hex
+## set tb_AT__B__C__ABC__N__M__P__return_group [add_wave_group AT__B__C__ABC__N__M__P__return(axi_slave) -into $tbcinoutgroup]
+## add_wave /apatb_MM_top/control_INTERRUPT -into $tb_AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/control_BRESP -into $tb_AT__B__C__ABC__N__M__P__return_group -radix hex
+## add_wave /apatb_MM_top/control_BREADY -into $tb_AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/control_BVALID -into $tb_AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/control_RRESP -into $tb_AT__B__C__ABC__N__M__P__return_group -radix hex
+## add_wave /apatb_MM_top/control_RDATA -into $tb_AT__B__C__ABC__N__M__P__return_group -radix hex
+## add_wave /apatb_MM_top/control_RREADY -into $tb_AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/control_RVALID -into $tb_AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/control_ARREADY -into $tb_AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/control_ARVALID -into $tb_AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/control_ARADDR -into $tb_AT__B__C__ABC__N__M__P__return_group -radix hex
+## add_wave /apatb_MM_top/control_WSTRB -into $tb_AT__B__C__ABC__N__M__P__return_group -radix hex
+## add_wave /apatb_MM_top/control_WDATA -into $tb_AT__B__C__ABC__N__M__P__return_group -radix hex
+## add_wave /apatb_MM_top/control_WREADY -into $tb_AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/control_WVALID -into $tb_AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/control_AWREADY -into $tb_AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/control_AWVALID -into $tb_AT__B__C__ABC__N__M__P__return_group -color #ffff00 -radix hex
+## add_wave /apatb_MM_top/control_AWADDR -into $tb_AT__B__C__ABC__N__M__P__return_group -radix hex
 ## save_wave_config MM.wcfg
 ## run all
 UVM_INFO T:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
@@ -636,16 +641,18 @@ UVM_INFO T:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_pa
 // RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
 ////////////////////////////////////////////////////////////////////////////////////
 // RTL Simulation : 0 / 1 [n/a] @ "143000"
-// RTL Simulation : 1 / 1 [n/a] @ "160793000"
+// RTL Simulation : 1 / 1 [n/a] @ "110633000"
 ////////////////////////////////////////////////////////////////////////////////////
-$finish called at time : 160897500 ps : File "T:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
-run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 242.551 ; gain = 0.000
+$finish called at time : 110737500 ps : File "T:/AMDDesignTools/2025.2/Vivado/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
 ## quit
-INFO: xsimkernel Simulation Memory Usage: 196976 KB (Peak: 196976 KB), Simulation CPU Usage: 4155 ms
-INFO: [Common 17-206] Exiting xsim at Mon Apr  6 18:35:49 2026...
+INFO: [Common 17-206] Exiting xsim at Wed Apr  8 12:48:26 2026...
 INFO: [COSIM 212-316] Starting C post checking ...
-PASS
+Calling MM kernel...
+Returned from MM kernel.
+*******************************************
+PASS: The output matches the golden output!
+*******************************************
 INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
 INFO: [COSIM 212-211] II is measurable only when transaction number is greater than 1 in RTL simulation. Otherwise, they will be marked as all NA. If user wants to calculate them, please make sure there are at least 2 transactions in RTL simulation.
-INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 2 seconds. Total elapsed time: 95.638 seconds; peak allocated memory: 232.723 MB.
-INFO: [vitis-run 60-791] Total elapsed time: 0h 1m 40s
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 3 seconds. Total elapsed time: 81.337 seconds; peak allocated memory: 231.215 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 1m 26s

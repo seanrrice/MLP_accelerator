@@ -1,15 +1,18 @@
 set ModuleHierarchy {[{
 "Name" : "MM", "RefName" : "MM","ID" : "0","Type" : "sequential",
 "SubLoops" : [
-	{"Name" : "VITIS_LOOP_49_1","RefName" : "VITIS_LOOP_49_1","ID" : "1","Type" : "no",
+	{"Name" : "i_BLOCK_loop","RefName" : "i_BLOCK_loop","ID" : "1","Type" : "no",
 	"SubLoops" : [
-	{"Name" : "VITIS_LOOP_50_2","RefName" : "VITIS_LOOP_50_2","ID" : "2","Type" : "no",
+	{"Name" : "j_BLOCK_loop","RefName" : "j_BLOCK_loop","ID" : "2","Type" : "no",
 		"SubLoops" : [
-		{"Name" : "VITIS_LOOP_59_5","RefName" : "VITIS_LOOP_59_5","ID" : "3","Type" : "no",
+		{"Name" : "k_BLOCK_loop","RefName" : "k_BLOCK_loop","ID" : "3","Type" : "no",
 			"SubLoops" : [
-			{"Name" : "VITIS_LOOP_60_6","RefName" : "VITIS_LOOP_60_6","ID" : "4","Type" : "no",
+			{"Name" : "k_loop","RefName" : "k_loop","ID" : "4","Type" : "no",
 				"SubInsts" : [
-				{"Name" : "grp_MM_Pipeline_VITIS_LOOP_65_8_fu_7200", "RefName" : "MM_Pipeline_VITIS_LOOP_65_8","ID" : "5","Type" : "sequential",
+				{"Name" : "grp_MM_Pipeline_i_loop_fu_879", "RefName" : "MM_Pipeline_i_loop","ID" : "5","Type" : "sequential",
 						"SubLoops" : [
-						{"Name" : "VITIS_LOOP_65_8","RefName" : "VITIS_LOOP_65_8","ID" : "6","Type" : "pipeline"},]},]},]},]},]},]
+						{"Name" : "i_loop","RefName" : "i_loop","ID" : "6","Type" : "pipeline"},]},]},]},
+		{"Name" : "j_output_loop","RefName" : "j_output_loop","ID" : "7","Type" : "no",
+			"SubLoops" : [
+			{"Name" : "i_output_loop","RefName" : "i_output_loop","ID" : "8","Type" : "no"},]},]},]},]
 }]}

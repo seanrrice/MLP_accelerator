@@ -42075,29 +42075,348 @@ namespace std
 
 }
 # 6 "Z:/Labs/clab/MLP_baseline/mm.h" 2
+# 1 "T:/AMDDesignTools/2025.2/Vitis/include\\hls_vector.h" 1
 
 
 
 
-typedef int DTYPE;
+
+
+
+
+# 1 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\include\\c++\\9.5.0\\cassert" 1 3
+# 42 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\include\\c++\\9.5.0\\cassert" 3
+
+
+# 1 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\x86_64-w64-mingw32\\include\\assert.h" 1 3
+# 17 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\x86_64-w64-mingw32\\include\\assert.h" 3
+# 1 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\include\\c++\\9.5.0\\stdlib.h" 1 3
+# 36 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\include\\c++\\9.5.0\\stdlib.h" 3
+# 1 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\include\\c++\\9.5.0\\cstdlib" 1 3
+# 40 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\include\\c++\\9.5.0\\cstdlib" 3
+# 37 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\include\\c++\\9.5.0\\stdlib.h" 2 3
+
+using std::abort;
+using std::atexit;
+using std::exit;
+# 51 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\include\\c++\\9.5.0\\stdlib.h" 3
+using std::div_t;
+using std::ldiv_t;
+
+using std::abs;
+using std::atof;
+using std::atoi;
+using std::atol;
+using std::bsearch;
+using std::calloc;
+using std::div;
+using std::free;
+using std::getenv;
+using std::labs;
+using std::ldiv;
+using std::malloc;
+
+using std::mblen;
+using std::mbstowcs;
+using std::mbtowc;
+
+using std::qsort;
+using std::rand;
+using std::realloc;
+using std::srand;
+using std::strtod;
+using std::strtol;
+using std::strtoul;
+using std::system;
+
+using std::wcstombs;
+using std::wctomb;
+# 18 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\x86_64-w64-mingw32\\include\\assert.h" 2 3
+
+
+
+extern "C" {
+
+
+__attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _wassert(const wchar_t *_Message,const wchar_t *_File,unsigned _Line);
+__attribute__ ((__dllimport__)) void __attribute__((__cdecl__)) _assert (const char *_Message, const char *_File, unsigned _Line);
+
+
+}
+# 45 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\include\\c++\\9.5.0\\cassert" 2 3
+# 10 "T:/AMDDesignTools/2025.2/Vitis/include\\hls_vector.h" 2
+# 1 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\include\\c++\\9.5.0\\cstddef" 1 3
+# 43 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\include\\c++\\9.5.0\\cstddef" 3
+
+
+
+
+
+
+
+# 1 "T:\\AMDDesignTools\\2025.2\\Vitis\\win64\\tools\\clang-16\\lib\\clang\\16\\include\\stddef.h" 1 3
+# 51 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\include\\c++\\9.5.0\\cstddef" 2 3
+
+extern "C++"
+{
+
+namespace std
+{
+
+  using ::max_align_t;
+}
+# 197 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt\\include\\c++\\9.5.0\\cstddef" 3
+}
+# 11 "T:/AMDDesignTools/2025.2/Vitis/include\\hls_vector.h" 2
+
+
+
+namespace hls {
+# 41 "T:/AMDDesignTools/2025.2/Vitis/include\\hls_vector.h"
+template <typename _R, typename _Fn, typename... _Args>
+struct is_invocable_r {
+private:
+  template <
+    typename _U,
+    typename = typename std::result_of<_U&&(_Args&&...)>::type,
+    typename = typename std::enable_if<
+      std::is_convertible<
+        typename std::result_of<_U&&(_Args&&...)>::type, _R
+      >::value
+    >::type
+  >
+  static std::true_type test(int);
+
+  template <typename>
+  static std::false_type test(...);
+
+public:
+  static constexpr bool value = decltype(test<_Fn>(0))::value;
+};
+
+template <typename _R, typename _Fn, typename... _Args>
+constexpr bool is_invocable_r_v = is_invocable_r<_R, _Fn, _Args...>::value;
+
+template <typename _From, typename _To>
+constexpr bool is_convertible_v = std::is_convertible<_From, _To>::value;
+
+
+
+
+
+namespace details {
+
+
+constexpr size_t gp2(size_t n) {
+  if (n == 0)
+    return 0;
+  if (n % 2 != 0)
+    return 1;
+  return 2 * gp2(n / 2);
+}
+
+}
+
+
+template <typename _T, size_t _N>
+class alignas(details::gp2(sizeof(_T) * _N)) vector {
+  static_assert(_N > 0, "vector must have at least one element");
+
+  using data_t = std::array<_T, _N>;
+  data_t data;
+
+public:
+
+
+  using value_type = typename data_t::value_type;
+  using size_type = typename data_t::size_type;
+  using difference_type = typename data_t::difference_type;
+  using reference = typename data_t::reference;
+  using const_reference = typename data_t::const_reference;
+  using pointer = typename data_t::pointer;
+  using const_pointer = typename data_t::const_pointer;
+  using iterator = typename data_t::iterator;
+  using const_iterator = typename data_t::const_iterator;
+  using reverse_iterator = typename data_t::reverse_iterator;
+  using const_reverse_iterator = typename data_t::const_reverse_iterator;
+# 121 "T:/AMDDesignTools/2025.2/Vitis/include\\hls_vector.h"
+  inline iterator begin() { pragma(); return data.begin(); }
+  inline iterator end() { pragma(); return data.end(); }
+  inline reverse_iterator rbegin() { pragma(); return data.rbegin(); }
+  inline reverse_iterator rend() { pragma(); return data.rend(); }
+  inline const_iterator begin() const { pragma(); return data.begin(); }
+  inline const_iterator end() const { pragma(); return data.end(); }
+  inline const_iterator cbegin() const { pragma(); return data.cbegin(); }
+  inline const_iterator cend() const { pragma(); return data.cend(); }
+  inline const_reverse_iterator rbegin() const { pragma(); return data.rbegin(); }
+  inline const_reverse_iterator rend() const { pragma(); return data.rend(); }
+  inline const_reverse_iterator crbegin() const { pragma(); return data.crbegin(); }
+  inline const_reverse_iterator crend() const { pragma(); return data.crend(); }
+
+  inline bool empty() const { pragma(); return data.empty(); }
+  inline size_type size() const { pragma(); return data.size(); }
+  inline size_type max_size() const { pragma(); return data.max_size(); }
+
+
+
+
+protected:
+
+
+  inline void pragma() const {
+
+  }
+
+public:
+
+  vector() = default;
+
+  vector(const vector &other) = default;
+
+  vector(vector &&other) = default;
+
+  vector &operator=(const vector &other) = default;
+
+  vector &operator=(vector &&other) = default;
+
+  ~vector() = default;
+
+
+
+
+
+
+  template <size_t _N2 = _N, typename = typename std::enable_if_t<_N2 == 1>>
+  inline operator _T() const {
+    pragma();
+    return data[0];
+  }
+
+
+  inline vector(const _T &val) {
+    pragma();
+    for (size_t i = 0; i < _N; ++i) {
+
+      data[i] = val;
+    }
+  }
+
+
+  inline vector(const std::array<_T, _N> &data) : data{data} {
+    pragma();
+  }
+
+
+  inline vector(std::initializer_list<_T> l) {
+    pragma();
+    (void) ((!!(l.size() == _N && "Initializer list must be the same size as the vector")) || (_assert("l.size() == _N && \"Initializer list must be the same size as the vector\"","T:/AMDDesignTools/2025.2/Vitis/include\\hls_vector.h",191),0));
+
+    for (size_t i = 0; i < _N; ++i) {
+
+      data[i] = l.begin()[i];
+    }
+  }
+
+
+
+
+  template<typename _L,
+           typename = typename std::enable_if_t<hls::is_invocable_r_v<_T, _L, size_t> &&
+                                               !hls::is_convertible_v<_L, _T>>>
+  inline vector(_L init) {
+    pragma();
+    for (size_t i = 0; i < _N; ++i) {
+
+      data[i] = init(i);
+    }
+  }
+
+
+  inline _T &operator[](size_t idx) {
+    pragma();
+    return data[idx];
+  }
+  inline const _T &operator[](size_t idx) const {
+    pragma();
+    return data[idx];
+  }
+# 232 "T:/AMDDesignTools/2025.2/Vitis/include\\hls_vector.h"
+  inline vector &operator ++() { pragma(); for (size_t i = 0; i < _N; ++i) { ++ data[i]; } return *this; }
+  inline vector &operator --() { pragma(); for (size_t i = 0; i < _N; ++i) { -- data[i]; } return *this; }
+# 245 "T:/AMDDesignTools/2025.2/Vitis/include\\hls_vector.h"
+  inline vector operator ++(int) { pragma(); vector orig = *this; ++ *this; return orig; }
+  inline vector operator --(int) { pragma(); vector orig = *this; -- *this; return orig; }
+# 261 "T:/AMDDesignTools/2025.2/Vitis/include\\hls_vector.h"
+  inline vector &operator +=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { data[i] += rhs[i]; } return *this; }
+  inline vector &operator -=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { data[i] -= rhs[i]; } return *this; }
+  inline vector &operator *=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { data[i] *= rhs[i]; } return *this; }
+  inline vector &operator /=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { data[i] /= rhs[i]; } return *this; }
+  inline vector &operator %=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { data[i] %= rhs[i]; } return *this; }
+  inline vector &operator &=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { data[i] &= rhs[i]; } return *this; }
+  inline vector &operator |=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { data[i] |= rhs[i]; } return *this; }
+  inline vector &operator ^=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { data[i] ^= rhs[i]; } return *this; }
+  inline vector &operator <<=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { data[i] <<= rhs[i]; } return *this; }
+  inline vector &operator >>=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { data[i] >>= rhs[i]; } return *this; }
+# 285 "T:/AMDDesignTools/2025.2/Vitis/include\\hls_vector.h"
+  inline _T reduce_add() const { pragma(); _T res = data[0]; for (size_t i = 1; i < _N; ++i) { res += data[i]; } return res; }
+  inline _T reduce_mult() const { pragma(); _T res = data[0]; for (size_t i = 1; i < _N; ++i) { res *= data[i]; } return res; }
+  inline _T reduce_and() const { pragma(); _T res = data[0]; for (size_t i = 1; i < _N; ++i) { res &= data[i]; } return res; }
+  inline _T reduce_or() const { pragma(); _T res = data[0]; for (size_t i = 1; i < _N; ++i) { res |= data[i]; } return res; }
+  inline _T reduce_xor() const { pragma(); _T res = data[0]; for (size_t i = 1; i < _N; ++i) { res ^= data[i]; } return res; }
+# 320 "T:/AMDDesignTools/2025.2/Vitis/include\\hls_vector.h"
+  inline friend bool operator <(const vector &lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { if (lhs[i] == rhs[i]) continue; return lhs[i] < rhs[i]; } return _T{} < _T{}; }
+  inline friend bool operator <=(const vector &lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { if (lhs[i] == rhs[i]) continue; return lhs[i] <= rhs[i]; } return _T{} <= _T{}; }
+  inline friend bool operator ==(const vector &lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { if (lhs[i] == rhs[i]) continue; return lhs[i] == rhs[i]; } return _T{} == _T{}; }
+  inline friend bool operator !=(const vector &lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { if (lhs[i] == rhs[i]) continue; return lhs[i] != rhs[i]; } return _T{} != _T{}; }
+  inline friend bool operator >=(const vector &lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { if (lhs[i] == rhs[i]) continue; return lhs[i] >= rhs[i]; } return _T{} >= _T{}; }
+  inline friend bool operator >(const vector &lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) { if (lhs[i] == rhs[i]) continue; return lhs[i] > rhs[i]; } return _T{} > _T{}; }
+# 338 "T:/AMDDesignTools/2025.2/Vitis/include\\hls_vector.h"
+  inline friend vector operator +(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs += rhs; }
+  inline friend vector operator -(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs -= rhs; }
+  inline friend vector operator *(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs *= rhs; }
+  inline friend vector operator /(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs /= rhs; }
+  inline friend vector operator %(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs %= rhs; }
+  inline friend vector operator &(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs &= rhs; }
+  inline friend vector operator |(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs |= rhs; }
+  inline friend vector operator ^(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs ^= rhs; }
+  inline friend vector operator <<(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs <<= rhs; }
+  inline friend vector operator >>(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs >>= rhs; }
+
+
+
+
+  static inline vector iota(_T start = {}) {
+    return vector([start](size_t i) { return start + i; });
+  }
+};
+
+}
+# 7 "Z:/Labs/clab/MLP_baseline/mm.h" 2
+
+
+
+
+
 const int BATCH_SIZE = 128;
 const int IMAGE_SIZE = 28*28;
 const int BLOCK_SIZE = 16;
 
+typedef int DTYPE;
+typedef hls::vector<DTYPE, BLOCK_SIZE> WIDE_DTYPE;
+
 using namespace std;
 
 extern "C"{
-void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P);
+void MM(WIDE_DTYPE* A, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P);
 }
 # 2 "Z:/Labs/clab/MLP_baseline/mm_test.cpp" 2
 
 
-void mm_sw(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P) {
-
-    for (int i = 0; i < N; i++){
-        for(int j = 0; j < P; j++){
+void mm_sw_cosim(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P) {
+    for (int i = 0; i < N; i++) {
+        for (int j = 0; j < P; j++) {
             DTYPE sum = 0;
-            for (int k = 0; k < M; k++){
+            for (int k = 0; k < M; k++) {
                 sum += A[i * M + k] * B[k * P + j];
             }
             ABC[i * P + j] = sum + C[i];
@@ -42188,53 +42507,113 @@ void readImages(const string& imgfilename, DTYPE* data) {
 
     imgFile.close();
 }
-# 150 "Z:/Labs/clab/MLP_baseline/mm_test.cpp"
-void mm_sw_cosim(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P) {
-    for (int i = 0; i < N; i++) {
-        for (int j = 0; j < P; j++) {
-            DTYPE sum = 0;
-            for (int k = 0; k < M; k++) {
-                sum += A[i * M + k] * B[k * P + j];
-            }
-            ABC[i * P + j] = sum + C[i];
-        }
-    }
-}
+
+
+
+
 
 const int N = 32;
 const int M = 32;
 const int P = 32;
 
 int main() {
-    DTYPE* y_hw = new DTYPE[N * P];
-    DTYPE* y_sw = new DTYPE[N * P];
+
     DTYPE* A = new DTYPE[N * M];
     DTYPE* B = new DTYPE[M * P];
     DTYPE* C = new DTYPE[N];
+    DTYPE* y_sw = new DTYPE[N * P];
+
+
+
+
+
+    WIDE_DTYPE* AT_wide = new WIDE_DTYPE[M * N / BLOCK_SIZE];
+    WIDE_DTYPE* B_wide = new WIDE_DTYPE[M * P / BLOCK_SIZE];
+    WIDE_DTYPE* ABC_wide = new WIDE_DTYPE[P * N / BLOCK_SIZE];
+
 
     for (int i = 0; i < N * M; i++) A[i] = (i % 5) + 1;
     for (int i = 0; i < M * P; i++) B[i] = (i % 7) + 1;
     for (int i = 0; i < N; i++) C[i] = i % 3;
 
+
     mm_sw_cosim(A, B, C, y_sw, N, M, P);
-    MM(A, B, C, y_hw, N, M, P);
+
+
+
+
+
+    for (int k = 0; k < M; k++) {
+        for (int i = 0; i < N; i++) {
+            int wide_idx = (k * N + i) / BLOCK_SIZE;
+            int elem_idx = i % BLOCK_SIZE;
+            AT_wide[wide_idx][elem_idx] = A[i * M + k];
+        }
+    }
+
+
+
+
+    for (int k = 0; k < M; k++) {
+        for (int j = 0; j < P; j++) {
+            int wide_idx = (k * P + j) / BLOCK_SIZE;
+            int elem_idx = j % BLOCK_SIZE;
+            B_wide[wide_idx][elem_idx] = B[k * P + j];
+        }
+    }
+
+
+    for (int i = 0; i < P * N / BLOCK_SIZE; i++) {
+        for (int e = 0; e < BLOCK_SIZE; e++) {
+            ABC_wide[i][e] = 0;
+        }
+    }
+
+
+    cout << "Calling MM kernel..." << endl;
+    MM(AT_wide, B_wide, C, ABC_wide, N, M, P);
+    cout << "Returned from MM kernel." << endl;
+
+
+
+
 
     bool match = true;
-    for (int i = 0; i < N * P; i++) {
-        if (y_hw[i] != y_sw[i]) {
-            cout << "Mismatch at " << i
-                 << " hw=" << y_hw[i]
-                 << " sw=" << y_sw[i] << endl;
-            match = false;
-            break;
+    int mismatches = 0;
+    for (int j = 0; j < P; j++) {
+        for (int i = 0; i < N; i++) {
+            int wide_idx = (j * N + i) / BLOCK_SIZE;
+            int elem_idx = i % BLOCK_SIZE;
+            DTYPE hw_val = ABC_wide[wide_idx][elem_idx];
+            DTYPE sw_val = y_sw[i * P + j];
+            if (hw_val != sw_val) {
+                if (mismatches < 10) {
+                    cout << "Mismatch at [" << i << "][" << j << "]"
+                         << " hw=" << hw_val << " sw=" << sw_val << endl;
+                }
+                match = false;
+                mismatches++;
+            }
         }
     }
 
     if (match) {
-        cout << "PASS" << endl;
-        return 0;
+        cout << "*******************************************" << endl;
+        cout << "PASS: The output matches the golden output!" << endl;
+        cout << "*******************************************" << endl;
     } else {
-        cout << "FAIL" << endl;
-        return 1;
+        cout << "*******************************************" << endl;
+        cout << "FAIL: " << mismatches << " mismatches found" << endl;
+        cout << "*******************************************" << endl;
     }
+
+    delete[] A;
+    delete[] B;
+    delete[] C;
+    delete[] y_sw;
+    delete[] AT_wide;
+    delete[] B_wide;
+    delete[] ABC_wide;
+
+    return match ? 0 : 1;
 }

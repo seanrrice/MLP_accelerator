@@ -1,17 +1,20 @@
 {
   "0": {
-    "basicblocks": 30,
+    "basicblocks": 34,
     "calls": "",
     "control_depth": 2,
-    "def_use_depth": 7,
+    "def_use_depth": 18,
     "file": "mm.cpp",
     "fileloc": 6,
-    "instructions": 1805,
+    "instructions": 1470,
     "loads": {
+      "T": 2
+    },
+    "memory_accesses": 1,
+    "name": "MM",
+    "stores": {
       "T": 1
     },
-    "memory_accesses": 2,
-    "name": "MM",
-    "total_instructions": 1805
+    "total_instructions": 1631
   }
 }

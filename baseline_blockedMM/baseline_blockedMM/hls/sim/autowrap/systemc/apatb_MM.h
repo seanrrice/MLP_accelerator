@@ -7,7 +7,7 @@
 // ==============================================================
 
 extern "C" void AESL_WRAP_MM (
-volatile void* A,
+volatile void* AT,
 volatile void* B,
 volatile void* C,
 volatile void* ABC,

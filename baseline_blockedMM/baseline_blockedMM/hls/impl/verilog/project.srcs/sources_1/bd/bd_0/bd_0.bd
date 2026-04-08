@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0xAB10C41CB81F129F",
+      "boundary_crc": "0x8A7F8A359C22FFE5",
       "device": "xc7z020clg400-1",
       "gen_directory": "../../../../project.gen/sources_1/bd/bd_0",
       "name": "bd_0",
@@ -39,7 +39,7 @@
             "value_src": "default"
           },
           "DATA_WIDTH": {
-            "value": "32"
+            "value": "512"
           },
           "FREQ_HZ": {
             "value": "66000000.0"
@@ -304,7 +304,7 @@
           "RDATA": {
             "physical_name": "m_axi_gmem_rdata",
             "direction": "I",
-            "left": "31",
+            "left": "511",
             "right": "0"
           },
           "RID": {
@@ -334,7 +334,7 @@
           "WDATA": {
             "physical_name": "m_axi_gmem_wdata",
             "direction": "O",
-            "left": "31",
+            "left": "511",
             "right": "0"
           },
           "WID": {
@@ -354,7 +354,7 @@
           "WSTRB": {
             "physical_name": "m_axi_gmem_wstrb",
             "direction": "O",
-            "left": "3",
+            "left": "63",
             "right": "0"
           },
           "WVALID": {
@@ -637,7 +637,7 @@
     "components": {
       "hls_inst": {
         "vlnv": "xilinx.com:hls:MM:1.0",
-        "ip_revision": "2114554117",
+        "ip_revision": "2114556650",
         "xci_name": "bd_0_hls_inst_0",
         "xci_path": "ip\\bd_0_hls_inst_0\\bd_0_hls_inst_0.xci",
         "inst_hier_path": "hls_inst",

@@ -99,8 +99,8 @@ u32 XMm_IsReady(XMm *InstancePtr);
 void XMm_EnableAutoRestart(XMm *InstancePtr);
 void XMm_DisableAutoRestart(XMm *InstancePtr);
 
-void XMm_Set_A(XMm *InstancePtr, u64 Data);
-u64 XMm_Get_A(XMm *InstancePtr);
+void XMm_Set_AT(XMm *InstancePtr, u64 Data);
+u64 XMm_Get_AT(XMm *InstancePtr);
 void XMm_Set_B(XMm *InstancePtr, u64 Data);
 u64 XMm_Get_B(XMm *InstancePtr);
 void XMm_Set_C(XMm *InstancePtr, u64 Data);

@@ -18,7 +18,7 @@
 `define AUTOTB_CLOCK_PERIOD_DIV2 7.50
 
 `define AESL_DEPTH_gmem 1
-`define AESL_DEPTH_A 1
+`define AESL_DEPTH_AT 1
 `define AESL_DEPTH_B 1
 `define AESL_DEPTH_C 1
 `define AESL_DEPTH_ABC 1
@@ -26,7 +26,7 @@
 `define AESL_DEPTH_M 1
 `define AESL_DEPTH_P 1
 `define AUTOTB_TVIN_gmem  "../tv/cdatafile/c.MM.autotvin_gmem.dat"
-`define AUTOTB_TVIN_A  "../tv/cdatafile/c.MM.autotvin_A.dat"
+`define AUTOTB_TVIN_AT  "../tv/cdatafile/c.MM.autotvin_AT.dat"
 `define AUTOTB_TVIN_B  "../tv/cdatafile/c.MM.autotvin_B.dat"
 `define AUTOTB_TVIN_C  "../tv/cdatafile/c.MM.autotvin_C.dat"
 `define AUTOTB_TVIN_ABC  "../tv/cdatafile/c.MM.autotvin_ABC.dat"
@@ -34,7 +34,7 @@
 `define AUTOTB_TVIN_M  "../tv/cdatafile/c.MM.autotvin_M.dat"
 `define AUTOTB_TVIN_P  "../tv/cdatafile/c.MM.autotvin_P.dat"
 `define AUTOTB_TVIN_gmem_out_wrapc  "../tv/rtldatafile/rtl.MM.autotvin_gmem.dat"
-`define AUTOTB_TVIN_A_out_wrapc  "../tv/rtldatafile/rtl.MM.autotvin_A.dat"
+`define AUTOTB_TVIN_AT_out_wrapc  "../tv/rtldatafile/rtl.MM.autotvin_AT.dat"
 `define AUTOTB_TVIN_B_out_wrapc  "../tv/rtldatafile/rtl.MM.autotvin_B.dat"
 `define AUTOTB_TVIN_C_out_wrapc  "../tv/rtldatafile/rtl.MM.autotvin_C.dat"
 `define AUTOTB_TVIN_ABC_out_wrapc  "../tv/rtldatafile/rtl.MM.autotvin_ABC.dat"
@@ -48,14 +48,14 @@ module `AUTOTB_TOP;
 parameter AUTOTB_TRANSACTION_NUM = 1;
 parameter PROGRESS_TIMEOUT = 10000000;
 parameter LATENCY_ESTIMATION = -1;
-parameter LENGTH_A = 1;
 parameter LENGTH_ABC = 1;
+parameter LENGTH_AT = 1;
 parameter LENGTH_B = 1;
 parameter LENGTH_C = 1;
 parameter LENGTH_M = 1;
 parameter LENGTH_N = 1;
 parameter LENGTH_P = 1;
-parameter LENGTH_gmem = 3104;
+parameter LENGTH_gmem = 194;
 
 reg AESL_clock;
 reg rst;
@@ -108,8 +108,8 @@ wire [3 : 0] gmem_AWREGION;
 wire [0 : 0] gmem_AWUSER;
 wire  gmem_WVALID;
 wire  gmem_WREADY;
-wire [31 : 0] gmem_WDATA;
-wire [3 : 0] gmem_WSTRB;
+wire [511 : 0] gmem_WDATA;
+wire [63 : 0] gmem_WSTRB;
 wire  gmem_WLAST;
 wire [0 : 0] gmem_WID;
 wire [0 : 0] gmem_WUSER;
@@ -128,7 +128,7 @@ wire [3 : 0] gmem_ARREGION;
 wire [0 : 0] gmem_ARUSER;
 wire  gmem_RVALID;
 wire  gmem_RREADY;
-wire [31 : 0] gmem_RDATA;
+wire [511 : 0] gmem_RDATA;
 wire  gmem_RLAST;
 wire [0 : 0] gmem_RID;
 wire [0 : 0] gmem_RUSER;

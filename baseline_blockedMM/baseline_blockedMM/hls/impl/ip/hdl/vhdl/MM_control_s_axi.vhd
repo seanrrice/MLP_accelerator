@@ -35,7 +35,7 @@ port (
     RVALID                :out  STD_LOGIC;
     RREADY                :in   STD_LOGIC;
     interrupt             :out  STD_LOGIC;
-    A                     :out  STD_LOGIC_VECTOR(63 downto 0);
+    AT                    :out  STD_LOGIC_VECTOR(63 downto 0);
     B                     :out  STD_LOGIC_VECTOR(63 downto 0);
     C                     :out  STD_LOGIC_VECTOR(63 downto 0);
     ABC                   :out  STD_LOGIC_VECTOR(63 downto 0);
@@ -71,10 +71,10 @@ end entity MM_control_s_axi;
 --        bit 0 - ap_done (Read/TOW)
 --        bit 1 - ap_ready (Read/TOW)
 --        others - reserved
--- 0x10 : Data signal of A
---        bit 31~0 - A[31:0] (Read/Write)
--- 0x14 : Data signal of A
---        bit 31~0 - A[63:32] (Read/Write)
+-- 0x10 : Data signal of AT
+--        bit 31~0 - AT[31:0] (Read/Write)
+-- 0x14 : Data signal of AT
+--        bit 31~0 - AT[63:32] (Read/Write)
 -- 0x18 : reserved
 -- 0x1c : Data signal of B
 --        bit 31~0 - B[31:0] (Read/Write)
@@ -113,9 +113,9 @@ attribute DowngradeIPIdentifiedWarnings of behave : architecture is "yes";
     constant ADDR_GIE        : INTEGER := 16#04#;
     constant ADDR_IER        : INTEGER := 16#08#;
     constant ADDR_ISR        : INTEGER := 16#0c#;
-    constant ADDR_A_DATA_0   : INTEGER := 16#10#;
-    constant ADDR_A_DATA_1   : INTEGER := 16#14#;
-    constant ADDR_A_CTRL     : INTEGER := 16#18#;
+    constant ADDR_AT_DATA_0  : INTEGER := 16#10#;
+    constant ADDR_AT_DATA_1  : INTEGER := 16#14#;
+    constant ADDR_AT_CTRL    : INTEGER := 16#18#;
     constant ADDR_B_DATA_0   : INTEGER := 16#1c#;
     constant ADDR_B_DATA_1   : INTEGER := 16#20#;
     constant ADDR_B_CTRL     : INTEGER := 16#24#;
@@ -160,7 +160,7 @@ attribute DowngradeIPIdentifiedWarnings of behave : architecture is "yes";
     signal int_gie             : STD_LOGIC := '0';
     signal int_ier             : UNSIGNED(1 downto 0) := (others => '0');
     signal int_isr             : UNSIGNED(1 downto 0) := (others => '0');
-    signal int_A               : UNSIGNED(63 downto 0) := (others => '0');
+    signal int_AT              : UNSIGNED(63 downto 0) := (others => '0');
     signal int_B               : UNSIGNED(63 downto 0) := (others => '0');
     signal int_C               : UNSIGNED(63 downto 0) := (others => '0');
     signal int_ABC             : UNSIGNED(63 downto 0) := (others => '0');
@@ -296,10 +296,10 @@ begin
                         rdata_data(1 downto 0) <= int_ier;
                     when ADDR_ISR =>
                         rdata_data(1 downto 0) <= int_isr;
-                    when ADDR_A_DATA_0 =>
-                        rdata_data <= RESIZE(int_A(31 downto 0), 32);
-                    when ADDR_A_DATA_1 =>
-                        rdata_data <= RESIZE(int_A(63 downto 32), 32);
+                    when ADDR_AT_DATA_0 =>
+                        rdata_data <= RESIZE(int_AT(31 downto 0), 32);
+                    when ADDR_AT_DATA_1 =>
+                        rdata_data <= RESIZE(int_AT(63 downto 32), 32);
                     when ADDR_B_DATA_0 =>
                         rdata_data <= RESIZE(int_B(31 downto 0), 32);
                     when ADDR_B_DATA_1 =>
@@ -332,7 +332,7 @@ begin
     task_ap_done         <= (ap_done and not auto_restart_status) or auto_restart_done;
     task_ap_ready        <= ap_ready and not int_auto_restart;
     auto_restart_done    <= auto_restart_status and (ap_idle and not int_ap_idle);
-    A                    <= STD_LOGIC_VECTOR(int_A);
+    AT                   <= STD_LOGIC_VECTOR(int_AT);
     B                    <= STD_LOGIC_VECTOR(int_B);
     C                    <= STD_LOGIC_VECTOR(int_C);
     ABC                  <= STD_LOGIC_VECTOR(int_ABC);
@@ -514,10 +514,10 @@ begin
     begin
         if (ACLK'event and ACLK = '1') then
             if (ARESET = '1') then
-                int_A(31 downto 0) <= (others => '0');
+                int_AT(31 downto 0) <= (others => '0');
             elsif (ACLK_EN = '1') then
-                if (w_hs = '1' and waddr = ADDR_A_DATA_0) then
-                    int_A(31 downto 0) <= (UNSIGNED(WDATA(31 downto 0)) and wmask(31 downto 0)) or ((not wmask(31 downto 0)) and int_A(31 downto 0));
+                if (w_hs = '1' and waddr = ADDR_AT_DATA_0) then
+                    int_AT(31 downto 0) <= (UNSIGNED(WDATA(31 downto 0)) and wmask(31 downto 0)) or ((not wmask(31 downto 0)) and int_AT(31 downto 0));
                 end if;
             end if;
         end if;
@@ -527,10 +527,10 @@ begin
     begin
         if (ACLK'event and ACLK = '1') then
             if (ARESET = '1') then
-                int_A(63 downto 32) <= (others => '0');
+                int_AT(63 downto 32) <= (others => '0');
             elsif (ACLK_EN = '1') then
-                if (w_hs = '1' and waddr = ADDR_A_DATA_1) then
-                    int_A(63 downto 32) <= (UNSIGNED(WDATA(31 downto 0)) and wmask(31 downto 0)) or ((not wmask(31 downto 0)) and int_A(63 downto 32));
+                if (w_hs = '1' and waddr = ADDR_AT_DATA_1) then
+                    int_AT(63 downto 32) <= (UNSIGNED(WDATA(31 downto 0)) and wmask(31 downto 0)) or ((not wmask(31 downto 0)) and int_AT(63 downto 32));
                 end if;
             end if;
         end if;

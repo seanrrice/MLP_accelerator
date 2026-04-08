@@ -14,7 +14,7 @@
         MM_virtual_sequencer MM_virtual_sqr;                                                      
         MM_config MM_cfg;                                                                         
                                                                                                                     
-        axi_pkg::axi_env#(64,4,8,3,1) axi_master_gmem;
+        axi_pkg::axi_env#(64,64,8,3,1) axi_master_gmem;
         axi_pkg::axi_env#(7,4,4,3,1) axi_lite_control;
                                                                                                                     
         MM_reference_model   refm;                                                                         
@@ -48,7 +48,7 @@
         MM_cfg.gmem_cfg.write_latency_mode = TRANSACTION_FIRST;
         MM_cfg.gmem_cfg.read_latency_mode = TRANSACTION_FIRST;
         uvm_config_db#(axi_pkg::axi_cfg)::set(this, "axi_master_gmem*", "cfg", MM_cfg.gmem_cfg);
-        axi_master_gmem = axi_pkg::axi_env#(64,4,8,3,1)::type_id::create("axi_master_gmem", this);
+        axi_master_gmem = axi_pkg::axi_env#(64,64,8,3,1)::type_id::create("axi_master_gmem", this);
 
         MM_cfg.control_cfg.set_default();
         MM_cfg.control_cfg.drv_type = axi_pkg::MASTER;

@@ -26,7 +26,7 @@
             virtual interface misc_interface misc_if;                                               
             MM_reference_model refm;                                                       
                                                                                                     
-            axi_pkg::axi_slave_sequence#(64,4,8,3,1) axi_slave_gmem_seq;
+            axi_pkg::axi_slave_sequence#(64,64,8,3,1) axi_slave_gmem_seq;
             axi_pkg::axi_busdatas_master_sequence#(7, 32) axi_master_wr_control_seq;
             axi_pkg::axi_busdatas_master_sequence#(7, 32) axi_master_poll_control_seq;
 
@@ -71,8 +71,8 @@
                             axi_master_wr_control_seq.finish     = refm.finish ;
                             axi_master_wr_control_seq.isusr_delay = axi_pkg::NO_DELAY;
                             for(int i=0; i<1; i++) begin
-                                logic[63:0] data64bit_A[$];
-                                logic[32-1:0] databusbit_A[$];
+                                logic[63:0] data64bit_AT[$];
+                                logic[32-1:0] databusbit_AT[$];
                                 logic[63:0] data64bit_B[$];
                                 logic[32-1:0] databusbit_B[$];
                                 logic[63:0] data64bit_C[$];
@@ -85,14 +85,14 @@
                                 logic[32-1:0] databusbit_M[$];
                                 logic[63:0] data64bit_P[$];
                                 logic[32-1:0] databusbit_P[$];
-                                data64bit_A.delete(); databusbit_A.delete();
+                                data64bit_AT.delete(); databusbit_AT.delete();
                                 axi_master_wr_control_seq.StableAxiliteNoUpdate=0;
                                 for(int j=0; j < (64+32-1)/32; j++) begin
-                                    data64bit_A.push_back( ((refm.mem_blk_pages_gmem.maxi_bundlevar_offset["A"]+refm.mem_blk_pages_gmem.page_ofst[refm.mem_blk_pages_gmem.rd_page_idx])>>(j*32)) & (2**32-1) );
+                                    data64bit_AT.push_back( ((refm.mem_blk_pages_gmem.maxi_bundlevar_offset["AT"]+refm.mem_blk_pages_gmem.page_ofst[refm.mem_blk_pages_gmem.rd_page_idx])>>(j*32)) & (2**32-1) );
                                 end
-                                foreach(data64bit_A[s]) databusbit_A[s]=data64bit_A[s][32-1:0];
+                                foreach(data64bit_AT[s]) databusbit_AT[s]=data64bit_AT[s][32-1:0];
                                 axi_master_wr_control_seq.StableAxiliteNoUpdate=1;
-                                axi_master_wr_control_seq.datamerge_inavg(databusbit_A, 0, 16, 1);
+                                axi_master_wr_control_seq.datamerge_inavg(databusbit_AT, 0, 16, 1);
                                 data64bit_B.delete(); databusbit_B.delete();
                                 axi_master_wr_control_seq.StableAxiliteNoUpdate=0;
                                 for(int j=0; j < (64+32-1)/32; j++) begin

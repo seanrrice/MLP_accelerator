@@ -3,8 +3,8 @@
 # SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
 # IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
 # SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-# Start of session at: Mon Apr  6 18:47:18 2026
-# Process ID         : 4896
+# Start of session at: Wed Apr  8 12:58:00 2026
+# Process ID         : 39476
 # Current directory  : Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.runs/impl_1
 # Command line       : vivado.exe -log bd_0_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source bd_0_wrapper.tcl -notrace
 # Log file           : Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.runs/impl_1/bd_0_wrapper.vdi
@@ -17,8 +17,8 @@
 # CPU Physical cores : 8
 # CPU Logical cores  : 16
 # Host memory        : 16541 MB
-# Swap memory        : 15032 MB
-# Total Virtual      : 31573 MB
-# Available Virtual  : 11154 MB
+# Swap memory        : 18967 MB
+# Total Virtual      : 35508 MB
+# Available Virtual  : 5509 MB
 #-----------------------------------------------------------
 source bd_0_wrapper.tcl -notrace

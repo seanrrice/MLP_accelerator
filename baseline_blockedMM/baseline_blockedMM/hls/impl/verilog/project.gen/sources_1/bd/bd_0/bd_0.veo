@@ -85,17 +85,17 @@ bd_0 your_instance_name (
   .m_axi_gmem_bready(m_axi_gmem_bready), // output wire m_axi_gmem_bready
   .m_axi_gmem_bresp(m_axi_gmem_bresp), // input wire [1:0] m_axi_gmem_bresp
   .m_axi_gmem_bvalid(m_axi_gmem_bvalid), // input wire m_axi_gmem_bvalid
-  .m_axi_gmem_rdata(m_axi_gmem_rdata), // input wire [31:0] m_axi_gmem_rdata
+  .m_axi_gmem_rdata(m_axi_gmem_rdata), // input wire [511:0] m_axi_gmem_rdata
   .m_axi_gmem_rid(m_axi_gmem_rid), // input wire [0:0] m_axi_gmem_rid
   .m_axi_gmem_rlast(m_axi_gmem_rlast), // input wire m_axi_gmem_rlast
   .m_axi_gmem_rready(m_axi_gmem_rready), // output wire m_axi_gmem_rready
   .m_axi_gmem_rresp(m_axi_gmem_rresp), // input wire [1:0] m_axi_gmem_rresp
   .m_axi_gmem_rvalid(m_axi_gmem_rvalid), // input wire m_axi_gmem_rvalid
-  .m_axi_gmem_wdata(m_axi_gmem_wdata), // output wire [31:0] m_axi_gmem_wdata
+  .m_axi_gmem_wdata(m_axi_gmem_wdata), // output wire [511:0] m_axi_gmem_wdata
   .m_axi_gmem_wid(m_axi_gmem_wid), // output wire [0:0] m_axi_gmem_wid
   .m_axi_gmem_wlast(m_axi_gmem_wlast), // output wire m_axi_gmem_wlast
   .m_axi_gmem_wready(m_axi_gmem_wready), // input wire m_axi_gmem_wready
-  .m_axi_gmem_wstrb(m_axi_gmem_wstrb), // output wire [3:0] m_axi_gmem_wstrb
+  .m_axi_gmem_wstrb(m_axi_gmem_wstrb), // output wire [63:0] m_axi_gmem_wstrb
   .m_axi_gmem_wvalid(m_axi_gmem_wvalid), // output wire m_axi_gmem_wvalid
   .s_axi_control_araddr(s_axi_control_araddr), // input wire [6:0] s_axi_control_araddr
   .s_axi_control_arready(s_axi_control_arready), // output wire s_axi_control_arready

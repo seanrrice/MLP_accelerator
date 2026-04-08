@@ -2,7 +2,7 @@
 //Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
-//Date        : Mon Apr  6 18:38:02 2026
+//Date        : Wed Apr  8 12:51:20 2026
 //Host        : jwood_Win_PC running 64-bit major release  (build 9200)
 //Command     : generate_target bd_0_wrapper.bd
 //Design      : bd_0_wrapper
@@ -102,17 +102,17 @@ module bd_0_wrapper
   output m_axi_gmem_bready;
   input [1:0]m_axi_gmem_bresp;
   input m_axi_gmem_bvalid;
-  input [31:0]m_axi_gmem_rdata;
+  input [511:0]m_axi_gmem_rdata;
   input [0:0]m_axi_gmem_rid;
   input m_axi_gmem_rlast;
   output m_axi_gmem_rready;
   input [1:0]m_axi_gmem_rresp;
   input m_axi_gmem_rvalid;
-  output [31:0]m_axi_gmem_wdata;
+  output [511:0]m_axi_gmem_wdata;
   output [0:0]m_axi_gmem_wid;
   output m_axi_gmem_wlast;
   input m_axi_gmem_wready;
-  output [3:0]m_axi_gmem_wstrb;
+  output [63:0]m_axi_gmem_wstrb;
   output m_axi_gmem_wvalid;
   input [6:0]s_axi_control_araddr;
   output s_axi_control_arready;
@@ -163,17 +163,17 @@ module bd_0_wrapper
   wire m_axi_gmem_bready;
   wire [1:0]m_axi_gmem_bresp;
   wire m_axi_gmem_bvalid;
-  wire [31:0]m_axi_gmem_rdata;
+  wire [511:0]m_axi_gmem_rdata;
   wire [0:0]m_axi_gmem_rid;
   wire m_axi_gmem_rlast;
   wire m_axi_gmem_rready;
   wire [1:0]m_axi_gmem_rresp;
   wire m_axi_gmem_rvalid;
-  wire [31:0]m_axi_gmem_wdata;
+  wire [511:0]m_axi_gmem_wdata;
   wire [0:0]m_axi_gmem_wid;
   wire m_axi_gmem_wlast;
   wire m_axi_gmem_wready;
-  wire [3:0]m_axi_gmem_wstrb;
+  wire [63:0]m_axi_gmem_wstrb;
   wire m_axi_gmem_wvalid;
   wire [6:0]s_axi_control_araddr;
   wire s_axi_control_arready;

@@ -1,55 +1,169 @@
-Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:46714:5: remark: Added loop label VITIS_LOOP_49_1:   [xilinx-label-all-loops]
-    for(int ib = 0; ib < N/BLOCK_SIZE; ib ++){
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:46974:5: remark: Added loop label VITIS_LOOP_176_1:   [xilinx-label-all-loops]
+    for (size_t i = 0; i < _N; ++i) {
     ^
-    VITIS_LOOP_49_1: 
-Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:46714:5: note: FIX-IT applied suggested code changes
-Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:46715:9: remark: Added loop label VITIS_LOOP_50_2:   [xilinx-label-all-loops]
-        for(int jb = 0; jb < P/BLOCK_SIZE; jb ++){
-        ^
-        VITIS_LOOP_50_2: 
-Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:46715:9: note: FIX-IT applied suggested code changes
-Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:46717:13: remark: Added loop label VITIS_LOOP_52_3:   [xilinx-label-all-loops]
-            for(int i=0;i<BLOCK_SIZE;i++){
-            ^
-            VITIS_LOOP_52_3: 
-Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:46717:13: note: FIX-IT applied suggested code changes
-Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:46719:17: remark: Added loop label VITIS_LOOP_54_4:   [xilinx-label-all-loops]
-                for(int j=0;j<BLOCK_SIZE;j++){
-                ^
-                VITIS_LOOP_54_4: 
-Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:46719:17: note: FIX-IT applied suggested code changes
-Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:46724:13: remark: Added loop label VITIS_LOOP_59_5:   [xilinx-label-all-loops]
-            for (int kb = 0; kb < M/BLOCK_SIZE; kb ++){
-            ^
-            VITIS_LOOP_59_5: 
-Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:46724:13: note: FIX-IT applied suggested code changes
-Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:46725:17: remark: Added loop label VITIS_LOOP_60_6:   [xilinx-label-all-loops]
-                for(int k = 0; k < BLOCK_SIZE; k++){
-                ^
-                VITIS_LOOP_60_6: 
-Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:46725:17: note: FIX-IT applied suggested code changes
-Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:46726:21: remark: Added loop label VITIS_LOOP_61_7:   [xilinx-label-all-loops]
-                    for(int j=0; j < BLOCK_SIZE; j++){
-                    ^
-                    VITIS_LOOP_61_7: 
-Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:46726:21: note: FIX-IT applied suggested code changes
-Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:46730:21: remark: Added loop label VITIS_LOOP_65_8:   [xilinx-label-all-loops]
-                    for(int i=0;i<BLOCK_SIZE;i++){
-                    ^
-                    VITIS_LOOP_65_8: 
-Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:46730:21: note: FIX-IT applied suggested code changes
-Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:46733:25: remark: Added loop label VITIS_LOOP_68_9:   [xilinx-label-all-loops]
-                        for(int j=0;j<BLOCK_SIZE;j++){
-                        ^
-                        VITIS_LOOP_68_9: 
-Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:46733:25: note: FIX-IT applied suggested code changes
-Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:46741:13: remark: Added loop label VITIS_LOOP_76_10:   [xilinx-label-all-loops]
-            for(int i=0;i<BLOCK_SIZE;i++){
-            ^
-            VITIS_LOOP_76_10: 
-Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:46741:13: note: FIX-IT applied suggested code changes
-Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:46743:17: remark: Added loop label VITIS_LOOP_78_11:   [xilinx-label-all-loops]
-                for(int j=0;j<BLOCK_SIZE;j++){
-                ^
-                VITIS_LOOP_78_11: 
-Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:46743:17: note: FIX-IT applied suggested code changes
+    VITIS_LOOP_176_1: 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:46974:5: note: FIX-IT applied suggested code changes
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:46990:5: remark: Added loop label VITIS_LOOP_192_1:   [xilinx-label-all-loops]
+    for (size_t i = 0; i < _N; ++i) {
+    ^
+    VITIS_LOOP_192_1: 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:46990:5: note: FIX-IT applied suggested code changes
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47004:5: remark: Added loop label VITIS_LOOP_206_1:   [xilinx-label-all-loops]
+    for (size_t i = 0; i < _N; ++i) {
+    ^
+    VITIS_LOOP_206_1: 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47004:5: note: FIX-IT applied suggested code changes
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47020:100: remark: Added loop label VITIS_LOOP_232_1:   [xilinx-label-all-loops]
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector &operator ++() { pragma(); for (size_t i = 0; i < _N; ++i) {
+                                                                                                   ^
+                                                                                                   VITIS_LOOP_232_1: 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47020:100: note: FIX-IT applied suggested code changes
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47025:100: remark: Added loop label VITIS_LOOP_233_1:   [xilinx-label-all-loops]
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector &operator --() { pragma(); for (size_t i = 0; i < _N; ++i) {
+                                                                                                   ^
+                                                                                                   VITIS_LOOP_233_1: 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47025:100: note: FIX-IT applied suggested code changes
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47034:131: remark: Added loop label VITIS_LOOP_261_1:   [xilinx-label-all-loops]
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector &operator +=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) {
+                                                                                                                                  ^
+                                                                                                                                  VITIS_LOOP_261_1: 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47034:131: note: FIX-IT applied suggested code changes
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47039:131: remark: Added loop label VITIS_LOOP_262_1:   [xilinx-label-all-loops]
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector &operator -=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) {
+                                                                                                                                  ^
+                                                                                                                                  VITIS_LOOP_262_1: 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47039:131: note: FIX-IT applied suggested code changes
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47044:131: remark: Added loop label VITIS_LOOP_263_1:   [xilinx-label-all-loops]
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector &operator *=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) {
+                                                                                                                                  ^
+                                                                                                                                  VITIS_LOOP_263_1: 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47044:131: note: FIX-IT applied suggested code changes
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47049:131: remark: Added loop label VITIS_LOOP_264_1:   [xilinx-label-all-loops]
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector &operator /=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) {
+                                                                                                                                  ^
+                                                                                                                                  VITIS_LOOP_264_1: 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47049:131: note: FIX-IT applied suggested code changes
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47054:131: remark: Added loop label VITIS_LOOP_265_1:   [xilinx-label-all-loops]
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector &operator %=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) {
+                                                                                                                                  ^
+                                                                                                                                  VITIS_LOOP_265_1: 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47054:131: note: FIX-IT applied suggested code changes
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47059:131: remark: Added loop label VITIS_LOOP_266_1:   [xilinx-label-all-loops]
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector &operator &=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) {
+                                                                                                                                  ^
+                                                                                                                                  VITIS_LOOP_266_1: 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47059:131: note: FIX-IT applied suggested code changes
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47064:131: remark: Added loop label VITIS_LOOP_267_1:   [xilinx-label-all-loops]
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector &operator |=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) {
+                                                                                                                                  ^
+                                                                                                                                  VITIS_LOOP_267_1: 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47064:131: note: FIX-IT applied suggested code changes
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47069:131: remark: Added loop label VITIS_LOOP_268_1:   [xilinx-label-all-loops]
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector &operator ^=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) {
+                                                                                                                                  ^
+                                                                                                                                  VITIS_LOOP_268_1: 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47069:131: note: FIX-IT applied suggested code changes
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47074:132: remark: Added loop label VITIS_LOOP_269_1:   [xilinx-label-all-loops]
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector &operator <<=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) {
+                                                                                                                                   ^
+                                                                                                                                   VITIS_LOOP_269_1: 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47074:132: note: FIX-IT applied suggested code changes
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47079:132: remark: Added loop label VITIS_LOOP_270_1:   [xilinx-label-all-loops]
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector &operator >>=(const vector &rhs) { pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) {
+                                                                                                                                   ^
+                                                                                                                                   VITIS_LOOP_270_1: 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47079:132: note: FIX-IT applied suggested code changes
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47085:118: remark: Added loop label VITIS_LOOP_285_1:   [xilinx-label-all-loops]
+  inline __attribute__((always_inline)) __attribute__((nodebug)) _T reduce_add() const { pragma(); _T res = data[0]; for (size_t i = 1; i < _N; ++i) {
+                                                                                                                     ^
+                                                                                                                     VITIS_LOOP_285_1: 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47085:118: note: FIX-IT applied suggested code changes
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47090:119: remark: Added loop label VITIS_LOOP_286_1:   [xilinx-label-all-loops]
+  inline __attribute__((always_inline)) __attribute__((nodebug)) _T reduce_mult() const { pragma(); _T res = data[0]; for (size_t i = 1; i < _N; ++i) {
+                                                                                                                      ^
+                                                                                                                      VITIS_LOOP_286_1: 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47090:119: note: FIX-IT applied suggested code changes
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47095:118: remark: Added loop label VITIS_LOOP_287_1:   [xilinx-label-all-loops]
+  inline __attribute__((always_inline)) __attribute__((nodebug)) _T reduce_and() const { pragma(); _T res = data[0]; for (size_t i = 1; i < _N; ++i) {
+                                                                                                                     ^
+                                                                                                                     VITIS_LOOP_287_1: 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47095:118: note: FIX-IT applied suggested code changes
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47100:117: remark: Added loop label VITIS_LOOP_288_1:   [xilinx-label-all-loops]
+  inline __attribute__((always_inline)) __attribute__((nodebug)) _T reduce_or() const { pragma(); _T res = data[0]; for (size_t i = 1; i < _N; ++i) {
+                                                                                                                    ^
+                                                                                                                    VITIS_LOOP_288_1: 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47100:117: note: FIX-IT applied suggested code changes
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47105:118: remark: Added loop label VITIS_LOOP_289_1:   [xilinx-label-all-loops]
+  inline __attribute__((always_inline)) __attribute__((nodebug)) _T reduce_xor() const { pragma(); _T res = data[0]; for (size_t i = 1; i < _N; ++i) {
+                                                                                                                     ^
+                                                                                                                     VITIS_LOOP_289_1: 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47105:118: note: FIX-IT applied suggested code changes
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47111:157: remark: Added loop label VITIS_LOOP_320_1:   [xilinx-label-all-loops]
+  inline __attribute__((always_inline)) __attribute__((nodebug)) friend bool operator <(const vector &lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) {
+                                                                                                                                                            ^
+                                                                                                                                                            VITIS_LOOP_320_1: 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47111:157: note: FIX-IT applied suggested code changes
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47116:158: remark: Added loop label VITIS_LOOP_321_1:   [xilinx-label-all-loops]
+  inline __attribute__((always_inline)) __attribute__((nodebug)) friend bool operator <=(const vector &lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) {
+                                                                                                                                                             ^
+                                                                                                                                                             VITIS_LOOP_321_1: 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47116:158: note: FIX-IT applied suggested code changes
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47121:158: remark: Added loop label VITIS_LOOP_322_1:   [xilinx-label-all-loops]
+  inline __attribute__((always_inline)) __attribute__((nodebug)) friend bool operator ==(const vector &lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) {
+                                                                                                                                                             ^
+                                                                                                                                                             VITIS_LOOP_322_1: 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47121:158: note: FIX-IT applied suggested code changes
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47126:158: remark: Added loop label VITIS_LOOP_323_1:   [xilinx-label-all-loops]
+  inline __attribute__((always_inline)) __attribute__((nodebug)) friend bool operator !=(const vector &lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) {
+                                                                                                                                                             ^
+                                                                                                                                                             VITIS_LOOP_323_1: 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47126:158: note: FIX-IT applied suggested code changes
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47131:158: remark: Added loop label VITIS_LOOP_324_1:   [xilinx-label-all-loops]
+  inline __attribute__((always_inline)) __attribute__((nodebug)) friend bool operator >=(const vector &lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) {
+                                                                                                                                                             ^
+                                                                                                                                                             VITIS_LOOP_324_1: 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47131:158: note: FIX-IT applied suggested code changes
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47136:157: remark: Added loop label VITIS_LOOP_325_1:   [xilinx-label-all-loops]
+  inline __attribute__((always_inline)) __attribute__((nodebug)) friend bool operator >(const vector &lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); for (size_t i = 0; i < _N; ++i) {
+                                                                                                                                                            ^
+                                                                                                                                                            VITIS_LOOP_325_1: 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47136:157: note: FIX-IT applied suggested code changes
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47185:58: warning:  hls::vector type top function variable AT requires aggregation [xilinx-aggregate-on-hls-vector]
+__attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P) {
+                                                         ^
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47185:126: note: FIX-IT applied suggested code changes
+__attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P) {
+                                                                                                                             ^
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47185:58: warning:  hls::vector type top function variable AT requires align attribute [xilinx-aggregate-on-hls-vector]
+__attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P) {
+                                                         ^
+                                                            __attribute__((align_value(alignof(WIDE_DTYPE)))) 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47185:60: note: FIX-IT applied suggested code changes
+__attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P) {
+                                                           ^
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47185:74: warning:  hls::vector type top function variable B requires aggregation [xilinx-aggregate-on-hls-vector]
+__attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P) {
+                                                                         ^
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47185:126: note: FIX-IT applied suggested code changes
+__attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P) {
+                                                                                                                             ^
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47185:74: warning:  hls::vector type top function variable B requires align attribute [xilinx-aggregate-on-hls-vector]
+__attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P) {
+                                                                         ^
+                                                                           __attribute__((align_value(alignof(WIDE_DTYPE)))) 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47185:75: note: FIX-IT applied suggested code changes
+__attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P) {
+                                                                          ^
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47185:99: warning:  hls::vector type top function variable ABC requires aggregation [xilinx-aggregate-on-hls-vector]
+__attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P) {
+                                                                                                  ^
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47185:126: note: FIX-IT applied suggested code changes
+__attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P) {
+                                                                                                                             ^
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47185:99: warning:  hls::vector type top function variable ABC requires align attribute [xilinx-aggregate-on-hls-vector]
+__attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P) {
+                                                                                                  ^
+                                                                                                      __attribute__((align_value(alignof(WIDE_DTYPE)))) 
+Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:47185:102: note: FIX-IT applied suggested code changes
+__attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P) {
+                                                                                                     ^

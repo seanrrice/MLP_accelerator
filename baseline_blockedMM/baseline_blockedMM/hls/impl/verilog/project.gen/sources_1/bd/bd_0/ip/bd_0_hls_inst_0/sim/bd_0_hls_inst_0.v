@@ -48,7 +48,7 @@
 
 
 // IP VLNV: xilinx.com:hls:MM:1.0
-// IP Revision: 2114554117
+// IP Revision: 2114556650
 
 `timescale 1ns/1ps
 
@@ -168,8 +168,8 @@ input wire ap_rst_n;
 output wire interrupt;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 m_axi_gmem ARADDR" *)
 (* X_INTERFACE_MODE = "master" *)
-(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME m_axi_gmem, NUM_READ_OUTSTANDING 16, NUM_WRITE_OUTSTANDING 16, MAX_READ_BURST_LENGTH 16, MAX_WRITE_BURST_LENGTH 16, MAX_BURST_LENGTH 256, PROTOCOL AXI4, READ_WRITE_MODE READ_WRITE, HAS_BURST 0, SUPPORTS_NARROW_BURST 0, ADDR_WIDTH 64, DATA_WIDTH 32, FREQ_HZ 66000000.0, ID_WIDTH 1, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, HAS_LOCK 1, HAS_PROT 1, HAS_CACHE 1, HAS_QOS 1, HAS_REGION 1, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, PHASE 0.0, CLK_DOMAIN b\
-d_0_ap_clk_0, NUM_READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0" *)
+(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME m_axi_gmem, NUM_READ_OUTSTANDING 16, NUM_WRITE_OUTSTANDING 16, MAX_READ_BURST_LENGTH 16, MAX_WRITE_BURST_LENGTH 16, MAX_BURST_LENGTH 256, PROTOCOL AXI4, READ_WRITE_MODE READ_WRITE, HAS_BURST 0, SUPPORTS_NARROW_BURST 0, ADDR_WIDTH 64, DATA_WIDTH 512, FREQ_HZ 66000000.0, ID_WIDTH 1, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, HAS_LOCK 1, HAS_PROT 1, HAS_CACHE 1, HAS_QOS 1, HAS_REGION 1, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, PHASE 0.0, CLK_DOMAIN \
+bd_0_ap_clk_0, NUM_READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0" *)
 output wire [63 : 0] m_axi_gmem_ARADDR;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 m_axi_gmem ARBURST" *)
 output wire [1 : 0] m_axi_gmem_ARBURST;
@@ -226,7 +226,7 @@ input wire [1 : 0] m_axi_gmem_BRESP;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 m_axi_gmem BVALID" *)
 input wire m_axi_gmem_BVALID;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 m_axi_gmem RDATA" *)
-input wire [31 : 0] m_axi_gmem_RDATA;
+input wire [511 : 0] m_axi_gmem_RDATA;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 m_axi_gmem RID" *)
 input wire [0 : 0] m_axi_gmem_RID;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 m_axi_gmem RLAST" *)
@@ -238,7 +238,7 @@ input wire [1 : 0] m_axi_gmem_RRESP;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 m_axi_gmem RVALID" *)
 input wire m_axi_gmem_RVALID;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 m_axi_gmem WDATA" *)
-output wire [31 : 0] m_axi_gmem_WDATA;
+output wire [511 : 0] m_axi_gmem_WDATA;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 m_axi_gmem WID" *)
 output wire [0 : 0] m_axi_gmem_WID;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 m_axi_gmem WLAST" *)
@@ -246,7 +246,7 @@ output wire m_axi_gmem_WLAST;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 m_axi_gmem WREADY" *)
 input wire m_axi_gmem_WREADY;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 m_axi_gmem WSTRB" *)
-output wire [3 : 0] m_axi_gmem_WSTRB;
+output wire [63 : 0] m_axi_gmem_WSTRB;
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 m_axi_gmem WVALID" *)
 output wire m_axi_gmem_WVALID;
 
@@ -258,7 +258,7 @@ output wire m_axi_gmem_WVALID;
     .C_S_AXI_CONTROL_DATA_WIDTH(32),
     .C_M_AXI_GMEM_ID_WIDTH(1),
     .C_M_AXI_GMEM_ADDR_WIDTH(64),
-    .C_M_AXI_GMEM_DATA_WIDTH(32),
+    .C_M_AXI_GMEM_DATA_WIDTH(512),
     .C_M_AXI_GMEM_AWUSER_WIDTH(1),
     .C_M_AXI_GMEM_ARUSER_WIDTH(1),
     .C_M_AXI_GMEM_WUSER_WIDTH(1),

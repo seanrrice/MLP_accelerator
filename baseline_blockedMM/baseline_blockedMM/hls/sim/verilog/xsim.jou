@@ -3,8 +3,8 @@
 # SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
 # IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
 # SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-# Start of session at: Mon Apr  6 18:35:37 2026
-# Process ID         : 3764
+# Start of session at: Wed Apr  8 12:48:17 2026
+# Process ID         : 32616
 # Current directory  : Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/sim/verilog
 # Command line       : xsim.exe -mode tcl -source {xsim.dir/MM/xsim_script.tcl}
 # Log file           : Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/sim/verilog/xsim.log
@@ -19,7 +19,7 @@
 # Host memory        : 16541 MB
 # Swap memory        : 15032 MB
 # Total Virtual      : 31573 MB
-# Available Virtual  : 13563 MB
+# Available Virtual  : 3671 MB
 #-----------------------------------------------------------
 source xsim.dir/MM/xsim_script.tcl
 open_wave_config MM_dataflow_ana.wcfg

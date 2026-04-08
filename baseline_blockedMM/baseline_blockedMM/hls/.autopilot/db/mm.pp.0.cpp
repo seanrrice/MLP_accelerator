@@ -46662,37 +46662,544 @@ namespace std
 
 }
 # 6 "../MLP_baseline/mm.h" 2
+# 1 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h" 1
 
 
 
 
-typedef int DTYPE;
+
+
+
+
+# 1 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cassert" 1 3
+# 42 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cassert" 3
+
+
+# 1 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\assert.h" 1 3
+# 17 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\assert.h" 3
+# 1 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\stdlib.h" 1 3
+# 36 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\stdlib.h" 3
+# 1 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdlib" 1 3
+# 40 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstdlib" 3
+# 37 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\stdlib.h" 2 3
+
+using std::abort;
+using std::atexit;
+using std::exit;
+# 51 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\stdlib.h" 3
+using std::div_t;
+using std::ldiv_t;
+
+using std::abs;
+using std::atof;
+using std::atoi;
+using std::atol;
+using std::bsearch;
+using std::calloc;
+using std::div;
+using std::free;
+using std::getenv;
+using std::labs;
+using std::ldiv;
+using std::malloc;
+
+using std::mblen;
+using std::mbstowcs;
+using std::mbtowc;
+
+using std::qsort;
+using std::rand;
+using std::realloc;
+using std::srand;
+using std::strtod;
+using std::strtol;
+using std::strtoul;
+using std::system;
+
+using std::wcstombs;
+using std::wctomb;
+# 18 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\assert.h" 2 3
+
+
+
+extern "C" {
+# 45 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\\x86_64-w64-mingw32\\include\\assert.h" 3
+extern void __attribute__((__cdecl__))
+_wassert(const wchar_t *_Message,const wchar_t *_File,unsigned _Line);
+extern void __attribute__((__cdecl__))
+_assert (const char *_Message, const char *_File, unsigned _Line);
+
+
+}
+# 45 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cassert" 2 3
+# 10 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h" 2
+# 1 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstddef" 1 3
+# 43 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstddef" 3
+
+
+
+
+
+
+
+# 1 "T:\\AMDDesignTools\\2025.2\\Vitis\\win64\\tools\\clang-16\\lib\\clang\\16\\include\\stddef.h" 1 3
+# 51 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstddef" 2 3
+
+
+namespace std
+{
+
+  using ::max_align_t;
+}
+
+
+
+namespace std
+{
+
+
+
+  enum class byte : unsigned char {};
+
+  template<typename _IntegerType> struct __byte_operand { };
+  template<> struct __byte_operand<bool> { using __type = byte; };
+  template<> struct __byte_operand<char> { using __type = byte; };
+  template<> struct __byte_operand<signed char> { using __type = byte; };
+  template<> struct __byte_operand<unsigned char> { using __type = byte; };
+
+  template<> struct __byte_operand<wchar_t> { using __type = byte; };
+
+  template<> struct __byte_operand<char16_t> { using __type = byte; };
+  template<> struct __byte_operand<char32_t> { using __type = byte; };
+  template<> struct __byte_operand<short> { using __type = byte; };
+  template<> struct __byte_operand<unsigned short> { using __type = byte; };
+  template<> struct __byte_operand<int> { using __type = byte; };
+  template<> struct __byte_operand<unsigned int> { using __type = byte; };
+  template<> struct __byte_operand<long> { using __type = byte; };
+  template<> struct __byte_operand<unsigned long> { using __type = byte; };
+  template<> struct __byte_operand<long long> { using __type = byte; };
+  template<> struct __byte_operand<unsigned long long> { using __type = byte; };
+
+  template<> struct __byte_operand<__int128>
+  { using __type = byte; };
+  template<> struct __byte_operand<unsigned __int128>
+  { using __type = byte; };
+# 104 "T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\\lib\\gcc\\x86_64-w64-mingw32\\8.3.0\\include\\c++\\cstddef" 3
+  template<typename _IntegerType>
+    struct __byte_operand<const _IntegerType>
+    : __byte_operand<_IntegerType> { };
+  template<typename _IntegerType>
+    struct __byte_operand<volatile _IntegerType>
+    : __byte_operand<_IntegerType> { };
+  template<typename _IntegerType>
+    struct __byte_operand<const volatile _IntegerType>
+    : __byte_operand<_IntegerType> { };
+
+  template<typename _IntegerType>
+    using __byte_op_t = typename __byte_operand<_IntegerType>::__type;
+
+  template<typename _IntegerType>
+    constexpr __byte_op_t<_IntegerType>&
+    operator<<=(byte& __b, _IntegerType __shift) noexcept
+    { return __b = byte(static_cast<unsigned char>(__b) << __shift); }
+
+  template<typename _IntegerType>
+    constexpr __byte_op_t<_IntegerType>
+    operator<<(byte __b, _IntegerType __shift) noexcept
+    { return byte(static_cast<unsigned char>(__b) << __shift); }
+
+  template<typename _IntegerType>
+    constexpr __byte_op_t<_IntegerType>&
+    operator>>=(byte& __b, _IntegerType __shift) noexcept
+    { return __b = byte(static_cast<unsigned char>(__b) >> __shift); }
+
+  template<typename _IntegerType>
+    constexpr __byte_op_t<_IntegerType>
+    operator>>(byte __b, _IntegerType __shift) noexcept
+    { return byte(static_cast<unsigned char>(__b) >> __shift); }
+
+  constexpr byte&
+  operator|=(byte& __l, byte __r) noexcept
+  {
+    return __l =
+      byte(static_cast<unsigned char>(__l) | static_cast<unsigned char>(__r));
+  }
+
+  constexpr byte
+  operator|(byte __l, byte __r) noexcept
+  {
+    return
+      byte(static_cast<unsigned char>(__l) | static_cast<unsigned char>(__r));
+  }
+
+  constexpr byte&
+  operator&=(byte& __l, byte __r) noexcept
+  {
+   return __l =
+     byte(static_cast<unsigned char>(__l) & static_cast<unsigned char>(__r));
+  }
+
+  constexpr byte
+  operator&(byte __l, byte __r) noexcept
+  {
+    return
+      byte(static_cast<unsigned char>(__l) & static_cast<unsigned char>(__r));
+  }
+
+  constexpr byte&
+  operator^=(byte& __l, byte __r) noexcept
+  {
+    return __l =
+      byte(static_cast<unsigned char>(__l) ^ static_cast<unsigned char>(__r));
+  }
+
+  constexpr byte
+  operator^(byte __l, byte __r) noexcept
+  {
+    return
+      byte(static_cast<unsigned char>(__l) ^ static_cast<unsigned char>(__r));
+  }
+
+  constexpr byte
+  operator~(byte __b) noexcept
+  { return byte(~static_cast<unsigned char>(__b)); }
+
+  template<typename _IntegerType>
+    constexpr _IntegerType
+    to_integer(__byte_op_t<_IntegerType> __b) noexcept
+    { return _IntegerType(__b); }
+
+}
+# 11 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h" 2
+
+
+
+namespace hls {
+# 68 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+using std::is_invocable_r_v;
+using std::is_convertible_v;
+
+
+namespace details {
+
+
+constexpr size_t gp2(size_t n) {
+  if (n == 0)
+    return 0;
+  if (n % 2 != 0)
+    return 1;
+  return 2 * gp2(n / 2);
+}
+
+}
+
+
+template <typename _T, size_t _N>
+class alignas(details::gp2(sizeof(_T) * _N)) vector {
+  static_assert(_N > 0, "vector must have at least one element");
+
+  using data_t = std::array<_T, _N>;
+  data_t data;
+
+public:
+
+
+  using value_type = typename data_t::value_type;
+  using size_type = typename data_t::size_type;
+  using difference_type = typename data_t::difference_type;
+  using reference = typename data_t::reference;
+  using const_reference = typename data_t::const_reference;
+  using pointer = typename data_t::pointer;
+  using const_pointer = typename data_t::const_pointer;
+  using iterator = typename data_t::iterator;
+  using const_iterator = typename data_t::const_iterator;
+  using reverse_iterator = typename data_t::reverse_iterator;
+  using const_reverse_iterator = typename data_t::const_reverse_iterator;
+# 121 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  inline __attribute__((always_inline)) __attribute__((nodebug)) iterator begin() { pragma(); return data.begin(); }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) iterator end() { pragma(); return data.end(); }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) reverse_iterator rbegin() { pragma(); return data.rbegin(); }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) reverse_iterator rend() { pragma(); return data.rend(); }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) const_iterator begin() const { pragma(); return data.begin(); }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) const_iterator end() const { pragma(); return data.end(); }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) const_iterator cbegin() const { pragma(); return data.cbegin(); }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) const_iterator cend() const { pragma(); return data.cend(); }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) const_reverse_iterator rbegin() const { pragma(); return data.rbegin(); }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) const_reverse_iterator rend() const { pragma(); return data.rend(); }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) const_reverse_iterator crbegin() const { pragma(); return data.crbegin(); }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) const_reverse_iterator crend() const { pragma(); return data.crend(); }
+
+  inline __attribute__((always_inline)) __attribute__((nodebug)) bool empty() const { pragma(); return data.empty(); }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) size_type size() const { pragma(); return data.size(); }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) size_type max_size() const { pragma(); return data.max_size(); }
+
+
+
+
+protected:
+
+
+  inline __attribute__((always_inline)) __attribute__((nodebug)) void pragma() const {
+#pragma HLS AGGREGATE variable=this
+  }
+
+public:
+
+  vector() = default;
+
+  vector(const vector &other) = default;
+
+  vector(vector &&other) = default;
+
+  vector &operator=(const vector &other) = default;
+
+  vector &operator=(vector &&other) = default;
+
+  ~vector() = default;
+
+
+
+
+
+
+  template <size_t _N2 = _N, typename = typename std::enable_if_t<_N2 == 1>>
+  inline __attribute__((always_inline)) __attribute__((nodebug)) operator _T() const {
+    pragma();
+    return data[0];
+  }
+
+
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector(const _T &val) {
+    pragma();
+    VITIS_LOOP_176_1: for (size_t i = 0; i < _N; ++i) {
+#pragma HLS UNROLL
+      data[i] = val;
+    }
+  }
+
+
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector(const std::array<_T, _N> &data) : data{data} {
+    pragma();
+  }
+
+
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector(std::initializer_list<_T> l) {
+    pragma();
+    ({ bool _AssertPred = l.size() == _N && "Initializer list must be the same size as the vector"; __builtin_assume(_AssertPred); });
+
+    VITIS_LOOP_192_1: for (size_t i = 0; i < _N; ++i) {
+#pragma HLS UNROLL
+      data[i] = l.begin()[i];
+    }
+  }
+
+
+
+
+  template<typename _L,
+           typename = typename std::enable_if_t<hls::is_invocable_r_v<_T, _L, size_t> &&
+                                               !hls::is_convertible_v<_L, _T>>>
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector(_L init) {
+    pragma();
+    VITIS_LOOP_206_1: for (size_t i = 0; i < _N; ++i) {
+#pragma HLS UNROLL
+      data[i] = init(i);
+    }
+  }
+
+
+  inline __attribute__((always_inline)) __attribute__((nodebug)) _T &operator[](size_t idx) {
+    pragma();
+    return data[idx];
+  }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) const _T &operator[](size_t idx) const {
+    pragma();
+    return data[idx];
+  }
+# 232 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector &operator ++() { pragma(); VITIS_LOOP_232_1: for (size_t i = 0; i < _N; ++i) {
+# 232 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+#pragma HLS UNROLL
+# 232 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  ++ data[i]; } return *this; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector &operator --() { pragma(); VITIS_LOOP_233_1: for (size_t i = 0; i < _N; ++i) {
+# 233 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+#pragma HLS UNROLL
+# 233 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  -- data[i]; } return *this; }
+# 245 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector operator ++(int) { pragma(); vector orig = *this; ++ *this; return orig; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector operator --(int) { pragma(); vector orig = *this; -- *this; return orig; }
+# 261 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector &operator +=(const vector &rhs) { pragma(); rhs.pragma(); VITIS_LOOP_261_1: for (size_t i = 0; i < _N; ++i) {
+# 261 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+#pragma HLS UNROLL
+# 261 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  data[i] += rhs[i]; } return *this; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector &operator -=(const vector &rhs) { pragma(); rhs.pragma(); VITIS_LOOP_262_1: for (size_t i = 0; i < _N; ++i) {
+# 262 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+#pragma HLS UNROLL
+# 262 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  data[i] -= rhs[i]; } return *this; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector &operator *=(const vector &rhs) { pragma(); rhs.pragma(); VITIS_LOOP_263_1: for (size_t i = 0; i < _N; ++i) {
+# 263 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+#pragma HLS UNROLL
+# 263 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  data[i] *= rhs[i]; } return *this; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector &operator /=(const vector &rhs) { pragma(); rhs.pragma(); VITIS_LOOP_264_1: for (size_t i = 0; i < _N; ++i) {
+# 264 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+#pragma HLS UNROLL
+# 264 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  data[i] /= rhs[i]; } return *this; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector &operator %=(const vector &rhs) { pragma(); rhs.pragma(); VITIS_LOOP_265_1: for (size_t i = 0; i < _N; ++i) {
+# 265 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+#pragma HLS UNROLL
+# 265 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  data[i] %= rhs[i]; } return *this; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector &operator &=(const vector &rhs) { pragma(); rhs.pragma(); VITIS_LOOP_266_1: for (size_t i = 0; i < _N; ++i) {
+# 266 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+#pragma HLS UNROLL
+# 266 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  data[i] &= rhs[i]; } return *this; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector &operator |=(const vector &rhs) { pragma(); rhs.pragma(); VITIS_LOOP_267_1: for (size_t i = 0; i < _N; ++i) {
+# 267 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+#pragma HLS UNROLL
+# 267 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  data[i] |= rhs[i]; } return *this; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector &operator ^=(const vector &rhs) { pragma(); rhs.pragma(); VITIS_LOOP_268_1: for (size_t i = 0; i < _N; ++i) {
+# 268 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+#pragma HLS UNROLL
+# 268 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  data[i] ^= rhs[i]; } return *this; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector &operator <<=(const vector &rhs) { pragma(); rhs.pragma(); VITIS_LOOP_269_1: for (size_t i = 0; i < _N; ++i) {
+# 269 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+#pragma HLS UNROLL
+# 269 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  data[i] <<= rhs[i]; } return *this; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) vector &operator >>=(const vector &rhs) { pragma(); rhs.pragma(); VITIS_LOOP_270_1: for (size_t i = 0; i < _N; ++i) {
+# 270 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+#pragma HLS UNROLL
+# 270 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  data[i] >>= rhs[i]; } return *this; }
+# 285 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  inline __attribute__((always_inline)) __attribute__((nodebug)) _T reduce_add() const { pragma(); _T res = data[0]; VITIS_LOOP_285_1: for (size_t i = 1; i < _N; ++i) {
+# 285 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+#pragma HLS UNROLL
+# 285 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  res += data[i]; } return res; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) _T reduce_mult() const { pragma(); _T res = data[0]; VITIS_LOOP_286_1: for (size_t i = 1; i < _N; ++i) {
+# 286 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+#pragma HLS UNROLL
+# 286 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  res *= data[i]; } return res; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) _T reduce_and() const { pragma(); _T res = data[0]; VITIS_LOOP_287_1: for (size_t i = 1; i < _N; ++i) {
+# 287 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+#pragma HLS UNROLL
+# 287 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  res &= data[i]; } return res; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) _T reduce_or() const { pragma(); _T res = data[0]; VITIS_LOOP_288_1: for (size_t i = 1; i < _N; ++i) {
+# 288 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+#pragma HLS UNROLL
+# 288 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  res |= data[i]; } return res; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) _T reduce_xor() const { pragma(); _T res = data[0]; VITIS_LOOP_289_1: for (size_t i = 1; i < _N; ++i) {
+# 289 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+#pragma HLS UNROLL
+# 289 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  res ^= data[i]; } return res; }
+# 320 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  inline __attribute__((always_inline)) __attribute__((nodebug)) friend bool operator <(const vector &lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); VITIS_LOOP_320_1: for (size_t i = 0; i < _N; ++i) {
+# 320 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+#pragma HLS UNROLL
+# 320 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  if (lhs[i] == rhs[i]) continue; return lhs[i] < rhs[i]; } return _T{} < _T{}; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) friend bool operator <=(const vector &lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); VITIS_LOOP_321_1: for (size_t i = 0; i < _N; ++i) {
+# 321 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+#pragma HLS UNROLL
+# 321 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  if (lhs[i] == rhs[i]) continue; return lhs[i] <= rhs[i]; } return _T{} <= _T{}; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) friend bool operator ==(const vector &lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); VITIS_LOOP_322_1: for (size_t i = 0; i < _N; ++i) {
+# 322 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+#pragma HLS UNROLL
+# 322 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  if (lhs[i] == rhs[i]) continue; return lhs[i] == rhs[i]; } return _T{} == _T{}; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) friend bool operator !=(const vector &lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); VITIS_LOOP_323_1: for (size_t i = 0; i < _N; ++i) {
+# 323 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+#pragma HLS UNROLL
+# 323 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  if (lhs[i] == rhs[i]) continue; return lhs[i] != rhs[i]; } return _T{} != _T{}; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) friend bool operator >=(const vector &lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); VITIS_LOOP_324_1: for (size_t i = 0; i < _N; ++i) {
+# 324 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+#pragma HLS UNROLL
+# 324 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  if (lhs[i] == rhs[i]) continue; return lhs[i] >= rhs[i]; } return _T{} >= _T{}; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) friend bool operator >(const vector &lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); VITIS_LOOP_325_1: for (size_t i = 0; i < _N; ++i) {
+# 325 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+#pragma HLS UNROLL
+# 325 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  if (lhs[i] == rhs[i]) continue; return lhs[i] > rhs[i]; } return _T{} > _T{}; }
+# 338 "T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\\hls_vector.h"
+  inline __attribute__((always_inline)) __attribute__((nodebug)) friend vector operator +(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs += rhs; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) friend vector operator -(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs -= rhs; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) friend vector operator *(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs *= rhs; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) friend vector operator /(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs /= rhs; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) friend vector operator %(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs %= rhs; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) friend vector operator &(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs &= rhs; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) friend vector operator |(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs |= rhs; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) friend vector operator ^(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs ^= rhs; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) friend vector operator <<(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs <<= rhs; }
+  inline __attribute__((always_inline)) __attribute__((nodebug)) friend vector operator >>(vector lhs, const vector &rhs) { lhs.pragma(); rhs.pragma(); return lhs >>= rhs; }
+
+
+
+
+  static inline __attribute__((always_inline)) __attribute__((nodebug)) vector iota(_T start = {}) {
+    return vector([start](size_t i) { return start + i; });
+  }
+};
+
+}
+# 7 "../MLP_baseline/mm.h" 2
+
+
+
+
+
 const int BATCH_SIZE = 128;
 const int IMAGE_SIZE = 28*28;
 const int BLOCK_SIZE = 16;
 
+typedef int DTYPE;
+typedef hls::vector<DTYPE, BLOCK_SIZE> WIDE_DTYPE;
+
 using namespace std;
 
 extern "C"{
-__attribute__((sdx_kernel("MM", 0))) void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P);
+__attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* A, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P);
 }
 # 2 "../MLP_baseline/mm.cpp" 2
 
 
 
 extern "C" {
-__attribute__((sdx_kernel("MM", 0))) void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P) {
+__attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT __attribute__((align_value(alignof(WIDE_DTYPE)))) , WIDE_DTYPE* B __attribute__((align_value(alignof(WIDE_DTYPE)))) , DTYPE* C, WIDE_DTYPE* ABC __attribute__((align_value(alignof(WIDE_DTYPE)))) , int N, int M, int P) {
+#pragma HLS aggregate variable = AT
+
+#pragma HLS aggregate variable = B
+
+#pragma HLS aggregate variable = ABC
+
 #line 1 "directive"
 #pragma HLSDIRECTIVE TOP name=MM
 # 6 "../MLP_baseline/mm.cpp"
 
 # 25 "../MLP_baseline/mm.cpp"
-#pragma HLS INTERFACE m_axi port=A bundle=gmem depth=1024
-#pragma HLS INTERFACE m_axi port=B bundle=gmem depth=1024
+#pragma HLS INTERFACE m_axi port=AT bundle=gmem depth=64
+#pragma HLS INTERFACE m_axi port=B bundle=gmem depth=64
 #pragma HLS INTERFACE m_axi port=C bundle=gmem depth=32
-#pragma HLS INTERFACE m_axi port=ABC bundle=gmem depth=1024
+#pragma HLS INTERFACE m_axi port=ABC bundle=gmem depth=64
 
-#pragma HLS INTERFACE s_axilite port=A bundle=control
+#pragma HLS INTERFACE s_axilite port=AT bundle=control
 #pragma HLS INTERFACE s_axilite port=B bundle=control
 #pragma HLS INTERFACE s_axilite port=C bundle=control
 #pragma HLS INTERFACE s_axilite port=ABC bundle=control
@@ -46701,49 +47208,54 @@ __attribute__((sdx_kernel("MM", 0))) void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE
 #pragma HLS INTERFACE s_axilite port=P bundle=control
 #pragma HLS INTERFACE s_axilite port=return bundle=control
 
-    DTYPE AB_block[BLOCK_SIZE][BLOCK_SIZE];
-    DTYPE B_line[BLOCK_SIZE];
+    WIDE_DTYPE AB_block[BLOCK_SIZE];
+    WIDE_DTYPE B_line;
+    WIDE_DTYPE A_line;
 #pragma HLS ARRAY_PARTITION variable=AB_block type=complete
-#pragma HLS ARRAY_PARTITION variable=B_line type=complete
-
 
 
 
     cout << "Entering MM..." << endl;
 
-    VITIS_LOOP_49_1: for(int ib = 0; ib < N/BLOCK_SIZE; ib ++){
-        VITIS_LOOP_50_2: for(int jb = 0; jb < P/BLOCK_SIZE; jb ++){
+    i_BLOCK_loop: for(int ib = 0; ib < N/BLOCK_SIZE; ib ++){
+#pragma HLS PIPELINE off
+        j_BLOCK_loop: for(int jb = 0; jb < P/BLOCK_SIZE; jb ++){
+#pragma HLS PIPELINE off
 
-            VITIS_LOOP_52_3: for(int i=0;i<BLOCK_SIZE;i++){
+            block_init_outer_loop: for(int i=0;i<BLOCK_SIZE;i++){
 #pragma HLS UNROLL
-                VITIS_LOOP_54_4: for(int j=0;j<BLOCK_SIZE;j++){
+                block_init_inner_loop: for(int j=0;j<BLOCK_SIZE;j++){
 #pragma HLS UNROLL
                     AB_block[i][j] = C[ib*BLOCK_SIZE+i];
                 }
             }
-            VITIS_LOOP_59_5: for (int kb = 0; kb < M/BLOCK_SIZE; kb ++){
-                VITIS_LOOP_60_6: for(int k = 0; k < BLOCK_SIZE; k++){
-                    VITIS_LOOP_61_7: for(int j=0; j < BLOCK_SIZE; j++){
-#pragma HLS UNROLL
-                        B_line[j] = B[(kb*BLOCK_SIZE+k)*P + jb*BLOCK_SIZE + j];
-                    }
-                    VITIS_LOOP_65_8: for(int i=0;i<BLOCK_SIZE;i++){
+            k_BLOCK_loop: for (int kb = 0; kb < M/BLOCK_SIZE; kb ++){
+#pragma HLS PIPELINE off
+                k_loop: for(int k = 0; k < BLOCK_SIZE; k++){
+                    B_line = B[((kb*BLOCK_SIZE+k)*P + jb*BLOCK_SIZE) / BLOCK_SIZE];
+
+
+                    A_line = AT[((kb*BLOCK_SIZE+k)*N + ib*BLOCK_SIZE) / BLOCK_SIZE];
+                    i_loop: for(int i=0;i<BLOCK_SIZE;i++){
 #pragma HLS PIPELINE II=1
-                        DTYPE Atemp = A[(ib*BLOCK_SIZE+i)*M + kb*BLOCK_SIZE + k];
-                        VITIS_LOOP_68_9: for(int j=0;j<BLOCK_SIZE;j++){
+
+                        j_loop: for(int j=0;j<BLOCK_SIZE;j++){
 #pragma HLS UNROLL
-                            AB_block[i][j] += Atemp * B_line[j];
+                            AB_block[i][j] += A_line[i] * B_line[j];
                         }
                     }
                 }
             }
 
-            VITIS_LOOP_76_10: for(int i=0;i<BLOCK_SIZE;i++){
-#pragma HLS UNROLL
-                VITIS_LOOP_78_11: for(int j=0;j<BLOCK_SIZE;j++){
-#pragma HLS UNROLL
-                    ABC[(ib*BLOCK_SIZE+i)*P + jb*BLOCK_SIZE + j] = AB_block[i][j];
+
+            j_output_loop: for(int j=0; j<BLOCK_SIZE; j++){
+#pragma HLS PIPELINE OFF
+                WIDE_DTYPE col_vec;
+                i_output_loop: for(int i=0; i<BLOCK_SIZE; i++){
+#pragma HLS PIPELINE OFF
+                    col_vec[i] = AB_block[i][j];
                 }
+                ABC[((jb*BLOCK_SIZE+j)*N + ib*BLOCK_SIZE)/BLOCK_SIZE] = col_vec;
             }
         }
     }

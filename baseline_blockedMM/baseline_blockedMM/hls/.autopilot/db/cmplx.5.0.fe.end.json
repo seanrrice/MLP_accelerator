@@ -1,20 +1,20 @@
 {
     "1": {
-        "name": "MM_Pipeline_VITIS_LOOP_65_8",
+        "name": "MM_Pipeline_i_loop",
         "file": "..\/MLP_baseline\/mm.cpp",
-        "fileloc": "65",
-        "instructions": "1910",
-        "total_instructions": "1910",
+        "fileloc": "39",
+        "instructions": "469",
+        "total_instructions": "469",
         "calls": "",
         "basicblocks": "21",
-        "memory_accesses": "516",
+        "memory_accesses": "34",
         "control_depth": "2",
         "def_use_depth": "1",
         "loads": {
-            "L": "513"
+            "L": "33"
         },
         "stores": {
-            "L": "514"
+            "L": "34"
         },
         "loops": {
             "L": "1"
@@ -24,22 +24,22 @@
         "name": "MM",
         "file": "mm.cpp",
         "fileloc": "6",
-        "instructions": "1585",
-        "total_instructions": "3495",
+        "instructions": "489",
+        "total_instructions": "958",
         "calls": "1",
-        "basicblocks": "13",
+        "basicblocks": "19",
         "memory_accesses": "0",
         "control_depth": "0",
         "def_use_depth": "4",
         "loads": {
-            "L": "258"
+            "L": "17"
         },
         "stores": {
-            "L": "4"
+            "L": "2"
         },
         "loops": {
             "L": "1",
-            "N": "3"
+            "N": "5"
         }
     }
 }

@@ -32,7 +32,7 @@ module sv_module_top;
     end
 
 
-    axi_if #(64,4,8,3,1)  axi_gmem_if (.clk  (apatb_MM_top.AESL_clock), .rst(apatb_MM_top.AESL_reset));
+    axi_if #(64,64,8,3,1)  axi_gmem_if (.clk  (apatb_MM_top.AESL_clock), .rst(apatb_MM_top.AESL_reset));
     assign axi_gmem_if.AWVALID = apatb_MM_top.gmem_AWVALID;
     assign apatb_MM_top.gmem_AWREADY = axi_gmem_if.AWREADY;
     assign axi_gmem_if.AWADDR = apatb_MM_top.gmem_AWADDR;
@@ -79,7 +79,7 @@ module sv_module_top;
     assign apatb_MM_top.gmem_BID = axi_gmem_if.BID;
     assign apatb_MM_top.gmem_BUSER = axi_gmem_if.BUSER;
     initial begin
-        uvm_config_db #( virtual axi_if#(64,4,8,3,1) )::set(null, "uvm_test_top.top_env.axi_master_gmem.*", "vif", axi_gmem_if);
+        uvm_config_db #( virtual axi_if#(64,64,8,3,1) )::set(null, "uvm_test_top.top_env.axi_master_gmem.*", "vif", axi_gmem_if);
     end
 
 

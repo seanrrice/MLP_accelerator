@@ -1,0 +1,165 @@
+  **** HLS Build v2025.2 6295257
+INFO: [HLS 200-2005] Using work_dir Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM 
+INFO: [HLS 200-2176] Writing Vitis IDE component file Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/vitis-comp.json
+INFO: [HLS 200-10] Creating and opening component 'Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM'.
+INFO: [HLS 200-1505] Using default flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-2174] Applying component config ini file hls_config.cfg
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../MLP_baseline/mm.cpp' from hls_config.cfg(7)
+INFO: [HLS 200-10] Adding design file 'Z:/Labs/clab/MLP_baseline/mm.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.file=../MLP_baseline/mm.h' from hls_config.cfg(8)
+INFO: [HLS 200-10] Adding design file 'Z:/Labs/clab/MLP_baseline/mm.h' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/first_layer_golden_output.txt' from hls_config.cfg(9)
+INFO: [HLS 200-10] Adding test bench file 'Z:/Labs/clab/MLP_baseline/first_layer_golden_output.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/mm_test.cpp' from hls_config.cfg(10)
+INFO: [HLS 200-10] Adding test bench file 'Z:/Labs/clab/MLP_baseline/mm_test.cpp' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/mnist_images_int.txt' from hls_config.cfg(11)
+INFO: [HLS 200-10] Adding test bench file 'Z:/Labs/clab/MLP_baseline/mnist_images_int.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/weights_layer1.txt' from hls_config.cfg(12)
+INFO: [HLS 200-10] Adding test bench file 'Z:/Labs/clab/MLP_baseline/weights_layer1.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/weights_layer2.txt' from hls_config.cfg(13)
+INFO: [HLS 200-10] Adding test bench file 'Z:/Labs/clab/MLP_baseline/weights_layer2.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/weights_layer3.txt' from hls_config.cfg(14)
+INFO: [HLS 200-10] Adding test bench file 'Z:/Labs/clab/MLP_baseline/weights_layer3.txt' to the project
+INFO: [HLS 200-1465] Applying config ini 'syn.top=MM' from hls_config.cfg(15)
+INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from hls_config.cfg(4)
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.amd.com/access/sources/dita/topic?Doc_Version=2025.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from hls_config.cfg(1)
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1465] Applying config ini 'clock=15' from hls_config.cfg(16)
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 15ns.
+INFO: [HLS 200-1465] Applying config ini 'cosim.trace_level=all' from hls_config.cfg(17)
+INFO: [HLS 200-1465] Applying config ini 'package.output.file=Z:\Labs\MLP_accelerator\package' from hls_config.cfg(18)
+INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from hls_config.cfg(5)
+INFO: [HLS 200-2176] Writing Vitis IDE component file Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/vitis-comp.json
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 4.176 seconds; current allocated memory: 163.078 MB.
+INFO: [HLS 200-2191] C-Synthesis will use clang-16 as the compiler
+INFO: [HLS 200-10] Analyzing design file '../MLP_baseline/mm.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 6.009 seconds; current allocated memory: 166.488 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 200-1995] There were 262 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 6,911 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 3,620 instructions in the design after the 'Unroll/Inline (step 2)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 2,389 instructions in the design after the 'Unroll/Inline (step 3)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,475 instructions in the design after the 'Unroll/Inline (step 4)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 6,315 instructions in the design after the 'Array/Struct (step 1)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 1,933 instructions in the design after the 'Array/Struct (step 2)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 6,642 instructions in the design after the 'Array/Struct (step 3)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 5,717 instructions in the design after the 'Array/Struct (step 4)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 5,718 instructions in the design after the 'Array/Struct (step 5)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 3,423 instructions in the design after the 'Performance (step 1)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 3,375 instructions in the design after the 'Performance (step 2)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 3,372 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 3,372 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 3,557 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 200-1995] There were 3,989 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
+INFO: [HLS 214-291] Loop 'j_loop' is marked as complete unroll implied by the pipeline pragma (../MLP_baseline/mm.cpp:68:33)
+INFO: [HLS 214-186] Unrolling loop 'block_init_outer_loop' (../MLP_baseline/mm.cpp:52:36) in function 'MM' completely with a factor of 16 (../MLP_baseline/mm.cpp:6:0)
+INFO: [HLS 214-186] Unrolling loop 'block_init_inner_loop' (../MLP_baseline/mm.cpp:54:40) in function 'MM' completely with a factor of 16 (../MLP_baseline/mm.cpp:6:0)
+INFO: [HLS 214-186] Unrolling loop 'j_loop' (../MLP_baseline/mm.cpp:68:33) in function 'MM' completely with a factor of 16 (../MLP_baseline/mm.cpp:6:0)
+INFO: [HLS 214-186] Unrolling loop 'j_output_loop' (../MLP_baseline/mm.cpp:77:28) in function 'MM' completely with a factor of 16 (../MLP_baseline/mm.cpp:6:0)
+INFO: [HLS 214-186] Unrolling loop 'i_output_loop' (../MLP_baseline/mm.cpp:80:32) in function 'MM' completely with a factor of 16 (../MLP_baseline/mm.cpp:6:0)
+WARNING: [HLS 214-366] Duplicating function 'std::array<int, 16ul>::operator[](unsigned long)' as different function signatures were detected between this call site and other call site(s). This may impact the resources used in the design. (../MLP_baseline/mm.cpp:70:29)
+WARNING: [HLS 214-366] Duplicating function 'std::array<int, 16ul>::operator[](unsigned long)' as different function signatures were detected between this call site and other call site(s). This may impact the resources used in the design. (../MLP_baseline/mm.cpp:56:21)
+WARNING: [HLS 214-366] Duplicating function 'std::__array_traits<int, 16ul>::_S_ref(int const (&) [16], unsigned long)' as different function signatures were detected between this call site and other call site(s). This may impact the resources used in the design. (T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:186:16)
+INFO: [HLS 214-178] Inlining function 'std::__array_traits<int, 16ul>::_S_ref(int const (&) [16], unsigned long)' into 'std::array<int, 16ul>::operator[](unsigned long) (.1)' (T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:186:0)
+INFO: [HLS 214-178] Inlining function 'std::__array_traits<int, 16ul>::_S_ref(int const (&) [16], unsigned long) (.2)' into 'std::array<int, 16ul>::operator[](unsigned long)' (T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:186:0)
+INFO: [HLS 214-178] Inlining function 'std::array<int, 16ul>::operator[](unsigned long) (.1)' into 'MM' (../MLP_baseline/mm.cpp:6:0)
+INFO: [HLS 214-178] Inlining function 'std::array<int, 16ul>::operator[](unsigned long)' into 'MM' (../MLP_baseline/mm.cpp:6:0)
+INFO: [HLS 214-248] Applying array_partition to 'AB_block': Complete partitioning on dimension 1. (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating maxi variable 'AT' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'B' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating maxi variable 'ABC' with compact=none mode in 512-bits
+INFO: [HLS 214-241] Aggregating scalar variable 'A_line' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:41:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_0' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_1' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_2' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_3' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_4' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_5' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_6' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_7' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_8' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_9' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_10' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_11' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_12' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_13' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_14' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-241] Aggregating scalar variable 'AB_block_15' with compact=bit mode in 512-bits (../MLP_baseline/mm.cpp:39:16)
+INFO: [HLS 214-437] Disabling loop flattening for loop 'k_loop'. (../MLP_baseline/mm.cpp:60:25)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 10.941 seconds; current allocated memory: 172.809 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.004 seconds; current allocated memory: 172.809 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.462 seconds; current allocated memory: 185.586 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.534 seconds; current allocated memory: 188.227 MB.
+INFO: [XFORM 203-11] Balancing expressions in function 'MM' (../MLP_baseline/mm.cpp:6:29)...224 expression(s) balanced.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 1.841 seconds; current allocated memory: 218.570 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.1 seconds; current allocated memory: 227.375 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'MM' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'MM_Pipeline_i_loop' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'i_loop'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 3, loop 'i_loop'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.352 seconds; current allocated memory: 231.098 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.148 seconds; current allocated memory: 232.109 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'MM' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.492 seconds; current allocated memory: 241.797 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.296 seconds; current allocated memory: 242.090 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'MM_Pipeline_i_loop' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'MM_Pipeline_i_loop' pipeline 'i_loop' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-104] Estimated max fanout for 'MM_Pipeline_i_loop' is 8704 from HDL expression: ((1'b0 == ap_block_pp0_stage0) & (ap_enable_reg_pp0_iter2 == 1'b1))
+INFO: [RTGEN 206-100] Generating core module 'mul_32s_32s_32_1_1': 16 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sparsemux_33_4_32_1_1': 16 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'MM_Pipeline_i_loop'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.535 seconds; current allocated memory: 245.926 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'MM' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/gmem' to 'm_axi'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/AT' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/B' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/C' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/ABC' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/N' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/M' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'MM/P' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'MM' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'AT', 'B', 'C', 'ABC', 'N', 'M', 'P' to AXI-Lite port control.
+INFO: [RTGEN 206-104] Estimated max fanout for 'MM' is 8848 from HDL expression: (1'b1 == ap_CS_fsm_state1)
+INFO: [RTGEN 206-100] Generating core module 'mul_27ns_28s_28_1_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'mul_31ns_32s_32_1_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'MM'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.127 seconds; current allocated memory: 263.820 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 1.906 seconds; current allocated memory: 284.762 MB.
+INFO: [HLS 200-2225] Wrote inferred directives to file Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/syn/inferred_directives.ini
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.468 seconds; current allocated memory: 286.312 MB.
+INFO: [VHDL 208-304] Generating VHDL RTL for MM.
+INFO: [VLOG 209-307] Generating Verilog RTL for MM.
+INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [HLS 200-789] **** Estimated Fmax: 91.32 MHz
+INFO: [HLS 200-112] Total CPU user time: 11 seconds. Total CPU system time: 3 seconds. Total elapsed time: 31.454 seconds; peak allocated memory: 286.391 MB.
+INFO: [v++ 60-791] Total elapsed time: 0h 0m 36s

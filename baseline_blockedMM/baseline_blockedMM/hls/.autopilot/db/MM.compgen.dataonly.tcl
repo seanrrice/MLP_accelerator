@@ -2,7 +2,7 @@
 
 set axilite_register_dict [dict create]
 set port_control {
-A { 
+AT { 
 	dir I
 	width 64
 	depth 1
