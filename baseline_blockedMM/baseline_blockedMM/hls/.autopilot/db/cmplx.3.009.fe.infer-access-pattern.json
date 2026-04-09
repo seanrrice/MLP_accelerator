@@ -1,20 +1,71 @@
 {
   "0": {
-    "basicblocks": 38,
+    "basicblocks": 1,
+    "calls": "4 1 2 3",
+    "control_depth": 0,
+    "def_use_depth": 1,
+    "file": "mm.cpp",
+    "fileloc": 137,
+    "instructions": 30,
+    "memory_accesses": 0,
+    "name": "MM",
+    "total_instructions": 3911
+  },
+  "1": {
+    "basicblocks": 15,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 9,
+    "file": "mm.cpp",
+    "fileloc": 30,
+    "instructions": 46,
+    "loads": {
+      "L": 1
+    },
+    "memory_accesses": 2,
+    "name": "readBTiles",
+    "total_instructions": 160
+  },
+  "2": {
+    "basicblocks": 36,
     "calls": "",
     "control_depth": 2,
-    "def_use_depth": 24,
+    "def_use_depth": 23,
     "file": "mm.cpp",
-    "fileloc": 6,
-    "instructions": 2791,
-    "loads": {
-      "T": 2
-    },
-    "memory_accesses": 1,
-    "name": "MM",
+    "fileloc": 54,
+    "instructions": 2686,
+    "memory_accesses": 2,
+    "name": "computeTiles",
+    "total_instructions": 3410
+  },
+  "3": {
+    "basicblocks": 11,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 5,
+    "file": "mm.cpp",
+    "fileloc": 117,
+    "instructions": 37,
+    "memory_accesses": 2,
+    "name": "writeTiles",
     "stores": {
-      "T": 1
+      "L": 1
     },
-    "total_instructions": 3532
+    "total_instructions": 151
+  },
+  "4": {
+    "basicblocks": 15,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 9,
+    "file": "mm.cpp",
+    "fileloc": 4,
+    "instructions": 46,
+    "loads": {
+      "L": 1
+    },
+    "memory_accesses": 2,
+    "name": "readAtTiles",
+    "total_instructions": 160
   }
 }

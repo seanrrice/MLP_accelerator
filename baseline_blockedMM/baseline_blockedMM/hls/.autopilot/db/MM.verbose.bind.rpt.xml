@@ -1,9 +1,9 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'MM'" level="0">
-<item name = "Date">Wed Apr  8 12:46:17 2026
+<item name = "Date">Thu Apr  9 09:15:10 2026
 </item>
-<item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
+<item name = "Version">2025.1 (Build 6135595 on May 21 2025)</item>
 <item name = "Project">baseline_blockedMM</item>
 <item name = "Solution">hls (Vivado IP Flow Target)</item>
 <item name = "Product family">zynq</item>
@@ -24,24 +24,22 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">1, ?, 15.000 ns, ?, 2, ?, no</column>
+<column name="">?, ?, ?, ?, ?, ?, dataflow</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_MM_Pipeline_i_loop_fu_879">MM_Pipeline_i_loop, 19, 19, 0.285 us, 0.285 us, 0, 0, loop pipeline stp</column>
+<column name="call_ln178_entry_proc_fu_188">entry_proc, 0, 0, 0 ns, 0 ns, 0, 0, no</column>
+<column name="grp_readAtTiles_fu_195">readAtTiles, ?, ?, ?, ?, ?, ?, no</column>
+<column name="grp_readBTiles_fu_210">readBTiles, ?, ?, ?, ?, ?, ?, no</column>
+<column name="grp_computeTiles_fu_225">computeTiles, 1, ?, 15.000 ns, ?, 1, ?, no</column>
+<column name="grp_writeTiles_fu_240">writeTiles, 6, 288230371856744480, 90.000 ns, 4.3e+09 sec, 6, 288230371856744480, no</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- i_BLOCK_loop">0, ?, 2 ~ ?, -, -, 0 ~ 134217727, no</column>
-<column name=" + j_BLOCK_loop">0, ?, 476 ~ 77577846682, -, -, 0 ~ 134217727, no</column>
-<column name="  ++ k_BLOCK_loop">0, 77577846206, 578, -, -, 0 ~ 134217727, no</column>
-<column name="   +++ k_loop">576, 576, 36, -, -, 16, no</column>
-<column name="  ++ j_output_loop">448, 448, 28, -, -, 16, no</column>
-<column name="   +++ i_output_loop">16, 16, 1, -, -, 16, no</column>
 </table>
 </item>
 </section>

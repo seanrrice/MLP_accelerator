@@ -1,6 +1,6 @@
 # ==============================================================
-# Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.2 (64-bit)
-# Tool Version Limit: 2025.11
+# Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.1 (64-bit)
+# Tool Version Limit: 2025.05
 # Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 # Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 # 
@@ -76,7 +76,9 @@ proc check_tvin_file {} {
 		puts stdout "[debug_prompt arg check_sim.tcl] start...";
 	}
     set rtlfilelist {
-         "c.MM.autotvin_gmem.dat"
+         "c.MM.autotvin_gmem0.dat"
+         "c.MM.autotvin_gmem1.dat"
+         "c.MM.autotvin_gmem2.dat"
          "c.MM.autotvin_AT.dat"
          "c.MM.autotvin_B.dat"
          "c.MM.autotvin_C.dat"
@@ -103,7 +105,7 @@ proc check_tvout_file {} {
 		puts stdout "[debug_prompt arg check_sim.tcl] start...";
 	}
     set rtlfilelist {
-         "rtl.MM.autotvout_gmem.dat"
+         "rtl.MM.autotvout_gmem3.dat"
     }
     foreach rtlfile $rtlfilelist {
         if {[file isfile $rtlfile]} {

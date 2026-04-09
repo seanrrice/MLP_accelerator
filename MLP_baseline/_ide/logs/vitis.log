@@ -1,0 +1,14 @@
+09:58:39 INFO  : updated workspace path: C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline
+09:58:39 INFO  : created .gitignore file for the project C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline
+09:58:39 INFO  : Marking the target connection as default Local
+09:58:39 INFO  : Marking the target connection as default Linux Agent
+09:58:39 INFO  : Marking the target connection as default XRTServer
+09:58:39 INFO  : Marking the target connection as default LinuxEmulation
+09:58:39 INFO  : Marking the target connection as default QEMU
+09:58:39 INFO  : cmd.exe, /C, empyro.bat repo -st   C:\Xilinx\2025.1\Vitis\data\embeddedsw
+09:58:42 INFO  : [INFO]: Initializing repositories
+09:58:42 INFO  : [INFO]: Successfully set the EmbeddedSW path, refer .repo.yaml for more details.
+09:58:42 INFO  : Successfully created repository data at C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline/_ide\.wsdata
+09:58:42 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\seanr\AppData\Local\Temp\rigel_lopper_seanr6587406345933665339 -r C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\_ide\.wsdata\.repo.yaml
+09:58:42 INFO  : Embedded Template List generated successfully
+09:59:07 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\seanr\AppData\Local\Temp\rigel_lopper_seanr15274896435541829837 -r C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\_ide\.wsdata\.repo.yaml

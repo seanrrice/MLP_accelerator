@@ -1,6 +1,6 @@
 //==============================================================
-//Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.2 (64-bit)
-//Tool Version Limit: 2025.11
+//Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.1 (64-bit)
+//Tool Version Limit: 2025.05
 //Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 //Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 //
@@ -9,7 +9,10 @@
     `define MM_VIRTUAL_SEQUENCER__SV                    
                                                                        
     class MM_virtual_sequencer extends uvm_sequencer;         
-        axi_pkg::axi_virtual_sequencer gmem_sqr; 
+        axi_pkg::axi_virtual_sequencer gmem0_sqr; 
+        axi_pkg::axi_virtual_sequencer gmem1_sqr; 
+        axi_pkg::axi_virtual_sequencer gmem2_sqr; 
+        axi_pkg::axi_virtual_sequencer gmem3_sqr; 
         axi_pkg::axi_virtual_sequencer control_sqr; 
  
         function new (string name, uvm_component parent);              

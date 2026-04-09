@@ -1,6 +1,6 @@
 //==============================================================
-//Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.2 (64-bit)
-//Tool Version Limit: 2025.11
+//Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.1 (64-bit)
+//Tool Version Limit: 2025.05
 //Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 //Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 //
@@ -26,7 +26,10 @@
             virtual interface misc_interface misc_if;                                               
             MM_reference_model refm;                                                       
                                                                                                     
-            axi_pkg::axi_slave_sequence#(64,64,8,3,1) axi_slave_gmem_seq;
+            axi_pkg::axi_slave_sequence#(64,64,8,3,1) axi_slave_gmem0_seq;
+            axi_pkg::axi_slave_sequence#(64,64,8,3,1) axi_slave_gmem1_seq;
+            axi_pkg::axi_slave_sequence#(64,4,8,3,1) axi_slave_gmem2_seq;
+            axi_pkg::axi_slave_sequence#(64,64,8,3,1) axi_slave_gmem3_seq;
             axi_pkg::axi_busdatas_master_sequence#(7, 32) axi_master_wr_control_seq;
             axi_pkg::axi_busdatas_master_sequence#(7, 32) axi_master_poll_control_seq;
 
@@ -54,13 +57,40 @@
                 begin
                     fork
                         begin //axi slave sequence. loop delays
-                            `uvm_create_on(axi_slave_gmem_seq, p_sequencer.gmem_sqr);
-                            axi_slave_gmem_seq.misc_if = refm.misc_if;
-                            axi_slave_gmem_seq.ap_done    = refm.ap_done_for_nexttrans   ;
-                            axi_slave_gmem_seq.ap_ready   = refm.ap_ready_for_nexttrans  ;
-                            axi_slave_gmem_seq.finish     = refm.finish ;
-                            axi_slave_gmem_seq.isusr_delay = axi_pkg::NO_DELAY;
-                            `uvm_send(axi_slave_gmem_seq);
+                            `uvm_create_on(axi_slave_gmem0_seq, p_sequencer.gmem0_sqr);
+                            axi_slave_gmem0_seq.misc_if = refm.misc_if;
+                            axi_slave_gmem0_seq.ap_done    = refm.ap_done_for_nexttrans   ;
+                            axi_slave_gmem0_seq.ap_ready   = refm.ap_ready_for_nexttrans  ;
+                            axi_slave_gmem0_seq.finish     = refm.finish ;
+                            axi_slave_gmem0_seq.isusr_delay = axi_pkg::NO_DELAY;
+                            `uvm_send(axi_slave_gmem0_seq);
+                        end
+                        begin //axi slave sequence. loop delays
+                            `uvm_create_on(axi_slave_gmem1_seq, p_sequencer.gmem1_sqr);
+                            axi_slave_gmem1_seq.misc_if = refm.misc_if;
+                            axi_slave_gmem1_seq.ap_done    = refm.ap_done_for_nexttrans   ;
+                            axi_slave_gmem1_seq.ap_ready   = refm.ap_ready_for_nexttrans  ;
+                            axi_slave_gmem1_seq.finish     = refm.finish ;
+                            axi_slave_gmem1_seq.isusr_delay = axi_pkg::NO_DELAY;
+                            `uvm_send(axi_slave_gmem1_seq);
+                        end
+                        begin //axi slave sequence. loop delays
+                            `uvm_create_on(axi_slave_gmem2_seq, p_sequencer.gmem2_sqr);
+                            axi_slave_gmem2_seq.misc_if = refm.misc_if;
+                            axi_slave_gmem2_seq.ap_done    = refm.ap_done_for_nexttrans   ;
+                            axi_slave_gmem2_seq.ap_ready   = refm.ap_ready_for_nexttrans  ;
+                            axi_slave_gmem2_seq.finish     = refm.finish ;
+                            axi_slave_gmem2_seq.isusr_delay = axi_pkg::NO_DELAY;
+                            `uvm_send(axi_slave_gmem2_seq);
+                        end
+                        begin //axi slave sequence. loop delays
+                            `uvm_create_on(axi_slave_gmem3_seq, p_sequencer.gmem3_sqr);
+                            axi_slave_gmem3_seq.misc_if = refm.misc_if;
+                            axi_slave_gmem3_seq.ap_done    = refm.ap_done_for_nexttrans   ;
+                            axi_slave_gmem3_seq.ap_ready   = refm.ap_ready_for_nexttrans  ;
+                            axi_slave_gmem3_seq.finish     = refm.finish ;
+                            axi_slave_gmem3_seq.isusr_delay = axi_pkg::NO_DELAY;
+                            `uvm_send(axi_slave_gmem3_seq);
                         end
                         begin
                             int control_page_idx_bak;
@@ -88,7 +118,7 @@
                                 data64bit_AT.delete(); databusbit_AT.delete();
                                 axi_master_wr_control_seq.StableAxiliteNoUpdate=0;
                                 for(int j=0; j < (64+32-1)/32; j++) begin
-                                    data64bit_AT.push_back( ((refm.mem_blk_pages_gmem.maxi_bundlevar_offset["AT"]+refm.mem_blk_pages_gmem.page_ofst[refm.mem_blk_pages_gmem.rd_page_idx])>>(j*32)) & (2**32-1) );
+                                    data64bit_AT.push_back( ((refm.mem_blk_pages_gmem0.maxi_bundlevar_offset["AT"]+refm.mem_blk_pages_gmem0.page_ofst[refm.mem_blk_pages_gmem0.rd_page_idx])>>(j*32)) & (2**32-1) );
                                 end
                                 foreach(data64bit_AT[s]) databusbit_AT[s]=data64bit_AT[s][32-1:0];
                                 axi_master_wr_control_seq.StableAxiliteNoUpdate=1;
@@ -96,7 +126,7 @@
                                 data64bit_B.delete(); databusbit_B.delete();
                                 axi_master_wr_control_seq.StableAxiliteNoUpdate=0;
                                 for(int j=0; j < (64+32-1)/32; j++) begin
-                                    data64bit_B.push_back( ((refm.mem_blk_pages_gmem.maxi_bundlevar_offset["B"]+refm.mem_blk_pages_gmem.page_ofst[refm.mem_blk_pages_gmem.rd_page_idx])>>(j*32)) & (2**32-1) );
+                                    data64bit_B.push_back( ((refm.mem_blk_pages_gmem1.maxi_bundlevar_offset["B"]+refm.mem_blk_pages_gmem1.page_ofst[refm.mem_blk_pages_gmem1.rd_page_idx])>>(j*32)) & (2**32-1) );
                                 end
                                 foreach(data64bit_B[s]) databusbit_B[s]=data64bit_B[s][32-1:0];
                                 axi_master_wr_control_seq.StableAxiliteNoUpdate=1;
@@ -104,7 +134,7 @@
                                 data64bit_C.delete(); databusbit_C.delete();
                                 axi_master_wr_control_seq.StableAxiliteNoUpdate=0;
                                 for(int j=0; j < (64+32-1)/32; j++) begin
-                                    data64bit_C.push_back( ((refm.mem_blk_pages_gmem.maxi_bundlevar_offset["C"]+refm.mem_blk_pages_gmem.page_ofst[refm.mem_blk_pages_gmem.rd_page_idx])>>(j*32)) & (2**32-1) );
+                                    data64bit_C.push_back( ((refm.mem_blk_pages_gmem2.maxi_bundlevar_offset["C"]+refm.mem_blk_pages_gmem2.page_ofst[refm.mem_blk_pages_gmem2.rd_page_idx])>>(j*32)) & (2**32-1) );
                                 end
                                 foreach(data64bit_C[s]) databusbit_C[s]=data64bit_C[s][32-1:0];
                                 axi_master_wr_control_seq.StableAxiliteNoUpdate=1;
@@ -112,7 +142,7 @@
                                 data64bit_ABC.delete(); databusbit_ABC.delete();
                                 axi_master_wr_control_seq.StableAxiliteNoUpdate=0;
                                 for(int j=0; j < (64+32-1)/32; j++) begin
-                                    data64bit_ABC.push_back( ((refm.mem_blk_pages_gmem.maxi_bundlevar_offset["ABC"]+refm.mem_blk_pages_gmem.page_ofst[refm.mem_blk_pages_gmem.rd_page_idx])>>(j*32)) & (2**32-1) );
+                                    data64bit_ABC.push_back( ((refm.mem_blk_pages_gmem3.maxi_bundlevar_offset["ABC"]+refm.mem_blk_pages_gmem3.page_ofst[refm.mem_blk_pages_gmem3.rd_page_idx])>>(j*32)) & (2**32-1) );
                                 end
                                 foreach(data64bit_ABC[s]) databusbit_ABC[s]=data64bit_ABC[s][32-1:0];
                                 axi_master_wr_control_seq.StableAxiliteNoUpdate=1;
@@ -136,12 +166,14 @@
                                 axi_master_wr_control_seq.StableAxiliteNoUpdate=1;
                                 axi_master_wr_control_seq.datamerge_inavg(databusbit_P, 0, 80, 1);
                                 `uvm_send(axi_master_wr_control_seq);
+                                @(posedge refm.misc_if.clock); //wait address 2 rsp done
+                                @(posedge refm.misc_if.clock);
                                 refm.write_data_finish_control = 1;
                                 `uvm_info("control data writting thread", $sformatf("%0dth(total 1): waiting for all write data finish event",i), UVM_LOW)
                                 wait(refm.allaxilite_write_data_finish.triggered);
                                 refm.write_data_finish_control = 0;
                                 fork
-                                    begin // configure start to enable DUT
+                                    begin
                                         axi_master_wr_control_seq.wr_addr_data.push_back( (1<<0)+(0<<32) );
                                         `uvm_info("control start dut by axilite", $sformatf("%0dth(total 1): begin to set start bit",i), UVM_LOW)
                                         `uvm_send(axi_master_wr_control_seq);
@@ -194,7 +226,10 @@
             join_any
             repeat(5) @(posedge refm.misc_if.clock); //5 cycles delay for finish stuff. 5 is haphazard value
 
-            p_sequencer.gmem_sqr.stop_sequences();
+            p_sequencer.gmem0_sqr.stop_sequences();
+            p_sequencer.gmem1_sqr.stop_sequences();
+            p_sequencer.gmem2_sqr.stop_sequences();
+            p_sequencer.gmem3_sqr.stop_sequences();
             p_sequencer.control_sqr.stop_sequences();
             disable fork;
                                                                                                     

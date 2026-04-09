@@ -1,6 +1,6 @@
 // ==============================================================
-// Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.2 (64-bit)
-// Tool Version Limit: 2025.11
+// Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.1 (64-bit)
+// Tool Version Limit: 2025.05
 // Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 // Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 // 
@@ -17,7 +17,10 @@
 `define AUTOTB_MAX_ALLOW_LATENCY  15000000
 `define AUTOTB_CLOCK_PERIOD_DIV2 7.50
 
-`define AESL_DEPTH_gmem 1
+`define AESL_DEPTH_gmem0 1
+`define AESL_DEPTH_gmem1 1
+`define AESL_DEPTH_gmem2 1
+`define AESL_DEPTH_gmem3 1
 `define AESL_DEPTH_AT 1
 `define AESL_DEPTH_B 1
 `define AESL_DEPTH_C 1
@@ -25,7 +28,9 @@
 `define AESL_DEPTH_N 1
 `define AESL_DEPTH_M 1
 `define AESL_DEPTH_P 1
-`define AUTOTB_TVIN_gmem  "../tv/cdatafile/c.MM.autotvin_gmem.dat"
+`define AUTOTB_TVIN_gmem0  "../tv/cdatafile/c.MM.autotvin_gmem0.dat"
+`define AUTOTB_TVIN_gmem1  "../tv/cdatafile/c.MM.autotvin_gmem1.dat"
+`define AUTOTB_TVIN_gmem2  "../tv/cdatafile/c.MM.autotvin_gmem2.dat"
 `define AUTOTB_TVIN_AT  "../tv/cdatafile/c.MM.autotvin_AT.dat"
 `define AUTOTB_TVIN_B  "../tv/cdatafile/c.MM.autotvin_B.dat"
 `define AUTOTB_TVIN_C  "../tv/cdatafile/c.MM.autotvin_C.dat"
@@ -33,7 +38,9 @@
 `define AUTOTB_TVIN_N  "../tv/cdatafile/c.MM.autotvin_N.dat"
 `define AUTOTB_TVIN_M  "../tv/cdatafile/c.MM.autotvin_M.dat"
 `define AUTOTB_TVIN_P  "../tv/cdatafile/c.MM.autotvin_P.dat"
-`define AUTOTB_TVIN_gmem_out_wrapc  "../tv/rtldatafile/rtl.MM.autotvin_gmem.dat"
+`define AUTOTB_TVIN_gmem0_out_wrapc  "../tv/rtldatafile/rtl.MM.autotvin_gmem0.dat"
+`define AUTOTB_TVIN_gmem1_out_wrapc  "../tv/rtldatafile/rtl.MM.autotvin_gmem1.dat"
+`define AUTOTB_TVIN_gmem2_out_wrapc  "../tv/rtldatafile/rtl.MM.autotvin_gmem2.dat"
 `define AUTOTB_TVIN_AT_out_wrapc  "../tv/rtldatafile/rtl.MM.autotvin_AT.dat"
 `define AUTOTB_TVIN_B_out_wrapc  "../tv/rtldatafile/rtl.MM.autotvin_B.dat"
 `define AUTOTB_TVIN_C_out_wrapc  "../tv/rtldatafile/rtl.MM.autotvin_C.dat"
@@ -41,8 +48,8 @@
 `define AUTOTB_TVIN_N_out_wrapc  "../tv/rtldatafile/rtl.MM.autotvin_N.dat"
 `define AUTOTB_TVIN_M_out_wrapc  "../tv/rtldatafile/rtl.MM.autotvin_M.dat"
 `define AUTOTB_TVIN_P_out_wrapc  "../tv/rtldatafile/rtl.MM.autotvin_P.dat"
-`define AUTOTB_TVOUT_gmem  "../tv/cdatafile/c.MM.autotvout_gmem.dat"
-`define AUTOTB_TVOUT_gmem_out_wrapc  "../tv/rtldatafile/rtl.MM.autotvout_gmem.dat"
+`define AUTOTB_TVOUT_gmem3  "../tv/cdatafile/c.MM.autotvout_gmem3.dat"
+`define AUTOTB_TVOUT_gmem3_out_wrapc  "../tv/rtldatafile/rtl.MM.autotvout_gmem3.dat"
 module `AUTOTB_TOP;
 
 parameter AUTOTB_TRANSACTION_NUM = 1;
@@ -55,7 +62,10 @@ parameter LENGTH_C = 1;
 parameter LENGTH_M = 1;
 parameter LENGTH_N = 1;
 parameter LENGTH_P = 1;
-parameter LENGTH_gmem = 194;
+parameter LENGTH_gmem0 = 64;
+parameter LENGTH_gmem1 = 64;
+parameter LENGTH_gmem2 = 32;
+parameter LENGTH_gmem3 = 64;
 
 reg AESL_clock;
 reg rst;
@@ -93,51 +103,186 @@ wire  control_BVALID;
 wire  control_BREADY;
 wire [1 : 0] control_BRESP;
 wire  control_INTERRUPT;
-wire  gmem_AWVALID;
-wire  gmem_AWREADY;
-wire [63 : 0] gmem_AWADDR;
-wire [0 : 0] gmem_AWID;
-wire [7 : 0] gmem_AWLEN;
-wire [2 : 0] gmem_AWSIZE;
-wire [1 : 0] gmem_AWBURST;
-wire [1 : 0] gmem_AWLOCK;
-wire [3 : 0] gmem_AWCACHE;
-wire [2 : 0] gmem_AWPROT;
-wire [3 : 0] gmem_AWQOS;
-wire [3 : 0] gmem_AWREGION;
-wire [0 : 0] gmem_AWUSER;
-wire  gmem_WVALID;
-wire  gmem_WREADY;
-wire [511 : 0] gmem_WDATA;
-wire [63 : 0] gmem_WSTRB;
-wire  gmem_WLAST;
-wire [0 : 0] gmem_WID;
-wire [0 : 0] gmem_WUSER;
-wire  gmem_ARVALID;
-wire  gmem_ARREADY;
-wire [63 : 0] gmem_ARADDR;
-wire [0 : 0] gmem_ARID;
-wire [7 : 0] gmem_ARLEN;
-wire [2 : 0] gmem_ARSIZE;
-wire [1 : 0] gmem_ARBURST;
-wire [1 : 0] gmem_ARLOCK;
-wire [3 : 0] gmem_ARCACHE;
-wire [2 : 0] gmem_ARPROT;
-wire [3 : 0] gmem_ARQOS;
-wire [3 : 0] gmem_ARREGION;
-wire [0 : 0] gmem_ARUSER;
-wire  gmem_RVALID;
-wire  gmem_RREADY;
-wire [511 : 0] gmem_RDATA;
-wire  gmem_RLAST;
-wire [0 : 0] gmem_RID;
-wire [0 : 0] gmem_RUSER;
-wire [1 : 0] gmem_RRESP;
-wire  gmem_BVALID;
-wire  gmem_BREADY;
-wire [1 : 0] gmem_BRESP;
-wire [0 : 0] gmem_BID;
-wire [0 : 0] gmem_BUSER;
+wire  gmem0_AWVALID;
+wire  gmem0_AWREADY;
+wire [63 : 0] gmem0_AWADDR;
+wire [0 : 0] gmem0_AWID;
+wire [7 : 0] gmem0_AWLEN;
+wire [2 : 0] gmem0_AWSIZE;
+wire [1 : 0] gmem0_AWBURST;
+wire [1 : 0] gmem0_AWLOCK;
+wire [3 : 0] gmem0_AWCACHE;
+wire [2 : 0] gmem0_AWPROT;
+wire [3 : 0] gmem0_AWQOS;
+wire [3 : 0] gmem0_AWREGION;
+wire [0 : 0] gmem0_AWUSER;
+wire  gmem0_WVALID;
+wire  gmem0_WREADY;
+wire [511 : 0] gmem0_WDATA;
+wire [63 : 0] gmem0_WSTRB;
+wire  gmem0_WLAST;
+wire [0 : 0] gmem0_WID;
+wire [0 : 0] gmem0_WUSER;
+wire  gmem0_ARVALID;
+wire  gmem0_ARREADY;
+wire [63 : 0] gmem0_ARADDR;
+wire [0 : 0] gmem0_ARID;
+wire [7 : 0] gmem0_ARLEN;
+wire [2 : 0] gmem0_ARSIZE;
+wire [1 : 0] gmem0_ARBURST;
+wire [1 : 0] gmem0_ARLOCK;
+wire [3 : 0] gmem0_ARCACHE;
+wire [2 : 0] gmem0_ARPROT;
+wire [3 : 0] gmem0_ARQOS;
+wire [3 : 0] gmem0_ARREGION;
+wire [0 : 0] gmem0_ARUSER;
+wire  gmem0_RVALID;
+wire  gmem0_RREADY;
+wire [511 : 0] gmem0_RDATA;
+wire  gmem0_RLAST;
+wire [0 : 0] gmem0_RID;
+wire [0 : 0] gmem0_RUSER;
+wire [1 : 0] gmem0_RRESP;
+wire  gmem0_BVALID;
+wire  gmem0_BREADY;
+wire [1 : 0] gmem0_BRESP;
+wire [0 : 0] gmem0_BID;
+wire [0 : 0] gmem0_BUSER;
+wire  gmem1_AWVALID;
+wire  gmem1_AWREADY;
+wire [63 : 0] gmem1_AWADDR;
+wire [0 : 0] gmem1_AWID;
+wire [7 : 0] gmem1_AWLEN;
+wire [2 : 0] gmem1_AWSIZE;
+wire [1 : 0] gmem1_AWBURST;
+wire [1 : 0] gmem1_AWLOCK;
+wire [3 : 0] gmem1_AWCACHE;
+wire [2 : 0] gmem1_AWPROT;
+wire [3 : 0] gmem1_AWQOS;
+wire [3 : 0] gmem1_AWREGION;
+wire [0 : 0] gmem1_AWUSER;
+wire  gmem1_WVALID;
+wire  gmem1_WREADY;
+wire [511 : 0] gmem1_WDATA;
+wire [63 : 0] gmem1_WSTRB;
+wire  gmem1_WLAST;
+wire [0 : 0] gmem1_WID;
+wire [0 : 0] gmem1_WUSER;
+wire  gmem1_ARVALID;
+wire  gmem1_ARREADY;
+wire [63 : 0] gmem1_ARADDR;
+wire [0 : 0] gmem1_ARID;
+wire [7 : 0] gmem1_ARLEN;
+wire [2 : 0] gmem1_ARSIZE;
+wire [1 : 0] gmem1_ARBURST;
+wire [1 : 0] gmem1_ARLOCK;
+wire [3 : 0] gmem1_ARCACHE;
+wire [2 : 0] gmem1_ARPROT;
+wire [3 : 0] gmem1_ARQOS;
+wire [3 : 0] gmem1_ARREGION;
+wire [0 : 0] gmem1_ARUSER;
+wire  gmem1_RVALID;
+wire  gmem1_RREADY;
+wire [511 : 0] gmem1_RDATA;
+wire  gmem1_RLAST;
+wire [0 : 0] gmem1_RID;
+wire [0 : 0] gmem1_RUSER;
+wire [1 : 0] gmem1_RRESP;
+wire  gmem1_BVALID;
+wire  gmem1_BREADY;
+wire [1 : 0] gmem1_BRESP;
+wire [0 : 0] gmem1_BID;
+wire [0 : 0] gmem1_BUSER;
+wire  gmem2_AWVALID;
+wire  gmem2_AWREADY;
+wire [63 : 0] gmem2_AWADDR;
+wire [0 : 0] gmem2_AWID;
+wire [7 : 0] gmem2_AWLEN;
+wire [2 : 0] gmem2_AWSIZE;
+wire [1 : 0] gmem2_AWBURST;
+wire [1 : 0] gmem2_AWLOCK;
+wire [3 : 0] gmem2_AWCACHE;
+wire [2 : 0] gmem2_AWPROT;
+wire [3 : 0] gmem2_AWQOS;
+wire [3 : 0] gmem2_AWREGION;
+wire [0 : 0] gmem2_AWUSER;
+wire  gmem2_WVALID;
+wire  gmem2_WREADY;
+wire [31 : 0] gmem2_WDATA;
+wire [3 : 0] gmem2_WSTRB;
+wire  gmem2_WLAST;
+wire [0 : 0] gmem2_WID;
+wire [0 : 0] gmem2_WUSER;
+wire  gmem2_ARVALID;
+wire  gmem2_ARREADY;
+wire [63 : 0] gmem2_ARADDR;
+wire [0 : 0] gmem2_ARID;
+wire [7 : 0] gmem2_ARLEN;
+wire [2 : 0] gmem2_ARSIZE;
+wire [1 : 0] gmem2_ARBURST;
+wire [1 : 0] gmem2_ARLOCK;
+wire [3 : 0] gmem2_ARCACHE;
+wire [2 : 0] gmem2_ARPROT;
+wire [3 : 0] gmem2_ARQOS;
+wire [3 : 0] gmem2_ARREGION;
+wire [0 : 0] gmem2_ARUSER;
+wire  gmem2_RVALID;
+wire  gmem2_RREADY;
+wire [31 : 0] gmem2_RDATA;
+wire  gmem2_RLAST;
+wire [0 : 0] gmem2_RID;
+wire [0 : 0] gmem2_RUSER;
+wire [1 : 0] gmem2_RRESP;
+wire  gmem2_BVALID;
+wire  gmem2_BREADY;
+wire [1 : 0] gmem2_BRESP;
+wire [0 : 0] gmem2_BID;
+wire [0 : 0] gmem2_BUSER;
+wire  gmem3_AWVALID;
+wire  gmem3_AWREADY;
+wire [63 : 0] gmem3_AWADDR;
+wire [0 : 0] gmem3_AWID;
+wire [7 : 0] gmem3_AWLEN;
+wire [2 : 0] gmem3_AWSIZE;
+wire [1 : 0] gmem3_AWBURST;
+wire [1 : 0] gmem3_AWLOCK;
+wire [3 : 0] gmem3_AWCACHE;
+wire [2 : 0] gmem3_AWPROT;
+wire [3 : 0] gmem3_AWQOS;
+wire [3 : 0] gmem3_AWREGION;
+wire [0 : 0] gmem3_AWUSER;
+wire  gmem3_WVALID;
+wire  gmem3_WREADY;
+wire [511 : 0] gmem3_WDATA;
+wire [63 : 0] gmem3_WSTRB;
+wire  gmem3_WLAST;
+wire [0 : 0] gmem3_WID;
+wire [0 : 0] gmem3_WUSER;
+wire  gmem3_ARVALID;
+wire  gmem3_ARREADY;
+wire [63 : 0] gmem3_ARADDR;
+wire [0 : 0] gmem3_ARID;
+wire [7 : 0] gmem3_ARLEN;
+wire [2 : 0] gmem3_ARSIZE;
+wire [1 : 0] gmem3_ARBURST;
+wire [1 : 0] gmem3_ARLOCK;
+wire [3 : 0] gmem3_ARCACHE;
+wire [2 : 0] gmem3_ARPROT;
+wire [3 : 0] gmem3_ARQOS;
+wire [3 : 0] gmem3_ARREGION;
+wire [0 : 0] gmem3_ARUSER;
+wire  gmem3_RVALID;
+wire  gmem3_RREADY;
+wire [511 : 0] gmem3_RDATA;
+wire  gmem3_RLAST;
+wire [0 : 0] gmem3_RID;
+wire [0 : 0] gmem3_RUSER;
+wire [1 : 0] gmem3_RRESP;
+wire  gmem3_BVALID;
+wire  gmem3_BREADY;
+wire [1 : 0] gmem3_BRESP;
+wire [0 : 0] gmem3_BID;
+wire [0 : 0] gmem3_BUSER;
 integer done_cnt = 0;
 integer AESL_ready_cnt = 0;
 integer ready_cnt = 0;
@@ -188,51 +333,186 @@ wire ap_rst_n_n;
     .interrupt(control_INTERRUPT),
     .ap_clk(ap_clk),
     .ap_rst_n(ap_rst_n),
-    .m_axi_gmem_AWVALID(gmem_AWVALID),
-    .m_axi_gmem_AWREADY(gmem_AWREADY),
-    .m_axi_gmem_AWADDR(gmem_AWADDR),
-    .m_axi_gmem_AWID(gmem_AWID),
-    .m_axi_gmem_AWLEN(gmem_AWLEN),
-    .m_axi_gmem_AWSIZE(gmem_AWSIZE),
-    .m_axi_gmem_AWBURST(gmem_AWBURST),
-    .m_axi_gmem_AWLOCK(gmem_AWLOCK),
-    .m_axi_gmem_AWCACHE(gmem_AWCACHE),
-    .m_axi_gmem_AWPROT(gmem_AWPROT),
-    .m_axi_gmem_AWQOS(gmem_AWQOS),
-    .m_axi_gmem_AWREGION(gmem_AWREGION),
-    .m_axi_gmem_AWUSER(gmem_AWUSER),
-    .m_axi_gmem_WVALID(gmem_WVALID),
-    .m_axi_gmem_WREADY(gmem_WREADY),
-    .m_axi_gmem_WDATA(gmem_WDATA),
-    .m_axi_gmem_WSTRB(gmem_WSTRB),
-    .m_axi_gmem_WLAST(gmem_WLAST),
-    .m_axi_gmem_WID(gmem_WID),
-    .m_axi_gmem_WUSER(gmem_WUSER),
-    .m_axi_gmem_ARVALID(gmem_ARVALID),
-    .m_axi_gmem_ARREADY(gmem_ARREADY),
-    .m_axi_gmem_ARADDR(gmem_ARADDR),
-    .m_axi_gmem_ARID(gmem_ARID),
-    .m_axi_gmem_ARLEN(gmem_ARLEN),
-    .m_axi_gmem_ARSIZE(gmem_ARSIZE),
-    .m_axi_gmem_ARBURST(gmem_ARBURST),
-    .m_axi_gmem_ARLOCK(gmem_ARLOCK),
-    .m_axi_gmem_ARCACHE(gmem_ARCACHE),
-    .m_axi_gmem_ARPROT(gmem_ARPROT),
-    .m_axi_gmem_ARQOS(gmem_ARQOS),
-    .m_axi_gmem_ARREGION(gmem_ARREGION),
-    .m_axi_gmem_ARUSER(gmem_ARUSER),
-    .m_axi_gmem_RVALID(gmem_RVALID),
-    .m_axi_gmem_RREADY(gmem_RREADY),
-    .m_axi_gmem_RDATA(gmem_RDATA),
-    .m_axi_gmem_RLAST(gmem_RLAST),
-    .m_axi_gmem_RID(gmem_RID),
-    .m_axi_gmem_RUSER(gmem_RUSER),
-    .m_axi_gmem_RRESP(gmem_RRESP),
-    .m_axi_gmem_BVALID(gmem_BVALID),
-    .m_axi_gmem_BREADY(gmem_BREADY),
-    .m_axi_gmem_BRESP(gmem_BRESP),
-    .m_axi_gmem_BID(gmem_BID),
-    .m_axi_gmem_BUSER(gmem_BUSER));
+    .m_axi_gmem0_AWVALID(gmem0_AWVALID),
+    .m_axi_gmem0_AWREADY(gmem0_AWREADY),
+    .m_axi_gmem0_AWADDR(gmem0_AWADDR),
+    .m_axi_gmem0_AWID(gmem0_AWID),
+    .m_axi_gmem0_AWLEN(gmem0_AWLEN),
+    .m_axi_gmem0_AWSIZE(gmem0_AWSIZE),
+    .m_axi_gmem0_AWBURST(gmem0_AWBURST),
+    .m_axi_gmem0_AWLOCK(gmem0_AWLOCK),
+    .m_axi_gmem0_AWCACHE(gmem0_AWCACHE),
+    .m_axi_gmem0_AWPROT(gmem0_AWPROT),
+    .m_axi_gmem0_AWQOS(gmem0_AWQOS),
+    .m_axi_gmem0_AWREGION(gmem0_AWREGION),
+    .m_axi_gmem0_AWUSER(gmem0_AWUSER),
+    .m_axi_gmem0_WVALID(gmem0_WVALID),
+    .m_axi_gmem0_WREADY(gmem0_WREADY),
+    .m_axi_gmem0_WDATA(gmem0_WDATA),
+    .m_axi_gmem0_WSTRB(gmem0_WSTRB),
+    .m_axi_gmem0_WLAST(gmem0_WLAST),
+    .m_axi_gmem0_WID(gmem0_WID),
+    .m_axi_gmem0_WUSER(gmem0_WUSER),
+    .m_axi_gmem0_ARVALID(gmem0_ARVALID),
+    .m_axi_gmem0_ARREADY(gmem0_ARREADY),
+    .m_axi_gmem0_ARADDR(gmem0_ARADDR),
+    .m_axi_gmem0_ARID(gmem0_ARID),
+    .m_axi_gmem0_ARLEN(gmem0_ARLEN),
+    .m_axi_gmem0_ARSIZE(gmem0_ARSIZE),
+    .m_axi_gmem0_ARBURST(gmem0_ARBURST),
+    .m_axi_gmem0_ARLOCK(gmem0_ARLOCK),
+    .m_axi_gmem0_ARCACHE(gmem0_ARCACHE),
+    .m_axi_gmem0_ARPROT(gmem0_ARPROT),
+    .m_axi_gmem0_ARQOS(gmem0_ARQOS),
+    .m_axi_gmem0_ARREGION(gmem0_ARREGION),
+    .m_axi_gmem0_ARUSER(gmem0_ARUSER),
+    .m_axi_gmem0_RVALID(gmem0_RVALID),
+    .m_axi_gmem0_RREADY(gmem0_RREADY),
+    .m_axi_gmem0_RDATA(gmem0_RDATA),
+    .m_axi_gmem0_RLAST(gmem0_RLAST),
+    .m_axi_gmem0_RID(gmem0_RID),
+    .m_axi_gmem0_RUSER(gmem0_RUSER),
+    .m_axi_gmem0_RRESP(gmem0_RRESP),
+    .m_axi_gmem0_BVALID(gmem0_BVALID),
+    .m_axi_gmem0_BREADY(gmem0_BREADY),
+    .m_axi_gmem0_BRESP(gmem0_BRESP),
+    .m_axi_gmem0_BID(gmem0_BID),
+    .m_axi_gmem0_BUSER(gmem0_BUSER),
+    .m_axi_gmem1_AWVALID(gmem1_AWVALID),
+    .m_axi_gmem1_AWREADY(gmem1_AWREADY),
+    .m_axi_gmem1_AWADDR(gmem1_AWADDR),
+    .m_axi_gmem1_AWID(gmem1_AWID),
+    .m_axi_gmem1_AWLEN(gmem1_AWLEN),
+    .m_axi_gmem1_AWSIZE(gmem1_AWSIZE),
+    .m_axi_gmem1_AWBURST(gmem1_AWBURST),
+    .m_axi_gmem1_AWLOCK(gmem1_AWLOCK),
+    .m_axi_gmem1_AWCACHE(gmem1_AWCACHE),
+    .m_axi_gmem1_AWPROT(gmem1_AWPROT),
+    .m_axi_gmem1_AWQOS(gmem1_AWQOS),
+    .m_axi_gmem1_AWREGION(gmem1_AWREGION),
+    .m_axi_gmem1_AWUSER(gmem1_AWUSER),
+    .m_axi_gmem1_WVALID(gmem1_WVALID),
+    .m_axi_gmem1_WREADY(gmem1_WREADY),
+    .m_axi_gmem1_WDATA(gmem1_WDATA),
+    .m_axi_gmem1_WSTRB(gmem1_WSTRB),
+    .m_axi_gmem1_WLAST(gmem1_WLAST),
+    .m_axi_gmem1_WID(gmem1_WID),
+    .m_axi_gmem1_WUSER(gmem1_WUSER),
+    .m_axi_gmem1_ARVALID(gmem1_ARVALID),
+    .m_axi_gmem1_ARREADY(gmem1_ARREADY),
+    .m_axi_gmem1_ARADDR(gmem1_ARADDR),
+    .m_axi_gmem1_ARID(gmem1_ARID),
+    .m_axi_gmem1_ARLEN(gmem1_ARLEN),
+    .m_axi_gmem1_ARSIZE(gmem1_ARSIZE),
+    .m_axi_gmem1_ARBURST(gmem1_ARBURST),
+    .m_axi_gmem1_ARLOCK(gmem1_ARLOCK),
+    .m_axi_gmem1_ARCACHE(gmem1_ARCACHE),
+    .m_axi_gmem1_ARPROT(gmem1_ARPROT),
+    .m_axi_gmem1_ARQOS(gmem1_ARQOS),
+    .m_axi_gmem1_ARREGION(gmem1_ARREGION),
+    .m_axi_gmem1_ARUSER(gmem1_ARUSER),
+    .m_axi_gmem1_RVALID(gmem1_RVALID),
+    .m_axi_gmem1_RREADY(gmem1_RREADY),
+    .m_axi_gmem1_RDATA(gmem1_RDATA),
+    .m_axi_gmem1_RLAST(gmem1_RLAST),
+    .m_axi_gmem1_RID(gmem1_RID),
+    .m_axi_gmem1_RUSER(gmem1_RUSER),
+    .m_axi_gmem1_RRESP(gmem1_RRESP),
+    .m_axi_gmem1_BVALID(gmem1_BVALID),
+    .m_axi_gmem1_BREADY(gmem1_BREADY),
+    .m_axi_gmem1_BRESP(gmem1_BRESP),
+    .m_axi_gmem1_BID(gmem1_BID),
+    .m_axi_gmem1_BUSER(gmem1_BUSER),
+    .m_axi_gmem2_AWVALID(gmem2_AWVALID),
+    .m_axi_gmem2_AWREADY(gmem2_AWREADY),
+    .m_axi_gmem2_AWADDR(gmem2_AWADDR),
+    .m_axi_gmem2_AWID(gmem2_AWID),
+    .m_axi_gmem2_AWLEN(gmem2_AWLEN),
+    .m_axi_gmem2_AWSIZE(gmem2_AWSIZE),
+    .m_axi_gmem2_AWBURST(gmem2_AWBURST),
+    .m_axi_gmem2_AWLOCK(gmem2_AWLOCK),
+    .m_axi_gmem2_AWCACHE(gmem2_AWCACHE),
+    .m_axi_gmem2_AWPROT(gmem2_AWPROT),
+    .m_axi_gmem2_AWQOS(gmem2_AWQOS),
+    .m_axi_gmem2_AWREGION(gmem2_AWREGION),
+    .m_axi_gmem2_AWUSER(gmem2_AWUSER),
+    .m_axi_gmem2_WVALID(gmem2_WVALID),
+    .m_axi_gmem2_WREADY(gmem2_WREADY),
+    .m_axi_gmem2_WDATA(gmem2_WDATA),
+    .m_axi_gmem2_WSTRB(gmem2_WSTRB),
+    .m_axi_gmem2_WLAST(gmem2_WLAST),
+    .m_axi_gmem2_WID(gmem2_WID),
+    .m_axi_gmem2_WUSER(gmem2_WUSER),
+    .m_axi_gmem2_ARVALID(gmem2_ARVALID),
+    .m_axi_gmem2_ARREADY(gmem2_ARREADY),
+    .m_axi_gmem2_ARADDR(gmem2_ARADDR),
+    .m_axi_gmem2_ARID(gmem2_ARID),
+    .m_axi_gmem2_ARLEN(gmem2_ARLEN),
+    .m_axi_gmem2_ARSIZE(gmem2_ARSIZE),
+    .m_axi_gmem2_ARBURST(gmem2_ARBURST),
+    .m_axi_gmem2_ARLOCK(gmem2_ARLOCK),
+    .m_axi_gmem2_ARCACHE(gmem2_ARCACHE),
+    .m_axi_gmem2_ARPROT(gmem2_ARPROT),
+    .m_axi_gmem2_ARQOS(gmem2_ARQOS),
+    .m_axi_gmem2_ARREGION(gmem2_ARREGION),
+    .m_axi_gmem2_ARUSER(gmem2_ARUSER),
+    .m_axi_gmem2_RVALID(gmem2_RVALID),
+    .m_axi_gmem2_RREADY(gmem2_RREADY),
+    .m_axi_gmem2_RDATA(gmem2_RDATA),
+    .m_axi_gmem2_RLAST(gmem2_RLAST),
+    .m_axi_gmem2_RID(gmem2_RID),
+    .m_axi_gmem2_RUSER(gmem2_RUSER),
+    .m_axi_gmem2_RRESP(gmem2_RRESP),
+    .m_axi_gmem2_BVALID(gmem2_BVALID),
+    .m_axi_gmem2_BREADY(gmem2_BREADY),
+    .m_axi_gmem2_BRESP(gmem2_BRESP),
+    .m_axi_gmem2_BID(gmem2_BID),
+    .m_axi_gmem2_BUSER(gmem2_BUSER),
+    .m_axi_gmem3_AWVALID(gmem3_AWVALID),
+    .m_axi_gmem3_AWREADY(gmem3_AWREADY),
+    .m_axi_gmem3_AWADDR(gmem3_AWADDR),
+    .m_axi_gmem3_AWID(gmem3_AWID),
+    .m_axi_gmem3_AWLEN(gmem3_AWLEN),
+    .m_axi_gmem3_AWSIZE(gmem3_AWSIZE),
+    .m_axi_gmem3_AWBURST(gmem3_AWBURST),
+    .m_axi_gmem3_AWLOCK(gmem3_AWLOCK),
+    .m_axi_gmem3_AWCACHE(gmem3_AWCACHE),
+    .m_axi_gmem3_AWPROT(gmem3_AWPROT),
+    .m_axi_gmem3_AWQOS(gmem3_AWQOS),
+    .m_axi_gmem3_AWREGION(gmem3_AWREGION),
+    .m_axi_gmem3_AWUSER(gmem3_AWUSER),
+    .m_axi_gmem3_WVALID(gmem3_WVALID),
+    .m_axi_gmem3_WREADY(gmem3_WREADY),
+    .m_axi_gmem3_WDATA(gmem3_WDATA),
+    .m_axi_gmem3_WSTRB(gmem3_WSTRB),
+    .m_axi_gmem3_WLAST(gmem3_WLAST),
+    .m_axi_gmem3_WID(gmem3_WID),
+    .m_axi_gmem3_WUSER(gmem3_WUSER),
+    .m_axi_gmem3_ARVALID(gmem3_ARVALID),
+    .m_axi_gmem3_ARREADY(gmem3_ARREADY),
+    .m_axi_gmem3_ARADDR(gmem3_ARADDR),
+    .m_axi_gmem3_ARID(gmem3_ARID),
+    .m_axi_gmem3_ARLEN(gmem3_ARLEN),
+    .m_axi_gmem3_ARSIZE(gmem3_ARSIZE),
+    .m_axi_gmem3_ARBURST(gmem3_ARBURST),
+    .m_axi_gmem3_ARLOCK(gmem3_ARLOCK),
+    .m_axi_gmem3_ARCACHE(gmem3_ARCACHE),
+    .m_axi_gmem3_ARPROT(gmem3_ARPROT),
+    .m_axi_gmem3_ARQOS(gmem3_ARQOS),
+    .m_axi_gmem3_ARREGION(gmem3_ARREGION),
+    .m_axi_gmem3_ARUSER(gmem3_ARUSER),
+    .m_axi_gmem3_RVALID(gmem3_RVALID),
+    .m_axi_gmem3_RREADY(gmem3_RREADY),
+    .m_axi_gmem3_RDATA(gmem3_RDATA),
+    .m_axi_gmem3_RLAST(gmem3_RLAST),
+    .m_axi_gmem3_RID(gmem3_RID),
+    .m_axi_gmem3_RUSER(gmem3_RUSER),
+    .m_axi_gmem3_RRESP(gmem3_RRESP),
+    .m_axi_gmem3_BVALID(gmem3_BVALID),
+    .m_axi_gmem3_BREADY(gmem3_BREADY),
+    .m_axi_gmem3_BRESP(gmem3_BRESP),
+    .m_axi_gmem3_BID(gmem3_BID),
+    .m_axi_gmem3_BUSER(gmem3_BUSER));
 assign ap_clk = AESL_clock;
 assign ap_rst_n = AESL_reset;
 assign ap_rst_n_n = ~AESL_reset;
@@ -492,6 +772,12 @@ endtask
 `ifndef POST_SYN
 
 `endif
+
+AESL_deadlock_detector deadlock_detector(
+    .dl_reset(AESL_reset),
+    .all_finish(all_finish),
+    .dl_clock(AESL_clock));
+
 ///////////////////////////////////////////////////////
 // dataflow status monitor
 ///////////////////////////////////////////////////////

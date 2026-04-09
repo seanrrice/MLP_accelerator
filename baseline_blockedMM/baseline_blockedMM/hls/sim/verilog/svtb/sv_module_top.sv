@@ -1,6 +1,6 @@
 //==============================================================
-//Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.2 (64-bit)
-//Tool Version Limit: 2025.11
+//Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.1 (64-bit)
+//Tool Version Limit: 2025.05
 //Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 //Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 //
@@ -32,54 +32,207 @@ module sv_module_top;
     end
 
 
-    axi_if #(64,64,8,3,1)  axi_gmem_if (.clk  (apatb_MM_top.AESL_clock), .rst(apatb_MM_top.AESL_reset));
-    assign axi_gmem_if.AWVALID = apatb_MM_top.gmem_AWVALID;
-    assign apatb_MM_top.gmem_AWREADY = axi_gmem_if.AWREADY;
-    assign axi_gmem_if.AWADDR = apatb_MM_top.gmem_AWADDR;
-    assign axi_gmem_if.AWID = apatb_MM_top.gmem_AWID;
-    assign axi_gmem_if.AWLEN = apatb_MM_top.gmem_AWLEN;
-    assign axi_gmem_if.AWSIZE = apatb_MM_top.gmem_AWSIZE;
-    assign axi_gmem_if.AWBURST = apatb_MM_top.gmem_AWBURST;
-    assign axi_gmem_if.AWLOCK = apatb_MM_top.gmem_AWLOCK;
-    assign axi_gmem_if.AWCACHE = apatb_MM_top.gmem_AWCACHE;
-    assign axi_gmem_if.AWPROT = apatb_MM_top.gmem_AWPROT;
-    assign axi_gmem_if.AWQOS = apatb_MM_top.gmem_AWQOS;
-    assign axi_gmem_if.AWREGION = apatb_MM_top.gmem_AWREGION;
-    assign axi_gmem_if.AWUSER = apatb_MM_top.gmem_AWUSER;
-    assign axi_gmem_if.WVALID = apatb_MM_top.gmem_WVALID;
-    assign apatb_MM_top.gmem_WREADY = axi_gmem_if.WREADY;
-    assign axi_gmem_if.WDATA = apatb_MM_top.gmem_WDATA;
-    assign axi_gmem_if.WSTRB = apatb_MM_top.gmem_WSTRB;
-    assign axi_gmem_if.WLAST = apatb_MM_top.gmem_WLAST;
-    assign axi_gmem_if.WID = apatb_MM_top.gmem_WID;
-    assign axi_gmem_if.WUSER = apatb_MM_top.gmem_WUSER;
-    assign axi_gmem_if.ARVALID = apatb_MM_top.gmem_ARVALID;
-    assign apatb_MM_top.gmem_ARREADY = axi_gmem_if.ARREADY;
-    assign axi_gmem_if.ARADDR = apatb_MM_top.gmem_ARADDR;
-    assign axi_gmem_if.ARID = apatb_MM_top.gmem_ARID;
-    assign axi_gmem_if.ARLEN = apatb_MM_top.gmem_ARLEN;
-    assign axi_gmem_if.ARSIZE = apatb_MM_top.gmem_ARSIZE;
-    assign axi_gmem_if.ARBURST = apatb_MM_top.gmem_ARBURST;
-    assign axi_gmem_if.ARLOCK = apatb_MM_top.gmem_ARLOCK;
-    assign axi_gmem_if.ARCACHE = apatb_MM_top.gmem_ARCACHE;
-    assign axi_gmem_if.ARPROT = apatb_MM_top.gmem_ARPROT;
-    assign axi_gmem_if.ARQOS = apatb_MM_top.gmem_ARQOS;
-    assign axi_gmem_if.ARREGION = apatb_MM_top.gmem_ARREGION;
-    assign axi_gmem_if.ARUSER = apatb_MM_top.gmem_ARUSER;
-    assign apatb_MM_top.gmem_RVALID = axi_gmem_if.RVALID;
-    assign axi_gmem_if.RREADY = apatb_MM_top.gmem_RREADY;
-    assign apatb_MM_top.gmem_RDATA = axi_gmem_if.RDATA;
-    assign apatb_MM_top.gmem_RLAST = axi_gmem_if.RLAST;
-    assign apatb_MM_top.gmem_RID = axi_gmem_if.RID;
-    assign apatb_MM_top.gmem_RUSER = axi_gmem_if.RUSER;
-    assign apatb_MM_top.gmem_RRESP = axi_gmem_if.RRESP;
-    assign apatb_MM_top.gmem_BVALID = axi_gmem_if.BVALID;
-    assign axi_gmem_if.BREADY = apatb_MM_top.gmem_BREADY;
-    assign apatb_MM_top.gmem_BRESP = axi_gmem_if.BRESP;
-    assign apatb_MM_top.gmem_BID = axi_gmem_if.BID;
-    assign apatb_MM_top.gmem_BUSER = axi_gmem_if.BUSER;
+    axi_if #(64,64,8,3,1)  axi_gmem0_if (.clk  (apatb_MM_top.AESL_clock), .rst(apatb_MM_top.AESL_reset));
+    assign axi_gmem0_if.AWVALID = apatb_MM_top.gmem0_AWVALID;
+    assign apatb_MM_top.gmem0_AWREADY = axi_gmem0_if.AWREADY;
+    assign axi_gmem0_if.AWADDR = apatb_MM_top.gmem0_AWADDR;
+    assign axi_gmem0_if.AWID = apatb_MM_top.gmem0_AWID;
+    assign axi_gmem0_if.AWLEN = apatb_MM_top.gmem0_AWLEN;
+    assign axi_gmem0_if.AWSIZE = apatb_MM_top.gmem0_AWSIZE;
+    assign axi_gmem0_if.AWBURST = apatb_MM_top.gmem0_AWBURST;
+    assign axi_gmem0_if.AWLOCK = apatb_MM_top.gmem0_AWLOCK;
+    assign axi_gmem0_if.AWCACHE = apatb_MM_top.gmem0_AWCACHE;
+    assign axi_gmem0_if.AWPROT = apatb_MM_top.gmem0_AWPROT;
+    assign axi_gmem0_if.AWQOS = apatb_MM_top.gmem0_AWQOS;
+    assign axi_gmem0_if.AWREGION = apatb_MM_top.gmem0_AWREGION;
+    assign axi_gmem0_if.AWUSER = apatb_MM_top.gmem0_AWUSER;
+    assign axi_gmem0_if.WVALID = apatb_MM_top.gmem0_WVALID;
+    assign apatb_MM_top.gmem0_WREADY = axi_gmem0_if.WREADY;
+    assign axi_gmem0_if.WDATA = apatb_MM_top.gmem0_WDATA;
+    assign axi_gmem0_if.WSTRB = apatb_MM_top.gmem0_WSTRB;
+    assign axi_gmem0_if.WLAST = apatb_MM_top.gmem0_WLAST;
+    assign axi_gmem0_if.WID = apatb_MM_top.gmem0_WID;
+    assign axi_gmem0_if.WUSER = apatb_MM_top.gmem0_WUSER;
+    assign axi_gmem0_if.ARVALID = apatb_MM_top.gmem0_ARVALID;
+    assign apatb_MM_top.gmem0_ARREADY = axi_gmem0_if.ARREADY;
+    assign axi_gmem0_if.ARADDR = apatb_MM_top.gmem0_ARADDR;
+    assign axi_gmem0_if.ARID = apatb_MM_top.gmem0_ARID;
+    assign axi_gmem0_if.ARLEN = apatb_MM_top.gmem0_ARLEN;
+    assign axi_gmem0_if.ARSIZE = apatb_MM_top.gmem0_ARSIZE;
+    assign axi_gmem0_if.ARBURST = apatb_MM_top.gmem0_ARBURST;
+    assign axi_gmem0_if.ARLOCK = apatb_MM_top.gmem0_ARLOCK;
+    assign axi_gmem0_if.ARCACHE = apatb_MM_top.gmem0_ARCACHE;
+    assign axi_gmem0_if.ARPROT = apatb_MM_top.gmem0_ARPROT;
+    assign axi_gmem0_if.ARQOS = apatb_MM_top.gmem0_ARQOS;
+    assign axi_gmem0_if.ARREGION = apatb_MM_top.gmem0_ARREGION;
+    assign axi_gmem0_if.ARUSER = apatb_MM_top.gmem0_ARUSER;
+    assign apatb_MM_top.gmem0_RVALID = axi_gmem0_if.RVALID;
+    assign axi_gmem0_if.RREADY = apatb_MM_top.gmem0_RREADY;
+    assign apatb_MM_top.gmem0_RDATA = axi_gmem0_if.RDATA;
+    assign apatb_MM_top.gmem0_RLAST = axi_gmem0_if.RLAST;
+    assign apatb_MM_top.gmem0_RID = axi_gmem0_if.RID;
+    assign apatb_MM_top.gmem0_RUSER = axi_gmem0_if.RUSER;
+    assign apatb_MM_top.gmem0_RRESP = axi_gmem0_if.RRESP;
+    assign apatb_MM_top.gmem0_BVALID = axi_gmem0_if.BVALID;
+    assign axi_gmem0_if.BREADY = apatb_MM_top.gmem0_BREADY;
+    assign apatb_MM_top.gmem0_BRESP = axi_gmem0_if.BRESP;
+    assign apatb_MM_top.gmem0_BID = axi_gmem0_if.BID;
+    assign apatb_MM_top.gmem0_BUSER = axi_gmem0_if.BUSER;
     initial begin
-        uvm_config_db #( virtual axi_if#(64,64,8,3,1) )::set(null, "uvm_test_top.top_env.axi_master_gmem.*", "vif", axi_gmem_if);
+        uvm_config_db #( virtual axi_if#(64,64,8,3,1) )::set(null, "uvm_test_top.top_env.axi_master_gmem0.*", "vif", axi_gmem0_if);
+    end
+
+
+    axi_if #(64,64,8,3,1)  axi_gmem1_if (.clk  (apatb_MM_top.AESL_clock), .rst(apatb_MM_top.AESL_reset));
+    assign axi_gmem1_if.AWVALID = apatb_MM_top.gmem1_AWVALID;
+    assign apatb_MM_top.gmem1_AWREADY = axi_gmem1_if.AWREADY;
+    assign axi_gmem1_if.AWADDR = apatb_MM_top.gmem1_AWADDR;
+    assign axi_gmem1_if.AWID = apatb_MM_top.gmem1_AWID;
+    assign axi_gmem1_if.AWLEN = apatb_MM_top.gmem1_AWLEN;
+    assign axi_gmem1_if.AWSIZE = apatb_MM_top.gmem1_AWSIZE;
+    assign axi_gmem1_if.AWBURST = apatb_MM_top.gmem1_AWBURST;
+    assign axi_gmem1_if.AWLOCK = apatb_MM_top.gmem1_AWLOCK;
+    assign axi_gmem1_if.AWCACHE = apatb_MM_top.gmem1_AWCACHE;
+    assign axi_gmem1_if.AWPROT = apatb_MM_top.gmem1_AWPROT;
+    assign axi_gmem1_if.AWQOS = apatb_MM_top.gmem1_AWQOS;
+    assign axi_gmem1_if.AWREGION = apatb_MM_top.gmem1_AWREGION;
+    assign axi_gmem1_if.AWUSER = apatb_MM_top.gmem1_AWUSER;
+    assign axi_gmem1_if.WVALID = apatb_MM_top.gmem1_WVALID;
+    assign apatb_MM_top.gmem1_WREADY = axi_gmem1_if.WREADY;
+    assign axi_gmem1_if.WDATA = apatb_MM_top.gmem1_WDATA;
+    assign axi_gmem1_if.WSTRB = apatb_MM_top.gmem1_WSTRB;
+    assign axi_gmem1_if.WLAST = apatb_MM_top.gmem1_WLAST;
+    assign axi_gmem1_if.WID = apatb_MM_top.gmem1_WID;
+    assign axi_gmem1_if.WUSER = apatb_MM_top.gmem1_WUSER;
+    assign axi_gmem1_if.ARVALID = apatb_MM_top.gmem1_ARVALID;
+    assign apatb_MM_top.gmem1_ARREADY = axi_gmem1_if.ARREADY;
+    assign axi_gmem1_if.ARADDR = apatb_MM_top.gmem1_ARADDR;
+    assign axi_gmem1_if.ARID = apatb_MM_top.gmem1_ARID;
+    assign axi_gmem1_if.ARLEN = apatb_MM_top.gmem1_ARLEN;
+    assign axi_gmem1_if.ARSIZE = apatb_MM_top.gmem1_ARSIZE;
+    assign axi_gmem1_if.ARBURST = apatb_MM_top.gmem1_ARBURST;
+    assign axi_gmem1_if.ARLOCK = apatb_MM_top.gmem1_ARLOCK;
+    assign axi_gmem1_if.ARCACHE = apatb_MM_top.gmem1_ARCACHE;
+    assign axi_gmem1_if.ARPROT = apatb_MM_top.gmem1_ARPROT;
+    assign axi_gmem1_if.ARQOS = apatb_MM_top.gmem1_ARQOS;
+    assign axi_gmem1_if.ARREGION = apatb_MM_top.gmem1_ARREGION;
+    assign axi_gmem1_if.ARUSER = apatb_MM_top.gmem1_ARUSER;
+    assign apatb_MM_top.gmem1_RVALID = axi_gmem1_if.RVALID;
+    assign axi_gmem1_if.RREADY = apatb_MM_top.gmem1_RREADY;
+    assign apatb_MM_top.gmem1_RDATA = axi_gmem1_if.RDATA;
+    assign apatb_MM_top.gmem1_RLAST = axi_gmem1_if.RLAST;
+    assign apatb_MM_top.gmem1_RID = axi_gmem1_if.RID;
+    assign apatb_MM_top.gmem1_RUSER = axi_gmem1_if.RUSER;
+    assign apatb_MM_top.gmem1_RRESP = axi_gmem1_if.RRESP;
+    assign apatb_MM_top.gmem1_BVALID = axi_gmem1_if.BVALID;
+    assign axi_gmem1_if.BREADY = apatb_MM_top.gmem1_BREADY;
+    assign apatb_MM_top.gmem1_BRESP = axi_gmem1_if.BRESP;
+    assign apatb_MM_top.gmem1_BID = axi_gmem1_if.BID;
+    assign apatb_MM_top.gmem1_BUSER = axi_gmem1_if.BUSER;
+    initial begin
+        uvm_config_db #( virtual axi_if#(64,64,8,3,1) )::set(null, "uvm_test_top.top_env.axi_master_gmem1.*", "vif", axi_gmem1_if);
+    end
+
+
+    axi_if #(64,4,8,3,1)  axi_gmem2_if (.clk  (apatb_MM_top.AESL_clock), .rst(apatb_MM_top.AESL_reset));
+    assign axi_gmem2_if.AWVALID = apatb_MM_top.gmem2_AWVALID;
+    assign apatb_MM_top.gmem2_AWREADY = axi_gmem2_if.AWREADY;
+    assign axi_gmem2_if.AWADDR = apatb_MM_top.gmem2_AWADDR;
+    assign axi_gmem2_if.AWID = apatb_MM_top.gmem2_AWID;
+    assign axi_gmem2_if.AWLEN = apatb_MM_top.gmem2_AWLEN;
+    assign axi_gmem2_if.AWSIZE = apatb_MM_top.gmem2_AWSIZE;
+    assign axi_gmem2_if.AWBURST = apatb_MM_top.gmem2_AWBURST;
+    assign axi_gmem2_if.AWLOCK = apatb_MM_top.gmem2_AWLOCK;
+    assign axi_gmem2_if.AWCACHE = apatb_MM_top.gmem2_AWCACHE;
+    assign axi_gmem2_if.AWPROT = apatb_MM_top.gmem2_AWPROT;
+    assign axi_gmem2_if.AWQOS = apatb_MM_top.gmem2_AWQOS;
+    assign axi_gmem2_if.AWREGION = apatb_MM_top.gmem2_AWREGION;
+    assign axi_gmem2_if.AWUSER = apatb_MM_top.gmem2_AWUSER;
+    assign axi_gmem2_if.WVALID = apatb_MM_top.gmem2_WVALID;
+    assign apatb_MM_top.gmem2_WREADY = axi_gmem2_if.WREADY;
+    assign axi_gmem2_if.WDATA = apatb_MM_top.gmem2_WDATA;
+    assign axi_gmem2_if.WSTRB = apatb_MM_top.gmem2_WSTRB;
+    assign axi_gmem2_if.WLAST = apatb_MM_top.gmem2_WLAST;
+    assign axi_gmem2_if.WID = apatb_MM_top.gmem2_WID;
+    assign axi_gmem2_if.WUSER = apatb_MM_top.gmem2_WUSER;
+    assign axi_gmem2_if.ARVALID = apatb_MM_top.gmem2_ARVALID;
+    assign apatb_MM_top.gmem2_ARREADY = axi_gmem2_if.ARREADY;
+    assign axi_gmem2_if.ARADDR = apatb_MM_top.gmem2_ARADDR;
+    assign axi_gmem2_if.ARID = apatb_MM_top.gmem2_ARID;
+    assign axi_gmem2_if.ARLEN = apatb_MM_top.gmem2_ARLEN;
+    assign axi_gmem2_if.ARSIZE = apatb_MM_top.gmem2_ARSIZE;
+    assign axi_gmem2_if.ARBURST = apatb_MM_top.gmem2_ARBURST;
+    assign axi_gmem2_if.ARLOCK = apatb_MM_top.gmem2_ARLOCK;
+    assign axi_gmem2_if.ARCACHE = apatb_MM_top.gmem2_ARCACHE;
+    assign axi_gmem2_if.ARPROT = apatb_MM_top.gmem2_ARPROT;
+    assign axi_gmem2_if.ARQOS = apatb_MM_top.gmem2_ARQOS;
+    assign axi_gmem2_if.ARREGION = apatb_MM_top.gmem2_ARREGION;
+    assign axi_gmem2_if.ARUSER = apatb_MM_top.gmem2_ARUSER;
+    assign apatb_MM_top.gmem2_RVALID = axi_gmem2_if.RVALID;
+    assign axi_gmem2_if.RREADY = apatb_MM_top.gmem2_RREADY;
+    assign apatb_MM_top.gmem2_RDATA = axi_gmem2_if.RDATA;
+    assign apatb_MM_top.gmem2_RLAST = axi_gmem2_if.RLAST;
+    assign apatb_MM_top.gmem2_RID = axi_gmem2_if.RID;
+    assign apatb_MM_top.gmem2_RUSER = axi_gmem2_if.RUSER;
+    assign apatb_MM_top.gmem2_RRESP = axi_gmem2_if.RRESP;
+    assign apatb_MM_top.gmem2_BVALID = axi_gmem2_if.BVALID;
+    assign axi_gmem2_if.BREADY = apatb_MM_top.gmem2_BREADY;
+    assign apatb_MM_top.gmem2_BRESP = axi_gmem2_if.BRESP;
+    assign apatb_MM_top.gmem2_BID = axi_gmem2_if.BID;
+    assign apatb_MM_top.gmem2_BUSER = axi_gmem2_if.BUSER;
+    initial begin
+        uvm_config_db #( virtual axi_if#(64,4,8,3,1) )::set(null, "uvm_test_top.top_env.axi_master_gmem2.*", "vif", axi_gmem2_if);
+    end
+
+
+    axi_if #(64,64,8,3,1)  axi_gmem3_if (.clk  (apatb_MM_top.AESL_clock), .rst(apatb_MM_top.AESL_reset));
+    assign axi_gmem3_if.AWVALID = apatb_MM_top.gmem3_AWVALID;
+    assign apatb_MM_top.gmem3_AWREADY = axi_gmem3_if.AWREADY;
+    assign axi_gmem3_if.AWADDR = apatb_MM_top.gmem3_AWADDR;
+    assign axi_gmem3_if.AWID = apatb_MM_top.gmem3_AWID;
+    assign axi_gmem3_if.AWLEN = apatb_MM_top.gmem3_AWLEN;
+    assign axi_gmem3_if.AWSIZE = apatb_MM_top.gmem3_AWSIZE;
+    assign axi_gmem3_if.AWBURST = apatb_MM_top.gmem3_AWBURST;
+    assign axi_gmem3_if.AWLOCK = apatb_MM_top.gmem3_AWLOCK;
+    assign axi_gmem3_if.AWCACHE = apatb_MM_top.gmem3_AWCACHE;
+    assign axi_gmem3_if.AWPROT = apatb_MM_top.gmem3_AWPROT;
+    assign axi_gmem3_if.AWQOS = apatb_MM_top.gmem3_AWQOS;
+    assign axi_gmem3_if.AWREGION = apatb_MM_top.gmem3_AWREGION;
+    assign axi_gmem3_if.AWUSER = apatb_MM_top.gmem3_AWUSER;
+    assign axi_gmem3_if.WVALID = apatb_MM_top.gmem3_WVALID;
+    assign apatb_MM_top.gmem3_WREADY = axi_gmem3_if.WREADY;
+    assign axi_gmem3_if.WDATA = apatb_MM_top.gmem3_WDATA;
+    assign axi_gmem3_if.WSTRB = apatb_MM_top.gmem3_WSTRB;
+    assign axi_gmem3_if.WLAST = apatb_MM_top.gmem3_WLAST;
+    assign axi_gmem3_if.WID = apatb_MM_top.gmem3_WID;
+    assign axi_gmem3_if.WUSER = apatb_MM_top.gmem3_WUSER;
+    assign axi_gmem3_if.ARVALID = apatb_MM_top.gmem3_ARVALID;
+    assign apatb_MM_top.gmem3_ARREADY = axi_gmem3_if.ARREADY;
+    assign axi_gmem3_if.ARADDR = apatb_MM_top.gmem3_ARADDR;
+    assign axi_gmem3_if.ARID = apatb_MM_top.gmem3_ARID;
+    assign axi_gmem3_if.ARLEN = apatb_MM_top.gmem3_ARLEN;
+    assign axi_gmem3_if.ARSIZE = apatb_MM_top.gmem3_ARSIZE;
+    assign axi_gmem3_if.ARBURST = apatb_MM_top.gmem3_ARBURST;
+    assign axi_gmem3_if.ARLOCK = apatb_MM_top.gmem3_ARLOCK;
+    assign axi_gmem3_if.ARCACHE = apatb_MM_top.gmem3_ARCACHE;
+    assign axi_gmem3_if.ARPROT = apatb_MM_top.gmem3_ARPROT;
+    assign axi_gmem3_if.ARQOS = apatb_MM_top.gmem3_ARQOS;
+    assign axi_gmem3_if.ARREGION = apatb_MM_top.gmem3_ARREGION;
+    assign axi_gmem3_if.ARUSER = apatb_MM_top.gmem3_ARUSER;
+    assign apatb_MM_top.gmem3_RVALID = axi_gmem3_if.RVALID;
+    assign axi_gmem3_if.RREADY = apatb_MM_top.gmem3_RREADY;
+    assign apatb_MM_top.gmem3_RDATA = axi_gmem3_if.RDATA;
+    assign apatb_MM_top.gmem3_RLAST = axi_gmem3_if.RLAST;
+    assign apatb_MM_top.gmem3_RID = axi_gmem3_if.RID;
+    assign apatb_MM_top.gmem3_RUSER = axi_gmem3_if.RUSER;
+    assign apatb_MM_top.gmem3_RRESP = axi_gmem3_if.RRESP;
+    assign apatb_MM_top.gmem3_BVALID = axi_gmem3_if.BVALID;
+    assign axi_gmem3_if.BREADY = apatb_MM_top.gmem3_BREADY;
+    assign apatb_MM_top.gmem3_BRESP = axi_gmem3_if.BRESP;
+    assign apatb_MM_top.gmem3_BID = axi_gmem3_if.BID;
+    assign apatb_MM_top.gmem3_BUSER = axi_gmem3_if.BUSER;
+    initial begin
+        uvm_config_db #( virtual axi_if#(64,64,8,3,1) )::set(null, "uvm_test_top.top_env.axi_master_gmem3.*", "vif", axi_gmem3_if);
     end
 
 

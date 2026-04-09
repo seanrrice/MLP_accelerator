@@ -1,388 +1,298 @@
 ---
-MainSourceFile:  'Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.pp.0.cpp'
-Diagnostics:
+MainSourceFile:  'C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.pp.0.cpp'
+Diagnostics:     
   - DiagnosticName:  xilinx-label-all-loops
-    DiagnosticMessage:
-      Message:         'Added loop label VITIS_LOOP_176_1:  '
-      FilePath:        'T:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\hls_vector.h'
-      FileOffset:      176
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1402298
-          Length:          0
-          ReplacementText: 'VITIS_LOOP_176_1: '
-    Level:           Remark
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         'Added loop label VITIS_LOOP_133_1:  '
+    FileOffset:      133
+    FilePath:        'C:\Xilinx\2025.1\Vitis\common\technology\autopilot\hls_vector.h'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1196326
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_133_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    DiagnosticMessage:
-      Message:         'Added loop label VITIS_LOOP_192_1:  '
-      FilePath:        'T:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\hls_vector.h'
-      FileOffset:      192
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1402780
-          Length:          0
-          ReplacementText: 'VITIS_LOOP_192_1: '
-    Level:           Remark
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         'Added loop label VITIS_LOOP_149_1:  '
+    FileOffset:      149
+    FilePath:        'C:\Xilinx\2025.1\Vitis\common\technology\autopilot\hls_vector.h'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1196773
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_149_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    DiagnosticMessage:
-      Message:         'Added loop label VITIS_LOOP_206_1:  '
-      FilePath:        'T:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\hls_vector.h'
-      FileOffset:      206
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1403171
-          Length:          0
-          ReplacementText: 'VITIS_LOOP_206_1: '
-    Level:           Remark
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         'Added loop label VITIS_LOOP_175_1:  '
+    FileOffset:      175
+    FilePath:        'C:\Xilinx\2025.1\Vitis\common\technology\autopilot\hls_vector.h'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1197287
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_175_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    DiagnosticMessage:
-      Message:         'Added loop label VITIS_LOOP_232_1:  '
-      FilePath:        'T:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\hls_vector.h'
-      FileOffset:      232
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1403721
-          Length:          0
-          ReplacementText: 'VITIS_LOOP_232_1: '
-    Level:           Remark
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         'Added loop label VITIS_LOOP_176_1:  '
+    FileOffset:      176
+    FilePath:        'C:\Xilinx\2025.1\Vitis\common\technology\autopilot\hls_vector.h'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1197590
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_176_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    DiagnosticMessage:
-      Message:         'Added loop label VITIS_LOOP_233_1:  '
-      FilePath:        'T:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\hls_vector.h'
-      FileOffset:      233
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1404067
-          Length:          0
-          ReplacementText: 'VITIS_LOOP_233_1: '
-    Level:           Remark
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         'Added loop label VITIS_LOOP_204_1:  '
+    FileOffset:      204
+    FilePath:        'C:\Xilinx\2025.1\Vitis\common\technology\autopilot\hls_vector.h'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1198364
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_204_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    DiagnosticMessage:
-      Message:         'Added loop label VITIS_LOOP_261_1:  '
-      FilePath:        'T:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\hls_vector.h'
-      FileOffset:      261
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1404900
-          Length:          0
-          ReplacementText: 'VITIS_LOOP_261_1: '
-    Level:           Remark
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         'Added loop label VITIS_LOOP_205_1:  '
+    FileOffset:      205
+    FilePath:        'C:\Xilinx\2025.1\Vitis\common\technology\autopilot\hls_vector.h'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1198705
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_205_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    DiagnosticMessage:
-      Message:         'Added loop label VITIS_LOOP_262_1:  '
-      FilePath:        'T:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\hls_vector.h'
-      FileOffset:      262
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1405284
-          Length:          0
-          ReplacementText: 'VITIS_LOOP_262_1: '
-    Level:           Remark
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         'Added loop label VITIS_LOOP_206_1:  '
+    FileOffset:      206
+    FilePath:        'C:\Xilinx\2025.1\Vitis\common\technology\autopilot\hls_vector.h'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1199046
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_206_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    DiagnosticMessage:
-      Message:         'Added loop label VITIS_LOOP_263_1:  '
-      FilePath:        'T:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\hls_vector.h'
-      FileOffset:      263
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1405668
-          Length:          0
-          ReplacementText: 'VITIS_LOOP_263_1: '
-    Level:           Remark
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         'Added loop label VITIS_LOOP_207_1:  '
+    FileOffset:      207
+    FilePath:        'C:\Xilinx\2025.1\Vitis\common\technology\autopilot\hls_vector.h'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1199387
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_207_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    DiagnosticMessage:
-      Message:         'Added loop label VITIS_LOOP_264_1:  '
-      FilePath:        'T:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\hls_vector.h'
-      FileOffset:      264
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1406052
-          Length:          0
-          ReplacementText: 'VITIS_LOOP_264_1: '
-    Level:           Remark
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         'Added loop label VITIS_LOOP_208_1:  '
+    FileOffset:      208
+    FilePath:        'C:\Xilinx\2025.1\Vitis\common\technology\autopilot\hls_vector.h'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1199728
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_208_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    DiagnosticMessage:
-      Message:         'Added loop label VITIS_LOOP_265_1:  '
-      FilePath:        'T:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\hls_vector.h'
-      FileOffset:      265
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1406436
-          Length:          0
-          ReplacementText: 'VITIS_LOOP_265_1: '
-    Level:           Remark
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         'Added loop label VITIS_LOOP_209_1:  '
+    FileOffset:      209
+    FilePath:        'C:\Xilinx\2025.1\Vitis\common\technology\autopilot\hls_vector.h'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1200069
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_209_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    DiagnosticMessage:
-      Message:         'Added loop label VITIS_LOOP_266_1:  '
-      FilePath:        'T:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\hls_vector.h'
-      FileOffset:      266
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1406820
-          Length:          0
-          ReplacementText: 'VITIS_LOOP_266_1: '
-    Level:           Remark
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         'Added loop label VITIS_LOOP_210_1:  '
+    FileOffset:      210
+    FilePath:        'C:\Xilinx\2025.1\Vitis\common\technology\autopilot\hls_vector.h'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1200410
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_210_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    DiagnosticMessage:
-      Message:         'Added loop label VITIS_LOOP_267_1:  '
-      FilePath:        'T:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\hls_vector.h'
-      FileOffset:      267
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1407204
-          Length:          0
-          ReplacementText: 'VITIS_LOOP_267_1: '
-    Level:           Remark
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         'Added loop label VITIS_LOOP_211_1:  '
+    FileOffset:      211
+    FilePath:        'C:\Xilinx\2025.1\Vitis\common\technology\autopilot\hls_vector.h'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1200751
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_211_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    DiagnosticMessage:
-      Message:         'Added loop label VITIS_LOOP_268_1:  '
-      FilePath:        'T:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\hls_vector.h'
-      FileOffset:      268
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1407588
-          Length:          0
-          ReplacementText: 'VITIS_LOOP_268_1: '
-    Level:           Remark
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         'Added loop label VITIS_LOOP_212_1:  '
+    FileOffset:      212
+    FilePath:        'C:\Xilinx\2025.1\Vitis\common\technology\autopilot\hls_vector.h'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1201093
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_212_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    DiagnosticMessage:
-      Message:         'Added loop label VITIS_LOOP_269_1:  '
-      FilePath:        'T:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\hls_vector.h'
-      FileOffset:      269
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1407973
-          Length:          0
-          ReplacementText: 'VITIS_LOOP_269_1: '
-    Level:           Remark
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         'Added loop label VITIS_LOOP_213_1:  '
+    FileOffset:      213
+    FilePath:        'C:\Xilinx\2025.1\Vitis\common\technology\autopilot\hls_vector.h'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1201436
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_213_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    DiagnosticMessage:
-      Message:         'Added loop label VITIS_LOOP_270_1:  '
-      FilePath:        'T:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\hls_vector.h'
-      FileOffset:      270
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1408359
-          Length:          0
-          ReplacementText: 'VITIS_LOOP_270_1: '
-    Level:           Remark
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         'Added loop label VITIS_LOOP_228_1:  '
+    FileOffset:      228
+    FilePath:        'C:\Xilinx\2025.1\Vitis\common\technology\autopilot\hls_vector.h'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1201836
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_228_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    DiagnosticMessage:
-      Message:         'Added loop label VITIS_LOOP_285_1:  '
-      FilePath:        'T:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\hls_vector.h'
-      FileOffset:      285
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1408812
-          Length:          0
-          ReplacementText: 'VITIS_LOOP_285_1: '
-    Level:           Remark
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         'Added loop label VITIS_LOOP_229_1:  '
+    FileOffset:      229
+    FilePath:        'C:\Xilinx\2025.1\Vitis\common\technology\autopilot\hls_vector.h'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1202158
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_229_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    DiagnosticMessage:
-      Message:         'Added loop label VITIS_LOOP_286_1:  '
-      FilePath:        'T:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\hls_vector.h'
-      FileOffset:      286
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1409179
-          Length:          0
-          ReplacementText: 'VITIS_LOOP_286_1: '
-    Level:           Remark
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         'Added loop label VITIS_LOOP_230_1:  '
+    FileOffset:      230
+    FilePath:        'C:\Xilinx\2025.1\Vitis\common\technology\autopilot\hls_vector.h'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1202479
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_230_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    DiagnosticMessage:
-      Message:         'Added loop label VITIS_LOOP_287_1:  '
-      FilePath:        'T:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\hls_vector.h'
-      FileOffset:      287
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1409545
-          Length:          0
-          ReplacementText: 'VITIS_LOOP_287_1: '
-    Level:           Remark
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         'Added loop label VITIS_LOOP_231_1:  '
+    FileOffset:      231
+    FilePath:        'C:\Xilinx\2025.1\Vitis\common\technology\autopilot\hls_vector.h'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1202799
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_231_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    DiagnosticMessage:
-      Message:         'Added loop label VITIS_LOOP_288_1:  '
-      FilePath:        'T:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\hls_vector.h'
-      FileOffset:      288
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1409910
-          Length:          0
-          ReplacementText: 'VITIS_LOOP_288_1: '
-    Level:           Remark
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         'Added loop label VITIS_LOOP_232_1:  '
+    FileOffset:      232
+    FilePath:        'C:\Xilinx\2025.1\Vitis\common\technology\autopilot\hls_vector.h'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1203120
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_232_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    DiagnosticMessage:
-      Message:         'Added loop label VITIS_LOOP_289_1:  '
-      FilePath:        'T:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\hls_vector.h'
-      FileOffset:      289
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1410276
-          Length:          0
-          ReplacementText: 'VITIS_LOOP_289_1: '
-    Level:           Remark
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         'Added loop label VITIS_LOOP_262_1:  '
+    FileOffset:      262
+    FilePath:        'C:\Xilinx\2025.1\Vitis\common\technology\autopilot\hls_vector.h'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1203555
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_262_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    DiagnosticMessage:
-      Message:         'Added loop label VITIS_LOOP_320_1:  '
-      FilePath:        'T:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\hls_vector.h'
-      FileOffset:      320
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1410762
-          Length:          0
-          ReplacementText: 'VITIS_LOOP_320_1: '
-    Level:           Remark
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         'Added loop label VITIS_LOOP_263_1:  '
+    FileOffset:      263
+    FilePath:        'C:\Xilinx\2025.1\Vitis\common\technology\autopilot\hls_vector.h'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1203964
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_263_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    DiagnosticMessage:
-      Message:         'Added loop label VITIS_LOOP_321_1:  '
-      FilePath:        'T:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\hls_vector.h'
-      FileOffset:      321
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1411216
-          Length:          0
-          ReplacementText: 'VITIS_LOOP_321_1: '
-    Level:           Remark
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         'Added loop label VITIS_LOOP_264_1:  '
+    FileOffset:      264
+    FilePath:        'C:\Xilinx\2025.1\Vitis\common\technology\autopilot\hls_vector.h'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1204375
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_264_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    DiagnosticMessage:
-      Message:         'Added loop label VITIS_LOOP_322_1:  '
-      FilePath:        'T:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\hls_vector.h'
-      FileOffset:      322
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1411672
-          Length:          0
-          ReplacementText: 'VITIS_LOOP_322_1: '
-    Level:           Remark
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         'Added loop label VITIS_LOOP_265_1:  '
+    FileOffset:      265
+    FilePath:        'C:\Xilinx\2025.1\Vitis\common\technology\autopilot\hls_vector.h'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1204786
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_265_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    DiagnosticMessage:
-      Message:         'Added loop label VITIS_LOOP_323_1:  '
-      FilePath:        'T:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\hls_vector.h'
-      FileOffset:      323
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1412128
-          Length:          0
-          ReplacementText: 'VITIS_LOOP_323_1: '
-    Level:           Remark
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         'Added loop label VITIS_LOOP_266_1:  '
+    FileOffset:      266
+    FilePath:        'C:\Xilinx\2025.1\Vitis\common\technology\autopilot\hls_vector.h'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1205197
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_266_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    DiagnosticMessage:
-      Message:         'Added loop label VITIS_LOOP_324_1:  '
-      FilePath:        'T:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\hls_vector.h'
-      FileOffset:      324
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1412584
-          Length:          0
-          ReplacementText: 'VITIS_LOOP_324_1: '
-    Level:           Remark
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         'Added loop label VITIS_LOOP_267_1:  '
+    FileOffset:      267
+    FilePath:        'C:\Xilinx\2025.1\Vitis\common\technology\autopilot\hls_vector.h'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1205607
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_267_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    DiagnosticMessage:
-      Message:         'Added loop label VITIS_LOOP_325_1:  '
-      FilePath:        'T:\AMDDesignTools\2025.2\Vitis\common\technology\autopilot\hls_vector.h'
-      FileOffset:      325
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1413039
-          Length:          0
-          ReplacementText: 'VITIS_LOOP_325_1: '
-    Level:           Remark
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         'Added loop label VITIS_LOOP_72_1:  '
+    FileOffset:      72
+    FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\mm.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1213402
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_72_1: '
   - DiagnosticName:  xilinx-aggregate-on-hls-vector
-    DiagnosticMessage:
-      Message:         ' hls::vector type top function variable AT requires aggregation'
-      FilePath:        'T:\Documents\ECE574\Labs\MLP_accelerator\MLP_baseline\mm.cpp'
-      FileOffset:      6
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1415839
-          Length:          0
-          ReplacementText: "\n#pragma HLS aggregate variable = AT\n"
-    Level:           Warning
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         ' hls::vector type top function variable AT requires aggregation'
+    FileOffset:      137
+    FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\mm.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1215141
+        Length:          0
+        ReplacementText: '
+#pragma HLS aggregate variable = AT
+'
   - DiagnosticName:  xilinx-aggregate-on-hls-vector
-    DiagnosticMessage:
-      Message:         ' hls::vector type top function variable AT requires align attribute'
-      FilePath:        'T:\Documents\ECE574\Labs\MLP_accelerator\MLP_baseline\mm.cpp'
-      FileOffset:      6
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1415773
-          Length:          0
-          ReplacementText: ' __attribute__((align_value(alignof(WIDE_DTYPE)))) '
-    Level:           Warning
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         ' hls::vector type top function variable AT requires align attribute'
+    FileOffset:      137
+    FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\mm.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1215075
+        Length:          0
+        ReplacementText: ' __attribute__((align_value(alignof(WIDE_DTYPE)))) '
   - DiagnosticName:  xilinx-aggregate-on-hls-vector
-    DiagnosticMessage:
-      Message:         ' hls::vector type top function variable B requires aggregation'
-      FilePath:        'T:\Documents\ECE574\Labs\MLP_accelerator\MLP_baseline\mm.cpp'
-      FileOffset:      6
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1415839
-          Length:          0
-          ReplacementText: "\n#pragma HLS aggregate variable = B\n"
-    Level:           Warning
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         ' hls::vector type top function variable B requires aggregation'
+    FileOffset:      137
+    FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\mm.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1215141
+        Length:          0
+        ReplacementText: '
+#pragma HLS aggregate variable = B
+'
   - DiagnosticName:  xilinx-aggregate-on-hls-vector
-    DiagnosticMessage:
-      Message:         ' hls::vector type top function variable B requires align attribute'
-      FilePath:        'T:\Documents\ECE574\Labs\MLP_accelerator\MLP_baseline\mm.cpp'
-      FileOffset:      6
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1415788
-          Length:          0
-          ReplacementText: ' __attribute__((align_value(alignof(WIDE_DTYPE)))) '
-    Level:           Warning
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         ' hls::vector type top function variable B requires align attribute'
+    FileOffset:      137
+    FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\mm.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1215090
+        Length:          0
+        ReplacementText: ' __attribute__((align_value(alignof(WIDE_DTYPE)))) '
   - DiagnosticName:  xilinx-aggregate-on-hls-vector
-    DiagnosticMessage:
-      Message:         ' hls::vector type top function variable ABC requires aggregation'
-      FilePath:        'T:\Documents\ECE574\Labs\MLP_accelerator\MLP_baseline\mm.cpp'
-      FileOffset:      6
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1415839
-          Length:          0
-          ReplacementText: "\n#pragma HLS aggregate variable = ABC\n"
-    Level:           Warning
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         ' hls::vector type top function variable ABC requires aggregation'
+    FileOffset:      137
+    FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\mm.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1215141
+        Length:          0
+        ReplacementText: '
+#pragma HLS aggregate variable = ABC
+'
   - DiagnosticName:  xilinx-aggregate-on-hls-vector
-    DiagnosticMessage:
-      Message:         ' hls::vector type top function variable ABC requires align attribute'
-      FilePath:        'T:\Documents\ECE574\Labs\MLP_accelerator\MLP_baseline\mm.cpp'
-      FileOffset:      6
-      Replacements:
-        - FilePath:        'Z:\Labs\clab\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-          Offset:          1415815
-          Length:          0
-          ReplacementText: ' __attribute__((align_value(alignof(WIDE_DTYPE)))) '
-    Level:           Warning
-    BuildDirectory:  'Z:\Labs\clab\baseline_blockedMM'
+    Message:         ' hls::vector type top function variable ABC requires align attribute'
+    FileOffset:      137
+    FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\mm.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1215117
+        Length:          0
+        ReplacementText: ' __attribute__((align_value(alignof(WIDE_DTYPE)))) '
 ...

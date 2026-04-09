@@ -129,12 +129,6 @@
                 "for": "node"
             },
             {
-                "abrv": "PT",
-                "name": "peripheral_type",
-                "type": "string",
-                "for": "node"
-            },
-            {
                 "abrv": "EH",
                 "name": "edge_hid",
                 "type": "int",
@@ -218,13 +212,67 @@
                 "HA": "0x0000000044A0FFFF",
                 "BP": "C_BASEADDR",
                 "HP": "C_HIGHADDR",
-                "MA": "Data_m_axi_gmem",
+                "MA": "Data_m_axi_gmem0",
                 "MX": "/hls_inst",
-                "MI": "m_axi_gmem",
-                "MS": "SEG_m_axi_gmem_Reg",
+                "MI": "m_axi_gmem0",
+                "MS": "SEG_m_axi_gmem0_Reg",
                 "MV": "xilinx.com:hls:MM:1.0",
                 "SX": "/",
-                "SI": "m_axi_gmem",
+                "SI": "m_axi_gmem0",
+                "SS": "Reg",
+                "SV": "::bd_0_imp:",
+                "TM": "both",
+                "TU": "register"
+            },
+            "V5": {
+                "VT": "AC",
+                "BA": "0x0000000044A00000",
+                "HA": "0x0000000044A0FFFF",
+                "BP": "C_BASEADDR",
+                "HP": "C_HIGHADDR",
+                "MA": "Data_m_axi_gmem1",
+                "MX": "/hls_inst",
+                "MI": "m_axi_gmem1",
+                "MS": "SEG_m_axi_gmem1_Reg",
+                "MV": "xilinx.com:hls:MM:1.0",
+                "SX": "/",
+                "SI": "m_axi_gmem1",
+                "SS": "Reg",
+                "SV": "::bd_0_imp:",
+                "TM": "both",
+                "TU": "register"
+            },
+            "V6": {
+                "VT": "AC",
+                "BA": "0x0000000044A00000",
+                "HA": "0x0000000044A0FFFF",
+                "BP": "C_BASEADDR",
+                "HP": "C_HIGHADDR",
+                "MA": "Data_m_axi_gmem2",
+                "MX": "/hls_inst",
+                "MI": "m_axi_gmem2",
+                "MS": "SEG_m_axi_gmem2_Reg",
+                "MV": "xilinx.com:hls:MM:1.0",
+                "SX": "/",
+                "SI": "m_axi_gmem2",
+                "SS": "Reg",
+                "SV": "::bd_0_imp:",
+                "TM": "both",
+                "TU": "register"
+            },
+            "V7": {
+                "VT": "AC",
+                "BA": "0x0000000044A00000",
+                "HA": "0x0000000044A0FFFF",
+                "BP": "C_BASEADDR",
+                "HP": "C_HIGHADDR",
+                "MA": "Data_m_axi_gmem3",
+                "MX": "/hls_inst",
+                "MI": "m_axi_gmem3",
+                "MS": "SEG_m_axi_gmem3_Reg",
+                "MV": "xilinx.com:hls:MM:1.0",
+                "SX": "/",
+                "SI": "m_axi_gmem3",
                 "SS": "Reg",
                 "SV": "::bd_0_imp:",
                 "TM": "both",
@@ -247,6 +295,21 @@
             },
             {
                 "src": "V4",
+                "trg": "V2",
+                "EH": "2"
+            },
+            {
+                "src": "V5",
+                "trg": "V2",
+                "EH": "2"
+            },
+            {
+                "src": "V6",
+                "trg": "V2",
+                "EH": "2"
+            },
+            {
+                "src": "V7",
                 "trg": "V2",
                 "EH": "2"
             }

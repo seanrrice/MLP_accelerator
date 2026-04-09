@@ -1,6 +1,6 @@
 # ==============================================================
-# Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.2 (64-bit)
-# Tool Version Limit: 2025.11
+# Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.1 (64-bit)
+# Tool Version Limit: 2025.05
 # Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 # Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 # 
@@ -48,9 +48,9 @@ dict set report_options language $language
 dict set report_options clock_name $clock
 dict set report_options error_if_impl_timing_fails false
 dict set report_options topmodule "MM"
-dict set report_options funcmodules MM_MM_Pipeline_i_loop
-dict set report_options bindmodules {MM_mul_32s_32s_32_1_1 MM_sparsemux_33_4_32_1_1 MM_flow_control_loop_pipe_sequential_init MM_mul_31ns_32s_32_1_1 MM_gmem_m_axi MM_control_s_axi}
-dict set report_options max_module_depth 6
+dict set report_options funcmodules {MM_entry_proc MM_readAtTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop MM_readAtTiles MM_readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop MM_readBTiles MM_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop MM_computeTiles_Pipeline_j_output_loop MM_computeTiles MM_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop MM_writeTiles}
+dict set report_options bindmodules {MM_mul_32s_32s_32_1_1 MM_flow_control_loop_pipe_sequential_init MM_mul_27ns_31ns_58_1_1 MM_mul_27ns_58ns_85_2_1 MM_sparsemux_33_4_32_1_1 MM_fifo_w64_d4_S MM_fifo_w512_d32_A MM_fifo_w32_d2_S MM_start_for_writeTiles_U0 MM_gmem0_m_axi MM_gmem1_m_axi MM_gmem2_m_axi MM_gmem3_m_axi MM_control_s_axi}
+dict set report_options max_module_depth 7
 
 
 create_project $vivado_proj_name $vivado_proj_dir -part $target_device -force

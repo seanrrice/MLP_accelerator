@@ -1,4 +1,4 @@
-; ModuleID = 'Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.5.gdce.bc'
+; ModuleID = 'C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.5.gdce.bc'
 source_filename = "llvm-link"
 target datalayout = "e-m:e-i64:64-i128:128-i256:256-i512:512-i1024:1024-i2048:2048-i4096:4096-n8:16:32:64-S128-v16:16-v24:32-v32:32-v48:64-v96:128-v192:256-v256:256-v512:512-v1024:1024"
 target triple = "fpga64-xilinx-none"
@@ -153,10 +153,10 @@ ret:                                              ; preds = %copy.split, %entry
 ; Function Attrs: argmemonly noinline norecurse willreturn
 define internal fastcc void @copy_out([64 x %"class.hls::vector<int, 16>"]* align 64, [64 x i512]* readonly, [64 x %"class.hls::vector<int, 16>"]* align 64, [64 x i512]* readonly, [32 x i32]*, [32 x i32]* readonly align 512, [64 x %"class.hls::vector<int, 16>"]* align 64, [64 x i512]* readonly) unnamed_addr #4 {
 entry:
-  call fastcc void @"onebyonecpy_hls.p0a64class.hls::vector<int, 16>.8"([64 x %"class.hls::vector<int, 16>"]* align 64 %0, [64 x i512]* %1)
-  call fastcc void @"onebyonecpy_hls.p0a64class.hls::vector<int, 16>.8"([64 x %"class.hls::vector<int, 16>"]* align 64 %2, [64 x i512]* %3)
+  call fastcc void @"onebyonecpy_hls.p0a64class.hls::vector<int, 16>.19"([64 x %"class.hls::vector<int, 16>"]* align 64 %0, [64 x i512]* %1)
+  call fastcc void @"onebyonecpy_hls.p0a64class.hls::vector<int, 16>.19"([64 x %"class.hls::vector<int, 16>"]* align 64 %2, [64 x i512]* %3)
   call fastcc void @onebyonecpy_hls.p0a32i32([32 x i32]* %4, [32 x i32]* align 512 %5)
-  call fastcc void @"onebyonecpy_hls.p0a64class.hls::vector<int, 16>.8"([64 x %"class.hls::vector<int, 16>"]* align 64 %6, [64 x i512]* %7)
+  call fastcc void @"onebyonecpy_hls.p0a64class.hls::vector<int, 16>.19"([64 x %"class.hls::vector<int, 16>"]* align 64 %6, [64 x i512]* %7)
   ret void
 }
 
@@ -165,7 +165,7 @@ declare i8* @malloc(i64) local_unnamed_addr
 declare void @free(i8*) local_unnamed_addr
 
 ; Function Attrs: argmemonly noinline norecurse willreturn
-define internal fastcc void @"onebyonecpy_hls.p0a64class.hls::vector<int, 16>.8"([64 x %"class.hls::vector<int, 16>"]* align 64 %dst, [64 x i512]* readonly %src) unnamed_addr #3 {
+define internal fastcc void @"onebyonecpy_hls.p0a64class.hls::vector<int, 16>.19"([64 x %"class.hls::vector<int, 16>"]* align 64 %dst, [64 x i512]* readonly %src) unnamed_addr #3 {
 entry:
   %0 = icmp eq [64 x %"class.hls::vector<int, 16>"]* %dst, null
   %1 = icmp eq [64 x i512]* %src, null
@@ -173,7 +173,7 @@ entry:
   br i1 %2, label %ret, label %copy
 
 copy:                                             ; preds = %entry
-  call void @"arraycpy_hls.p0a64class.hls::vector<int, 16>.11"([64 x %"class.hls::vector<int, 16>"]* nonnull %dst, [64 x i512]* nonnull %src, i64 64)
+  call void @"arraycpy_hls.p0a64class.hls::vector<int, 16>.22"([64 x %"class.hls::vector<int, 16>"]* nonnull %dst, [64 x i512]* nonnull %src, i64 64)
   br label %ret
 
 ret:                                              ; preds = %copy, %entry
@@ -181,7 +181,7 @@ ret:                                              ; preds = %copy, %entry
 }
 
 ; Function Attrs: argmemonly noinline norecurse willreturn
-define void @"arraycpy_hls.p0a64class.hls::vector<int, 16>.11"([64 x %"class.hls::vector<int, 16>"]* %dst, [64 x i512]* readonly %src, i64 %num) local_unnamed_addr #2 {
+define void @"arraycpy_hls.p0a64class.hls::vector<int, 16>.22"([64 x %"class.hls::vector<int, 16>"]* %dst, [64 x i512]* readonly %src, i64 %num) local_unnamed_addr #2 {
 entry:
   %0 = icmp eq [64 x i512]* %src, null
   %1 = icmp eq [64 x %"class.hls::vector<int, 16>"]* %dst, null
@@ -199,7 +199,7 @@ for.loop:                                         ; preds = %for.loop, %for.loop
   %for.loop.idx6 = phi i64 [ 0, %for.loop.lr.ph ], [ %for.loop.idx.next, %for.loop ]
   %3 = getelementptr [64 x i512], [64 x i512]* %src, i64 0, i64 %for.loop.idx6
   %dst.addr.0.04 = getelementptr [64 x %"class.hls::vector<int, 16>"], [64 x %"class.hls::vector<int, 16>"]* %dst, i64 0, i64 %for.loop.idx6, i32 0, i32 0
-  call void @arraycpy_hls.p0a16i32.14([16 x i32]* %dst.addr.0.04, i512* %3, i64 0, i64 16)
+  call void @arraycpy_hls.p0a16i32.25([16 x i32]* %dst.addr.0.04, i512* %3, i64 0, i64 16)
   %for.loop.idx.next = add nuw nsw i64 %for.loop.idx6, 1
   %exitcond = icmp ne i64 %for.loop.idx.next, %num
   br i1 %exitcond, label %for.loop, label %copy.split
@@ -212,7 +212,7 @@ ret:                                              ; preds = %copy.split, %entry
 }
 
 ; Function Attrs: argmemonly noinline norecurse willreturn
-define void @arraycpy_hls.p0a16i32.14([16 x i32]* %dst, i512* readonly %src, i64 %src_idx, i64 %num) local_unnamed_addr #2 {
+define void @arraycpy_hls.p0a16i32.25([16 x i32]* %dst, i512* readonly %src, i64 %src_idx, i64 %num) local_unnamed_addr #2 {
 entry:
   %0 = icmp eq i512* %src, null
   %1 = icmp eq [16 x i32]* %dst, null
@@ -256,7 +256,7 @@ entry:
   br i1 %2, label %ret, label %copy
 
 copy:                                             ; preds = %entry
-  call void @"arraycpy_hls.p0a64class.hls::vector<int, 16>.21"([64 x i512]* nonnull %dst, [64 x %"class.hls::vector<int, 16>"]* nonnull %src, i64 64)
+  call void @"arraycpy_hls.p0a64class.hls::vector<int, 16>.32"([64 x i512]* nonnull %dst, [64 x %"class.hls::vector<int, 16>"]* nonnull %src, i64 64)
   br label %ret
 
 ret:                                              ; preds = %copy, %entry
@@ -264,7 +264,7 @@ ret:                                              ; preds = %copy, %entry
 }
 
 ; Function Attrs: argmemonly noinline norecurse willreturn
-define void @"arraycpy_hls.p0a64class.hls::vector<int, 16>.21"([64 x i512]* %dst, [64 x %"class.hls::vector<int, 16>"]* readonly %src, i64 %num) local_unnamed_addr #2 {
+define void @"arraycpy_hls.p0a64class.hls::vector<int, 16>.32"([64 x i512]* %dst, [64 x %"class.hls::vector<int, 16>"]* readonly %src, i64 %num) local_unnamed_addr #2 {
 entry:
   %0 = icmp eq [64 x %"class.hls::vector<int, 16>"]* %src, null
   %1 = icmp eq [64 x i512]* %dst, null
@@ -282,7 +282,7 @@ for.loop:                                         ; preds = %for.loop, %for.loop
   %for.loop.idx6 = phi i64 [ 0, %for.loop.lr.ph ], [ %for.loop.idx.next, %for.loop ]
   %src.addr.0.03 = getelementptr [64 x %"class.hls::vector<int, 16>"], [64 x %"class.hls::vector<int, 16>"]* %src, i64 0, i64 %for.loop.idx6, i32 0, i32 0
   %3 = getelementptr [64 x i512], [64 x i512]* %dst, i64 0, i64 %for.loop.idx6
-  call void @arraycpy_hls.p0a16i32.24(i512* %3, i64 0, [16 x i32]* %src.addr.0.03, i64 16)
+  call void @arraycpy_hls.p0a16i32.35(i512* %3, i64 0, [16 x i32]* %src.addr.0.03, i64 16)
   %for.loop.idx.next = add nuw nsw i64 %for.loop.idx6, 1
   %exitcond = icmp ne i64 %for.loop.idx.next, %num
   br i1 %exitcond, label %for.loop, label %copy.split
@@ -295,7 +295,7 @@ ret:                                              ; preds = %copy.split, %entry
 }
 
 ; Function Attrs: argmemonly noinline norecurse willreturn
-define void @arraycpy_hls.p0a16i32.24(i512* %dst, i64 %dst_idx, [16 x i32]* readonly %src, i64 %num) local_unnamed_addr #2 {
+define void @arraycpy_hls.p0a16i32.35(i512* %dst, i64 %dst_idx, [16 x i32]* readonly %src, i64 %num) local_unnamed_addr #2 {
 entry:
   %0 = icmp eq [16 x i32]* %src, null
   %1 = icmp eq i512* %dst, null
@@ -340,7 +340,7 @@ declare void @apatb_MM_hw([64 x i512]*, [64 x i512]*, [32 x i32]*, [64 x i512]*,
 ; Function Attrs: argmemonly noinline norecurse willreturn
 define internal fastcc void @copy_back([64 x %"class.hls::vector<int, 16>"]* align 64, [64 x i512]* readonly, [64 x %"class.hls::vector<int, 16>"]* align 64, [64 x i512]* readonly, [32 x i32]*, [32 x i32]* readonly align 512, [64 x %"class.hls::vector<int, 16>"]* align 64, [64 x i512]* readonly) unnamed_addr #4 {
 entry:
-  call fastcc void @"onebyonecpy_hls.p0a64class.hls::vector<int, 16>.8"([64 x %"class.hls::vector<int, 16>"]* align 64 %6, [64 x i512]* %7)
+  call fastcc void @"onebyonecpy_hls.p0a64class.hls::vector<int, 16>.19"([64 x %"class.hls::vector<int, 16>"]* align 64 %6, [64 x i512]* %7)
   ret void
 }
 
@@ -375,13 +375,12 @@ attributes #4 = { argmemonly noinline norecurse willreturn "fpga.wrapper.func"="
 attributes #5 = { "fpga.wrapper.func"="stub" }
 
 !llvm.dbg.cu = !{}
-!llvm.ident = !{!0, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1, !1}
-!llvm.module.flags = !{!2, !3, !4}
-!blackbox_cfg = !{!5}
+!llvm.ident = !{!0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0, !0}
+!llvm.module.flags = !{!1, !2, !3}
+!blackbox_cfg = !{!4}
 
-!0 = !{!"AMD/Xilinx clang version 16.0.6"}
-!1 = !{!"clang version 7.0.0 "}
-!2 = !{i32 2, !"Dwarf Version", i32 4}
-!3 = !{i32 2, !"Debug Info Version", i32 3}
-!4 = !{i32 1, !"wchar_size", i32 4}
-!5 = !{}
+!0 = !{!"clang version 7.0.0 "}
+!1 = !{i32 2, !"Dwarf Version", i32 4}
+!2 = !{i32 2, !"Debug Info Version", i32 3}
+!3 = !{i32 1, !"wchar_size", i32 4}
+!4 = !{}

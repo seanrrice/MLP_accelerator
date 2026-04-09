@@ -1,6 +1,6 @@
 //==============================================================
-//Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.2 (64-bit)
-//Tool Version Limit: 2025.11
+//Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.1 (64-bit)
+//Tool Version Limit: 2025.05
 //Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 //Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 //
@@ -9,8 +9,14 @@
 `ifndef MM_SUBSYSTEM_MONITOR_SV
 `define MM_SUBSYSTEM_MONITOR_SV
 
-`uvm_analysis_imp_decl(_axi_wtr_gmem)
-`uvm_analysis_imp_decl(_axi_rtr_gmem)
+`uvm_analysis_imp_decl(_axi_wtr_gmem0)
+`uvm_analysis_imp_decl(_axi_rtr_gmem0)
+`uvm_analysis_imp_decl(_axi_wtr_gmem1)
+`uvm_analysis_imp_decl(_axi_rtr_gmem1)
+`uvm_analysis_imp_decl(_axi_wtr_gmem2)
+`uvm_analysis_imp_decl(_axi_rtr_gmem2)
+`uvm_analysis_imp_decl(_axi_wtr_gmem3)
+`uvm_analysis_imp_decl(_axi_rtr_gmem3)
 `uvm_analysis_imp_decl(_axi_wtr_control)
 `uvm_analysis_imp_decl(_axi_rtr_control)
 
@@ -22,8 +28,14 @@ class MM_subsystem_monitor extends uvm_component;
     `uvm_component_utils_begin(MM_subsystem_monitor)
     `uvm_component_utils_end
 
-    uvm_analysis_imp_axi_wtr_gmem#(axi_pkg::axi_transfer, MM_subsystem_monitor) gmem_wtr_imp;
-    uvm_analysis_imp_axi_rtr_gmem#(axi_pkg::axi_transfer, MM_subsystem_monitor) gmem_rtr_imp;
+    uvm_analysis_imp_axi_wtr_gmem0#(axi_pkg::axi_transfer, MM_subsystem_monitor) gmem0_wtr_imp;
+    uvm_analysis_imp_axi_rtr_gmem0#(axi_pkg::axi_transfer, MM_subsystem_monitor) gmem0_rtr_imp;
+    uvm_analysis_imp_axi_wtr_gmem1#(axi_pkg::axi_transfer, MM_subsystem_monitor) gmem1_wtr_imp;
+    uvm_analysis_imp_axi_rtr_gmem1#(axi_pkg::axi_transfer, MM_subsystem_monitor) gmem1_rtr_imp;
+    uvm_analysis_imp_axi_wtr_gmem2#(axi_pkg::axi_transfer, MM_subsystem_monitor) gmem2_wtr_imp;
+    uvm_analysis_imp_axi_rtr_gmem2#(axi_pkg::axi_transfer, MM_subsystem_monitor) gmem2_rtr_imp;
+    uvm_analysis_imp_axi_wtr_gmem3#(axi_pkg::axi_transfer, MM_subsystem_monitor) gmem3_wtr_imp;
+    uvm_analysis_imp_axi_rtr_gmem3#(axi_pkg::axi_transfer, MM_subsystem_monitor) gmem3_rtr_imp;
     uvm_analysis_imp_axi_wtr_control#(axi_pkg::axi_transfer, MM_subsystem_monitor) control_wtr_imp;
     uvm_analysis_imp_axi_rtr_control#(axi_pkg::axi_transfer, MM_subsystem_monitor) control_rtr_imp;
 
@@ -41,20 +53,56 @@ class MM_subsystem_monitor extends uvm_component;
 
     function new (string name = "", uvm_component parent = null);
         super.new(name, parent);
-        gmem_wtr_imp = new("gmem_wtr_imp", this);
-        gmem_rtr_imp = new("gmem_rtr_imp", this);
+        gmem0_wtr_imp = new("gmem0_wtr_imp", this);
+        gmem0_rtr_imp = new("gmem0_rtr_imp", this);
+        gmem1_wtr_imp = new("gmem1_wtr_imp", this);
+        gmem1_rtr_imp = new("gmem1_rtr_imp", this);
+        gmem2_wtr_imp = new("gmem2_wtr_imp", this);
+        gmem2_rtr_imp = new("gmem2_rtr_imp", this);
+        gmem3_wtr_imp = new("gmem3_wtr_imp", this);
+        gmem3_rtr_imp = new("gmem3_rtr_imp", this);
         control_wtr_imp = new("control_wtr_imp", this);
         control_rtr_imp = new("control_rtr_imp", this);
     endfunction
 
-    virtual function void write_axi_wtr_gmem(axi_transfer tr);
-        refm.write_axi_wtr_gmem(tr);
-        scbd.write_axi_wtr_gmem(tr);
+    virtual function void write_axi_wtr_gmem0(axi_transfer tr);
+        refm.write_axi_wtr_gmem0(tr);
+        scbd.write_axi_wtr_gmem0(tr);
     endfunction
 
-    virtual function void write_axi_rtr_gmem(axi_transfer tr);
-        refm.write_axi_rtr_gmem(tr);
-        scbd.write_axi_rtr_gmem(tr);
+    virtual function void write_axi_rtr_gmem0(axi_transfer tr);
+        refm.write_axi_rtr_gmem0(tr);
+        scbd.write_axi_rtr_gmem0(tr);
+    endfunction
+
+    virtual function void write_axi_wtr_gmem1(axi_transfer tr);
+        refm.write_axi_wtr_gmem1(tr);
+        scbd.write_axi_wtr_gmem1(tr);
+    endfunction
+
+    virtual function void write_axi_rtr_gmem1(axi_transfer tr);
+        refm.write_axi_rtr_gmem1(tr);
+        scbd.write_axi_rtr_gmem1(tr);
+    endfunction
+
+    virtual function void write_axi_wtr_gmem2(axi_transfer tr);
+        refm.write_axi_wtr_gmem2(tr);
+        scbd.write_axi_wtr_gmem2(tr);
+    endfunction
+
+    virtual function void write_axi_rtr_gmem2(axi_transfer tr);
+        refm.write_axi_rtr_gmem2(tr);
+        scbd.write_axi_rtr_gmem2(tr);
+    endfunction
+
+    virtual function void write_axi_wtr_gmem3(axi_transfer tr);
+        refm.write_axi_wtr_gmem3(tr);
+        scbd.write_axi_wtr_gmem3(tr);
+    endfunction
+
+    virtual function void write_axi_rtr_gmem3(axi_transfer tr);
+        refm.write_axi_rtr_gmem3(tr);
+        scbd.write_axi_rtr_gmem3(tr);
     endfunction
 
     virtual function void write_axi_wtr_control(axi_transfer tr);

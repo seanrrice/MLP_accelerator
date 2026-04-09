@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # 
 # Vivado(TM)
@@ -12,9 +12,9 @@ echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executi
 exit
 
 if [ -z "$PATH" ]; then
-  PATH=T:/AMDDesignTools/2025.2/Vitis/bin;T:/AMDDesignTools/2025.2/Vitis/bin;T:/AMDDesignTools/2025.2/Vitis/bin:T:/AMDDesignTools/2025.2/Vivado/bin
+  PATH=C:/Xilinx/2025.1/Vitis/bin;C:/Xilinx/2025.1/Vitis/bin;C:/Xilinx/2025.1/Vitis/bin:C:/Xilinx/2025.1/Vivado/bin
 else
-  PATH=T:/AMDDesignTools/2025.2/Vitis/bin;T:/AMDDesignTools/2025.2/Vitis/bin;T:/AMDDesignTools/2025.2/Vitis/bin:T:/AMDDesignTools/2025.2/Vivado/bin:$PATH
+  PATH=C:/Xilinx/2025.1/Vitis/bin;C:/Xilinx/2025.1/Vitis/bin;C:/Xilinx/2025.1/Vitis/bin:C:/Xilinx/2025.1/Vivado/bin:$PATH
 fi
 export PATH
 
@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1'
+HD_PWD='C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
