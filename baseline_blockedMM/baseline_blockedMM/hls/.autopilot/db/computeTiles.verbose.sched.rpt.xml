@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'computeTiles'" level="0">
-<item name = "Date">Thu Apr  9 09:15:09 2026
+<item name = "Date">Fri Apr 10 16:22:57 2026
 </item>
 <item name = "Version">2025.1 (Build 6135595 on May 21 2025)</item>
 <item name = "Project">baseline_blockedMM</item>
@@ -35,8 +35,8 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- i_BLOCK_loop">0, ?, 2 ~ 4611685956687233230, -, -, 0 ~ 134217727, no</column>
-<column name=" + j_BLOCK_loop">0, 4611685956687233024, 49 ~ 34359738164, -, -, 0 ~ 134217727, no</column>
+<column name="- i_BLOCK_loop">0, ?, 27 ~ 4611685953331790080, -, -, 0 ~ 134217727, no</column>
+<column name=" + j_BLOCK_loop">0, 4611685953331789824, 24 ~ 34359738139, -, -, 0 ~ 134217727, no</column>
 </table>
 </item>
 </section>

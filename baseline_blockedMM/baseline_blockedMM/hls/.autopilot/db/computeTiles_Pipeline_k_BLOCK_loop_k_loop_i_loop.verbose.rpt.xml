@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop'" level="0">
-<item name = "Date">Thu Apr  9 09:15:13 2026
+<item name = "Date">Fri Apr 10 16:23:01 2026
 </item>
 <item name = "Version">2025.1 (Build 6135595 on May 21 2025)</item>
 <item name = "Project">baseline_blockedMM</item>
@@ -62,6 +62,7 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="mul_32s_32s_32_1_1_U39">mul_32s_32s_32_1_1, 0, 3, 0, 20, 0</column>
 <column name="mul_32s_32s_32_1_1_U40">mul_32s_32s_32_1_1, 0, 3, 0, 20, 0</column>
 <column name="mul_32s_32s_32_1_1_U41">mul_32s_32s_32_1_1, 0, 3, 0, 20, 0</column>
 <column name="mul_32s_32s_32_1_1_U42">mul_32s_32s_32_1_1, 0, 3, 0, 20, 0</column>
@@ -77,7 +78,7 @@
 <column name="mul_32s_32s_32_1_1_U52">mul_32s_32s_32_1_1, 0, 3, 0, 20, 0</column>
 <column name="mul_32s_32s_32_1_1_U53">mul_32s_32s_32_1_1, 0, 3, 0, 20, 0</column>
 <column name="mul_32s_32s_32_1_1_U54">mul_32s_32s_32_1_1, 0, 3, 0, 20, 0</column>
-<column name="mul_32s_32s_32_1_1_U55">mul_32s_32s_32_1_1, 0, 3, 0, 20, 0</column>
+<column name="sparsemux_33_4_32_1_1_U55">sparsemux_33_4_32_1_1, 0, 0, 0, 65, 0</column>
 <column name="sparsemux_33_4_32_1_1_U56">sparsemux_33_4_32_1_1, 0, 0, 0, 65, 0</column>
 <column name="sparsemux_33_4_32_1_1_U57">sparsemux_33_4_32_1_1, 0, 0, 0, 65, 0</column>
 <column name="sparsemux_33_4_32_1_1_U58">sparsemux_33_4_32_1_1, 0, 0, 0, 65, 0</column>
@@ -93,7 +94,6 @@
 <column name="sparsemux_33_4_32_1_1_U68">sparsemux_33_4_32_1_1, 0, 0, 0, 65, 0</column>
 <column name="sparsemux_33_4_32_1_1_U69">sparsemux_33_4_32_1_1, 0, 0, 0, 65, 0</column>
 <column name="sparsemux_33_4_32_1_1_U70">sparsemux_33_4_32_1_1, 0, 0, 0, 65, 0</column>
-<column name="sparsemux_33_4_32_1_1_U71">sparsemux_33_4_32_1_1, 0, 0, 0, 65, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
@@ -267,30 +267,26 @@
 <column name="A_stream_dout">in, 512, ap_fifo, A_stream, pointer</column>
 <column name="A_stream_empty_n">in, 1, ap_fifo, A_stream, pointer</column>
 <column name="A_stream_read">out, 1, ap_fifo, A_stream, pointer</column>
-<column name="A_stream_num_data_valid">in, 6, ap_fifo, A_stream, pointer</column>
-<column name="A_stream_fifo_cap">in, 6, ap_fifo, A_stream, pointer</column>
 <column name="B_stream_dout">in, 512, ap_fifo, B_stream, pointer</column>
 <column name="B_stream_empty_n">in, 1, ap_fifo, B_stream, pointer</column>
 <column name="B_stream_read">out, 1, ap_fifo, B_stream, pointer</column>
-<column name="B_stream_num_data_valid">in, 6, ap_fifo, B_stream, pointer</column>
-<column name="B_stream_fifo_cap">in, 6, ap_fifo, B_stream, pointer</column>
-<column name="or_ln74_15">in, 512, ap_none, or_ln74_15, scalar</column>
-<column name="or_ln74_14">in, 512, ap_none, or_ln74_14, scalar</column>
-<column name="or_ln74_13">in, 512, ap_none, or_ln74_13, scalar</column>
-<column name="or_ln74_12">in, 512, ap_none, or_ln74_12, scalar</column>
-<column name="or_ln74_11">in, 512, ap_none, or_ln74_11, scalar</column>
-<column name="or_ln74_10">in, 512, ap_none, or_ln74_10, scalar</column>
-<column name="or_ln74_9">in, 512, ap_none, or_ln74_9, scalar</column>
-<column name="or_ln74_8">in, 512, ap_none, or_ln74_8, scalar</column>
-<column name="or_ln74_7">in, 512, ap_none, or_ln74_7, scalar</column>
-<column name="or_ln74_6">in, 512, ap_none, or_ln74_6, scalar</column>
-<column name="or_ln74_5">in, 512, ap_none, or_ln74_5, scalar</column>
-<column name="or_ln74_4">in, 512, ap_none, or_ln74_4, scalar</column>
-<column name="or_ln74_3">in, 512, ap_none, or_ln74_3, scalar</column>
-<column name="or_ln74_2">in, 512, ap_none, or_ln74_2, scalar</column>
-<column name="or_ln74_1">in, 512, ap_none, or_ln74_1, scalar</column>
-<column name="or_ln74_s">in, 512, ap_none, or_ln74_s, scalar</column>
-<column name="tmp_28">in, 35, ap_none, tmp_28, scalar</column>
+<column name="thr_or15">in, 512, ap_none, thr_or15, scalar</column>
+<column name="thr_or14">in, 512, ap_none, thr_or14, scalar</column>
+<column name="thr_or13">in, 512, ap_none, thr_or13, scalar</column>
+<column name="thr_or12">in, 512, ap_none, thr_or12, scalar</column>
+<column name="thr_or11">in, 512, ap_none, thr_or11, scalar</column>
+<column name="thr_or10">in, 512, ap_none, thr_or10, scalar</column>
+<column name="thr_or9">in, 512, ap_none, thr_or9, scalar</column>
+<column name="thr_or8">in, 512, ap_none, thr_or8, scalar</column>
+<column name="thr_or7">in, 512, ap_none, thr_or7, scalar</column>
+<column name="thr_or6">in, 512, ap_none, thr_or6, scalar</column>
+<column name="thr_or5">in, 512, ap_none, thr_or5, scalar</column>
+<column name="thr_or4">in, 512, ap_none, thr_or4, scalar</column>
+<column name="thr_or3">in, 512, ap_none, thr_or3, scalar</column>
+<column name="thr_or2">in, 512, ap_none, thr_or2, scalar</column>
+<column name="thr_or1">in, 512, ap_none, thr_or1, scalar</column>
+<column name="thr_or">in, 512, ap_none, thr_or, scalar</column>
+<column name="tmp_45">in, 35, ap_none, tmp_45, scalar</column>
 <column name="AB_block_15_2_out">out, 512, ap_vld, AB_block_15_2_out, pointer</column>
 <column name="AB_block_15_2_out_ap_vld">out, 1, ap_vld, AB_block_15_2_out, pointer</column>
 <column name="AB_block_14_2_out">out, 512, ap_vld, AB_block_14_2_out, pointer</column>

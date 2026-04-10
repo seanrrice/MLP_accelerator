@@ -26,8 +26,6 @@ entity MM_fifo_w512_d32_A is
         if_din            : in  std_logic_vector(DATA_WIDTH - 1 downto 0);
 
         -- read 
-        if_num_data_valid : out std_logic_vector(ADDR_WIDTH downto 0); -- for FRP
-        if_fifo_cap       : out std_logic_vector(ADDR_WIDTH downto 0); -- for FRP
 
         if_empty_n        : out std_logic;
         if_read_ce        : in  std_logic;
@@ -79,9 +77,7 @@ architecture arch of MM_fifo_w512_d32_A is
     signal mOutPtr  : unsigned(MEM_AWIDTH downto 0) := (others => '0');
     signal empty_n  : std_logic := '0';
     signal full_n   : std_logic := '1';
-    -- has num_data_valid ? 
-    signal num_extra_words: UNSIGNED(0 downto 0); -- yes
-    signal num_data_valid : UNSIGNED(ADDR_WIDTH downto 0); -- yes 
+    -- has num_data_valid ?  no 
 
     signal pop_dout : std_logic;
     signal num_data_cnt : UNSIGNED(ADDR_WIDTH downto 0);
@@ -105,9 +101,7 @@ begin
         dout  => if_dout);
 
 --------------------------- Body ----------------------------
-    -- has num_data_valid ?  
-    if_num_data_valid <= STD_LOGIC_VECTOR(num_data_valid); -- yes
-    if_fifo_cap       <= STD_LOGIC_VECTOR(TO_UNSIGNED(DEPTH, ADDR_WIDTH + 1)); -- yes 
+    -- has num_data_valid ?  no 
 
     -- almost full/empty  
 
@@ -215,24 +209,7 @@ begin
         end if; -- sync end 
     end process;
 
-    -- num_data_valid  
-    num_extra_words <= TO_UNSIGNED(1,1) when (dout_vld and not pop_dout) = '1' else (others=>'0');
-    process (clk) begin
-        -- reset  sync
-        if clk'event and clk = '1' then
-            if reset = '1' then
-                num_data_valid <= (others => '0');
-            elsif (empty_n or (dout_vld and not pop_dout)) = '1' then
-                if (push = '1') then
-                    num_data_valid <= RESIZE(mOutPtr, ADDR_WIDTH + 1) + 1 + num_extra_words;
-                else
-                    num_data_valid <= RESIZE(mOutPtr, ADDR_WIDTH + 1) + num_extra_words;
-                end if;
-            else
-                num_data_valid <= RESIZE(num_extra_words, ADDR_WIDTH + 1);
-            end if;
-        end if; -- sync end 
-    end process; -- 
+    -- num_data_valid 
 
     -- dout_vld
     process (clk) begin

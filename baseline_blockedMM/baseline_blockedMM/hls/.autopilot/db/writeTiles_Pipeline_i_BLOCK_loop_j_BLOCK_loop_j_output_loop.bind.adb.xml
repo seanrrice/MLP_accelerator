@@ -160,7 +160,7 @@ newFuncRoot:4 %indvar_flatten20 = alloca i32 1
 
 <Node id="12" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32" op_19_bw="32">
 <![CDATA[
-newFuncRoot:5 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %gmem3, void @empty_18, i32 0, i32 0, void @empty_0, i32 0, i32 64, void @empty_4, void @empty_2, void @empty_0, i32 16, i32 16, i32 16, i32 16, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0
+newFuncRoot:5 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %gmem, void @empty_14, i32 0, i32 0, void @empty_17, i32 0, i32 802816, void @empty_18, void @empty, void @empty_17, i32 16, i32 16, i32 16, i32 16, void @empty_17, void @empty_17, i32 4294967295, i32 0, i32 0
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>
@@ -175,7 +175,7 @@ newFuncRoot:5 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i
 
 <Node id="13" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32" op_19_bw="32">
 <![CDATA[
-newFuncRoot:6 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %AB_stream, void @empty_10, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0
+newFuncRoot:6 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %AB_stream, void @empty_13, i32 0, i32 0, void @empty_17, i32 0, i32 0, void @empty_17, void @empty_17, void @empty_17, i32 0, i32 0, i32 0, i32 0, void @empty_17, void @empty_17, i32 4294967295, i32 0, i32 0
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>
@@ -1069,10 +1069,10 @@ for.inc17:36 %sext_ln130_1 = sext i58 %trunc_ln130_1
 
 <Node id="67" bw="512" op_0_bw="512" op_1_bw="64">
 <![CDATA[
-for.inc17:37 %gmem3_addr = getelementptr i512 %gmem3, i64 %sext_ln130_1
+for.inc17:37 %gmem_addr = getelementptr i512 %gmem, i64 %sext_ln130_1
 
 ]]></Node>
-<StgValue><ssdm name="gmem3_addr"/></StgValue>
+<StgValue><ssdm name="gmem_addr"/></StgValue>
 </operation>
 
 <operation id="78" st_id="6" stage="1" lat="1">
@@ -1084,10 +1084,10 @@ for.inc17:37 %gmem3_addr = getelementptr i512 %gmem3, i64 %sext_ln130_1
 
 <Node id="68" bw="1" op_0_bw="1" op_1_bw="512" op_2_bw="64">
 <![CDATA[
-for.inc17:38 %gmem3_addr_req = writereq i1 @_ssdm_op_WriteReq.m_axi.i512P1A, i512 %gmem3_addr, i64 1
+for.inc17:38 %gmem_addr_req = writereq i1 @_ssdm_op_WriteReq.m_axi.i512P1A, i512 %gmem_addr, i64 1
 
 ]]></Node>
-<StgValue><ssdm name="gmem3_addr_req"/></StgValue>
+<StgValue><ssdm name="gmem_addr_req"/></StgValue>
 </operation>
 </state>
 
@@ -1102,7 +1102,7 @@ for.inc17:38 %gmem3_addr_req = writereq i1 @_ssdm_op_WriteReq.m_axi.i512P1A, i51
 
 <Node id="69" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="512" op_3_bw="64" op_4_bw="0">
 <![CDATA[
-for.inc17:39 %write_ln130 = write void @_ssdm_op_Write.m_axi.i512P1A, i512 %gmem3_addr, i512 %AB_stream_read, i64 18446744073709551615
+for.inc17:39 %write_ln130 = write void @_ssdm_op_Write.m_axi.i512P1A, i512 %gmem_addr, i512 %AB_stream_read, i64 18446744073709551615
 
 ]]></Node>
 <StgValue><ssdm name="write_ln130"/></StgValue>
@@ -1120,10 +1120,10 @@ for.inc17:39 %write_ln130 = write void @_ssdm_op_Write.m_axi.i512P1A, i512 %gmem
 
 <Node id="70" bw="1" op_0_bw="1" op_1_bw="512" op_2_bw="0">
 <![CDATA[
-for.inc17:40 %gmem3_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem3_addr
+for.inc17:40 %gmem_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem_addr
 
 ]]></Node>
-<StgValue><ssdm name="gmem3_addr_resp"/></StgValue>
+<StgValue><ssdm name="gmem_addr_resp"/></StgValue>
 </operation>
 </state>
 
@@ -1138,10 +1138,10 @@ for.inc17:40 %gmem3_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, 
 
 <Node id="70" bw="1" op_0_bw="1" op_1_bw="512" op_2_bw="0">
 <![CDATA[
-for.inc17:40 %gmem3_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem3_addr
+for.inc17:40 %gmem_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem_addr
 
 ]]></Node>
-<StgValue><ssdm name="gmem3_addr_resp"/></StgValue>
+<StgValue><ssdm name="gmem_addr_resp"/></StgValue>
 </operation>
 </state>
 
@@ -1156,10 +1156,10 @@ for.inc17:40 %gmem3_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, 
 
 <Node id="70" bw="1" op_0_bw="1" op_1_bw="512" op_2_bw="0">
 <![CDATA[
-for.inc17:40 %gmem3_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem3_addr
+for.inc17:40 %gmem_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem_addr
 
 ]]></Node>
-<StgValue><ssdm name="gmem3_addr_resp"/></StgValue>
+<StgValue><ssdm name="gmem_addr_resp"/></StgValue>
 </operation>
 </state>
 
@@ -1174,10 +1174,10 @@ for.inc17:40 %gmem3_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, 
 
 <Node id="70" bw="1" op_0_bw="1" op_1_bw="512" op_2_bw="0">
 <![CDATA[
-for.inc17:40 %gmem3_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem3_addr
+for.inc17:40 %gmem_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem_addr
 
 ]]></Node>
-<StgValue><ssdm name="gmem3_addr_resp"/></StgValue>
+<StgValue><ssdm name="gmem_addr_resp"/></StgValue>
 </operation>
 
 <operation id="89" st_id="11" stage="1" lat="1">
@@ -1238,7 +1238,7 @@ for.inc17:6 %speclooptripcount_ln0 = speclooptripcount void @_ssdm_op_SpecLoopTr
 
 <Node id="51" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="32" op_3_bw="32" op_4_bw="32" op_5_bw="0">
 <![CDATA[
-for.inc17:21 %specpipeline_ln128 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_0
+for.inc17:21 %specpipeline_ln128 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_17
 
 ]]></Node>
 <StgValue><ssdm name="specpipeline_ln128"/></StgValue>
@@ -1253,10 +1253,10 @@ for.inc17:21 %specpipeline_ln128 = specpipeline void @_ssdm_op_SpecPipeline, i32
 
 <Node id="70" bw="1" op_0_bw="1" op_1_bw="512" op_2_bw="0">
 <![CDATA[
-for.inc17:40 %gmem3_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem3_addr
+for.inc17:40 %gmem_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem_addr
 
 ]]></Node>
-<StgValue><ssdm name="gmem3_addr_resp"/></StgValue>
+<StgValue><ssdm name="gmem_addr_resp"/></StgValue>
 </operation>
 
 <operation id="88" st_id="12" stage="1" lat="1">
@@ -1293,8 +1293,8 @@ for.inc17:49 %br_ln127 = br void %for.inc
 <port id="122" name="ABC_load" dir="0" iftype="0">
 <core>NULL</core><StgValue><ssdm name="ABC_load"/></StgValue>
 </port>
-<port id="123" name="gmem3" dir="1" iftype="4">
-<core>NULL</core><StgValue><ssdm name="gmem3"/><MemPortTyVec>1 </MemPortTyVec>
+<port id="123" name="gmem" dir="1" iftype="4">
+<core>NULL</core><StgValue><ssdm name="gmem"/><MemPortTyVec>1 </MemPortTyVec>
 </StgValue>
 </port>
 </ports>
@@ -1313,25 +1313,25 @@ for.inc17:49 %br_ln127 = br void %for.inc
 </dataflow>
 <dataflow id="131" from="_ssdm_op_SpecInterface" to="specinterface_ln0" fromId="130" toId="19">
 </dataflow>
-<dataflow id="132" from="gmem3" to="specinterface_ln0" fromId="123" toId="19">
+<dataflow id="132" from="gmem" to="specinterface_ln0" fromId="123" toId="19">
 </dataflow>
-<dataflow id="134" from="empty_18" to="specinterface_ln0" fromId="133" toId="19">
+<dataflow id="134" from="empty_14" to="specinterface_ln0" fromId="133" toId="19">
 </dataflow>
 <dataflow id="136" from="StgValue_135" to="specinterface_ln0" fromId="135" toId="19">
 </dataflow>
 <dataflow id="137" from="StgValue_135" to="specinterface_ln0" fromId="135" toId="19">
 </dataflow>
-<dataflow id="139" from="empty_0" to="specinterface_ln0" fromId="138" toId="19">
+<dataflow id="139" from="empty_17" to="specinterface_ln0" fromId="138" toId="19">
 </dataflow>
 <dataflow id="140" from="StgValue_135" to="specinterface_ln0" fromId="135" toId="19">
 </dataflow>
 <dataflow id="142" from="StgValue_141" to="specinterface_ln0" fromId="141" toId="19">
 </dataflow>
-<dataflow id="144" from="empty_4" to="specinterface_ln0" fromId="143" toId="19">
+<dataflow id="144" from="empty_18" to="specinterface_ln0" fromId="143" toId="19">
 </dataflow>
-<dataflow id="146" from="empty_2" to="specinterface_ln0" fromId="145" toId="19">
+<dataflow id="146" from="empty" to="specinterface_ln0" fromId="145" toId="19">
 </dataflow>
-<dataflow id="147" from="empty_0" to="specinterface_ln0" fromId="138" toId="19">
+<dataflow id="147" from="empty_17" to="specinterface_ln0" fromId="138" toId="19">
 </dataflow>
 <dataflow id="149" from="StgValue_148" to="specinterface_ln0" fromId="148" toId="19">
 </dataflow>
@@ -1341,9 +1341,9 @@ for.inc17:49 %br_ln127 = br void %for.inc
 </dataflow>
 <dataflow id="152" from="StgValue_148" to="specinterface_ln0" fromId="148" toId="19">
 </dataflow>
-<dataflow id="153" from="empty_0" to="specinterface_ln0" fromId="138" toId="19">
+<dataflow id="153" from="empty_17" to="specinterface_ln0" fromId="138" toId="19">
 </dataflow>
-<dataflow id="154" from="empty_0" to="specinterface_ln0" fromId="138" toId="19">
+<dataflow id="154" from="empty_17" to="specinterface_ln0" fromId="138" toId="19">
 </dataflow>
 <dataflow id="156" from="StgValue_155" to="specinterface_ln0" fromId="155" toId="19">
 </dataflow>
@@ -1355,23 +1355,23 @@ for.inc17:49 %br_ln127 = br void %for.inc
 </dataflow>
 <dataflow id="160" from="AB_stream" to="specinterface_ln0" fromId="120" toId="20">
 </dataflow>
-<dataflow id="162" from="empty_10" to="specinterface_ln0" fromId="161" toId="20">
+<dataflow id="162" from="empty_13" to="specinterface_ln0" fromId="161" toId="20">
 </dataflow>
 <dataflow id="163" from="StgValue_135" to="specinterface_ln0" fromId="135" toId="20">
 </dataflow>
 <dataflow id="164" from="StgValue_135" to="specinterface_ln0" fromId="135" toId="20">
 </dataflow>
-<dataflow id="165" from="empty_0" to="specinterface_ln0" fromId="138" toId="20">
+<dataflow id="165" from="empty_17" to="specinterface_ln0" fromId="138" toId="20">
 </dataflow>
 <dataflow id="166" from="StgValue_135" to="specinterface_ln0" fromId="135" toId="20">
 </dataflow>
 <dataflow id="167" from="StgValue_135" to="specinterface_ln0" fromId="135" toId="20">
 </dataflow>
-<dataflow id="168" from="empty_0" to="specinterface_ln0" fromId="138" toId="20">
+<dataflow id="168" from="empty_17" to="specinterface_ln0" fromId="138" toId="20">
 </dataflow>
-<dataflow id="169" from="empty_0" to="specinterface_ln0" fromId="138" toId="20">
+<dataflow id="169" from="empty_17" to="specinterface_ln0" fromId="138" toId="20">
 </dataflow>
-<dataflow id="170" from="empty_0" to="specinterface_ln0" fromId="138" toId="20">
+<dataflow id="170" from="empty_17" to="specinterface_ln0" fromId="138" toId="20">
 </dataflow>
 <dataflow id="171" from="StgValue_135" to="specinterface_ln0" fromId="135" toId="20">
 </dataflow>
@@ -1381,9 +1381,9 @@ for.inc17:49 %br_ln127 = br void %for.inc
 </dataflow>
 <dataflow id="174" from="StgValue_135" to="specinterface_ln0" fromId="135" toId="20">
 </dataflow>
-<dataflow id="175" from="empty_0" to="specinterface_ln0" fromId="138" toId="20">
+<dataflow id="175" from="empty_17" to="specinterface_ln0" fromId="138" toId="20">
 </dataflow>
-<dataflow id="176" from="empty_0" to="specinterface_ln0" fromId="138" toId="20">
+<dataflow id="176" from="empty_17" to="specinterface_ln0" fromId="138" toId="20">
 </dataflow>
 <dataflow id="177" from="StgValue_155" to="specinterface_ln0" fromId="155" toId="20">
 </dataflow>
@@ -1623,39 +1623,39 @@ for.inc17:49 %br_ln127 = br void %for.inc
 </dataflow>
 <dataflow id="321" from="trunc_ln130_1" to="sext_ln130_1" fromId="74" toId="76">
 </dataflow>
-<dataflow id="322" from="gmem3" to="gmem3_addr" fromId="123" toId="77">
+<dataflow id="322" from="gmem" to="gmem_addr" fromId="123" toId="77">
 </dataflow>
-<dataflow id="323" from="sext_ln130_1" to="gmem3_addr" fromId="76" toId="77">
+<dataflow id="323" from="sext_ln130_1" to="gmem_addr" fromId="76" toId="77">
 </dataflow>
-<dataflow id="325" from="_ssdm_op_WriteReq.m_axi.i512P1A" to="gmem3_addr_req" fromId="324" toId="78">
+<dataflow id="325" from="_ssdm_op_WriteReq.m_axi.i512P1A" to="gmem_addr_req" fromId="324" toId="78">
 </dataflow>
-<dataflow id="326" from="gmem3_addr" to="gmem3_addr_req" fromId="77" toId="78">
+<dataflow id="326" from="gmem_addr" to="gmem_addr_req" fromId="77" toId="78">
 </dataflow>
-<dataflow id="328" from="StgValue_327" to="gmem3_addr_req" fromId="327" toId="78">
+<dataflow id="328" from="StgValue_327" to="gmem_addr_req" fromId="327" toId="78">
 </dataflow>
 <dataflow id="330" from="_ssdm_op_Write.m_axi.i512P1A" to="write_ln130" fromId="329" toId="79">
 </dataflow>
-<dataflow id="331" from="gmem3_addr" to="write_ln130" fromId="77" toId="79">
+<dataflow id="331" from="gmem_addr" to="write_ln130" fromId="77" toId="79">
 </dataflow>
 <dataflow id="332" from="AB_stream_read" to="write_ln130" fromId="75" toId="79">
 </dataflow>
 <dataflow id="334" from="StgValue_333" to="write_ln130" fromId="333" toId="79">
 </dataflow>
-<dataflow id="336" from="_ssdm_op_WriteResp.m_axi.i512P1A" to="gmem3_addr_resp" fromId="335" toId="80">
+<dataflow id="336" from="_ssdm_op_WriteResp.m_axi.i512P1A" to="gmem_addr_resp" fromId="335" toId="80">
 </dataflow>
-<dataflow id="337" from="gmem3_addr" to="gmem3_addr_resp" fromId="77" toId="80">
+<dataflow id="337" from="gmem_addr" to="gmem_addr_resp" fromId="77" toId="80">
 </dataflow>
-<dataflow id="338" from="_ssdm_op_WriteResp.m_axi.i512P1A" to="gmem3_addr_resp" fromId="335" toId="81">
+<dataflow id="338" from="_ssdm_op_WriteResp.m_axi.i512P1A" to="gmem_addr_resp" fromId="335" toId="81">
 </dataflow>
-<dataflow id="339" from="gmem3_addr" to="gmem3_addr_resp" fromId="77" toId="81">
+<dataflow id="339" from="gmem_addr" to="gmem_addr_resp" fromId="77" toId="81">
 </dataflow>
-<dataflow id="340" from="_ssdm_op_WriteResp.m_axi.i512P1A" to="gmem3_addr_resp" fromId="335" toId="82">
+<dataflow id="340" from="_ssdm_op_WriteResp.m_axi.i512P1A" to="gmem_addr_resp" fromId="335" toId="82">
 </dataflow>
-<dataflow id="341" from="gmem3_addr" to="gmem3_addr_resp" fromId="77" toId="82">
+<dataflow id="341" from="gmem_addr" to="gmem_addr_resp" fromId="77" toId="82">
 </dataflow>
-<dataflow id="342" from="_ssdm_op_WriteResp.m_axi.i512P1A" to="gmem3_addr_resp" fromId="335" toId="83">
+<dataflow id="342" from="_ssdm_op_WriteResp.m_axi.i512P1A" to="gmem_addr_resp" fromId="335" toId="83">
 </dataflow>
-<dataflow id="343" from="gmem3_addr" to="gmem3_addr_resp" fromId="77" toId="83">
+<dataflow id="343" from="gmem_addr" to="gmem_addr_resp" fromId="77" toId="83">
 </dataflow>
 <dataflow id="345" from="_ssdm_op_SpecLoopName" to="specloopname_ln0" fromId="344" toId="84">
 </dataflow>
@@ -1679,11 +1679,11 @@ for.inc17:49 %br_ln127 = br void %for.inc
 </dataflow>
 <dataflow id="361" from="StgValue_135" to="specpipeline_ln128" fromId="135" toId="86">
 </dataflow>
-<dataflow id="362" from="empty_0" to="specpipeline_ln128" fromId="138" toId="86">
+<dataflow id="362" from="empty_17" to="specpipeline_ln128" fromId="138" toId="86">
 </dataflow>
-<dataflow id="363" from="_ssdm_op_WriteResp.m_axi.i512P1A" to="gmem3_addr_resp" fromId="335" toId="87">
+<dataflow id="363" from="_ssdm_op_WriteResp.m_axi.i512P1A" to="gmem_addr_resp" fromId="335" toId="87">
 </dataflow>
-<dataflow id="364" from="gmem3_addr" to="gmem3_addr_resp" fromId="77" toId="87">
+<dataflow id="364" from="gmem_addr" to="gmem_addr_resp" fromId="77" toId="87">
 </dataflow>
 <dataflow id="365" from="icmp_ln123" to="StgValue_2" fromId="33" toId="2">
 </dataflow>

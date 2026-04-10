@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
-| Date         : Thu Apr  9 09:42:26 2026
+| Date         : Fri Apr 10 16:33:49 2026
 | Host         : LAPTOP-L6H807T2 running 64-bit major release  (build 9200)
 | Command      : report_timing -max_paths 10 -file ./report/MM_timing_paths_synth.rpt
 | Design       : bd_0_wrapper
@@ -12,16 +12,16 @@ Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanc
 
 Timing Report
 
-Slack (MET) :             5.757ns  (required time - arrival time)
-  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+Slack (MET) :             5.008ns  (required time - arrival time)
+  Source:                 bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
-  Destination:            bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[0]
+  Destination:            bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/PCIN[0]
                             (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
   Path Group:             ap_clk
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            15.000ns  (ap_clk rise@15.000ns - ap_clk rise@0.000ns)
-  Data Path Delay:        7.759ns  (logic 6.229ns (80.284%)  route 1.530ns (19.716%))
-  Logic Levels:           6  (CARRY4=5 DSP48E1=1)
+  Data Path Delay:        8.508ns  (logic 6.356ns (74.709%)  route 2.152ns (25.291%))
+  Logic Levels:           7  (CARRY4=5 DSP48E1=1 LUT3=1)
   Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
     Destination Clock Delay (DCD):    0.924ns = ( 15.924 - 15.000 ) 
     Source Clock Delay      (SCD):    0.973ns
@@ -36,56 +36,58 @@ Slack (MET) :             5.757ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
-                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+                         net (fo=20469, unset)        0.973     0.973    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/ap_clk
+                         FDRE                                         r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/C
   -------------------------------------------------------------------    -------------------
-                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/Q
-                         net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/p_1_in[0]
+                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/Q
+                         net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/bound6_cast_reg_622_reg[19][0]
                          CARRY4 (Prop_carry4_S[0]_CO[3])
-                                                      0.808     2.965 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15/CO[3]
-                         net (fo=1, unplaced)         0.009     2.974    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15_n_0
+                                                      0.808     2.965 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry/CO[3]
+                         net (fo=1, unplaced)         0.009     2.974    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.091 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14/CO[3]
-                         net (fo=1, unplaced)         0.000     3.091    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14_n_0
+                                                      0.117     3.091 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__0/CO[3]
+                         net (fo=1, unplaced)         0.000     3.091    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__0_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.208 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13/CO[3]
-                         net (fo=1, unplaced)         0.000     3.208    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13_n_0
+                                                      0.117     3.208 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__1/CO[3]
+                         net (fo=1, unplaced)         0.000     3.208    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__1_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.325 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12/CO[3]
-                         net (fo=1, unplaced)         0.000     3.325    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12_n_0
+                                                      0.117     3.325 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__2/CO[3]
+                         net (fo=1, unplaced)         0.000     3.325    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__2_n_0
                          CARRY4 (Prop_carry4_CI_O[1])
-                                                      0.337     3.662 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11/O[1]
-                         net (fo=3, unplaced)         0.800     4.462    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg_0[33]
+                                                      0.337     3.662 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__3/O[1]
+                         net (fo=2, unplaced)         0.622     4.284    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/bound6_reg_344_reg__0[17]
+                         LUT3 (Prop_lut3_I0_O)        0.306     4.590 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_i_11/O
+                         net (fo=2, unplaced)         0.800     5.390    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/grp_fu_222_p1[33]
                          DSP48E1 (Prop_dsp48e1_A[16]_PCOUT[0])
-                                                      4.215     8.677 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product/PCOUT[0]
-                         net (fo=1, unplaced)         0.055     8.732    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product_n_153
-                         DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[0]
+                                                      4.036     9.426 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/tmp_product/PCOUT[0]
+                         net (fo=1, unplaced)         0.055     9.481    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/tmp_product_n_153
+                         DSP48E1                                      r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/PCIN[0]
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)    15.000    15.000 r  
                                                       0.000    15.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
-                         DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/CLK
+                         net (fo=20469, unset)        0.924    15.924    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/ap_clk
+                         DSP48E1                                      r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/CLK
                          clock pessimism              0.000    15.924    
                          clock uncertainty           -0.035    15.889    
                          DSP48E1 (Setup_dsp48e1_CLK_PCIN[0])
-                                                     -1.400    14.489    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg
+                                                     -1.400    14.489    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg
   -------------------------------------------------------------------
                          required time                         14.489    
-                         arrival time                          -8.732    
+                         arrival time                          -9.481    
   -------------------------------------------------------------------
-                         slack                                  5.757    
+                         slack                                  5.008    
 
-Slack (MET) :             5.757ns  (required time - arrival time)
-  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+Slack (MET) :             5.008ns  (required time - arrival time)
+  Source:                 bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
-  Destination:            bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[10]
+  Destination:            bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/PCIN[10]
                             (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
   Path Group:             ap_clk
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            15.000ns  (ap_clk rise@15.000ns - ap_clk rise@0.000ns)
-  Data Path Delay:        7.759ns  (logic 6.229ns (80.284%)  route 1.530ns (19.716%))
-  Logic Levels:           6  (CARRY4=5 DSP48E1=1)
+  Data Path Delay:        8.508ns  (logic 6.356ns (74.709%)  route 2.152ns (25.291%))
+  Logic Levels:           7  (CARRY4=5 DSP48E1=1 LUT3=1)
   Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
     Destination Clock Delay (DCD):    0.924ns = ( 15.924 - 15.000 ) 
     Source Clock Delay      (SCD):    0.973ns
@@ -100,56 +102,58 @@ Slack (MET) :             5.757ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
-                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+                         net (fo=20469, unset)        0.973     0.973    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/ap_clk
+                         FDRE                                         r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/C
   -------------------------------------------------------------------    -------------------
-                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/Q
-                         net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/p_1_in[0]
+                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/Q
+                         net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/bound6_cast_reg_622_reg[19][0]
                          CARRY4 (Prop_carry4_S[0]_CO[3])
-                                                      0.808     2.965 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15/CO[3]
-                         net (fo=1, unplaced)         0.009     2.974    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15_n_0
+                                                      0.808     2.965 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry/CO[3]
+                         net (fo=1, unplaced)         0.009     2.974    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.091 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14/CO[3]
-                         net (fo=1, unplaced)         0.000     3.091    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14_n_0
+                                                      0.117     3.091 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__0/CO[3]
+                         net (fo=1, unplaced)         0.000     3.091    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__0_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.208 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13/CO[3]
-                         net (fo=1, unplaced)         0.000     3.208    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13_n_0
+                                                      0.117     3.208 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__1/CO[3]
+                         net (fo=1, unplaced)         0.000     3.208    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__1_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.325 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12/CO[3]
-                         net (fo=1, unplaced)         0.000     3.325    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12_n_0
+                                                      0.117     3.325 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__2/CO[3]
+                         net (fo=1, unplaced)         0.000     3.325    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__2_n_0
                          CARRY4 (Prop_carry4_CI_O[1])
-                                                      0.337     3.662 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11/O[1]
-                         net (fo=3, unplaced)         0.800     4.462    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg_0[33]
+                                                      0.337     3.662 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__3/O[1]
+                         net (fo=2, unplaced)         0.622     4.284    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/bound6_reg_344_reg__0[17]
+                         LUT3 (Prop_lut3_I0_O)        0.306     4.590 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_i_11/O
+                         net (fo=2, unplaced)         0.800     5.390    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/grp_fu_222_p1[33]
                          DSP48E1 (Prop_dsp48e1_A[16]_PCOUT[10])
-                                                      4.215     8.677 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product/PCOUT[10]
-                         net (fo=1, unplaced)         0.055     8.732    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product_n_143
-                         DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[10]
+                                                      4.036     9.426 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/tmp_product/PCOUT[10]
+                         net (fo=1, unplaced)         0.055     9.481    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/tmp_product_n_143
+                         DSP48E1                                      r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/PCIN[10]
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)    15.000    15.000 r  
                                                       0.000    15.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
-                         DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/CLK
+                         net (fo=20469, unset)        0.924    15.924    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/ap_clk
+                         DSP48E1                                      r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/CLK
                          clock pessimism              0.000    15.924    
                          clock uncertainty           -0.035    15.889    
                          DSP48E1 (Setup_dsp48e1_CLK_PCIN[10])
-                                                     -1.400    14.489    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg
+                                                     -1.400    14.489    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg
   -------------------------------------------------------------------
                          required time                         14.489    
-                         arrival time                          -8.732    
+                         arrival time                          -9.481    
   -------------------------------------------------------------------
-                         slack                                  5.757    
+                         slack                                  5.008    
 
-Slack (MET) :             5.757ns  (required time - arrival time)
-  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+Slack (MET) :             5.008ns  (required time - arrival time)
+  Source:                 bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
-  Destination:            bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[11]
+  Destination:            bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/PCIN[11]
                             (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
   Path Group:             ap_clk
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            15.000ns  (ap_clk rise@15.000ns - ap_clk rise@0.000ns)
-  Data Path Delay:        7.759ns  (logic 6.229ns (80.284%)  route 1.530ns (19.716%))
-  Logic Levels:           6  (CARRY4=5 DSP48E1=1)
+  Data Path Delay:        8.508ns  (logic 6.356ns (74.709%)  route 2.152ns (25.291%))
+  Logic Levels:           7  (CARRY4=5 DSP48E1=1 LUT3=1)
   Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
     Destination Clock Delay (DCD):    0.924ns = ( 15.924 - 15.000 ) 
     Source Clock Delay      (SCD):    0.973ns
@@ -164,56 +168,58 @@ Slack (MET) :             5.757ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
-                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+                         net (fo=20469, unset)        0.973     0.973    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/ap_clk
+                         FDRE                                         r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/C
   -------------------------------------------------------------------    -------------------
-                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/Q
-                         net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/p_1_in[0]
+                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/Q
+                         net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/bound6_cast_reg_622_reg[19][0]
                          CARRY4 (Prop_carry4_S[0]_CO[3])
-                                                      0.808     2.965 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15/CO[3]
-                         net (fo=1, unplaced)         0.009     2.974    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15_n_0
+                                                      0.808     2.965 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry/CO[3]
+                         net (fo=1, unplaced)         0.009     2.974    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.091 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14/CO[3]
-                         net (fo=1, unplaced)         0.000     3.091    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14_n_0
+                                                      0.117     3.091 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__0/CO[3]
+                         net (fo=1, unplaced)         0.000     3.091    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__0_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.208 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13/CO[3]
-                         net (fo=1, unplaced)         0.000     3.208    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13_n_0
+                                                      0.117     3.208 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__1/CO[3]
+                         net (fo=1, unplaced)         0.000     3.208    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__1_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.325 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12/CO[3]
-                         net (fo=1, unplaced)         0.000     3.325    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12_n_0
+                                                      0.117     3.325 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__2/CO[3]
+                         net (fo=1, unplaced)         0.000     3.325    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__2_n_0
                          CARRY4 (Prop_carry4_CI_O[1])
-                                                      0.337     3.662 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11/O[1]
-                         net (fo=3, unplaced)         0.800     4.462    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg_0[33]
+                                                      0.337     3.662 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__3/O[1]
+                         net (fo=2, unplaced)         0.622     4.284    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/bound6_reg_344_reg__0[17]
+                         LUT3 (Prop_lut3_I0_O)        0.306     4.590 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_i_11/O
+                         net (fo=2, unplaced)         0.800     5.390    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/grp_fu_222_p1[33]
                          DSP48E1 (Prop_dsp48e1_A[16]_PCOUT[11])
-                                                      4.215     8.677 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product/PCOUT[11]
-                         net (fo=1, unplaced)         0.055     8.732    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product_n_142
-                         DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[11]
+                                                      4.036     9.426 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/tmp_product/PCOUT[11]
+                         net (fo=1, unplaced)         0.055     9.481    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/tmp_product_n_142
+                         DSP48E1                                      r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/PCIN[11]
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)    15.000    15.000 r  
                                                       0.000    15.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
-                         DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/CLK
+                         net (fo=20469, unset)        0.924    15.924    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/ap_clk
+                         DSP48E1                                      r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/CLK
                          clock pessimism              0.000    15.924    
                          clock uncertainty           -0.035    15.889    
                          DSP48E1 (Setup_dsp48e1_CLK_PCIN[11])
-                                                     -1.400    14.489    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg
+                                                     -1.400    14.489    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg
   -------------------------------------------------------------------
                          required time                         14.489    
-                         arrival time                          -8.732    
+                         arrival time                          -9.481    
   -------------------------------------------------------------------
-                         slack                                  5.757    
+                         slack                                  5.008    
 
-Slack (MET) :             5.757ns  (required time - arrival time)
-  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+Slack (MET) :             5.008ns  (required time - arrival time)
+  Source:                 bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
-  Destination:            bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[12]
+  Destination:            bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/PCIN[12]
                             (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
   Path Group:             ap_clk
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            15.000ns  (ap_clk rise@15.000ns - ap_clk rise@0.000ns)
-  Data Path Delay:        7.759ns  (logic 6.229ns (80.284%)  route 1.530ns (19.716%))
-  Logic Levels:           6  (CARRY4=5 DSP48E1=1)
+  Data Path Delay:        8.508ns  (logic 6.356ns (74.709%)  route 2.152ns (25.291%))
+  Logic Levels:           7  (CARRY4=5 DSP48E1=1 LUT3=1)
   Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
     Destination Clock Delay (DCD):    0.924ns = ( 15.924 - 15.000 ) 
     Source Clock Delay      (SCD):    0.973ns
@@ -228,56 +234,58 @@ Slack (MET) :             5.757ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
-                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+                         net (fo=20469, unset)        0.973     0.973    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/ap_clk
+                         FDRE                                         r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/C
   -------------------------------------------------------------------    -------------------
-                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/Q
-                         net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/p_1_in[0]
+                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/Q
+                         net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/bound6_cast_reg_622_reg[19][0]
                          CARRY4 (Prop_carry4_S[0]_CO[3])
-                                                      0.808     2.965 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15/CO[3]
-                         net (fo=1, unplaced)         0.009     2.974    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15_n_0
+                                                      0.808     2.965 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry/CO[3]
+                         net (fo=1, unplaced)         0.009     2.974    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.091 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14/CO[3]
-                         net (fo=1, unplaced)         0.000     3.091    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14_n_0
+                                                      0.117     3.091 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__0/CO[3]
+                         net (fo=1, unplaced)         0.000     3.091    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__0_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.208 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13/CO[3]
-                         net (fo=1, unplaced)         0.000     3.208    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13_n_0
+                                                      0.117     3.208 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__1/CO[3]
+                         net (fo=1, unplaced)         0.000     3.208    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__1_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.325 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12/CO[3]
-                         net (fo=1, unplaced)         0.000     3.325    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12_n_0
+                                                      0.117     3.325 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__2/CO[3]
+                         net (fo=1, unplaced)         0.000     3.325    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__2_n_0
                          CARRY4 (Prop_carry4_CI_O[1])
-                                                      0.337     3.662 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11/O[1]
-                         net (fo=3, unplaced)         0.800     4.462    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg_0[33]
+                                                      0.337     3.662 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__3/O[1]
+                         net (fo=2, unplaced)         0.622     4.284    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/bound6_reg_344_reg__0[17]
+                         LUT3 (Prop_lut3_I0_O)        0.306     4.590 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_i_11/O
+                         net (fo=2, unplaced)         0.800     5.390    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/grp_fu_222_p1[33]
                          DSP48E1 (Prop_dsp48e1_A[16]_PCOUT[12])
-                                                      4.215     8.677 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product/PCOUT[12]
-                         net (fo=1, unplaced)         0.055     8.732    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product_n_141
-                         DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[12]
+                                                      4.036     9.426 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/tmp_product/PCOUT[12]
+                         net (fo=1, unplaced)         0.055     9.481    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/tmp_product_n_141
+                         DSP48E1                                      r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/PCIN[12]
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)    15.000    15.000 r  
                                                       0.000    15.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
-                         DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/CLK
+                         net (fo=20469, unset)        0.924    15.924    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/ap_clk
+                         DSP48E1                                      r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/CLK
                          clock pessimism              0.000    15.924    
                          clock uncertainty           -0.035    15.889    
                          DSP48E1 (Setup_dsp48e1_CLK_PCIN[12])
-                                                     -1.400    14.489    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg
+                                                     -1.400    14.489    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg
   -------------------------------------------------------------------
                          required time                         14.489    
-                         arrival time                          -8.732    
+                         arrival time                          -9.481    
   -------------------------------------------------------------------
-                         slack                                  5.757    
+                         slack                                  5.008    
 
-Slack (MET) :             5.757ns  (required time - arrival time)
-  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+Slack (MET) :             5.008ns  (required time - arrival time)
+  Source:                 bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
-  Destination:            bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[13]
+  Destination:            bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/PCIN[13]
                             (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
   Path Group:             ap_clk
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            15.000ns  (ap_clk rise@15.000ns - ap_clk rise@0.000ns)
-  Data Path Delay:        7.759ns  (logic 6.229ns (80.284%)  route 1.530ns (19.716%))
-  Logic Levels:           6  (CARRY4=5 DSP48E1=1)
+  Data Path Delay:        8.508ns  (logic 6.356ns (74.709%)  route 2.152ns (25.291%))
+  Logic Levels:           7  (CARRY4=5 DSP48E1=1 LUT3=1)
   Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
     Destination Clock Delay (DCD):    0.924ns = ( 15.924 - 15.000 ) 
     Source Clock Delay      (SCD):    0.973ns
@@ -292,56 +300,58 @@ Slack (MET) :             5.757ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
-                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+                         net (fo=20469, unset)        0.973     0.973    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/ap_clk
+                         FDRE                                         r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/C
   -------------------------------------------------------------------    -------------------
-                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/Q
-                         net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/p_1_in[0]
+                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/Q
+                         net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/bound6_cast_reg_622_reg[19][0]
                          CARRY4 (Prop_carry4_S[0]_CO[3])
-                                                      0.808     2.965 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15/CO[3]
-                         net (fo=1, unplaced)         0.009     2.974    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15_n_0
+                                                      0.808     2.965 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry/CO[3]
+                         net (fo=1, unplaced)         0.009     2.974    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.091 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14/CO[3]
-                         net (fo=1, unplaced)         0.000     3.091    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14_n_0
+                                                      0.117     3.091 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__0/CO[3]
+                         net (fo=1, unplaced)         0.000     3.091    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__0_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.208 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13/CO[3]
-                         net (fo=1, unplaced)         0.000     3.208    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13_n_0
+                                                      0.117     3.208 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__1/CO[3]
+                         net (fo=1, unplaced)         0.000     3.208    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__1_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.325 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12/CO[3]
-                         net (fo=1, unplaced)         0.000     3.325    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12_n_0
+                                                      0.117     3.325 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__2/CO[3]
+                         net (fo=1, unplaced)         0.000     3.325    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__2_n_0
                          CARRY4 (Prop_carry4_CI_O[1])
-                                                      0.337     3.662 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11/O[1]
-                         net (fo=3, unplaced)         0.800     4.462    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg_0[33]
+                                                      0.337     3.662 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__3/O[1]
+                         net (fo=2, unplaced)         0.622     4.284    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/bound6_reg_344_reg__0[17]
+                         LUT3 (Prop_lut3_I0_O)        0.306     4.590 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_i_11/O
+                         net (fo=2, unplaced)         0.800     5.390    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/grp_fu_222_p1[33]
                          DSP48E1 (Prop_dsp48e1_A[16]_PCOUT[13])
-                                                      4.215     8.677 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product/PCOUT[13]
-                         net (fo=1, unplaced)         0.055     8.732    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product_n_140
-                         DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[13]
+                                                      4.036     9.426 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/tmp_product/PCOUT[13]
+                         net (fo=1, unplaced)         0.055     9.481    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/tmp_product_n_140
+                         DSP48E1                                      r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/PCIN[13]
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)    15.000    15.000 r  
                                                       0.000    15.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
-                         DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/CLK
+                         net (fo=20469, unset)        0.924    15.924    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/ap_clk
+                         DSP48E1                                      r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/CLK
                          clock pessimism              0.000    15.924    
                          clock uncertainty           -0.035    15.889    
                          DSP48E1 (Setup_dsp48e1_CLK_PCIN[13])
-                                                     -1.400    14.489    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg
+                                                     -1.400    14.489    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg
   -------------------------------------------------------------------
                          required time                         14.489    
-                         arrival time                          -8.732    
+                         arrival time                          -9.481    
   -------------------------------------------------------------------
-                         slack                                  5.757    
+                         slack                                  5.008    
 
-Slack (MET) :             5.757ns  (required time - arrival time)
-  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+Slack (MET) :             5.008ns  (required time - arrival time)
+  Source:                 bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
-  Destination:            bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[14]
+  Destination:            bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/PCIN[14]
                             (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
   Path Group:             ap_clk
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            15.000ns  (ap_clk rise@15.000ns - ap_clk rise@0.000ns)
-  Data Path Delay:        7.759ns  (logic 6.229ns (80.284%)  route 1.530ns (19.716%))
-  Logic Levels:           6  (CARRY4=5 DSP48E1=1)
+  Data Path Delay:        8.508ns  (logic 6.356ns (74.709%)  route 2.152ns (25.291%))
+  Logic Levels:           7  (CARRY4=5 DSP48E1=1 LUT3=1)
   Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
     Destination Clock Delay (DCD):    0.924ns = ( 15.924 - 15.000 ) 
     Source Clock Delay      (SCD):    0.973ns
@@ -356,56 +366,58 @@ Slack (MET) :             5.757ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
-                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+                         net (fo=20469, unset)        0.973     0.973    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/ap_clk
+                         FDRE                                         r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/C
   -------------------------------------------------------------------    -------------------
-                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/Q
-                         net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/p_1_in[0]
+                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/Q
+                         net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/bound6_cast_reg_622_reg[19][0]
                          CARRY4 (Prop_carry4_S[0]_CO[3])
-                                                      0.808     2.965 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15/CO[3]
-                         net (fo=1, unplaced)         0.009     2.974    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15_n_0
+                                                      0.808     2.965 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry/CO[3]
+                         net (fo=1, unplaced)         0.009     2.974    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.091 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14/CO[3]
-                         net (fo=1, unplaced)         0.000     3.091    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14_n_0
+                                                      0.117     3.091 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__0/CO[3]
+                         net (fo=1, unplaced)         0.000     3.091    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__0_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.208 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13/CO[3]
-                         net (fo=1, unplaced)         0.000     3.208    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13_n_0
+                                                      0.117     3.208 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__1/CO[3]
+                         net (fo=1, unplaced)         0.000     3.208    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__1_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.325 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12/CO[3]
-                         net (fo=1, unplaced)         0.000     3.325    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12_n_0
+                                                      0.117     3.325 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__2/CO[3]
+                         net (fo=1, unplaced)         0.000     3.325    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__2_n_0
                          CARRY4 (Prop_carry4_CI_O[1])
-                                                      0.337     3.662 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11/O[1]
-                         net (fo=3, unplaced)         0.800     4.462    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg_0[33]
+                                                      0.337     3.662 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__3/O[1]
+                         net (fo=2, unplaced)         0.622     4.284    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/bound6_reg_344_reg__0[17]
+                         LUT3 (Prop_lut3_I0_O)        0.306     4.590 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_i_11/O
+                         net (fo=2, unplaced)         0.800     5.390    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/grp_fu_222_p1[33]
                          DSP48E1 (Prop_dsp48e1_A[16]_PCOUT[14])
-                                                      4.215     8.677 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product/PCOUT[14]
-                         net (fo=1, unplaced)         0.055     8.732    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product_n_139
-                         DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[14]
+                                                      4.036     9.426 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/tmp_product/PCOUT[14]
+                         net (fo=1, unplaced)         0.055     9.481    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/tmp_product_n_139
+                         DSP48E1                                      r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/PCIN[14]
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)    15.000    15.000 r  
                                                       0.000    15.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
-                         DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/CLK
+                         net (fo=20469, unset)        0.924    15.924    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/ap_clk
+                         DSP48E1                                      r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/CLK
                          clock pessimism              0.000    15.924    
                          clock uncertainty           -0.035    15.889    
                          DSP48E1 (Setup_dsp48e1_CLK_PCIN[14])
-                                                     -1.400    14.489    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg
+                                                     -1.400    14.489    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg
   -------------------------------------------------------------------
                          required time                         14.489    
-                         arrival time                          -8.732    
+                         arrival time                          -9.481    
   -------------------------------------------------------------------
-                         slack                                  5.757    
+                         slack                                  5.008    
 
-Slack (MET) :             5.757ns  (required time - arrival time)
-  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+Slack (MET) :             5.008ns  (required time - arrival time)
+  Source:                 bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
-  Destination:            bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[15]
+  Destination:            bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/PCIN[15]
                             (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
   Path Group:             ap_clk
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            15.000ns  (ap_clk rise@15.000ns - ap_clk rise@0.000ns)
-  Data Path Delay:        7.759ns  (logic 6.229ns (80.284%)  route 1.530ns (19.716%))
-  Logic Levels:           6  (CARRY4=5 DSP48E1=1)
+  Data Path Delay:        8.508ns  (logic 6.356ns (74.709%)  route 2.152ns (25.291%))
+  Logic Levels:           7  (CARRY4=5 DSP48E1=1 LUT3=1)
   Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
     Destination Clock Delay (DCD):    0.924ns = ( 15.924 - 15.000 ) 
     Source Clock Delay      (SCD):    0.973ns
@@ -420,56 +432,58 @@ Slack (MET) :             5.757ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
-                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+                         net (fo=20469, unset)        0.973     0.973    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/ap_clk
+                         FDRE                                         r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/C
   -------------------------------------------------------------------    -------------------
-                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/Q
-                         net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/p_1_in[0]
+                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/Q
+                         net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/bound6_cast_reg_622_reg[19][0]
                          CARRY4 (Prop_carry4_S[0]_CO[3])
-                                                      0.808     2.965 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15/CO[3]
-                         net (fo=1, unplaced)         0.009     2.974    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15_n_0
+                                                      0.808     2.965 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry/CO[3]
+                         net (fo=1, unplaced)         0.009     2.974    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.091 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14/CO[3]
-                         net (fo=1, unplaced)         0.000     3.091    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14_n_0
+                                                      0.117     3.091 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__0/CO[3]
+                         net (fo=1, unplaced)         0.000     3.091    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__0_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.208 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13/CO[3]
-                         net (fo=1, unplaced)         0.000     3.208    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13_n_0
+                                                      0.117     3.208 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__1/CO[3]
+                         net (fo=1, unplaced)         0.000     3.208    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__1_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.325 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12/CO[3]
-                         net (fo=1, unplaced)         0.000     3.325    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12_n_0
+                                                      0.117     3.325 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__2/CO[3]
+                         net (fo=1, unplaced)         0.000     3.325    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__2_n_0
                          CARRY4 (Prop_carry4_CI_O[1])
-                                                      0.337     3.662 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11/O[1]
-                         net (fo=3, unplaced)         0.800     4.462    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg_0[33]
+                                                      0.337     3.662 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__3/O[1]
+                         net (fo=2, unplaced)         0.622     4.284    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/bound6_reg_344_reg__0[17]
+                         LUT3 (Prop_lut3_I0_O)        0.306     4.590 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_i_11/O
+                         net (fo=2, unplaced)         0.800     5.390    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/grp_fu_222_p1[33]
                          DSP48E1 (Prop_dsp48e1_A[16]_PCOUT[15])
-                                                      4.215     8.677 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product/PCOUT[15]
-                         net (fo=1, unplaced)         0.055     8.732    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product_n_138
-                         DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[15]
+                                                      4.036     9.426 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/tmp_product/PCOUT[15]
+                         net (fo=1, unplaced)         0.055     9.481    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/tmp_product_n_138
+                         DSP48E1                                      r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/PCIN[15]
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)    15.000    15.000 r  
                                                       0.000    15.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
-                         DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/CLK
+                         net (fo=20469, unset)        0.924    15.924    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/ap_clk
+                         DSP48E1                                      r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/CLK
                          clock pessimism              0.000    15.924    
                          clock uncertainty           -0.035    15.889    
                          DSP48E1 (Setup_dsp48e1_CLK_PCIN[15])
-                                                     -1.400    14.489    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg
+                                                     -1.400    14.489    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg
   -------------------------------------------------------------------
                          required time                         14.489    
-                         arrival time                          -8.732    
+                         arrival time                          -9.481    
   -------------------------------------------------------------------
-                         slack                                  5.757    
+                         slack                                  5.008    
 
-Slack (MET) :             5.757ns  (required time - arrival time)
-  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+Slack (MET) :             5.008ns  (required time - arrival time)
+  Source:                 bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
-  Destination:            bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[16]
+  Destination:            bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/PCIN[16]
                             (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
   Path Group:             ap_clk
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            15.000ns  (ap_clk rise@15.000ns - ap_clk rise@0.000ns)
-  Data Path Delay:        7.759ns  (logic 6.229ns (80.284%)  route 1.530ns (19.716%))
-  Logic Levels:           6  (CARRY4=5 DSP48E1=1)
+  Data Path Delay:        8.508ns  (logic 6.356ns (74.709%)  route 2.152ns (25.291%))
+  Logic Levels:           7  (CARRY4=5 DSP48E1=1 LUT3=1)
   Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
     Destination Clock Delay (DCD):    0.924ns = ( 15.924 - 15.000 ) 
     Source Clock Delay      (SCD):    0.973ns
@@ -484,56 +498,58 @@ Slack (MET) :             5.757ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
-                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+                         net (fo=20469, unset)        0.973     0.973    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/ap_clk
+                         FDRE                                         r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/C
   -------------------------------------------------------------------    -------------------
-                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/Q
-                         net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/p_1_in[0]
+                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/Q
+                         net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/bound6_cast_reg_622_reg[19][0]
                          CARRY4 (Prop_carry4_S[0]_CO[3])
-                                                      0.808     2.965 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15/CO[3]
-                         net (fo=1, unplaced)         0.009     2.974    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15_n_0
+                                                      0.808     2.965 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry/CO[3]
+                         net (fo=1, unplaced)         0.009     2.974    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.091 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14/CO[3]
-                         net (fo=1, unplaced)         0.000     3.091    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14_n_0
+                                                      0.117     3.091 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__0/CO[3]
+                         net (fo=1, unplaced)         0.000     3.091    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__0_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.208 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13/CO[3]
-                         net (fo=1, unplaced)         0.000     3.208    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13_n_0
+                                                      0.117     3.208 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__1/CO[3]
+                         net (fo=1, unplaced)         0.000     3.208    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__1_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.325 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12/CO[3]
-                         net (fo=1, unplaced)         0.000     3.325    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12_n_0
+                                                      0.117     3.325 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__2/CO[3]
+                         net (fo=1, unplaced)         0.000     3.325    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__2_n_0
                          CARRY4 (Prop_carry4_CI_O[1])
-                                                      0.337     3.662 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11/O[1]
-                         net (fo=3, unplaced)         0.800     4.462    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg_0[33]
+                                                      0.337     3.662 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__3/O[1]
+                         net (fo=2, unplaced)         0.622     4.284    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/bound6_reg_344_reg__0[17]
+                         LUT3 (Prop_lut3_I0_O)        0.306     4.590 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_i_11/O
+                         net (fo=2, unplaced)         0.800     5.390    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/grp_fu_222_p1[33]
                          DSP48E1 (Prop_dsp48e1_A[16]_PCOUT[16])
-                                                      4.215     8.677 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product/PCOUT[16]
-                         net (fo=1, unplaced)         0.055     8.732    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product_n_137
-                         DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[16]
+                                                      4.036     9.426 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/tmp_product/PCOUT[16]
+                         net (fo=1, unplaced)         0.055     9.481    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/tmp_product_n_137
+                         DSP48E1                                      r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/PCIN[16]
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)    15.000    15.000 r  
                                                       0.000    15.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
-                         DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/CLK
+                         net (fo=20469, unset)        0.924    15.924    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/ap_clk
+                         DSP48E1                                      r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/CLK
                          clock pessimism              0.000    15.924    
                          clock uncertainty           -0.035    15.889    
                          DSP48E1 (Setup_dsp48e1_CLK_PCIN[16])
-                                                     -1.400    14.489    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg
+                                                     -1.400    14.489    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg
   -------------------------------------------------------------------
                          required time                         14.489    
-                         arrival time                          -8.732    
+                         arrival time                          -9.481    
   -------------------------------------------------------------------
-                         slack                                  5.757    
+                         slack                                  5.008    
 
-Slack (MET) :             5.757ns  (required time - arrival time)
-  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+Slack (MET) :             5.008ns  (required time - arrival time)
+  Source:                 bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
-  Destination:            bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[17]
+  Destination:            bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/PCIN[17]
                             (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
   Path Group:             ap_clk
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            15.000ns  (ap_clk rise@15.000ns - ap_clk rise@0.000ns)
-  Data Path Delay:        7.759ns  (logic 6.229ns (80.284%)  route 1.530ns (19.716%))
-  Logic Levels:           6  (CARRY4=5 DSP48E1=1)
+  Data Path Delay:        8.508ns  (logic 6.356ns (74.709%)  route 2.152ns (25.291%))
+  Logic Levels:           7  (CARRY4=5 DSP48E1=1 LUT3=1)
   Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
     Destination Clock Delay (DCD):    0.924ns = ( 15.924 - 15.000 ) 
     Source Clock Delay      (SCD):    0.973ns
@@ -548,56 +564,58 @@ Slack (MET) :             5.757ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
-                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+                         net (fo=20469, unset)        0.973     0.973    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/ap_clk
+                         FDRE                                         r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/C
   -------------------------------------------------------------------    -------------------
-                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/Q
-                         net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/p_1_in[0]
+                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/Q
+                         net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/bound6_cast_reg_622_reg[19][0]
                          CARRY4 (Prop_carry4_S[0]_CO[3])
-                                                      0.808     2.965 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15/CO[3]
-                         net (fo=1, unplaced)         0.009     2.974    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15_n_0
+                                                      0.808     2.965 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry/CO[3]
+                         net (fo=1, unplaced)         0.009     2.974    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.091 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14/CO[3]
-                         net (fo=1, unplaced)         0.000     3.091    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14_n_0
+                                                      0.117     3.091 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__0/CO[3]
+                         net (fo=1, unplaced)         0.000     3.091    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__0_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.208 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13/CO[3]
-                         net (fo=1, unplaced)         0.000     3.208    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13_n_0
+                                                      0.117     3.208 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__1/CO[3]
+                         net (fo=1, unplaced)         0.000     3.208    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__1_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.325 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12/CO[3]
-                         net (fo=1, unplaced)         0.000     3.325    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12_n_0
+                                                      0.117     3.325 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__2/CO[3]
+                         net (fo=1, unplaced)         0.000     3.325    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__2_n_0
                          CARRY4 (Prop_carry4_CI_O[1])
-                                                      0.337     3.662 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11/O[1]
-                         net (fo=3, unplaced)         0.800     4.462    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg_0[33]
+                                                      0.337     3.662 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__3/O[1]
+                         net (fo=2, unplaced)         0.622     4.284    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/bound6_reg_344_reg__0[17]
+                         LUT3 (Prop_lut3_I0_O)        0.306     4.590 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_i_11/O
+                         net (fo=2, unplaced)         0.800     5.390    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/grp_fu_222_p1[33]
                          DSP48E1 (Prop_dsp48e1_A[16]_PCOUT[17])
-                                                      4.215     8.677 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product/PCOUT[17]
-                         net (fo=1, unplaced)         0.055     8.732    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product_n_136
-                         DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[17]
+                                                      4.036     9.426 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/tmp_product/PCOUT[17]
+                         net (fo=1, unplaced)         0.055     9.481    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/tmp_product_n_136
+                         DSP48E1                                      r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/PCIN[17]
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)    15.000    15.000 r  
                                                       0.000    15.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
-                         DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/CLK
+                         net (fo=20469, unset)        0.924    15.924    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/ap_clk
+                         DSP48E1                                      r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/CLK
                          clock pessimism              0.000    15.924    
                          clock uncertainty           -0.035    15.889    
                          DSP48E1 (Setup_dsp48e1_CLK_PCIN[17])
-                                                     -1.400    14.489    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg
+                                                     -1.400    14.489    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg
   -------------------------------------------------------------------
                          required time                         14.489    
-                         arrival time                          -8.732    
+                         arrival time                          -9.481    
   -------------------------------------------------------------------
-                         slack                                  5.757    
+                         slack                                  5.008    
 
-Slack (MET) :             5.757ns  (required time - arrival time)
-  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+Slack (MET) :             5.008ns  (required time - arrival time)
+  Source:                 bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
-  Destination:            bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[18]
+  Destination:            bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/PCIN[18]
                             (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
   Path Group:             ap_clk
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            15.000ns  (ap_clk rise@15.000ns - ap_clk rise@0.000ns)
-  Data Path Delay:        7.759ns  (logic 6.229ns (80.284%)  route 1.530ns (19.716%))
-  Logic Levels:           6  (CARRY4=5 DSP48E1=1)
+  Data Path Delay:        8.508ns  (logic 6.356ns (74.709%)  route 2.152ns (25.291%))
+  Logic Levels:           7  (CARRY4=5 DSP48E1=1 LUT3=1)
   Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
     Destination Clock Delay (DCD):    0.924ns = ( 15.924 - 15.000 ) 
     Source Clock Delay      (SCD):    0.973ns
@@ -612,45 +630,47 @@ Slack (MET) :             5.757ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
-                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+                         net (fo=20469, unset)        0.973     0.973    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/ap_clk
+                         FDRE                                         r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/C
   -------------------------------------------------------------------    -------------------
-                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/Q
-                         net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/p_1_in[0]
+                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/bound6_reg_344_reg[16]__0/Q
+                         net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/bound6_cast_reg_622_reg[19][0]
                          CARRY4 (Prop_carry4_S[0]_CO[3])
-                                                      0.808     2.965 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15/CO[3]
-                         net (fo=1, unplaced)         0.009     2.974    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15_n_0
+                                                      0.808     2.965 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry/CO[3]
+                         net (fo=1, unplaced)         0.009     2.974    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.091 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14/CO[3]
-                         net (fo=1, unplaced)         0.000     3.091    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14_n_0
+                                                      0.117     3.091 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__0/CO[3]
+                         net (fo=1, unplaced)         0.000     3.091    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__0_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.208 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13/CO[3]
-                         net (fo=1, unplaced)         0.000     3.208    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13_n_0
+                                                      0.117     3.208 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__1/CO[3]
+                         net (fo=1, unplaced)         0.000     3.208    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__1_n_0
                          CARRY4 (Prop_carry4_CI_CO[3])
-                                                      0.117     3.325 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12/CO[3]
-                         net (fo=1, unplaced)         0.000     3.325    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12_n_0
+                                                      0.117     3.325 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__2/CO[3]
+                         net (fo=1, unplaced)         0.000     3.325    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__2_n_0
                          CARRY4 (Prop_carry4_CI_O[1])
-                                                      0.337     3.662 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11/O[1]
-                         net (fo=3, unplaced)         0.800     4.462    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg_0[33]
+                                                      0.337     3.662 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_carry__3/O[1]
+                         net (fo=2, unplaced)         0.622     4.284    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/bound6_reg_344_reg__0[17]
+                         LUT3 (Prop_lut3_I0_O)        0.306     4.590 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_readBTiles_fu_147/mul_27ns_31ns_58_1_1_U31/tmp_product_i_11/O
+                         net (fo=2, unplaced)         0.800     5.390    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/grp_fu_222_p1[33]
                          DSP48E1 (Prop_dsp48e1_A[16]_PCOUT[18])
-                                                      4.215     8.677 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product/PCOUT[18]
-                         net (fo=1, unplaced)         0.055     8.732    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product_n_135
-                         DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[18]
+                                                      4.036     9.426 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/tmp_product/PCOUT[18]
+                         net (fo=1, unplaced)         0.055     9.481    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/tmp_product_n_135
+                         DSP48E1                                      r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/PCIN[18]
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)    15.000    15.000 r  
                                                       0.000    15.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
-                         DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/CLK
+                         net (fo=20469, unset)        0.924    15.924    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/ap_clk
+                         DSP48E1                                      r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg/CLK
                          clock pessimism              0.000    15.924    
                          clock uncertainty           -0.035    15.889    
                          DSP48E1 (Setup_dsp48e1_CLK_PCIN[18])
-                                                     -1.400    14.489    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg
+                                                     -1.400    14.489    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/mul_27ns_58ns_85_2_1_U132/buff0_reg
   -------------------------------------------------------------------
                          required time                         14.489    
-                         arrival time                          -8.732    
+                         arrival time                          -9.481    
   -------------------------------------------------------------------
-                         slack                                  5.757    
+                         slack                                  5.008    
 
 
 

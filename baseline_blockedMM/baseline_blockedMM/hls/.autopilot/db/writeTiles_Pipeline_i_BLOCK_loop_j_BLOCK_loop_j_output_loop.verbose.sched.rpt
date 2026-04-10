@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop'
 ================================================================
-* Date:           Thu Apr  9 09:15:09 2026
+* Date:           Fri Apr 10 16:22:58 2026
 
 * Version:        2025.1 (Build 6135595 on May 21 2025)
 * Project:        baseline_blockedMM
@@ -100,8 +100,8 @@ ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%jb = alloca i32 1" [../MLP_baselin
 ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%indvar_flatten = alloca i32 1"   --->   Operation 16 'alloca' 'indvar_flatten' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%ib = alloca i32 1" [../MLP_baseline/mm.cpp:123]   --->   Operation 17 'alloca' 'ib' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%indvar_flatten20 = alloca i32 1"   --->   Operation 18 'alloca' 'indvar_flatten20' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %gmem3, void @empty_18, i32 0, i32 0, void @empty_0, i32 0, i32 64, void @empty_4, void @empty_2, void @empty_0, i32 16, i32 16, i32 16, i32 16, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 19 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %AB_stream, void @empty_10, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 20 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %gmem, void @empty_14, i32 0, i32 0, void @empty_17, i32 0, i32 802816, void @empty_18, void @empty, void @empty_17, i32 16, i32 16, i32 16, i32 16, void @empty_17, void @empty_17, i32 4294967295, i32 0, i32 0"   --->   Operation 19 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %AB_stream, void @empty_13, i32 0, i32 0, void @empty_17, i32 0, i32 0, void @empty_17, void @empty_17, void @empty_17, i32 0, i32 0, i32 0, i32 0, void @empty_17, void @empty_17, i32 4294967295, i32 0, i32 0"   --->   Operation 20 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%ABC_load_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %ABC_load" [../MLP_baseline/mm.cpp:120]   --->   Operation 21 'read' 'ABC_load_read' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%N_1_read = read i32 @_ssdm_op_Read.ap_auto.i32, i32 %N_1" [../MLP_baseline/mm.cpp:120]   --->   Operation 22 'read' 'N_1_read' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%bound6_read = read i58 @_ssdm_op_Read.ap_auto.i58, i58 %bound6" [../MLP_baseline/mm.cpp:120]   --->   Operation 23 'read' 'bound6_read' <Predicate = true> <Delay = 0.00>
@@ -168,30 +168,30 @@ ST_5 : Operation 74 [1/1] (0.00ns)   --->   "%trunc_ln130_1 = partselect i58 @_s
 State 6 <SV = 5> <Delay = 10.9>
 ST_6 : Operation 75 [1/1] ( I:3.60ns O:3.60ns )   --->   "%AB_stream_read = read i512 @_ssdm_op_Read.ap_fifo.volatile.i512P0A, i512 %AB_stream" [../MLP_baseline/mm.cpp:129]   --->   Operation 75 'read' 'AB_stream_read' <Predicate = true> <Delay = 3.60> <CoreInst = "FIFO">   --->   Core 77 'FIFO' <Latency = 0> <II = 1> <Delay = 3.60> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 512> <Depth = 32> <FIFO>
 ST_6 : Operation 76 [1/1] (0.00ns)   --->   "%sext_ln130_1 = sext i58 %trunc_ln130_1" [../MLP_baseline/mm.cpp:130]   --->   Operation 76 'sext' 'sext_ln130_1' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 77 [1/1] (0.00ns)   --->   "%gmem3_addr = getelementptr i512 %gmem3, i64 %sext_ln130_1" [../MLP_baseline/mm.cpp:130]   --->   Operation 77 'getelementptr' 'gmem3_addr' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 78 [1/1] (10.9ns)   --->   "%gmem3_addr_req = writereq i1 @_ssdm_op_WriteReq.m_axi.i512P1A, i512 %gmem3_addr, i64 1" [../MLP_baseline/mm.cpp:130]   --->   Operation 78 'writereq' 'gmem3_addr_req' <Predicate = true> <Delay = 10.9> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 9> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_6 : Operation 77 [1/1] (0.00ns)   --->   "%gmem_addr = getelementptr i512 %gmem, i64 %sext_ln130_1" [../MLP_baseline/mm.cpp:130]   --->   Operation 77 'getelementptr' 'gmem_addr' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 78 [1/1] (10.9ns)   --->   "%gmem_addr_req = writereq i1 @_ssdm_op_WriteReq.m_axi.i512P1A, i512 %gmem_addr, i64 1" [../MLP_baseline/mm.cpp:130]   --->   Operation 78 'writereq' 'gmem_addr_req' <Predicate = true> <Delay = 10.9> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 9> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 7 <SV = 6> <Delay = 10.9>
-ST_7 : Operation 79 [1/1] (10.9ns)   --->   "%write_ln130 = write void @_ssdm_op_Write.m_axi.i512P1A, i512 %gmem3_addr, i512 %AB_stream_read, i64 18446744073709551615" [../MLP_baseline/mm.cpp:130]   --->   Operation 79 'write' 'write_ln130' <Predicate = true> <Delay = 10.9> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 5> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_7 : Operation 79 [1/1] (10.9ns)   --->   "%write_ln130 = write void @_ssdm_op_Write.m_axi.i512P1A, i512 %gmem_addr, i512 %AB_stream_read, i64 18446744073709551615" [../MLP_baseline/mm.cpp:130]   --->   Operation 79 'write' 'write_ln130' <Predicate = true> <Delay = 10.9> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 5> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 8 <SV = 7> <Delay = 10.9>
-ST_8 : Operation 80 [5/5] (10.9ns)   --->   "%gmem3_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem3_addr" [../MLP_baseline/mm.cpp:130]   --->   Operation 80 'writeresp' 'gmem3_addr_resp' <Predicate = true> <Delay = 10.9> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_8 : Operation 80 [5/5] (10.9ns)   --->   "%gmem_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem_addr" [../MLP_baseline/mm.cpp:130]   --->   Operation 80 'writeresp' 'gmem_addr_resp' <Predicate = true> <Delay = 10.9> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 9 <SV = 8> <Delay = 10.9>
-ST_9 : Operation 81 [4/5] (10.9ns)   --->   "%gmem3_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem3_addr" [../MLP_baseline/mm.cpp:130]   --->   Operation 81 'writeresp' 'gmem3_addr_resp' <Predicate = true> <Delay = 10.9> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_9 : Operation 81 [4/5] (10.9ns)   --->   "%gmem_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem_addr" [../MLP_baseline/mm.cpp:130]   --->   Operation 81 'writeresp' 'gmem_addr_resp' <Predicate = true> <Delay = 10.9> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 10 <SV = 9> <Delay = 10.9>
-ST_10 : Operation 82 [3/5] (10.9ns)   --->   "%gmem3_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem3_addr" [../MLP_baseline/mm.cpp:130]   --->   Operation 82 'writeresp' 'gmem3_addr_resp' <Predicate = true> <Delay = 10.9> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_10 : Operation 82 [3/5] (10.9ns)   --->   "%gmem_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem_addr" [../MLP_baseline/mm.cpp:130]   --->   Operation 82 'writeresp' 'gmem_addr_resp' <Predicate = true> <Delay = 10.9> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 11 <SV = 10> <Delay = 10.9>
-ST_11 : Operation 83 [2/5] (10.9ns)   --->   "%gmem3_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem3_addr" [../MLP_baseline/mm.cpp:130]   --->   Operation 83 'writeresp' 'gmem3_addr_resp' <Predicate = true> <Delay = 10.9> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_11 : Operation 83 [2/5] (10.9ns)   --->   "%gmem_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem_addr" [../MLP_baseline/mm.cpp:130]   --->   Operation 83 'writeresp' 'gmem_addr_resp' <Predicate = true> <Delay = 10.9> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 ST_11 : Operation 89 [1/1] (1.58ns)   --->   "%ret_ln0 = ret"   --->   Operation 89 'ret' 'ret_ln0' <Predicate = (icmp_ln123)> <Delay = 1.58>
 
 State 12 <SV = 11> <Delay = 10.9>
 ST_12 : Operation 84 [1/1] (0.00ns)   --->   "%specloopname_ln0 = specloopname void @_ssdm_op_SpecLoopName, void @i_BLOCK_loop_j_BLOCK_loop_j_output_loop_str"   --->   Operation 84 'specloopname' 'specloopname_ln0' <Predicate = true> <Delay = 0.00>
 ST_12 : Operation 85 [1/1] (0.00ns)   --->   "%speclooptripcount_ln0 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 0, i64 288230371856744464, i64 72057591890444304"   --->   Operation 85 'speclooptripcount' 'speclooptripcount_ln0' <Predicate = true> <Delay = 0.00>
-ST_12 : Operation 86 [1/1] (0.00ns)   --->   "%specpipeline_ln128 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_0" [../MLP_baseline/mm.cpp:128]   --->   Operation 86 'specpipeline' 'specpipeline_ln128' <Predicate = true> <Delay = 0.00>
-ST_12 : Operation 87 [1/5] (10.9ns)   --->   "%gmem3_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem3_addr" [../MLP_baseline/mm.cpp:130]   --->   Operation 87 'writeresp' 'gmem3_addr_resp' <Predicate = true> <Delay = 10.9> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_12 : Operation 86 [1/1] (0.00ns)   --->   "%specpipeline_ln128 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_17" [../MLP_baseline/mm.cpp:128]   --->   Operation 86 'specpipeline' 'specpipeline_ln128' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 87 [1/5] (10.9ns)   --->   "%gmem_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem_addr" [../MLP_baseline/mm.cpp:130]   --->   Operation 87 'writeresp' 'gmem_addr_resp' <Predicate = true> <Delay = 10.9> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 ST_12 : Operation 88 [1/1] (0.00ns)   --->   "%br_ln127 = br void %for.inc" [../MLP_baseline/mm.cpp:127]   --->   Operation 88 'br' 'br_ln127' <Predicate = true> <Delay = 0.00>
 
 
@@ -234,32 +234,32 @@ The critical path consists of the following:
 
  <State 6>: 10.950ns
 The critical path consists of the following:
-	'getelementptr' operation 512 bit ('gmem3_addr', ../MLP_baseline/mm.cpp:130) [67]  (0.000 ns)
-	bus request operation ('gmem3_addr_req', ../MLP_baseline/mm.cpp:130) on port 'gmem3' (../MLP_baseline/mm.cpp:130) [68]  (10.950 ns)
+	'getelementptr' operation 512 bit ('gmem_addr', ../MLP_baseline/mm.cpp:130) [67]  (0.000 ns)
+	bus request operation ('gmem_addr_req', ../MLP_baseline/mm.cpp:130) on port 'gmem' (../MLP_baseline/mm.cpp:130) [68]  (10.950 ns)
 
  <State 7>: 10.950ns
 The critical path consists of the following:
-	bus write operation ('write_ln130', ../MLP_baseline/mm.cpp:130) on port 'gmem3' (../MLP_baseline/mm.cpp:130) [69]  (10.950 ns)
+	bus write operation ('write_ln130', ../MLP_baseline/mm.cpp:130) on port 'gmem' (../MLP_baseline/mm.cpp:130) [69]  (10.950 ns)
 
  <State 8>: 10.950ns
 The critical path consists of the following:
-	bus response operation ('gmem3_addr_resp', ../MLP_baseline/mm.cpp:130) on port 'gmem3' (../MLP_baseline/mm.cpp:130) [70]  (10.950 ns)
+	bus response operation ('gmem_addr_resp', ../MLP_baseline/mm.cpp:130) on port 'gmem' (../MLP_baseline/mm.cpp:130) [70]  (10.950 ns)
 
  <State 9>: 10.950ns
 The critical path consists of the following:
-	bus response operation ('gmem3_addr_resp', ../MLP_baseline/mm.cpp:130) on port 'gmem3' (../MLP_baseline/mm.cpp:130) [70]  (10.950 ns)
+	bus response operation ('gmem_addr_resp', ../MLP_baseline/mm.cpp:130) on port 'gmem' (../MLP_baseline/mm.cpp:130) [70]  (10.950 ns)
 
  <State 10>: 10.950ns
 The critical path consists of the following:
-	bus response operation ('gmem3_addr_resp', ../MLP_baseline/mm.cpp:130) on port 'gmem3' (../MLP_baseline/mm.cpp:130) [70]  (10.950 ns)
+	bus response operation ('gmem_addr_resp', ../MLP_baseline/mm.cpp:130) on port 'gmem' (../MLP_baseline/mm.cpp:130) [70]  (10.950 ns)
 
  <State 11>: 10.950ns
 The critical path consists of the following:
-	bus response operation ('gmem3_addr_resp', ../MLP_baseline/mm.cpp:130) on port 'gmem3' (../MLP_baseline/mm.cpp:130) [70]  (10.950 ns)
+	bus response operation ('gmem_addr_resp', ../MLP_baseline/mm.cpp:130) on port 'gmem' (../MLP_baseline/mm.cpp:130) [70]  (10.950 ns)
 
  <State 12>: 10.950ns
 The critical path consists of the following:
-	bus response operation ('gmem3_addr_resp', ../MLP_baseline/mm.cpp:130) on port 'gmem3' (../MLP_baseline/mm.cpp:130) [70]  (10.950 ns)
+	bus response operation ('gmem_addr_resp', ../MLP_baseline/mm.cpp:130) on port 'gmem' (../MLP_baseline/mm.cpp:130) [70]  (10.950 ns)
 
 
 ============================================================

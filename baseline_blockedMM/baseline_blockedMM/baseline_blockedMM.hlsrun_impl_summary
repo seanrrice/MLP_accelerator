@@ -9,10 +9,10 @@
 <ENTRY>
 {
  "type": "ET_CmdStep",
- "dateTimestamp": "04/09/26 09:34:37",
- "timestampMillis": "1775752477767",
+ "dateTimestamp": "04/10/26 16:24:32",
+ "timestampMillis": "1775863472488",
  "buildStep": {
-  "cmdId": "7329b821-581e-4450-99ca-b99805a47c79",
+  "cmdId": "b64499d7-c1cd-47a3-ba60-a6df3c8c8237",
   "name": "vitis-run",
   "logFile": "C:/Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\baseline_blockedMM\\logs\\baseline_blockedMM.steps.log",
   "commandLine": "C:/Xilinx/2025.1/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --impl --config C:\\Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\hls_config.cfg --work_dir baseline_blockedMM ",
@@ -33,10 +33,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/09/26 09:34:37",
- "timestampMillis": "1775752477768",
+ "dateTimestamp": "04/10/26 16:24:32",
+ "timestampMillis": "1775863472489",
  "status": {
-  "cmdId": "7329b821-581e-4450-99ca-b99805a47c79",
+  "cmdId": "b64499d7-c1cd-47a3-ba60-a6df3c8c8237",
   "state": "CS_RUNNING"
  }
 }
@@ -44,8 +44,8 @@
 <ENTRY>
 {
  "type": "ET_FlowMetaData",
- "dateTimestamp": "04/09/26 09:34:45",
- "timestampMillis": "1775752485123",
+ "dateTimestamp": "04/10/26 16:24:39",
+ "timestampMillis": "1775863479860",
  "buildSummary": {
   "hardwarePlatform": "",
   "hardwareDsa": "",
@@ -81,10 +81,10 @@
 <ENTRY>
 {
  "type": "ET_SubCmdStep",
- "dateTimestamp": "04/09/26 09:34:45",
- "timestampMillis": "1775752485126",
+ "dateTimestamp": "04/10/26 16:24:39",
+ "timestampMillis": "1775863479862",
  "buildStep": {
-  "cmdId": "6b0825ee-f1de-4101-b4c8-d96bc7226d26",
+  "cmdId": "3133d943-0314-497e-aca7-ae35e64580e0",
   "name": "",
   "logFile": "C:/Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\baseline_blockedMM\\hls\\hls.log",
   "commandLine": "",
@@ -97,10 +97,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/09/26 09:34:45",
- "timestampMillis": "1775752485127",
+ "dateTimestamp": "04/10/26 16:24:39",
+ "timestampMillis": "1775863479862",
  "status": {
-  "cmdId": "6b0825ee-f1de-4101-b4c8-d96bc7226d26",
+  "cmdId": "3133d943-0314-497e-aca7-ae35e64580e0",
   "state": "CS_RUNNING"
  }
 }
@@ -108,8 +108,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/09/26 09:34:45",
- "timestampMillis": "1775752485129",
+ "dateTimestamp": "04/10/26 16:24:39",
+ "timestampMillis": "1775863479864",
  "report": {
   "path": "C:/Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\baseline_blockedMM\\hls\\impl\\verilog",
   "name": "",
@@ -122,8 +122,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/09/26 09:34:45",
- "timestampMillis": "1775752485131",
+ "dateTimestamp": "04/10/26 16:24:39",
+ "timestampMillis": "1775863479865",
  "report": {
   "path": "C:/Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\baseline_blockedMM\\hls\\impl\\report\\verilog\\export_syn.rpt",
   "name": "",
@@ -136,8 +136,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/09/26 09:34:45",
- "timestampMillis": "1775752485132",
+ "dateTimestamp": "04/10/26 16:24:39",
+ "timestampMillis": "1775863479866",
  "report": {
   "path": "C:/Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\baseline_blockedMM\\hls\\impl\\report\\verilog\\export_syn.xml",
   "name": "",
@@ -150,8 +150,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/09/26 09:34:45",
- "timestampMillis": "1775752485133",
+ "dateTimestamp": "04/10/26 16:24:39",
+ "timestampMillis": "1775863479867",
  "report": {
   "path": "C:/Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\baseline_blockedMM\\hls\\impl\\verilog",
   "name": "",
@@ -164,8 +164,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/09/26 09:34:45",
- "timestampMillis": "1775752485133",
+ "dateTimestamp": "04/10/26 16:24:39",
+ "timestampMillis": "1775863479868",
  "report": {
   "path": "C:/Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\baseline_blockedMM\\hls\\impl\\report\\verilog\\export_impl.rpt",
   "name": "",
@@ -178,8 +178,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/09/26 09:34:45",
- "timestampMillis": "1775752485134",
+ "dateTimestamp": "04/10/26 16:24:39",
+ "timestampMillis": "1775863479868",
  "report": {
   "path": "C:/Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\baseline_blockedMM\\hls\\impl\\report\\verilog\\export_impl.xml",
   "name": "",
@@ -192,8 +192,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/09/26 09:51:35",
- "timestampMillis": "1775753495198",
+ "dateTimestamp": "04/10/26 16:42:51",
+ "timestampMillis": "1775864571869",
  "report": {
   "path": "C:/Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\baseline_blockedMM\\hls",
   "name": "",
@@ -206,8 +206,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/09/26 09:51:35",
- "timestampMillis": "1775753495231",
+ "dateTimestamp": "04/10/26 16:42:51",
+ "timestampMillis": "1775864571912",
  "report": {
   "path": "C:/Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\baseline_blockedMM\\hls",
   "name": "",
@@ -220,10 +220,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/09/26 09:51:35",
- "timestampMillis": "1775753495232",
+ "dateTimestamp": "04/10/26 16:42:51",
+ "timestampMillis": "1775864571913",
  "status": {
-  "cmdId": "6b0825ee-f1de-4101-b4c8-d96bc7226d26",
+  "cmdId": "3133d943-0314-497e-aca7-ae35e64580e0",
   "state": "CS_PASSED"
  }
 }
@@ -231,10 +231,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/09/26 09:51:36",
- "timestampMillis": "1775753496049",
+ "dateTimestamp": "04/10/26 16:42:52",
+ "timestampMillis": "1775864572886",
  "status": {
-  "cmdId": "7329b821-581e-4450-99ca-b99805a47c79",
+  "cmdId": "b64499d7-c1cd-47a3-ba60-a6df3c8c8237",
   "state": "CS_PASSED"
  }
 }
@@ -242,8 +242,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/09/26 09:51:36",
- "timestampMillis": "1775753496063",
+ "dateTimestamp": "04/10/26 16:42:52",
+ "timestampMillis": "1775864572898",
  "report": {
   "path": "",
   "name": "",
@@ -256,8 +256,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/09/26 09:51:36",
- "timestampMillis": "1775753496063",
+ "dateTimestamp": "04/10/26 16:42:52",
+ "timestampMillis": "1775864572900",
  "report": {
   "path": "",
   "name": "",

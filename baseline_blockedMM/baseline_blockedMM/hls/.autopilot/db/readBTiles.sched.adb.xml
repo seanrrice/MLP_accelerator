@@ -169,10 +169,10 @@ entry:18 %div2 = select i1 %tmp_14, i28 %p_neg_t5, i28 %tmp_9
 
 <Node id="26" bw="27" op_0_bw="28">
 <![CDATA[
-entry:19 %empty_39 = trunc i28 %div2
+entry:19 %empty_36 = trunc i28 %div2
 
 ]]></Node>
-<StgValue><ssdm name="empty_39"/></StgValue>
+<StgValue><ssdm name="empty_36"/></StgValue>
 </operation>
 
 <operation id="16" st_id="1" stage="1" lat="1">
@@ -274,10 +274,10 @@ entry:25 %div7 = select i1 %tmp_15, i28 %p_neg_t, i28 %tmp_2
 
 <Node id="33" bw="27" op_0_bw="28">
 <![CDATA[
-entry:26 %empty_40 = trunc i28 %div7
+entry:26 %empty_37 = trunc i28 %div7
 
 ]]></Node>
-<StgValue><ssdm name="empty_40"/></StgValue>
+<StgValue><ssdm name="empty_37"/></StgValue>
 </operation>
 
 <operation id="23" st_id="1" stage="1" lat="1">
@@ -289,10 +289,10 @@ entry:26 %empty_40 = trunc i28 %div7
 
 <Node id="34" bw="1" op_0_bw="28" op_1_bw="28">
 <![CDATA[
-entry:27 %empty_41 = icmp_sgt  i28 %div7, i28 0
+entry:27 %empty_38 = icmp_sgt  i28 %div7, i28 0
 
 ]]></Node>
-<StgValue><ssdm name="empty_41"/></StgValue>
+<StgValue><ssdm name="empty_38"/></StgValue>
 </operation>
 
 <operation id="24" st_id="1" stage="1" lat="1">
@@ -304,7 +304,7 @@ entry:27 %empty_41 = icmp_sgt  i28 %div7, i28 0
 
 <Node id="35" bw="27" op_0_bw="1" op_1_bw="27" op_2_bw="27">
 <![CDATA[
-entry:28 %smax = select i1 %empty_41, i27 %empty_40, i27 0
+entry:28 %smax = select i1 %empty_38, i27 %empty_37, i27 0
 
 ]]></Node>
 <StgValue><ssdm name="smax"/></StgValue>
@@ -319,10 +319,10 @@ entry:28 %smax = select i1 %empty_41, i27 %empty_40, i27 0
 
 <Node id="37" bw="1" op_0_bw="28" op_1_bw="28">
 <![CDATA[
-entry:30 %empty_42 = icmp_sgt  i28 %div2, i28 0
+entry:30 %empty_39 = icmp_sgt  i28 %div2, i28 0
 
 ]]></Node>
-<StgValue><ssdm name="empty_42"/></StgValue>
+<StgValue><ssdm name="empty_39"/></StgValue>
 </operation>
 
 <operation id="26" st_id="1" stage="1" lat="1">
@@ -334,7 +334,7 @@ entry:30 %empty_42 = icmp_sgt  i28 %div2, i28 0
 
 <Node id="38" bw="27" op_0_bw="1" op_1_bw="27" op_2_bw="27">
 <![CDATA[
-entry:31 %smax2 = select i1 %empty_42, i27 %empty_39, i27 0
+entry:31 %smax2 = select i1 %empty_39, i27 %empty_36, i27 0
 
 ]]></Node>
 <StgValue><ssdm name="smax2"/></StgValue>
@@ -532,10 +532,10 @@ entry:34 %bound6 = mul i58 %smax2_cast, i58 %tmp_12_cast
 
 <Node id="42" bw="1" op_0_bw="28" op_1_bw="28">
 <![CDATA[
-entry:35 %empty_43 = icmp_sgt  i28 %div, i28 0
+entry:35 %empty_40 = icmp_sgt  i28 %div, i28 0
 
 ]]></Node>
-<StgValue><ssdm name="empty_43"/></StgValue>
+<StgValue><ssdm name="empty_40"/></StgValue>
 </operation>
 
 <operation id="40" st_id="2" stage="1" lat="1">
@@ -547,7 +547,7 @@ entry:35 %empty_43 = icmp_sgt  i28 %div, i28 0
 
 <Node id="43" bw="27" op_0_bw="1" op_1_bw="27" op_2_bw="27">
 <![CDATA[
-entry:36 %smax23 = select i1 %empty_43, i27 %empty, i27 0
+entry:36 %smax23 = select i1 %empty_40, i27 %empty, i27 0
 
 ]]></Node>
 <StgValue><ssdm name="smax23"/></StgValue>
@@ -646,7 +646,7 @@ entry:5 %B_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %B
 
 <Node id="47" bw="0" op_0_bw="0" op_1_bw="85" op_2_bw="58" op_3_bw="27" op_4_bw="31" op_5_bw="32" op_6_bw="64" op_7_bw="512" op_8_bw="512">
 <![CDATA[
-entry:40 %call_ln33 = call void @readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop, i85 %bound28, i58 %bound6, i27 %smax, i31 %tmp_3, i32 %P_read, i64 %B_read, i512 %gmem1, i512 %B_stream
+entry:40 %call_ln33 = call void @readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop, i85 %bound28, i58 %bound6, i27 %smax, i31 %tmp_3, i32 %P_read, i64 %B_read, i512 %gmem, i512 %B_stream
 
 ]]></Node>
 <StgValue><ssdm name="call_ln33"/></StgValue>
@@ -664,7 +664,7 @@ entry:40 %call_ln33 = call void @readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k
 
 <Node id="7" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32" op_19_bw="32">
 <![CDATA[
-entry:0 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %B_stream, void @empty_10, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0
+entry:0 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %B_stream, void @empty_13, i32 0, i32 0, void @empty_17, i32 0, i32 0, void @empty_17, void @empty_17, void @empty_17, i32 0, i32 0, i32 0, i32 0, void @empty_17, void @empty_17, i32 4294967295, i32 0, i32 0
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>
@@ -679,7 +679,7 @@ entry:0 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %B
 
 <Node id="8" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32" op_19_bw="32">
 <![CDATA[
-entry:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %gmem1, void @empty_18, i32 0, i32 0, void @empty_0, i32 0, i32 64, void @empty_3, void @empty_2, void @empty_0, i32 16, i32 16, i32 16, i32 16, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0
+entry:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %gmem, void @empty_14, i32 0, i32 0, void @empty_17, i32 0, i32 802816, void @empty_18, void @empty, void @empty_17, i32 16, i32 16, i32 16, i32 16, void @empty_17, void @empty_17, i32 4294967295, i32 0, i32 0
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>
@@ -694,7 +694,7 @@ entry:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %g
 
 <Node id="47" bw="0" op_0_bw="0" op_1_bw="85" op_2_bw="58" op_3_bw="27" op_4_bw="31" op_5_bw="32" op_6_bw="64" op_7_bw="512" op_8_bw="512">
 <![CDATA[
-entry:40 %call_ln33 = call void @readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop, i85 %bound28, i58 %bound6, i27 %smax, i31 %tmp_3, i32 %P_read, i64 %B_read, i512 %gmem1, i512 %B_stream
+entry:40 %call_ln33 = call void @readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop, i85 %bound28, i58 %bound6, i27 %smax, i31 %tmp_3, i32 %P_read, i64 %B_read, i512 %gmem, i512 %B_stream
 
 ]]></Node>
 <StgValue><ssdm name="call_ln33"/></StgValue>

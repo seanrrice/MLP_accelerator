@@ -11,8 +11,8 @@ module MM_start_for_writeTiles_U0
 #(parameter
     MEM_STYLE    = "shiftReg",
     DATA_WIDTH   = 1,
-    ADDR_WIDTH   = 2,
-    DEPTH        = 3)
+    ADDR_WIDTH   = 1,
+    DEPTH        = 2)
 (
     // system signal
     input  wire                  clk,
@@ -124,8 +124,8 @@ endmodule
 module MM_start_for_writeTiles_U0_ShiftReg
 #(parameter
     DATA_WIDTH  = 1,
-    ADDR_WIDTH  = 2,
-    DEPTH       = 3)
+    ADDR_WIDTH  = 1,
+    DEPTH       = 2)
 (
     input  wire                  clk,
     input  wire                  we,

@@ -43,7 +43,7 @@ Args:
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 180, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 181, Column: 2 }
 Function:        MM
 Args:            
   - Callee:          'readAtTiles(hls::vector<int, 16ul>*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int)'
@@ -56,7 +56,7 @@ Args:
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 181, Column: 5 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 182, Column: 5 }
 Function:        MM
 Args:            
   - Callee:          'readBTiles(hls::vector<int, 16ul>*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int)'
@@ -69,7 +69,7 @@ Args:
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 182, Column: 5 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 183, Column: 5 }
 Function:        MM
 Args:            
   - Callee:          'computeTiles(hls::stream<hls::vector<int, 16ul>, 0>&, hls::stream<hls::vector<int, 16ul>, 0>&, int*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int)'
@@ -82,7 +82,7 @@ Args:
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 183, Column: 5 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 184, Column: 5 }
 Function:        MM
 Args:            
   - Callee:          'writeTiles(hls::stream<hls::vector<int, 16ul>, 0>&, hls::vector<int, 16ul>*, int, int)'
@@ -3370,7 +3370,7 @@ Args:
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 180, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 181, Column: 2 }
 Function:        MM
 Args:            
   - Callee:          'readAtTiles(hls::vector<int, 16ul>*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int)'
@@ -3383,7 +3383,7 @@ Args:
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 181, Column: 5 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 182, Column: 5 }
 Function:        MM
 Args:            
   - Callee:          'readBTiles(hls::vector<int, 16ul>*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int)'
@@ -3396,7 +3396,7 @@ Args:
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 182, Column: 5 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 183, Column: 5 }
 Function:        MM
 Args:            
   - Callee:          'computeTiles(hls::stream<hls::vector<int, 16ul>, 0>&, hls::stream<hls::vector<int, 16ul>, 0>&, int*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int)'
@@ -3409,7 +3409,7 @@ Args:
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 183, Column: 5 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 184, Column: 5 }
 Function:        MM
 Args:            
   - Callee:          'writeTiles(hls::stream<hls::vector<int, 16ul>, 0>&, hls::vector<int, 16ul>*, int, int)'
@@ -3515,7 +3515,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 170, Column: 26 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 171, Column: 26 }
 Function:        MM
 Args:            
   - String:          'Aggregating '
@@ -3531,7 +3531,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 171, Column: 29 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 172, Column: 29 }
 Function:        MM
 Args:            
   - String:          'Aggregating '
@@ -3547,7 +3547,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 172, Column: 29 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 173, Column: 29 }
 Function:        MM
 Args:            
   - String:          'Aggregating '
@@ -3891,7 +3891,7 @@ Args:
   - OrigID:          for.inc.load.8
   - ArrayName:       AT
   - String:          ' '
-  - BundleName:      gmem0
+  - BundleName:      gmem
   - String:          ' '
   - LoopName:        k_loop
   - String:          ' '
@@ -3915,7 +3915,7 @@ Args:
   - OrigID:          for.inc.load.8
   - ArrayName:       B
   - String:          ' '
-  - BundleName:      gmem1
+  - BundleName:      gmem
   - String:          ' '
   - LoopName:        k_loop
   - String:          ' '
@@ -3939,7 +3939,7 @@ Args:
   - AccessID:        scevgepseq
   - ArrayName:       C
   - String:          ' '
-  - BundleName:      gmem2
+  - BundleName:      gmem
   - String:          ' '
   - LoopName:        j_BLOCK_loop
   - String:          ' '
@@ -4010,7 +4010,7 @@ Args:
   - OrigID:          scevgepseq
   - ArrayName:       C
   - String:          ' '
-  - BundleName:      gmem2
+  - BundleName:      gmem
   - String:          ' '
   - LoopName:        j_BLOCK_loop
   - String:          ' '
@@ -4034,7 +4034,7 @@ Args:
   - OrigID:          for.inc.store.13
   - ArrayName:       ABC
   - String:          ' '
-  - BundleName:      gmem3
+  - BundleName:      gmem
   - String:          ' '
   - LoopName:        j_output_loop
   - String:          ' '
@@ -4059,85 +4059,90 @@ Args:
   - OrigID:          scevgepseq
   - ArrayName:       C
   - String:          ' '
-  - BundleName:      gmem2
+  - BundleName:      gmem
   - String:          ' '
   - Function:        'computeTiles(hls::stream<hls::vector<int, 16ul>, 0>&, hls::stream<hls::vector<int, 16ul>, 0>&, int*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int)'
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
   - String:          ' '
 ...
---- !Passed
-Pass:            reflow-burst-summary
-Name:            BurstInferredVerboseSummary
-Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii.1
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            MismatchPortAndBurstAccessWidth
+Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
-  - String:          'Multiple burst '
-  - Direction:       reads
-  - String:          ' of length '
-  - Length:          '16'
-  - String:          ' and bit width '
-  - Width:           '32'
-  - String:          ' has been inferred.'
-  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+  - String:          Inferred burst reverted due to burst accesses data width is different from m_axi port width
   - String:          ' _XLX_SEP_ '
-  - AccessID:        seq
-  - ArrayName:       ''
+  - OrigAccess:      call
+  - OrigDirection:   read
+  - OrigID:          scevgepseq
+  - ArrayName:       C
   - String:          ' '
-  - BundleName:      gmem2
+  - BundleName:      gmem
   - String:          ' '
-  - Function:        'computeTiles(hls::stream<hls::vector<int, 16ul>, 0>&, hls::stream<hls::vector<int, 16ul>, 0>&, int*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int) (.1)'
+  - Function:        'computeTiles(hls::stream<hls::vector<int, 16ul>, 0>&, hls::stream<hls::vector<int, 16ul>, 0>&, int*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int)'
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
   - String:          ' '
 ...
---- !Passed
-Pass:            reflow-burst-summary
-Name:            BurstInferredSummary
-Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii.1
+--- !Failure
+Pass:            reflow-dataflow-canon
+Name:            DataflowAggrMerge
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 137, Column: 0 }
+Function:        MM
 Args:            
-  - String:          'Multiple burst '
-  - Direction:       reads
-  - String:          ' of length '
-  - Length:          '16'
-  - String:          ' and bit width '
-  - Width:           '32'
-  - String:          ' has been inferred on bundle '''
-  - BundleName:      gmem2
-  - String:          '''.'
-  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+  - String:          'Merging processes '
+  - String:          '''readBTiles'', ''computeTiles'' and ''readAtTiles'''
+  - String:          ' in function '''
+  - FName:           MM
+  - String:          ''' '
+  - String:          'due to reads on ''gmem'''
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 180, Column: 2 }
-Function:        MM
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 181, Column: 2 }
+Function:        Block_entry_gmem_rd_proc
 Args:            
-  - Callee:          'readAtTiles(hls::vector<int, 16ul>*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int) (.1)'
+  - Callee:          'readAtTiles(hls::vector<int, 16ul>*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int) (.1.1)'
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 8, Column: 0 }
   - String:          ' not inlined into '
-  - Caller:          MM
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 137, Column: 0 }
-  - String:          ' because it should never be inlined (cost=never)'
-...
---- !Missed
-Pass:            inline
-Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 181, Column: 5 }
-Function:        MM
-Args:            
-  - Callee:          'readBTiles(hls::vector<int, 16ul>*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int) (.1)'
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 34, Column: 0 }
-  - String:          ' not inlined into '
-  - Caller:          MM
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 137, Column: 0 }
+  - Caller:          Block_entry_gmem_rd_proc
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 0, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
 DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 182, Column: 5 }
-Function:        MM
+Function:        Block_entry_gmem_rd_proc
+Args:            
+  - Callee:          'readBTiles(hls::vector<int, 16ul>*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int) (.1)'
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 34, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          Block_entry_gmem_rd_proc
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 0, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 183, Column: 5 }
+Function:        Block_entry_gmem_rd_proc
 Args:            
   - Callee:          'computeTiles(hls::stream<hls::vector<int, 16ul>, 0>&, hls::stream<hls::vector<int, 16ul>, 0>&, int*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int) (.1)'
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+  - String:          ' not inlined into '
+  - Caller:          Block_entry_gmem_rd_proc
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 0, Column: 0 }
+  - String:          ' because it should never be inlined (cost=never)'
+...
+--- !Missed
+Pass:            inline
+Name:            NeverInline
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 175, Column: 9 }
+Function:        MM
+Args:            
+  - Callee:          Block_entry_gmem_rd_proc
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 0, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 137, Column: 0 }
@@ -4146,7 +4151,7 @@ Args:
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 183, Column: 5 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 184, Column: 5 }
 Function:        MM
 Args:            
   - Callee:          'writeTiles(hls::stream<hls::vector<int, 16ul>, 0>&, hls::vector<int, 16ul>*, int, int) (.1)'

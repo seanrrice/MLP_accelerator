@@ -28,18 +28,18 @@
 |               | (4) simplification          | 2,037        | simplification of design after performance transformations                             |
 |               |                             |              |                                                                                        |
 | HW Transforms |                             |              | After hardware transfomations                                                          |
-|               | (1) lowering                | 2,054        | initial conversion to HW specific instructions                                         |
-|               | (2) optimizations           | 2,228        | high level synthesis optimizations                                                     |
+|               | (1) lowering                | 2,186        | initial conversion to HW specific instructions                                         |
+|               | (2) optimizations           | 2,364        | high level synthesis optimizations                                                     |
 +---------------+-----------------------------+--------------+----------------------------------------------------------------------------------------+
 
 * Instructions per Function for each Compilation Phase
 +-----------------+------------+--------------+---------------+--------------+-------------+---------------+
 | Function        | Location   | Compile/Link | Unroll/Inline | Array/Struct | Performance | HW Transforms |
 +-----------------+------------+--------------+---------------+--------------+-------------+---------------+
-| + MM            | mm.cpp:137 | 448          | 1,010         | 3,911        | 2,037       | 2,228         |
-|    readAtTiles  | mm.cpp:4   |  60          |   44          |  160         |  157        |  189          |
-|    readBTiles   | mm.cpp:30  |  60          |   44          |  160         |  157        |  189          |
-|    computeTiles | mm.cpp:54  | 232          |  858          | 3,410        | 1,544       | 1,627         |
+| + MM            | mm.cpp:137 | 448          | 1,010         | 3,911        | 2,037       | 2,364         |
+|    readAtTiles  | mm.cpp:4   |  60          |   44          |  160         |  157        |               |
+|    readBTiles   | mm.cpp:30  |  60          |   44          |  160         |  157        |               |
+|    computeTiles | mm.cpp:54  | 232          |  858          | 3,410        | 1,544       |               |
 |    writeTiles   | mm.cpp:117 |  52          |   35          |  151         |  149        |  180          |
 +-----------------+------------+--------------+---------------+--------------+-------------+---------------+
 

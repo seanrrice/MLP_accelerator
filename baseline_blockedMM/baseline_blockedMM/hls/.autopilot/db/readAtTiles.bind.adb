@@ -16,7 +16,7 @@
 					<Obj class_id="5" tracking_level="0" version="0">
 						<type>1</type>
 						<id>1</id>
-						<name>gmem0</name>
+						<name>gmem</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1216,7 +1216,7 @@
 					<Obj>
 						<type>0</type>
 						<id>26</id>
-						<name>empty_44</name>
+						<name>empty_41</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>7</lineNumber>
@@ -1620,7 +1620,7 @@
 					<Obj>
 						<type>0</type>
 						<id>33</id>
-						<name>empty_45</name>
+						<name>empty_42</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>7</lineNumber>
@@ -1676,7 +1676,7 @@
 					<Obj>
 						<type>0</type>
 						<id>34</id>
-						<name>empty_46</name>
+						<name>empty_43</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>7</lineNumber>
@@ -1849,7 +1849,7 @@
 					<Obj>
 						<type>0</type>
 						<id>37</id>
-						<name>empty_47</name>
+						<name>empty_44</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>7</lineNumber>
@@ -2133,7 +2133,7 @@
 					<Obj>
 						<type>0</type>
 						<id>42</id>
-						<name>empty_48</name>
+						<name>empty_45</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>7</lineNumber>
@@ -4470,7 +4470,7 @@
 			</second>
 		</item>
 		<item>
-			<first>empty_44_fu_149</first>
+			<first>empty_41_fu_149</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4478,7 +4478,7 @@
 			</second>
 		</item>
 		<item>
-			<first>empty_45_fu_201</first>
+			<first>empty_42_fu_201</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4486,7 +4486,7 @@
 			</second>
 		</item>
 		<item>
-			<first>empty_46_fu_205</first>
+			<first>empty_43_fu_205</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4494,7 +4494,7 @@
 			</second>
 		</item>
 		<item>
-			<first>empty_47_fu_219</first>
+			<first>empty_44_fu_219</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4502,7 +4502,7 @@
 			</second>
 		</item>
 		<item>
-			<first>empty_48_fu_301</first>
+			<first>empty_45_fu_301</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -5015,7 +5015,7 @@
 			</second>
 		</item>
 		<item>
-			<first>gmem0</first>
+			<first>gmem</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>

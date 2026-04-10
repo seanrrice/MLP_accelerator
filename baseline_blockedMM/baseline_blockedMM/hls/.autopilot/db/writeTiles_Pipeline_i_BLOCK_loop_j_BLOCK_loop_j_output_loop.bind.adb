@@ -196,7 +196,7 @@
 					<Obj>
 						<type>1</type>
 						<id>6</id>
-						<name>gmem3</name>
+						<name>gmem</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3207,7 +3207,7 @@
 					<Obj>
 						<type>0</type>
 						<id>67</id>
-						<name>gmem3_addr</name>
+						<name>gmem_addr</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>130</lineNumber>
@@ -3264,7 +3264,7 @@
 					<Obj>
 						<type>0</type>
 						<id>68</id>
-						<name>gmem3_addr_req</name>
+						<name>gmem_addr_req</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>130</lineNumber>
@@ -3322,7 +3322,7 @@
 					<Obj>
 						<type>0</type>
 						<id>69</id>
-						<name>gmem3_addr_write_ln130</name>
+						<name>gmem_addr_write_ln130</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>130</lineNumber>
@@ -3382,7 +3382,7 @@
 					<Obj>
 						<type>0</type>
 						<id>70</id>
-						<name>gmem3_addr_resp</name>
+						<name>gmem_addr_resp</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>130</lineNumber>
@@ -7663,7 +7663,7 @@
 			</second>
 		</item>
 		<item>
-			<first>gmem3_addr_fu_462</first>
+			<first>gmem_addr_fu_462</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -7959,7 +7959,7 @@
 			</second>
 		</item>
 		<item>
-			<first>gmem3_addr_req_writereq_fu_160</first>
+			<first>gmem_addr_req_writereq_fu_160</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -8323,7 +8323,7 @@
 			</second>
 		</item>
 		<item>
-			<first>gmem3_addr_reg_560</first>
+			<first>gmem_addr_reg_560</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -8475,7 +8475,7 @@
 			</second>
 		</item>
 		<item>
-			<first>gmem3</first>
+			<first>gmem</first>
 			<second>
 				<count>3</count>
 				<item_version>0</item_version>

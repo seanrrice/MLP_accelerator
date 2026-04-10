@@ -232,7 +232,7 @@
 					<Obj>
 						<type>1</type>
 						<id>7</id>
-						<name>gmem1</name>
+						<name>gmem</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1400,349 +1400,6 @@
 					<Obj>
 						<type>0</type>
 						<id>35</id>
-						<name>br_ln38</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>readBTiles</contextFuncName>
-						<contextNormFuncName>readBTiles</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>readBTiles</second>
-										</first>
-										<second>38</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>0</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>148</item>
-					<item>149</item>
-					<item>150</item>
-				</oprand_edges>
-				<opcode>br</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>24</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_33">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>37</id>
-						<name>k_load</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>44</lineNumber>
-						<contextFuncName>readBTiles</contextFuncName>
-						<contextNormFuncName>readBTiles</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>readBTiles</second>
-										</first>
-										<second>44</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>5</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>151</item>
-					<item>383</item>
-				</oprand_edges>
-				<opcode>load</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>40</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_34">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>38</id>
-						<name>kb_load</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>40</lineNumber>
-						<contextFuncName>readBTiles</contextFuncName>
-						<contextNormFuncName>readBTiles</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>readBTiles</second>
-										</first>
-										<second>40</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>28</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>152</item>
-					<item>381</item>
-				</oprand_edges>
-				<opcode>load</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>41</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_35">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>39</id>
-						<name>indvar_flatten_load</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>42</lineNumber>
-						<contextFuncName>readBTiles</contextFuncName>
-						<contextNormFuncName>readBTiles</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>readBTiles</second>
-										</first>
-										<second>42</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>34</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>153</item>
-					<item>379</item>
-				</oprand_edges>
-				<opcode>load</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>25</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_36">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>40</id>
-						<name>jb_load</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>38</lineNumber>
-						<contextFuncName>readBTiles</contextFuncName>
-						<contextNormFuncName>readBTiles</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>readBTiles</second>
-										</first>
-										<second>38</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>28</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>154</item>
-					<item>377</item>
-				</oprand_edges>
-				<opcode>load</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>60</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_37">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>41</id>
-						<name>indvar_flatten20_load</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>40</lineNumber>
-						<contextFuncName>readBTiles</contextFuncName>
-						<contextNormFuncName>readBTiles</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>readBTiles</second>
-										</first>
-										<second>40</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>63</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>155</item>
-					<item>375</item>
-				</oprand_edges>
-				<opcode>load</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>26</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_38">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>42</id>
 						<name>add_ln38</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
@@ -1783,8 +1440,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>156</item>
-					<item>158</item>
+					<item>148</item>
+					<item>150</item>
 				</oprand_edges>
 				<opcode>add</opcode>
 				<m_Display>0</m_Display>
@@ -1792,6 +1449,349 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>4.12</m_delay>
+				<m_topoIndex>24</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_33">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>36</id>
+						<name>br_ln38</name>
+						<fileName>../MLP_baseline/mm.cpp</fileName>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
+						<lineNumber>38</lineNumber>
+						<contextFuncName>readBTiles</contextFuncName>
+						<contextNormFuncName>readBTiles</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>../MLP_baseline/mm.cpp</first>
+											<second>readBTiles</second>
+										</first>
+										<second>38</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>4294967295</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>0</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>151</item>
+					<item>152</item>
+					<item>153</item>
+				</oprand_edges>
+				<opcode>br</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>25</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_34">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>38</id>
+						<name>k_load</name>
+						<fileName>../MLP_baseline/mm.cpp</fileName>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
+						<lineNumber>44</lineNumber>
+						<contextFuncName>readBTiles</contextFuncName>
+						<contextNormFuncName>readBTiles</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>../MLP_baseline/mm.cpp</first>
+											<second>readBTiles</second>
+										</first>
+										<second>44</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>4294967295</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>5</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>154</item>
+					<item>383</item>
+				</oprand_edges>
+				<opcode>load</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>40</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_35">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>39</id>
+						<name>kb_load</name>
+						<fileName>../MLP_baseline/mm.cpp</fileName>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
+						<lineNumber>40</lineNumber>
+						<contextFuncName>readBTiles</contextFuncName>
+						<contextNormFuncName>readBTiles</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>../MLP_baseline/mm.cpp</first>
+											<second>readBTiles</second>
+										</first>
+										<second>40</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>4294967295</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>28</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>155</item>
+					<item>381</item>
+				</oprand_edges>
+				<opcode>load</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>41</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_36">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>40</id>
+						<name>indvar_flatten_load</name>
+						<fileName>../MLP_baseline/mm.cpp</fileName>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
+						<lineNumber>42</lineNumber>
+						<contextFuncName>readBTiles</contextFuncName>
+						<contextNormFuncName>readBTiles</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>../MLP_baseline/mm.cpp</first>
+											<second>readBTiles</second>
+										</first>
+										<second>42</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>4294967295</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>34</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>156</item>
+					<item>379</item>
+				</oprand_edges>
+				<opcode>load</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>26</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_37">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>41</id>
+						<name>jb_load</name>
+						<fileName>../MLP_baseline/mm.cpp</fileName>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
+						<lineNumber>38</lineNumber>
+						<contextFuncName>readBTiles</contextFuncName>
+						<contextNormFuncName>readBTiles</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>../MLP_baseline/mm.cpp</first>
+											<second>readBTiles</second>
+										</first>
+										<second>38</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>4294967295</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>28</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>157</item>
+					<item>377</item>
+				</oprand_edges>
+				<opcode>load</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>60</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_38">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>42</id>
+						<name>indvar_flatten20_load</name>
+						<fileName>../MLP_baseline/mm.cpp</fileName>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
+						<lineNumber>40</lineNumber>
+						<contextFuncName>readBTiles</contextFuncName>
+						<contextNormFuncName>readBTiles</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>../MLP_baseline/mm.cpp</first>
+											<second>readBTiles</second>
+										</first>
+										<second>40</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>4294967295</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>63</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>158</item>
+					<item>375</item>
+				</oprand_edges>
+				<opcode>load</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
 				<m_topoIndex>27</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -3866,7 +3866,7 @@
 					<Obj>
 						<type>0</type>
 						<id>81</id>
-						<name>gmem1_addr</name>
+						<name>gmem_addr</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -3923,7 +3923,7 @@
 					<Obj>
 						<type>0</type>
 						<id>82</id>
-						<name>gmem1_load_req</name>
+						<name>gmem_load_req</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -3981,7 +3981,7 @@
 					<Obj>
 						<type>0</type>
 						<id>83</id>
-						<name>gmem1_addr_read</name>
+						<name>gmem_addr_read</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>46</lineNumber>
@@ -5024,7 +5024,7 @@
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>157</id>
+						<id>149</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -5574,7 +5574,7 @@
 			<item class_id_reference="18" object_id="_115">
 				<Obj>
 					<type>3</type>
-					<id>36</id>
+					<id>37</id>
 					<name>for.inc</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
@@ -5597,11 +5597,12 @@
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
-					<count>3</count>
+					<count>4</count>
 					<item_version>0</item_version>
 					<item>33</item>
 					<item>34</item>
 					<item>35</item>
+					<item>36</item>
 				</node_objs>
 			</item>
 			<item class_id_reference="18" object_id="_116">
@@ -5630,9 +5631,8 @@
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
-					<count>58</count>
+					<count>57</count>
 					<item_version>0</item_version>
-					<item>37</item>
 					<item>38</item>
 					<item>39</item>
 					<item>40</item>
@@ -5912,7 +5912,7 @@
 			<item class_id_reference="20" object_id="_144">
 				<id>144</id>
 				<edge_type>2</edge_type>
-				<source_obj>36</source_obj>
+				<source_obj>37</source_obj>
 				<sink_obj>31</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
@@ -5940,77 +5940,77 @@
 			<item class_id_reference="20" object_id="_148">
 				<id>148</id>
 				<edge_type>1</edge_type>
-				<source_obj>34</source_obj>
+				<source_obj>33</source_obj>
 				<sink_obj>35</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_149">
-				<id>149</id>
-				<edge_type>2</edge_type>
-				<source_obj>97</source_obj>
+				<id>150</id>
+				<edge_type>1</edge_type>
+				<source_obj>149</source_obj>
 				<sink_obj>35</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_150">
-				<id>150</id>
-				<edge_type>2</edge_type>
-				<source_obj>99</source_obj>
-				<sink_obj>35</sink_obj>
+				<id>151</id>
+				<edge_type>1</edge_type>
+				<source_obj>34</source_obj>
+				<sink_obj>36</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_151">
-				<id>151</id>
-				<edge_type>1</edge_type>
-				<source_obj>9</source_obj>
-				<sink_obj>37</sink_obj>
+				<id>152</id>
+				<edge_type>2</edge_type>
+				<source_obj>97</source_obj>
+				<sink_obj>36</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_152">
-				<id>152</id>
-				<edge_type>1</edge_type>
-				<source_obj>10</source_obj>
-				<sink_obj>38</sink_obj>
+				<id>153</id>
+				<edge_type>2</edge_type>
+				<source_obj>99</source_obj>
+				<sink_obj>36</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_153">
-				<id>153</id>
+				<id>154</id>
 				<edge_type>1</edge_type>
-				<source_obj>11</source_obj>
-				<sink_obj>39</sink_obj>
+				<source_obj>9</source_obj>
+				<sink_obj>38</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_154">
-				<id>154</id>
+				<id>155</id>
 				<edge_type>1</edge_type>
-				<source_obj>12</source_obj>
-				<sink_obj>40</sink_obj>
+				<source_obj>10</source_obj>
+				<sink_obj>39</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_155">
-				<id>155</id>
+				<id>156</id>
 				<edge_type>1</edge_type>
-				<source_obj>13</source_obj>
-				<sink_obj>41</sink_obj>
+				<source_obj>11</source_obj>
+				<sink_obj>40</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_156">
-				<id>156</id>
+				<id>157</id>
 				<edge_type>1</edge_type>
-				<source_obj>33</source_obj>
-				<sink_obj>42</sink_obj>
+				<source_obj>12</source_obj>
+				<sink_obj>41</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_157">
 				<id>158</id>
 				<edge_type>1</edge_type>
-				<source_obj>157</source_obj>
+				<source_obj>13</source_obj>
 				<sink_obj>42</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_158">
 				<id>159</id>
 				<edge_type>1</edge_type>
-				<source_obj>41</source_obj>
+				<source_obj>42</source_obj>
 				<sink_obj>44</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
@@ -6038,7 +6038,7 @@
 			<item class_id_reference="20" object_id="_162">
 				<id>163</id>
 				<edge_type>1</edge_type>
-				<source_obj>40</source_obj>
+				<source_obj>41</source_obj>
 				<sink_obj>45</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
@@ -6059,7 +6059,7 @@
 			<item class_id_reference="20" object_id="_165">
 				<id>167</id>
 				<edge_type>1</edge_type>
-				<source_obj>37</source_obj>
+				<source_obj>38</source_obj>
 				<sink_obj>47</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
@@ -6087,7 +6087,7 @@
 			<item class_id_reference="20" object_id="_169">
 				<id>173</id>
 				<edge_type>1</edge_type>
-				<source_obj>39</source_obj>
+				<source_obj>40</source_obj>
 				<sink_obj>49</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
@@ -6164,7 +6164,7 @@
 			<item class_id_reference="20" object_id="_180">
 				<id>185</id>
 				<edge_type>1</edge_type>
-				<source_obj>38</source_obj>
+				<source_obj>39</source_obj>
 				<sink_obj>53</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
@@ -6290,7 +6290,7 @@
 			<item class_id_reference="20" object_id="_198">
 				<id>203</id>
 				<edge_type>1</edge_type>
-				<source_obj>37</source_obj>
+				<source_obj>38</source_obj>
 				<sink_obj>61</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
@@ -6626,7 +6626,7 @@
 			<item class_id_reference="20" object_id="_246">
 				<id>278</id>
 				<edge_type>1</edge_type>
-				<source_obj>39</source_obj>
+				<source_obj>40</source_obj>
 				<sink_obj>86</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
@@ -6661,7 +6661,7 @@
 			<item class_id_reference="20" object_id="_251">
 				<id>284</id>
 				<edge_type>1</edge_type>
-				<source_obj>41</source_obj>
+				<source_obj>42</source_obj>
 				<sink_obj>88</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
@@ -6696,7 +6696,7 @@
 			<item class_id_reference="20" object_id="_256">
 				<id>290</id>
 				<edge_type>1</edge_type>
-				<source_obj>42</source_obj>
+				<source_obj>35</source_obj>
 				<sink_obj>90</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
@@ -6780,7 +6780,7 @@
 			<item class_id_reference="20" object_id="_268">
 				<id>302</id>
 				<edge_type>2</edge_type>
-				<source_obj>36</source_obj>
+				<source_obj>37</source_obj>
 				<sink_obj>96</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
@@ -6788,20 +6788,20 @@
 				<id>363</id>
 				<edge_type>2</edge_type>
 				<source_obj>32</source_obj>
-				<sink_obj>36</sink_obj>
+				<sink_obj>37</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_270">
 				<id>364</id>
 				<edge_type>2</edge_type>
-				<source_obj>36</source_obj>
+				<source_obj>37</source_obj>
 				<sink_obj>99</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_271">
 				<id>365</id>
 				<edge_type>2</edge_type>
-				<source_obj>36</source_obj>
+				<source_obj>37</source_obj>
 				<sink_obj>97</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
@@ -6809,7 +6809,7 @@
 				<id>366</id>
 				<edge_type>2</edge_type>
 				<source_obj>97</source_obj>
-				<sink_obj>36</sink_obj>
+				<sink_obj>37</sink_obj>
 				<is_back_edge>1</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_273">
@@ -6822,35 +6822,35 @@
 			<item class_id_reference="20" object_id="_274">
 				<id>368</id>
 				<edge_type>4</edge_type>
-				<source_obj>41</source_obj>
+				<source_obj>42</source_obj>
 				<sink_obj>91</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_275">
 				<id>369</id>
 				<edge_type>4</edge_type>
-				<source_obj>40</source_obj>
+				<source_obj>41</source_obj>
 				<sink_obj>92</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_276">
 				<id>370</id>
 				<edge_type>4</edge_type>
-				<source_obj>39</source_obj>
+				<source_obj>40</source_obj>
 				<sink_obj>93</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_277">
 				<id>371</id>
 				<edge_type>4</edge_type>
-				<source_obj>38</source_obj>
+				<source_obj>39</source_obj>
 				<sink_obj>94</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_278">
 				<id>372</id>
 				<edge_type>4</edge_type>
-				<source_obj>37</source_obj>
+				<source_obj>38</source_obj>
 				<sink_obj>95</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
@@ -6872,7 +6872,7 @@
 				<id>375</id>
 				<edge_type>4</edge_type>
 				<source_obj>26</source_obj>
-				<sink_obj>41</sink_obj>
+				<sink_obj>42</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_282">
@@ -6886,7 +6886,7 @@
 				<id>377</id>
 				<edge_type>4</edge_type>
 				<source_obj>27</source_obj>
-				<sink_obj>40</sink_obj>
+				<sink_obj>41</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_284">
@@ -6900,7 +6900,7 @@
 				<id>379</id>
 				<edge_type>4</edge_type>
 				<source_obj>28</source_obj>
-				<sink_obj>39</sink_obj>
+				<sink_obj>40</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_286">
@@ -6914,7 +6914,7 @@
 				<id>381</id>
 				<edge_type>4</edge_type>
 				<source_obj>29</source_obj>
-				<sink_obj>38</sink_obj>
+				<sink_obj>39</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_288">
@@ -6928,7 +6928,7 @@
 				<id>383</id>
 				<edge_type>4</edge_type>
 				<source_obj>30</source_obj>
-				<sink_obj>37</sink_obj>
+				<sink_obj>38</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_290">
@@ -7010,7 +7010,7 @@
 			<basic_blocks>
 				<count>2</count>
 				<item_version>0</item_version>
-				<item>36</item>
+				<item>37</item>
 				<item>97</item>
 			</basic_blocks>
 			<mII>1</mII>
@@ -7220,9 +7220,9 @@
 			</second>
 		</item>
 		<item>
-			<first>37</first>
+			<first>36</first>
 			<second>
-				<first>2</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -7236,21 +7236,21 @@
 		<item>
 			<first>39</first>
 			<second>
-				<first>1</first>
+				<first>2</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>40</first>
 			<second>
-				<first>4</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>41</first>
 			<second>
-				<first>1</first>
+				<first>4</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -7644,7 +7644,7 @@
 			</second>
 		</item>
 		<item>
-			<first>36</first>
+			<first>37</first>
 			<second>
 				<first>1</first>
 				<second>1</second>
@@ -7673,7 +7673,7 @@
 			<basic_blocks>
 				<count>2</count>
 				<item_version>0</item_version>
-				<item>36</item>
+				<item>37</item>
 				<item>97</item>
 			</basic_blocks>
 			<nodes>

@@ -13,8 +13,8 @@ entity MM_start_for_writeTiles_U0 is
     generic (
         MEM_STYLE         : string  := "shiftReg";
         DATA_WIDTH        : integer := 1;
-        ADDR_WIDTH        : integer := 2;
-        DEPTH             : integer := 3);
+        ADDR_WIDTH        : integer := 1;
+        DEPTH             : integer := 2);
     port (
         clk               : in  std_logic;
         reset             : in  std_logic;
@@ -43,8 +43,8 @@ constant SRL_AWIDTH : INTEGER := ADDR_WIDTH;
     component MM_start_for_writeTiles_U0_ShiftReg is
     generic (
         DATA_WIDTH : integer := 1;
-        ADDR_WIDTH : integer := 2;
-        DEPTH      : integer := 3);
+        ADDR_WIDTH : integer := 1;
+        DEPTH      : integer := 2);
     port (
         clk        : in std_logic;
         we         : in std_logic;
@@ -160,8 +160,8 @@ use IEEE.std_logic_unsigned.all;
 entity MM_start_for_writeTiles_U0_ShiftReg is
     generic (
         DATA_WIDTH : integer := 1;
-        ADDR_WIDTH : integer := 2;
-        DEPTH      : integer := 3);
+        ADDR_WIDTH : integer := 1;
+        DEPTH      : integer := 2);
     port (
         clk        : in std_logic;
         we         : in std_logic;

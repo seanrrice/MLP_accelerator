@@ -41563,12 +41563,12 @@ __attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT __attribute__((align
 #pragma HLSDIRECTIVE TOP name=MM
 # 137 "../MLP_baseline/mm.cpp"
 
-# 156 "../MLP_baseline/mm.cpp"
-#pragma HLS INTERFACE m_axi port=AT bundle=gmem0 depth=64
-#pragma HLS INTERFACE m_axi port=B bundle=gmem1 depth=64
-#pragma HLS INTERFACE m_axi port=C bundle=gmem2 depth=32
-#pragma HLS INTERFACE m_axi port=ABC bundle=gmem3 depth=64
-
+# 149 "../MLP_baseline/mm.cpp"
+#pragma HLS INTERFACE m_axi port=AT bundle=gmem depth=802816
+#pragma HLS INTERFACE m_axi port=B bundle=gmem depth=100352
+#pragma HLS INTERFACE m_axi port=C bundle=gmem depth=1024
+#pragma HLS INTERFACE m_axi port=ABC bundle=gmem depth=131072
+# 162 "../MLP_baseline/mm.cpp"
 #pragma HLS INTERFACE s_axilite port=AT bundle=control
 #pragma HLS INTERFACE s_axilite port=B bundle=control
 #pragma HLS INTERFACE s_axilite port=C bundle=control

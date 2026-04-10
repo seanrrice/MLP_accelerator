@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
-| Date         : Thu Apr  9 09:51:02 2026
+| Date         : Fri Apr 10 16:42:10 2026
 | Host         : LAPTOP-L6H807T2 running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -file ./report/MM_timing_routed.rpt
 | Design       : bd_0_wrapper
@@ -57,8 +57,8 @@ Table of Contents
 2. checking constant_clock (0)
 3. checking pulse_width_clock (0)
 4. checking unconstrained_internal_endpoints (0)
-5. checking no_input_delay (1122)
-6. checking no_output_delay (876)
+5. checking no_input_delay (572)
+6. checking no_output_delay (744)
 7. checking multiple_clock (0)
 8. checking generated_clocks (0)
 9. checking loops (0)
@@ -88,16 +88,16 @@ Table of Contents
  There are 0 pins that are not constrained for maximum delay due to constant clock.
 
 
-5. checking no_input_delay (1122)
----------------------------------
- There are 1122 input ports with no input delay specified. (HIGH)
+5. checking no_input_delay (572)
+--------------------------------
+ There are 572 input ports with no input delay specified. (HIGH)
 
  There are 0 input ports with no input delay but user has a false path constraint.
 
 
-6. checking no_output_delay (876)
+6. checking no_output_delay (744)
 ---------------------------------
- There are 876 ports with no output delay specified. (HIGH)
+ There are 744 ports with no output delay specified. (HIGH)
 
  There are 0 ports with no output delay but user has a false path constraint
 
@@ -142,7 +142,7 @@ Table of Contents
 
     WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
     -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
-      2.284        0.000                      0                56314        0.055        0.000                      0                56314        6.520        0.000                       0                 20371  
+      1.802        0.000                      0                55885        0.064        0.000                      0                55885        6.520        0.000                       0                 20399  
 
 
 All user specified timing constraints are met.
@@ -165,7 +165,7 @@ ap_clk  {0.000 7.500}      15.000          66.667
 
 Clock             WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
 -----             -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
-ap_clk              2.284        0.000                      0                56314        0.055        0.000                      0                56314        6.520        0.000                       0                 20371  
+ap_clk              1.802        0.000                      0                55885        0.064        0.000                      0                55885        6.520        0.000                       0                 20399  
 
 
 ------------------------------------------------------------------------------------------------
@@ -196,24 +196,24 @@ Path Group    From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing 
 From Clock:  ap_clk
   To Clock:  ap_clk
 
-Setup :            0  Failing Endpoints,  Worst Slack        2.284ns,  Total Violation        0.000ns
-Hold  :            0  Failing Endpoints,  Worst Slack        0.055ns,  Total Violation        0.000ns
+Setup :            0  Failing Endpoints,  Worst Slack        1.802ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.064ns,  Total Violation        0.000ns
 PW    :            0  Failing Endpoints,  Worst Slack        6.520ns,  Total Violation        0.000ns
 ---------------------------------------------------------------------------------------------------
 
 
 Max Delay Paths
 --------------------------------------------------------------------------------------
-Slack (MET) :             2.284ns  (required time - arrival time)
-  Source:                 bd_0_i/hls_inst/inst/computeTiles_U0/grp_computeTiles_Pipeline_j_output_loop_fu_284_ap_start_reg_reg/C
+Slack (MET) :             1.802ns  (required time - arrival time)
+  Source:                 bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_computeTiles_fu_159/ap_CS_fsm_reg[26]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
-  Destination:            bd_0_i/hls_inst/inst/computeTiles_U0/grp_computeTiles_Pipeline_j_output_loop_fu_284/trunc_ln107_1_reg_414_reg[22]/D
+  Destination:            bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_computeTiles_fu_159/thr_or2_reg_2562_reg[511]/CE
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
   Path Group:             ap_clk
   Path Type:              Setup (Max at Slow Process Corner)
   Requirement:            15.000ns  (ap_clk rise@15.000ns - ap_clk rise@0.000ns)
-  Data Path Delay:        12.696ns  (logic 1.340ns (10.555%)  route 11.356ns (89.445%))
-  Logic Levels:           4  (LUT3=1 LUT6=1 MUXF7=1 MUXF8=1)
+  Data Path Delay:        12.909ns  (logic 0.456ns (3.533%)  route 12.453ns (96.467%))
+  Logic Levels:           0  
   Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
     Destination Clock Delay (DCD):    0.924ns = ( 15.924 - 15.000 ) 
     Source Clock Delay      (SCD):    0.973ns
@@ -228,34 +228,26 @@ Slack (MET) :             2.284ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.973     0.973    bd_0_i/hls_inst/inst/computeTiles_U0/ap_clk
-    SLICE_X36Y38         FDRE                                         r  bd_0_i/hls_inst/inst/computeTiles_U0/grp_computeTiles_Pipeline_j_output_loop_fu_284_ap_start_reg_reg/C
+                         net (fo=20407, unset)        0.973     0.973    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_computeTiles_fu_159/ap_clk
+    SLICE_X64Y24         FDRE                                         r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_computeTiles_fu_159/ap_CS_fsm_reg[26]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X36Y38         FDRE (Prop_fdre_C_Q)         0.518     1.491 f  bd_0_i/hls_inst/inst/computeTiles_U0/grp_computeTiles_Pipeline_j_output_loop_fu_284_ap_start_reg_reg/Q
-                         net (fo=50, routed)          4.283     5.774    bd_0_i/hls_inst/inst/computeTiles_U0/grp_computeTiles_Pipeline_j_output_loop_fu_284/flow_control_loop_pipe_sequential_init_U/grp_computeTiles_Pipeline_j_output_loop_fu_284_ap_start_reg
-    SLICE_X90Y43         LUT3 (Prop_lut3_I1_O)        0.156     5.930 r  bd_0_i/hls_inst/inst/computeTiles_U0/grp_computeTiles_Pipeline_j_output_loop_fu_284/flow_control_loop_pipe_sequential_init_U/trunc_ln107_reg_409[7]_i_9/O
-                         net (fo=96, routed)          7.073    13.003    bd_0_i/hls_inst/inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/trunc_ln107_reg_409_reg[7]_i_3_0
-    SLICE_X45Y95         LUT6 (Prop_lut6_I4_O)        0.355    13.358 r  bd_0_i/hls_inst/inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/trunc_ln107_1_reg_414[22]_i_7/O
-                         net (fo=1, routed)           0.000    13.358    bd_0_i/hls_inst/inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/trunc_ln107_1_reg_414[22]_i_7_n_0
-    SLICE_X45Y95         MUXF7 (Prop_muxf7_I1_O)      0.217    13.575 r  bd_0_i/hls_inst/inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/trunc_ln107_1_reg_414_reg[22]_i_3/O
-                         net (fo=1, routed)           0.000    13.575    bd_0_i/hls_inst/inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/trunc_ln107_1_reg_414_reg[22]_i_3_n_0
-    SLICE_X45Y95         MUXF8 (Prop_muxf8_I1_O)      0.094    13.669 r  bd_0_i/hls_inst/inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/trunc_ln107_1_reg_414_reg[22]_i_1/O
-                         net (fo=1, routed)           0.000    13.669    bd_0_i/hls_inst/inst/computeTiles_U0/grp_computeTiles_Pipeline_j_output_loop_fu_284/trunc_ln107_1_reg_414_reg[31]_0[22]
-    SLICE_X45Y95         FDRE                                         r  bd_0_i/hls_inst/inst/computeTiles_U0/grp_computeTiles_Pipeline_j_output_loop_fu_284/trunc_ln107_1_reg_414_reg[22]/D
+    SLICE_X64Y24         FDRE (Prop_fdre_C_Q)         0.456     1.429 r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_computeTiles_fu_159/ap_CS_fsm_reg[26]/Q
+                         net (fo=514, routed)        12.453    13.882    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_computeTiles_fu_159/ap_CS_fsm_state27
+    SLICE_X29Y97         FDRE                                         r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_computeTiles_fu_159/thr_or2_reg_2562_reg[511]/CE
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)    15.000    15.000 r  
                                                       0.000    15.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.924    15.924    bd_0_i/hls_inst/inst/computeTiles_U0/grp_computeTiles_Pipeline_j_output_loop_fu_284/ap_clk
-    SLICE_X45Y95         FDRE                                         r  bd_0_i/hls_inst/inst/computeTiles_U0/grp_computeTiles_Pipeline_j_output_loop_fu_284/trunc_ln107_1_reg_414_reg[22]/C
+                         net (fo=20407, unset)        0.924    15.924    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_computeTiles_fu_159/ap_clk
+    SLICE_X29Y97         FDRE                                         r  bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_computeTiles_fu_159/thr_or2_reg_2562_reg[511]/C
                          clock pessimism              0.000    15.924    
                          clock uncertainty           -0.035    15.889    
-    SLICE_X45Y95         FDRE (Setup_fdre_C_D)        0.064    15.953    bd_0_i/hls_inst/inst/computeTiles_U0/grp_computeTiles_Pipeline_j_output_loop_fu_284/trunc_ln107_1_reg_414_reg[22]
+    SLICE_X29Y97         FDRE (Setup_fdre_C_CE)      -0.205    15.684    bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_computeTiles_fu_159/thr_or2_reg_2562_reg[511]
   -------------------------------------------------------------------
-                         required time                         15.953    
-                         arrival time                         -13.669    
+                         required time                         15.684    
+                         arrival time                         -13.882    
   -------------------------------------------------------------------
-                         slack                                  2.284    
+                         slack                                  1.802    
 
 
 
@@ -263,15 +255,15 @@ Slack (MET) :             2.284ns  (required time - arrival time)
 
 Min Delay Paths
 --------------------------------------------------------------------------------------
-Slack (MET) :             0.055ns  (arrival time - required time)
-  Source:                 bd_0_i/hls_inst/inst/computeTiles_U0/gmem2_addr_reg_1114_reg[15]/C
+Slack (MET) :             0.064ns  (arrival time - required time)
+  Source:                 bd_0_i/hls_inst/inst/gmem_m_axi_U/bus_write/wreq_burst_conv/burst_sequential/could_multi_bursts.burst_addr_reg[21]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
-  Destination:            bd_0_i/hls_inst/inst/gmem2_m_axi_U/load_unit_0/fifo_rreq/U_fifo_srl/mem_reg[5][15]_srl6/D
+  Destination:            bd_0_i/hls_inst/inst/gmem_m_axi_U/bus_write/wreq_throttle/fifo_burst_gen[0].fifo_req/U_fifo_srl/mem_reg[14][21]_srl15/D
                             (rising edge-triggered cell SRL16E clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
   Path Group:             ap_clk
   Path Type:              Hold (Min at Fast Process Corner)
   Requirement:            0.000ns  (ap_clk rise@0.000ns - ap_clk rise@0.000ns)
-  Data Path Delay:        0.260ns  (logic 0.141ns (54.227%)  route 0.119ns (45.772%))
+  Data Path Delay:        0.269ns  (logic 0.141ns (52.501%)  route 0.128ns (47.499%))
   Logic Levels:           0  
   Clock Path Skew:        0.022ns (DCD - SCD - CPR)
     Destination Clock Delay (DCD):    0.432ns
@@ -282,26 +274,26 @@ Slack (MET) :             0.055ns  (arrival time - required time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.410     0.410    bd_0_i/hls_inst/inst/computeTiles_U0/ap_clk
-    SLICE_X28Y22         FDRE                                         r  bd_0_i/hls_inst/inst/computeTiles_U0/gmem2_addr_reg_1114_reg[15]/C
+                         net (fo=20407, unset)        0.410     0.410    bd_0_i/hls_inst/inst/gmem_m_axi_U/bus_write/wreq_burst_conv/burst_sequential/ap_clk
+    SLICE_X80Y4          FDRE                                         r  bd_0_i/hls_inst/inst/gmem_m_axi_U/bus_write/wreq_burst_conv/burst_sequential/could_multi_bursts.burst_addr_reg[21]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X28Y22         FDRE (Prop_fdre_C_Q)         0.141     0.551 r  bd_0_i/hls_inst/inst/computeTiles_U0/gmem2_addr_reg_1114_reg[15]/Q
-                         net (fo=1, routed)           0.119     0.670    bd_0_i/hls_inst/inst/gmem2_m_axi_U/load_unit_0/fifo_rreq/U_fifo_srl/in[15]
-    SLICE_X26Y21         SRL16E                                       r  bd_0_i/hls_inst/inst/gmem2_m_axi_U/load_unit_0/fifo_rreq/U_fifo_srl/mem_reg[5][15]_srl6/D
+    SLICE_X80Y4          FDRE (Prop_fdre_C_Q)         0.141     0.551 r  bd_0_i/hls_inst/inst/gmem_m_axi_U/bus_write/wreq_burst_conv/burst_sequential/could_multi_bursts.burst_addr_reg[21]/Q
+                         net (fo=2, routed)           0.128     0.679    bd_0_i/hls_inst/inst/gmem_m_axi_U/bus_write/wreq_throttle/fifo_burst_gen[0].fifo_req/U_fifo_srl/in[15]
+    SLICE_X82Y3          SRL16E                                       r  bd_0_i/hls_inst/inst/gmem_m_axi_U/bus_write/wreq_throttle/fifo_burst_gen[0].fifo_req/U_fifo_srl/mem_reg[14][21]_srl15/D
   -------------------------------------------------------------------    -------------------
 
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.432     0.432    bd_0_i/hls_inst/inst/gmem2_m_axi_U/load_unit_0/fifo_rreq/U_fifo_srl/ap_clk
-    SLICE_X26Y21         SRL16E                                       r  bd_0_i/hls_inst/inst/gmem2_m_axi_U/load_unit_0/fifo_rreq/U_fifo_srl/mem_reg[5][15]_srl6/CLK
+                         net (fo=20407, unset)        0.432     0.432    bd_0_i/hls_inst/inst/gmem_m_axi_U/bus_write/wreq_throttle/fifo_burst_gen[0].fifo_req/U_fifo_srl/ap_clk
+    SLICE_X82Y3          SRL16E                                       r  bd_0_i/hls_inst/inst/gmem_m_axi_U/bus_write/wreq_throttle/fifo_burst_gen[0].fifo_req/U_fifo_srl/mem_reg[14][21]_srl15/CLK
                          clock pessimism              0.000     0.432    
-    SLICE_X26Y21         SRL16E (Hold_srl16e_CLK_D)
-                                                      0.183     0.615    bd_0_i/hls_inst/inst/gmem2_m_axi_U/load_unit_0/fifo_rreq/U_fifo_srl/mem_reg[5][15]_srl6
+    SLICE_X82Y3          SRL16E (Hold_srl16e_CLK_D)
+                                                      0.183     0.615    bd_0_i/hls_inst/inst/gmem_m_axi_U/bus_write/wreq_throttle/fifo_burst_gen[0].fifo_req/U_fifo_srl/mem_reg[14][21]_srl15
   -------------------------------------------------------------------
                          required time                         -0.615    
-                         arrival time                           0.670    
+                         arrival time                           0.679    
   -------------------------------------------------------------------
-                         slack                                  0.055    
+                         slack                                  0.064    
 
 
 
@@ -314,10 +306,10 @@ Waveform(ns):       { 0.000 7.500 }
 Period(ns):         15.000
 Sources:            { ap_clk }
 
-Check Type        Corner  Lib Pin      Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location     Pin
-Min Period        n/a     DSP48E1/CLK  n/a            3.884         15.000      11.116     DSP48_X0Y16  bd_0_i/hls_inst/inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_ln92_10_reg_5274_reg/CLK
-Low Pulse Width   Slow    SRL16E/CLK   n/a            0.980         7.500       6.520      SLICE_X82Y2  bd_0_i/hls_inst/inst/bus_read/ost_ctrl_gen[0].fifo_burst/U_fifo_srl/mem_reg[14][0]_srl15/CLK
-High Pulse Width  Slow    SRL16E/CLK   n/a            0.980         7.500       6.520      SLICE_X82Y2  bd_0_i/hls_inst/inst/bus_read/ost_ctrl_gen[0].fifo_burst/U_fifo_srl/mem_reg[14][0]_srl15/CLK
+Check Type        Corner  Lib Pin      Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location      Pin
+Min Period        n/a     DSP48E1/CLK  n/a            3.884         15.000      11.116     DSP48_X2Y44   bd_0_i/hls_inst/inst/Block_entry_gmem_rd_proc_U0/grp_computeTiles_fu_159/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_283/mul_ln92_10_reg_5274_reg/CLK
+Low Pulse Width   Slow    SRL16E/CLK   n/a            0.980         7.500       6.520      SLICE_X66Y25  bd_0_i/hls_inst/inst/bus_read/ost_ctrl_gen[0].fifo_burst/U_fifo_srl/mem_reg[14][0]_srl15/CLK
+High Pulse Width  Slow    SRL16E/CLK   n/a            0.980         7.500       6.520      SLICE_X66Y25  bd_0_i/hls_inst/inst/bus_read/ost_ctrl_gen[0].fifo_burst/U_fifo_srl/mem_reg[14][0]_srl15/CLK
 
 
 

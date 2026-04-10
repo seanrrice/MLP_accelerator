@@ -16,7 +16,7 @@
             <Obj class_id="5" tracking_level="0" version="0">
               <type>1</type>
               <id>1</id>
-              <name>gmem1</name>
+              <name>gmem</name>
               <fileName></fileName>
               <fileDirectory></fileDirectory>
               <lineNumber>0</lineNumber>
@@ -1216,7 +1216,7 @@
             <Obj>
               <type>0</type>
               <id>26</id>
-              <name>empty_39</name>
+              <name>empty_36</name>
               <fileName>../MLP_baseline/mm.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>33</lineNumber>
@@ -1241,7 +1241,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>empty_39_fu_149_p1</rtlName>
+              <rtlName>empty_36_fu_149_p1</rtlName>
               <control></control>
               <opType></opType>
               <implIndex></implIndex>
@@ -1620,7 +1620,7 @@
             <Obj>
               <type>0</type>
               <id>33</id>
-              <name>empty_40</name>
+              <name>empty_37</name>
               <fileName>../MLP_baseline/mm.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>33</lineNumber>
@@ -1645,7 +1645,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>empty_40_fu_201_p1</rtlName>
+              <rtlName>empty_37_fu_201_p1</rtlName>
               <control></control>
               <opType></opType>
               <implIndex></implIndex>
@@ -1676,7 +1676,7 @@
             <Obj>
               <type>0</type>
               <id>34</id>
-              <name>empty_41</name>
+              <name>empty_38</name>
               <fileName>../MLP_baseline/mm.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>33</lineNumber>
@@ -1701,7 +1701,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>empty_41_fu_205_p2</rtlName>
+              <rtlName>empty_38_fu_205_p2</rtlName>
               <control>auto</control>
               <opType>setgt</opType>
               <implIndex>auto</implIndex>
@@ -1849,7 +1849,7 @@
             <Obj>
               <type>0</type>
               <id>37</id>
-              <name>empty_42</name>
+              <name>empty_39</name>
               <fileName>../MLP_baseline/mm.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>33</lineNumber>
@@ -1874,7 +1874,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>empty_42_fu_219_p2</rtlName>
+              <rtlName>empty_39_fu_219_p2</rtlName>
               <control>auto</control>
               <opType>setgt</opType>
               <implIndex>auto</implIndex>
@@ -2101,7 +2101,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>mul_27ns_31ns_58_1_1_U32</rtlName>
+              <rtlName>mul_27ns_31ns_58_1_1_U31</rtlName>
               <control>auto</control>
               <opType>mul</opType>
               <implIndex>auto</implIndex>
@@ -2133,7 +2133,7 @@
             <Obj>
               <type>0</type>
               <id>42</id>
-              <name>empty_43</name>
+              <name>empty_40</name>
               <fileName>../MLP_baseline/mm.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>33</lineNumber>
@@ -2158,7 +2158,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>empty_43_fu_301_p2</rtlName>
+              <rtlName>empty_40_fu_301_p2</rtlName>
               <control>auto</control>
               <opType>setgt</opType>
               <implIndex>auto</implIndex>
@@ -2273,7 +2273,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>grp_fu_97_p00</rtlName>
+              <rtlName>smax23_cast_fu_315_p1</rtlName>
               <control></control>
               <opType></opType>
               <implIndex></implIndex>
@@ -2329,7 +2329,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>grp_fu_97_p10</rtlName>
+              <rtlName>bound6_cast_fu_319_p1</rtlName>
               <control></control>
               <opType></opType>
               <implIndex></implIndex>
@@ -2385,7 +2385,7 @@
                 </item>
               </inlineStackInfo>
               <originalName></originalName>
-              <rtlName>mul_27ns_58ns_85_2_1_U33</rtlName>
+              <rtlName></rtlName>
               <control>auto</control>
               <opType>mul</opType>
               <implIndex>auto</implIndex>
@@ -3810,7 +3810,7 @@
     </fsm>
     <res class_id="34" tracking_level="1" version="0" object_id="_198">
       <dp_component_resource class_id="35" tracking_level="0" version="0">
-        <count>3</count>
+        <count>2</count>
         <item_version>0</item_version>
         <item class_id="36" tracking_level="0" version="0">
           <first>grp_readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_78 (readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop)</first>
@@ -3832,7 +3832,7 @@
           </second>
         </item>
         <item>
-          <first>mul_27ns_31ns_58_1_1_U32 (mul_27ns_31ns_58_1_1)</first>
+          <first>mul_27ns_31ns_58_1_1_U31 (mul_27ns_31ns_58_1_1)</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -3850,52 +3850,10 @@
             </item>
           </second>
         </item>
-        <item>
-          <first>mul_27ns_58ns_85_2_1_U33 (mul_27ns_58ns_85_2_1)</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>DSP</first>
-              <second>6</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>221</second>
-            </item>
-            <item>
-              <first>LUT</first>
-              <second>164</second>
-            </item>
-          </second>
-        </item>
       </dp_component_resource>
       <dp_expression_resource>
-        <count>16</count>
+        <count>15</count>
         <item_version>0</item_version>
-        <item>
-          <first>ap_block_state1 ( or ) </first>
-          <second>
-            <count>4</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(0P0)</first>
-              <second>1</second>
-            </item>
-            <item>
-              <first>(1P1)</first>
-              <second>1</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>LUT</first>
-              <second>2</second>
-            </item>
-          </second>
-        </item>
         <item>
           <first>div2_fu_141_p3 ( select ) </first>
           <second>
@@ -3978,7 +3936,7 @@
           </second>
         </item>
         <item>
-          <first>empty_41_fu_205_p2 ( icmp ) </first>
+          <first>empty_38_fu_205_p2 ( icmp ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -4001,7 +3959,7 @@
           </second>
         </item>
         <item>
-          <first>empty_42_fu_219_p2 ( icmp ) </first>
+          <first>empty_39_fu_219_p2 ( icmp ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -4024,7 +3982,7 @@
           </second>
         </item>
         <item>
-          <first>empty_43_fu_301_p2 ( icmp ) </first>
+          <first>empty_40_fu_301_p2 ( icmp ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -4275,7 +4233,7 @@
         <item_version>0</item_version>
       </dp_memory_resource>
       <dp_multiplexer_resource>
-        <count>2</count>
+        <count>1</count>
         <item_version>0</item_version>
         <item>
           <first>ap_NS_fsm</first>
@@ -4304,75 +4262,10 @@
             </item>
           </second>
         </item>
-        <item>
-          <first>ap_done</first>
-          <second>
-            <count>5</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(0Size)</first>
-              <second>2</second>
-            </item>
-            <item>
-              <first>(1Bits)</first>
-              <second>1</second>
-            </item>
-            <item>
-              <first>(2Count)</first>
-              <second>2</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>LUT</first>
-              <second>9</second>
-            </item>
-          </second>
-        </item>
       </dp_multiplexer_resource>
       <dp_register_resource>
-        <count>11</count>
+        <count>8</count>
         <item_version>0</item_version>
-        <item>
-          <first>B_read_reg_370</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(Bits)</first>
-              <second>64</second>
-            </item>
-            <item>
-              <first>(Consts)</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>64</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>P_read_reg_323</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(Bits)</first>
-              <second>32</second>
-            </item>
-            <item>
-              <first>(Consts)</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>32</second>
-            </item>
-          </second>
-        </item>
         <item>
           <first>ap_CS_fsm</first>
           <second>
@@ -4389,25 +4282,6 @@
             <item>
               <first>FF</first>
               <second>6</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>ap_done_reg</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(Bits)</first>
-              <second>1</second>
-            </item>
-            <item>
-              <first>(Consts)</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>1</second>
             </item>
           </second>
         </item>
@@ -4546,7 +4420,7 @@
         </item>
       </dp_register_resource>
       <dp_dsp_resource>
-        <count>3</count>
+        <count>2</count>
         <item_version>0</item_version>
         <item>
           <first>grp_readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_78</first>
@@ -4556,14 +4430,7 @@
           </second>
         </item>
         <item>
-          <first>mul_27ns_31ns_58_1_1_U32</first>
-          <second>
-            <count>0</count>
-            <item_version>0</item_version>
-          </second>
-        </item>
-        <item>
-          <first>mul_27ns_58ns_85_2_1_U33</first>
+          <first>mul_27ns_31ns_58_1_1_U31</first>
           <second>
             <count>0</count>
             <item_version>0</item_version>
@@ -4571,7 +4438,7 @@
         </item>
       </dp_dsp_resource>
       <dp_component_map class_id="39" tracking_level="0" version="0">
-        <count>3</count>
+        <count>2</count>
         <item_version>0</item_version>
         <item class_id="40" tracking_level="0" version="0">
           <first>grp_readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_78 (readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop)</first>
@@ -4582,19 +4449,11 @@
           </second>
         </item>
         <item>
-          <first>mul_27ns_31ns_58_1_1_U32 (mul_27ns_31ns_58_1_1)</first>
+          <first>mul_27ns_31ns_58_1_1_U31 (mul_27ns_31ns_58_1_1)</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
             <item>41</item>
-          </second>
-        </item>
-        <item>
-          <first>mul_27ns_58ns_85_2_1_U33 (mul_27ns_58ns_85_2_1)</first>
-          <second>
-            <count>1</count>
-            <item_version>0</item_version>
-            <item>46</item>
           </second>
         </item>
       </dp_component_map>
@@ -4626,7 +4485,7 @@
           </second>
         </item>
         <item>
-          <first>empty_41_fu_205_p2 ( icmp ) </first>
+          <first>empty_38_fu_205_p2 ( icmp ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -4634,7 +4493,7 @@
           </second>
         </item>
         <item>
-          <first>empty_42_fu_219_p2 ( icmp ) </first>
+          <first>empty_39_fu_219_p2 ( icmp ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -4642,7 +4501,7 @@
           </second>
         </item>
         <item>
-          <first>empty_43_fu_301_p2 ( icmp ) </first>
+          <first>empty_40_fu_301_p2 ( icmp ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -5392,7 +5251,7 @@
         </second>
       </item>
       <item>
-        <first>empty_39_fu_149</first>
+        <first>empty_36_fu_149</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5400,7 +5259,7 @@
         </second>
       </item>
       <item>
-        <first>empty_40_fu_201</first>
+        <first>empty_37_fu_201</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5408,7 +5267,7 @@
         </second>
       </item>
       <item>
-        <first>empty_41_fu_205</first>
+        <first>empty_38_fu_205</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5416,7 +5275,7 @@
         </second>
       </item>
       <item>
-        <first>empty_42_fu_219</first>
+        <first>empty_39_fu_219</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5424,7 +5283,7 @@
         </second>
       </item>
       <item>
-        <first>empty_43_fu_301</first>
+        <first>empty_40_fu_301</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -5937,7 +5796,7 @@
         </second>
       </item>
       <item>
-        <first>gmem1</first>
+        <first>gmem</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>

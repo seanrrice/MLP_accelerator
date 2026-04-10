@@ -30,13 +30,12 @@ INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
 INFO: [HLS 200-1465] Applying config ini 'clock=15' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(16)
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 15ns.
 INFO: [HLS 200-1465] Applying config ini 'cosim.trace_level=all' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(17)
-INFO: [HLS 200-1465] Applying config ini 'package.output.file=Z:\Labs\MLP_accelerator\package' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(18)
+INFO: [HLS 200-1465] Applying config ini 'package.output.file=C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\package' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(18)
 INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(5)
 INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/vitis-comp.json
 INFO: [SIM 211-2] *************** CSIM start ***************
 INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
 INFO: [HLS 200-2036] Building debug C Simulation binaries
-   Compiling ../../../../../MLP_baseline/mm_test.cpp in debug mode
    Compiling ../../../../../MLP_baseline/mm.cpp in debug mode
    Generating csim.exe
 Calling MM kernel...
@@ -44,8 +43,8 @@ Returned from MM kernel.
 *******************************************
 PASS: The output matches the golden output!
 *******************************************
-INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 128
+INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 401408
 INFO: [SIM 211-1] CSim done with 0 errors.
 INFO: [SIM 211-3] *************** CSIM finish ***************
-INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 2 seconds. Total elapsed time: 17.945 seconds; peak allocated memory: 163.449 MB.
-INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 26s
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 2 seconds. Total elapsed time: 16.502 seconds; peak allocated memory: 163.664 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 22s

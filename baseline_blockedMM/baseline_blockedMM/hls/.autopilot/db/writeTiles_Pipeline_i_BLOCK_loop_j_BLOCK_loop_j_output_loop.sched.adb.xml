@@ -160,7 +160,7 @@ newFuncRoot:4 %indvar_flatten20 = alloca i32 1
 
 <Node id="12" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32" op_19_bw="32">
 <![CDATA[
-newFuncRoot:5 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %gmem3, void @empty_18, i32 0, i32 0, void @empty_0, i32 0, i32 64, void @empty_4, void @empty_2, void @empty_0, i32 16, i32 16, i32 16, i32 16, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0
+newFuncRoot:5 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %gmem, void @empty_14, i32 0, i32 0, void @empty_17, i32 0, i32 802816, void @empty_18, void @empty, void @empty_17, i32 16, i32 16, i32 16, i32 16, void @empty_17, void @empty_17, i32 4294967295, i32 0, i32 0
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>
@@ -175,7 +175,7 @@ newFuncRoot:5 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i
 
 <Node id="13" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32" op_19_bw="32">
 <![CDATA[
-newFuncRoot:6 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %AB_stream, void @empty_10, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0
+newFuncRoot:6 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %AB_stream, void @empty_13, i32 0, i32 0, void @empty_17, i32 0, i32 0, void @empty_17, void @empty_17, void @empty_17, i32 0, i32 0, i32 0, i32 0, void @empty_17, void @empty_17, i32 4294967295, i32 0, i32 0
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>
@@ -1069,10 +1069,10 @@ for.inc17:36 %sext_ln130_1 = sext i58 %trunc_ln130_1
 
 <Node id="67" bw="512" op_0_bw="512" op_1_bw="64">
 <![CDATA[
-for.inc17:37 %gmem3_addr = getelementptr i512 %gmem3, i64 %sext_ln130_1
+for.inc17:37 %gmem_addr = getelementptr i512 %gmem, i64 %sext_ln130_1
 
 ]]></Node>
-<StgValue><ssdm name="gmem3_addr"/></StgValue>
+<StgValue><ssdm name="gmem_addr"/></StgValue>
 </operation>
 
 <operation id="78" st_id="6" stage="1" lat="1">
@@ -1084,10 +1084,10 @@ for.inc17:37 %gmem3_addr = getelementptr i512 %gmem3, i64 %sext_ln130_1
 
 <Node id="68" bw="1" op_0_bw="1" op_1_bw="512" op_2_bw="64">
 <![CDATA[
-for.inc17:38 %gmem3_addr_req = writereq i1 @_ssdm_op_WriteReq.m_axi.i512P1A, i512 %gmem3_addr, i64 1
+for.inc17:38 %gmem_addr_req = writereq i1 @_ssdm_op_WriteReq.m_axi.i512P1A, i512 %gmem_addr, i64 1
 
 ]]></Node>
-<StgValue><ssdm name="gmem3_addr_req"/></StgValue>
+<StgValue><ssdm name="gmem_addr_req"/></StgValue>
 </operation>
 </state>
 
@@ -1102,7 +1102,7 @@ for.inc17:38 %gmem3_addr_req = writereq i1 @_ssdm_op_WriteReq.m_axi.i512P1A, i51
 
 <Node id="69" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="512" op_3_bw="64" op_4_bw="0">
 <![CDATA[
-for.inc17:39 %write_ln130 = write void @_ssdm_op_Write.m_axi.i512P1A, i512 %gmem3_addr, i512 %AB_stream_read, i64 18446744073709551615
+for.inc17:39 %write_ln130 = write void @_ssdm_op_Write.m_axi.i512P1A, i512 %gmem_addr, i512 %AB_stream_read, i64 18446744073709551615
 
 ]]></Node>
 <StgValue><ssdm name="write_ln130"/></StgValue>
@@ -1120,10 +1120,10 @@ for.inc17:39 %write_ln130 = write void @_ssdm_op_Write.m_axi.i512P1A, i512 %gmem
 
 <Node id="70" bw="1" op_0_bw="1" op_1_bw="512" op_2_bw="0">
 <![CDATA[
-for.inc17:40 %gmem3_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem3_addr
+for.inc17:40 %gmem_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem_addr
 
 ]]></Node>
-<StgValue><ssdm name="gmem3_addr_resp"/></StgValue>
+<StgValue><ssdm name="gmem_addr_resp"/></StgValue>
 </operation>
 </state>
 
@@ -1138,10 +1138,10 @@ for.inc17:40 %gmem3_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, 
 
 <Node id="70" bw="1" op_0_bw="1" op_1_bw="512" op_2_bw="0">
 <![CDATA[
-for.inc17:40 %gmem3_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem3_addr
+for.inc17:40 %gmem_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem_addr
 
 ]]></Node>
-<StgValue><ssdm name="gmem3_addr_resp"/></StgValue>
+<StgValue><ssdm name="gmem_addr_resp"/></StgValue>
 </operation>
 </state>
 
@@ -1156,10 +1156,10 @@ for.inc17:40 %gmem3_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, 
 
 <Node id="70" bw="1" op_0_bw="1" op_1_bw="512" op_2_bw="0">
 <![CDATA[
-for.inc17:40 %gmem3_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem3_addr
+for.inc17:40 %gmem_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem_addr
 
 ]]></Node>
-<StgValue><ssdm name="gmem3_addr_resp"/></StgValue>
+<StgValue><ssdm name="gmem_addr_resp"/></StgValue>
 </operation>
 </state>
 
@@ -1174,10 +1174,10 @@ for.inc17:40 %gmem3_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, 
 
 <Node id="70" bw="1" op_0_bw="1" op_1_bw="512" op_2_bw="0">
 <![CDATA[
-for.inc17:40 %gmem3_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem3_addr
+for.inc17:40 %gmem_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem_addr
 
 ]]></Node>
-<StgValue><ssdm name="gmem3_addr_resp"/></StgValue>
+<StgValue><ssdm name="gmem_addr_resp"/></StgValue>
 </operation>
 
 <operation id="89" st_id="11" stage="1" lat="1">
@@ -1238,7 +1238,7 @@ for.inc17:6 %speclooptripcount_ln0 = speclooptripcount void @_ssdm_op_SpecLoopTr
 
 <Node id="51" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="32" op_3_bw="32" op_4_bw="32" op_5_bw="0">
 <![CDATA[
-for.inc17:21 %specpipeline_ln128 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_0
+for.inc17:21 %specpipeline_ln128 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_17
 
 ]]></Node>
 <StgValue><ssdm name="specpipeline_ln128"/></StgValue>
@@ -1253,10 +1253,10 @@ for.inc17:21 %specpipeline_ln128 = specpipeline void @_ssdm_op_SpecPipeline, i32
 
 <Node id="70" bw="1" op_0_bw="1" op_1_bw="512" op_2_bw="0">
 <![CDATA[
-for.inc17:40 %gmem3_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem3_addr
+for.inc17:40 %gmem_addr_resp = writeresp i1 @_ssdm_op_WriteResp.m_axi.i512P1A, i512 %gmem_addr
 
 ]]></Node>
-<StgValue><ssdm name="gmem3_addr_resp"/></StgValue>
+<StgValue><ssdm name="gmem_addr_resp"/></StgValue>
 </operation>
 
 <operation id="88" st_id="12" stage="1" lat="1">

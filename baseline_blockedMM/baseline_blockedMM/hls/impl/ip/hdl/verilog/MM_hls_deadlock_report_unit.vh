@@ -1,5 +1,5 @@
    
-    parameter PROC_NUM = 5;
+    parameter PROC_NUM = 3;
     parameter ST_IDLE = 3'b000;
     parameter ST_FILTER_FAKE = 3'b001;
     parameter ST_DL_DETECTED = 3'b010;
@@ -216,7 +216,7 @@
     endfunction
 
     // get the proc path based on dl vector
-    function [208:0] proc_path(input [PROC_NUM - 1:0] dl_vec);
+    function [304:0] proc_path(input [PROC_NUM - 1:0] dl_vec);
         integer index;
         begin
             index = proc_index(dl_vec);
@@ -225,15 +225,9 @@
                     proc_path = "MM_MM.entry_proc_U0";
                 end
                 1 : begin
-                    proc_path = "MM_MM.readAtTiles_U0";
+                    proc_path = "MM_MM.Block_entry_gmem_rd_proc_U0";
                 end
                 2 : begin
-                    proc_path = "MM_MM.readBTiles_U0";
-                end
-                3 : begin
-                    proc_path = "MM_MM.computeTiles_U0";
-                end
-                4 : begin
                     proc_path = "MM_MM.writeTiles_U0";
                 end
                 default : begin
@@ -254,7 +248,7 @@
     endtask
 
     // print the start of a cycle
-    task print_cycle_start(input reg [208:0] proc_path, input integer cycle_id);
+    task print_cycle_start(input reg [304:0] proc_path, input integer cycle_id);
         begin
             $display("/////////////////////////");
             $display("// Dependence cycle %0d:", cycle_id);
@@ -279,7 +273,7 @@
     endtask
 
     // print one proc component in the cycle
-    task print_cycle_proc_comp(input reg [208:0] proc_path, input integer cycle_comp_id);
+    task print_cycle_proc_comp(input reg [304:0] proc_path, input integer cycle_comp_id);
         begin
             $display("// (%0d): Process: %0s", cycle_comp_id, proc_path);
             $fdisplay(fp, "Dependence_Process_ID %0d", cycle_comp_id);
@@ -298,7 +292,7 @@
             case (index1)
                 0 : begin // for proc 'MM_MM.entry_proc_U0'
                     case(index2)
-                    4: begin //  for dep proc 'MM_MM.writeTiles_U0'
+                    2: begin //  for dep proc 'MM_MM.writeTiles_U0'
 // for dep channel 'MM_MM.ABC_c_U' info is :
 // blk sig is {~MM_MM_inst.entry_proc_U0.ABC_c_blk_n data_FIFO}
                         if ((~entry_proc_U0.ABC_c_blk_n)) begin
@@ -319,155 +313,21 @@
                             $display("//      Blocked by full output start propagation FIFO 'MM_MM.start_for_writeTiles_U0_U' read by process 'MM_MM.writeTiles_U0',");
                         end
                     end
-                    1: begin //  for dep proc 'MM_MM.readAtTiles_U0'
+                    1: begin //  for dep proc 'MM_MM.Block_entry_gmem_rd_proc_U0'
 // for dep channel '' info is :
-// blk sig is {{MM_MM_inst.ap_sync_entry_proc_U0_ap_ready & MM_MM_inst.entry_proc_U0.ap_idle & ~MM_MM_inst.ap_sync_readAtTiles_U0_ap_ready} input_sync}
-                        if ((ap_sync_entry_proc_U0_ap_ready & entry_proc_U0.ap_idle & ~ap_sync_readAtTiles_U0_ap_ready)) begin
-                            $display("//      Blocked by input sync logic with process : 'MM_MM.readAtTiles_U0'");
-                        end
-                    end
-                    2: begin //  for dep proc 'MM_MM.readBTiles_U0'
-// for dep channel '' info is :
-// blk sig is {{MM_MM_inst.ap_sync_entry_proc_U0_ap_ready & MM_MM_inst.entry_proc_U0.ap_idle & ~MM_MM_inst.ap_sync_readBTiles_U0_ap_ready} input_sync}
-                        if ((ap_sync_entry_proc_U0_ap_ready & entry_proc_U0.ap_idle & ~ap_sync_readBTiles_U0_ap_ready)) begin
-                            $display("//      Blocked by input sync logic with process : 'MM_MM.readBTiles_U0'");
-                        end
-                    end
-                    3: begin //  for dep proc 'MM_MM.computeTiles_U0'
-// for dep channel '' info is :
-// blk sig is {{MM_MM_inst.ap_sync_entry_proc_U0_ap_ready & MM_MM_inst.entry_proc_U0.ap_idle & ~MM_MM_inst.ap_sync_computeTiles_U0_ap_ready} input_sync}
-                        if ((ap_sync_entry_proc_U0_ap_ready & entry_proc_U0.ap_idle & ~ap_sync_computeTiles_U0_ap_ready)) begin
-                            $display("//      Blocked by input sync logic with process : 'MM_MM.computeTiles_U0'");
+// blk sig is {{MM_MM_inst.ap_sync_entry_proc_U0_ap_ready & MM_MM_inst.entry_proc_U0.ap_idle & ~MM_MM_inst.ap_sync_Block_entry_gmem_rd_proc_U0_ap_ready} input_sync}
+                        if ((ap_sync_entry_proc_U0_ap_ready & entry_proc_U0.ap_idle & ~ap_sync_Block_entry_gmem_rd_proc_U0_ap_ready)) begin
+                            $display("//      Blocked by input sync logic with process : 'MM_MM.Block_entry_gmem_rd_proc_U0'");
                         end
                     end
                     endcase
                 end
-                1 : begin // for proc 'MM_MM.readAtTiles_U0'
+                1 : begin // for proc 'MM_MM.Block_entry_gmem_rd_proc_U0'
                     case(index2)
-                    3: begin //  for dep proc 'MM_MM.computeTiles_U0'
-// for dep channel 'MM_MM.A_stream_U' info is :
-// blk sig is {~MM_MM_inst.readAtTiles_U0.grp_readAtTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_78.A_stream_blk_n data_FIFO}
-                        if ((~readAtTiles_U0.grp_readAtTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_78.A_stream_blk_n)) begin
-                            if (~A_stream_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'MM_MM.A_stream_U' written by process 'MM_MM.computeTiles_U0'");
-                                $fdisplay(fp, "Dependence_Channel_path MM_MM.A_stream_U");
-                                $fdisplay(fp, "Dependence_Channel_status EMPTY");
-                            end
-                            else if (~A_stream_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'MM_MM.A_stream_U' read by process 'MM_MM.computeTiles_U0'");
-                                $fdisplay(fp, "Dependence_Channel_path MM_MM.A_stream_U");
-                                $fdisplay(fp, "Dependence_Channel_status FULL");
-                            end
-                        end
-// for dep channel '' info is :
-// blk sig is {{MM_MM_inst.ap_sync_readAtTiles_U0_ap_ready & MM_MM_inst.readAtTiles_U0.ap_idle & ~MM_MM_inst.ap_sync_computeTiles_U0_ap_ready} input_sync}
-                        if ((ap_sync_readAtTiles_U0_ap_ready & readAtTiles_U0.ap_idle & ~ap_sync_computeTiles_U0_ap_ready)) begin
-                            $display("//      Blocked by input sync logic with process : 'MM_MM.computeTiles_U0'");
-                        end
-                    end
-                    0: begin //  for dep proc 'MM_MM.entry_proc_U0'
-// for dep channel '' info is :
-// blk sig is {{MM_MM_inst.ap_sync_readAtTiles_U0_ap_ready & MM_MM_inst.readAtTiles_U0.ap_idle & ~MM_MM_inst.ap_sync_entry_proc_U0_ap_ready} input_sync}
-                        if ((ap_sync_readAtTiles_U0_ap_ready & readAtTiles_U0.ap_idle & ~ap_sync_entry_proc_U0_ap_ready)) begin
-                            $display("//      Blocked by input sync logic with process : 'MM_MM.entry_proc_U0'");
-                        end
-                    end
-                    2: begin //  for dep proc 'MM_MM.readBTiles_U0'
-// for dep channel '' info is :
-// blk sig is {{MM_MM_inst.ap_sync_readAtTiles_U0_ap_ready & MM_MM_inst.readAtTiles_U0.ap_idle & ~MM_MM_inst.ap_sync_readBTiles_U0_ap_ready} input_sync}
-                        if ((ap_sync_readAtTiles_U0_ap_ready & readAtTiles_U0.ap_idle & ~ap_sync_readBTiles_U0_ap_ready)) begin
-                            $display("//      Blocked by input sync logic with process : 'MM_MM.readBTiles_U0'");
-                        end
-                    end
-                    endcase
-                end
-                2 : begin // for proc 'MM_MM.readBTiles_U0'
-                    case(index2)
-                    3: begin //  for dep proc 'MM_MM.computeTiles_U0'
-// for dep channel 'MM_MM.B_stream_U' info is :
-// blk sig is {~MM_MM_inst.readBTiles_U0.grp_readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_78.B_stream_blk_n data_FIFO}
-                        if ((~readBTiles_U0.grp_readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_78.B_stream_blk_n)) begin
-                            if (~B_stream_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'MM_MM.B_stream_U' written by process 'MM_MM.computeTiles_U0'");
-                                $fdisplay(fp, "Dependence_Channel_path MM_MM.B_stream_U");
-                                $fdisplay(fp, "Dependence_Channel_status EMPTY");
-                            end
-                            else if (~B_stream_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'MM_MM.B_stream_U' read by process 'MM_MM.computeTiles_U0'");
-                                $fdisplay(fp, "Dependence_Channel_path MM_MM.B_stream_U");
-                                $fdisplay(fp, "Dependence_Channel_status FULL");
-                            end
-                        end
-// for dep channel '' info is :
-// blk sig is {{MM_MM_inst.ap_sync_readBTiles_U0_ap_ready & MM_MM_inst.readBTiles_U0.ap_idle & ~MM_MM_inst.ap_sync_computeTiles_U0_ap_ready} input_sync}
-                        if ((ap_sync_readBTiles_U0_ap_ready & readBTiles_U0.ap_idle & ~ap_sync_computeTiles_U0_ap_ready)) begin
-                            $display("//      Blocked by input sync logic with process : 'MM_MM.computeTiles_U0'");
-                        end
-                    end
-                    0: begin //  for dep proc 'MM_MM.entry_proc_U0'
-// for dep channel '' info is :
-// blk sig is {{MM_MM_inst.ap_sync_readBTiles_U0_ap_ready & MM_MM_inst.readBTiles_U0.ap_idle & ~MM_MM_inst.ap_sync_entry_proc_U0_ap_ready} input_sync}
-                        if ((ap_sync_readBTiles_U0_ap_ready & readBTiles_U0.ap_idle & ~ap_sync_entry_proc_U0_ap_ready)) begin
-                            $display("//      Blocked by input sync logic with process : 'MM_MM.entry_proc_U0'");
-                        end
-                    end
-                    1: begin //  for dep proc 'MM_MM.readAtTiles_U0'
-// for dep channel '' info is :
-// blk sig is {{MM_MM_inst.ap_sync_readBTiles_U0_ap_ready & MM_MM_inst.readBTiles_U0.ap_idle & ~MM_MM_inst.ap_sync_readAtTiles_U0_ap_ready} input_sync}
-                        if ((ap_sync_readBTiles_U0_ap_ready & readBTiles_U0.ap_idle & ~ap_sync_readAtTiles_U0_ap_ready)) begin
-                            $display("//      Blocked by input sync logic with process : 'MM_MM.readAtTiles_U0'");
-                        end
-                    end
-                    endcase
-                end
-                3 : begin // for proc 'MM_MM.computeTiles_U0'
-                    case(index2)
-                    1: begin //  for dep proc 'MM_MM.readAtTiles_U0'
-// for dep channel 'MM_MM.A_stream_U' info is :
-// blk sig is {~MM_MM_inst.computeTiles_U0.grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243.A_stream_blk_n data_FIFO}
-                        if ((~computeTiles_U0.grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243.A_stream_blk_n)) begin
-                            if (~A_stream_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'MM_MM.A_stream_U' written by process 'MM_MM.readAtTiles_U0'");
-                                $fdisplay(fp, "Dependence_Channel_path MM_MM.A_stream_U");
-                                $fdisplay(fp, "Dependence_Channel_status EMPTY");
-                            end
-                            else if (~A_stream_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'MM_MM.A_stream_U' read by process 'MM_MM.readAtTiles_U0'");
-                                $fdisplay(fp, "Dependence_Channel_path MM_MM.A_stream_U");
-                                $fdisplay(fp, "Dependence_Channel_status FULL");
-                            end
-                        end
-// for dep channel '' info is :
-// blk sig is {{MM_MM_inst.ap_sync_computeTiles_U0_ap_ready & MM_MM_inst.computeTiles_U0.ap_idle & ~MM_MM_inst.ap_sync_readAtTiles_U0_ap_ready} input_sync}
-                        if ((ap_sync_computeTiles_U0_ap_ready & computeTiles_U0.ap_idle & ~ap_sync_readAtTiles_U0_ap_ready)) begin
-                            $display("//      Blocked by input sync logic with process : 'MM_MM.readAtTiles_U0'");
-                        end
-                    end
-                    2: begin //  for dep proc 'MM_MM.readBTiles_U0'
-// for dep channel 'MM_MM.B_stream_U' info is :
-// blk sig is {~MM_MM_inst.computeTiles_U0.grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243.B_stream_blk_n data_FIFO}
-                        if ((~computeTiles_U0.grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243.B_stream_blk_n)) begin
-                            if (~B_stream_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'MM_MM.B_stream_U' written by process 'MM_MM.readBTiles_U0'");
-                                $fdisplay(fp, "Dependence_Channel_path MM_MM.B_stream_U");
-                                $fdisplay(fp, "Dependence_Channel_status EMPTY");
-                            end
-                            else if (~B_stream_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'MM_MM.B_stream_U' read by process 'MM_MM.readBTiles_U0'");
-                                $fdisplay(fp, "Dependence_Channel_path MM_MM.B_stream_U");
-                                $fdisplay(fp, "Dependence_Channel_status FULL");
-                            end
-                        end
-// for dep channel '' info is :
-// blk sig is {{MM_MM_inst.ap_sync_computeTiles_U0_ap_ready & MM_MM_inst.computeTiles_U0.ap_idle & ~MM_MM_inst.ap_sync_readBTiles_U0_ap_ready} input_sync}
-                        if ((ap_sync_computeTiles_U0_ap_ready & computeTiles_U0.ap_idle & ~ap_sync_readBTiles_U0_ap_ready)) begin
-                            $display("//      Blocked by input sync logic with process : 'MM_MM.readBTiles_U0'");
-                        end
-                    end
-                    4: begin //  for dep proc 'MM_MM.writeTiles_U0'
+                    2: begin //  for dep proc 'MM_MM.writeTiles_U0'
 // for dep channel 'MM_MM.AB_stream_U' info is :
-// blk sig is {~MM_MM_inst.computeTiles_U0.grp_computeTiles_Pipeline_j_output_loop_fu_284.AB_stream_blk_n data_FIFO}
-                        if ((~computeTiles_U0.grp_computeTiles_Pipeline_j_output_loop_fu_284.AB_stream_blk_n)) begin
+// blk sig is {~MM_MM_inst.Block_entry_gmem_rd_proc_U0.grp_computeTiles_fu_159.grp_computeTiles_Pipeline_j_output_loop_fu_324.AB_stream_blk_n data_FIFO}
+                        if ((~Block_entry_gmem_rd_proc_U0.grp_computeTiles_fu_159.grp_computeTiles_Pipeline_j_output_loop_fu_324.AB_stream_blk_n)) begin
                             if (~AB_stream_U.if_empty_n) begin
                                 $display("//      Blocked by empty input FIFO 'MM_MM.AB_stream_U' written by process 'MM_MM.writeTiles_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path MM_MM.AB_stream_U");
@@ -480,8 +340,8 @@
                             end
                         end
 // for dep channel 'MM_MM.N_c_U' info is :
-// blk sig is {~MM_MM_inst.computeTiles_U0.N_c_blk_n data_FIFO}
-                        if ((~computeTiles_U0.N_c_blk_n)) begin
+// blk sig is {~MM_MM_inst.Block_entry_gmem_rd_proc_U0.N_c_blk_n data_FIFO}
+                        if ((~Block_entry_gmem_rd_proc_U0.N_c_blk_n)) begin
                             if (~N_c_U.if_empty_n) begin
                                 $display("//      Blocked by empty input FIFO 'MM_MM.N_c_U' written by process 'MM_MM.writeTiles_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path MM_MM.N_c_U");
@@ -494,8 +354,8 @@
                             end
                         end
 // for dep channel 'MM_MM.P_c_U' info is :
-// blk sig is {~MM_MM_inst.computeTiles_U0.P_c_blk_n data_FIFO}
-                        if ((~computeTiles_U0.P_c_blk_n)) begin
+// blk sig is {~MM_MM_inst.Block_entry_gmem_rd_proc_U0.P_c_blk_n data_FIFO}
+                        if ((~Block_entry_gmem_rd_proc_U0.P_c_blk_n)) begin
                             if (~P_c_U.if_empty_n) begin
                                 $display("//      Blocked by empty input FIFO 'MM_MM.P_c_U' written by process 'MM_MM.writeTiles_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path MM_MM.P_c_U");
@@ -510,26 +370,26 @@
                     end
                     0: begin //  for dep proc 'MM_MM.entry_proc_U0'
 // for dep channel '' info is :
-// blk sig is {{MM_MM_inst.ap_sync_computeTiles_U0_ap_ready & MM_MM_inst.computeTiles_U0.ap_idle & ~MM_MM_inst.ap_sync_entry_proc_U0_ap_ready} input_sync}
-                        if ((ap_sync_computeTiles_U0_ap_ready & computeTiles_U0.ap_idle & ~ap_sync_entry_proc_U0_ap_ready)) begin
+// blk sig is {{MM_MM_inst.ap_sync_Block_entry_gmem_rd_proc_U0_ap_ready & MM_MM_inst.Block_entry_gmem_rd_proc_U0.ap_idle & ~MM_MM_inst.ap_sync_entry_proc_U0_ap_ready} input_sync}
+                        if ((ap_sync_Block_entry_gmem_rd_proc_U0_ap_ready & Block_entry_gmem_rd_proc_U0.ap_idle & ~ap_sync_entry_proc_U0_ap_ready)) begin
                             $display("//      Blocked by input sync logic with process : 'MM_MM.entry_proc_U0'");
                         end
                     end
                     endcase
                 end
-                4 : begin // for proc 'MM_MM.writeTiles_U0'
+                2 : begin // for proc 'MM_MM.writeTiles_U0'
                     case(index2)
-                    3: begin //  for dep proc 'MM_MM.computeTiles_U0'
+                    1: begin //  for dep proc 'MM_MM.Block_entry_gmem_rd_proc_U0'
 // for dep channel 'MM_MM.AB_stream_U' info is :
 // blk sig is {~MM_MM_inst.writeTiles_U0.grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_78.AB_stream_blk_n data_FIFO}
                         if ((~writeTiles_U0.grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_78.AB_stream_blk_n)) begin
                             if (~AB_stream_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'MM_MM.AB_stream_U' written by process 'MM_MM.computeTiles_U0'");
+                                $display("//      Blocked by empty input FIFO 'MM_MM.AB_stream_U' written by process 'MM_MM.Block_entry_gmem_rd_proc_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path MM_MM.AB_stream_U");
                                 $fdisplay(fp, "Dependence_Channel_status EMPTY");
                             end
                             else if (~AB_stream_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'MM_MM.AB_stream_U' read by process 'MM_MM.computeTiles_U0'");
+                                $display("//      Blocked by full output FIFO 'MM_MM.AB_stream_U' read by process 'MM_MM.Block_entry_gmem_rd_proc_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path MM_MM.AB_stream_U");
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
@@ -538,12 +398,12 @@
 // blk sig is {~MM_MM_inst.writeTiles_U0.N_blk_n data_FIFO}
                         if ((~writeTiles_U0.N_blk_n)) begin
                             if (~N_c_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'MM_MM.N_c_U' written by process 'MM_MM.computeTiles_U0'");
+                                $display("//      Blocked by empty input FIFO 'MM_MM.N_c_U' written by process 'MM_MM.Block_entry_gmem_rd_proc_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path MM_MM.N_c_U");
                                 $fdisplay(fp, "Dependence_Channel_status EMPTY");
                             end
                             else if (~N_c_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'MM_MM.N_c_U' read by process 'MM_MM.computeTiles_U0'");
+                                $display("//      Blocked by full output FIFO 'MM_MM.N_c_U' read by process 'MM_MM.Block_entry_gmem_rd_proc_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path MM_MM.N_c_U");
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
@@ -552,12 +412,12 @@
 // blk sig is {~MM_MM_inst.writeTiles_U0.P_blk_n data_FIFO}
                         if ((~writeTiles_U0.P_blk_n)) begin
                             if (~P_c_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'MM_MM.P_c_U' written by process 'MM_MM.computeTiles_U0'");
+                                $display("//      Blocked by empty input FIFO 'MM_MM.P_c_U' written by process 'MM_MM.Block_entry_gmem_rd_proc_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path MM_MM.P_c_U");
                                 $fdisplay(fp, "Dependence_Channel_status EMPTY");
                             end
                             else if (~P_c_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'MM_MM.P_c_U' read by process 'MM_MM.computeTiles_U0'");
+                                $display("//      Blocked by full output FIFO 'MM_MM.P_c_U' read by process 'MM_MM.Block_entry_gmem_rd_proc_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path MM_MM.P_c_U");
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end

@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'computeTiles_Pipeline_j_output_loop'
 ================================================================
-* Date:           Thu Apr  9 09:15:13 2026
+* Date:           Fri Apr 10 16:23:02 2026
 
 * Version:        2025.1 (Build 6135595 on May 21 2025)
 * Project:        baseline_blockedMM
@@ -230,7 +230,7 @@ IsGatedGlobalClock: 0
 
 State 1 <SV = 0> <Delay = 7.53>
 ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%j = alloca i32 1" [C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:55->C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:186->../MLP_baseline/mm.cpp:107]   --->   Operation 5 'alloca' 'j' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %AB_stream, void @empty_10, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 6 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %AB_stream, void @empty_13, i32 0, i32 0, void @empty_17, i32 0, i32 0, void @empty_17, void @empty_17, void @empty_17, i32 0, i32 0, i32 0, i32 0, void @empty_17, void @empty_17, i32 4294967295, i32 0, i32 0"   --->   Operation 6 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%AB_block_15_2_reload_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %AB_block_15_2_reload" [../MLP_baseline/mm.cpp:57]   --->   Operation 7 'read' 'AB_block_15_2_reload_read' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%AB_block_14_2_reload_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %AB_block_14_2_reload" [../MLP_baseline/mm.cpp:57]   --->   Operation 8 'read' 'AB_block_14_2_reload_read' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%AB_block_13_2_reload_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %AB_block_13_2_reload" [../MLP_baseline/mm.cpp:57]   --->   Operation 9 'read' 'AB_block_13_2_reload_read' <Predicate = true> <Delay = 0.00>
@@ -292,9 +292,9 @@ ST_1 : Operation 64 [1/1] (1.58ns)   --->   "%store_ln55 = store i5 %add_ln100, 
 ST_1 : Operation 71 [1/1] (1.58ns)   --->   "%ret_ln0 = ret"   --->   Operation 71 'ret' 'ret_ln0' <Predicate = (icmp_ln100)> <Delay = 1.58>
 
 State 2 <SV = 1> <Delay = 3.60>
-ST_2 : Operation 65 [1/1] (0.00ns)   --->   "%specpipeline_ln101 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_0" [../MLP_baseline/mm.cpp:101]   --->   Operation 65 'specpipeline' 'specpipeline_ln101' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 65 [1/1] (0.00ns)   --->   "%specpipeline_ln101 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_17" [../MLP_baseline/mm.cpp:101]   --->   Operation 65 'specpipeline' 'specpipeline_ln101' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 66 [1/1] (0.00ns)   --->   "%speclooptripcount_ln100 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 16, i64 16, i64 16" [../MLP_baseline/mm.cpp:100]   --->   Operation 66 'speclooptripcount' 'speclooptripcount_ln100' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 67 [1/1] (0.00ns)   --->   "%specloopname_ln100 = specloopname void @_ssdm_op_SpecLoopName, void @empty" [../MLP_baseline/mm.cpp:100]   --->   Operation 67 'specloopname' 'specloopname_ln100' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 67 [1/1] (0.00ns)   --->   "%specloopname_ln100 = specloopname void @_ssdm_op_SpecLoopName, void @empty_16" [../MLP_baseline/mm.cpp:100]   --->   Operation 67 'specloopname' 'specloopname_ln100' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 68 [1/1] (0.00ns)   --->   "%p_0 = bitconcatenate i512 @_ssdm_op_BitConcatenate.i512.i32.i32.i32.i32.i32.i32.i32.i32.i32.i32.i32.i32.i32.i32.i32.i32, i32 %trunc_ln107_15, i32 %trunc_ln107_14, i32 %trunc_ln107_13, i32 %trunc_ln107_12, i32 %trunc_ln107_11, i32 %trunc_ln107_10, i32 %trunc_ln107_9, i32 %trunc_ln107_8, i32 %trunc_ln107_7, i32 %trunc_ln107_6, i32 %trunc_ln107_5, i32 %trunc_ln107_4, i32 %trunc_ln107_3, i32 %trunc_ln107_2, i32 %trunc_ln107_1, i32 %trunc_ln107" [../MLP_baseline/mm.cpp:110]   --->   Operation 68 'bitconcatenate' 'p_0' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 69 [1/1] ( I:3.60ns O:3.60ns )   --->   "%write_ln110 = write void @_ssdm_op_Write.ap_fifo.volatile.i512P0A, i512 %AB_stream, i512 %p_0" [../MLP_baseline/mm.cpp:110]   --->   Operation 69 'write' 'write_ln110' <Predicate = true> <Delay = 3.60> <CoreInst = "FIFO">   --->   Core 77 'FIFO' <Latency = 0> <II = 1> <Delay = 3.60> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 512> <Depth = 32> <FIFO>
 ST_2 : Operation 70 [1/1] (0.00ns)   --->   "%br_ln100 = br void %i_output_loop" [../MLP_baseline/mm.cpp:100]   --->   Operation 70 'br' 'br_ln100' <Predicate = true> <Delay = 0.00>
@@ -582,7 +582,7 @@ ret_ln0                   (ret              ) [ 000]
 <pin id="39" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_10"/></StgValue>
+<StgValue><ssdm name="empty_13"/></StgValue>
 </bind>
 </comp>
 
@@ -600,7 +600,7 @@ ret_ln0                   (ret              ) [ 000]
 <pin id="43" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_0"/></StgValue>
+<StgValue><ssdm name="empty_17"/></StgValue>
 </bind>
 </comp>
 
@@ -699,7 +699,7 @@ ret_ln0                   (ret              ) [ 000]
 <pin id="65" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty"/></StgValue>
+<StgValue><ssdm name="empty_16"/></StgValue>
 </bind>
 </comp>
 

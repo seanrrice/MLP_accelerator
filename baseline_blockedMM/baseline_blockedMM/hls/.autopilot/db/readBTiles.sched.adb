@@ -16,7 +16,7 @@
 					<Obj class_id="5" tracking_level="0" version="0">
 						<type>1</type>
 						<id>1</id>
-						<name>gmem1</name>
+						<name>gmem</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1216,7 +1216,7 @@
 					<Obj>
 						<type>0</type>
 						<id>26</id>
-						<name>empty_39</name>
+						<name>empty_36</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>33</lineNumber>
@@ -1620,7 +1620,7 @@
 					<Obj>
 						<type>0</type>
 						<id>33</id>
-						<name>empty_40</name>
+						<name>empty_37</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>33</lineNumber>
@@ -1676,7 +1676,7 @@
 					<Obj>
 						<type>0</type>
 						<id>34</id>
-						<name>empty_41</name>
+						<name>empty_38</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>33</lineNumber>
@@ -1849,7 +1849,7 @@
 					<Obj>
 						<type>0</type>
 						<id>37</id>
-						<name>empty_42</name>
+						<name>empty_39</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>33</lineNumber>
@@ -2133,7 +2133,7 @@
 					<Obj>
 						<type>0</type>
 						<id>42</id>
-						<name>empty_43</name>
+						<name>empty_40</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>33</lineNumber>

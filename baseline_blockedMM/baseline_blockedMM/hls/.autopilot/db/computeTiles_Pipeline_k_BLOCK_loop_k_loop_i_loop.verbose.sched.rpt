@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop'
 ================================================================
-* Date:           Thu Apr  9 09:15:08 2026
+* Date:           Fri Apr 10 16:22:56 2026
 
 * Version:        2025.1 (Build 6135595 on May 21 2025)
 * Project:        baseline_blockedMM
@@ -110,41 +110,41 @@ ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%AB_block_14_2 = alloca i32 1"   --
 ST_1 : Operation 26 [1/1] (0.00ns)   --->   "%AB_block_15_2 = alloca i32 1"   --->   Operation 26 'alloca' 'AB_block_15_2' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 27 [1/1] (0.00ns)   --->   "%empty = alloca i32 1"   --->   Operation 27 'alloca' 'empty' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 28 [1/1] (0.00ns)   --->   "%p_038 = alloca i32 1"   --->   Operation 28 'alloca' 'p_038' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 29 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %A_stream, void @empty_10, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 29 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 30 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %B_stream, void @empty_10, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 30 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 31 [1/1] (0.00ns)   --->   "%tmp_28_read = read i35 @_ssdm_op_Read.ap_auto.i35, i35 %tmp_28" [../MLP_baseline/mm.cpp:57]   --->   Operation 31 'read' 'tmp_28_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 32 [1/1] (0.00ns)   --->   "%or_ln74_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %or_ln74_s" [../MLP_baseline/mm.cpp:57]   --->   Operation 32 'read' 'or_ln74_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 33 [1/1] (0.00ns)   --->   "%or_ln74_1_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %or_ln74_1" [../MLP_baseline/mm.cpp:57]   --->   Operation 33 'read' 'or_ln74_1_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 34 [1/1] (0.00ns)   --->   "%or_ln74_2_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %or_ln74_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 34 'read' 'or_ln74_2_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 35 [1/1] (0.00ns)   --->   "%or_ln74_3_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %or_ln74_3" [../MLP_baseline/mm.cpp:57]   --->   Operation 35 'read' 'or_ln74_3_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 36 [1/1] (0.00ns)   --->   "%or_ln74_4_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %or_ln74_4" [../MLP_baseline/mm.cpp:57]   --->   Operation 36 'read' 'or_ln74_4_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 37 [1/1] (0.00ns)   --->   "%or_ln74_5_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %or_ln74_5" [../MLP_baseline/mm.cpp:57]   --->   Operation 37 'read' 'or_ln74_5_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 38 [1/1] (0.00ns)   --->   "%or_ln74_6_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %or_ln74_6" [../MLP_baseline/mm.cpp:57]   --->   Operation 38 'read' 'or_ln74_6_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 39 [1/1] (0.00ns)   --->   "%or_ln74_7_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %or_ln74_7" [../MLP_baseline/mm.cpp:57]   --->   Operation 39 'read' 'or_ln74_7_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 40 [1/1] (0.00ns)   --->   "%or_ln74_8_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %or_ln74_8" [../MLP_baseline/mm.cpp:57]   --->   Operation 40 'read' 'or_ln74_8_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 41 [1/1] (0.00ns)   --->   "%or_ln74_9_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %or_ln74_9" [../MLP_baseline/mm.cpp:57]   --->   Operation 41 'read' 'or_ln74_9_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 42 [1/1] (0.00ns)   --->   "%or_ln74_10_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %or_ln74_10" [../MLP_baseline/mm.cpp:57]   --->   Operation 42 'read' 'or_ln74_10_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 43 [1/1] (0.00ns)   --->   "%or_ln74_11_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %or_ln74_11" [../MLP_baseline/mm.cpp:57]   --->   Operation 43 'read' 'or_ln74_11_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 44 [1/1] (0.00ns)   --->   "%or_ln74_12_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %or_ln74_12" [../MLP_baseline/mm.cpp:57]   --->   Operation 44 'read' 'or_ln74_12_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 45 [1/1] (0.00ns)   --->   "%or_ln74_13_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %or_ln74_13" [../MLP_baseline/mm.cpp:57]   --->   Operation 45 'read' 'or_ln74_13_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 46 [1/1] (0.00ns)   --->   "%or_ln74_14_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %or_ln74_14" [../MLP_baseline/mm.cpp:57]   --->   Operation 46 'read' 'or_ln74_14_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 47 [1/1] (0.00ns)   --->   "%or_ln74_15_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %or_ln74_15" [../MLP_baseline/mm.cpp:57]   --->   Operation 47 'read' 'or_ln74_15_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 48 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %or_ln74_15_read, i512 %AB_block_15_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 48 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
-ST_1 : Operation 49 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %or_ln74_14_read, i512 %AB_block_14_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 49 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
-ST_1 : Operation 50 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %or_ln74_13_read, i512 %AB_block_13_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 50 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
-ST_1 : Operation 51 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %or_ln74_12_read, i512 %AB_block_12_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 51 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
-ST_1 : Operation 52 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %or_ln74_11_read, i512 %AB_block_11_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 52 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
-ST_1 : Operation 53 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %or_ln74_10_read, i512 %AB_block_10_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 53 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
-ST_1 : Operation 54 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %or_ln74_9_read, i512 %AB_block_9_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 54 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
-ST_1 : Operation 55 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %or_ln74_8_read, i512 %AB_block_8_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 55 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
-ST_1 : Operation 56 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %or_ln74_7_read, i512 %AB_block_7_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 56 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
-ST_1 : Operation 57 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %or_ln74_6_read, i512 %AB_block_6_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 57 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
-ST_1 : Operation 58 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %or_ln74_5_read, i512 %AB_block_5_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 58 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
-ST_1 : Operation 59 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %or_ln74_4_read, i512 %AB_block_4_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 59 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
-ST_1 : Operation 60 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %or_ln74_3_read, i512 %AB_block_3_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 60 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
-ST_1 : Operation 61 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %or_ln74_2_read, i512 %AB_block_2_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 61 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
-ST_1 : Operation 62 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %or_ln74_1_read, i512 %AB_block_1_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 62 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
-ST_1 : Operation 63 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %or_ln74_read, i512 %AB_block_0_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 63 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 29 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %A_stream, void @empty_13, i32 0, i32 0, void @empty_17, i32 0, i32 0, void @empty_17, void @empty_17, void @empty_17, i32 0, i32 0, i32 0, i32 0, void @empty_17, void @empty_17, i32 4294967295, i32 0, i32 0"   --->   Operation 29 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 30 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %B_stream, void @empty_13, i32 0, i32 0, void @empty_17, i32 0, i32 0, void @empty_17, void @empty_17, void @empty_17, i32 0, i32 0, i32 0, i32 0, void @empty_17, void @empty_17, i32 4294967295, i32 0, i32 0"   --->   Operation 30 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 31 [1/1] (0.00ns)   --->   "%tmp_45_read = read i35 @_ssdm_op_Read.ap_auto.i35, i35 %tmp_45" [../MLP_baseline/mm.cpp:57]   --->   Operation 31 'read' 'tmp_45_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 32 [1/1] (0.00ns)   --->   "%thr_or_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %thr_or" [../MLP_baseline/mm.cpp:57]   --->   Operation 32 'read' 'thr_or_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 33 [1/1] (0.00ns)   --->   "%thr_or1_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %thr_or1" [../MLP_baseline/mm.cpp:57]   --->   Operation 33 'read' 'thr_or1_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 34 [1/1] (0.00ns)   --->   "%thr_or2_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %thr_or2" [../MLP_baseline/mm.cpp:57]   --->   Operation 34 'read' 'thr_or2_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 35 [1/1] (0.00ns)   --->   "%thr_or3_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %thr_or3" [../MLP_baseline/mm.cpp:57]   --->   Operation 35 'read' 'thr_or3_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 36 [1/1] (0.00ns)   --->   "%thr_or4_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %thr_or4" [../MLP_baseline/mm.cpp:57]   --->   Operation 36 'read' 'thr_or4_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 37 [1/1] (0.00ns)   --->   "%thr_or5_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %thr_or5" [../MLP_baseline/mm.cpp:57]   --->   Operation 37 'read' 'thr_or5_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 38 [1/1] (0.00ns)   --->   "%thr_or6_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %thr_or6" [../MLP_baseline/mm.cpp:57]   --->   Operation 38 'read' 'thr_or6_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 39 [1/1] (0.00ns)   --->   "%thr_or7_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %thr_or7" [../MLP_baseline/mm.cpp:57]   --->   Operation 39 'read' 'thr_or7_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 40 [1/1] (0.00ns)   --->   "%thr_or8_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %thr_or8" [../MLP_baseline/mm.cpp:57]   --->   Operation 40 'read' 'thr_or8_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 41 [1/1] (0.00ns)   --->   "%thr_or9_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %thr_or9" [../MLP_baseline/mm.cpp:57]   --->   Operation 41 'read' 'thr_or9_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 42 [1/1] (0.00ns)   --->   "%thr_or10_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %thr_or10" [../MLP_baseline/mm.cpp:57]   --->   Operation 42 'read' 'thr_or10_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 43 [1/1] (0.00ns)   --->   "%thr_or11_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %thr_or11" [../MLP_baseline/mm.cpp:57]   --->   Operation 43 'read' 'thr_or11_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 44 [1/1] (0.00ns)   --->   "%thr_or12_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %thr_or12" [../MLP_baseline/mm.cpp:57]   --->   Operation 44 'read' 'thr_or12_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 45 [1/1] (0.00ns)   --->   "%thr_or13_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %thr_or13" [../MLP_baseline/mm.cpp:57]   --->   Operation 45 'read' 'thr_or13_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 46 [1/1] (0.00ns)   --->   "%thr_or14_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %thr_or14" [../MLP_baseline/mm.cpp:57]   --->   Operation 46 'read' 'thr_or14_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 47 [1/1] (0.00ns)   --->   "%thr_or15_read = read i512 @_ssdm_op_Read.ap_auto.i512, i512 %thr_or15" [../MLP_baseline/mm.cpp:57]   --->   Operation 47 'read' 'thr_or15_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 48 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %thr_or15_read, i512 %AB_block_15_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 48 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 49 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %thr_or14_read, i512 %AB_block_14_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 49 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 50 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %thr_or13_read, i512 %AB_block_13_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 50 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 51 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %thr_or12_read, i512 %AB_block_12_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 51 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 52 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %thr_or11_read, i512 %AB_block_11_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 52 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 53 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %thr_or10_read, i512 %AB_block_10_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 53 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 54 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %thr_or9_read, i512 %AB_block_9_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 54 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 55 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %thr_or8_read, i512 %AB_block_8_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 55 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 56 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %thr_or7_read, i512 %AB_block_7_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 56 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 57 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %thr_or6_read, i512 %AB_block_6_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 57 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 58 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %thr_or5_read, i512 %AB_block_5_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 58 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 59 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %thr_or4_read, i512 %AB_block_4_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 59 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 60 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %thr_or3_read, i512 %AB_block_3_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 60 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 61 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %thr_or2_read, i512 %AB_block_2_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 61 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 62 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %thr_or1_read, i512 %AB_block_1_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 62 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 63 [1/1] (1.58ns)   --->   "%store_ln57 = store i512 %thr_or_read, i512 %AB_block_0_2" [../MLP_baseline/mm.cpp:57]   --->   Operation 63 'store' 'store_ln57' <Predicate = true> <Delay = 1.58>
 ST_1 : Operation 64 [1/1] (1.58ns)   --->   "%store_ln0 = store i35 0, i35 %indvar_flatten43"   --->   Operation 64 'store' 'store_ln0' <Predicate = true> <Delay = 1.58>
 ST_1 : Operation 65 [1/1] (1.58ns)   --->   "%store_ln0 = store i10 0, i10 %indvar_flatten"   --->   Operation 65 'store' 'store_ln0' <Predicate = true> <Delay = 1.58>
 ST_1 : Operation 66 [1/1] (1.58ns)   --->   "%store_ln55 = store i5 0, i5 %i" [C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:55->C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:186->../MLP_baseline/mm.cpp:92]   --->   Operation 66 'store' 'store_ln55' <Predicate = true> <Delay = 1.58>
@@ -153,7 +153,7 @@ ST_1 : Operation 67 [1/1] (0.00ns)   --->   "%br_ln80 = br void %j_loop" [../MLP
 State 2 <SV = 1> <Delay = 6.36>
 ST_2 : Operation 68 [1/1] (0.00ns)   --->   "%indvar_flatten_load = load i10 %indvar_flatten" [../MLP_baseline/mm.cpp:82]   --->   Operation 68 'load' 'indvar_flatten_load' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 69 [1/1] (0.00ns)   --->   "%indvar_flatten43_load = load i35 %indvar_flatten43" [../MLP_baseline/mm.cpp:80]   --->   Operation 69 'load' 'indvar_flatten43_load' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 70 [1/1] (2.67ns)   --->   "%icmp_ln80 = icmp_eq  i35 %indvar_flatten43_load, i35 %tmp_28_read" [../MLP_baseline/mm.cpp:80]   --->   Operation 70 'icmp' 'icmp_ln80' <Predicate = true> <Delay = 2.67> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.67> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 70 [1/1] (2.67ns)   --->   "%icmp_ln80 = icmp_eq  i35 %indvar_flatten43_load, i35 %tmp_45_read" [../MLP_baseline/mm.cpp:80]   --->   Operation 70 'icmp' 'icmp_ln80' <Predicate = true> <Delay = 2.67> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.67> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
 ST_2 : Operation 71 [1/1] (2.67ns)   --->   "%add_ln80 = add i35 %indvar_flatten43_load, i35 1" [../MLP_baseline/mm.cpp:80]   --->   Operation 71 'add' 'add_ln80' <Predicate = true> <Delay = 2.67> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.67> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_2 : Operation 72 [1/1] (0.00ns)   --->   "%br_ln80 = br i1 %icmp_ln80, void %for.inc57, void %i_output_loop.preheader.exitStub" [../MLP_baseline/mm.cpp:80]   --->   Operation 72 'br' 'br_ln80' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 73 [1/1] (0.00ns)   --->   "%i_load = load i5 %i" [../MLP_baseline/mm.cpp:87]   --->   Operation 73 'load' 'i_load' <Predicate = (!icmp_ln80)> <Delay = 0.00>
@@ -276,7 +276,7 @@ ST_6 : Operation 148 [1/1] (0.00ns)   --->   "%AB_block_12_2_load = load i512 %A
 ST_6 : Operation 149 [1/1] (0.00ns)   --->   "%AB_block_13_2_load = load i512 %AB_block_13_2" [../MLP_baseline/mm.cpp:92]   --->   Operation 149 'load' 'AB_block_13_2_load' <Predicate = true> <Delay = 0.00>
 ST_6 : Operation 150 [1/1] (0.00ns)   --->   "%AB_block_14_2_load = load i512 %AB_block_14_2" [../MLP_baseline/mm.cpp:92]   --->   Operation 150 'load' 'AB_block_14_2_load' <Predicate = true> <Delay = 0.00>
 ST_6 : Operation 151 [1/1] (0.00ns)   --->   "%AB_block_15_2_load = load i512 %AB_block_15_2" [../MLP_baseline/mm.cpp:92]   --->   Operation 151 'load' 'AB_block_15_2_load' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 152 [1/1] (0.00ns)   --->   "%specpipeline_ln88 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_0" [../MLP_baseline/mm.cpp:88]   --->   Operation 152 'specpipeline' 'specpipeline_ln88' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 152 [1/1] (0.00ns)   --->   "%specpipeline_ln88 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_17" [../MLP_baseline/mm.cpp:88]   --->   Operation 152 'specpipeline' 'specpipeline_ln88' <Predicate = true> <Delay = 0.00>
 ST_6 : Operation 153 [1/1] (0.00ns)   --->   "%trunc_ln92_1 = trunc i512 %AB_block_0_2_load" [../MLP_baseline/mm.cpp:92]   --->   Operation 153 'trunc' 'trunc_ln92_1' <Predicate = (trunc_ln87 == 0)> <Delay = 0.00>
 ST_6 : Operation 154 [1/1] (0.00ns)   --->   "%trunc_ln92_2 = trunc i512 %AB_block_1_2_load" [../MLP_baseline/mm.cpp:92]   --->   Operation 154 'trunc' 'trunc_ln92_2' <Predicate = (trunc_ln87 == 1)> <Delay = 0.00>
 ST_6 : Operation 155 [1/1] (0.00ns)   --->   "%trunc_ln92_3 = trunc i512 %AB_block_2_2_load" [../MLP_baseline/mm.cpp:92]   --->   Operation 155 'trunc' 'trunc_ln92_3' <Predicate = (trunc_ln87 == 2)> <Delay = 0.00>
@@ -608,7 +608,7 @@ Target clock period: 15.000ns, clock uncertainty: 4.050ns.
  <State 1>: 1.588ns
 The critical path consists of the following:
 	'alloca' operation 512 bit ('AB_block_15_2') [54]  (0.000 ns)
-	'store' operation 0 bit ('store_ln57', ../MLP_baseline/mm.cpp:57) of variable 'or_ln74_15_read', ../MLP_baseline/mm.cpp:57 on local variable 'AB_block_15_2' [76]  (1.588 ns)
+	'store' operation 0 bit ('store_ln57', ../MLP_baseline/mm.cpp:57) of variable 'thr_or15_read', ../MLP_baseline/mm.cpp:57 on local variable 'AB_block_15_2' [76]  (1.588 ns)
 
  <State 2>: 6.363ns
 The critical path consists of the following:
@@ -636,9 +636,9 @@ The critical path consists of the following:
  <State 6>: 6.204ns
 The critical path consists of the following:
 	'load' operation 512 bit ('AB_block_0_2_load', ../MLP_baseline/mm.cpp:92) on local variable 'AB_block_0_2' [121]  (0.000 ns)
-	'sparsemux' operation 32 bit ('tmp_s', ../MLP_baseline/mm.cpp:92) [178]  (2.064 ns)
-	'add' operation 32 bit ('add_ln92', ../MLP_baseline/mm.cpp:92) [179]  (2.552 ns)
-	'store' operation 0 bit ('store_ln92', ../MLP_baseline/mm.cpp:92) of variable 'or_ln92_s', ../MLP_baseline/mm.cpp:92 on local variable 'AB_block_1_2' [507]  (1.588 ns)
+	'sparsemux' operation 32 bit ('tmp_7', ../MLP_baseline/mm.cpp:92) [319]  (2.064 ns)
+	'add' operation 32 bit ('add_ln92_7', ../MLP_baseline/mm.cpp:92) [320]  (2.552 ns)
+	'store' operation 0 bit ('store_ln92', ../MLP_baseline/mm.cpp:92) of variable 'or_ln92_s', ../MLP_baseline/mm.cpp:92 on local variable 'AB_block_7_2' [489]  (1.588 ns)
 
 
 ============================================================

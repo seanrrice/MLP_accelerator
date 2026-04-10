@@ -19,30 +19,26 @@ port (
     A_stream_dout : IN STD_LOGIC_VECTOR (511 downto 0);
     A_stream_empty_n : IN STD_LOGIC;
     A_stream_read : OUT STD_LOGIC;
-    A_stream_num_data_valid : IN STD_LOGIC_VECTOR (5 downto 0);
-    A_stream_fifo_cap : IN STD_LOGIC_VECTOR (5 downto 0);
     B_stream_dout : IN STD_LOGIC_VECTOR (511 downto 0);
     B_stream_empty_n : IN STD_LOGIC;
     B_stream_read : OUT STD_LOGIC;
-    B_stream_num_data_valid : IN STD_LOGIC_VECTOR (5 downto 0);
-    B_stream_fifo_cap : IN STD_LOGIC_VECTOR (5 downto 0);
-    or_ln74_15 : IN STD_LOGIC_VECTOR (511 downto 0);
-    or_ln74_14 : IN STD_LOGIC_VECTOR (511 downto 0);
-    or_ln74_13 : IN STD_LOGIC_VECTOR (511 downto 0);
-    or_ln74_12 : IN STD_LOGIC_VECTOR (511 downto 0);
-    or_ln74_11 : IN STD_LOGIC_VECTOR (511 downto 0);
-    or_ln74_10 : IN STD_LOGIC_VECTOR (511 downto 0);
-    or_ln74_9 : IN STD_LOGIC_VECTOR (511 downto 0);
-    or_ln74_8 : IN STD_LOGIC_VECTOR (511 downto 0);
-    or_ln74_7 : IN STD_LOGIC_VECTOR (511 downto 0);
-    or_ln74_6 : IN STD_LOGIC_VECTOR (511 downto 0);
-    or_ln74_5 : IN STD_LOGIC_VECTOR (511 downto 0);
-    or_ln74_4 : IN STD_LOGIC_VECTOR (511 downto 0);
-    or_ln74_3 : IN STD_LOGIC_VECTOR (511 downto 0);
-    or_ln74_2 : IN STD_LOGIC_VECTOR (511 downto 0);
-    or_ln74_1 : IN STD_LOGIC_VECTOR (511 downto 0);
-    or_ln74_s : IN STD_LOGIC_VECTOR (511 downto 0);
-    tmp_28 : IN STD_LOGIC_VECTOR (34 downto 0);
+    thr_or15 : IN STD_LOGIC_VECTOR (511 downto 0);
+    thr_or14 : IN STD_LOGIC_VECTOR (511 downto 0);
+    thr_or13 : IN STD_LOGIC_VECTOR (511 downto 0);
+    thr_or12 : IN STD_LOGIC_VECTOR (511 downto 0);
+    thr_or11 : IN STD_LOGIC_VECTOR (511 downto 0);
+    thr_or10 : IN STD_LOGIC_VECTOR (511 downto 0);
+    thr_or9 : IN STD_LOGIC_VECTOR (511 downto 0);
+    thr_or8 : IN STD_LOGIC_VECTOR (511 downto 0);
+    thr_or7 : IN STD_LOGIC_VECTOR (511 downto 0);
+    thr_or6 : IN STD_LOGIC_VECTOR (511 downto 0);
+    thr_or5 : IN STD_LOGIC_VECTOR (511 downto 0);
+    thr_or4 : IN STD_LOGIC_VECTOR (511 downto 0);
+    thr_or3 : IN STD_LOGIC_VECTOR (511 downto 0);
+    thr_or2 : IN STD_LOGIC_VECTOR (511 downto 0);
+    thr_or1 : IN STD_LOGIC_VECTOR (511 downto 0);
+    thr_or : IN STD_LOGIC_VECTOR (511 downto 0);
+    tmp_45 : IN STD_LOGIC_VECTOR (34 downto 0);
     AB_block_15_2_out : OUT STD_LOGIC_VECTOR (511 downto 0);
     AB_block_15_2_out_ap_vld : OUT STD_LOGIC;
     AB_block_14_2_out : OUT STD_LOGIC_VECTOR (511 downto 0);
@@ -944,7 +940,7 @@ attribute shreg_extract : string;
 
 
 begin
-    mul_32s_32s_32_1_1_U40 : component MM_mul_32s_32s_32_1_1
+    mul_32s_32s_32_1_1_U39 : component MM_mul_32s_32s_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -956,7 +952,7 @@ begin
         din1 => trunc_ln84_reg_5124,
         dout => mul_ln92_fu_534_p2);
 
-    mul_32s_32s_32_1_1_U41 : component MM_mul_32s_32s_32_1_1
+    mul_32s_32s_32_1_1_U40 : component MM_mul_32s_32s_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -968,7 +964,7 @@ begin
         din1 => trunc_ln84_1_reg_5129,
         dout => mul_ln92_1_fu_538_p2);
 
-    mul_32s_32s_32_1_1_U42 : component MM_mul_32s_32s_32_1_1
+    mul_32s_32s_32_1_1_U41 : component MM_mul_32s_32s_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -980,7 +976,7 @@ begin
         din1 => trunc_ln84_2_reg_5134,
         dout => mul_ln92_2_fu_542_p2);
 
-    mul_32s_32s_32_1_1_U43 : component MM_mul_32s_32s_32_1_1
+    mul_32s_32s_32_1_1_U42 : component MM_mul_32s_32s_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -992,7 +988,7 @@ begin
         din1 => trunc_ln84_3_reg_5139,
         dout => mul_ln92_3_fu_546_p2);
 
-    mul_32s_32s_32_1_1_U44 : component MM_mul_32s_32s_32_1_1
+    mul_32s_32s_32_1_1_U43 : component MM_mul_32s_32s_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1004,7 +1000,7 @@ begin
         din1 => trunc_ln84_4_reg_5144,
         dout => mul_ln92_4_fu_550_p2);
 
-    mul_32s_32s_32_1_1_U45 : component MM_mul_32s_32s_32_1_1
+    mul_32s_32s_32_1_1_U44 : component MM_mul_32s_32s_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1016,7 +1012,7 @@ begin
         din1 => trunc_ln84_5_reg_5149,
         dout => mul_ln92_5_fu_554_p2);
 
-    mul_32s_32s_32_1_1_U46 : component MM_mul_32s_32s_32_1_1
+    mul_32s_32s_32_1_1_U45 : component MM_mul_32s_32s_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1028,7 +1024,7 @@ begin
         din1 => trunc_ln84_6_reg_5154,
         dout => mul_ln92_6_fu_558_p2);
 
-    mul_32s_32s_32_1_1_U47 : component MM_mul_32s_32s_32_1_1
+    mul_32s_32s_32_1_1_U46 : component MM_mul_32s_32s_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1040,7 +1036,7 @@ begin
         din1 => trunc_ln84_7_reg_5159,
         dout => mul_ln92_7_fu_562_p2);
 
-    mul_32s_32s_32_1_1_U48 : component MM_mul_32s_32s_32_1_1
+    mul_32s_32s_32_1_1_U47 : component MM_mul_32s_32s_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1052,7 +1048,7 @@ begin
         din1 => trunc_ln84_8_reg_5164,
         dout => mul_ln92_8_fu_566_p2);
 
-    mul_32s_32s_32_1_1_U49 : component MM_mul_32s_32s_32_1_1
+    mul_32s_32s_32_1_1_U48 : component MM_mul_32s_32s_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1064,7 +1060,7 @@ begin
         din1 => trunc_ln84_9_reg_5169,
         dout => mul_ln92_9_fu_570_p2);
 
-    mul_32s_32s_32_1_1_U50 : component MM_mul_32s_32s_32_1_1
+    mul_32s_32s_32_1_1_U49 : component MM_mul_32s_32s_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1076,7 +1072,7 @@ begin
         din1 => trunc_ln84_s_reg_5174,
         dout => mul_ln92_10_fu_574_p2);
 
-    mul_32s_32s_32_1_1_U51 : component MM_mul_32s_32s_32_1_1
+    mul_32s_32s_32_1_1_U50 : component MM_mul_32s_32s_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1088,7 +1084,7 @@ begin
         din1 => trunc_ln84_10_reg_5179,
         dout => mul_ln92_11_fu_578_p2);
 
-    mul_32s_32s_32_1_1_U52 : component MM_mul_32s_32s_32_1_1
+    mul_32s_32s_32_1_1_U51 : component MM_mul_32s_32s_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1100,7 +1096,7 @@ begin
         din1 => trunc_ln84_11_reg_5184,
         dout => mul_ln92_12_fu_582_p2);
 
-    mul_32s_32s_32_1_1_U53 : component MM_mul_32s_32s_32_1_1
+    mul_32s_32s_32_1_1_U52 : component MM_mul_32s_32s_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1112,7 +1108,7 @@ begin
         din1 => trunc_ln84_12_reg_5189,
         dout => mul_ln92_13_fu_586_p2);
 
-    mul_32s_32s_32_1_1_U54 : component MM_mul_32s_32s_32_1_1
+    mul_32s_32s_32_1_1_U53 : component MM_mul_32s_32s_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1124,7 +1120,7 @@ begin
         din1 => trunc_ln84_13_reg_5194,
         dout => mul_ln92_14_fu_590_p2);
 
-    mul_32s_32s_32_1_1_U55 : component MM_mul_32s_32s_32_1_1
+    mul_32s_32s_32_1_1_U54 : component MM_mul_32s_32s_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1136,7 +1132,7 @@ begin
         din1 => trunc_ln84_14_reg_5199,
         dout => mul_ln92_15_fu_594_p2);
 
-    sparsemux_33_4_32_1_1_U56 : component MM_sparsemux_33_4_32_1_1
+    sparsemux_33_4_32_1_1_U55 : component MM_sparsemux_33_4_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1196,7 +1192,7 @@ begin
         sel => trunc_ln87_reg_5103_pp0_iter4_reg,
         dout => tmp_s_fu_1133_p35);
 
-    sparsemux_33_4_32_1_1_U57 : component MM_sparsemux_33_4_32_1_1
+    sparsemux_33_4_32_1_1_U56 : component MM_sparsemux_33_4_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1256,7 +1252,7 @@ begin
         sel => trunc_ln87_reg_5103_pp0_iter4_reg,
         dout => tmp_1_fu_1369_p35);
 
-    sparsemux_33_4_32_1_1_U58 : component MM_sparsemux_33_4_32_1_1
+    sparsemux_33_4_32_1_1_U57 : component MM_sparsemux_33_4_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1316,7 +1312,7 @@ begin
         sel => trunc_ln87_reg_5103_pp0_iter4_reg,
         dout => tmp_2_fu_1605_p35);
 
-    sparsemux_33_4_32_1_1_U59 : component MM_sparsemux_33_4_32_1_1
+    sparsemux_33_4_32_1_1_U58 : component MM_sparsemux_33_4_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1376,7 +1372,7 @@ begin
         sel => trunc_ln87_reg_5103_pp0_iter4_reg,
         dout => tmp_3_fu_1841_p35);
 
-    sparsemux_33_4_32_1_1_U60 : component MM_sparsemux_33_4_32_1_1
+    sparsemux_33_4_32_1_1_U59 : component MM_sparsemux_33_4_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1436,7 +1432,7 @@ begin
         sel => trunc_ln87_reg_5103_pp0_iter4_reg,
         dout => tmp_4_fu_2077_p35);
 
-    sparsemux_33_4_32_1_1_U61 : component MM_sparsemux_33_4_32_1_1
+    sparsemux_33_4_32_1_1_U60 : component MM_sparsemux_33_4_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1496,7 +1492,7 @@ begin
         sel => trunc_ln87_reg_5103_pp0_iter4_reg,
         dout => tmp_5_fu_2313_p35);
 
-    sparsemux_33_4_32_1_1_U62 : component MM_sparsemux_33_4_32_1_1
+    sparsemux_33_4_32_1_1_U61 : component MM_sparsemux_33_4_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1556,7 +1552,7 @@ begin
         sel => trunc_ln87_reg_5103_pp0_iter4_reg,
         dout => tmp_6_fu_2549_p35);
 
-    sparsemux_33_4_32_1_1_U63 : component MM_sparsemux_33_4_32_1_1
+    sparsemux_33_4_32_1_1_U62 : component MM_sparsemux_33_4_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1616,7 +1612,7 @@ begin
         sel => trunc_ln87_reg_5103_pp0_iter4_reg,
         dout => tmp_7_fu_2785_p35);
 
-    sparsemux_33_4_32_1_1_U64 : component MM_sparsemux_33_4_32_1_1
+    sparsemux_33_4_32_1_1_U63 : component MM_sparsemux_33_4_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1676,7 +1672,7 @@ begin
         sel => trunc_ln87_reg_5103_pp0_iter4_reg,
         dout => tmp_8_fu_3021_p35);
 
-    sparsemux_33_4_32_1_1_U65 : component MM_sparsemux_33_4_32_1_1
+    sparsemux_33_4_32_1_1_U64 : component MM_sparsemux_33_4_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1736,7 +1732,7 @@ begin
         sel => trunc_ln87_reg_5103_pp0_iter4_reg,
         dout => tmp_9_fu_3257_p35);
 
-    sparsemux_33_4_32_1_1_U66 : component MM_sparsemux_33_4_32_1_1
+    sparsemux_33_4_32_1_1_U65 : component MM_sparsemux_33_4_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1796,7 +1792,7 @@ begin
         sel => trunc_ln87_reg_5103_pp0_iter4_reg,
         dout => tmp_10_fu_3493_p35);
 
-    sparsemux_33_4_32_1_1_U67 : component MM_sparsemux_33_4_32_1_1
+    sparsemux_33_4_32_1_1_U66 : component MM_sparsemux_33_4_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1856,7 +1852,7 @@ begin
         sel => trunc_ln87_reg_5103_pp0_iter4_reg,
         dout => tmp_11_fu_3729_p35);
 
-    sparsemux_33_4_32_1_1_U68 : component MM_sparsemux_33_4_32_1_1
+    sparsemux_33_4_32_1_1_U67 : component MM_sparsemux_33_4_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1916,7 +1912,7 @@ begin
         sel => trunc_ln87_reg_5103_pp0_iter4_reg,
         dout => tmp_12_fu_3965_p35);
 
-    sparsemux_33_4_32_1_1_U69 : component MM_sparsemux_33_4_32_1_1
+    sparsemux_33_4_32_1_1_U68 : component MM_sparsemux_33_4_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -1976,7 +1972,7 @@ begin
         sel => trunc_ln87_reg_5103_pp0_iter4_reg,
         dout => tmp_13_fu_4201_p35);
 
-    sparsemux_33_4_32_1_1_U70 : component MM_sparsemux_33_4_32_1_1
+    sparsemux_33_4_32_1_1_U69 : component MM_sparsemux_33_4_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -2036,7 +2032,7 @@ begin
         sel => trunc_ln87_reg_5103_pp0_iter4_reg,
         dout => tmp_14_fu_4437_p35);
 
-    sparsemux_33_4_32_1_1_U71 : component MM_sparsemux_33_4_32_1_1
+    sparsemux_33_4_32_1_1_U70 : component MM_sparsemux_33_4_32_1_1
     generic map (
         ID => 1,
         NUM_STAGE => 1,
@@ -2270,7 +2266,7 @@ begin
         if (ap_clk'event and ap_clk = '1') then
             if (((ap_const_boolean_0 = ap_block_pp0_stage0_subdone_grp0_done_reg) and (ap_const_boolean_0 = ap_block_pp0_stage0_11001_grp0))) then
                 if (((ap_loop_init = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
-                    AB_block_0_2_fu_236 <= or_ln74_s;
+                    AB_block_0_2_fu_236 <= thr_or;
                 elsif (((ap_enable_reg_pp0_iter5 = ap_const_logic_1) and (trunc_ln87_reg_5103_pp0_iter4_reg = ap_const_lv4_0))) then 
                     AB_block_0_2_fu_236 <= or_ln92_s_fu_4749_p17;
                 end if;
@@ -2283,7 +2279,7 @@ begin
         if (ap_clk'event and ap_clk = '1') then
             if (((ap_const_boolean_0 = ap_block_pp0_stage0_subdone_grp0_done_reg) and (ap_const_boolean_0 = ap_block_pp0_stage0_11001_grp0))) then
                 if (((ap_loop_init = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
-                    AB_block_10_2_fu_276 <= or_ln74_10;
+                    AB_block_10_2_fu_276 <= thr_or10;
                 elsif (((ap_enable_reg_pp0_iter5 = ap_const_logic_1) and (trunc_ln87_reg_5103_pp0_iter4_reg = ap_const_lv4_A))) then 
                     AB_block_10_2_fu_276 <= or_ln92_s_fu_4749_p17;
                 end if;
@@ -2296,7 +2292,7 @@ begin
         if (ap_clk'event and ap_clk = '1') then
             if (((ap_const_boolean_0 = ap_block_pp0_stage0_subdone_grp0_done_reg) and (ap_const_boolean_0 = ap_block_pp0_stage0_11001_grp0))) then
                 if (((ap_loop_init = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
-                    AB_block_11_2_fu_280 <= or_ln74_11;
+                    AB_block_11_2_fu_280 <= thr_or11;
                 elsif (((ap_enable_reg_pp0_iter5 = ap_const_logic_1) and (trunc_ln87_reg_5103_pp0_iter4_reg = ap_const_lv4_B))) then 
                     AB_block_11_2_fu_280 <= or_ln92_s_fu_4749_p17;
                 end if;
@@ -2309,7 +2305,7 @@ begin
         if (ap_clk'event and ap_clk = '1') then
             if (((ap_const_boolean_0 = ap_block_pp0_stage0_subdone_grp0_done_reg) and (ap_const_boolean_0 = ap_block_pp0_stage0_11001_grp0))) then
                 if (((ap_loop_init = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
-                    AB_block_12_2_fu_284 <= or_ln74_12;
+                    AB_block_12_2_fu_284 <= thr_or12;
                 elsif (((ap_enable_reg_pp0_iter5 = ap_const_logic_1) and (trunc_ln87_reg_5103_pp0_iter4_reg = ap_const_lv4_C))) then 
                     AB_block_12_2_fu_284 <= or_ln92_s_fu_4749_p17;
                 end if;
@@ -2322,7 +2318,7 @@ begin
         if (ap_clk'event and ap_clk = '1') then
             if (((ap_const_boolean_0 = ap_block_pp0_stage0_subdone_grp0_done_reg) and (ap_const_boolean_0 = ap_block_pp0_stage0_11001_grp0))) then
                 if (((ap_loop_init = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
-                    AB_block_13_2_fu_288 <= or_ln74_13;
+                    AB_block_13_2_fu_288 <= thr_or13;
                 elsif (((ap_enable_reg_pp0_iter5 = ap_const_logic_1) and (trunc_ln87_reg_5103_pp0_iter4_reg = ap_const_lv4_D))) then 
                     AB_block_13_2_fu_288 <= or_ln92_s_fu_4749_p17;
                 end if;
@@ -2335,7 +2331,7 @@ begin
         if (ap_clk'event and ap_clk = '1') then
             if (((ap_const_boolean_0 = ap_block_pp0_stage0_subdone_grp0_done_reg) and (ap_const_boolean_0 = ap_block_pp0_stage0_11001_grp0))) then
                 if (((ap_loop_init = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
-                    AB_block_14_2_fu_292 <= or_ln74_14;
+                    AB_block_14_2_fu_292 <= thr_or14;
                 elsif (((ap_enable_reg_pp0_iter5 = ap_const_logic_1) and (trunc_ln87_reg_5103_pp0_iter4_reg = ap_const_lv4_E))) then 
                     AB_block_14_2_fu_292 <= or_ln92_s_fu_4749_p17;
                 end if;
@@ -2348,7 +2344,7 @@ begin
         if (ap_clk'event and ap_clk = '1') then
             if (((ap_const_boolean_0 = ap_block_pp0_stage0_subdone_grp0_done_reg) and (ap_const_boolean_0 = ap_block_pp0_stage0_11001_grp0))) then
                 if (((ap_loop_init = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
-                    AB_block_15_2_fu_296 <= or_ln74_15;
+                    AB_block_15_2_fu_296 <= thr_or15;
                 elsif (((ap_enable_reg_pp0_iter5 = ap_const_logic_1) and (trunc_ln87_reg_5103_pp0_iter4_reg = ap_const_lv4_F))) then 
                     AB_block_15_2_fu_296 <= or_ln92_s_fu_4749_p17;
                 end if;
@@ -2361,7 +2357,7 @@ begin
         if (ap_clk'event and ap_clk = '1') then
             if (((ap_const_boolean_0 = ap_block_pp0_stage0_subdone_grp0_done_reg) and (ap_const_boolean_0 = ap_block_pp0_stage0_11001_grp0))) then
                 if (((ap_loop_init = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
-                    AB_block_1_2_fu_240 <= or_ln74_1;
+                    AB_block_1_2_fu_240 <= thr_or1;
                 elsif (((ap_enable_reg_pp0_iter5 = ap_const_logic_1) and (trunc_ln87_reg_5103_pp0_iter4_reg = ap_const_lv4_1))) then 
                     AB_block_1_2_fu_240 <= or_ln92_s_fu_4749_p17;
                 end if;
@@ -2374,7 +2370,7 @@ begin
         if (ap_clk'event and ap_clk = '1') then
             if (((ap_const_boolean_0 = ap_block_pp0_stage0_subdone_grp0_done_reg) and (ap_const_boolean_0 = ap_block_pp0_stage0_11001_grp0))) then
                 if (((ap_loop_init = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
-                    AB_block_2_2_fu_244 <= or_ln74_2;
+                    AB_block_2_2_fu_244 <= thr_or2;
                 elsif (((ap_enable_reg_pp0_iter5 = ap_const_logic_1) and (trunc_ln87_reg_5103_pp0_iter4_reg = ap_const_lv4_2))) then 
                     AB_block_2_2_fu_244 <= or_ln92_s_fu_4749_p17;
                 end if;
@@ -2387,7 +2383,7 @@ begin
         if (ap_clk'event and ap_clk = '1') then
             if (((ap_const_boolean_0 = ap_block_pp0_stage0_subdone_grp0_done_reg) and (ap_const_boolean_0 = ap_block_pp0_stage0_11001_grp0))) then
                 if (((ap_loop_init = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
-                    AB_block_3_2_fu_248 <= or_ln74_3;
+                    AB_block_3_2_fu_248 <= thr_or3;
                 elsif (((ap_enable_reg_pp0_iter5 = ap_const_logic_1) and (trunc_ln87_reg_5103_pp0_iter4_reg = ap_const_lv4_3))) then 
                     AB_block_3_2_fu_248 <= or_ln92_s_fu_4749_p17;
                 end if;
@@ -2400,7 +2396,7 @@ begin
         if (ap_clk'event and ap_clk = '1') then
             if (((ap_const_boolean_0 = ap_block_pp0_stage0_subdone_grp0_done_reg) and (ap_const_boolean_0 = ap_block_pp0_stage0_11001_grp0))) then
                 if (((ap_loop_init = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
-                    AB_block_4_2_fu_252 <= or_ln74_4;
+                    AB_block_4_2_fu_252 <= thr_or4;
                 elsif (((ap_enable_reg_pp0_iter5 = ap_const_logic_1) and (trunc_ln87_reg_5103_pp0_iter4_reg = ap_const_lv4_4))) then 
                     AB_block_4_2_fu_252 <= or_ln92_s_fu_4749_p17;
                 end if;
@@ -2413,7 +2409,7 @@ begin
         if (ap_clk'event and ap_clk = '1') then
             if (((ap_const_boolean_0 = ap_block_pp0_stage0_subdone_grp0_done_reg) and (ap_const_boolean_0 = ap_block_pp0_stage0_11001_grp0))) then
                 if (((ap_loop_init = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
-                    AB_block_5_2_fu_256 <= or_ln74_5;
+                    AB_block_5_2_fu_256 <= thr_or5;
                 elsif (((ap_enable_reg_pp0_iter5 = ap_const_logic_1) and (trunc_ln87_reg_5103_pp0_iter4_reg = ap_const_lv4_5))) then 
                     AB_block_5_2_fu_256 <= or_ln92_s_fu_4749_p17;
                 end if;
@@ -2426,7 +2422,7 @@ begin
         if (ap_clk'event and ap_clk = '1') then
             if (((ap_const_boolean_0 = ap_block_pp0_stage0_subdone_grp0_done_reg) and (ap_const_boolean_0 = ap_block_pp0_stage0_11001_grp0))) then
                 if (((ap_loop_init = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
-                    AB_block_6_2_fu_260 <= or_ln74_6;
+                    AB_block_6_2_fu_260 <= thr_or6;
                 elsif (((ap_enable_reg_pp0_iter5 = ap_const_logic_1) and (trunc_ln87_reg_5103_pp0_iter4_reg = ap_const_lv4_6))) then 
                     AB_block_6_2_fu_260 <= or_ln92_s_fu_4749_p17;
                 end if;
@@ -2439,7 +2435,7 @@ begin
         if (ap_clk'event and ap_clk = '1') then
             if (((ap_const_boolean_0 = ap_block_pp0_stage0_subdone_grp0_done_reg) and (ap_const_boolean_0 = ap_block_pp0_stage0_11001_grp0))) then
                 if (((ap_loop_init = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
-                    AB_block_7_2_fu_264 <= or_ln74_7;
+                    AB_block_7_2_fu_264 <= thr_or7;
                 elsif (((ap_enable_reg_pp0_iter5 = ap_const_logic_1) and (trunc_ln87_reg_5103_pp0_iter4_reg = ap_const_lv4_7))) then 
                     AB_block_7_2_fu_264 <= or_ln92_s_fu_4749_p17;
                 end if;
@@ -2452,7 +2448,7 @@ begin
         if (ap_clk'event and ap_clk = '1') then
             if (((ap_const_boolean_0 = ap_block_pp0_stage0_subdone_grp0_done_reg) and (ap_const_boolean_0 = ap_block_pp0_stage0_11001_grp0))) then
                 if (((ap_loop_init = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
-                    AB_block_8_2_fu_268 <= or_ln74_8;
+                    AB_block_8_2_fu_268 <= thr_or8;
                 elsif (((ap_enable_reg_pp0_iter5 = ap_const_logic_1) and (trunc_ln87_reg_5103_pp0_iter4_reg = ap_const_lv4_8))) then 
                     AB_block_8_2_fu_268 <= or_ln92_s_fu_4749_p17;
                 end if;
@@ -2465,7 +2461,7 @@ begin
         if (ap_clk'event and ap_clk = '1') then
             if (((ap_const_boolean_0 = ap_block_pp0_stage0_subdone_grp0_done_reg) and (ap_const_boolean_0 = ap_block_pp0_stage0_11001_grp0))) then
                 if (((ap_loop_init = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage0))) then 
-                    AB_block_9_2_fu_272 <= or_ln74_9;
+                    AB_block_9_2_fu_272 <= thr_or9;
                 elsif (((ap_enable_reg_pp0_iter5 = ap_const_logic_1) and (trunc_ln87_reg_5103_pp0_iter4_reg = ap_const_lv4_9))) then 
                     AB_block_9_2_fu_272 <= or_ln92_s_fu_4749_p17;
                 end if;
@@ -2950,7 +2946,7 @@ begin
     end process;
 
     first_iter_0_fu_751_p2 <= "1" when (select_ln82_fu_743_p3 = ap_const_lv5_0) else "0";
-    icmp_ln80_fu_699_p2 <= "1" when (indvar_flatten43_fu_232 = tmp_28) else "0";
+    icmp_ln80_fu_699_p2 <= "1" when (indvar_flatten43_fu_232 = tmp_45) else "0";
     icmp_ln82_fu_713_p2 <= "1" when (indvar_flatten_fu_228 = ap_const_lv10_100) else "0";
     icmp_ln87_fu_725_p2 <= "1" when (i_fu_224 = ap_const_lv5_10) else "0";
     lshr_ln92_fu_1011_p2 <= std_logic_vector(shift_right(unsigned(empty_fu_300),to_integer(unsigned('0' & zext_ln92_fu_1007_p1(31-1 downto 0)))));
