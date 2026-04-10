@@ -1,7 +1,7 @@
 <profile>
 
 <ReportVersion>
-<Version>2025.2</Version>
+<Version>2025.1</Version>
 </ReportVersion>
 
 <UserAssignments>
@@ -174,12 +174,12 @@
 <Name>k_BLOCK_loop</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:60</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:57</SourceLocation>
 <k_loop>
 <Name>k_loop</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:62</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:57</SourceLocation>
 </k_loop>
 </k_BLOCK_loop>
 <j_output_loop>
@@ -191,7 +191,7 @@
 <Name>i_output_loop</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:82</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:84</SourceLocation>
 </i_output_loop>
 </j_output_loop>
 </j_BLOCK_loop>
@@ -204,8 +204,8 @@
 <Resources>
 <BRAM_18K>29</BRAM_18K>
 <DSP>54</DSP>
-<FF>32049</FF>
-<LUT>85711</LUT>
+<FF>32024</FF>
+<LUT>85713</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>

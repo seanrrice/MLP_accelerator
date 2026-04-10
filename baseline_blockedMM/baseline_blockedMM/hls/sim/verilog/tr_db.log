@@ -1,3 +1,0 @@
-  CREATE_STREAM @0 {NAME:MM_subsys_test_sequence_lib T:Transactions SCOPE:uvm_test_top.top_env.MM_virtual_sqr STREAM:3272}
-  CREATE_STREAM @143000 {NAME:MM_subsys_test_sequence_lib T:Transactions SCOPE:uvm_test_top.top_env.axi_master_gmem.vsqr STREAM:3468}
-  CREATE_STREAM @143000 {NAME:MM_subsys_test_sequence_lib T:Transactions SCOPE:uvm_test_top.top_env.axi_lite_control.vsqr STREAM:3477}

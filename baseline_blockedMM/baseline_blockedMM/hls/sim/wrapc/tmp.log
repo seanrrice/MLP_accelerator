@@ -1,7 +1,0 @@
-Calling MM kernel...
-Entering MM...
-Finished initial MM
-Returned from MM kernel.
-*******************************************
-PASS: The output matches the golden output!
-*******************************************

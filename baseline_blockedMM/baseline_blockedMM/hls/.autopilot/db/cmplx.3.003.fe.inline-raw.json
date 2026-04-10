@@ -6,7 +6,7 @@
     "def_use_depth": 17,
     "file": "mm.cpp",
     "fileloc": 6,
-    "instructions": 1251,
+    "instructions": 1253,
     "loads": {
       "L": 65,
       "T": 18
@@ -17,6 +17,6 @@
       "L": 305,
       "T": 1
     },
-    "total_instructions": 1251
+    "total_instructions": 1253
   }
 }

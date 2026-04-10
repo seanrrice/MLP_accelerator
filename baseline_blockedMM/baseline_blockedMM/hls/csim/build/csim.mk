@@ -1,6 +1,6 @@
 # ==============================================================
-# Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.2 (64-bit)
-# Tool Version Limit: 2025.11
+# Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.1 (64-bit)
+# Tool Version Limit: 2025.05
 # Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 # Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 # 
@@ -27,17 +27,17 @@ HLS_SOURCES = ../../../../../MLP_baseline/mm_test.cpp ../../../../../MLP_baselin
 
 override TARGET := csim.exe
 
-AUTOPILOT_ROOT := T:/AMDDesignTools/2025.2/Vitis
+AUTOPILOT_ROOT := C:/Xilinx/2025.1/Vitis
 AUTOPILOT_MACH := win64
 ifdef AP_GCC_M32
   AUTOPILOT_MACH := Linux_x86
   IFLAG += -m32
 endif
 ifndef AP_GCC_PATH
-  AP_GCC_PATH := T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt/bin
+  AP_GCC_PATH := C:/Xilinx/2025.1/Vitis/tps/win64/msys64/mingw64/bin
 endif
 AUTOPILOT_TOOL := ${AUTOPILOT_ROOT}/${AUTOPILOT_MACH}/tools
-AP_CLANG_PATH := ${AUTOPILOT_ROOT}/win64/tools/clang-16/bin
+AP_CLANG_PATH := ${XILINX_VCXX}/libexec
 AUTOPILOT_TECH := ${AUTOPILOT_ROOT}/common/technology
 
 
@@ -70,13 +70,11 @@ DFLAG += -D__xilinx_ip_top= -DAESL_TB
 CCFLAG += -Werror=return-type
 CCFLAG += -Wno-abi
 CCFLAG += -fdebug-default-version=4
-CCFLAG += --sysroot=T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt
+CCFLAG += --sysroot=C:/Xilinx/2025.1/Vitis/tps/mingw/10.0.0/win64.o/nt
 CCFLAG += -Werror=uninitialized
 CCFLAG += -Wno-c++11-narrowing
 CCFLAG += -Wno-error=sometimes-uninitialized
-LFLAG += --sysroot=T:/AMDDesignTools/2025.2/Vitis/tps/mingw/10.0.0/win64.o/nt
-CCFLAG += --target=x86_64-w64-windows-gnu
-LFLAG += --target=x86_64-w64-windows-gnu
+LFLAG += --sysroot=C:/Xilinx/2025.1/Vitis/tps/mingw/10.0.0/win64.o/nt
 
 
 
@@ -88,12 +86,12 @@ all: $(TARGET)
 
 $(ObjDir)/mm_test.o: ../../../../../MLP_baseline/mm_test.cpp $(ObjDir)/.dir csim.mk
 	$(Echo) "   Compiling ../../../../../MLP_baseline/mm_test.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
-	$(Verb)  $(CXX) -std=gnu++17 ${CCFLAG} -c -MMD -Wno-unknown-pragmas -Wno-unknown-pragmas  $(IFLAG) $(DFLAG) $< -o $@ ; \
+	$(Verb)  $(CXX) -std=gnu++14 ${CCFLAG} -c -MMD -Wno-unknown-pragmas -Wno-unknown-pragmas  $(IFLAG) $(DFLAG) $< -o $@ ; \
 
 -include $(ObjDir)/mm_test.d
 
 $(ObjDir)/mm.o: ../../../../../MLP_baseline/mm.cpp $(ObjDir)/.dir csim.mk
 	$(Echo) "   Compiling ../../../../../MLP_baseline/mm.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
-	$(Verb)  $(CXX) -std=gnu++17 ${CCFLAG} -c -MMD  -fhls-csim -fhlstoplevel=MM $(IFLAG) $(DFLAG) $< -o $@ ; \
+	$(Verb)  $(CXX) -std=gnu++14 ${CCFLAG} -c -MMD  $(IFLAG) $(DFLAG) $< -o $@ ; \
 
 -include $(ObjDir)/mm.d

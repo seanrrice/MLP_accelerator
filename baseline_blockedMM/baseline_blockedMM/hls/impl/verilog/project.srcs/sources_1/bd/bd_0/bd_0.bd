@@ -7,7 +7,7 @@
       "name": "bd_0",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
-      "tool_version": "2025.2",
+      "tool_version": "2025.1",
       "validated": "true"
     },
     "design_tree": {
@@ -138,12 +138,6 @@
           }
         },
         "memory_map_ref": "m_axi_gmem",
-        "hdl_attributes": {
-          "LOCKED": {
-            "value": "FALSE",
-            "value_src": "default"
-          }
-        },
         "port_maps": {
           "ARADDR": {
             "physical_name": "m_axi_gmem_araddr",
@@ -479,12 +473,6 @@
             "value_src": "auto"
           }
         },
-        "hdl_attributes": {
-          "LOCKED": {
-            "value": "FALSE",
-            "value_src": "default"
-          }
-        },
         "port_maps": {
           "ARADDR": {
             "physical_name": "s_axi_control_araddr",
@@ -637,7 +625,7 @@
     "components": {
       "hls_inst": {
         "vlnv": "xilinx.com:hls:MM:1.0",
-        "ip_revision": "2114556650",
+        "ip_revision": "2114559563",
         "xci_name": "bd_0_hls_inst_0",
         "xci_path": "ip\\bd_0_hls_inst_0\\bd_0_hls_inst_0.xci",
         "inst_hier_path": "hls_inst",

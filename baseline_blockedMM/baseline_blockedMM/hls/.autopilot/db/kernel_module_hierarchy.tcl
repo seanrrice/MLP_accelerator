@@ -9,7 +9,7 @@ set ModuleHierarchy {[{
 			"SubLoops" : [
 			{"Name" : "k_loop","RefName" : "k_loop","ID" : "4","Type" : "no",
 				"SubInsts" : [
-				{"Name" : "grp_MM_Pipeline_i_loop_fu_879", "RefName" : "MM_Pipeline_i_loop","ID" : "5","Type" : "sequential",
+				{"Name" : "grp_MM_Pipeline_i_loop_fu_883", "RefName" : "MM_Pipeline_i_loop","ID" : "5","Type" : "sequential",
 						"SubLoops" : [
 						{"Name" : "i_loop","RefName" : "i_loop","ID" : "6","Type" : "pipeline"},]},]},]},
 		{"Name" : "j_output_loop","RefName" : "j_output_loop","ID" : "7","Type" : "no",

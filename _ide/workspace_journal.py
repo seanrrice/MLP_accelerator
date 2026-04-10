@@ -13,3 +13,13 @@ comp.run(operation="PACKAGE")
 
 comp.run(operation="IMPLEMENTATION")
 
+comp.run(operation="C_SIMULATION")
+
+comp.run(operation="SYNTHESIS")
+
+comp.run(operation="PACKAGE")
+
+comp.run(operation="PACKAGE")
+
+comp.run(operation="IMPLEMENTATION")
+

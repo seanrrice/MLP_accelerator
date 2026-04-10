@@ -16,7 +16,7 @@
 					<Obj class_id="5" tracking_level="0" version="0">
 						<type>1</type>
 						<id>1</id>
-						<name>AB_block_47</name>
+						<name>AB_block_15_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -52,7 +52,7 @@
 					<Obj>
 						<type>1</type>
 						<id>2</id>
-						<name>AB_block_46</name>
+						<name>AB_block_14_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -88,7 +88,7 @@
 					<Obj>
 						<type>1</type>
 						<id>3</id>
-						<name>AB_block_45</name>
+						<name>AB_block_13_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -124,7 +124,7 @@
 					<Obj>
 						<type>1</type>
 						<id>4</id>
-						<name>AB_block_44</name>
+						<name>AB_block_12_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -160,7 +160,7 @@
 					<Obj>
 						<type>1</type>
 						<id>5</id>
-						<name>AB_block_43</name>
+						<name>AB_block_11_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -196,7 +196,7 @@
 					<Obj>
 						<type>1</type>
 						<id>6</id>
-						<name>AB_block_42</name>
+						<name>AB_block_10_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -232,7 +232,7 @@
 					<Obj>
 						<type>1</type>
 						<id>7</id>
-						<name>AB_block_41</name>
+						<name>AB_block_9_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -268,7 +268,7 @@
 					<Obj>
 						<type>1</type>
 						<id>8</id>
-						<name>AB_block_40</name>
+						<name>AB_block_8_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -304,7 +304,7 @@
 					<Obj>
 						<type>1</type>
 						<id>9</id>
-						<name>AB_block_39</name>
+						<name>AB_block_7_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -340,7 +340,7 @@
 					<Obj>
 						<type>1</type>
 						<id>10</id>
-						<name>AB_block_38</name>
+						<name>AB_block_6_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -376,7 +376,7 @@
 					<Obj>
 						<type>1</type>
 						<id>11</id>
-						<name>AB_block_37</name>
+						<name>AB_block_5_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -412,7 +412,7 @@
 					<Obj>
 						<type>1</type>
 						<id>12</id>
-						<name>AB_block_36</name>
+						<name>AB_block_4_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -448,7 +448,7 @@
 					<Obj>
 						<type>1</type>
 						<id>13</id>
-						<name>AB_block_35</name>
+						<name>AB_block_3_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -484,7 +484,7 @@
 					<Obj>
 						<type>1</type>
 						<id>14</id>
-						<name>AB_block_34</name>
+						<name>AB_block_2_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -520,7 +520,7 @@
 					<Obj>
 						<type>1</type>
 						<id>15</id>
-						<name>AB_block_33</name>
+						<name>AB_block_1_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -556,7 +556,7 @@
 					<Obj>
 						<type>1</type>
 						<id>16</id>
-						<name>AB_block_32</name>
+						<name>AB_block_0_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -592,7 +592,7 @@
 					<Obj>
 						<type>1</type>
 						<id>17</id>
-						<name>A_line</name>
+						<name>gmem_load_17</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -664,7 +664,7 @@
 					<Obj>
 						<type>1</type>
 						<id>19</id>
-						<name>trunc_ln63_2</name>
+						<name>trunc_ln63_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -700,7 +700,7 @@
 					<Obj>
 						<type>1</type>
 						<id>20</id>
-						<name>trunc_ln63_3</name>
+						<name>trunc_ln63_2</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -736,7 +736,7 @@
 					<Obj>
 						<type>1</type>
 						<id>21</id>
-						<name>trunc_ln63_4</name>
+						<name>trunc_ln63_3</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -772,7 +772,7 @@
 					<Obj>
 						<type>1</type>
 						<id>22</id>
-						<name>trunc_ln63_5</name>
+						<name>trunc_ln63_4</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -808,7 +808,7 @@
 					<Obj>
 						<type>1</type>
 						<id>23</id>
-						<name>trunc_ln63_6</name>
+						<name>trunc_ln63_5</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -844,7 +844,7 @@
 					<Obj>
 						<type>1</type>
 						<id>24</id>
-						<name>trunc_ln63_7</name>
+						<name>trunc_ln63_6</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -880,7 +880,7 @@
 					<Obj>
 						<type>1</type>
 						<id>25</id>
-						<name>trunc_ln63_8</name>
+						<name>trunc_ln63_7</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -916,7 +916,7 @@
 					<Obj>
 						<type>1</type>
 						<id>26</id>
-						<name>trunc_ln63_9</name>
+						<name>trunc_ln63_8</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -952,7 +952,7 @@
 					<Obj>
 						<type>1</type>
 						<id>27</id>
-						<name>trunc_ln63_10</name>
+						<name>trunc_ln63_9</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -988,7 +988,7 @@
 					<Obj>
 						<type>1</type>
 						<id>28</id>
-						<name>trunc_ln63_11</name>
+						<name>trunc_ln63_10</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1024,7 +1024,7 @@
 					<Obj>
 						<type>1</type>
 						<id>29</id>
-						<name>trunc_ln63_12</name>
+						<name>trunc_ln63_11</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1060,7 +1060,7 @@
 					<Obj>
 						<type>1</type>
 						<id>30</id>
-						<name>trunc_ln63_13</name>
+						<name>trunc_ln63_12</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1096,7 +1096,7 @@
 					<Obj>
 						<type>1</type>
 						<id>31</id>
-						<name>trunc_ln63_14</name>
+						<name>trunc_ln63_13</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1132,7 +1132,7 @@
 					<Obj>
 						<type>1</type>
 						<id>32</id>
-						<name>trunc_ln63_15</name>
+						<name>trunc_ln63_14</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1168,7 +1168,7 @@
 					<Obj>
 						<type>1</type>
 						<id>33</id>
-						<name>trunc_ln63_16</name>
+						<name>trunc_ln63_15</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1204,7 +1204,7 @@
 					<Obj>
 						<type>1</type>
 						<id>34</id>
-						<name>AB_block_63_out</name>
+						<name>AB_block_15_2_out</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1240,7 +1240,7 @@
 					<Obj>
 						<type>1</type>
 						<id>35</id>
-						<name>AB_block_62_out</name>
+						<name>AB_block_14_2_out</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1276,7 +1276,7 @@
 					<Obj>
 						<type>1</type>
 						<id>36</id>
-						<name>AB_block_61_out</name>
+						<name>AB_block_13_2_out</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1312,7 +1312,7 @@
 					<Obj>
 						<type>1</type>
 						<id>37</id>
-						<name>AB_block_60_out</name>
+						<name>AB_block_12_2_out</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1348,7 +1348,7 @@
 					<Obj>
 						<type>1</type>
 						<id>38</id>
-						<name>AB_block_59_out</name>
+						<name>AB_block_11_2_out</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1384,7 +1384,7 @@
 					<Obj>
 						<type>1</type>
 						<id>39</id>
-						<name>AB_block_58_out</name>
+						<name>AB_block_10_2_out</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1420,7 +1420,7 @@
 					<Obj>
 						<type>1</type>
 						<id>40</id>
-						<name>AB_block_57_out</name>
+						<name>AB_block_9_2_out</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1456,7 +1456,7 @@
 					<Obj>
 						<type>1</type>
 						<id>41</id>
-						<name>AB_block_56_out</name>
+						<name>AB_block_8_2_out</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1492,7 +1492,7 @@
 					<Obj>
 						<type>1</type>
 						<id>42</id>
-						<name>AB_block_55_out</name>
+						<name>AB_block_7_2_out</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1528,7 +1528,7 @@
 					<Obj>
 						<type>1</type>
 						<id>43</id>
-						<name>AB_block_54_out</name>
+						<name>AB_block_6_2_out</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1564,7 +1564,7 @@
 					<Obj>
 						<type>1</type>
 						<id>44</id>
-						<name>AB_block_53_out</name>
+						<name>AB_block_5_2_out</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1600,7 +1600,7 @@
 					<Obj>
 						<type>1</type>
 						<id>45</id>
-						<name>AB_block_52_out</name>
+						<name>AB_block_4_2_out</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1636,7 +1636,7 @@
 					<Obj>
 						<type>1</type>
 						<id>46</id>
-						<name>AB_block_51_out</name>
+						<name>AB_block_3_2_out</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1672,7 +1672,7 @@
 					<Obj>
 						<type>1</type>
 						<id>47</id>
-						<name>AB_block_50_out</name>
+						<name>AB_block_2_2_out</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1708,7 +1708,7 @@
 					<Obj>
 						<type>1</type>
 						<id>48</id>
-						<name>AB_block_49_out</name>
+						<name>AB_block_1_2_out</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1744,7 +1744,7 @@
 					<Obj>
 						<type>1</type>
 						<id>49</id>
-						<name>AB_block_48_out</name>
+						<name>AB_block_0_2_out</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -1785,46 +1785,39 @@
 						<type>0</type>
 						<id>50</id>
 						<name>i</name>
-						<fileName>T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array</fileName>
-						<fileDirectory></fileDirectory>
+						<fileName>C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array</fileName>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>55</lineNumber>
 						<contextFuncName>_S_ref</contextFuncName>
 						<contextNormFuncName>p_S_ref</contextNormFuncName>
 						<inlineStackInfo>
-							<count>2</count>
+							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="10" tracking_level="0" version="0">
-								<first></first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second class_id="11" tracking_level="0" version="0">
-									<count>2</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item class_id="12" tracking_level="0" version="0">
 										<first class_id="13" tracking_level="0" version="0">
-											<first>T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array</first>
+											<first>../MLP_baseline/mm.cpp</first>
+											<second>MM</second>
+										</first>
+										<second>72</second>
+									</item>
+									<item>
+										<first>
+											<first>C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array</first>
 											<second>_S_ref</second>
 										</first>
 										<second>55</second>
 									</item>
 									<item>
 										<first>
-											<first>T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array</first>
+											<first>C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array</first>
 											<second>operator[]</second>
 										</first>
 										<second>186</second>
-									</item>
-								</second>
-							</item>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>72</second>
 									</item>
 								</second>
 							</item>
@@ -1861,31 +1854,17 @@
 					<Obj>
 						<type>0</type>
 						<id>51</id>
-						<name>AB_block</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_0_2</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
-						<originalName>AB_block</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -1917,31 +1896,17 @@
 					<Obj>
 						<type>0</type>
 						<id>52</id>
-						<name>AB_block_1</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_1_2</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
-						<originalName>AB_block</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -1973,31 +1938,17 @@
 					<Obj>
 						<type>0</type>
 						<id>53</id>
-						<name>AB_block_2</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_2_2</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
-						<originalName>AB_block</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -2029,31 +1980,17 @@
 					<Obj>
 						<type>0</type>
 						<id>54</id>
-						<name>AB_block_3</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_3_2</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
-						<originalName>AB_block</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -2085,31 +2022,17 @@
 					<Obj>
 						<type>0</type>
 						<id>55</id>
-						<name>AB_block_4</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_4_2</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
-						<originalName>AB_block</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -2141,31 +2064,17 @@
 					<Obj>
 						<type>0</type>
 						<id>56</id>
-						<name>AB_block_5</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_5_2</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
-						<originalName>AB_block</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -2197,31 +2106,17 @@
 					<Obj>
 						<type>0</type>
 						<id>57</id>
-						<name>AB_block_6</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_6_2</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
-						<originalName>AB_block</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -2253,31 +2148,17 @@
 					<Obj>
 						<type>0</type>
 						<id>58</id>
-						<name>AB_block_7</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_7_2</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
-						<originalName>AB_block</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -2309,31 +2190,17 @@
 					<Obj>
 						<type>0</type>
 						<id>59</id>
-						<name>AB_block_8</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_8_2</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
-						<originalName>AB_block</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -2365,31 +2232,17 @@
 					<Obj>
 						<type>0</type>
 						<id>60</id>
-						<name>AB_block_9</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_9_2</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
-						<originalName>AB_block</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -2421,31 +2274,17 @@
 					<Obj>
 						<type>0</type>
 						<id>61</id>
-						<name>AB_block_10</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_10_2</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
-						<originalName>AB_block</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -2477,31 +2316,17 @@
 					<Obj>
 						<type>0</type>
 						<id>62</id>
-						<name>AB_block_11</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_11_2</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
-						<originalName>AB_block</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -2533,31 +2358,17 @@
 					<Obj>
 						<type>0</type>
 						<id>63</id>
-						<name>AB_block_12</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_12_2</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
-						<originalName>AB_block</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -2589,31 +2400,17 @@
 					<Obj>
 						<type>0</type>
 						<id>64</id>
-						<name>AB_block_13</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_13_2</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
-						<originalName>AB_block</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -2645,31 +2442,17 @@
 					<Obj>
 						<type>0</type>
 						<id>65</id>
-						<name>AB_block_14</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_14_2</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
-						<originalName>AB_block</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -2701,31 +2484,17 @@
 					<Obj>
 						<type>0</type>
 						<id>66</id>
-						<name>AB_block_15</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_15_2</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
-						<originalName>AB_block</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -2757,7 +2526,7 @@
 					<Obj>
 						<type>0</type>
 						<id>67</id>
-						<name>trunc_ln63_16_read</name>
+						<name>trunc_ln63_15_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -2800,7 +2569,7 @@
 					<Obj>
 						<type>0</type>
 						<id>68</id>
-						<name>trunc_ln63_15_read</name>
+						<name>trunc_ln63_14_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -2843,7 +2612,7 @@
 					<Obj>
 						<type>0</type>
 						<id>69</id>
-						<name>trunc_ln63_14_read</name>
+						<name>trunc_ln63_13_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -2886,7 +2655,7 @@
 					<Obj>
 						<type>0</type>
 						<id>70</id>
-						<name>trunc_ln63_13_read</name>
+						<name>trunc_ln63_12_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -2929,7 +2698,7 @@
 					<Obj>
 						<type>0</type>
 						<id>71</id>
-						<name>trunc_ln63_12_read</name>
+						<name>trunc_ln63_11_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -2972,7 +2741,7 @@
 					<Obj>
 						<type>0</type>
 						<id>72</id>
-						<name>trunc_ln63_11_read</name>
+						<name>trunc_ln63_10_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3015,7 +2784,7 @@
 					<Obj>
 						<type>0</type>
 						<id>73</id>
-						<name>trunc_ln63_10_read</name>
+						<name>trunc_ln63_9_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3058,7 +2827,7 @@
 					<Obj>
 						<type>0</type>
 						<id>74</id>
-						<name>trunc_ln63_9_read</name>
+						<name>trunc_ln63_8_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3101,7 +2870,7 @@
 					<Obj>
 						<type>0</type>
 						<id>75</id>
-						<name>trunc_ln63_8_read</name>
+						<name>trunc_ln63_7_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3144,7 +2913,7 @@
 					<Obj>
 						<type>0</type>
 						<id>76</id>
-						<name>trunc_ln63_7_read</name>
+						<name>trunc_ln63_6_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3187,7 +2956,7 @@
 					<Obj>
 						<type>0</type>
 						<id>77</id>
-						<name>trunc_ln63_6_read</name>
+						<name>trunc_ln63_5_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3230,7 +2999,7 @@
 					<Obj>
 						<type>0</type>
 						<id>78</id>
-						<name>trunc_ln63_5_read</name>
+						<name>trunc_ln63_4_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3273,7 +3042,7 @@
 					<Obj>
 						<type>0</type>
 						<id>79</id>
-						<name>trunc_ln63_4_read</name>
+						<name>trunc_ln63_3_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3316,7 +3085,7 @@
 					<Obj>
 						<type>0</type>
 						<id>80</id>
-						<name>trunc_ln63_3_read</name>
+						<name>trunc_ln63_2_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3359,7 +3128,7 @@
 					<Obj>
 						<type>0</type>
 						<id>81</id>
-						<name>trunc_ln63_2_read</name>
+						<name>trunc_ln63_1_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3445,7 +3214,7 @@
 					<Obj>
 						<type>0</type>
 						<id>83</id>
-						<name>A_line_read</name>
+						<name>gmem_load_17_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3488,7 +3257,7 @@
 					<Obj>
 						<type>0</type>
 						<id>84</id>
-						<name>AB_block_32_read</name>
+						<name>AB_block_0_1_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3531,7 +3300,7 @@
 					<Obj>
 						<type>0</type>
 						<id>85</id>
-						<name>AB_block_33_read</name>
+						<name>AB_block_1_1_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3574,7 +3343,7 @@
 					<Obj>
 						<type>0</type>
 						<id>86</id>
-						<name>AB_block_34_read</name>
+						<name>AB_block_2_1_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3617,7 +3386,7 @@
 					<Obj>
 						<type>0</type>
 						<id>87</id>
-						<name>AB_block_35_read</name>
+						<name>AB_block_3_1_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3660,7 +3429,7 @@
 					<Obj>
 						<type>0</type>
 						<id>88</id>
-						<name>AB_block_36_read</name>
+						<name>AB_block_4_1_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3703,7 +3472,7 @@
 					<Obj>
 						<type>0</type>
 						<id>89</id>
-						<name>AB_block_37_read</name>
+						<name>AB_block_5_1_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3746,7 +3515,7 @@
 					<Obj>
 						<type>0</type>
 						<id>90</id>
-						<name>AB_block_38_read</name>
+						<name>AB_block_6_1_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3789,7 +3558,7 @@
 					<Obj>
 						<type>0</type>
 						<id>91</id>
-						<name>AB_block_39_read</name>
+						<name>AB_block_7_1_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3832,7 +3601,7 @@
 					<Obj>
 						<type>0</type>
 						<id>92</id>
-						<name>AB_block_40_read</name>
+						<name>AB_block_8_1_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3875,7 +3644,7 @@
 					<Obj>
 						<type>0</type>
 						<id>93</id>
-						<name>AB_block_41_read</name>
+						<name>AB_block_9_1_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3918,7 +3687,7 @@
 					<Obj>
 						<type>0</type>
 						<id>94</id>
-						<name>AB_block_42_read</name>
+						<name>AB_block_10_1_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3961,7 +3730,7 @@
 					<Obj>
 						<type>0</type>
 						<id>95</id>
-						<name>AB_block_43_read</name>
+						<name>AB_block_11_1_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -4004,7 +3773,7 @@
 					<Obj>
 						<type>0</type>
 						<id>96</id>
-						<name>AB_block_44_read</name>
+						<name>AB_block_12_1_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -4047,7 +3816,7 @@
 					<Obj>
 						<type>0</type>
 						<id>97</id>
-						<name>AB_block_45_read</name>
+						<name>AB_block_13_1_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -4090,7 +3859,7 @@
 					<Obj>
 						<type>0</type>
 						<id>98</id>
-						<name>AB_block_46_read</name>
+						<name>AB_block_14_1_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -4133,7 +3902,7 @@
 					<Obj>
 						<type>0</type>
 						<id>99</id>
-						<name>AB_block_47_read</name>
+						<name>AB_block_15_1_read</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -4176,29 +3945,15 @@
 					<Obj>
 						<type>0</type>
 						<id>100</id>
-						<name>AB_block_15_write_ln39</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_15_2_write_ln0</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
@@ -4233,29 +3988,15 @@
 					<Obj>
 						<type>0</type>
 						<id>101</id>
-						<name>AB_block_14_write_ln39</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_14_2_write_ln0</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
@@ -4290,29 +4031,15 @@
 					<Obj>
 						<type>0</type>
 						<id>102</id>
-						<name>AB_block_13_write_ln39</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_13_2_write_ln0</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
@@ -4347,29 +4074,15 @@
 					<Obj>
 						<type>0</type>
 						<id>103</id>
-						<name>AB_block_12_write_ln39</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_12_2_write_ln0</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
@@ -4404,29 +4117,15 @@
 					<Obj>
 						<type>0</type>
 						<id>104</id>
-						<name>AB_block_11_write_ln39</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_11_2_write_ln0</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
@@ -4461,29 +4160,15 @@
 					<Obj>
 						<type>0</type>
 						<id>105</id>
-						<name>AB_block_10_write_ln39</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_10_2_write_ln0</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
@@ -4518,29 +4203,15 @@
 					<Obj>
 						<type>0</type>
 						<id>106</id>
-						<name>AB_block_9_write_ln39</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_9_2_write_ln0</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
@@ -4575,29 +4246,15 @@
 					<Obj>
 						<type>0</type>
 						<id>107</id>
-						<name>AB_block_8_write_ln39</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_8_2_write_ln0</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
@@ -4632,29 +4289,15 @@
 					<Obj>
 						<type>0</type>
 						<id>108</id>
-						<name>AB_block_7_write_ln39</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_7_2_write_ln0</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
@@ -4689,29 +4332,15 @@
 					<Obj>
 						<type>0</type>
 						<id>109</id>
-						<name>AB_block_6_write_ln39</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_6_2_write_ln0</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
@@ -4746,29 +4375,15 @@
 					<Obj>
 						<type>0</type>
 						<id>110</id>
-						<name>AB_block_5_write_ln39</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_5_2_write_ln0</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
@@ -4803,29 +4418,15 @@
 					<Obj>
 						<type>0</type>
 						<id>111</id>
-						<name>AB_block_4_write_ln39</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_4_2_write_ln0</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
@@ -4860,29 +4461,15 @@
 					<Obj>
 						<type>0</type>
 						<id>112</id>
-						<name>AB_block_3_write_ln39</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_3_2_write_ln0</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
@@ -4917,29 +4504,15 @@
 					<Obj>
 						<type>0</type>
 						<id>113</id>
-						<name>AB_block_2_write_ln39</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_2_2_write_ln0</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
@@ -4974,29 +4547,15 @@
 					<Obj>
 						<type>0</type>
 						<id>114</id>
-						<name>AB_block_1_write_ln39</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_1_2_write_ln0</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
@@ -5031,29 +4590,15 @@
 					<Obj>
 						<type>0</type>
 						<id>115</id>
-						<name>AB_block_write_ln39</name>
-						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
-						<contextFuncName>MM</contextFuncName>
-						<contextNormFuncName>MM</contextNormFuncName>
+						<name>AB_block_0_2_write_ln0</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
 						<inlineStackInfo>
-							<count>1</count>
+							<count>0</count>
 							<item_version>0</item_version>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>../MLP_baseline/mm.cpp</first>
-											<second>MM</second>
-										</first>
-										<second>39</second>
-									</item>
-								</second>
-							</item>
 						</inlineStackInfo>
 						<originalName></originalName>
 						<rtlName></rtlName>
@@ -5089,39 +4634,18 @@
 						<type>0</type>
 						<id>116</id>
 						<name>i_write_ln55</name>
-						<fileName>T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array</fileName>
-						<fileDirectory></fileDirectory>
+						<fileName>C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array</fileName>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>55</lineNumber>
 						<contextFuncName>_S_ref</contextFuncName>
 						<contextNormFuncName>p_S_ref</contextNormFuncName>
 						<inlineStackInfo>
-							<count>2</count>
+							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first></first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
-									<count>2</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array</first>
-											<second>_S_ref</second>
-										</first>
-										<second>55</second>
-									</item>
-									<item>
-										<first>
-											<first>T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array</first>
-											<second>operator[]</second>
-										</first>
-										<second>186</second>
-									</item>
-								</second>
-							</item>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
@@ -5129,6 +4653,20 @@
 											<second>MM</second>
 										</first>
 										<second>72</second>
+									</item>
+									<item>
+										<first>
+											<first>C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array</first>
+											<second>_S_ref</second>
+										</first>
+										<second>55</second>
+									</item>
+									<item>
+										<first>
+											<first>C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array</first>
+											<second>operator[]</second>
+										</first>
+										<second>186</second>
 									</item>
 								</second>
 							</item>
@@ -5210,7 +4748,7 @@
 						<id>119</id>
 						<name>i_1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>67</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -5218,7 +4756,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5249,7 +4787,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>727</item>
-					<item>2569</item>
+					<item>2567</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -5267,7 +4805,7 @@
 						<id>120</id>
 						<name>icmp_ln67</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>67</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -5275,7 +4813,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5324,7 +4862,7 @@
 						<id>121</id>
 						<name>add_ln67</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>67</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -5332,7 +4870,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5381,7 +4919,7 @@
 						<id>122</id>
 						<name>br_ln67</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>67</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -5389,7 +4927,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5437,9 +4975,9 @@
 					<Obj>
 						<type>0</type>
 						<id>124</id>
-						<name>AB_block_load_1</name>
+						<name>AB_block_0_2_load</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -5447,7 +4985,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5478,7 +5016,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>740</item>
-					<item>2601</item>
+					<item>2599</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -5494,9 +5032,9 @@
 					<Obj>
 						<type>0</type>
 						<id>125</id>
-						<name>AB_block_1_load_1</name>
+						<name>AB_block_1_2_load</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -5504,7 +5042,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5535,7 +5073,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>741</item>
-					<item>2600</item>
+					<item>2598</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -5551,9 +5089,9 @@
 					<Obj>
 						<type>0</type>
 						<id>126</id>
-						<name>AB_block_2_load_1</name>
+						<name>AB_block_2_2_load</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -5561,7 +5099,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5592,7 +5130,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>742</item>
-					<item>2599</item>
+					<item>2597</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -5608,9 +5146,9 @@
 					<Obj>
 						<type>0</type>
 						<id>127</id>
-						<name>AB_block_3_load_1</name>
+						<name>AB_block_3_2_load</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -5618,7 +5156,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5649,7 +5187,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>743</item>
-					<item>2598</item>
+					<item>2596</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -5665,9 +5203,9 @@
 					<Obj>
 						<type>0</type>
 						<id>128</id>
-						<name>AB_block_4_load_1</name>
+						<name>AB_block_4_2_load</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -5675,7 +5213,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5706,7 +5244,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>744</item>
-					<item>2597</item>
+					<item>2595</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -5722,9 +5260,9 @@
 					<Obj>
 						<type>0</type>
 						<id>129</id>
-						<name>AB_block_5_load_1</name>
+						<name>AB_block_5_2_load</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -5732,7 +5270,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5763,7 +5301,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>745</item>
-					<item>2596</item>
+					<item>2594</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -5779,9 +5317,9 @@
 					<Obj>
 						<type>0</type>
 						<id>130</id>
-						<name>AB_block_6_load_1</name>
+						<name>AB_block_6_2_load</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -5789,7 +5327,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5820,7 +5358,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>746</item>
-					<item>2595</item>
+					<item>2593</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -5836,9 +5374,9 @@
 					<Obj>
 						<type>0</type>
 						<id>131</id>
-						<name>AB_block_7_load_1</name>
+						<name>AB_block_7_2_load</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -5846,7 +5384,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5877,7 +5415,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>747</item>
-					<item>2594</item>
+					<item>2592</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -5893,9 +5431,9 @@
 					<Obj>
 						<type>0</type>
 						<id>132</id>
-						<name>AB_block_8_load_1</name>
+						<name>AB_block_8_2_load</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -5903,7 +5441,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5934,7 +5472,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>748</item>
-					<item>2593</item>
+					<item>2591</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -5950,9 +5488,9 @@
 					<Obj>
 						<type>0</type>
 						<id>133</id>
-						<name>AB_block_9_load_1</name>
+						<name>AB_block_9_2_load</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -5960,7 +5498,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5991,7 +5529,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>749</item>
-					<item>2592</item>
+					<item>2590</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -6007,9 +5545,9 @@
 					<Obj>
 						<type>0</type>
 						<id>134</id>
-						<name>AB_block_10_load_1</name>
+						<name>AB_block_10_2_load</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -6017,7 +5555,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6048,7 +5586,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>750</item>
-					<item>2591</item>
+					<item>2589</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -6064,9 +5602,9 @@
 					<Obj>
 						<type>0</type>
 						<id>135</id>
-						<name>AB_block_11_load_1</name>
+						<name>AB_block_11_2_load</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -6074,7 +5612,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6105,7 +5643,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>751</item>
-					<item>2590</item>
+					<item>2588</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -6121,9 +5659,9 @@
 					<Obj>
 						<type>0</type>
 						<id>136</id>
-						<name>AB_block_12_load_1</name>
+						<name>AB_block_12_2_load</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -6131,7 +5669,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6162,7 +5700,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>752</item>
-					<item>2589</item>
+					<item>2587</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -6178,9 +5716,9 @@
 					<Obj>
 						<type>0</type>
 						<id>137</id>
-						<name>AB_block_13_load_1</name>
+						<name>AB_block_13_2_load</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -6188,7 +5726,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6219,7 +5757,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>753</item>
-					<item>2588</item>
+					<item>2586</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -6235,9 +5773,9 @@
 					<Obj>
 						<type>0</type>
 						<id>138</id>
-						<name>AB_block_14_load_1</name>
+						<name>AB_block_14_2_load</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -6245,7 +5783,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6276,7 +5814,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>754</item>
-					<item>2587</item>
+					<item>2585</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -6292,9 +5830,9 @@
 					<Obj>
 						<type>0</type>
 						<id>139</id>
-						<name>AB_block_15_load_1</name>
+						<name>AB_block_15_2_load</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -6302,7 +5840,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6333,7 +5871,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>755</item>
-					<item>2586</item>
+					<item>2584</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -6351,7 +5889,7 @@
 						<id>140</id>
 						<name>trunc_ln67</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>67</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -6359,7 +5897,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6405,40 +5943,19 @@
 					<Obj>
 						<type>0</type>
 						<id>144</id>
-						<name>shl_ln56_1</name>
-						<fileName>T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array</fileName>
-						<fileDirectory></fileDirectory>
+						<name>shl_ln2</name>
+						<fileName>C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array</fileName>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>56</lineNumber>
 						<contextFuncName>_S_ref</contextFuncName>
 						<contextNormFuncName>p_S_ref</contextNormFuncName>
 						<inlineStackInfo>
-							<count>2</count>
+							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first></first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
-									<count>2</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array</first>
-											<second>_S_ref</second>
-										</first>
-										<second>56</second>
-									</item>
-									<item>
-										<first>
-											<first>T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array</first>
-											<second>operator[]</second>
-										</first>
-										<second>186</second>
-									</item>
-								</second>
-							</item>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
@@ -6446,6 +5963,20 @@
 											<second>MM</second>
 										</first>
 										<second>72</second>
+									</item>
+									<item>
+										<first>
+											<first>C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array</first>
+											<second>_S_ref</second>
+										</first>
+										<second>56</second>
+									</item>
+									<item>
+										<first>
+											<first>C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array</first>
+											<second>operator[]</second>
+										</first>
+										<second>186</second>
 									</item>
 								</second>
 							</item>
@@ -6486,7 +6017,7 @@
 						<id>145</id>
 						<name>zext_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -6494,7 +6025,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6542,7 +6073,7 @@
 						<id>146</id>
 						<name>lshr_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -6550,7 +6081,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6599,7 +6130,7 @@
 						<id>147</id>
 						<name>trunc_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -6607,7 +6138,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6655,7 +6186,7 @@
 						<id>148</id>
 						<name>mul_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -6663,7 +6194,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6712,7 +6243,7 @@
 						<id>149</id>
 						<name>trunc_ln72_1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -6720,7 +6251,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6768,7 +6299,7 @@
 						<id>150</id>
 						<name>trunc_ln72_2</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -6776,7 +6307,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6824,7 +6355,7 @@
 						<id>151</id>
 						<name>trunc_ln72_3</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -6832,7 +6363,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6880,7 +6411,7 @@
 						<id>152</id>
 						<name>trunc_ln72_4</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -6888,7 +6419,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6936,7 +6467,7 @@
 						<id>153</id>
 						<name>trunc_ln72_5</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -6944,7 +6475,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6992,7 +6523,7 @@
 						<id>154</id>
 						<name>trunc_ln72_6</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -7000,7 +6531,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7048,7 +6579,7 @@
 						<id>155</id>
 						<name>trunc_ln72_7</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -7056,7 +6587,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7104,7 +6635,7 @@
 						<id>156</id>
 						<name>trunc_ln72_8</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -7112,7 +6643,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7160,7 +6691,7 @@
 						<id>157</id>
 						<name>trunc_ln72_9</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -7168,7 +6699,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7216,7 +6747,7 @@
 						<id>158</id>
 						<name>trunc_ln72_10</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -7224,7 +6755,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7272,7 +6803,7 @@
 						<id>159</id>
 						<name>trunc_ln72_11</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -7280,7 +6811,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7328,7 +6859,7 @@
 						<id>160</id>
 						<name>trunc_ln72_12</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -7336,7 +6867,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7384,7 +6915,7 @@
 						<id>161</id>
 						<name>trunc_ln72_13</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -7392,7 +6923,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7440,7 +6971,7 @@
 						<id>162</id>
 						<name>trunc_ln72_14</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -7448,7 +6979,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7496,7 +7027,7 @@
 						<id>163</id>
 						<name>trunc_ln72_15</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -7504,7 +7035,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7552,7 +7083,7 @@
 						<id>164</id>
 						<name>trunc_ln72_256</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -7560,7 +7091,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7608,7 +7139,7 @@
 						<id>165</id>
 						<name>tmp_s</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -7616,7 +7147,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7698,7 +7229,7 @@
 						<id>166</id>
 						<name>add_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -7706,7 +7237,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7755,7 +7286,7 @@
 						<id>167</id>
 						<name>mul_ln72_1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -7763,7 +7294,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7812,7 +7343,7 @@
 						<id>168</id>
 						<name>mul_ln72_2</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -7820,7 +7351,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7869,7 +7400,7 @@
 						<id>169</id>
 						<name>mul_ln72_3</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -7877,7 +7408,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7926,7 +7457,7 @@
 						<id>170</id>
 						<name>mul_ln72_4</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -7934,7 +7465,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7983,7 +7514,7 @@
 						<id>171</id>
 						<name>mul_ln72_5</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -7991,7 +7522,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8040,7 +7571,7 @@
 						<id>172</id>
 						<name>mul_ln72_6</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -8048,7 +7579,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8097,7 +7628,7 @@
 						<id>173</id>
 						<name>mul_ln72_7</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -8105,7 +7636,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8154,7 +7685,7 @@
 						<id>174</id>
 						<name>mul_ln72_8</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -8162,7 +7693,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8211,7 +7742,7 @@
 						<id>175</id>
 						<name>mul_ln72_9</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -8219,7 +7750,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8268,7 +7799,7 @@
 						<id>176</id>
 						<name>mul_ln72_10</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -8276,7 +7807,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8325,7 +7856,7 @@
 						<id>177</id>
 						<name>mul_ln72_11</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -8333,7 +7864,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8382,7 +7913,7 @@
 						<id>178</id>
 						<name>mul_ln72_12</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -8390,7 +7921,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8439,7 +7970,7 @@
 						<id>179</id>
 						<name>mul_ln72_13</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -8447,7 +7978,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8496,7 +8027,7 @@
 						<id>180</id>
 						<name>mul_ln72_14</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -8504,7 +8035,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8553,7 +8084,7 @@
 						<id>181</id>
 						<name>mul_ln72_15</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -8561,7 +8092,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8610,7 +8141,7 @@
 						<id>182</id>
 						<name>trunc_ln72_s</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -8618,7 +8149,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8669,7 +8200,7 @@
 						<id>183</id>
 						<name>trunc_ln72_16</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -8677,7 +8208,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8728,7 +8259,7 @@
 						<id>184</id>
 						<name>trunc_ln72_17</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -8736,7 +8267,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8787,7 +8318,7 @@
 						<id>185</id>
 						<name>trunc_ln72_18</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -8795,7 +8326,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8846,7 +8377,7 @@
 						<id>186</id>
 						<name>trunc_ln72_19</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -8854,7 +8385,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8905,7 +8436,7 @@
 						<id>187</id>
 						<name>trunc_ln72_20</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -8913,7 +8444,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8964,7 +8495,7 @@
 						<id>188</id>
 						<name>trunc_ln72_21</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -8972,7 +8503,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9023,7 +8554,7 @@
 						<id>189</id>
 						<name>trunc_ln72_22</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -9031,7 +8562,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9082,7 +8613,7 @@
 						<id>190</id>
 						<name>trunc_ln72_23</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -9090,7 +8621,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9141,7 +8672,7 @@
 						<id>191</id>
 						<name>trunc_ln72_24</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -9149,7 +8680,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9200,7 +8731,7 @@
 						<id>192</id>
 						<name>trunc_ln72_25</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -9208,7 +8739,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9259,7 +8790,7 @@
 						<id>193</id>
 						<name>trunc_ln72_26</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -9267,7 +8798,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9318,7 +8849,7 @@
 						<id>194</id>
 						<name>trunc_ln72_27</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -9326,7 +8857,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9377,7 +8908,7 @@
 						<id>195</id>
 						<name>trunc_ln72_28</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -9385,7 +8916,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9436,7 +8967,7 @@
 						<id>196</id>
 						<name>trunc_ln72_29</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -9444,7 +8975,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9495,7 +9026,7 @@
 						<id>197</id>
 						<name>trunc_ln72_30</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -9503,7 +9034,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9554,7 +9085,7 @@
 						<id>198</id>
 						<name>tmp_1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -9562,7 +9093,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9644,7 +9175,7 @@
 						<id>199</id>
 						<name>add_ln72_1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -9652,7 +9183,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9701,7 +9232,7 @@
 						<id>200</id>
 						<name>trunc_ln72_31</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -9709,7 +9240,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9760,7 +9291,7 @@
 						<id>201</id>
 						<name>trunc_ln72_32</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -9768,7 +9299,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9819,7 +9350,7 @@
 						<id>202</id>
 						<name>trunc_ln72_33</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -9827,7 +9358,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9878,7 +9409,7 @@
 						<id>203</id>
 						<name>trunc_ln72_34</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -9886,7 +9417,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9937,7 +9468,7 @@
 						<id>204</id>
 						<name>trunc_ln72_35</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -9945,7 +9476,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9996,7 +9527,7 @@
 						<id>205</id>
 						<name>trunc_ln72_36</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -10004,7 +9535,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10055,7 +9586,7 @@
 						<id>206</id>
 						<name>trunc_ln72_37</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -10063,7 +9594,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10114,7 +9645,7 @@
 						<id>207</id>
 						<name>trunc_ln72_38</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -10122,7 +9653,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10173,7 +9704,7 @@
 						<id>208</id>
 						<name>trunc_ln72_39</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -10181,7 +9712,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10232,7 +9763,7 @@
 						<id>209</id>
 						<name>trunc_ln72_40</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -10240,7 +9771,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10291,7 +9822,7 @@
 						<id>210</id>
 						<name>trunc_ln72_41</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -10299,7 +9830,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10350,7 +9881,7 @@
 						<id>211</id>
 						<name>trunc_ln72_42</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -10358,7 +9889,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10409,7 +9940,7 @@
 						<id>212</id>
 						<name>trunc_ln72_43</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -10417,7 +9948,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10468,7 +9999,7 @@
 						<id>213</id>
 						<name>trunc_ln72_44</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -10476,7 +10007,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10527,7 +10058,7 @@
 						<id>214</id>
 						<name>trunc_ln72_45</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -10535,7 +10066,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10586,7 +10117,7 @@
 						<id>215</id>
 						<name>trunc_ln72_46</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -10594,7 +10125,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10645,7 +10176,7 @@
 						<id>216</id>
 						<name>tmp_2</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -10653,7 +10184,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10735,7 +10266,7 @@
 						<id>217</id>
 						<name>add_ln72_2</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -10743,7 +10274,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10792,7 +10323,7 @@
 						<id>218</id>
 						<name>trunc_ln72_47</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -10800,7 +10331,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10851,7 +10382,7 @@
 						<id>219</id>
 						<name>trunc_ln72_48</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -10859,7 +10390,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10910,7 +10441,7 @@
 						<id>220</id>
 						<name>trunc_ln72_49</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -10918,7 +10449,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10969,7 +10500,7 @@
 						<id>221</id>
 						<name>trunc_ln72_50</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -10977,7 +10508,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11028,7 +10559,7 @@
 						<id>222</id>
 						<name>trunc_ln72_51</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -11036,7 +10567,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11087,7 +10618,7 @@
 						<id>223</id>
 						<name>trunc_ln72_52</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -11095,7 +10626,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11146,7 +10677,7 @@
 						<id>224</id>
 						<name>trunc_ln72_53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -11154,7 +10685,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11205,7 +10736,7 @@
 						<id>225</id>
 						<name>trunc_ln72_54</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -11213,7 +10744,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11264,7 +10795,7 @@
 						<id>226</id>
 						<name>trunc_ln72_55</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -11272,7 +10803,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11323,7 +10854,7 @@
 						<id>227</id>
 						<name>trunc_ln72_56</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -11331,7 +10862,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11382,7 +10913,7 @@
 						<id>228</id>
 						<name>trunc_ln72_57</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -11390,7 +10921,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11441,7 +10972,7 @@
 						<id>229</id>
 						<name>trunc_ln72_58</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -11449,7 +10980,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11500,7 +11031,7 @@
 						<id>230</id>
 						<name>trunc_ln72_59</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -11508,7 +11039,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11559,7 +11090,7 @@
 						<id>231</id>
 						<name>trunc_ln72_60</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -11567,7 +11098,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11618,7 +11149,7 @@
 						<id>232</id>
 						<name>trunc_ln72_61</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -11626,7 +11157,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11677,7 +11208,7 @@
 						<id>233</id>
 						<name>trunc_ln72_62</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -11685,7 +11216,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11736,7 +11267,7 @@
 						<id>234</id>
 						<name>tmp_3</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -11744,7 +11275,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11826,7 +11357,7 @@
 						<id>235</id>
 						<name>add_ln72_3</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -11834,7 +11365,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11883,7 +11414,7 @@
 						<id>236</id>
 						<name>trunc_ln72_63</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -11891,7 +11422,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11942,7 +11473,7 @@
 						<id>237</id>
 						<name>trunc_ln72_64</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -11950,7 +11481,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12001,7 +11532,7 @@
 						<id>238</id>
 						<name>trunc_ln72_65</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -12009,7 +11540,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12060,7 +11591,7 @@
 						<id>239</id>
 						<name>trunc_ln72_66</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -12068,7 +11599,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12119,7 +11650,7 @@
 						<id>240</id>
 						<name>trunc_ln72_67</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -12127,7 +11658,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12178,7 +11709,7 @@
 						<id>241</id>
 						<name>trunc_ln72_68</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -12186,7 +11717,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12237,7 +11768,7 @@
 						<id>242</id>
 						<name>trunc_ln72_69</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -12245,7 +11776,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12296,7 +11827,7 @@
 						<id>243</id>
 						<name>trunc_ln72_70</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -12304,7 +11835,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12355,7 +11886,7 @@
 						<id>244</id>
 						<name>trunc_ln72_71</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -12363,7 +11894,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12414,7 +11945,7 @@
 						<id>245</id>
 						<name>trunc_ln72_72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -12422,7 +11953,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12473,7 +12004,7 @@
 						<id>246</id>
 						<name>trunc_ln72_73</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -12481,7 +12012,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12532,7 +12063,7 @@
 						<id>247</id>
 						<name>trunc_ln72_74</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -12540,7 +12071,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12591,7 +12122,7 @@
 						<id>248</id>
 						<name>trunc_ln72_75</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -12599,7 +12130,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12650,7 +12181,7 @@
 						<id>249</id>
 						<name>trunc_ln72_76</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -12658,7 +12189,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12709,7 +12240,7 @@
 						<id>250</id>
 						<name>trunc_ln72_77</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -12717,7 +12248,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12768,7 +12299,7 @@
 						<id>251</id>
 						<name>trunc_ln72_78</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -12776,7 +12307,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12827,7 +12358,7 @@
 						<id>252</id>
 						<name>tmp_4</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -12835,7 +12366,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12917,7 +12448,7 @@
 						<id>253</id>
 						<name>add_ln72_4</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -12925,7 +12456,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12974,7 +12505,7 @@
 						<id>254</id>
 						<name>trunc_ln72_79</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -12982,7 +12513,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13033,7 +12564,7 @@
 						<id>255</id>
 						<name>trunc_ln72_80</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -13041,7 +12572,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13092,7 +12623,7 @@
 						<id>256</id>
 						<name>trunc_ln72_81</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -13100,7 +12631,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13151,7 +12682,7 @@
 						<id>257</id>
 						<name>trunc_ln72_82</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -13159,7 +12690,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13210,7 +12741,7 @@
 						<id>258</id>
 						<name>trunc_ln72_83</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -13218,7 +12749,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13269,7 +12800,7 @@
 						<id>259</id>
 						<name>trunc_ln72_84</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -13277,7 +12808,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13328,7 +12859,7 @@
 						<id>260</id>
 						<name>trunc_ln72_85</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -13336,7 +12867,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13387,7 +12918,7 @@
 						<id>261</id>
 						<name>trunc_ln72_86</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -13395,7 +12926,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13446,7 +12977,7 @@
 						<id>262</id>
 						<name>trunc_ln72_87</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -13454,7 +12985,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13505,7 +13036,7 @@
 						<id>263</id>
 						<name>trunc_ln72_88</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -13513,7 +13044,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13564,7 +13095,7 @@
 						<id>264</id>
 						<name>trunc_ln72_89</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -13572,7 +13103,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13623,7 +13154,7 @@
 						<id>265</id>
 						<name>trunc_ln72_90</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -13631,7 +13162,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13682,7 +13213,7 @@
 						<id>266</id>
 						<name>trunc_ln72_91</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -13690,7 +13221,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13741,7 +13272,7 @@
 						<id>267</id>
 						<name>trunc_ln72_92</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -13749,7 +13280,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13800,7 +13331,7 @@
 						<id>268</id>
 						<name>trunc_ln72_93</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -13808,7 +13339,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13859,7 +13390,7 @@
 						<id>269</id>
 						<name>trunc_ln72_94</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -13867,7 +13398,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13918,7 +13449,7 @@
 						<id>270</id>
 						<name>tmp_5</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -13926,7 +13457,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14008,7 +13539,7 @@
 						<id>271</id>
 						<name>add_ln72_5</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -14016,7 +13547,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14065,7 +13596,7 @@
 						<id>272</id>
 						<name>trunc_ln72_95</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -14073,7 +13604,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14124,7 +13655,7 @@
 						<id>273</id>
 						<name>trunc_ln72_96</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -14132,7 +13663,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14183,7 +13714,7 @@
 						<id>274</id>
 						<name>trunc_ln72_97</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -14191,7 +13722,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14242,7 +13773,7 @@
 						<id>275</id>
 						<name>trunc_ln72_98</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -14250,7 +13781,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14301,7 +13832,7 @@
 						<id>276</id>
 						<name>trunc_ln72_99</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -14309,7 +13840,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14360,7 +13891,7 @@
 						<id>277</id>
 						<name>trunc_ln72_100</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -14368,7 +13899,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14419,7 +13950,7 @@
 						<id>278</id>
 						<name>trunc_ln72_101</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -14427,7 +13958,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14478,7 +14009,7 @@
 						<id>279</id>
 						<name>trunc_ln72_102</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -14486,7 +14017,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14537,7 +14068,7 @@
 						<id>280</id>
 						<name>trunc_ln72_103</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -14545,7 +14076,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14596,7 +14127,7 @@
 						<id>281</id>
 						<name>trunc_ln72_104</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -14604,7 +14135,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14655,7 +14186,7 @@
 						<id>282</id>
 						<name>trunc_ln72_105</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -14663,7 +14194,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14714,7 +14245,7 @@
 						<id>283</id>
 						<name>trunc_ln72_106</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -14722,7 +14253,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14773,7 +14304,7 @@
 						<id>284</id>
 						<name>trunc_ln72_107</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -14781,7 +14312,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14832,7 +14363,7 @@
 						<id>285</id>
 						<name>trunc_ln72_108</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -14840,7 +14371,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14891,7 +14422,7 @@
 						<id>286</id>
 						<name>trunc_ln72_109</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -14899,7 +14430,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14950,7 +14481,7 @@
 						<id>287</id>
 						<name>trunc_ln72_110</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -14958,7 +14489,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15009,7 +14540,7 @@
 						<id>288</id>
 						<name>tmp_6</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -15017,7 +14548,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15099,7 +14630,7 @@
 						<id>289</id>
 						<name>add_ln72_6</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -15107,7 +14638,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15156,7 +14687,7 @@
 						<id>290</id>
 						<name>trunc_ln72_111</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -15164,7 +14695,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15215,7 +14746,7 @@
 						<id>291</id>
 						<name>trunc_ln72_112</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -15223,7 +14754,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15274,7 +14805,7 @@
 						<id>292</id>
 						<name>trunc_ln72_113</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -15282,7 +14813,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15333,7 +14864,7 @@
 						<id>293</id>
 						<name>trunc_ln72_114</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -15341,7 +14872,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15392,7 +14923,7 @@
 						<id>294</id>
 						<name>trunc_ln72_115</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -15400,7 +14931,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15451,7 +14982,7 @@
 						<id>295</id>
 						<name>trunc_ln72_116</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -15459,7 +14990,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15510,7 +15041,7 @@
 						<id>296</id>
 						<name>trunc_ln72_117</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -15518,7 +15049,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15569,7 +15100,7 @@
 						<id>297</id>
 						<name>trunc_ln72_118</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -15577,7 +15108,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15628,7 +15159,7 @@
 						<id>298</id>
 						<name>trunc_ln72_119</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -15636,7 +15167,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15687,7 +15218,7 @@
 						<id>299</id>
 						<name>trunc_ln72_120</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -15695,7 +15226,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15746,7 +15277,7 @@
 						<id>300</id>
 						<name>trunc_ln72_121</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -15754,7 +15285,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15805,7 +15336,7 @@
 						<id>301</id>
 						<name>trunc_ln72_122</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -15813,7 +15344,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15864,7 +15395,7 @@
 						<id>302</id>
 						<name>trunc_ln72_123</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -15872,7 +15403,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15923,7 +15454,7 @@
 						<id>303</id>
 						<name>trunc_ln72_124</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -15931,7 +15462,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15982,7 +15513,7 @@
 						<id>304</id>
 						<name>trunc_ln72_125</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -15990,7 +15521,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16041,7 +15572,7 @@
 						<id>305</id>
 						<name>trunc_ln72_126</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -16049,7 +15580,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16100,7 +15631,7 @@
 						<id>306</id>
 						<name>tmp_7</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -16108,7 +15639,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16190,7 +15721,7 @@
 						<id>307</id>
 						<name>add_ln72_7</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -16198,7 +15729,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16247,7 +15778,7 @@
 						<id>308</id>
 						<name>trunc_ln72_127</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -16255,7 +15786,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16306,7 +15837,7 @@
 						<id>309</id>
 						<name>trunc_ln72_128</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -16314,7 +15845,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16365,7 +15896,7 @@
 						<id>310</id>
 						<name>trunc_ln72_129</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -16373,7 +15904,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16424,7 +15955,7 @@
 						<id>311</id>
 						<name>trunc_ln72_130</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -16432,7 +15963,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16483,7 +16014,7 @@
 						<id>312</id>
 						<name>trunc_ln72_131</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -16491,7 +16022,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16542,7 +16073,7 @@
 						<id>313</id>
 						<name>trunc_ln72_132</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -16550,7 +16081,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16601,7 +16132,7 @@
 						<id>314</id>
 						<name>trunc_ln72_133</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -16609,7 +16140,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16660,7 +16191,7 @@
 						<id>315</id>
 						<name>trunc_ln72_134</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -16668,7 +16199,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16719,7 +16250,7 @@
 						<id>316</id>
 						<name>trunc_ln72_135</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -16727,7 +16258,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16778,7 +16309,7 @@
 						<id>317</id>
 						<name>trunc_ln72_136</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -16786,7 +16317,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16837,7 +16368,7 @@
 						<id>318</id>
 						<name>trunc_ln72_137</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -16845,7 +16376,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16896,7 +16427,7 @@
 						<id>319</id>
 						<name>trunc_ln72_138</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -16904,7 +16435,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16955,7 +16486,7 @@
 						<id>320</id>
 						<name>trunc_ln72_139</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -16963,7 +16494,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17014,7 +16545,7 @@
 						<id>321</id>
 						<name>trunc_ln72_140</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -17022,7 +16553,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17073,7 +16604,7 @@
 						<id>322</id>
 						<name>trunc_ln72_141</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -17081,7 +16612,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17132,7 +16663,7 @@
 						<id>323</id>
 						<name>trunc_ln72_142</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -17140,7 +16671,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17191,7 +16722,7 @@
 						<id>324</id>
 						<name>tmp_8</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -17199,7 +16730,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17281,7 +16812,7 @@
 						<id>325</id>
 						<name>add_ln72_8</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -17289,7 +16820,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17338,7 +16869,7 @@
 						<id>326</id>
 						<name>trunc_ln72_143</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -17346,7 +16877,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17397,7 +16928,7 @@
 						<id>327</id>
 						<name>trunc_ln72_144</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -17405,7 +16936,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17456,7 +16987,7 @@
 						<id>328</id>
 						<name>trunc_ln72_145</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -17464,7 +16995,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17515,7 +17046,7 @@
 						<id>329</id>
 						<name>trunc_ln72_146</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -17523,7 +17054,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17574,7 +17105,7 @@
 						<id>330</id>
 						<name>trunc_ln72_147</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -17582,7 +17113,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17633,7 +17164,7 @@
 						<id>331</id>
 						<name>trunc_ln72_148</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -17641,7 +17172,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17692,7 +17223,7 @@
 						<id>332</id>
 						<name>trunc_ln72_149</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -17700,7 +17231,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17751,7 +17282,7 @@
 						<id>333</id>
 						<name>trunc_ln72_150</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -17759,7 +17290,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17810,7 +17341,7 @@
 						<id>334</id>
 						<name>trunc_ln72_151</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -17818,7 +17349,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17869,7 +17400,7 @@
 						<id>335</id>
 						<name>trunc_ln72_152</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -17877,7 +17408,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17928,7 +17459,7 @@
 						<id>336</id>
 						<name>trunc_ln72_153</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -17936,7 +17467,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17987,7 +17518,7 @@
 						<id>337</id>
 						<name>trunc_ln72_154</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -17995,7 +17526,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18046,7 +17577,7 @@
 						<id>338</id>
 						<name>trunc_ln72_155</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -18054,7 +17585,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18105,7 +17636,7 @@
 						<id>339</id>
 						<name>trunc_ln72_156</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -18113,7 +17644,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18164,7 +17695,7 @@
 						<id>340</id>
 						<name>trunc_ln72_157</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -18172,7 +17703,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18223,7 +17754,7 @@
 						<id>341</id>
 						<name>trunc_ln72_158</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -18231,7 +17762,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18282,7 +17813,7 @@
 						<id>342</id>
 						<name>tmp_9</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -18290,7 +17821,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18372,7 +17903,7 @@
 						<id>343</id>
 						<name>add_ln72_9</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -18380,7 +17911,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18429,7 +17960,7 @@
 						<id>344</id>
 						<name>trunc_ln72_159</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -18437,7 +17968,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18488,7 +18019,7 @@
 						<id>345</id>
 						<name>trunc_ln72_160</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -18496,7 +18027,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18547,7 +18078,7 @@
 						<id>346</id>
 						<name>trunc_ln72_161</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -18555,7 +18086,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18606,7 +18137,7 @@
 						<id>347</id>
 						<name>trunc_ln72_162</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -18614,7 +18145,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18665,7 +18196,7 @@
 						<id>348</id>
 						<name>trunc_ln72_163</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -18673,7 +18204,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18724,7 +18255,7 @@
 						<id>349</id>
 						<name>trunc_ln72_164</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -18732,7 +18263,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18783,7 +18314,7 @@
 						<id>350</id>
 						<name>trunc_ln72_165</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -18791,7 +18322,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18842,7 +18373,7 @@
 						<id>351</id>
 						<name>trunc_ln72_166</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -18850,7 +18381,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18901,7 +18432,7 @@
 						<id>352</id>
 						<name>trunc_ln72_167</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -18909,7 +18440,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18960,7 +18491,7 @@
 						<id>353</id>
 						<name>trunc_ln72_168</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -18968,7 +18499,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19019,7 +18550,7 @@
 						<id>354</id>
 						<name>trunc_ln72_169</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -19027,7 +18558,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19078,7 +18609,7 @@
 						<id>355</id>
 						<name>trunc_ln72_170</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -19086,7 +18617,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19137,7 +18668,7 @@
 						<id>356</id>
 						<name>trunc_ln72_171</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -19145,7 +18676,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19196,7 +18727,7 @@
 						<id>357</id>
 						<name>trunc_ln72_172</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -19204,7 +18735,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19255,7 +18786,7 @@
 						<id>358</id>
 						<name>trunc_ln72_173</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -19263,7 +18794,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19314,7 +18845,7 @@
 						<id>359</id>
 						<name>trunc_ln72_174</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -19322,7 +18853,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19373,7 +18904,7 @@
 						<id>360</id>
 						<name>tmp_10</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -19381,7 +18912,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19463,7 +18994,7 @@
 						<id>361</id>
 						<name>add_ln72_10</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -19471,7 +19002,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19520,7 +19051,7 @@
 						<id>362</id>
 						<name>trunc_ln72_175</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -19528,7 +19059,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19579,7 +19110,7 @@
 						<id>363</id>
 						<name>trunc_ln72_176</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -19587,7 +19118,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19638,7 +19169,7 @@
 						<id>364</id>
 						<name>trunc_ln72_177</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -19646,7 +19177,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19697,7 +19228,7 @@
 						<id>365</id>
 						<name>trunc_ln72_178</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -19705,7 +19236,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19756,7 +19287,7 @@
 						<id>366</id>
 						<name>trunc_ln72_179</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -19764,7 +19295,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19815,7 +19346,7 @@
 						<id>367</id>
 						<name>trunc_ln72_180</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -19823,7 +19354,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19874,7 +19405,7 @@
 						<id>368</id>
 						<name>trunc_ln72_181</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -19882,7 +19413,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19933,7 +19464,7 @@
 						<id>369</id>
 						<name>trunc_ln72_182</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -19941,7 +19472,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19992,7 +19523,7 @@
 						<id>370</id>
 						<name>trunc_ln72_183</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -20000,7 +19531,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20051,7 +19582,7 @@
 						<id>371</id>
 						<name>trunc_ln72_184</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -20059,7 +19590,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20110,7 +19641,7 @@
 						<id>372</id>
 						<name>trunc_ln72_185</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -20118,7 +19649,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20169,7 +19700,7 @@
 						<id>373</id>
 						<name>trunc_ln72_186</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -20177,7 +19708,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20228,7 +19759,7 @@
 						<id>374</id>
 						<name>trunc_ln72_187</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -20236,7 +19767,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20287,7 +19818,7 @@
 						<id>375</id>
 						<name>trunc_ln72_188</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -20295,7 +19826,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20346,7 +19877,7 @@
 						<id>376</id>
 						<name>trunc_ln72_189</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -20354,7 +19885,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20405,7 +19936,7 @@
 						<id>377</id>
 						<name>trunc_ln72_190</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -20413,7 +19944,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20464,7 +19995,7 @@
 						<id>378</id>
 						<name>tmp_11</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -20472,7 +20003,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20554,7 +20085,7 @@
 						<id>379</id>
 						<name>add_ln72_11</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -20562,7 +20093,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20611,7 +20142,7 @@
 						<id>380</id>
 						<name>trunc_ln72_191</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -20619,7 +20150,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20670,7 +20201,7 @@
 						<id>381</id>
 						<name>trunc_ln72_192</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -20678,7 +20209,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20729,7 +20260,7 @@
 						<id>382</id>
 						<name>trunc_ln72_193</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -20737,7 +20268,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20788,7 +20319,7 @@
 						<id>383</id>
 						<name>trunc_ln72_194</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -20796,7 +20327,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20847,7 +20378,7 @@
 						<id>384</id>
 						<name>trunc_ln72_195</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -20855,7 +20386,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20906,7 +20437,7 @@
 						<id>385</id>
 						<name>trunc_ln72_196</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -20914,7 +20445,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20965,7 +20496,7 @@
 						<id>386</id>
 						<name>trunc_ln72_197</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -20973,7 +20504,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -21024,7 +20555,7 @@
 						<id>387</id>
 						<name>trunc_ln72_198</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -21032,7 +20563,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -21083,7 +20614,7 @@
 						<id>388</id>
 						<name>trunc_ln72_199</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -21091,7 +20622,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -21142,7 +20673,7 @@
 						<id>389</id>
 						<name>trunc_ln72_200</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -21150,7 +20681,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -21201,7 +20732,7 @@
 						<id>390</id>
 						<name>trunc_ln72_201</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -21209,7 +20740,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -21260,7 +20791,7 @@
 						<id>391</id>
 						<name>trunc_ln72_202</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -21268,7 +20799,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -21319,7 +20850,7 @@
 						<id>392</id>
 						<name>trunc_ln72_203</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -21327,7 +20858,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -21378,7 +20909,7 @@
 						<id>393</id>
 						<name>trunc_ln72_204</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -21386,7 +20917,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -21437,7 +20968,7 @@
 						<id>394</id>
 						<name>trunc_ln72_205</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -21445,7 +20976,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -21496,7 +21027,7 @@
 						<id>395</id>
 						<name>trunc_ln72_206</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -21504,7 +21035,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -21555,7 +21086,7 @@
 						<id>396</id>
 						<name>tmp_12</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -21563,7 +21094,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -21645,7 +21176,7 @@
 						<id>397</id>
 						<name>add_ln72_12</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -21653,7 +21184,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -21702,7 +21233,7 @@
 						<id>398</id>
 						<name>trunc_ln72_207</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -21710,7 +21241,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -21761,7 +21292,7 @@
 						<id>399</id>
 						<name>trunc_ln72_208</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -21769,7 +21300,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -21820,7 +21351,7 @@
 						<id>400</id>
 						<name>trunc_ln72_209</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -21828,7 +21359,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -21879,7 +21410,7 @@
 						<id>401</id>
 						<name>trunc_ln72_210</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -21887,7 +21418,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -21938,7 +21469,7 @@
 						<id>402</id>
 						<name>trunc_ln72_211</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -21946,7 +21477,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -21997,7 +21528,7 @@
 						<id>403</id>
 						<name>trunc_ln72_212</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -22005,7 +21536,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -22056,7 +21587,7 @@
 						<id>404</id>
 						<name>trunc_ln72_213</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -22064,7 +21595,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -22115,7 +21646,7 @@
 						<id>405</id>
 						<name>trunc_ln72_214</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -22123,7 +21654,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -22174,7 +21705,7 @@
 						<id>406</id>
 						<name>trunc_ln72_215</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -22182,7 +21713,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -22233,7 +21764,7 @@
 						<id>407</id>
 						<name>trunc_ln72_216</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -22241,7 +21772,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -22292,7 +21823,7 @@
 						<id>408</id>
 						<name>trunc_ln72_217</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -22300,7 +21831,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -22351,7 +21882,7 @@
 						<id>409</id>
 						<name>trunc_ln72_218</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -22359,7 +21890,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -22410,7 +21941,7 @@
 						<id>410</id>
 						<name>trunc_ln72_219</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -22418,7 +21949,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -22469,7 +22000,7 @@
 						<id>411</id>
 						<name>trunc_ln72_220</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -22477,7 +22008,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -22528,7 +22059,7 @@
 						<id>412</id>
 						<name>trunc_ln72_221</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -22536,7 +22067,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -22587,7 +22118,7 @@
 						<id>413</id>
 						<name>trunc_ln72_222</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -22595,7 +22126,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -22646,7 +22177,7 @@
 						<id>414</id>
 						<name>tmp_13</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -22654,7 +22185,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -22736,7 +22267,7 @@
 						<id>415</id>
 						<name>add_ln72_13</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -22744,7 +22275,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -22793,7 +22324,7 @@
 						<id>416</id>
 						<name>trunc_ln72_223</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -22801,7 +22332,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -22852,7 +22383,7 @@
 						<id>417</id>
 						<name>trunc_ln72_224</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -22860,7 +22391,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -22911,7 +22442,7 @@
 						<id>418</id>
 						<name>trunc_ln72_225</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -22919,7 +22450,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -22970,7 +22501,7 @@
 						<id>419</id>
 						<name>trunc_ln72_226</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -22978,7 +22509,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -23029,7 +22560,7 @@
 						<id>420</id>
 						<name>trunc_ln72_227</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -23037,7 +22568,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -23088,7 +22619,7 @@
 						<id>421</id>
 						<name>trunc_ln72_228</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -23096,7 +22627,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -23147,7 +22678,7 @@
 						<id>422</id>
 						<name>trunc_ln72_229</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -23155,7 +22686,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -23206,7 +22737,7 @@
 						<id>423</id>
 						<name>trunc_ln72_230</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -23214,7 +22745,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -23265,7 +22796,7 @@
 						<id>424</id>
 						<name>trunc_ln72_231</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -23273,7 +22804,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -23324,7 +22855,7 @@
 						<id>425</id>
 						<name>trunc_ln72_232</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -23332,7 +22863,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -23383,7 +22914,7 @@
 						<id>426</id>
 						<name>trunc_ln72_233</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -23391,7 +22922,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -23442,7 +22973,7 @@
 						<id>427</id>
 						<name>trunc_ln72_234</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -23450,7 +22981,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -23501,7 +23032,7 @@
 						<id>428</id>
 						<name>trunc_ln72_235</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -23509,7 +23040,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -23560,7 +23091,7 @@
 						<id>429</id>
 						<name>trunc_ln72_236</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -23568,7 +23099,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -23619,7 +23150,7 @@
 						<id>430</id>
 						<name>trunc_ln72_237</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -23627,7 +23158,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -23678,7 +23209,7 @@
 						<id>431</id>
 						<name>trunc_ln72_238</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -23686,7 +23217,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -23737,7 +23268,7 @@
 						<id>432</id>
 						<name>tmp_14</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -23745,7 +23276,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -23827,7 +23358,7 @@
 						<id>433</id>
 						<name>add_ln72_14</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -23835,7 +23366,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -23884,7 +23415,7 @@
 						<id>434</id>
 						<name>trunc_ln72_239</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -23892,7 +23423,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -23943,7 +23474,7 @@
 						<id>435</id>
 						<name>trunc_ln72_240</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -23951,7 +23482,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -24002,7 +23533,7 @@
 						<id>436</id>
 						<name>trunc_ln72_241</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -24010,7 +23541,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -24061,7 +23592,7 @@
 						<id>437</id>
 						<name>trunc_ln72_242</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -24069,7 +23600,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -24120,7 +23651,7 @@
 						<id>438</id>
 						<name>trunc_ln72_243</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -24128,7 +23659,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -24179,7 +23710,7 @@
 						<id>439</id>
 						<name>trunc_ln72_244</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -24187,7 +23718,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -24238,7 +23769,7 @@
 						<id>440</id>
 						<name>trunc_ln72_245</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -24246,7 +23777,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -24297,7 +23828,7 @@
 						<id>441</id>
 						<name>trunc_ln72_246</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -24305,7 +23836,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -24356,7 +23887,7 @@
 						<id>442</id>
 						<name>trunc_ln72_247</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -24364,7 +23895,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -24415,7 +23946,7 @@
 						<id>443</id>
 						<name>trunc_ln72_248</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -24423,7 +23954,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -24474,7 +24005,7 @@
 						<id>444</id>
 						<name>trunc_ln72_249</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -24482,7 +24013,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -24533,7 +24064,7 @@
 						<id>445</id>
 						<name>trunc_ln72_250</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -24541,7 +24072,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -24592,7 +24123,7 @@
 						<id>446</id>
 						<name>trunc_ln72_251</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -24600,7 +24131,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -24651,7 +24182,7 @@
 						<id>447</id>
 						<name>trunc_ln72_252</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -24659,7 +24190,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -24710,7 +24241,7 @@
 						<id>448</id>
 						<name>trunc_ln72_253</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -24718,7 +24249,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -24769,7 +24300,7 @@
 						<id>449</id>
 						<name>trunc_ln72_254</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -24777,7 +24308,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -24828,7 +24359,7 @@
 						<id>450</id>
 						<name>tmp_15</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -24836,7 +24367,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -24918,7 +24449,7 @@
 						<id>451</id>
 						<name>add_ln72_15</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -24926,7 +24457,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -24973,9 +24504,9 @@
 					<Obj>
 						<type>0</type>
 						<id>452</id>
-						<name>AB_block_16</name>
+						<name>or_ln72_s</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -24983,7 +24514,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -24997,7 +24528,7 @@
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>AB_block</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -25047,7 +24578,7 @@
 						<id>453</id>
 						<name>_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -25055,7 +24586,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -25132,17 +24663,17 @@
 					<Obj>
 						<type>0</type>
 						<id>455</id>
-						<name>AB_block_14_write_ln39</name>
+						<name>AB_block_14_2_write_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
+						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -25151,7 +24682,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>39</second>
+										<second>72</second>
 									</item>
 								</second>
 							</item>
@@ -25174,8 +24705,8 @@
 					<item_version>0</item_version>
 					<item>2464</item>
 					<item>2465</item>
-					<item>2617</item>
-					<item>2635</item>
+					<item>2615</item>
+					<item>2633</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -25193,7 +24724,7 @@
 						<id>456</id>
 						<name>br_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -25201,7 +24732,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -25247,17 +24778,17 @@
 					<Obj>
 						<type>0</type>
 						<id>458</id>
-						<name>AB_block_13_write_ln39</name>
+						<name>AB_block_13_2_write_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
+						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -25266,7 +24797,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>39</second>
+										<second>72</second>
 									</item>
 								</second>
 							</item>
@@ -25289,8 +24820,8 @@
 					<item_version>0</item_version>
 					<item>2506</item>
 					<item>2507</item>
-					<item>2616</item>
-					<item>2634</item>
+					<item>2614</item>
+					<item>2632</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -25308,7 +24839,7 @@
 						<id>459</id>
 						<name>br_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -25316,7 +24847,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -25362,17 +24893,17 @@
 					<Obj>
 						<type>0</type>
 						<id>461</id>
-						<name>AB_block_12_write_ln39</name>
+						<name>AB_block_12_2_write_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
+						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -25381,7 +24912,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>39</second>
+										<second>72</second>
 									</item>
 								</second>
 							</item>
@@ -25404,8 +24935,8 @@
 					<item_version>0</item_version>
 					<item>2503</item>
 					<item>2504</item>
-					<item>2615</item>
-					<item>2633</item>
+					<item>2613</item>
+					<item>2631</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -25423,7 +24954,7 @@
 						<id>462</id>
 						<name>br_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -25431,7 +24962,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -25477,17 +25008,17 @@
 					<Obj>
 						<type>0</type>
 						<id>464</id>
-						<name>AB_block_11_write_ln39</name>
+						<name>AB_block_11_2_write_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
+						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -25496,7 +25027,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>39</second>
+										<second>72</second>
 									</item>
 								</second>
 							</item>
@@ -25519,8 +25050,8 @@
 					<item_version>0</item_version>
 					<item>2500</item>
 					<item>2501</item>
-					<item>2614</item>
-					<item>2632</item>
+					<item>2612</item>
+					<item>2630</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -25538,7 +25069,7 @@
 						<id>465</id>
 						<name>br_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -25546,7 +25077,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -25592,17 +25123,17 @@
 					<Obj>
 						<type>0</type>
 						<id>467</id>
-						<name>AB_block_10_write_ln39</name>
+						<name>AB_block_10_2_write_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
+						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -25611,7 +25142,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>39</second>
+										<second>72</second>
 									</item>
 								</second>
 							</item>
@@ -25634,8 +25165,8 @@
 					<item_version>0</item_version>
 					<item>2497</item>
 					<item>2498</item>
-					<item>2613</item>
-					<item>2631</item>
+					<item>2611</item>
+					<item>2629</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -25653,7 +25184,7 @@
 						<id>468</id>
 						<name>br_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -25661,7 +25192,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -25707,17 +25238,17 @@
 					<Obj>
 						<type>0</type>
 						<id>470</id>
-						<name>AB_block_9_write_ln39</name>
+						<name>AB_block_9_2_write_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
+						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -25726,7 +25257,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>39</second>
+										<second>72</second>
 									</item>
 								</second>
 							</item>
@@ -25749,8 +25280,8 @@
 					<item_version>0</item_version>
 					<item>2494</item>
 					<item>2495</item>
-					<item>2612</item>
-					<item>2630</item>
+					<item>2610</item>
+					<item>2628</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -25768,7 +25299,7 @@
 						<id>471</id>
 						<name>br_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -25776,7 +25307,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -25822,17 +25353,17 @@
 					<Obj>
 						<type>0</type>
 						<id>473</id>
-						<name>AB_block_8_write_ln39</name>
+						<name>AB_block_8_2_write_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
+						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -25841,7 +25372,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>39</second>
+										<second>72</second>
 									</item>
 								</second>
 							</item>
@@ -25864,8 +25395,8 @@
 					<item_version>0</item_version>
 					<item>2491</item>
 					<item>2492</item>
-					<item>2611</item>
-					<item>2629</item>
+					<item>2609</item>
+					<item>2627</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -25883,7 +25414,7 @@
 						<id>474</id>
 						<name>br_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -25891,7 +25422,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -25937,17 +25468,17 @@
 					<Obj>
 						<type>0</type>
 						<id>476</id>
-						<name>AB_block_7_write_ln39</name>
+						<name>AB_block_7_2_write_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
+						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -25956,7 +25487,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>39</second>
+										<second>72</second>
 									</item>
 								</second>
 							</item>
@@ -25979,8 +25510,8 @@
 					<item_version>0</item_version>
 					<item>2488</item>
 					<item>2489</item>
-					<item>2610</item>
-					<item>2628</item>
+					<item>2608</item>
+					<item>2626</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -25998,7 +25529,7 @@
 						<id>477</id>
 						<name>br_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -26006,7 +25537,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -26052,17 +25583,17 @@
 					<Obj>
 						<type>0</type>
 						<id>479</id>
-						<name>AB_block_6_write_ln39</name>
+						<name>AB_block_6_2_write_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
+						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -26071,7 +25602,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>39</second>
+										<second>72</second>
 									</item>
 								</second>
 							</item>
@@ -26094,8 +25625,8 @@
 					<item_version>0</item_version>
 					<item>2485</item>
 					<item>2486</item>
-					<item>2609</item>
-					<item>2627</item>
+					<item>2607</item>
+					<item>2625</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -26113,7 +25644,7 @@
 						<id>480</id>
 						<name>br_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -26121,7 +25652,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -26167,17 +25698,17 @@
 					<Obj>
 						<type>0</type>
 						<id>482</id>
-						<name>AB_block_5_write_ln39</name>
+						<name>AB_block_5_2_write_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
+						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -26186,7 +25717,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>39</second>
+										<second>72</second>
 									</item>
 								</second>
 							</item>
@@ -26209,8 +25740,8 @@
 					<item_version>0</item_version>
 					<item>2482</item>
 					<item>2483</item>
-					<item>2608</item>
-					<item>2626</item>
+					<item>2606</item>
+					<item>2624</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -26228,7 +25759,7 @@
 						<id>483</id>
 						<name>br_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -26236,7 +25767,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -26282,17 +25813,17 @@
 					<Obj>
 						<type>0</type>
 						<id>485</id>
-						<name>AB_block_4_write_ln39</name>
+						<name>AB_block_4_2_write_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
+						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -26301,7 +25832,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>39</second>
+										<second>72</second>
 									</item>
 								</second>
 							</item>
@@ -26324,8 +25855,8 @@
 					<item_version>0</item_version>
 					<item>2479</item>
 					<item>2480</item>
-					<item>2607</item>
-					<item>2625</item>
+					<item>2605</item>
+					<item>2623</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -26343,7 +25874,7 @@
 						<id>486</id>
 						<name>br_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -26351,7 +25882,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -26397,17 +25928,17 @@
 					<Obj>
 						<type>0</type>
 						<id>488</id>
-						<name>AB_block_3_write_ln39</name>
+						<name>AB_block_3_2_write_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
+						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -26416,7 +25947,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>39</second>
+										<second>72</second>
 									</item>
 								</second>
 							</item>
@@ -26439,8 +25970,8 @@
 					<item_version>0</item_version>
 					<item>2476</item>
 					<item>2477</item>
-					<item>2606</item>
-					<item>2624</item>
+					<item>2604</item>
+					<item>2622</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -26458,7 +25989,7 @@
 						<id>489</id>
 						<name>br_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -26466,7 +25997,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -26512,17 +26043,17 @@
 					<Obj>
 						<type>0</type>
 						<id>491</id>
-						<name>AB_block_2_write_ln39</name>
+						<name>AB_block_2_2_write_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
+						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -26531,7 +26062,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>39</second>
+										<second>72</second>
 									</item>
 								</second>
 							</item>
@@ -26554,8 +26085,8 @@
 					<item_version>0</item_version>
 					<item>2473</item>
 					<item>2474</item>
-					<item>2605</item>
-					<item>2623</item>
+					<item>2603</item>
+					<item>2621</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -26573,7 +26104,7 @@
 						<id>492</id>
 						<name>br_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -26581,7 +26112,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -26627,17 +26158,17 @@
 					<Obj>
 						<type>0</type>
 						<id>494</id>
-						<name>AB_block_1_write_ln39</name>
+						<name>AB_block_1_2_write_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
+						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -26646,7 +26177,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>39</second>
+										<second>72</second>
 									</item>
 								</second>
 							</item>
@@ -26669,8 +26200,8 @@
 					<item_version>0</item_version>
 					<item>2470</item>
 					<item>2471</item>
-					<item>2604</item>
-					<item>2622</item>
+					<item>2602</item>
+					<item>2620</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -26688,7 +26219,7 @@
 						<id>495</id>
 						<name>br_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -26696,7 +26227,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -26742,17 +26273,17 @@
 					<Obj>
 						<type>0</type>
 						<id>497</id>
-						<name>AB_block_write_ln39</name>
+						<name>AB_block_0_2_write_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
+						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -26761,7 +26292,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>39</second>
+										<second>72</second>
 									</item>
 								</second>
 							</item>
@@ -26784,8 +26315,8 @@
 					<item_version>0</item_version>
 					<item>2467</item>
 					<item>2468</item>
-					<item>2603</item>
-					<item>2621</item>
+					<item>2601</item>
+					<item>2619</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -26803,7 +26334,7 @@
 						<id>498</id>
 						<name>br_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -26811,7 +26342,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -26857,17 +26388,17 @@
 					<Obj>
 						<type>0</type>
 						<id>500</id>
-						<name>AB_block_15_write_ln39</name>
+						<name>AB_block_15_2_write_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
-						<lineNumber>39</lineNumber>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
+						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -26876,7 +26407,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>39</second>
+										<second>72</second>
 									</item>
 								</second>
 							</item>
@@ -26899,8 +26430,8 @@
 					<item_version>0</item_version>
 					<item>2509</item>
 					<item>2510</item>
-					<item>2602</item>
-					<item>2620</item>
+					<item>2600</item>
+					<item>2618</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -26918,7 +26449,7 @@
 						<id>501</id>
 						<name>br_ln72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -26926,7 +26457,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -26973,39 +26504,18 @@
 						<type>0</type>
 						<id>503</id>
 						<name>i_write_ln55</name>
-						<fileName>T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array</fileName>
-						<fileDirectory></fileDirectory>
+						<fileName>C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array</fileName>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>55</lineNumber>
 						<contextFuncName>_S_ref</contextFuncName>
 						<contextNormFuncName>p_S_ref</contextNormFuncName>
 						<inlineStackInfo>
-							<count>2</count>
+							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first></first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
-									<count>2</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array</first>
-											<second>_S_ref</second>
-										</first>
-										<second>55</second>
-									</item>
-									<item>
-										<first>
-											<first>T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array</first>
-											<second>operator[]</second>
-										</first>
-										<second>186</second>
-									</item>
-								</second>
-							</item>
-							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
-								<second>
-									<count>1</count>
+									<count>3</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
@@ -27013,6 +26523,20 @@
 											<second>MM</second>
 										</first>
 										<second>72</second>
+									</item>
+									<item>
+										<first>
+											<first>C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array</first>
+											<second>_S_ref</second>
+										</first>
+										<second>55</second>
+									</item>
+									<item>
+										<first>
+											<first>C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array</first>
+											<second>operator[]</second>
+										</first>
+										<second>186</second>
 									</item>
 								</second>
 							</item>
@@ -27035,8 +26559,8 @@
 					<item_version>0</item_version>
 					<item>737</item>
 					<item>738</item>
-					<item>2618</item>
-					<item>2619</item>
+					<item>2616</item>
+					<item>2617</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -27054,7 +26578,7 @@
 						<id>504</id>
 						<name>br_ln67</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
-						<fileDirectory>Z:\Labs\clab\baseline_blockedMM</fileDirectory>
+						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
 						<lineNumber>67</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
@@ -27062,7 +26586,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>Z:\Labs\clab\baseline_blockedMM</first>
+								<first>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -27108,7 +26632,7 @@
 					<Obj>
 						<type>0</type>
 						<id>506</id>
-						<name>AB_block_load</name>
+						<name>AB_block_0_2_load_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -27135,7 +26659,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>662</item>
-					<item>2585</item>
+					<item>2583</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -27151,7 +26675,7 @@
 					<Obj>
 						<type>0</type>
 						<id>507</id>
-						<name>AB_block_1_load</name>
+						<name>AB_block_1_2_load_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -27178,7 +26702,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>663</item>
-					<item>2584</item>
+					<item>2582</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -27194,7 +26718,7 @@
 					<Obj>
 						<type>0</type>
 						<id>508</id>
-						<name>AB_block_2_load</name>
+						<name>AB_block_2_2_load_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -27221,7 +26745,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>664</item>
-					<item>2583</item>
+					<item>2581</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -27237,7 +26761,7 @@
 					<Obj>
 						<type>0</type>
 						<id>509</id>
-						<name>AB_block_3_load</name>
+						<name>AB_block_3_2_load_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -27264,7 +26788,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>665</item>
-					<item>2582</item>
+					<item>2580</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -27280,7 +26804,7 @@
 					<Obj>
 						<type>0</type>
 						<id>510</id>
-						<name>AB_block_4_load</name>
+						<name>AB_block_4_2_load_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -27307,7 +26831,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>666</item>
-					<item>2581</item>
+					<item>2579</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -27323,7 +26847,7 @@
 					<Obj>
 						<type>0</type>
 						<id>511</id>
-						<name>AB_block_5_load</name>
+						<name>AB_block_5_2_load_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -27350,7 +26874,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>667</item>
-					<item>2580</item>
+					<item>2578</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -27366,7 +26890,7 @@
 					<Obj>
 						<type>0</type>
 						<id>512</id>
-						<name>AB_block_6_load</name>
+						<name>AB_block_6_2_load_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -27393,7 +26917,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>668</item>
-					<item>2579</item>
+					<item>2577</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -27409,7 +26933,7 @@
 					<Obj>
 						<type>0</type>
 						<id>513</id>
-						<name>AB_block_7_load</name>
+						<name>AB_block_7_2_load_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -27436,7 +26960,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>669</item>
-					<item>2578</item>
+					<item>2576</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -27452,7 +26976,7 @@
 					<Obj>
 						<type>0</type>
 						<id>514</id>
-						<name>AB_block_8_load</name>
+						<name>AB_block_8_2_load_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -27479,7 +27003,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>670</item>
-					<item>2577</item>
+					<item>2575</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -27495,7 +27019,7 @@
 					<Obj>
 						<type>0</type>
 						<id>515</id>
-						<name>AB_block_9_load</name>
+						<name>AB_block_9_2_load_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -27522,7 +27046,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>671</item>
-					<item>2576</item>
+					<item>2574</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -27538,7 +27062,7 @@
 					<Obj>
 						<type>0</type>
 						<id>516</id>
-						<name>AB_block_10_load</name>
+						<name>AB_block_10_2_load_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -27565,7 +27089,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>672</item>
-					<item>2575</item>
+					<item>2573</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -27581,7 +27105,7 @@
 					<Obj>
 						<type>0</type>
 						<id>517</id>
-						<name>AB_block_11_load</name>
+						<name>AB_block_11_2_load_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -27608,7 +27132,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>673</item>
-					<item>2574</item>
+					<item>2572</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -27624,7 +27148,7 @@
 					<Obj>
 						<type>0</type>
 						<id>518</id>
-						<name>AB_block_12_load</name>
+						<name>AB_block_12_2_load_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -27651,7 +27175,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>674</item>
-					<item>2573</item>
+					<item>2571</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -27667,7 +27191,7 @@
 					<Obj>
 						<type>0</type>
 						<id>519</id>
-						<name>AB_block_13_load</name>
+						<name>AB_block_13_2_load_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -27694,7 +27218,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>675</item>
-					<item>2572</item>
+					<item>2570</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -27710,7 +27234,7 @@
 					<Obj>
 						<type>0</type>
 						<id>520</id>
-						<name>AB_block_14_load</name>
+						<name>AB_block_14_2_load_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -27737,7 +27261,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>676</item>
-					<item>2571</item>
+					<item>2569</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -27753,7 +27277,7 @@
 					<Obj>
 						<type>0</type>
 						<id>521</id>
-						<name>AB_block_15_load</name>
+						<name>AB_block_15_2_load_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -27780,7 +27304,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>677</item>
-					<item>2570</item>
+					<item>2568</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -27796,7 +27320,7 @@
 					<Obj>
 						<type>0</type>
 						<id>522</id>
-						<name>AB_block_63_out_write_ln0</name>
+						<name>AB_block_15_2_out_write_ln0</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -27840,7 +27364,7 @@
 					<Obj>
 						<type>0</type>
 						<id>523</id>
-						<name>AB_block_62_out_write_ln0</name>
+						<name>AB_block_14_2_out_write_ln0</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -27884,7 +27408,7 @@
 					<Obj>
 						<type>0</type>
 						<id>524</id>
-						<name>AB_block_61_out_write_ln0</name>
+						<name>AB_block_13_2_out_write_ln0</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -27928,7 +27452,7 @@
 					<Obj>
 						<type>0</type>
 						<id>525</id>
-						<name>AB_block_60_out_write_ln0</name>
+						<name>AB_block_12_2_out_write_ln0</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -27972,7 +27496,7 @@
 					<Obj>
 						<type>0</type>
 						<id>526</id>
-						<name>AB_block_59_out_write_ln0</name>
+						<name>AB_block_11_2_out_write_ln0</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -28016,7 +27540,7 @@
 					<Obj>
 						<type>0</type>
 						<id>527</id>
-						<name>AB_block_58_out_write_ln0</name>
+						<name>AB_block_10_2_out_write_ln0</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -28060,7 +27584,7 @@
 					<Obj>
 						<type>0</type>
 						<id>528</id>
-						<name>AB_block_57_out_write_ln0</name>
+						<name>AB_block_9_2_out_write_ln0</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -28104,7 +27628,7 @@
 					<Obj>
 						<type>0</type>
 						<id>529</id>
-						<name>AB_block_56_out_write_ln0</name>
+						<name>AB_block_8_2_out_write_ln0</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -28148,7 +27672,7 @@
 					<Obj>
 						<type>0</type>
 						<id>530</id>
-						<name>AB_block_55_out_write_ln0</name>
+						<name>AB_block_7_2_out_write_ln0</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -28192,7 +27716,7 @@
 					<Obj>
 						<type>0</type>
 						<id>531</id>
-						<name>AB_block_54_out_write_ln0</name>
+						<name>AB_block_6_2_out_write_ln0</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -28236,7 +27760,7 @@
 					<Obj>
 						<type>0</type>
 						<id>532</id>
-						<name>AB_block_53_out_write_ln0</name>
+						<name>AB_block_5_2_out_write_ln0</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -28280,7 +27804,7 @@
 					<Obj>
 						<type>0</type>
 						<id>533</id>
-						<name>AB_block_52_out_write_ln0</name>
+						<name>AB_block_4_2_out_write_ln0</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -28324,7 +27848,7 @@
 					<Obj>
 						<type>0</type>
 						<id>534</id>
-						<name>AB_block_51_out_write_ln0</name>
+						<name>AB_block_3_2_out_write_ln0</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -28368,7 +27892,7 @@
 					<Obj>
 						<type>0</type>
 						<id>535</id>
-						<name>AB_block_50_out_write_ln0</name>
+						<name>AB_block_2_2_out_write_ln0</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -28412,7 +27936,7 @@
 					<Obj>
 						<type>0</type>
 						<id>536</id>
-						<name>AB_block_49_out_write_ln0</name>
+						<name>AB_block_1_2_out_write_ln0</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -28456,7 +27980,7 @@
 					<Obj>
 						<type>0</type>
 						<id>537</id>
-						<name>AB_block_48_out_write_ln0</name>
+						<name>AB_block_0_2_out_write_ln0</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -42475,721 +41999,721 @@
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2195">
-				<id>2533</id>
+				<id>2531</id>
 				<edge_type>2</edge_type>
 				<source_obj>118</source_obj>
 				<sink_obj>123</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2196">
-				<id>2534</id>
+				<id>2532</id>
 				<edge_type>2</edge_type>
 				<source_obj>123</source_obj>
 				<sink_obj>539</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2197">
-				<id>2535</id>
+				<id>2533</id>
 				<edge_type>2</edge_type>
 				<source_obj>123</source_obj>
 				<sink_obj>454</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2198">
-				<id>2536</id>
+				<id>2534</id>
 				<edge_type>2</edge_type>
 				<source_obj>454</source_obj>
 				<sink_obj>502</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2199">
-				<id>2537</id>
+				<id>2535</id>
 				<edge_type>2</edge_type>
 				<source_obj>454</source_obj>
 				<sink_obj>499</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2200">
-				<id>2538</id>
+				<id>2536</id>
 				<edge_type>2</edge_type>
 				<source_obj>454</source_obj>
 				<sink_obj>496</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2201">
-				<id>2539</id>
+				<id>2537</id>
 				<edge_type>2</edge_type>
 				<source_obj>454</source_obj>
 				<sink_obj>493</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2202">
-				<id>2540</id>
+				<id>2538</id>
 				<edge_type>2</edge_type>
 				<source_obj>454</source_obj>
 				<sink_obj>490</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2203">
-				<id>2541</id>
+				<id>2539</id>
 				<edge_type>2</edge_type>
 				<source_obj>454</source_obj>
 				<sink_obj>487</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2204">
-				<id>2542</id>
+				<id>2540</id>
 				<edge_type>2</edge_type>
 				<source_obj>454</source_obj>
 				<sink_obj>484</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2205">
-				<id>2543</id>
+				<id>2541</id>
 				<edge_type>2</edge_type>
 				<source_obj>454</source_obj>
 				<sink_obj>481</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2206">
-				<id>2544</id>
+				<id>2542</id>
 				<edge_type>2</edge_type>
 				<source_obj>454</source_obj>
 				<sink_obj>478</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2207">
-				<id>2545</id>
+				<id>2543</id>
 				<edge_type>2</edge_type>
 				<source_obj>454</source_obj>
 				<sink_obj>475</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2208">
-				<id>2546</id>
+				<id>2544</id>
 				<edge_type>2</edge_type>
 				<source_obj>454</source_obj>
 				<sink_obj>472</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2209">
-				<id>2547</id>
+				<id>2545</id>
 				<edge_type>2</edge_type>
 				<source_obj>454</source_obj>
 				<sink_obj>469</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2210">
-				<id>2548</id>
+				<id>2546</id>
 				<edge_type>2</edge_type>
 				<source_obj>454</source_obj>
 				<sink_obj>466</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2211">
-				<id>2549</id>
+				<id>2547</id>
 				<edge_type>2</edge_type>
 				<source_obj>454</source_obj>
 				<sink_obj>463</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2212">
-				<id>2550</id>
+				<id>2548</id>
 				<edge_type>2</edge_type>
 				<source_obj>454</source_obj>
 				<sink_obj>460</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2213">
-				<id>2551</id>
+				<id>2549</id>
 				<edge_type>2</edge_type>
 				<source_obj>454</source_obj>
 				<sink_obj>457</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2214">
-				<id>2552</id>
+				<id>2550</id>
 				<edge_type>2</edge_type>
 				<source_obj>457</source_obj>
 				<sink_obj>505</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2215">
-				<id>2553</id>
+				<id>2551</id>
 				<edge_type>2</edge_type>
 				<source_obj>460</source_obj>
 				<sink_obj>505</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2216">
-				<id>2554</id>
+				<id>2552</id>
 				<edge_type>2</edge_type>
 				<source_obj>463</source_obj>
 				<sink_obj>505</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2217">
-				<id>2555</id>
+				<id>2553</id>
 				<edge_type>2</edge_type>
 				<source_obj>466</source_obj>
 				<sink_obj>505</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2218">
-				<id>2556</id>
+				<id>2554</id>
 				<edge_type>2</edge_type>
 				<source_obj>469</source_obj>
 				<sink_obj>505</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2219">
-				<id>2557</id>
+				<id>2555</id>
 				<edge_type>2</edge_type>
 				<source_obj>472</source_obj>
 				<sink_obj>505</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2220">
-				<id>2558</id>
+				<id>2556</id>
 				<edge_type>2</edge_type>
 				<source_obj>475</source_obj>
 				<sink_obj>505</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2221">
-				<id>2559</id>
+				<id>2557</id>
 				<edge_type>2</edge_type>
 				<source_obj>478</source_obj>
 				<sink_obj>505</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2222">
-				<id>2560</id>
+				<id>2558</id>
 				<edge_type>2</edge_type>
 				<source_obj>481</source_obj>
 				<sink_obj>505</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2223">
-				<id>2561</id>
+				<id>2559</id>
 				<edge_type>2</edge_type>
 				<source_obj>484</source_obj>
 				<sink_obj>505</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2224">
-				<id>2562</id>
+				<id>2560</id>
 				<edge_type>2</edge_type>
 				<source_obj>487</source_obj>
 				<sink_obj>505</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2225">
-				<id>2563</id>
+				<id>2561</id>
 				<edge_type>2</edge_type>
 				<source_obj>490</source_obj>
 				<sink_obj>505</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2226">
-				<id>2564</id>
+				<id>2562</id>
 				<edge_type>2</edge_type>
 				<source_obj>493</source_obj>
 				<sink_obj>505</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2227">
-				<id>2565</id>
+				<id>2563</id>
 				<edge_type>2</edge_type>
 				<source_obj>496</source_obj>
 				<sink_obj>505</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2228">
-				<id>2566</id>
+				<id>2564</id>
 				<edge_type>2</edge_type>
 				<source_obj>499</source_obj>
 				<sink_obj>505</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2229">
-				<id>2567</id>
+				<id>2565</id>
 				<edge_type>2</edge_type>
 				<source_obj>502</source_obj>
 				<sink_obj>505</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2230">
-				<id>2568</id>
+				<id>2566</id>
 				<edge_type>2</edge_type>
 				<source_obj>505</source_obj>
 				<sink_obj>123</sink_obj>
 				<is_back_edge>1</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2231">
-				<id>2569</id>
+				<id>2567</id>
 				<edge_type>4</edge_type>
 				<source_obj>116</source_obj>
 				<sink_obj>119</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2232">
-				<id>2570</id>
+				<id>2568</id>
 				<edge_type>4</edge_type>
 				<source_obj>100</source_obj>
 				<sink_obj>521</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2233">
-				<id>2571</id>
+				<id>2569</id>
 				<edge_type>4</edge_type>
 				<source_obj>101</source_obj>
 				<sink_obj>520</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2234">
-				<id>2572</id>
+				<id>2570</id>
 				<edge_type>4</edge_type>
 				<source_obj>102</source_obj>
 				<sink_obj>519</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2235">
-				<id>2573</id>
+				<id>2571</id>
 				<edge_type>4</edge_type>
 				<source_obj>103</source_obj>
 				<sink_obj>518</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2236">
-				<id>2574</id>
+				<id>2572</id>
 				<edge_type>4</edge_type>
 				<source_obj>104</source_obj>
 				<sink_obj>517</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2237">
-				<id>2575</id>
+				<id>2573</id>
 				<edge_type>4</edge_type>
 				<source_obj>105</source_obj>
 				<sink_obj>516</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2238">
-				<id>2576</id>
+				<id>2574</id>
 				<edge_type>4</edge_type>
 				<source_obj>106</source_obj>
 				<sink_obj>515</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2239">
-				<id>2577</id>
+				<id>2575</id>
 				<edge_type>4</edge_type>
 				<source_obj>107</source_obj>
 				<sink_obj>514</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2240">
-				<id>2578</id>
+				<id>2576</id>
 				<edge_type>4</edge_type>
 				<source_obj>108</source_obj>
 				<sink_obj>513</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2241">
-				<id>2579</id>
+				<id>2577</id>
 				<edge_type>4</edge_type>
 				<source_obj>109</source_obj>
 				<sink_obj>512</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2242">
-				<id>2580</id>
+				<id>2578</id>
 				<edge_type>4</edge_type>
 				<source_obj>110</source_obj>
 				<sink_obj>511</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2243">
-				<id>2581</id>
+				<id>2579</id>
 				<edge_type>4</edge_type>
 				<source_obj>111</source_obj>
 				<sink_obj>510</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2244">
-				<id>2582</id>
+				<id>2580</id>
 				<edge_type>4</edge_type>
 				<source_obj>112</source_obj>
 				<sink_obj>509</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2245">
-				<id>2583</id>
+				<id>2581</id>
 				<edge_type>4</edge_type>
 				<source_obj>113</source_obj>
 				<sink_obj>508</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2246">
-				<id>2584</id>
+				<id>2582</id>
 				<edge_type>4</edge_type>
 				<source_obj>114</source_obj>
 				<sink_obj>507</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2247">
-				<id>2585</id>
+				<id>2583</id>
 				<edge_type>4</edge_type>
 				<source_obj>115</source_obj>
 				<sink_obj>506</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2248">
-				<id>2586</id>
+				<id>2584</id>
 				<edge_type>4</edge_type>
 				<source_obj>100</source_obj>
 				<sink_obj>139</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2249">
-				<id>2587</id>
+				<id>2585</id>
 				<edge_type>4</edge_type>
 				<source_obj>101</source_obj>
 				<sink_obj>138</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2250">
-				<id>2588</id>
+				<id>2586</id>
 				<edge_type>4</edge_type>
 				<source_obj>102</source_obj>
 				<sink_obj>137</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2251">
-				<id>2589</id>
+				<id>2587</id>
 				<edge_type>4</edge_type>
 				<source_obj>103</source_obj>
 				<sink_obj>136</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2252">
-				<id>2590</id>
+				<id>2588</id>
 				<edge_type>4</edge_type>
 				<source_obj>104</source_obj>
 				<sink_obj>135</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2253">
-				<id>2591</id>
+				<id>2589</id>
 				<edge_type>4</edge_type>
 				<source_obj>105</source_obj>
 				<sink_obj>134</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2254">
-				<id>2592</id>
+				<id>2590</id>
 				<edge_type>4</edge_type>
 				<source_obj>106</source_obj>
 				<sink_obj>133</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2255">
-				<id>2593</id>
+				<id>2591</id>
 				<edge_type>4</edge_type>
 				<source_obj>107</source_obj>
 				<sink_obj>132</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2256">
-				<id>2594</id>
+				<id>2592</id>
 				<edge_type>4</edge_type>
 				<source_obj>108</source_obj>
 				<sink_obj>131</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2257">
-				<id>2595</id>
+				<id>2593</id>
 				<edge_type>4</edge_type>
 				<source_obj>109</source_obj>
 				<sink_obj>130</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2258">
-				<id>2596</id>
+				<id>2594</id>
 				<edge_type>4</edge_type>
 				<source_obj>110</source_obj>
 				<sink_obj>129</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2259">
-				<id>2597</id>
+				<id>2595</id>
 				<edge_type>4</edge_type>
 				<source_obj>111</source_obj>
 				<sink_obj>128</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2260">
-				<id>2598</id>
+				<id>2596</id>
 				<edge_type>4</edge_type>
 				<source_obj>112</source_obj>
 				<sink_obj>127</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2261">
-				<id>2599</id>
+				<id>2597</id>
 				<edge_type>4</edge_type>
 				<source_obj>113</source_obj>
 				<sink_obj>126</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2262">
-				<id>2600</id>
+				<id>2598</id>
 				<edge_type>4</edge_type>
 				<source_obj>114</source_obj>
 				<sink_obj>125</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2263">
-				<id>2601</id>
+				<id>2599</id>
 				<edge_type>4</edge_type>
 				<source_obj>115</source_obj>
 				<sink_obj>124</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2264">
-				<id>2602</id>
+				<id>2600</id>
 				<edge_type>4</edge_type>
 				<source_obj>100</source_obj>
 				<sink_obj>500</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2265">
-				<id>2603</id>
+				<id>2601</id>
 				<edge_type>4</edge_type>
 				<source_obj>115</source_obj>
 				<sink_obj>497</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2266">
-				<id>2604</id>
+				<id>2602</id>
 				<edge_type>4</edge_type>
 				<source_obj>114</source_obj>
 				<sink_obj>494</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2267">
-				<id>2605</id>
+				<id>2603</id>
 				<edge_type>4</edge_type>
 				<source_obj>113</source_obj>
 				<sink_obj>491</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2268">
-				<id>2606</id>
+				<id>2604</id>
 				<edge_type>4</edge_type>
 				<source_obj>112</source_obj>
 				<sink_obj>488</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2269">
-				<id>2607</id>
+				<id>2605</id>
 				<edge_type>4</edge_type>
 				<source_obj>111</source_obj>
 				<sink_obj>485</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2270">
-				<id>2608</id>
+				<id>2606</id>
 				<edge_type>4</edge_type>
 				<source_obj>110</source_obj>
 				<sink_obj>482</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2271">
-				<id>2609</id>
+				<id>2607</id>
 				<edge_type>4</edge_type>
 				<source_obj>109</source_obj>
 				<sink_obj>479</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2272">
-				<id>2610</id>
+				<id>2608</id>
 				<edge_type>4</edge_type>
 				<source_obj>108</source_obj>
 				<sink_obj>476</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2273">
-				<id>2611</id>
+				<id>2609</id>
 				<edge_type>4</edge_type>
 				<source_obj>107</source_obj>
 				<sink_obj>473</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2274">
-				<id>2612</id>
+				<id>2610</id>
 				<edge_type>4</edge_type>
 				<source_obj>106</source_obj>
 				<sink_obj>470</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2275">
-				<id>2613</id>
+				<id>2611</id>
 				<edge_type>4</edge_type>
 				<source_obj>105</source_obj>
 				<sink_obj>467</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2276">
-				<id>2614</id>
+				<id>2612</id>
 				<edge_type>4</edge_type>
 				<source_obj>104</source_obj>
 				<sink_obj>464</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2277">
-				<id>2615</id>
+				<id>2613</id>
 				<edge_type>4</edge_type>
 				<source_obj>103</source_obj>
 				<sink_obj>461</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2278">
-				<id>2616</id>
+				<id>2614</id>
 				<edge_type>4</edge_type>
 				<source_obj>102</source_obj>
 				<sink_obj>458</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2279">
-				<id>2617</id>
+				<id>2615</id>
 				<edge_type>4</edge_type>
 				<source_obj>101</source_obj>
 				<sink_obj>455</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2280">
-				<id>2618</id>
+				<id>2616</id>
 				<edge_type>4</edge_type>
 				<source_obj>116</source_obj>
 				<sink_obj>503</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2281">
-				<id>2619</id>
+				<id>2617</id>
 				<edge_type>4</edge_type>
 				<source_obj>119</source_obj>
 				<sink_obj>503</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2282">
-				<id>2620</id>
+				<id>2618</id>
 				<edge_type>4</edge_type>
 				<source_obj>139</source_obj>
 				<sink_obj>500</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2283">
-				<id>2621</id>
+				<id>2619</id>
 				<edge_type>4</edge_type>
 				<source_obj>124</source_obj>
 				<sink_obj>497</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2284">
-				<id>2622</id>
+				<id>2620</id>
 				<edge_type>4</edge_type>
 				<source_obj>125</source_obj>
 				<sink_obj>494</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2285">
-				<id>2623</id>
+				<id>2621</id>
 				<edge_type>4</edge_type>
 				<source_obj>126</source_obj>
 				<sink_obj>491</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2286">
-				<id>2624</id>
+				<id>2622</id>
 				<edge_type>4</edge_type>
 				<source_obj>127</source_obj>
 				<sink_obj>488</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2287">
-				<id>2625</id>
+				<id>2623</id>
 				<edge_type>4</edge_type>
 				<source_obj>128</source_obj>
 				<sink_obj>485</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2288">
-				<id>2626</id>
+				<id>2624</id>
 				<edge_type>4</edge_type>
 				<source_obj>129</source_obj>
 				<sink_obj>482</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2289">
-				<id>2627</id>
+				<id>2625</id>
 				<edge_type>4</edge_type>
 				<source_obj>130</source_obj>
 				<sink_obj>479</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2290">
-				<id>2628</id>
+				<id>2626</id>
 				<edge_type>4</edge_type>
 				<source_obj>131</source_obj>
 				<sink_obj>476</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2291">
-				<id>2629</id>
+				<id>2627</id>
 				<edge_type>4</edge_type>
 				<source_obj>132</source_obj>
 				<sink_obj>473</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2292">
-				<id>2630</id>
+				<id>2628</id>
 				<edge_type>4</edge_type>
 				<source_obj>133</source_obj>
 				<sink_obj>470</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2293">
-				<id>2631</id>
+				<id>2629</id>
 				<edge_type>4</edge_type>
 				<source_obj>134</source_obj>
 				<sink_obj>467</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2294">
-				<id>2632</id>
+				<id>2630</id>
 				<edge_type>4</edge_type>
 				<source_obj>135</source_obj>
 				<sink_obj>464</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2295">
-				<id>2633</id>
+				<id>2631</id>
 				<edge_type>4</edge_type>
 				<source_obj>136</source_obj>
 				<sink_obj>461</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2296">
-				<id>2634</id>
+				<id>2632</id>
 				<edge_type>4</edge_type>
 				<source_obj>137</source_obj>
 				<sink_obj>458</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_2297">
-				<id>2635</id>
+				<id>2633</id>
 				<edge_type>4</edge_type>
 				<source_obj>138</source_obj>
 				<sink_obj>455</sink_obj>
@@ -46826,14 +46350,6 @@
 		<count>0</count>
 		<item_version>0</item_version>
 	</node2core>
-	<sched_res class_id="39" tracking_level="1" version="0" object_id="_2303">
-		<ResourceTableActual class_id="40" tracking_level="0" version="0">
-			<II>1</II>
-		</ResourceTableActual>
-		<ResourceTableFailed class_id="41" tracking_level="0" version="0">
-			<II>-1</II>
-		</ResourceTableFailed>
-	</sched_res>
 </syndb>
 </boost_serialization>
 

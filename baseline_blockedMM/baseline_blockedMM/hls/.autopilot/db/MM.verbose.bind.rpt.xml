@@ -1,9 +1,9 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'MM'" level="0">
-<item name = "Date">Wed Apr  8 12:46:17 2026
+<item name = "Date">Fri Apr 10 13:18:53 2026
 </item>
-<item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
+<item name = "Version">2025.1 (Build 6135595 on May 21 2025)</item>
 <item name = "Project">baseline_blockedMM</item>
 <item name = "Solution">hls (Vivado IP Flow Target)</item>
 <item name = "Product family">zynq</item>
@@ -31,7 +31,7 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_MM_Pipeline_i_loop_fu_879">MM_Pipeline_i_loop, 19, 19, 0.285 us, 0.285 us, 0, 0, loop pipeline stp</column>
+<column name="grp_MM_Pipeline_i_loop_fu_883">MM_Pipeline_i_loop, 19, 19, 0.285 us, 0.285 us, 17, 17, loop auto-rewind stp (delay=0 clock cycles(s))</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">

@@ -1,8 +1,8 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
-| Date         : Wed Apr  8 12:57:11 2026
-| Host         : jwood_Win_PC running 64-bit major release  (build 9200)
+| Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
+| Date         : Fri Apr 10 13:36:17 2026
+| Host         : LAPTOP-L6H807T2 running 64-bit major release  (build 9200)
 | Command      : report_design_analysis -file ./report/MM_design_analysis_synth.rpt
 | Design       : bd_0_wrapper
 | Device       : xc7z020
@@ -16,6 +16,7 @@ Table of Contents
 1. Setup Path Characteristics 1-1
 2. Logic Level Distribution
 3. Placer Final Level Congestion Reporting
+4. SLR Net Crossing Reporting
 
 1. Setup Path Characteristics 1-1
 ---------------------------------
@@ -49,8 +50,8 @@ Table of Contents
 | Mark Debug                | 0                                               |
 | Start Point Pin Primitive | FDRE/C                                          |
 | End Point Pin Primitive   | DSP48E1/PCIN[0]                                 |
-| Start Point Pin           | add_ln86_reg_4249_reg[16]/C                     |
-| End Point Pin             | reg_961_reg/PCIN[0]                             |
+| Start Point Pin           | add_ln86_reg_4245_reg[16]/C                     |
+| End Point Pin             | reg_965_reg/PCIN[0]                             |
 +---------------------------+-------------------------------------------------+
 * Bounding box calculated as % of dimensions for the target device (308, 299)
 
@@ -61,7 +62,7 @@ Table of Contents
 +-----------------+-------------+-----+----+----+---+----+----+----+----+----+----+----+----+----+----+----+----+
 | End Point Clock | Requirement |  0  |  1 |  2 | 6 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 |
 +-----------------+-------------+-----+----+----+---+----+----+----+----+----+----+----+----+----+----+----+----+
-| ap_clk          | 15.000ns    | 713 | 49 | 65 | 2 | 12 | 12 | 12 | 12 | 12 | 12 | 12 | 12 | 32 | 22 | 12 |  9 |
+| ap_clk          | 15.000ns    | 709 | 53 | 65 | 2 | 12 | 12 | 12 | 12 | 12 | 12 | 12 | 12 | 32 | 22 | 12 |  9 |
 +-----------------+-------------+-----+----+----+---+----+----+----+----+----+----+----+----+----+----+----+----+
 * Columns represent the logic levels per end point clock
 ** Distribution is for top worst 1000 paths
@@ -74,5 +75,14 @@ Table of Contents
 | Direction | Type | Level | Congestion | Window | Combined LUTs | Avg LUT Inputs | LUT | LUTRAM | Flop | MUXF | RAMB | DSP | CARRY | SRL | Cell Names |
 +-----------+------+-------+------------+--------+---------------+----------------+-----+--------+------+------+------+-----+-------+-----+------------+
 * The design has not been placed, hence congestion data is not available. The command report_design_analysis -congestion should be run only after place_design has completed.
+
+
+4. SLR Net Crossing Reporting
+-----------------------------
+
++------------+-----------------------------+
+| Cell Names | Number of Nets crossing SLR |
++------------+-----------------------------+
+* The current part is not an SSI device
 
 

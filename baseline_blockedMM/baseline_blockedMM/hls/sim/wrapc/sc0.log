@@ -1,6 +1,0 @@
-   Build using "T:/AMDDesignTools/2025.2/Vitis/win64/tools/clang-16/bin/clang++"
-   Compiling apatb_MM.cpp
-   Compiling mm.cpp_pre.cpp.tb.cpp
-   Compiling mm_test.cpp_pre.cpp.tb.cpp
-   Compiling apatb_MM_ir.ll
-   Generating cosim.tv.exe

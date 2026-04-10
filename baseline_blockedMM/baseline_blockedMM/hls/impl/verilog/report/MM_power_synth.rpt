@@ -1,8 +1,8 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
-| Tool Version     : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
-| Date             : Wed Apr  8 12:57:07 2026
-| Host             : jwood_Win_PC running 64-bit major release  (build 9200)
+| Tool Version     : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
+| Date             : Fri Apr 10 13:36:11 2026
+| Host             : LAPTOP-L6H807T2 running 64-bit major release  (build 9200)
 | Command          : report_power -file ./report/MM_power_synth.rpt -xpe ./MM_power.xpe
 | Design           : bd_0_wrapper
 | Device           : xc7z020clg400-1
@@ -33,7 +33,7 @@ Table of Contents
 | Total On-Chip Power (W)  | 0.380        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.272        |
+| Dynamic (W)              | 0.273        |
 | Device Static (W)        | 0.107        |
 | Effective TJA (C/W)      | 11.5         |
 | Max Ambient (C)          | 80.6         |
@@ -53,14 +53,14 @@ Table of Contents
 | On-Chip                 | Power (W) | Used     | Available | Utilization (%) |
 +-------------------------+-----------+----------+-----------+-----------------+
 | Clocks                  |     0.036 |        3 |       --- |             --- |
-| Slice Logic             |     0.111 |    75627 |       --- |             --- |
-|   LUT as Logic          |     0.106 |    25006 |     53200 |           47.00 |
-|   CARRY4                |     0.002 |      718 |     13300 |            5.40 |
-|   Register              |     0.002 |    33144 |    106400 |           31.15 |
+| Slice Logic             |     0.111 |    75796 |       --- |             --- |
+|   LUT as Logic          |     0.106 |    25061 |     53200 |           47.11 |
+|   CARRY4                |     0.002 |      752 |     13300 |            5.65 |
+|   Register              |     0.002 |    33152 |    106400 |           31.16 |
 |   F7/F8 Muxes           |     0.001 |     3008 |     53200 |            5.65 |
 |   LUT as Shift Register |    <0.001 |      761 |     17400 |            4.37 |
 |   Others                |     0.000 |      128 |       --- |             --- |
-| Signals                 |     0.077 |    52904 |       --- |             --- |
+| Signals                 |     0.077 |    52816 |       --- |             --- |
 | Block RAM               |     0.019 |      7.5 |       140 |            5.36 |
 | DSPs                    |     0.029 |       54 |       220 |           24.55 |
 | Static Power            |     0.107 |          |           |                 |
@@ -150,10 +150,10 @@ Table of Contents
 +--------------+-----------+
 | Name         | Power (W) |
 +--------------+-----------+
-| bd_0_wrapper |     0.272 |
-|   bd_0_i     |     0.272 |
-|     hls_inst |     0.272 |
-|       inst   |     0.272 |
+| bd_0_wrapper |     0.273 |
+|   bd_0_i     |     0.273 |
+|     hls_inst |     0.273 |
+|       inst   |     0.273 |
 +--------------+-----------+
 
 

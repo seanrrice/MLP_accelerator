@@ -13,7 +13,7 @@
 						"AP_START": { "actual": "ap_start"}
 					}
 				},
-				"grp_MM_Pipeline_i_loop_fu_879/grp_MM_Pipeline_i_loop_fu_879_activity": {
+				"grp_MM_Pipeline_i_loop_fu_883/grp_MM_Pipeline_i_loop_fu_883_activity": {
 					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
 					"ports": {
 						"AP_CLK": { "actual": "ap_clk"},

@@ -1,6 +1,6 @@
 # ==============================================================
-# Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.2 (64-bit)
-# Tool Version Limit: 2025.11
+# Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2025.1 (64-bit)
+# Tool Version Limit: 2025.05
 # Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 # Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 # 
@@ -49,7 +49,7 @@ dict set report_options clock_name $clock
 dict set report_options error_if_impl_timing_fails false
 dict set report_options topmodule "MM"
 dict set report_options funcmodules MM_MM_Pipeline_i_loop
-dict set report_options bindmodules {MM_mul_32s_32s_32_1_1 MM_sparsemux_33_4_32_1_1 MM_flow_control_loop_pipe_sequential_init MM_mul_31ns_32s_32_1_1 MM_gmem_m_axi MM_control_s_axi}
+dict set report_options bindmodules {MM_mul_32s_32s_32_1_1 MM_sparsemux_33_4_32_1_1 MM_flow_control_loop_pipe_sequential_init MM_gmem_m_axi MM_control_s_axi}
 dict set report_options max_module_depth 6
 
 

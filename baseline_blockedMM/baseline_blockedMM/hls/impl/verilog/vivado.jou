@@ -1,24 +1,24 @@
 #-----------------------------------------------------------
-# Vivado v2025.2 (64-bit)
-# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
-# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
-# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
-# Start of session at: Wed Apr  8 12:50:51 2026
-# Process ID         : 41196
-# Current directory  : Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Fri Apr 10 13:23:58 2026
+# Process ID         : 17700
+# Current directory  : C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog
 # Command line       : vivado.exe -mode batch -source run_vivado.tcl
-# Log file           : Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/vivado.log
-# Journal file       : Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog\vivado.jou
-# Running On         : jwood_Win_PC
+# Log file           : C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/vivado.log
+# Journal file       : C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog\vivado.jou
+# Running On         : LAPTOP-L6H807T2
 # Platform           : Windows Server 2016 or Windows 10
 # Operating System   : 26200
-# Processor Detail   : AMD Ryzen 9 5900HS with Radeon Graphics        
-# CPU Frequency      : 3294 MHz
-# CPU Physical cores : 8
-# CPU Logical cores  : 16
-# Host memory        : 16541 MB
-# Swap memory        : 15032 MB
-# Total Virtual      : 31573 MB
-# Available Virtual  : 3700 MB
+# Processor Detail   : Intel(R) Pentium(R) Gold 7505 @ 2.00GHz
+# CPU Frequency      : 1997 MHz
+# CPU Physical cores : 2
+# CPU Logical cores  : 4
+# Host memory        : 8241 MB
+# Swap memory        : 16301 MB
+# Total Virtual      : 24542 MB
+# Available Virtual  : 4994 MB
 #-----------------------------------------------------------
 source run_vivado.tcl

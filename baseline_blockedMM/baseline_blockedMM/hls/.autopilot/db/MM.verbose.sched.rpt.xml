@@ -1,9 +1,9 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'MM'" level="0">
-<item name = "Date">Wed Apr  8 12:46:17 2026
+<item name = "Date">Fri Apr 10 13:18:53 2026
 </item>
-<item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
+<item name = "Version">2025.1 (Build 6135595 on May 21 2025)</item>
 <item name = "Project">baseline_blockedMM</item>
 <item name = "Solution">hls (Vivado IP Flow Target)</item>
 <item name = "Product family">zynq</item>

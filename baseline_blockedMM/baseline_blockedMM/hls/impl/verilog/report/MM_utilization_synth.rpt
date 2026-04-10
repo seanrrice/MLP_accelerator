@@ -1,8 +1,8 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
-| Date         : Wed Apr  8 12:56:42 2026
-| Host         : jwood_Win_PC running 64-bit major release  (build 9200)
+| Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
+| Date         : Fri Apr 10 13:35:10 2026
+| Host         : LAPTOP-L6H807T2 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file ./report/MM_utilization_synth.rpt
 | Design       : bd_0_wrapper
 | Device       : xc7z020clg400-1
@@ -31,22 +31,20 @@ Table of Contents
 +----------------------------+-------+-------+------------+-----------+-------+
 |          Site Type         |  Used | Fixed | Prohibited | Available | Util% |
 +----------------------------+-------+-------+------------+-----------+-------+
-| Slice LUTs*                | 25767 |     0 |          0 |     53200 | 48.43 |
-|   LUT as Logic             | 25006 |     0 |          0 |     53200 | 47.00 |
+| Slice LUTs*                | 25822 |     0 |          0 |     53200 | 48.54 |
+|   LUT as Logic             | 25061 |     0 |          0 |     53200 | 47.11 |
 |   LUT as Memory            |   761 |     0 |          0 |     17400 |  4.37 |
 |     LUT as Distributed RAM |     0 |     0 |            |           |       |
 |     LUT as Shift Register  |   761 |     0 |            |           |       |
-| Slice Registers            | 33144 |     0 |          0 |    106400 | 31.15 |
-|   Register as Flip Flop    | 33144 |     0 |          0 |    106400 | 31.15 |
+| Slice Registers            | 33152 |     0 |          0 |    106400 | 31.16 |
+|   Register as Flip Flop    | 33152 |     0 |          0 |    106400 | 31.16 |
 |   Register as Latch        |     0 |     0 |          0 |    106400 |  0.00 |
 | F7 Muxes                   |  2304 |     0 |          0 |     26600 |  8.66 |
 | F8 Muxes                   |   704 |     0 |          0 |     13300 |  5.29 |
-| Unique Control Sets        |   151 |       |          0 |     13300 |  1.14 |
 +----------------------------+-------+-------+------------+-----------+-------+
 * Warning! The Final LUT count, after physical optimizations and full implementation, is typically lower. Run opt_design after synthesis, if not already completed, for a more realistic count.
 Warning! LUT value is adjusted to account for LUT combining.
 Warning! For any ECO changes, please run place_design if there are unplaced instances
-** Note: Available Control Sets calculated as Slice * 1, Review the Control Sets Report for more information regarding control sets.
 
 
 1.1 Summary of Registers by Type
@@ -64,7 +62,7 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 | 0     |          Yes |           - |          Set |
 | 0     |          Yes |           - |        Reset |
 | 18    |          Yes |         Set |            - |
-| 33126 |          Yes |       Reset |            - |
+| 33134 |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -156,15 +154,15 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 +----------+-------+---------------------+
 | Ref Name |  Used | Functional Category |
 +----------+-------+---------------------+
-| FDRE     | 33126 |        Flop & Latch |
-| LUT3     | 25683 |                 LUT |
-| LUT6     |  8312 |                 LUT |
+| FDRE     | 33134 |        Flop & Latch |
+| LUT3     | 25788 |                 LUT |
+| LUT6     |  8303 |                 LUT |
 | MUXF7    |  2304 |               MuxFx |
-| LUT5     |  1784 |                 LUT |
-| LUT4     |  1007 |                 LUT |
-| CARRY4   |   718 |          CarryLogic |
+| LUT5     |  1785 |                 LUT |
+| LUT4     |  1009 |                 LUT |
+| CARRY4   |   752 |          CarryLogic |
 | MUXF8    |   704 |               MuxFx |
-| LUT2     |   620 |                 LUT |
+| LUT2     |   648 |                 LUT |
 | SRLC32E  |   576 |  Distributed Memory |
 | LUT1     |   462 |                 LUT |
 | SRL16E   |   185 |  Distributed Memory |

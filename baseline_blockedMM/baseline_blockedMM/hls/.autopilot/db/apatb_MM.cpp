@@ -90,15 +90,6 @@ namespace hls::sim
   }
 }
 
-
-static std::vector<unsigned> autorestart_seq;
-extern "C" {
-  void __hls_sim_static_autorestart_seq_push(int value);
-}
-
-void __hls_sim_static_autorestart_seq_push(int value) {
-  autorestart_seq.push_back(value);
-}
 namespace hls::sim
 {
   size_t divide_ceil(size_t a, size_t b)
@@ -558,17 +549,6 @@ namespace hls::sim
          << "  BitWidth " << widthHBM << "\n"
          << "}\n";
     }
-    
-    void formatAutorestartSeq()
-    {
-      if (!autorestart_seq.empty()) {
-        ss << "set Autorestart_seq {\n";
-        for (const auto &val : autorestart_seq) {
-          ss << "  " << val << "\n";
-        }
-        ss << "}\n";
-      }
-    }
 
     void close()
     {
@@ -576,7 +556,6 @@ namespace hls::sim
       formatTransDepth();
       formatContainsVLA();
       formatTransNum();
-      formatAutorestartSeq();
       if (nameHBM != "") {
         formatHBM();
       }
@@ -1383,7 +1362,7 @@ void apatb_MM_hw(void* __xlx_apatb_param_AT, void* __xlx_apatb_param_B, void* __
   };
   port7.param = { __xlx_apatb_param_AT, __xlx_apatb_param_B, __xlx_apatb_param_C, __xlx_apatb_param_ABC };
   port7.mname = { "AT", "B", "C", "ABC" };
-  port7.nbytes = { 4096, 4096, 128, 4096 };
+  port7.nbytes = { 51380224, 6422528, 4096, 8388608 };
   for (size_t i = 0; i < port7.nbytes.size(); ++i) {
     if (port7.nbytes[i] > port7.max_nbytes[i]) {
       port7.max_nbytes[i] = port7.nbytes[i];

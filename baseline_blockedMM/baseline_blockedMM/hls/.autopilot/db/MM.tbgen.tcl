@@ -6,7 +6,6 @@ set isPipelined 0
 set isPipelined_legacy 0
 set pipeline_type none
 set FunctionProtocol ap_ctrl_hs
-set restart_counter_num 0
 set isOneStateSeq 0
 set ProfileFlag 0
 set StallSigGenFlag 0
@@ -33,7 +32,7 @@ set hasAXIMCache 0
 set l_AXIML2Cache [list]
 set AXIMCacheInstDict [dict create]
 set C_modelArgMapList {[ 
-	{ "Name" : "gmem", "interface" : "axi_master", "bitwidth" : 512, "direction" : "READWRITE", "id_num" : 1, "bitSlice":[ {"cElement": [{"cName": "AT","offset": { "type": "dynamic","port_name": "AT","bundle": "control"},"direction": "READONLY"},{"cName": "B","offset": { "type": "dynamic","port_name": "B","bundle": "control"},"direction": "READONLY"},{"cName": "C","offset": { "type": "dynamic","port_name": "C","bundle": "control"},"direction": "READONLY"},{"cName": "ABC","offset": { "type": "dynamic","port_name": "ABC","bundle": "control"},"direction": "WRITEONLY"}]}]} , 
+	{ "Name" : "gmem", "interface" : "axi_master", "bitwidth" : 512, "direction" : "READWRITE", "bitSlice":[ {"cElement": [{"cName": "AT","offset": { "type": "dynamic","port_name": "AT","bundle": "control"},"direction": "READONLY"},{"cName": "B","offset": { "type": "dynamic","port_name": "B","bundle": "control"},"direction": "READONLY"},{"cName": "C","offset": { "type": "dynamic","port_name": "C","bundle": "control"},"direction": "READONLY"},{"cName": "ABC","offset": { "type": "dynamic","port_name": "ABC","bundle": "control"},"direction": "WRITEONLY"}]}]} , 
  	{ "Name" : "AT", "interface" : "axi_slave", "bundle":"control","type":"ap_none","bitwidth" : 64, "direction" : "READONLY", "offset" : {"in":16}, "offset_end" : {"in":27}} , 
  	{ "Name" : "B", "interface" : "axi_slave", "bundle":"control","type":"ap_none","bitwidth" : 64, "direction" : "READONLY", "offset" : {"in":28}, "offset_end" : {"in":39}} , 
  	{ "Name" : "C", "interface" : "axi_slave", "bundle":"control","type":"ap_none","bitwidth" : 64, "direction" : "READONLY", "offset" : {"in":40}, "offset_end" : {"in":51}} , 
@@ -188,24 +187,25 @@ set ArgLastReadFirstWriteLatency {
 		M {Type I LastRead 0 FirstWrite -1}
 		P {Type I LastRead 0 FirstWrite -1}}
 	MM_Pipeline_i_loop {
-		AB_block_47 {Type I LastRead 0 FirstWrite -1}
-		AB_block_46 {Type I LastRead 0 FirstWrite -1}
-		AB_block_45 {Type I LastRead 0 FirstWrite -1}
-		AB_block_44 {Type I LastRead 0 FirstWrite -1}
-		AB_block_43 {Type I LastRead 0 FirstWrite -1}
-		AB_block_42 {Type I LastRead 0 FirstWrite -1}
-		AB_block_41 {Type I LastRead 0 FirstWrite -1}
-		AB_block_40 {Type I LastRead 0 FirstWrite -1}
-		AB_block_39 {Type I LastRead 0 FirstWrite -1}
-		AB_block_38 {Type I LastRead 0 FirstWrite -1}
-		AB_block_37 {Type I LastRead 0 FirstWrite -1}
-		AB_block_36 {Type I LastRead 0 FirstWrite -1}
-		AB_block_35 {Type I LastRead 0 FirstWrite -1}
-		AB_block_34 {Type I LastRead 0 FirstWrite -1}
-		AB_block_33 {Type I LastRead 0 FirstWrite -1}
-		AB_block_32 {Type I LastRead 0 FirstWrite -1}
-		A_line {Type I LastRead 0 FirstWrite -1}
+		AB_block_15_1 {Type I LastRead 0 FirstWrite -1}
+		AB_block_14_1 {Type I LastRead 0 FirstWrite -1}
+		AB_block_13_1 {Type I LastRead 0 FirstWrite -1}
+		AB_block_12_1 {Type I LastRead 0 FirstWrite -1}
+		AB_block_11_1 {Type I LastRead 0 FirstWrite -1}
+		AB_block_10_1 {Type I LastRead 0 FirstWrite -1}
+		AB_block_9_1 {Type I LastRead 0 FirstWrite -1}
+		AB_block_8_1 {Type I LastRead 0 FirstWrite -1}
+		AB_block_7_1 {Type I LastRead 0 FirstWrite -1}
+		AB_block_6_1 {Type I LastRead 0 FirstWrite -1}
+		AB_block_5_1 {Type I LastRead 0 FirstWrite -1}
+		AB_block_4_1 {Type I LastRead 0 FirstWrite -1}
+		AB_block_3_1 {Type I LastRead 0 FirstWrite -1}
+		AB_block_2_1 {Type I LastRead 0 FirstWrite -1}
+		AB_block_1_1 {Type I LastRead 0 FirstWrite -1}
+		AB_block_0_1 {Type I LastRead 0 FirstWrite -1}
+		gmem_load_17 {Type I LastRead 0 FirstWrite -1}
 		empty {Type I LastRead 0 FirstWrite -1}
+		trunc_ln63_1 {Type I LastRead 0 FirstWrite -1}
 		trunc_ln63_2 {Type I LastRead 0 FirstWrite -1}
 		trunc_ln63_3 {Type I LastRead 0 FirstWrite -1}
 		trunc_ln63_4 {Type I LastRead 0 FirstWrite -1}
@@ -220,23 +220,22 @@ set ArgLastReadFirstWriteLatency {
 		trunc_ln63_13 {Type I LastRead 0 FirstWrite -1}
 		trunc_ln63_14 {Type I LastRead 0 FirstWrite -1}
 		trunc_ln63_15 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_16 {Type I LastRead 0 FirstWrite -1}
-		AB_block_63_out {Type O LastRead -1 FirstWrite 1}
-		AB_block_62_out {Type O LastRead -1 FirstWrite 1}
-		AB_block_61_out {Type O LastRead -1 FirstWrite 1}
-		AB_block_60_out {Type O LastRead -1 FirstWrite 1}
-		AB_block_59_out {Type O LastRead -1 FirstWrite 1}
-		AB_block_58_out {Type O LastRead -1 FirstWrite 1}
-		AB_block_57_out {Type O LastRead -1 FirstWrite 1}
-		AB_block_56_out {Type O LastRead -1 FirstWrite 1}
-		AB_block_55_out {Type O LastRead -1 FirstWrite 1}
-		AB_block_54_out {Type O LastRead -1 FirstWrite 1}
-		AB_block_53_out {Type O LastRead -1 FirstWrite 1}
-		AB_block_52_out {Type O LastRead -1 FirstWrite 1}
-		AB_block_51_out {Type O LastRead -1 FirstWrite 1}
-		AB_block_50_out {Type O LastRead -1 FirstWrite 1}
-		AB_block_49_out {Type O LastRead -1 FirstWrite 1}
-		AB_block_48_out {Type O LastRead -1 FirstWrite 1}}}
+		AB_block_15_2_out {Type O LastRead -1 FirstWrite 1}
+		AB_block_14_2_out {Type O LastRead -1 FirstWrite 1}
+		AB_block_13_2_out {Type O LastRead -1 FirstWrite 1}
+		AB_block_12_2_out {Type O LastRead -1 FirstWrite 1}
+		AB_block_11_2_out {Type O LastRead -1 FirstWrite 1}
+		AB_block_10_2_out {Type O LastRead -1 FirstWrite 1}
+		AB_block_9_2_out {Type O LastRead -1 FirstWrite 1}
+		AB_block_8_2_out {Type O LastRead -1 FirstWrite 1}
+		AB_block_7_2_out {Type O LastRead -1 FirstWrite 1}
+		AB_block_6_2_out {Type O LastRead -1 FirstWrite 1}
+		AB_block_5_2_out {Type O LastRead -1 FirstWrite 1}
+		AB_block_4_2_out {Type O LastRead -1 FirstWrite 1}
+		AB_block_3_2_out {Type O LastRead -1 FirstWrite 1}
+		AB_block_2_2_out {Type O LastRead -1 FirstWrite 1}
+		AB_block_1_2_out {Type O LastRead -1 FirstWrite 1}
+		AB_block_0_2_out {Type O LastRead -1 FirstWrite 1}}}
 
 set hasDtUnsupportedChannel 0
 

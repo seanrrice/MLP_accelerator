@@ -22,14 +22,14 @@ if {${::AESL::PGuard_autoexp_gen}} {
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 35 \
-    name AB_block_47 \
+    name AB_block_15_1 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_47 \
+    corename dc_AB_block_15_1 \
     op interface \
-    ports { AB_block_47 { I 512 vector } } \
+    ports { AB_block_15_1 { I 512 vector } } \
 } "
 }
 
@@ -37,14 +37,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 36 \
-    name AB_block_46 \
+    name AB_block_14_1 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_46 \
+    corename dc_AB_block_14_1 \
     op interface \
-    ports { AB_block_46 { I 512 vector } } \
+    ports { AB_block_14_1 { I 512 vector } } \
 } "
 }
 
@@ -52,14 +52,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 37 \
-    name AB_block_45 \
+    name AB_block_13_1 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_45 \
+    corename dc_AB_block_13_1 \
     op interface \
-    ports { AB_block_45 { I 512 vector } } \
+    ports { AB_block_13_1 { I 512 vector } } \
 } "
 }
 
@@ -67,14 +67,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 38 \
-    name AB_block_44 \
+    name AB_block_12_1 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_44 \
+    corename dc_AB_block_12_1 \
     op interface \
-    ports { AB_block_44 { I 512 vector } } \
+    ports { AB_block_12_1 { I 512 vector } } \
 } "
 }
 
@@ -82,14 +82,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 39 \
-    name AB_block_43 \
+    name AB_block_11_1 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_43 \
+    corename dc_AB_block_11_1 \
     op interface \
-    ports { AB_block_43 { I 512 vector } } \
+    ports { AB_block_11_1 { I 512 vector } } \
 } "
 }
 
@@ -97,14 +97,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 40 \
-    name AB_block_42 \
+    name AB_block_10_1 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_42 \
+    corename dc_AB_block_10_1 \
     op interface \
-    ports { AB_block_42 { I 512 vector } } \
+    ports { AB_block_10_1 { I 512 vector } } \
 } "
 }
 
@@ -112,14 +112,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 41 \
-    name AB_block_41 \
+    name AB_block_9_1 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_41 \
+    corename dc_AB_block_9_1 \
     op interface \
-    ports { AB_block_41 { I 512 vector } } \
+    ports { AB_block_9_1 { I 512 vector } } \
 } "
 }
 
@@ -127,14 +127,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 42 \
-    name AB_block_40 \
+    name AB_block_8_1 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_40 \
+    corename dc_AB_block_8_1 \
     op interface \
-    ports { AB_block_40 { I 512 vector } } \
+    ports { AB_block_8_1 { I 512 vector } } \
 } "
 }
 
@@ -142,14 +142,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 43 \
-    name AB_block_39 \
+    name AB_block_7_1 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_39 \
+    corename dc_AB_block_7_1 \
     op interface \
-    ports { AB_block_39 { I 512 vector } } \
+    ports { AB_block_7_1 { I 512 vector } } \
 } "
 }
 
@@ -157,14 +157,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 44 \
-    name AB_block_38 \
+    name AB_block_6_1 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_38 \
+    corename dc_AB_block_6_1 \
     op interface \
-    ports { AB_block_38 { I 512 vector } } \
+    ports { AB_block_6_1 { I 512 vector } } \
 } "
 }
 
@@ -172,14 +172,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 45 \
-    name AB_block_37 \
+    name AB_block_5_1 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_37 \
+    corename dc_AB_block_5_1 \
     op interface \
-    ports { AB_block_37 { I 512 vector } } \
+    ports { AB_block_5_1 { I 512 vector } } \
 } "
 }
 
@@ -187,14 +187,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 46 \
-    name AB_block_36 \
+    name AB_block_4_1 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_36 \
+    corename dc_AB_block_4_1 \
     op interface \
-    ports { AB_block_36 { I 512 vector } } \
+    ports { AB_block_4_1 { I 512 vector } } \
 } "
 }
 
@@ -202,14 +202,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 47 \
-    name AB_block_35 \
+    name AB_block_3_1 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_35 \
+    corename dc_AB_block_3_1 \
     op interface \
-    ports { AB_block_35 { I 512 vector } } \
+    ports { AB_block_3_1 { I 512 vector } } \
 } "
 }
 
@@ -217,14 +217,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 48 \
-    name AB_block_34 \
+    name AB_block_2_1 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_34 \
+    corename dc_AB_block_2_1 \
     op interface \
-    ports { AB_block_34 { I 512 vector } } \
+    ports { AB_block_2_1 { I 512 vector } } \
 } "
 }
 
@@ -232,14 +232,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 49 \
-    name AB_block_33 \
+    name AB_block_1_1 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_33 \
+    corename dc_AB_block_1_1 \
     op interface \
-    ports { AB_block_33 { I 512 vector } } \
+    ports { AB_block_1_1 { I 512 vector } } \
 } "
 }
 
@@ -247,14 +247,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 50 \
-    name AB_block_32 \
+    name AB_block_0_1 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_32 \
+    corename dc_AB_block_0_1 \
     op interface \
-    ports { AB_block_32 { I 512 vector } } \
+    ports { AB_block_0_1 { I 512 vector } } \
 } "
 }
 
@@ -262,14 +262,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 51 \
-    name A_line \
+    name gmem_load_17 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_A_line \
+    corename dc_gmem_load_17 \
     op interface \
-    ports { A_line { I 512 vector } } \
+    ports { gmem_load_17 { I 512 vector } } \
 } "
 }
 
@@ -292,6 +292,21 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 53 \
+    name trunc_ln63_1 \
+    type other \
+    dir I \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_trunc_ln63_1 \
+    op interface \
+    ports { trunc_ln63_1 { I 32 vector } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 54 \
     name trunc_ln63_2 \
     type other \
     dir I \
@@ -306,7 +321,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 54 \
+    id 55 \
     name trunc_ln63_3 \
     type other \
     dir I \
@@ -321,7 +336,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 55 \
+    id 56 \
     name trunc_ln63_4 \
     type other \
     dir I \
@@ -336,7 +351,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 56 \
+    id 57 \
     name trunc_ln63_5 \
     type other \
     dir I \
@@ -351,7 +366,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 57 \
+    id 58 \
     name trunc_ln63_6 \
     type other \
     dir I \
@@ -366,7 +381,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 58 \
+    id 59 \
     name trunc_ln63_7 \
     type other \
     dir I \
@@ -381,7 +396,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 59 \
+    id 60 \
     name trunc_ln63_8 \
     type other \
     dir I \
@@ -396,7 +411,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 60 \
+    id 61 \
     name trunc_ln63_9 \
     type other \
     dir I \
@@ -411,7 +426,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 61 \
+    id 62 \
     name trunc_ln63_10 \
     type other \
     dir I \
@@ -426,7 +441,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 62 \
+    id 63 \
     name trunc_ln63_11 \
     type other \
     dir I \
@@ -441,7 +456,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 63 \
+    id 64 \
     name trunc_ln63_12 \
     type other \
     dir I \
@@ -456,7 +471,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 64 \
+    id 65 \
     name trunc_ln63_13 \
     type other \
     dir I \
@@ -471,7 +486,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 65 \
+    id 66 \
     name trunc_ln63_14 \
     type other \
     dir I \
@@ -486,7 +501,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 66 \
+    id 67 \
     name trunc_ln63_15 \
     type other \
     dir I \
@@ -501,30 +516,15 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 67 \
-    name trunc_ln63_16 \
-    type other \
-    dir I \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_trunc_ln63_16 \
-    op interface \
-    ports { trunc_ln63_16 { I 32 vector } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
     id 68 \
-    name AB_block_63_out \
+    name AB_block_15_2_out \
     type other \
     dir O \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_63_out \
+    corename dc_AB_block_15_2_out \
     op interface \
-    ports { AB_block_63_out { O 512 vector } AB_block_63_out_ap_vld { O 1 bit } } \
+    ports { AB_block_15_2_out { O 512 vector } AB_block_15_2_out_ap_vld { O 1 bit } } \
 } "
 }
 
@@ -532,14 +532,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 69 \
-    name AB_block_62_out \
+    name AB_block_14_2_out \
     type other \
     dir O \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_62_out \
+    corename dc_AB_block_14_2_out \
     op interface \
-    ports { AB_block_62_out { O 512 vector } AB_block_62_out_ap_vld { O 1 bit } } \
+    ports { AB_block_14_2_out { O 512 vector } AB_block_14_2_out_ap_vld { O 1 bit } } \
 } "
 }
 
@@ -547,14 +547,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 70 \
-    name AB_block_61_out \
+    name AB_block_13_2_out \
     type other \
     dir O \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_61_out \
+    corename dc_AB_block_13_2_out \
     op interface \
-    ports { AB_block_61_out { O 512 vector } AB_block_61_out_ap_vld { O 1 bit } } \
+    ports { AB_block_13_2_out { O 512 vector } AB_block_13_2_out_ap_vld { O 1 bit } } \
 } "
 }
 
@@ -562,14 +562,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 71 \
-    name AB_block_60_out \
+    name AB_block_12_2_out \
     type other \
     dir O \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_60_out \
+    corename dc_AB_block_12_2_out \
     op interface \
-    ports { AB_block_60_out { O 512 vector } AB_block_60_out_ap_vld { O 1 bit } } \
+    ports { AB_block_12_2_out { O 512 vector } AB_block_12_2_out_ap_vld { O 1 bit } } \
 } "
 }
 
@@ -577,14 +577,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 72 \
-    name AB_block_59_out \
+    name AB_block_11_2_out \
     type other \
     dir O \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_59_out \
+    corename dc_AB_block_11_2_out \
     op interface \
-    ports { AB_block_59_out { O 512 vector } AB_block_59_out_ap_vld { O 1 bit } } \
+    ports { AB_block_11_2_out { O 512 vector } AB_block_11_2_out_ap_vld { O 1 bit } } \
 } "
 }
 
@@ -592,14 +592,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 73 \
-    name AB_block_58_out \
+    name AB_block_10_2_out \
     type other \
     dir O \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_58_out \
+    corename dc_AB_block_10_2_out \
     op interface \
-    ports { AB_block_58_out { O 512 vector } AB_block_58_out_ap_vld { O 1 bit } } \
+    ports { AB_block_10_2_out { O 512 vector } AB_block_10_2_out_ap_vld { O 1 bit } } \
 } "
 }
 
@@ -607,14 +607,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 74 \
-    name AB_block_57_out \
+    name AB_block_9_2_out \
     type other \
     dir O \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_57_out \
+    corename dc_AB_block_9_2_out \
     op interface \
-    ports { AB_block_57_out { O 512 vector } AB_block_57_out_ap_vld { O 1 bit } } \
+    ports { AB_block_9_2_out { O 512 vector } AB_block_9_2_out_ap_vld { O 1 bit } } \
 } "
 }
 
@@ -622,14 +622,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 75 \
-    name AB_block_56_out \
+    name AB_block_8_2_out \
     type other \
     dir O \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_56_out \
+    corename dc_AB_block_8_2_out \
     op interface \
-    ports { AB_block_56_out { O 512 vector } AB_block_56_out_ap_vld { O 1 bit } } \
+    ports { AB_block_8_2_out { O 512 vector } AB_block_8_2_out_ap_vld { O 1 bit } } \
 } "
 }
 
@@ -637,14 +637,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 76 \
-    name AB_block_55_out \
+    name AB_block_7_2_out \
     type other \
     dir O \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_55_out \
+    corename dc_AB_block_7_2_out \
     op interface \
-    ports { AB_block_55_out { O 512 vector } AB_block_55_out_ap_vld { O 1 bit } } \
+    ports { AB_block_7_2_out { O 512 vector } AB_block_7_2_out_ap_vld { O 1 bit } } \
 } "
 }
 
@@ -652,14 +652,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 77 \
-    name AB_block_54_out \
+    name AB_block_6_2_out \
     type other \
     dir O \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_54_out \
+    corename dc_AB_block_6_2_out \
     op interface \
-    ports { AB_block_54_out { O 512 vector } AB_block_54_out_ap_vld { O 1 bit } } \
+    ports { AB_block_6_2_out { O 512 vector } AB_block_6_2_out_ap_vld { O 1 bit } } \
 } "
 }
 
@@ -667,14 +667,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 78 \
-    name AB_block_53_out \
+    name AB_block_5_2_out \
     type other \
     dir O \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_53_out \
+    corename dc_AB_block_5_2_out \
     op interface \
-    ports { AB_block_53_out { O 512 vector } AB_block_53_out_ap_vld { O 1 bit } } \
+    ports { AB_block_5_2_out { O 512 vector } AB_block_5_2_out_ap_vld { O 1 bit } } \
 } "
 }
 
@@ -682,14 +682,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 79 \
-    name AB_block_52_out \
+    name AB_block_4_2_out \
     type other \
     dir O \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_52_out \
+    corename dc_AB_block_4_2_out \
     op interface \
-    ports { AB_block_52_out { O 512 vector } AB_block_52_out_ap_vld { O 1 bit } } \
+    ports { AB_block_4_2_out { O 512 vector } AB_block_4_2_out_ap_vld { O 1 bit } } \
 } "
 }
 
@@ -697,14 +697,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 80 \
-    name AB_block_51_out \
+    name AB_block_3_2_out \
     type other \
     dir O \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_51_out \
+    corename dc_AB_block_3_2_out \
     op interface \
-    ports { AB_block_51_out { O 512 vector } AB_block_51_out_ap_vld { O 1 bit } } \
+    ports { AB_block_3_2_out { O 512 vector } AB_block_3_2_out_ap_vld { O 1 bit } } \
 } "
 }
 
@@ -712,14 +712,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 81 \
-    name AB_block_50_out \
+    name AB_block_2_2_out \
     type other \
     dir O \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_50_out \
+    corename dc_AB_block_2_2_out \
     op interface \
-    ports { AB_block_50_out { O 512 vector } AB_block_50_out_ap_vld { O 1 bit } } \
+    ports { AB_block_2_2_out { O 512 vector } AB_block_2_2_out_ap_vld { O 1 bit } } \
 } "
 }
 
@@ -727,14 +727,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 82 \
-    name AB_block_49_out \
+    name AB_block_1_2_out \
     type other \
     dir O \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_49_out \
+    corename dc_AB_block_1_2_out \
     op interface \
-    ports { AB_block_49_out { O 512 vector } AB_block_49_out_ap_vld { O 1 bit } } \
+    ports { AB_block_1_2_out { O 512 vector } AB_block_1_2_out_ap_vld { O 1 bit } } \
 } "
 }
 
@@ -742,14 +742,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 83 \
-    name AB_block_48_out \
+    name AB_block_0_2_out \
     type other \
     dir O \
     reset_level 1 \
     sync_rst true \
-    corename dc_AB_block_48_out \
+    corename dc_AB_block_0_2_out \
     op interface \
-    ports { AB_block_48_out { O 512 vector } AB_block_48_out_ap_vld { O 1 bit } } \
+    ports { AB_block_0_2_out { O 512 vector } AB_block_0_2_out_ap_vld { O 1 bit } } \
 } "
 }
 
