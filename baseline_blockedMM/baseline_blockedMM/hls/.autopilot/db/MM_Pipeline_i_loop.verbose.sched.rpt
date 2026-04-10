@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'MM_Pipeline_i_loop'
 ================================================================
-* Date:           Fri Apr 10 13:18:52 2026
+* Date:           Fri Apr 10 15:37:56 2026
 
 * Version:        2025.1 (Build 6135595 on May 21 2025)
 * Project:        baseline_blockedMM
@@ -579,9 +579,9 @@ The critical path consists of the following:
  <State 3>: 6.204ns
 The critical path consists of the following:
 	'load' operation 512 bit ('AB_block_0_2_load', ../MLP_baseline/mm.cpp:72) on local variable 'AB_block_0_2' [124]  (0.000 ns)
-	'sparsemux' operation 32 bit ('tmp_15', ../MLP_baseline/mm.cpp:72) [450]  (2.064 ns)
-	'add' operation 32 bit ('add_ln72_15', ../MLP_baseline/mm.cpp:72) [451]  (2.552 ns)
-	'store' operation 0 bit ('store_ln72', ../MLP_baseline/mm.cpp:72) of variable 'or_ln72_s', ../MLP_baseline/mm.cpp:72 on local variable 'AB_block_5_2' [482]  (1.588 ns)
+	'sparsemux' operation 32 bit ('tmp_s', ../MLP_baseline/mm.cpp:72) [165]  (2.064 ns)
+	'add' operation 32 bit ('add_ln72', ../MLP_baseline/mm.cpp:72) [166]  (2.552 ns)
+	'store' operation 0 bit ('store_ln72', ../MLP_baseline/mm.cpp:72) of variable 'or_ln72_s', ../MLP_baseline/mm.cpp:72 on local variable 'AB_block_3_2' [488]  (1.588 ns)
 
 
 ============================================================

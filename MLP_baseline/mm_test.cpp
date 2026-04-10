@@ -101,9 +101,9 @@ void readImages(const string& imgfilename, DTYPE* data) {
 // Cosim testbench for wide bus + transposed A kernel
 //===========================================================================
 
-const int N = 32;
-const int M = 32;
-const int P = 32;
+const int N = 1024;
+const int M = 784;
+const int P = 128;
 
 int main() {
     // ---- Scalar arrays for golden reference ----

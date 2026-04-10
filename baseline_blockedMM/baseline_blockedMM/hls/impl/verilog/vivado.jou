@@ -3,8 +3,8 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Fri Apr 10 13:23:58 2026
-# Process ID         : 17700
+# Start of session at: Fri Apr 10 15:40:08 2026
+# Process ID         : 3440
 # Current directory  : C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog
 # Command line       : vivado.exe -mode batch -source run_vivado.tcl
 # Log file           : C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/vivado.log
@@ -17,8 +17,8 @@
 # CPU Physical cores : 2
 # CPU Logical cores  : 4
 # Host memory        : 8241 MB
-# Swap memory        : 16301 MB
-# Total Virtual      : 24542 MB
-# Available Virtual  : 4994 MB
+# Swap memory        : 18388 MB
+# Total Virtual      : 26629 MB
+# Available Virtual  : 7755 MB
 #-----------------------------------------------------------
 source run_vivado.tcl

@@ -4,7 +4,7 @@
 == Synthesis Summary Report of 'MM'
 ================================================================
 + General Information: 
-    * Date:           Fri Apr 10 13:18:57 2026
+    * Date:           Fri Apr 10 15:38:01 2026
     * Version:        2025.1 (Build 6135595 on May 21 2025)
     * Project:        baseline_blockedMM
     * Solution:       hls (Vivado IP Flow Target)

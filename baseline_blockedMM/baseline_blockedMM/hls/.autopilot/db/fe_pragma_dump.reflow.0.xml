@@ -1,5 +1,4 @@
 <pragmas>
-<pragma file="" line="0" pragmaType="inline" parentfunction="hls::vector<int, 16ul>::operator[](unsigned long)" off="0" region="0" recursive="0"/>
 <pragma file="../MLP_baseline/mm.cpp" line="49" pragmaType="pipeline" parentfunction="MM" off="1" ii="0" rewind="0" style=""/>
 <pragma file="../MLP_baseline/mm.cpp" line="51" pragmaType="pipeline" parentfunction="MM" off="1" ii="0" rewind="0" style=""/>
 <pragma file="../MLP_baseline/mm.cpp" line="54" pragmaType="unroll" parentfunction="MM" factor="-1" skip_exit_check="0"/>
@@ -25,6 +24,7 @@
 <pragma file="../MLP_baseline/mm.cpp" line="36" pragmaType="interface" parentfunction="MM" mode="s_axilite" port="P" bundle="control" offset="-1" name="" clock="" impl="" register="0"/>
 <pragma file="../MLP_baseline/mm.cpp" line="37" pragmaType="interface" parentfunction="MM" mode="s_axilite" port="" bundle="control" offset="-1" name="" clock="" impl="" register="0"/>
 <pragma file="../MLP_baseline/mm.cpp" line="42" pragmaType="array_partition" parentfunction="MM" dim="1" factor="0" mode="complete" dynamic="0" variable="AB_block"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="hls::vector<int, 16ul>::operator[](unsigned long)" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="inline" parentfunction="pragma" off="0" region="0" recursive="0"/>
 <pragma file="" line="0" pragmaType="aggregate" parentfunction="pragma" compact="3" variable="this"/>
 </pragmas>

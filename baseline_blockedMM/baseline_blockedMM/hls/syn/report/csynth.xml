@@ -1428,7 +1428,7 @@
     <FIFOInformation/>
     <UserConfigCommands>
         <config_cosim trace_level="all"/>
-        <config_export output="Z:/Labs/MLP_accelerator/package"/>
+        <config_export output="C:/Users/seanr/vitis_projects/Lab3_MLP_optimization"/>
     </UserConfigCommands>
     <Args>
         <Arg ArgName="AT" index="0" direction="inout" srcType="vector&lt;int, 16&gt;*" srcSize="512">

@@ -173,7 +173,7 @@
     <ReportFile TYPE="utilization_hierarchical" PATH="verilog/report/MM_utilization_hierarchical_routed.rpt"/>
   </VivadoReportFiles>
   <GeneralInfo NAME="General Information">
-    <item NAME="Date" VALUE="Fri Apr 10 13:57:04 -0700 2026"/>
+    <item NAME="Date" VALUE="Fri Apr 10 16:03:57 -0700 2026"/>
     <item NAME="Version" VALUE="2025.1 (Build 6135595 on May 21 2025)"/>
     <item NAME="Project" VALUE="baseline_blockedMM"/>
     <item NAME="Solution" VALUE="hls (Vivado IP Flow Target)"/>
