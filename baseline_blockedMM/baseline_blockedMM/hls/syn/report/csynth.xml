@@ -1796,10 +1796,10 @@
         </section>
     </ReportBurst>
     <PragmaReport>
-        <Pragma type="interface" location="../MLP_baseline/mm.cpp:26" status="valid" parentFunction="mm" variable="A" isDirective="0" options="m_axi port=A bundle=gmem depth=1024"/>
-        <Pragma type="interface" location="../MLP_baseline/mm.cpp:27" status="valid" parentFunction="mm" variable="B" isDirective="0" options="m_axi port=B bundle=gmem depth=1024"/>
-        <Pragma type="interface" location="../MLP_baseline/mm.cpp:28" status="valid" parentFunction="mm" variable="C" isDirective="0" options="m_axi port=C bundle=gmem depth=32"/>
-        <Pragma type="interface" location="../MLP_baseline/mm.cpp:29" status="valid" parentFunction="mm" variable="ABC" isDirective="0" options="m_axi port=ABC bundle=gmem depth=1024"/>
+        <Pragma type="interface" location="../MLP_baseline/mm.cpp:18" status="valid" parentFunction="mm" variable="A" isDirective="0" options="m_axi port=A bundle=gmem depth=802816"/>
+        <Pragma type="interface" location="../MLP_baseline/mm.cpp:19" status="valid" parentFunction="mm" variable="B" isDirective="0" options="m_axi port=B bundle=gmem depth=100352"/>
+        <Pragma type="interface" location="../MLP_baseline/mm.cpp:20" status="valid" parentFunction="mm" variable="C" isDirective="0" options="m_axi port=C bundle=gmem depth=1024"/>
+        <Pragma type="interface" location="../MLP_baseline/mm.cpp:21" status="valid" parentFunction="mm" variable="ABC" isDirective="0" options="m_axi port=ABC bundle=gmem depth=131072"/>
         <Pragma type="interface" location="../MLP_baseline/mm.cpp:31" status="valid" parentFunction="mm" variable="A" isDirective="0" options="s_axilite port=A bundle=control"/>
         <Pragma type="interface" location="../MLP_baseline/mm.cpp:32" status="valid" parentFunction="mm" variable="B" isDirective="0" options="s_axilite port=B bundle=control"/>
         <Pragma type="interface" location="../MLP_baseline/mm.cpp:33" status="valid" parentFunction="mm" variable="C" isDirective="0" options="s_axilite port=C bundle=control"/>

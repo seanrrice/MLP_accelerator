@@ -2,17 +2,17 @@
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="directive:1:9" msg_body="HLS pragma dump">
         <args ARG_PragmaContext="directive" ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=MM" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:26:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=A bundle=gmem depth=1024" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:18:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=A bundle=gmem depth=802816" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:27:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=B bundle=gmem depth=1024" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:19:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=B bundle=gmem depth=100352" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:28:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=C bundle=gmem depth=32" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:20:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=C bundle=gmem depth=1024" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:29:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=ABC bundle=gmem depth=1024" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:21:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=ABC bundle=gmem depth=131072" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:31:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=A bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>

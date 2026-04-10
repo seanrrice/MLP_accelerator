@@ -4,7 +4,7 @@
 == Synthesis Summary Report of 'MM'
 ================================================================
 + General Information: 
-    * Date:           Mon Apr  6 20:50:46 2026
+    * Date:           Fri Apr 10 12:44:39 2026
     * Version:        2025.1 (Build 6135595 on May 21 2025)
     * Project:        baseline_blockedMM
     * Solution:       hls (Vivado IP Flow Target)
@@ -231,32 +231,32 @@
 == Pragma Report
 ================================================================
 * Valid Pragma Syntax
-+-----------+---------------------------------------+-----------------------------------------+
-| Type      | Options                               | Location                                |
-+-----------+---------------------------------------+-----------------------------------------+
-| INTERFACE | m_axi port=A bundle=gmem depth=1024   | ../MLP_baseline/mm.cpp:26 in mm, A      |
-| INTERFACE | m_axi port=B bundle=gmem depth=1024   | ../MLP_baseline/mm.cpp:27 in mm, B      |
-| INTERFACE | m_axi port=C bundle=gmem depth=32     | ../MLP_baseline/mm.cpp:28 in mm, C      |
-| INTERFACE | m_axi port=ABC bundle=gmem depth=1024 | ../MLP_baseline/mm.cpp:29 in mm, ABC    |
-| INTERFACE | s_axilite port=A bundle=control       | ../MLP_baseline/mm.cpp:31 in mm, A      |
-| INTERFACE | s_axilite port=B bundle=control       | ../MLP_baseline/mm.cpp:32 in mm, B      |
-| INTERFACE | s_axilite port=C bundle=control       | ../MLP_baseline/mm.cpp:33 in mm, C      |
-| INTERFACE | s_axilite port=ABC bundle=control     | ../MLP_baseline/mm.cpp:34 in mm, ABC    |
-| INTERFACE | s_axilite port=N bundle=control       | ../MLP_baseline/mm.cpp:35 in mm, N      |
-| INTERFACE | s_axilite port=M bundle=control       | ../MLP_baseline/mm.cpp:36 in mm, M      |
-| INTERFACE | s_axilite port=P bundle=control       | ../MLP_baseline/mm.cpp:37 in mm, P      |
-| INTERFACE | s_axilite port=return bundle=control  | ../MLP_baseline/mm.cpp:38 in mm, return |
-| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:45 in mm         |
-| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:47 in mm         |
-| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:49 in mm         |
-| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:51 in mm         |
-| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:56 in mm         |
-| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:58 in mm         |
-| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:60 in mm         |
-| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:64 in mm         |
-| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:67 in mm         |
-| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:74 in mm         |
-| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:76 in mm         |
-+-----------+---------------------------------------+-----------------------------------------+
++-----------+-----------------------------------------+-----------------------------------------+
+| Type      | Options                                 | Location                                |
++-----------+-----------------------------------------+-----------------------------------------+
+| INTERFACE | m_axi port=A bundle=gmem depth=802816   | ../MLP_baseline/mm.cpp:18 in mm, A      |
+| INTERFACE | m_axi port=B bundle=gmem depth=100352   | ../MLP_baseline/mm.cpp:19 in mm, B      |
+| INTERFACE | m_axi port=C bundle=gmem depth=1024     | ../MLP_baseline/mm.cpp:20 in mm, C      |
+| INTERFACE | m_axi port=ABC bundle=gmem depth=131072 | ../MLP_baseline/mm.cpp:21 in mm, ABC    |
+| INTERFACE | s_axilite port=A bundle=control         | ../MLP_baseline/mm.cpp:31 in mm, A      |
+| INTERFACE | s_axilite port=B bundle=control         | ../MLP_baseline/mm.cpp:32 in mm, B      |
+| INTERFACE | s_axilite port=C bundle=control         | ../MLP_baseline/mm.cpp:33 in mm, C      |
+| INTERFACE | s_axilite port=ABC bundle=control       | ../MLP_baseline/mm.cpp:34 in mm, ABC    |
+| INTERFACE | s_axilite port=N bundle=control         | ../MLP_baseline/mm.cpp:35 in mm, N      |
+| INTERFACE | s_axilite port=M bundle=control         | ../MLP_baseline/mm.cpp:36 in mm, M      |
+| INTERFACE | s_axilite port=P bundle=control         | ../MLP_baseline/mm.cpp:37 in mm, P      |
+| INTERFACE | s_axilite port=return bundle=control    | ../MLP_baseline/mm.cpp:38 in mm, return |
+| PIPELINE  | off                                     | ../MLP_baseline/mm.cpp:45 in mm         |
+| PIPELINE  | off                                     | ../MLP_baseline/mm.cpp:47 in mm         |
+| PIPELINE  | off                                     | ../MLP_baseline/mm.cpp:49 in mm         |
+| PIPELINE  | off                                     | ../MLP_baseline/mm.cpp:51 in mm         |
+| PIPELINE  | off                                     | ../MLP_baseline/mm.cpp:56 in mm         |
+| PIPELINE  | off                                     | ../MLP_baseline/mm.cpp:58 in mm         |
+| PIPELINE  | off                                     | ../MLP_baseline/mm.cpp:60 in mm         |
+| PIPELINE  | off                                     | ../MLP_baseline/mm.cpp:64 in mm         |
+| PIPELINE  | off                                     | ../MLP_baseline/mm.cpp:67 in mm         |
+| PIPELINE  | off                                     | ../MLP_baseline/mm.cpp:74 in mm         |
+| PIPELINE  | off                                     | ../MLP_baseline/mm.cpp:76 in mm         |
++-----------+-----------------------------------------+-----------------------------------------+
 
 

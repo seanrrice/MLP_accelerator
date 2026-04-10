@@ -1,4 +1,4 @@
-# 2026-04-06T20:25:15.903255100
+# 2026-04-10T12:42:37.768583600
 import vitis
 
 client = vitis.create_client()
@@ -8,8 +8,6 @@ comp = client.get_component(name="baseline_blockedMM")
 comp.run(operation="C_SIMULATION")
 
 comp.run(operation="SYNTHESIS")
-
-comp.run(operation="CO_SIMULATION")
 
 comp.run(operation="PACKAGE")
 

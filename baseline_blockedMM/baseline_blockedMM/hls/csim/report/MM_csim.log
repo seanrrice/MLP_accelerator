@@ -3,7 +3,18 @@ INFO: [SIM 4] CSIM will launch CLANG as the compiler.
    Compiling ../../../../../MLP_baseline/mm_test.cpp in debug mode
    Compiling ../../../../../MLP_baseline/mm.cpp in debug mode
    Generating csim.exe
+
+---Testing results----------------------------------
+	Reading input images from file: mnist_images_int.txt
+	Reading Weights and Biases from file: weights_layer1.txt
+number of read values for weights: 802816
+number of read values for biases: 1024
+About to call MM...
 Finished initial MM
-PASS
+Returned from MM.
+Comparing against output data 
+*******************************************
+PASS: The output matches the golden output!
+*******************************************
 INFO: [SIM 1] CSim done with 0 errors.
 INFO: [SIM 3] *************** CSIM finish ***************

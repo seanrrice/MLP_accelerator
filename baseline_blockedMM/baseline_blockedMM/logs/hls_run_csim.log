@@ -35,9 +35,20 @@ INFO: [HLS 200-2036] Building debug C Simulation binaries
    Compiling ../../../../../MLP_baseline/mm_test.cpp in debug mode
    Compiling ../../../../../MLP_baseline/mm.cpp in debug mode
    Generating csim.exe
+
+---Testing results----------------------------------
+	Reading input images from file: mnist_images_int.txt
+	Reading Weights and Biases from file: weights_layer1.txt
+number of read values for weights: 802816
+number of read values for biases: 1024
+About to call MM...
 Finished initial MM
-PASS
+Returned from MM.
+Comparing against output data 
+*******************************************
+PASS: The output matches the golden output!
+*******************************************
 INFO: [SIM 211-1] CSim done with 0 errors.
 INFO: [SIM 211-3] *************** CSIM finish ***************
-INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 2 seconds. Total elapsed time: 16.91 seconds; peak allocated memory: 164.344 MB.
-INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 26s
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 2 seconds. Total elapsed time: 11.326 seconds; peak allocated memory: 165.426 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 19s

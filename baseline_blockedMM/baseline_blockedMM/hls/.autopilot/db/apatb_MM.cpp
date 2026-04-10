@@ -1362,7 +1362,7 @@ void apatb_MM_hw(void* __xlx_apatb_param_A, void* __xlx_apatb_param_B, void* __x
   };
   port7.param = { __xlx_apatb_param_A, __xlx_apatb_param_B, __xlx_apatb_param_C, __xlx_apatb_param_ABC };
   port7.mname = { "A", "B", "C", "ABC" };
-  port7.nbytes = { 4096, 4096, 128, 4096 };
+  port7.nbytes = { 3211264, 401408, 4096, 524288 };
   for (size_t i = 0; i < port7.nbytes.size(); ++i) {
     if (port7.nbytes[i] > port7.max_nbytes[i]) {
       port7.max_nbytes[i] = port7.nbytes[i];
