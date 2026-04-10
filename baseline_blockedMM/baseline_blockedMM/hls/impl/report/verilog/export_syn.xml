@@ -1,7 +1,7 @@
 <profile>
   <RunData>
     <RUN_TYPE>synth</RUN_TYPE>
-    <VIVADO_VERSION>v.2025.1</VIVADO_VERSION>
+    <VIVADO_VERSION>v.2025.2</VIVADO_VERSION>
     <ROOT_MODULE_CELL>bd_0_i/hls_inst</ROOT_MODULE_CELL>
   </RunData>
   <TimingReport>
@@ -28,9 +28,9 @@
       <BRAM>76</BRAM>
       <CLB>0</CLB>
       <DSP>81</DSP>
-      <FF>19277</FF>
+      <FF>19264</FF>
       <LATCH>0</LATCH>
-      <LUT>12506</LUT>
+      <LUT>12399</LUT>
       <SRL>946</SRL>
       <URAM>0</URAM>
     </Resources>
@@ -46,187 +46,131 @@
   <RtlModules>
     <RtlModule CELL="inst" DEPTH="0" IS_TOP="1" TYPE="function" MODULENAME="MM" DISPNAME="inst" RTLNAME="MM">
       <SubModules count="17">ABC_c_U AB_stream_U A_stream_U B_stream_U N_c_U P_c_U computeTiles_U0 control_s_axi_U entry_proc_U0 gmem0_m_axi_U gmem1_m_axi_U gmem2_m_axi_U gmem3_m_axi_U readAtTiles_U0 readBTiles_U0 start_for_writeTiles_U0_U writeTiles_U0</SubModules>
-      <Resources BRAM="76" DSP="81" FF="19277" LUT="12506"/>
+      <Resources LogicLUT="11453" RAMB18="6" RAMB36="35" SRL="946"/>
     </RtlModule>
     <RtlModule CELL="inst/ABC_c_U" DEPTH="1" TYPE="resource" MODULENAME="fifo_w64_d4_S" DISPNAME="ABC_c_U" RTLNAME="MM_fifo_w64_d4_S">
-      <Resources FF="7" LUT="71"/>
-      <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="ABC_c_U" SOURCE="../MLP_baseline/mm.cpp:178" STORAGESIZE="64 4 1" STORAGESUBTYPE="scalar prop" STORAGEUSAGE="fifo channel" URAM="0" VARIABLE="ABC_c" VISIBLE="true"/>
+      <Resources LogicLUT="12" SRL="59"/>
     </RtlModule>
-    <RtlModule CELL="inst/AB_stream_U" DEPTH="1" TYPE="resource" MODULENAME="fifo_w512_d32_A" DISPNAME="AB_stream_U" RTLNAME="MM_fifo_w512_d32_A">
-      <BindNode BINDTYPE="storage" BRAM="29" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="memory" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="AB_stream_U" SOURCE=":0" STORAGESIZE="512 32 1" STORAGESUBTYPE="stream" STORAGEUSAGE="fifo channel" URAM="0" VARIABLE="AB_stream" VISIBLE="true"/>
-    </RtlModule>
-    <RtlModule CELL="inst/A_stream_U" DEPTH="1" TYPE="resource" MODULENAME="fifo_w512_d32_A" DISPNAME="A_stream_U" RTLNAME="MM_fifo_w512_d32_A">
-      <BindNode BINDTYPE="storage" BRAM="29" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="memory" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="A_stream_U" SOURCE=":0" STORAGESIZE="512 32 1" STORAGESUBTYPE="stream" STORAGEUSAGE="fifo channel" URAM="0" VARIABLE="A_stream" VISIBLE="true"/>
-    </RtlModule>
-    <RtlModule CELL="inst/B_stream_U" DEPTH="1" TYPE="resource" MODULENAME="fifo_w512_d32_A" DISPNAME="B_stream_U" RTLNAME="MM_fifo_w512_d32_A">
-      <BindNode BINDTYPE="storage" BRAM="29" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="memory" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="B_stream_U" SOURCE=":0" STORAGESIZE="512 32 1" STORAGESUBTYPE="stream" STORAGEUSAGE="fifo channel" URAM="0" VARIABLE="B_stream" VISIBLE="true"/>
-    </RtlModule>
+    <RtlModule CELL="inst/AB_stream_U" DEPTH="1" TYPE="resource" MODULENAME="fifo_w512_d32_A" DISPNAME="AB_stream_U" RTLNAME="MM_fifo_w512_d32_A"/>
+    <RtlModule CELL="inst/A_stream_U" DEPTH="1" TYPE="resource" MODULENAME="fifo_w512_d32_A" DISPNAME="A_stream_U" RTLNAME="MM_fifo_w512_d32_A"/>
+    <RtlModule CELL="inst/B_stream_U" DEPTH="1" TYPE="resource" MODULENAME="fifo_w512_d32_A" DISPNAME="B_stream_U" RTLNAME="MM_fifo_w512_d32_A"/>
     <RtlModule CELL="inst/N_c_U" DEPTH="1" TYPE="resource" MODULENAME="fifo_w32_d2_S" DISPNAME="N_c_U" RTLNAME="MM_fifo_w32_d2_S">
-      <Resources FF="70" LUT="41"/>
-      <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="N_c_U" SOURCE="../MLP_baseline/mm.cpp:178" STORAGESIZE="32 2 1" STORAGESUBTYPE="scalar prop" STORAGEUSAGE="fifo channel" URAM="0" VARIABLE="N_c" VISIBLE="true"/>
+      <Resources LogicLUT="41"/>
     </RtlModule>
     <RtlModule CELL="inst/P_c_U" DEPTH="1" TYPE="resource" MODULENAME="fifo_w32_d2_S" DISPNAME="P_c_U" RTLNAME="MM_fifo_w32_d2_S">
-      <Resources FF="70" LUT="41"/>
-      <BindNode BINDTYPE="storage" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_storage fifo" DSP="0" ID="" IMPL="srl" LATENCY="0" LOOP="" OPTYPE="fifo" PRAGMA="" RTLNAME="P_c_U" SOURCE="../MLP_baseline/mm.cpp:178" STORAGESIZE="32 2 1" STORAGESUBTYPE="scalar prop" STORAGEUSAGE="fifo channel" URAM="0" VARIABLE="P_c" VISIBLE="true"/>
+      <Resources LogicLUT="41"/>
     </RtlModule>
     <RtlModule CELL="inst/computeTiles_U0" DEPTH="1" TYPE="function" MODULENAME="computeTiles" DISPNAME="computeTiles_U0" RTLNAME="MM_computeTiles">
       <SubModules count="2">grp_computeTiles_Pipeline_j_output_loop_fu_284 grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243</SubModules>
-      <Resources DSP="48" FF="10475" LUT="5987"/>
-      <LocalResources FF="1381" LUT="71"/>
+      <Resources LogicLUT="5987" SRL="1"/>
+      <LocalResources LogicLUT="71"/>
     </RtlModule>
     <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_j_output_loop_fu_284" DEPTH="2" TYPE="function" MODULENAME="computeTiles_Pipeline_j_output_loop" DISPNAME="grp_computeTiles_Pipeline_j_output_loop_fu_284" RTLNAME="MM_computeTiles_Pipeline_j_output_loop">
       <SubModules count="1">flow_control_loop_pipe_sequential_init_U</SubModules>
-      <Resources FF="520" LUT="54"/>
-      <LocalResources FF="518"/>
+      <Resources LogicLUT="58"/>
+      <LocalResources/>
     </RtlModule>
     <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_j_output_loop_fu_284/flow_control_loop_pipe_sequential_init_U" DEPTH="3" TYPE="rtl" MODULENAME="flow_control_loop_pipe_sequential_init" DISPNAME="flow_control_loop_pipe_sequential_init_U" RTLNAME="MM_flow_control_loop_pipe_sequential_init">
-      <Resources FF="2" LUT="54"/>
+      <Resources LogicLUT="58"/>
     </RtlModule>
     <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243" DEPTH="2" TYPE="function" MODULENAME="computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop" DISPNAME="grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243" RTLNAME="MM_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop">
       <SubModules count="17">flow_control_loop_pipe_sequential_init_U mul_32s_32s_32_1_1_U40 mul_32s_32s_32_1_1_U41 mul_32s_32s_32_1_1_U42 mul_32s_32s_32_1_1_U43 mul_32s_32s_32_1_1_U44 mul_32s_32s_32_1_1_U45 mul_32s_32s_32_1_1_U46 mul_32s_32s_32_1_1_U47 mul_32s_32s_32_1_1_U48 mul_32s_32s_32_1_1_U49 mul_32s_32s_32_1_1_U50 mul_32s_32s_32_1_1_U51 mul_32s_32s_32_1_1_U52 mul_32s_32s_32_1_1_U53 mul_32s_32s_32_1_1_U54 mul_32s_32s_32_1_1_U55</SubModules>
-      <Resources DSP="48" FF="8574" LUT="5862"/>
-      <LocalResources DSP="16" FF="8563" LUT="5557"/>
+      <Resources LogicLUT="5858" SRL="1"/>
+      <LocalResources LogicLUT="5554" SRL="1"/>
     </RtlModule>
     <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/flow_control_loop_pipe_sequential_init_U" DEPTH="3" TYPE="rtl" MODULENAME="flow_control_loop_pipe_sequential_init" DISPNAME="flow_control_loop_pipe_sequential_init_U" RTLNAME="MM_flow_control_loop_pipe_sequential_init">
-      <Resources FF="11" LUT="271"/>
+      <Resources LogicLUT="270"/>
     </RtlModule>
-    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U40" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U40" RTLNAME="MM_mul_32s_32s_32_1_1">
-      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="0" LOOP="k_BLOCK_loop_k_loop_i_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_1_1_U40" SOURCE="../MLP_baseline/mm.cpp:92" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln92" VISIBLE="true"/>
-    </RtlModule>
-    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U41" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U41" RTLNAME="MM_mul_32s_32s_32_1_1">
-      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="0" LOOP="k_BLOCK_loop_k_loop_i_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_1_1_U41" SOURCE="../MLP_baseline/mm.cpp:92" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln92_1" VISIBLE="true"/>
-    </RtlModule>
-    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U42" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U42" RTLNAME="MM_mul_32s_32s_32_1_1">
-      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="0" LOOP="k_BLOCK_loop_k_loop_i_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_1_1_U42" SOURCE="../MLP_baseline/mm.cpp:92" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln92_2" VISIBLE="true"/>
-    </RtlModule>
-    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U43" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U43" RTLNAME="MM_mul_32s_32s_32_1_1">
-      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="0" LOOP="k_BLOCK_loop_k_loop_i_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_1_1_U43" SOURCE="../MLP_baseline/mm.cpp:92" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln92_3" VISIBLE="true"/>
-    </RtlModule>
-    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U44" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U44" RTLNAME="MM_mul_32s_32s_32_1_1">
-      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="0" LOOP="k_BLOCK_loop_k_loop_i_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_1_1_U44" SOURCE="../MLP_baseline/mm.cpp:92" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln92_4" VISIBLE="true"/>
-    </RtlModule>
-    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U45" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U45" RTLNAME="MM_mul_32s_32s_32_1_1">
-      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="0" LOOP="k_BLOCK_loop_k_loop_i_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_1_1_U45" SOURCE="../MLP_baseline/mm.cpp:92" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln92_5" VISIBLE="true"/>
-    </RtlModule>
-    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U46" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U46" RTLNAME="MM_mul_32s_32s_32_1_1">
-      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="0" LOOP="k_BLOCK_loop_k_loop_i_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_1_1_U46" SOURCE="../MLP_baseline/mm.cpp:92" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln92_6" VISIBLE="true"/>
-    </RtlModule>
-    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U47" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U47" RTLNAME="MM_mul_32s_32s_32_1_1">
-      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="0" LOOP="k_BLOCK_loop_k_loop_i_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_1_1_U47" SOURCE="../MLP_baseline/mm.cpp:92" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln92_7" VISIBLE="true"/>
-    </RtlModule>
-    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U48" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U48" RTLNAME="MM_mul_32s_32s_32_1_1">
-      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="0" LOOP="k_BLOCK_loop_k_loop_i_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_1_1_U48" SOURCE="../MLP_baseline/mm.cpp:92" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln92_8" VISIBLE="true"/>
-    </RtlModule>
-    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U49" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U49" RTLNAME="MM_mul_32s_32s_32_1_1">
-      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="0" LOOP="k_BLOCK_loop_k_loop_i_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_1_1_U49" SOURCE="../MLP_baseline/mm.cpp:92" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln92_9" VISIBLE="true"/>
-    </RtlModule>
-    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U50" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U50" RTLNAME="MM_mul_32s_32s_32_1_1">
-      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="0" LOOP="k_BLOCK_loop_k_loop_i_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_1_1_U50" SOURCE="../MLP_baseline/mm.cpp:92" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln92_10" VISIBLE="true"/>
-    </RtlModule>
-    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U51" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U51" RTLNAME="MM_mul_32s_32s_32_1_1">
-      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="0" LOOP="k_BLOCK_loop_k_loop_i_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_1_1_U51" SOURCE="../MLP_baseline/mm.cpp:92" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln92_11" VISIBLE="true"/>
-    </RtlModule>
-    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U52" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U52" RTLNAME="MM_mul_32s_32s_32_1_1">
-      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="0" LOOP="k_BLOCK_loop_k_loop_i_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_1_1_U52" SOURCE="../MLP_baseline/mm.cpp:92" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln92_12" VISIBLE="true"/>
-    </RtlModule>
-    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U53" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U53" RTLNAME="MM_mul_32s_32s_32_1_1">
-      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="0" LOOP="k_BLOCK_loop_k_loop_i_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_1_1_U53" SOURCE="../MLP_baseline/mm.cpp:92" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln92_13" VISIBLE="true"/>
-    </RtlModule>
-    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U54" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U54" RTLNAME="MM_mul_32s_32s_32_1_1">
-      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="0" LOOP="k_BLOCK_loop_k_loop_i_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_1_1_U54" SOURCE="../MLP_baseline/mm.cpp:92" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln92_14" VISIBLE="true"/>
-    </RtlModule>
-    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U55" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U55" RTLNAME="MM_mul_32s_32s_32_1_1">
-      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="0" LOOP="k_BLOCK_loop_k_loop_i_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_1_1_U55" SOURCE="../MLP_baseline/mm.cpp:92" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln92_15" VISIBLE="true"/>
-    </RtlModule>
+    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U40" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U40" RTLNAME="MM_mul_32s_32s_32_1_1"/>
+    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U41" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U41" RTLNAME="MM_mul_32s_32s_32_1_1"/>
+    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U42" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U42" RTLNAME="MM_mul_32s_32s_32_1_1"/>
+    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U43" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U43" RTLNAME="MM_mul_32s_32s_32_1_1"/>
+    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U44" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U44" RTLNAME="MM_mul_32s_32s_32_1_1"/>
+    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U45" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U45" RTLNAME="MM_mul_32s_32s_32_1_1"/>
+    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U46" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U46" RTLNAME="MM_mul_32s_32s_32_1_1"/>
+    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U47" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U47" RTLNAME="MM_mul_32s_32s_32_1_1"/>
+    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U48" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U48" RTLNAME="MM_mul_32s_32s_32_1_1"/>
+    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U49" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U49" RTLNAME="MM_mul_32s_32s_32_1_1"/>
+    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U50" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U50" RTLNAME="MM_mul_32s_32s_32_1_1"/>
+    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U51" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U51" RTLNAME="MM_mul_32s_32s_32_1_1"/>
+    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U52" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U52" RTLNAME="MM_mul_32s_32s_32_1_1"/>
+    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U53" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U53" RTLNAME="MM_mul_32s_32s_32_1_1"/>
+    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U54" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U54" RTLNAME="MM_mul_32s_32s_32_1_1"/>
+    <RtlModule CELL="inst/computeTiles_U0/grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243/mul_32s_32s_32_1_1_U55" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U55" RTLNAME="MM_mul_32s_32s_32_1_1"/>
     <RtlModule CELL="inst/control_s_axi_U" DEPTH="1" TYPE="resource" MODULENAME="control_s_axi" DISPNAME="control_s_axi_U" RTLNAME="MM_control_s_axi">
-      <Resources FF="408" LUT="1258"/>
-      <BindNode BINDTYPE="adapter" BRAM="0" BUNDLEDNAME="control" DISPNAME="bind_adapter " DSP="0" ID="" IMPL="" LATENCY="" LOOP="" OPTYPE="" PRAGMA="" RTLNAME="control_s_axi_U" SOURCE="" STORAGESIZE="" STORAGESUBTYPE="s_axilite" STORAGEUSAGE="interface" URAM="0" VARIABLE=""/>
+      <Resources LogicLUT="1258"/>
     </RtlModule>
     <RtlModule CELL="inst/entry_proc_U0" DEPTH="1" TYPE="function" MODULENAME="entry_proc" DISPNAME="entry_proc_U0" RTLNAME="MM_entry_proc"/>
     <RtlModule CELL="inst/gmem0_m_axi_U" DEPTH="1" TYPE="resource" MODULENAME="gmem0_m_axi" DISPNAME="gmem0_m_axi_U" RTLNAME="MM_gmem0_m_axi">
-      <Resources BRAM="15" FF="1672" LUT="959"/>
-      <BindNode BINDTYPE="adapter" BRAM="29" BUNDLEDNAME="gmem0" DISPNAME="bind_adapter " DSP="0" ID="" IMPL="" LATENCY="" LOOP="" OPTYPE="" PRAGMA="" RTLNAME="gmem0_m_axi_U" SOURCE="" STORAGESIZE="" STORAGESUBTYPE="m_axi" STORAGEUSAGE="interface" URAM="0" VARIABLE=""/>
+      <Resources LogicLUT="873" RAMB18="1" RAMB36="7" SRL="59"/>
     </RtlModule>
     <RtlModule CELL="inst/gmem1_m_axi_U" DEPTH="1" TYPE="resource" MODULENAME="gmem1_m_axi" DISPNAME="gmem1_m_axi_U" RTLNAME="MM_gmem1_m_axi">
-      <Resources BRAM="15" FF="1672" LUT="959"/>
-      <BindNode BINDTYPE="adapter" BRAM="29" BUNDLEDNAME="gmem1" DISPNAME="bind_adapter " DSP="0" ID="" IMPL="" LATENCY="" LOOP="" OPTYPE="" PRAGMA="" RTLNAME="gmem1_m_axi_U" SOURCE="" STORAGESIZE="" STORAGESUBTYPE="m_axi" STORAGEUSAGE="interface" URAM="0" VARIABLE=""/>
+      <Resources LogicLUT="873" RAMB18="1" RAMB36="7" SRL="59"/>
     </RtlModule>
     <RtlModule CELL="inst/gmem2_m_axi_U" DEPTH="1" TYPE="resource" MODULENAME="gmem2_m_axi" DISPNAME="gmem2_m_axi_U" RTLNAME="MM_gmem2_m_axi">
-      <Resources BRAM="1" FF="742" LUT="509"/>
-      <BindNode BINDTYPE="adapter" BRAM="2" BUNDLEDNAME="gmem2" DISPNAME="bind_adapter " DSP="0" ID="" IMPL="" LATENCY="" LOOP="" OPTYPE="" PRAGMA="" RTLNAME="gmem2_m_axi_U" SOURCE="" STORAGESIZE="" STORAGESUBTYPE="m_axi" STORAGEUSAGE="interface" URAM="0" VARIABLE=""/>
+      <Resources LogicLUT="416" RAMB18="1" SRL="63"/>
     </RtlModule>
     <RtlModule CELL="inst/gmem3_m_axi_U" DEPTH="1" TYPE="resource" MODULENAME="gmem3_m_axi" DISPNAME="gmem3_m_axi_U" RTLNAME="MM_gmem3_m_axi">
-      <Resources FF="2046" LUT="1216"/>
-      <BindNode BINDTYPE="adapter" BRAM="0" BUNDLEDNAME="gmem3" DISPNAME="bind_adapter " DSP="0" ID="" IMPL="" LATENCY="" LOOP="" OPTYPE="" PRAGMA="" RTLNAME="gmem3_m_axi_U" SOURCE="" STORAGESIZE="" STORAGESUBTYPE="m_axi" STORAGEUSAGE="interface" URAM="0" VARIABLE=""/>
+      <Resources LogicLUT="493" SRL="699"/>
     </RtlModule>
     <RtlModule CELL="inst/readAtTiles_U0" DEPTH="1" TYPE="function" MODULENAME="readAtTiles" DISPNAME="readAtTiles_U0" RTLNAME="MM_readAtTiles">
-      <SubModules count="3">grp_readAtTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_78 mul_27ns_31ns_58_1_1_U13 mul_27ns_58ns_85_2_1_U14</SubModules>
-      <Resources DSP="13" FF="756" LUT="435"/>
-      <LocalResources DSP="2" FF="239" LUT="2"/>
+      <SubModules count="3">grp_readAtTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_80 mul_27ns_31ns_58_1_1_U13 mul_27ns_58ns_85_2_1_U14</SubModules>
+      <Resources LogicLUT="434" SRL="1"/>
+      <LocalResources LogicLUT="2"/>
     </RtlModule>
-    <RtlModule CELL="inst/readAtTiles_U0/grp_readAtTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_78" DEPTH="2" TYPE="function" MODULENAME="readAtTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop" DISPNAME="grp_readAtTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_78" RTLNAME="MM_readAtTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop">
+    <RtlModule CELL="inst/readAtTiles_U0/grp_readAtTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_80" DEPTH="2" TYPE="function" MODULENAME="readAtTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop" DISPNAME="grp_readAtTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_80" RTLNAME="MM_readAtTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop">
       <SubModules count="2">flow_control_loop_pipe_sequential_init_U mul_32s_32s_32_1_1_U3</SubModules>
-      <Resources DSP="3" FF="466" LUT="306"/>
-      <LocalResources DSP="1" FF="464" LUT="227"/>
+      <Resources LogicLUT="305" SRL="1"/>
+      <LocalResources LogicLUT="226" SRL="1"/>
     </RtlModule>
-    <RtlModule CELL="inst/readAtTiles_U0/grp_readAtTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_78/flow_control_loop_pipe_sequential_init_U" DEPTH="3" TYPE="rtl" MODULENAME="flow_control_loop_pipe_sequential_init" DISPNAME="flow_control_loop_pipe_sequential_init_U" RTLNAME="MM_flow_control_loop_pipe_sequential_init"/>
-    <RtlModule CELL="inst/readAtTiles_U0/grp_readAtTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_78/mul_32s_32s_32_1_1_U3" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U3" RTLNAME="MM_mul_32s_32s_32_1_1">
-      <Resources DSP="2" LUT="67"/>
-      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="0" LOOP="i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_1_1_U3" SOURCE="../MLP_baseline/mm.cpp:20" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln20" VISIBLE="true"/>
+    <RtlModule CELL="inst/readAtTiles_U0/grp_readAtTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_80/flow_control_loop_pipe_sequential_init_U" DEPTH="3" TYPE="rtl" MODULENAME="flow_control_loop_pipe_sequential_init" DISPNAME="flow_control_loop_pipe_sequential_init_U" RTLNAME="MM_flow_control_loop_pipe_sequential_init"/>
+    <RtlModule CELL="inst/readAtTiles_U0/grp_readAtTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_80/mul_32s_32s_32_1_1_U3" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U3" RTLNAME="MM_mul_32s_32s_32_1_1">
+      <Resources LogicLUT="67"/>
     </RtlModule>
-    <RtlModule CELL="inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13" DEPTH="2" TYPE="resource" MODULENAME="mul_27ns_31ns_58_1_1" DISPNAME="mul_27ns_31ns_58_1_1_U13" RTLNAME="MM_mul_27ns_31ns_58_1_1">
-      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_27ns_31ns_58_1_1_U13" SOURCE="../MLP_baseline/mm.cpp:7" STORAGESUBTYPE="" URAM="0" VARIABLE="bound6" VISIBLE="true"/>
-    </RtlModule>
+    <RtlModule CELL="inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13" DEPTH="2" TYPE="resource" MODULENAME="mul_27ns_31ns_58_1_1" DISPNAME="mul_27ns_31ns_58_1_1_U13" RTLNAME="MM_mul_27ns_31ns_58_1_1"/>
     <RtlModule CELL="inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14" DEPTH="2" TYPE="resource" MODULENAME="mul_27ns_58ns_85_2_1" DISPNAME="mul_27ns_58ns_85_2_1_U14" RTLNAME="MM_mul_27ns_58ns_85_2_1">
-      <Resources DSP="6" FF="51" LUT="86"/>
-      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="6" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_27ns_58ns_85_2_1_U14" SOURCE="../MLP_baseline/mm.cpp:7" STORAGESUBTYPE="" URAM="0" VARIABLE="bound25" VISIBLE="true"/>
+      <Resources LogicLUT="86"/>
     </RtlModule>
     <RtlModule CELL="inst/readBTiles_U0" DEPTH="1" TYPE="function" MODULENAME="readBTiles" DISPNAME="readBTiles_U0" RTLNAME="MM_readBTiles">
-      <SubModules count="3">grp_readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_78 mul_27ns_31ns_58_1_1_U32 mul_27ns_58ns_85_2_1_U33</SubModules>
-      <Resources DSP="13" FF="758" LUT="462"/>
-      <LocalResources DSP="2" FF="239" LUT="2"/>
+      <SubModules count="3">grp_readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_80 mul_27ns_31ns_58_1_1_U32 mul_27ns_58ns_85_2_1_U33</SubModules>
+      <Resources LogicLUT="461" SRL="1"/>
+      <LocalResources LogicLUT="2"/>
     </RtlModule>
-    <RtlModule CELL="inst/readBTiles_U0/grp_readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_78" DEPTH="2" TYPE="function" MODULENAME="readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop" DISPNAME="grp_readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_78" RTLNAME="MM_readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop">
+    <RtlModule CELL="inst/readBTiles_U0/grp_readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_80" DEPTH="2" TYPE="function" MODULENAME="readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop" DISPNAME="grp_readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_80" RTLNAME="MM_readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop">
       <SubModules count="2">flow_control_loop_pipe_sequential_init_U mul_32s_32s_32_1_1_U23</SubModules>
-      <Resources DSP="3" FF="468" LUT="333"/>
-      <LocalResources DSP="1" FF="466" LUT="253"/>
+      <Resources LogicLUT="332" SRL="1"/>
+      <LocalResources LogicLUT="252" SRL="1"/>
     </RtlModule>
-    <RtlModule CELL="inst/readBTiles_U0/grp_readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_78/flow_control_loop_pipe_sequential_init_U" DEPTH="3" TYPE="rtl" MODULENAME="flow_control_loop_pipe_sequential_init" DISPNAME="flow_control_loop_pipe_sequential_init_U" RTLNAME="MM_flow_control_loop_pipe_sequential_init"/>
-    <RtlModule CELL="inst/readBTiles_U0/grp_readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_78/mul_32s_32s_32_1_1_U23" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U23" RTLNAME="MM_mul_32s_32s_32_1_1">
-      <Resources DSP="2" LUT="67"/>
-      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="0" LOOP="i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_1_1_U23" SOURCE="../MLP_baseline/mm.cpp:46" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln46" VISIBLE="true"/>
+    <RtlModule CELL="inst/readBTiles_U0/grp_readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_80/flow_control_loop_pipe_sequential_init_U" DEPTH="3" TYPE="rtl" MODULENAME="flow_control_loop_pipe_sequential_init" DISPNAME="flow_control_loop_pipe_sequential_init_U" RTLNAME="MM_flow_control_loop_pipe_sequential_init"/>
+    <RtlModule CELL="inst/readBTiles_U0/grp_readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_80/mul_32s_32s_32_1_1_U23" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U23" RTLNAME="MM_mul_32s_32s_32_1_1">
+      <Resources LogicLUT="67"/>
     </RtlModule>
-    <RtlModule CELL="inst/readBTiles_U0/mul_27ns_31ns_58_1_1_U32" DEPTH="2" TYPE="resource" MODULENAME="mul_27ns_31ns_58_1_1" DISPNAME="mul_27ns_31ns_58_1_1_U32" RTLNAME="MM_mul_27ns_31ns_58_1_1">
-      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_27ns_31ns_58_1_1_U32" SOURCE="../MLP_baseline/mm.cpp:33" STORAGESUBTYPE="" URAM="0" VARIABLE="bound6" VISIBLE="true"/>
-    </RtlModule>
+    <RtlModule CELL="inst/readBTiles_U0/mul_27ns_31ns_58_1_1_U32" DEPTH="2" TYPE="resource" MODULENAME="mul_27ns_31ns_58_1_1" DISPNAME="mul_27ns_31ns_58_1_1_U32" RTLNAME="MM_mul_27ns_31ns_58_1_1"/>
     <RtlModule CELL="inst/readBTiles_U0/mul_27ns_58ns_85_2_1_U33" DEPTH="2" TYPE="resource" MODULENAME="mul_27ns_58ns_85_2_1" DISPNAME="mul_27ns_58ns_85_2_1_U33" RTLNAME="MM_mul_27ns_58ns_85_2_1">
-      <Resources DSP="6" FF="51" LUT="86"/>
-      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="6" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_27ns_58ns_85_2_1_U33" SOURCE="../MLP_baseline/mm.cpp:33" STORAGESUBTYPE="" URAM="0" VARIABLE="bound28" VISIBLE="true"/>
+      <Resources LogicLUT="86"/>
     </RtlModule>
     <RtlModule CELL="inst/start_for_writeTiles_U0_U" DEPTH="1" TYPE="rtl" MODULENAME="start_for_writeTiles_U0" DISPNAME="start_for_writeTiles_U0_U" RTLNAME="MM_start_for_writeTiles_U0"/>
     <RtlModule CELL="inst/writeTiles_U0" DEPTH="1" TYPE="function" MODULENAME="writeTiles" DISPNAME="writeTiles_U0" RTLNAME="MM_writeTiles">
-      <SubModules count="2">grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_78 mul_27ns_31ns_58_1_1_U142</SubModules>
-      <Resources DSP="7" FF="516" LUT="470"/>
-      <LocalResources DSP="2" FF="213" LUT="136"/>
+      <SubModules count="2">grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_80 mul_27ns_31ns_58_1_1_U142</SubModules>
+      <Resources LogicLUT="469" SRL="1"/>
+      <LocalResources LogicLUT="136"/>
     </RtlModule>
-    <RtlModule CELL="inst/writeTiles_U0/grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_78" DEPTH="2" TYPE="function" MODULENAME="writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop" DISPNAME="grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_78" RTLNAME="MM_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop">
+    <RtlModule CELL="inst/writeTiles_U0/grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_80" DEPTH="2" TYPE="function" MODULENAME="writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop" DISPNAME="grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_80" RTLNAME="MM_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop">
       <SubModules count="2">flow_control_loop_pipe_sequential_init_U mul_32s_32s_32_1_1_U135</SubModules>
-      <Resources DSP="3" FF="303" LUT="258"/>
-      <LocalResources DSP="1" FF="301" LUT="191"/>
+      <Resources LogicLUT="257" SRL="1"/>
+      <LocalResources LogicLUT="190" SRL="1"/>
     </RtlModule>
-    <RtlModule CELL="inst/writeTiles_U0/grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_78/flow_control_loop_pipe_sequential_init_U" DEPTH="3" TYPE="rtl" MODULENAME="flow_control_loop_pipe_sequential_init" DISPNAME="flow_control_loop_pipe_sequential_init_U" RTLNAME="MM_flow_control_loop_pipe_sequential_init"/>
-    <RtlModule CELL="inst/writeTiles_U0/grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_78/mul_32s_32s_32_1_1_U135" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U135" RTLNAME="MM_mul_32s_32s_32_1_1">
-      <Resources DSP="2" LUT="60"/>
-      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="0" LOOP="i_BLOCK_loop_j_BLOCK_loop_j_output_loop" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_1_1_U135" SOURCE="../MLP_baseline/mm.cpp:130" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln130" VISIBLE="true"/>
+    <RtlModule CELL="inst/writeTiles_U0/grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_80/flow_control_loop_pipe_sequential_init_U" DEPTH="3" TYPE="rtl" MODULENAME="flow_control_loop_pipe_sequential_init" DISPNAME="flow_control_loop_pipe_sequential_init_U" RTLNAME="MM_flow_control_loop_pipe_sequential_init"/>
+    <RtlModule CELL="inst/writeTiles_U0/grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_80/mul_32s_32s_32_1_1_U135" DEPTH="3" TYPE="resource" MODULENAME="mul_32s_32s_32_1_1" DISPNAME="mul_32s_32s_32_1_1_U135" RTLNAME="MM_mul_32s_32s_32_1_1">
+      <Resources LogicLUT="60"/>
     </RtlModule>
     <RtlModule CELL="inst/writeTiles_U0/mul_27ns_31ns_58_1_1_U142" DEPTH="2" TYPE="resource" MODULENAME="mul_27ns_31ns_58_1_1" DISPNAME="mul_27ns_31ns_58_1_1_U142" RTLNAME="MM_mul_27ns_31ns_58_1_1">
-      <Resources DSP="2" LUT="76"/>
-      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="0" LOOP="" OPTYPE="mul" PRAGMA="" RTLNAME="mul_27ns_31ns_58_1_1_U142" SOURCE="" STORAGESUBTYPE="" URAM="0" VARIABLE="bound6" VISIBLE="true"/>
+      <Resources LogicLUT="76"/>
     </RtlModule>
   </RtlModules>
   <TimingPaths>
-    <TPATH DATAPATH_DELAY="7.759" DATAPATH_LOGIC_DELAY="6.229" DATAPATH_NET_DELAY="1.530" ENDPOINT_PIN="readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[0]" LOGIC_LEVELS="6" MAX_FANOUT="3" SLACK="5.757" STARTPOINT_PIN="readAtTiles_U0/bound6_reg_344_reg[16]__0/C">
-      <CELL NAME="readAtTiles_U0/bound6_reg_344_reg[16]__0" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM_readAtTiles.v" LINE_NUMBER="317" MODULE_INSTNAME="readAtTiles_U0" IS_FUNCINST="0"/>
+    <TPATH DATAPATH_DELAY="7.759" DATAPATH_LOGIC_DELAY="6.229" DATAPATH_NET_DELAY="1.530" ENDPOINT_PIN="readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[0]" LOGIC_LEVELS="6" MAX_FANOUT="3" SLACK="5.757" STARTPOINT_PIN="readAtTiles_U0/bound6_reg_346_reg[16]__0/C">
+      <CELL NAME="readAtTiles_U0/bound6_reg_346_reg[16]__0" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM_readAtTiles.v" LINE_NUMBER="318" MODULE_INSTNAME="readAtTiles_U0" IS_FUNCINST="0"/>
       <CELL NAME="readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_27ns_31ns_58_1_1.v" LINE_NUMBER="41" MODULE_INSTNAME="mul_27ns_31ns_58_1_1_U13" IS_FUNCINST="0"/>
       <CELL NAME="readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_27ns_31ns_58_1_1.v" LINE_NUMBER="41" MODULE_INSTNAME="mul_27ns_31ns_58_1_1_U13" IS_FUNCINST="0"/>
       <CELL NAME="readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_27ns_31ns_58_1_1.v" LINE_NUMBER="41" MODULE_INSTNAME="mul_27ns_31ns_58_1_1_U13" IS_FUNCINST="0"/>
@@ -236,8 +180,8 @@
       <CELL NAME="readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="MM_mul_27ns_58ns_85_2_1.v" LINE_NUMBER="47" MODULE_INSTNAME="mul_27ns_58ns_85_2_1_U14" IS_FUNCINST="0"/>
       <MODULE_INSTANCES>readAtTiles_U0 mul_27ns_31ns_58_1_1_U13 mul_27ns_58ns_85_2_1_U14</MODULE_INSTANCES>
     </TPATH>
-    <TPATH DATAPATH_DELAY="7.759" DATAPATH_LOGIC_DELAY="6.229" DATAPATH_NET_DELAY="1.530" ENDPOINT_PIN="readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[10]" LOGIC_LEVELS="6" MAX_FANOUT="3" SLACK="5.757" STARTPOINT_PIN="readAtTiles_U0/bound6_reg_344_reg[16]__0/C">
-      <CELL NAME="readAtTiles_U0/bound6_reg_344_reg[16]__0" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM_readAtTiles.v" LINE_NUMBER="317" MODULE_INSTNAME="readAtTiles_U0" IS_FUNCINST="0"/>
+    <TPATH DATAPATH_DELAY="7.759" DATAPATH_LOGIC_DELAY="6.229" DATAPATH_NET_DELAY="1.530" ENDPOINT_PIN="readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[10]" LOGIC_LEVELS="6" MAX_FANOUT="3" SLACK="5.757" STARTPOINT_PIN="readAtTiles_U0/bound6_reg_346_reg[16]__0/C">
+      <CELL NAME="readAtTiles_U0/bound6_reg_346_reg[16]__0" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM_readAtTiles.v" LINE_NUMBER="318" MODULE_INSTNAME="readAtTiles_U0" IS_FUNCINST="0"/>
       <CELL NAME="readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_27ns_31ns_58_1_1.v" LINE_NUMBER="41" MODULE_INSTNAME="mul_27ns_31ns_58_1_1_U13" IS_FUNCINST="0"/>
       <CELL NAME="readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_27ns_31ns_58_1_1.v" LINE_NUMBER="41" MODULE_INSTNAME="mul_27ns_31ns_58_1_1_U13" IS_FUNCINST="0"/>
       <CELL NAME="readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_27ns_31ns_58_1_1.v" LINE_NUMBER="41" MODULE_INSTNAME="mul_27ns_31ns_58_1_1_U13" IS_FUNCINST="0"/>
@@ -247,8 +191,8 @@
       <CELL NAME="readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="MM_mul_27ns_58ns_85_2_1.v" LINE_NUMBER="47" MODULE_INSTNAME="mul_27ns_58ns_85_2_1_U14" IS_FUNCINST="0"/>
       <MODULE_INSTANCES>readAtTiles_U0 mul_27ns_31ns_58_1_1_U13 mul_27ns_58ns_85_2_1_U14</MODULE_INSTANCES>
     </TPATH>
-    <TPATH DATAPATH_DELAY="7.759" DATAPATH_LOGIC_DELAY="6.229" DATAPATH_NET_DELAY="1.530" ENDPOINT_PIN="readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[11]" LOGIC_LEVELS="6" MAX_FANOUT="3" SLACK="5.757" STARTPOINT_PIN="readAtTiles_U0/bound6_reg_344_reg[16]__0/C">
-      <CELL NAME="readAtTiles_U0/bound6_reg_344_reg[16]__0" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM_readAtTiles.v" LINE_NUMBER="317" MODULE_INSTNAME="readAtTiles_U0" IS_FUNCINST="0"/>
+    <TPATH DATAPATH_DELAY="7.759" DATAPATH_LOGIC_DELAY="6.229" DATAPATH_NET_DELAY="1.530" ENDPOINT_PIN="readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[11]" LOGIC_LEVELS="6" MAX_FANOUT="3" SLACK="5.757" STARTPOINT_PIN="readAtTiles_U0/bound6_reg_346_reg[16]__0/C">
+      <CELL NAME="readAtTiles_U0/bound6_reg_346_reg[16]__0" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM_readAtTiles.v" LINE_NUMBER="318" MODULE_INSTNAME="readAtTiles_U0" IS_FUNCINST="0"/>
       <CELL NAME="readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_27ns_31ns_58_1_1.v" LINE_NUMBER="41" MODULE_INSTNAME="mul_27ns_31ns_58_1_1_U13" IS_FUNCINST="0"/>
       <CELL NAME="readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_27ns_31ns_58_1_1.v" LINE_NUMBER="41" MODULE_INSTNAME="mul_27ns_31ns_58_1_1_U13" IS_FUNCINST="0"/>
       <CELL NAME="readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_27ns_31ns_58_1_1.v" LINE_NUMBER="41" MODULE_INSTNAME="mul_27ns_31ns_58_1_1_U13" IS_FUNCINST="0"/>
@@ -258,8 +202,8 @@
       <CELL NAME="readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="MM_mul_27ns_58ns_85_2_1.v" LINE_NUMBER="47" MODULE_INSTNAME="mul_27ns_58ns_85_2_1_U14" IS_FUNCINST="0"/>
       <MODULE_INSTANCES>readAtTiles_U0 mul_27ns_31ns_58_1_1_U13 mul_27ns_58ns_85_2_1_U14</MODULE_INSTANCES>
     </TPATH>
-    <TPATH DATAPATH_DELAY="7.759" DATAPATH_LOGIC_DELAY="6.229" DATAPATH_NET_DELAY="1.530" ENDPOINT_PIN="readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[12]" LOGIC_LEVELS="6" MAX_FANOUT="3" SLACK="5.757" STARTPOINT_PIN="readAtTiles_U0/bound6_reg_344_reg[16]__0/C">
-      <CELL NAME="readAtTiles_U0/bound6_reg_344_reg[16]__0" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM_readAtTiles.v" LINE_NUMBER="317" MODULE_INSTNAME="readAtTiles_U0" IS_FUNCINST="0"/>
+    <TPATH DATAPATH_DELAY="7.759" DATAPATH_LOGIC_DELAY="6.229" DATAPATH_NET_DELAY="1.530" ENDPOINT_PIN="readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[12]" LOGIC_LEVELS="6" MAX_FANOUT="3" SLACK="5.757" STARTPOINT_PIN="readAtTiles_U0/bound6_reg_346_reg[16]__0/C">
+      <CELL NAME="readAtTiles_U0/bound6_reg_346_reg[16]__0" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM_readAtTiles.v" LINE_NUMBER="318" MODULE_INSTNAME="readAtTiles_U0" IS_FUNCINST="0"/>
       <CELL NAME="readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_27ns_31ns_58_1_1.v" LINE_NUMBER="41" MODULE_INSTNAME="mul_27ns_31ns_58_1_1_U13" IS_FUNCINST="0"/>
       <CELL NAME="readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_27ns_31ns_58_1_1.v" LINE_NUMBER="41" MODULE_INSTNAME="mul_27ns_31ns_58_1_1_U13" IS_FUNCINST="0"/>
       <CELL NAME="readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_27ns_31ns_58_1_1.v" LINE_NUMBER="41" MODULE_INSTNAME="mul_27ns_31ns_58_1_1_U13" IS_FUNCINST="0"/>
@@ -269,8 +213,8 @@
       <CELL NAME="readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg" PRIMITIVE_TYPE="MULT.dsp.DSP48E1" FILE_NAME="MM_mul_27ns_58ns_85_2_1.v" LINE_NUMBER="47" MODULE_INSTNAME="mul_27ns_58ns_85_2_1_U14" IS_FUNCINST="0"/>
       <MODULE_INSTANCES>readAtTiles_U0 mul_27ns_31ns_58_1_1_U13 mul_27ns_58ns_85_2_1_U14</MODULE_INSTANCES>
     </TPATH>
-    <TPATH DATAPATH_DELAY="7.759" DATAPATH_LOGIC_DELAY="6.229" DATAPATH_NET_DELAY="1.530" ENDPOINT_PIN="readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[13]" LOGIC_LEVELS="6" MAX_FANOUT="3" SLACK="5.757" STARTPOINT_PIN="readAtTiles_U0/bound6_reg_344_reg[16]__0/C">
-      <CELL NAME="readAtTiles_U0/bound6_reg_344_reg[16]__0" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM_readAtTiles.v" LINE_NUMBER="317" MODULE_INSTNAME="readAtTiles_U0" IS_FUNCINST="0"/>
+    <TPATH DATAPATH_DELAY="7.759" DATAPATH_LOGIC_DELAY="6.229" DATAPATH_NET_DELAY="1.530" ENDPOINT_PIN="readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[13]" LOGIC_LEVELS="6" MAX_FANOUT="3" SLACK="5.757" STARTPOINT_PIN="readAtTiles_U0/bound6_reg_346_reg[16]__0/C">
+      <CELL NAME="readAtTiles_U0/bound6_reg_346_reg[16]__0" PRIMITIVE_TYPE="FLOP_LATCH.flop.FDRE" FILE_NAME="MM_readAtTiles.v" LINE_NUMBER="318" MODULE_INSTNAME="readAtTiles_U0" IS_FUNCINST="0"/>
       <CELL NAME="readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_27ns_31ns_58_1_1.v" LINE_NUMBER="41" MODULE_INSTNAME="mul_27ns_31ns_58_1_1_U13" IS_FUNCINST="0"/>
       <CELL NAME="readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_27ns_31ns_58_1_1.v" LINE_NUMBER="41" MODULE_INSTNAME="mul_27ns_31ns_58_1_1_U13" IS_FUNCINST="0"/>
       <CELL NAME="readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13" PRIMITIVE_TYPE="CARRY.others.CARRY4" FILE_NAME="MM_mul_27ns_31ns_58_1_1.v" LINE_NUMBER="41" MODULE_INSTNAME="mul_27ns_31ns_58_1_1_U13" IS_FUNCINST="0"/>
@@ -291,8 +235,8 @@
     <ReportFile TYPE="utilization_hierarchical" PATH="verilog/report/MM_utilization_hierarchical_synth.rpt"/>
   </VivadoReportFiles>
   <GeneralInfo NAME="General Information">
-    <item NAME="Date" VALUE="Thu Apr 09 09:51:34 -0700 2026"/>
-    <item NAME="Version" VALUE="2025.1 (Build 6135595 on May 21 2025)"/>
+    <item NAME="Date" VALUE="Thu Apr 09 18:42:17 -0700 2026"/>
+    <item NAME="Version" VALUE="2025.2 (Build 6295257 on Nov 14 2025)"/>
     <item NAME="Project" VALUE="baseline_blockedMM"/>
     <item NAME="Solution" VALUE="hls (Vivado IP Flow Target)"/>
     <item NAME="Product family" VALUE="zynq"/>
@@ -316,4 +260,3 @@
     </Reporting>
   </RunOptions>
 </profile>
-

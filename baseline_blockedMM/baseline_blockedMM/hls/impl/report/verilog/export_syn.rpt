@@ -2,8 +2,8 @@
 == Vivado RTL Synthesis Results
 ================================================================
 + General Information:
-    * Date:            Thu Apr 09 09:51:34 -0700 2026
-    * Version:         2025.1 (Build 6135595 on May 21 2025)
+    * Date:            Thu Apr 09 18:42:17 -0700 2026
+    * Version:         2025.2 (Build 6295257 on Nov 14 2025)
     * Project:         baseline_blockedMM
     * Solution:        hls (Vivado IP Flow Target)
     * Product family:  zynq
@@ -30,8 +30,8 @@
 ================================================================
 == RTL Synthesis Resource Summary
 ================================================================
-LUT:              12506
-FF:               19277
+LUT:              12399
+FF:               19264
 DSP:              81
 BRAM:             76
 URAM:             0
@@ -53,62 +53,70 @@ SRL:              946
 ================================================================
 == RTL Synthesis Resources
 ================================================================
-+-------------------------------------------------------------------------------------+-------+-------+-----+------+------+-----+--------+------+---------+----------+--------+
-| Name                                                                                | LUT   | FF    | DSP | BRAM | URAM | SRL | Pragma | Impl | Latency | Variable | Source |
-+-------------------------------------------------------------------------------------+-------+-------+-----+------+------+-----+--------+------+---------+----------+--------+
-| inst                                                                                | 12506 | 19277 | 81  | 76   |      |     |        |      |         |          |        |
-|   ABC_c_U                                                                           | 71    | 7     |     |      |      |     |        |      |         |          |        |
-|   AB_stream_U                                                                       |       |       |     |      |      |     |        |      |         |          |        |
-|   A_stream_U                                                                        |       |       |     |      |      |     |        |      |         |          |        |
-|   B_stream_U                                                                        |       |       |     |      |      |     |        |      |         |          |        |
-|   N_c_U                                                                             | 41    | 70    |     |      |      |     |        |      |         |          |        |
-|   P_c_U                                                                             | 41    | 70    |     |      |      |     |        |      |         |          |        |
-|   computeTiles_U0                                                                   | 5987  | 10475 | 48  |      |      |     |        |      |         |          |        |
-|     (computeTiles_U0)                                                               | 71    | 1381  |     |      |      |     |        |      |         |          |        |
-|       mul_32s_32s_32_1_1_U40                                                        |       |       |     |      |      |     |        |      |         |          |        |
-|       mul_32s_32s_32_1_1_U41                                                        |       |       |     |      |      |     |        |      |         |          |        |
-|       mul_32s_32s_32_1_1_U42                                                        |       |       |     |      |      |     |        |      |         |          |        |
-|       mul_32s_32s_32_1_1_U43                                                        |       |       |     |      |      |     |        |      |         |          |        |
-|       mul_32s_32s_32_1_1_U44                                                        |       |       |     |      |      |     |        |      |         |          |        |
-|       mul_32s_32s_32_1_1_U45                                                        |       |       |     |      |      |     |        |      |         |          |        |
-|       mul_32s_32s_32_1_1_U46                                                        |       |       |     |      |      |     |        |      |         |          |        |
-|       mul_32s_32s_32_1_1_U47                                                        |       |       |     |      |      |     |        |      |         |          |        |
-|       mul_32s_32s_32_1_1_U48                                                        |       |       |     |      |      |     |        |      |         |          |        |
-|       mul_32s_32s_32_1_1_U49                                                        |       |       |     |      |      |     |        |      |         |          |        |
-|       mul_32s_32s_32_1_1_U50                                                        |       |       |     |      |      |     |        |      |         |          |        |
-|       mul_32s_32s_32_1_1_U51                                                        |       |       |     |      |      |     |        |      |         |          |        |
-|       mul_32s_32s_32_1_1_U52                                                        |       |       |     |      |      |     |        |      |         |          |        |
-|       mul_32s_32s_32_1_1_U53                                                        |       |       |     |      |      |     |        |      |         |          |        |
-|       mul_32s_32s_32_1_1_U54                                                        |       |       |     |      |      |     |        |      |         |          |        |
-|       mul_32s_32s_32_1_1_U55                                                        |       |       |     |      |      |     |        |      |         |          |        |
-|   control_s_axi_U                                                                   | 1258  | 408   |     |      |      |     |        |      |         |          |        |
-|   entry_proc_U0                                                                     |       |       |     |      |      |     |        |      |         |          |        |
-|   gmem0_m_axi_U                                                                     | 959   | 1672  |     | 15   |      |     |        |      |         |          |        |
-|   gmem1_m_axi_U                                                                     | 959   | 1672  |     | 15   |      |     |        |      |         |          |        |
-|   gmem2_m_axi_U                                                                     | 509   | 742   |     | 1    |      |     |        |      |         |          |        |
-|   gmem3_m_axi_U                                                                     | 1216  | 2046  |     |      |      |     |        |      |         |          |        |
-|   readAtTiles_U0                                                                    | 435   | 756   | 13  |      |      |     |        |      |         |          |        |
-|     (readAtTiles_U0)                                                                | 2     | 239   | 2   |      |      |     |        |      |         |          |        |
-|       mul_32s_32s_32_1_1_U3                                                         | 67    |       | 2   |      |      |     |        |      |         |          |        |
-|     mul_27ns_31ns_58_1_1_U13                                                        |       |       |     |      |      |     |        |      |         |          |        |
-|     mul_27ns_58ns_85_2_1_U14                                                        | 86    | 51    | 6   |      |      |     |        |      |         |          |        |
-|   readBTiles_U0                                                                     | 462   | 758   | 13  |      |      |     |        |      |         |          |        |
-|     (readBTiles_U0)                                                                 | 2     | 239   | 2   |      |      |     |        |      |         |          |        |
-|     grp_readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_78     | 333   | 468   | 3   |      |      |     |        |      |         |          |        |
-|       (grp_readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_78) | 253   | 466   | 1   |      |      |     |        |      |         |          |        |
-|       flow_control_loop_pipe_sequential_init_U                                      |       |       |     |      |      |     |        |      |         |          |        |
-|       mul_32s_32s_32_1_1_U23                                                        | 67    |       | 2   |      |      |     |        |      |         |          |        |
-|     mul_27ns_31ns_58_1_1_U32                                                        |       |       |     |      |      |     |        |      |         |          |        |
-|     mul_27ns_58ns_85_2_1_U33                                                        | 86    | 51    | 6   |      |      |     |        |      |         |          |        |
-|   start_for_writeTiles_U0_U                                                         |       |       |     |      |      |     |        |      |         |          |        |
-|   writeTiles_U0                                                                     | 470   | 516   | 7   |      |      |     |        |      |         |          |        |
-|     (writeTiles_U0)                                                                 | 136   | 213   | 2   |      |      |     |        |      |         |          |        |
-|     grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_78           | 258   | 303   | 3   |      |      |     |        |      |         |          |        |
-|       (grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_78)       | 191   | 301   | 1   |      |      |     |        |      |         |          |        |
-|       flow_control_loop_pipe_sequential_init_U                                      |       |       |     |      |      |     |        |      |         |          |        |
-|       mul_32s_32s_32_1_1_U135                                                       | 60    |       | 2   |      |      |     |        |      |         |          |        |
-|     mul_27ns_31ns_58_1_1_U142                                                       | 76    |       | 2   |      |      |     |        |      |         |          |        |
-+-------------------------------------------------------------------------------------+-------+-------+-----+------+------+-----+--------+------+---------+----------+--------+
++--------------------------------------------------------------------------------------+-----+----+-----+------+------+-----+--------+------+---------+----------+--------+
+| Name                                                                                 | LUT | FF | DSP | BRAM | URAM | SRL | Pragma | Impl | Latency | Variable | Source |
++--------------------------------------------------------------------------------------+-----+----+-----+------+------+-----+--------+------+---------+----------+--------+
+| inst                                                                                 |     |    |     |      |      | 946 |        |      |         |          |        |
+|   ABC_c_U                                                                            |     |    |     |      |      | 59  |        |      |         |          |        |
+|   AB_stream_U                                                                        |     |    |     |      |      |     |        |      |         |          |        |
+|   A_stream_U                                                                         |     |    |     |      |      |     |        |      |         |          |        |
+|   B_stream_U                                                                         |     |    |     |      |      |     |        |      |         |          |        |
+|   N_c_U                                                                              |     |    |     |      |      |     |        |      |         |          |        |
+|   P_c_U                                                                              |     |    |     |      |      |     |        |      |         |          |        |
+|   computeTiles_U0                                                                    |     |    |     |      |      | 1   |        |      |         |          |        |
+|     (computeTiles_U0)                                                                |     |    |     |      |      |     |        |      |         |          |        |
+|     grp_computeTiles_Pipeline_j_output_loop_fu_284                                   |     |    |     |      |      |     |        |      |         |          |        |
+|       flow_control_loop_pipe_sequential_init_U                                       |     |    |     |      |      |     |        |      |         |          |        |
+|     grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243                      |     |    |     |      |      | 1   |        |      |         |          |        |
+|       (grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243)                  |     |    |     |      |      | 1   |        |      |         |          |        |
+|       flow_control_loop_pipe_sequential_init_U                                       |     |    |     |      |      |     |        |      |         |          |        |
+|       mul_32s_32s_32_1_1_U40                                                         |     |    |     |      |      |     |        |      |         |          |        |
+|       mul_32s_32s_32_1_1_U41                                                         |     |    |     |      |      |     |        |      |         |          |        |
+|       mul_32s_32s_32_1_1_U42                                                         |     |    |     |      |      |     |        |      |         |          |        |
+|       mul_32s_32s_32_1_1_U43                                                         |     |    |     |      |      |     |        |      |         |          |        |
+|       mul_32s_32s_32_1_1_U44                                                         |     |    |     |      |      |     |        |      |         |          |        |
+|       mul_32s_32s_32_1_1_U45                                                         |     |    |     |      |      |     |        |      |         |          |        |
+|       mul_32s_32s_32_1_1_U46                                                         |     |    |     |      |      |     |        |      |         |          |        |
+|       mul_32s_32s_32_1_1_U47                                                         |     |    |     |      |      |     |        |      |         |          |        |
+|       mul_32s_32s_32_1_1_U48                                                         |     |    |     |      |      |     |        |      |         |          |        |
+|       mul_32s_32s_32_1_1_U49                                                         |     |    |     |      |      |     |        |      |         |          |        |
+|       mul_32s_32s_32_1_1_U50                                                         |     |    |     |      |      |     |        |      |         |          |        |
+|       mul_32s_32s_32_1_1_U51                                                         |     |    |     |      |      |     |        |      |         |          |        |
+|       mul_32s_32s_32_1_1_U52                                                         |     |    |     |      |      |     |        |      |         |          |        |
+|       mul_32s_32s_32_1_1_U53                                                         |     |    |     |      |      |     |        |      |         |          |        |
+|       mul_32s_32s_32_1_1_U54                                                         |     |    |     |      |      |     |        |      |         |          |        |
+|       mul_32s_32s_32_1_1_U55                                                         |     |    |     |      |      |     |        |      |         |          |        |
+|   control_s_axi_U                                                                    |     |    |     |      |      |     |        |      |         |          |        |
+|   entry_proc_U0                                                                      |     |    |     |      |      |     |        |      |         |          |        |
+|   gmem0_m_axi_U                                                                      |     |    |     |      |      | 59  |        |      |         |          |        |
+|   gmem1_m_axi_U                                                                      |     |    |     |      |      | 59  |        |      |         |          |        |
+|   gmem2_m_axi_U                                                                      |     |    |     |      |      | 63  |        |      |         |          |        |
+|   gmem3_m_axi_U                                                                      |     |    |     |      |      | 699 |        |      |         |          |        |
+|   readAtTiles_U0                                                                     |     |    |     |      |      | 1   |        |      |         |          |        |
+|     (readAtTiles_U0)                                                                 |     |    |     |      |      |     |        |      |         |          |        |
+|     grp_readAtTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_80     |     |    |     |      |      | 1   |        |      |         |          |        |
+|       (grp_readAtTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_80) |     |    |     |      |      | 1   |        |      |         |          |        |
+|       flow_control_loop_pipe_sequential_init_U                                       |     |    |     |      |      |     |        |      |         |          |        |
+|       mul_32s_32s_32_1_1_U3                                                          |     |    |     |      |      |     |        |      |         |          |        |
+|     mul_27ns_31ns_58_1_1_U13                                                         |     |    |     |      |      |     |        |      |         |          |        |
+|     mul_27ns_58ns_85_2_1_U14                                                         |     |    |     |      |      |     |        |      |         |          |        |
+|   readBTiles_U0                                                                      |     |    |     |      |      | 1   |        |      |         |          |        |
+|     (readBTiles_U0)                                                                  |     |    |     |      |      |     |        |      |         |          |        |
+|     grp_readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_80      |     |    |     |      |      | 1   |        |      |         |          |        |
+|       (grp_readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_80)  |     |    |     |      |      | 1   |        |      |         |          |        |
+|       flow_control_loop_pipe_sequential_init_U                                       |     |    |     |      |      |     |        |      |         |          |        |
+|       mul_32s_32s_32_1_1_U23                                                         |     |    |     |      |      |     |        |      |         |          |        |
+|     mul_27ns_31ns_58_1_1_U32                                                         |     |    |     |      |      |     |        |      |         |          |        |
+|     mul_27ns_58ns_85_2_1_U33                                                         |     |    |     |      |      |     |        |      |         |          |        |
+|   start_for_writeTiles_U0_U                                                          |     |    |     |      |      |     |        |      |         |          |        |
+|   writeTiles_U0                                                                      |     |    |     |      |      | 1   |        |      |         |          |        |
+|     (writeTiles_U0)                                                                  |     |    |     |      |      |     |        |      |         |          |        |
+|     grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_80            |     |    |     |      |      | 1   |        |      |         |          |        |
+|       (grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_80)        |     |    |     |      |      | 1   |        |      |         |          |        |
+|       flow_control_loop_pipe_sequential_init_U                                       |     |    |     |      |      |     |        |      |         |          |        |
+|       mul_32s_32s_32_1_1_U135                                                        |     |    |     |      |      |     |        |      |         |          |        |
+|     mul_27ns_31ns_58_1_1_U142                                                        |     |    |     |      |      |     |        |      |         |          |        |
++--------------------------------------------------------------------------------------+-----+----+-----+------+------+-----+--------+------+---------+----------+--------+
 
 
 ================================================================
@@ -117,18 +125,18 @@ SRL:              946
 +-----------------------------------------------------------+-----------+--------+--------+
 | Criteria                                                  | Guideline | Actual | Status |
 +-----------------------------------------------------------+-----------+--------+--------+
-| LUT                                                       | 70%       | 23.51% | OK     |
-| FD                                                        | 50%       | 18.12% | OK     |
+| LUT                                                       | 70%       | 23.31% | OK     |
+| FD                                                        | 50%       | 18.11% | OK     |
 | LUTRAM+SRL                                                | 25%       | 5.44%  | OK     |
 | MUXF7                                                     | 15%       | 6.02%  | OK     |
 | DSP                                                       | 80%       | 36.82% | OK     |
 | RAMB/FIFO                                                 | 80%       | 27.14% | OK     |
 | DSP+RAMB+URAM (Avg)                                       | 70%       | 31.98% | OK     |
 | BUFGCE* + BUFGCTRL                                        | 24        | 0      | OK     |
-| DONT_TOUCH (cells/nets)                                   | 0         | 0      | OK     |
+| DONT_TOUCH (cells/nets)                                   | 0         | 8      | REVIEW |
 | MARK_DEBUG (nets)                                         | 0         | 0      | OK     |
-| Control Sets                                              | 998       | 724    | OK     |
-| Average Fanout for modules > 100k cells                   | 4         | 2.84   | OK     |
+| Control Sets                                              | 998       | 732    | OK     |
+| Average Fanout for modules > 100k cells                   | 4         | 2.85   | OK     |
 | Max Average Fanout for modules > 100k cells               | 4         | 0      | OK     |
 | Non-FD high fanout nets > 10k loads                       | 0         | 0      | OK     |
 +-----------------------------------------------------------+-----------+--------+--------+
@@ -151,49 +159,17 @@ SRL:              946
 | Path  | SLACK | STARTPOINT PIN                             | ENDPOINT PIN                                               | LOGIC LEVELS | MAX FANOUT | DATAPATH DELAY | DATAPATH LOGIC | DATAPATH NET |
 |       |       |                                            |                                                            |              |            |                |          DELAY |        DELAY |
 +-------+-------+--------------------------------------------+------------------------------------------------------------+--------------+------------+----------------+----------------+--------------+
-| Path1 | 5.757 | readAtTiles_U0/bound6_reg_344_reg[16]__0/C | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[0]  |            6 |          3 |          7.759 |          6.229 |        1.530 |
-| Path2 | 5.757 | readAtTiles_U0/bound6_reg_344_reg[16]__0/C | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[10] |            6 |          3 |          7.759 |          6.229 |        1.530 |
-| Path3 | 5.757 | readAtTiles_U0/bound6_reg_344_reg[16]__0/C | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[11] |            6 |          3 |          7.759 |          6.229 |        1.530 |
-| Path4 | 5.757 | readAtTiles_U0/bound6_reg_344_reg[16]__0/C | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[12] |            6 |          3 |          7.759 |          6.229 |        1.530 |
-| Path5 | 5.757 | readAtTiles_U0/bound6_reg_344_reg[16]__0/C | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[13] |            6 |          3 |          7.759 |          6.229 |        1.530 |
+| Path1 | 5.757 | readAtTiles_U0/bound6_reg_346_reg[16]__0/C | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[0]  |            6 |          3 |          7.759 |          6.229 |        1.530 |
+| Path2 | 5.757 | readAtTiles_U0/bound6_reg_346_reg[16]__0/C | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[10] |            6 |          3 |          7.759 |          6.229 |        1.530 |
+| Path3 | 5.757 | readAtTiles_U0/bound6_reg_346_reg[16]__0/C | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[11] |            6 |          3 |          7.759 |          6.229 |        1.530 |
+| Path4 | 5.757 | readAtTiles_U0/bound6_reg_346_reg[16]__0/C | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[12] |            6 |          3 |          7.759 |          6.229 |        1.530 |
+| Path5 | 5.757 | readAtTiles_U0/bound6_reg_346_reg[16]__0/C | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[13] |            6 |          3 |          7.759 |          6.229 |        1.530 |
 +-------+-------+--------------------------------------------+------------------------------------------------------------+--------------+------------+----------------+----------------+--------------+
 
     +----------------------------------------------------------+----------------------+
     | Path1 Cells                                              | Primitive Type       |
     +----------------------------------------------------------+----------------------+
-    | readAtTiles_U0/bound6_reg_344_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product      | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg        | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/bound6_reg_344_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product      | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg        | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/bound6_reg_344_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product      | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg        | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/bound6_reg_344_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product      | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg        | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/bound6_reg_344_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
+    | readAtTiles_U0/bound6_reg_346_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
     | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15 | CARRY.others.CARRY4  |
     | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14 | CARRY.others.CARRY4  |
     | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13 | CARRY.others.CARRY4  |
@@ -206,39 +182,7 @@ SRL:              946
     +----------------------------------------------------------+----------------------+
     | Path2 Cells                                              | Primitive Type       |
     +----------------------------------------------------------+----------------------+
-    | readAtTiles_U0/bound6_reg_344_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product      | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg        | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/bound6_reg_344_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product      | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg        | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/bound6_reg_344_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product      | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg        | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/bound6_reg_344_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product      | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg        | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/bound6_reg_344_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
+    | readAtTiles_U0/bound6_reg_346_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
     | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15 | CARRY.others.CARRY4  |
     | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14 | CARRY.others.CARRY4  |
     | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13 | CARRY.others.CARRY4  |
@@ -251,39 +195,7 @@ SRL:              946
     +----------------------------------------------------------+----------------------+
     | Path3 Cells                                              | Primitive Type       |
     +----------------------------------------------------------+----------------------+
-    | readAtTiles_U0/bound6_reg_344_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product      | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg        | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/bound6_reg_344_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product      | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg        | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/bound6_reg_344_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product      | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg        | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/bound6_reg_344_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product      | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg        | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/bound6_reg_344_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
+    | readAtTiles_U0/bound6_reg_346_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
     | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15 | CARRY.others.CARRY4  |
     | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14 | CARRY.others.CARRY4  |
     | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13 | CARRY.others.CARRY4  |
@@ -296,39 +208,7 @@ SRL:              946
     +----------------------------------------------------------+----------------------+
     | Path4 Cells                                              | Primitive Type       |
     +----------------------------------------------------------+----------------------+
-    | readAtTiles_U0/bound6_reg_344_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product      | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg        | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/bound6_reg_344_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product      | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg        | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/bound6_reg_344_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product      | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg        | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/bound6_reg_344_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product      | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg        | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/bound6_reg_344_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
+    | readAtTiles_U0/bound6_reg_346_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
     | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15 | CARRY.others.CARRY4  |
     | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14 | CARRY.others.CARRY4  |
     | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13 | CARRY.others.CARRY4  |
@@ -341,39 +221,7 @@ SRL:              946
     +----------------------------------------------------------+----------------------+
     | Path5 Cells                                              | Primitive Type       |
     +----------------------------------------------------------+----------------------+
-    | readAtTiles_U0/bound6_reg_344_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product      | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg        | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/bound6_reg_344_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product      | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg        | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/bound6_reg_344_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product      | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg        | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/bound6_reg_344_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_12 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_11 | CARRY.others.CARRY4  |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/tmp_product      | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg        | MULT.dsp.DSP48E1     |
-    | readAtTiles_U0/bound6_reg_344_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
+    | readAtTiles_U0/bound6_reg_346_reg[16]__0                 | FLOP_LATCH.flop.FDRE |
     | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15 | CARRY.others.CARRY4  |
     | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_14 | CARRY.others.CARRY4  |
     | readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_13 | CARRY.others.CARRY4  |

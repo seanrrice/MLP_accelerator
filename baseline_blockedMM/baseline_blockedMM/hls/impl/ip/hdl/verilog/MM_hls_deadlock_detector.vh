@@ -250,7 +250,7 @@ end
         .token_out_vec(token_out_vec_1),
         .dl_detect_out(dl_in_vec[1]));
 
-    assign proc_1_data_FIFO_blk[0] = 1'b0 | (~readAtTiles_U0.grp_readAtTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_78.A_stream_blk_n);
+    assign proc_1_data_FIFO_blk[0] = 1'b0 | (~readAtTiles_U0.grp_readAtTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_80.A_stream_blk_n);
     assign proc_1_data_PIPO_blk[0] = 1'b0;
     assign proc_1_start_FIFO_blk[0] = 1'b0;
     assign proc_1_TLF_FIFO_blk[0] = 1'b0;
@@ -314,7 +314,7 @@ end
         .token_out_vec(token_out_vec_2),
         .dl_detect_out(dl_in_vec[2]));
 
-    assign proc_2_data_FIFO_blk[0] = 1'b0 | (~readBTiles_U0.grp_readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_78.B_stream_blk_n);
+    assign proc_2_data_FIFO_blk[0] = 1'b0 | (~readBTiles_U0.grp_readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_80.B_stream_blk_n);
     assign proc_2_data_PIPO_blk[0] = 1'b0;
     assign proc_2_start_FIFO_blk[0] = 1'b0;
     assign proc_2_TLF_FIFO_blk[0] = 1'b0;
@@ -455,7 +455,7 @@ end
         .token_out_vec(token_out_vec_4),
         .dl_detect_out(dl_in_vec[4]));
 
-    assign proc_4_data_FIFO_blk[0] = 1'b0 | (~writeTiles_U0.grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_78.AB_stream_blk_n) | (~writeTiles_U0.N_blk_n) | (~writeTiles_U0.P_blk_n);
+    assign proc_4_data_FIFO_blk[0] = 1'b0 | (~writeTiles_U0.grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_80.AB_stream_blk_n) | (~writeTiles_U0.N_blk_n) | (~writeTiles_U0.P_blk_n);
     assign proc_4_data_PIPO_blk[0] = 1'b0;
     assign proc_4_start_FIFO_blk[0] = 1'b0;
     assign proc_4_TLF_FIFO_blk[0] = 1'b0;

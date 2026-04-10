@@ -1,6 +1,6 @@
 <ENTRY>
 {
- "thisFile": "C:/Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\baseline_blockedMM\\baseline_blockedMM.hlsrun_package_summary",
+ "thisFile": "Z:/Labs\\MLP_accelerator\\baseline_blockedMM\\baseline_blockedMM\\baseline_blockedMM.hlsrun_package_summary",
  "connectId": "",
  "serverToken": "",
  "timestamp": "0"
@@ -9,34 +9,34 @@
 <ENTRY>
 {
  "type": "ET_CmdStep",
- "dateTimestamp": "04/09/26 09:32:56",
- "timestampMillis": "1775752376632",
+ "dateTimestamp": "04/09/26 18:27:48",
+ "timestampMillis": "1775784468011",
  "buildStep": {
-  "cmdId": "1aa0283a-638e-4506-815f-ba06867c0dde",
+  "cmdId": "bfd505ff-cf32-47d7-b8bb-232831592124",
   "name": "vitis-run",
-  "logFile": "C:/Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\baseline_blockedMM\\logs\\baseline_blockedMM.steps.log",
-  "commandLine": "C:/Xilinx/2025.1/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --package --config C:\\Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\hls_config.cfg --work_dir baseline_blockedMM ",
+  "logFile": "Z:/Labs\\MLP_accelerator\\baseline_blockedMM\\baseline_blockedMM\\logs\\baseline_blockedMM.steps.log",
+  "commandLine": "T:/AMDDesignTools/2025.2/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --package --config Z:\\Labs\\clab\\baseline_blockedMM\\hls_config.cfg --work_dir baseline_blockedMM ",
   "args": [
    "--mode",
    "hls",
    "--package",
    "--config",
-   "C:\\Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\hls_config.cfg",
+   "Z:\\Labs\\clab\\baseline_blockedMM\\hls_config.cfg",
    "--work_dir",
    "baseline_blockedMM"
   ],
   "iniFiles": [],
-  "cwd": "C:\\Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM"
+  "cwd": "Z:\\Labs\\clab\\baseline_blockedMM"
  }
 }
 </ENTRY>
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/09/26 09:32:56",
- "timestampMillis": "1775752376632",
+ "dateTimestamp": "04/09/26 18:27:48",
+ "timestampMillis": "1775784468012",
  "status": {
-  "cmdId": "1aa0283a-638e-4506-815f-ba06867c0dde",
+  "cmdId": "bfd505ff-cf32-47d7-b8bb-232831592124",
   "state": "CS_RUNNING"
  }
 }
@@ -44,8 +44,8 @@
 <ENTRY>
 {
  "type": "ET_FlowMetaData",
- "dateTimestamp": "04/09/26 09:33:06",
- "timestampMillis": "1775752386074",
+ "dateTimestamp": "04/09/26 18:27:53",
+ "timestampMillis": "1775784473559",
  "buildSummary": {
   "hardwarePlatform": "",
   "hardwareDsa": "",
@@ -59,13 +59,13 @@
     "base": {
      "type": "KERNEL",
      "name": "MM",
-     "file": "C:/Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\package\\MM.zip",
+     "file": "Z:/Labs\\MLP_accelerator\\package.zip",
      "reports": [],
      "uuid": ""
     },
     "sources": [
-     "C:/Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\MLP_baseline\\mm.cpp",
-     "C:/Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\MLP_baseline\\mm.h"
+     "Z:/Labs\\MLP_accelerator\\MLP_baseline\\mm.cpp",
+     "Z:/Labs\\MLP_accelerator\\MLP_baseline\\mm.h"
     ],
     "psSources": [],
     "cuNames": [],
@@ -74,33 +74,33 @@
     "freqUnits": ""
    }
   ],
-  "toolVersion": "2025.1"
+  "toolVersion": "2025.2"
  }
 }
 </ENTRY>
 <ENTRY>
 {
  "type": "ET_SubCmdStep",
- "dateTimestamp": "04/09/26 09:33:06",
- "timestampMillis": "1775752386078",
+ "dateTimestamp": "04/09/26 18:27:53",
+ "timestampMillis": "1775784473560",
  "buildStep": {
-  "cmdId": "9477ef44-a863-49b1-a980-ce81b0d338a6",
+  "cmdId": "f99c53d0-a2aa-4f99-ac28-190b7ff8d6ae",
   "name": "",
-  "logFile": "C:/Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\baseline_blockedMM\\hls\\hls.log",
+  "logFile": "Z:/Labs\\MLP_accelerator\\baseline_blockedMM\\baseline_blockedMM\\hls\\hls.log",
   "commandLine": "",
   "args": [],
   "iniFiles": [],
-  "cwd": "C:\\Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM"
+  "cwd": "Z:\\Labs\\clab\\baseline_blockedMM"
  }
 }
 </ENTRY>
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/09/26 09:33:06",
- "timestampMillis": "1775752386079",
+ "dateTimestamp": "04/09/26 18:27:53",
+ "timestampMillis": "1775784473561",
  "status": {
-  "cmdId": "9477ef44-a863-49b1-a980-ce81b0d338a6",
+  "cmdId": "f99c53d0-a2aa-4f99-ac28-190b7ff8d6ae",
   "state": "CS_RUNNING"
  }
 }
@@ -108,10 +108,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/09/26 09:33:32",
- "timestampMillis": "1775752412426",
+ "dateTimestamp": "04/09/26 18:28:14",
+ "timestampMillis": "1775784494481",
  "status": {
-  "cmdId": "9477ef44-a863-49b1-a980-ce81b0d338a6",
+  "cmdId": "f99c53d0-a2aa-4f99-ac28-190b7ff8d6ae",
   "state": "CS_PASSED"
  }
 }
@@ -119,10 +119,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/09/26 09:33:32",
- "timestampMillis": "1775752412691",
+ "dateTimestamp": "04/09/26 18:28:14",
+ "timestampMillis": "1775784494604",
  "status": {
-  "cmdId": "1aa0283a-638e-4506-815f-ba06867c0dde",
+  "cmdId": "bfd505ff-cf32-47d7-b8bb-232831592124",
   "state": "CS_PASSED"
  }
 }
@@ -130,8 +130,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/09/26 09:33:32",
- "timestampMillis": "1775752412695",
+ "dateTimestamp": "04/09/26 18:28:14",
+ "timestampMillis": "1775784494605",
  "report": {
   "path": "",
   "name": "",
@@ -144,8 +144,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/09/26 09:33:32",
- "timestampMillis": "1775752412696",
+ "dateTimestamp": "04/09/26 18:28:14",
+ "timestampMillis": "1775784494606",
  "report": {
   "path": "",
   "name": "",

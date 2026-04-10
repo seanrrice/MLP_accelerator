@@ -1,7 +1,7 @@
 {
   "0": {
     "basicblocks": 1,
-    "calls": "1 2 6 3",
+    "calls": "4 3 6 1",
     "control_depth": 0,
     "def_use_depth": 1,
     "file": "mm.cpp",
@@ -12,42 +12,6 @@
     "total_instructions": 448
   },
   "1": {
-    "basicblocks": 25,
-    "calls": "",
-    "control_depth": 1,
-    "def_use_depth": 6,
-    "file": "mm.cpp",
-    "fileloc": 4,
-    "instructions": 56,
-    "loads": {
-      "L": 1
-    },
-    "memory_accesses": 3,
-    "name": "readAtTiles",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 60
-  },
-  "2": {
-    "basicblocks": 25,
-    "calls": "",
-    "control_depth": 1,
-    "def_use_depth": 6,
-    "file": "mm.cpp",
-    "fileloc": 30,
-    "instructions": 56,
-    "loads": {
-      "L": 1
-    },
-    "memory_accesses": 3,
-    "name": "readBTiles",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 60
-  },
-  "3": {
     "basicblocks": 19,
     "calls": "",
     "control_depth": 1,
@@ -65,7 +29,55 @@
     },
     "total_instructions": 52
   },
+  "2": {
+    "basicblocks": 1,
+    "calls": "5",
+    "control_depth": 0,
+    "def_use_depth": 2,
+    "file": "array",
+    "fileloc": 185,
+    "instructions": 3,
+    "memory_accesses": 0,
+    "name": "operator[]",
+    "total_instructions": 5
+  },
+  "3": {
+    "basicblocks": 25,
+    "calls": "",
+    "control_depth": 1,
+    "def_use_depth": 6,
+    "file": "mm.cpp",
+    "fileloc": 30,
+    "instructions": 56,
+    "loads": {
+      "L": 1
+    },
+    "memory_accesses": 3,
+    "name": "readBTiles",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 60
+  },
   "4": {
+    "basicblocks": 25,
+    "calls": "",
+    "control_depth": 1,
+    "def_use_depth": 6,
+    "file": "mm.cpp",
+    "fileloc": 4,
+    "instructions": 56,
+    "loads": {
+      "L": 1
+    },
+    "memory_accesses": 3,
+    "name": "readAtTiles",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 60
+  },
+  "5": {
     "basicblocks": 1,
     "calls": "",
     "control_depth": 0,
@@ -76,18 +88,6 @@
     "memory_accesses": 0,
     "name": "_S_ref",
     "total_instructions": 2
-  },
-  "5": {
-    "basicblocks": 1,
-    "calls": "4",
-    "control_depth": 0,
-    "def_use_depth": 2,
-    "file": "array",
-    "fileloc": 185,
-    "instructions": 3,
-    "memory_accesses": 0,
-    "name": "operator[]",
-    "total_instructions": 5
   },
   "6": {
     "basicblocks": 61,

@@ -6,6 +6,7 @@ set isPipelined 0
 set isPipelined_legacy 0
 set pipeline_type none
 set FunctionProtocol ap_ctrl_hs
+set restart_counter_num 0
 set isOneStateSeq 1
 set ProfileFlag 0
 set StallSigGenFlag 0
@@ -83,5 +84,5 @@ set PipelineEnableSignalInfo {[
 
 set Spec2ImplPortList { 
 	ABC { ap_none {  { ABC in_data 0 64 } } }
-	ABC_c { ap_fifo {  { ABC_c_din fifo_data_in 1 64 }  { ABC_c_full_n fifo_status 0 1 }  { ABC_c_write fifo_port_we 1 1 }  { ABC_c_num_data_valid fifo_status_num_data_valid 0 3 }  { ABC_c_fifo_cap fifo_update 0 3 } } }
+	ABC_c { ap_fifo {  { ABC_c_din fifo_data_out 1 64 }  { ABC_c_full_n fifo_status_empty 0 1 }  { ABC_c_write fifo_data_in 1 1 }  { ABC_c_num_data_valid fifo_update 0 3 }  { ABC_c_fifo_cap fifo_data 0 3 } } }
 }

@@ -1,171 +1,174 @@
 In file included from ../MLP_baseline/mm.cpp:1:
 In file included from ../MLP_baseline/mm.h:6:
-C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h:110:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=aggregate_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=pragma_XLX_SEP_ PragmaOptions=variable=this_XLX_SEP_ [-Wdump-hls-pragmas]
+T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h:145:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=aggregate_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=pragma_XLX_SEP_ PragmaOptions=variable=this_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS AGGREGATE variable=this
-        ^
-C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h:134:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=vector<T, N>_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h:177:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=vector<_T, _N>_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h:150:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=vector<T, N>_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h:193:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=vector<_T, _N>_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h:175:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator++_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h:207:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=vector<_T, _N>_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h:176:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator--_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h:232:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator++_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h:204:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator+=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h:233:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator--_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h:205:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator-=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h:261:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator+=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h:206:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator*=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h:262:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator-=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h:207:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator/=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h:263:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator*=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h:208:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator%=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h:264:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator/=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h:209:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator&=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h:265:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator%=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h:210:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator|=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h:266:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator&=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h:211:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator^=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h:267:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator|=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h:212:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator<<=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h:268:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator^=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h:213:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator>>=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h:269:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator<<=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h:228:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=reduce_add_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h:270:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator>>=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h:229:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=reduce_mult_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h:285:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=reduce_add_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h:230:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=reduce_and_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h:286:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=reduce_mult_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h:231:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=reduce_or_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h:287:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=reduce_and_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h:232:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=reduce_xor_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h:288:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=reduce_or_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h:262:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator<_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h:289:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=reduce_xor_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h:263:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator<=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h:320:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator<_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h:264:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator==_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h:321:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator<=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h:265:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator!=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h:322:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator==_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h:266:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator>=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h:323:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator!=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h:267:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator>_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h:324:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator>=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-../MLP_baseline/mm.cpp:19:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=readAtTiles_XLX_SEP_ PragmaOptions=II = 1_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h:325:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator>_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+^
+../MLP_baseline/mm.cpp:19:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=readAtTiles_XLX_SEP_ PragmaOptions=II = 1_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS PIPELINE II = 1
-        ^
-../MLP_baseline/mm.cpp:45:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=readBTiles_XLX_SEP_ PragmaOptions=II = 1_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+../MLP_baseline/mm.cpp:45:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=readBTiles_XLX_SEP_ PragmaOptions=II = 1_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS PIPELINE II = 1
-        ^
-../MLP_baseline/mm.cpp:62:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=variable= AB_block complete dim = 1_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+../MLP_baseline/mm.cpp:62:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=variable= AB_block complete dim = 1_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS ARRAY_PARTITION variable= AB_block complete dim = 1
-        ^
-../MLP_baseline/mm.cpp:71:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+../MLP_baseline/mm.cpp:71:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-../MLP_baseline/mm.cpp:73:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+../MLP_baseline/mm.cpp:73:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-../MLP_baseline/mm.cpp:88:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=II = 1_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+../MLP_baseline/mm.cpp:88:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=II = 1_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS PIPELINE II = 1
-        ^
-../MLP_baseline/mm.cpp:91:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+../MLP_baseline/mm.cpp:91:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-../MLP_baseline/mm.cpp:101:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=II =1_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+../MLP_baseline/mm.cpp:101:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=II =1_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS PIPELINE II =1
-        ^
-../MLP_baseline/mm.cpp:106:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+../MLP_baseline/mm.cpp:106:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
-        ^
-../MLP_baseline/mm.cpp:128:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=writeTiles_XLX_SEP_ PragmaOptions=II = 1_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+../MLP_baseline/mm.cpp:128:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=writeTiles_XLX_SEP_ PragmaOptions=II = 1_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS PIPELINE II = 1
-        ^
-../MLP_baseline/mm.cpp:138:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=aggregate_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=variable = AT_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+../MLP_baseline/mm.cpp:138:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=aggregate_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=variable = AT_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS aggregate variable = AT
-        ^
-../MLP_baseline/mm.cpp:140:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=aggregate_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=variable = B_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+../MLP_baseline/mm.cpp:140:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=aggregate_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=variable = B_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS aggregate variable = B
-        ^
-../MLP_baseline/mm.cpp:142:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=aggregate_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=variable = ABC_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+../MLP_baseline/mm.cpp:142:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=aggregate_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=variable = ABC_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS aggregate variable = ABC
-        ^
-directive:1:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=name=MM_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+directive:1:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=name=MM_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLSDIRECTIVE TOP name=MM
-        ^
-../MLP_baseline/mm.cpp:156:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=m_axi port=AT bundle=gmem0 depth=64_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS INTERFACE m_axi port=AT bundle=gmem0 depth=64
-        ^
-../MLP_baseline/mm.cpp:157:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=m_axi port=B bundle=gmem1 depth=64_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS INTERFACE m_axi port=B bundle=gmem1 depth=64
-        ^
-../MLP_baseline/mm.cpp:158:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=m_axi port=C bundle=gmem2 depth=32_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS INTERFACE m_axi port=C bundle=gmem2 depth=32
-        ^
-../MLP_baseline/mm.cpp:159:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=m_axi port=ABC bundle=gmem3 depth=64_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS INTERFACE m_axi port=ABC bundle=gmem3 depth=64
-        ^
-../MLP_baseline/mm.cpp:161:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=AT bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+../MLP_baseline/mm.cpp:155:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=m_axi port=AT bundle=gmem0 depth=50176_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE m_axi port=AT bundle=gmem0 depth=50176
+^
+../MLP_baseline/mm.cpp:156:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=m_axi port=B bundle=gmem1 depth=6272_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE m_axi port=B bundle=gmem1 depth=6272
+^
+../MLP_baseline/mm.cpp:157:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=m_axi port=C bundle=gmem2 depth=64_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE m_axi port=C bundle=gmem2 depth=64
+^
+../MLP_baseline/mm.cpp:158:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=m_axi port=ABC bundle=gmem3 depth=8192_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE m_axi port=ABC bundle=gmem3 depth=8192
+^
+../MLP_baseline/mm.cpp:168:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=AT bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS INTERFACE s_axilite port=AT bundle=control
-        ^
-../MLP_baseline/mm.cpp:162:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=B bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+../MLP_baseline/mm.cpp:169:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=B bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS INTERFACE s_axilite port=B bundle=control
-        ^
-../MLP_baseline/mm.cpp:163:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=C bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+../MLP_baseline/mm.cpp:170:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=C bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS INTERFACE s_axilite port=C bundle=control
-        ^
-../MLP_baseline/mm.cpp:164:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=ABC bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+../MLP_baseline/mm.cpp:171:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=ABC bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS INTERFACE s_axilite port=ABC bundle=control
-        ^
-../MLP_baseline/mm.cpp:165:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=N bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+../MLP_baseline/mm.cpp:172:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=N bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS INTERFACE s_axilite port=N bundle=control
-        ^
-../MLP_baseline/mm.cpp:166:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=M bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+../MLP_baseline/mm.cpp:173:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=M bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS INTERFACE s_axilite port=M bundle=control
-        ^
-../MLP_baseline/mm.cpp:167:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=P bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+../MLP_baseline/mm.cpp:174:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=P bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS INTERFACE s_axilite port=P bundle=control
-        ^
-../MLP_baseline/mm.cpp:168:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=return bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+../MLP_baseline/mm.cpp:175:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=return bundle=control_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS INTERFACE s_axilite port=return bundle=control
-        ^
-../MLP_baseline/mm.cpp:174:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=variable=A_stream depth = 32_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+../MLP_baseline/mm.cpp:181:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=variable=A_stream depth = 32_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS STREAM variable=A_stream depth = 32
-        ^
-../MLP_baseline/mm.cpp:175:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=variable=B_stream depth = 32_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+../MLP_baseline/mm.cpp:182:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=variable=B_stream depth = 32_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS STREAM variable=B_stream depth = 32
-        ^
-../MLP_baseline/mm.cpp:176:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=variable=AB_stream depth = 32_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+../MLP_baseline/mm.cpp:183:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=variable=AB_stream depth = 32_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS STREAM variable=AB_stream depth = 32
-        ^
-../MLP_baseline/mm.cpp:178:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=dataflow_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+^
+../MLP_baseline/mm.cpp:185:1: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=dataflow_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS DATAFLOW
-        ^
-56 warnings generated.
+^
+57 warnings generated.

@@ -71,14 +71,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 140 \
-    name ABC_load \
+    name ABC_1 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_ABC_load \
+    corename dc_ABC_1 \
     op interface \
-    ports { ABC_load { I 64 vector } } \
+    ports { ABC_1 { I 64 vector } } \
 } "
 }
 

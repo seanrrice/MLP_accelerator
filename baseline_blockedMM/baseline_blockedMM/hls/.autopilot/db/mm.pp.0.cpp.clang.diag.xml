@@ -1,21 +1,21 @@
 <dict>
   <key>main-file</key>
-  <string>C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.pp.0.cpp</string>
+  <string>Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.pp.0.cpp</string>
   <key>diagnostics</key>
   <array>
     <dict>
       <key>level</key>
       <string>warning</string>
       <key>filename</key>
-      <string>C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h</string>
+      <string>T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h</string>
       <key>line</key>
-      <integer>110</integer>
+      <integer>145</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=aggregate_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=pragma_XLX_SEP_ PragmaOptions=variable=this_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=aggregate_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=pragma_XLX_SEP_ PragmaOptions=variable=this_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -23,15 +23,15 @@
       <key>level</key>
       <string>warning</string>
       <key>filename</key>
-      <string>C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h</string>
+      <string>T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h</string>
       <key>line</key>
-      <integer>134</integer>
+      <integer>177</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=vector&lt;T, N&gt;_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=vector&lt;_T, _N&gt;_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -39,15 +39,15 @@
       <key>level</key>
       <string>warning</string>
       <key>filename</key>
-      <string>C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h</string>
+      <string>T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h</string>
       <key>line</key>
-      <integer>150</integer>
+      <integer>193</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=vector&lt;T, N&gt;_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=vector&lt;_T, _N&gt;_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -55,95 +55,15 @@
       <key>level</key>
       <string>warning</string>
       <key>filename</key>
-      <string>C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h</string>
-      <key>line</key>
-      <integer>175</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator++_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h</string>
-      <key>line</key>
-      <integer>176</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator--_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h</string>
-      <key>line</key>
-      <integer>204</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator+=_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h</string>
-      <key>line</key>
-      <integer>205</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator-=_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h</string>
-      <key>line</key>
-      <integer>206</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator*=_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h</string>
+      <string>T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h</string>
       <key>line</key>
       <integer>207</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator/=_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=vector&lt;_T, _N&gt;_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -151,175 +71,15 @@
       <key>level</key>
       <string>warning</string>
       <key>filename</key>
-      <string>C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h</string>
-      <key>line</key>
-      <integer>208</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator%=_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h</string>
-      <key>line</key>
-      <integer>209</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator&amp;=_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h</string>
-      <key>line</key>
-      <integer>210</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator|=_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h</string>
-      <key>line</key>
-      <integer>211</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator^=_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h</string>
-      <key>line</key>
-      <integer>212</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator&lt;&lt;=_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h</string>
-      <key>line</key>
-      <integer>213</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator&gt;&gt;=_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h</string>
-      <key>line</key>
-      <integer>228</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=reduce_add_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h</string>
-      <key>line</key>
-      <integer>229</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=reduce_mult_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h</string>
-      <key>line</key>
-      <integer>230</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=reduce_and_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h</string>
-      <key>line</key>
-      <integer>231</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=reduce_or_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h</string>
+      <string>T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h</string>
       <key>line</key>
       <integer>232</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=reduce_xor_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator++_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -327,15 +87,47 @@
       <key>level</key>
       <string>warning</string>
       <key>filename</key>
-      <string>C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h</string>
+      <string>T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h</string>
+      <key>line</key>
+      <integer>233</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator--_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>6999</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h</string>
+      <key>line</key>
+      <integer>261</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator+=_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>6999</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h</string>
       <key>line</key>
       <integer>262</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator&lt;_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator-=_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -343,15 +135,15 @@
       <key>level</key>
       <string>warning</string>
       <key>filename</key>
-      <string>C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h</string>
+      <string>T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h</string>
       <key>line</key>
       <integer>263</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator&lt;=_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator*=_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -359,15 +151,15 @@
       <key>level</key>
       <string>warning</string>
       <key>filename</key>
-      <string>C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h</string>
+      <string>T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h</string>
       <key>line</key>
       <integer>264</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator==_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator/=_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -375,15 +167,15 @@
       <key>level</key>
       <string>warning</string>
       <key>filename</key>
-      <string>C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h</string>
+      <string>T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h</string>
       <key>line</key>
       <integer>265</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator!=_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator%=_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -391,15 +183,15 @@
       <key>level</key>
       <string>warning</string>
       <key>filename</key>
-      <string>C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h</string>
+      <string>T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h</string>
       <key>line</key>
       <integer>266</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator&gt;=_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator&amp;=_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -407,15 +199,239 @@
       <key>level</key>
       <string>warning</string>
       <key>filename</key>
-      <string>C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h</string>
+      <string>T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h</string>
       <key>line</key>
       <integer>267</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator&gt;_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator|=_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h</string>
+      <key>line</key>
+      <integer>268</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator^=_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>6999</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h</string>
+      <key>line</key>
+      <integer>269</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator&lt;&lt;=_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>6999</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h</string>
+      <key>line</key>
+      <integer>270</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator&gt;&gt;=_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>6999</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h</string>
+      <key>line</key>
+      <integer>285</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=reduce_add_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>6999</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h</string>
+      <key>line</key>
+      <integer>286</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=reduce_mult_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>6999</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h</string>
+      <key>line</key>
+      <integer>287</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=reduce_and_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>6999</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h</string>
+      <key>line</key>
+      <integer>288</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=reduce_or_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>6999</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h</string>
+      <key>line</key>
+      <integer>289</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=reduce_xor_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>6999</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h</string>
+      <key>line</key>
+      <integer>320</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator&lt;_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>6999</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h</string>
+      <key>line</key>
+      <integer>321</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator&lt;=_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>6999</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h</string>
+      <key>line</key>
+      <integer>322</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator==_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>6999</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h</string>
+      <key>line</key>
+      <integer>323</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator!=_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>6999</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h</string>
+      <key>line</key>
+      <integer>324</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator&gt;=_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>6999</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>T:/AMDDesignTools/2025.2/Vitis/common/technology/autopilot\hls_vector.h</string>
+      <key>line</key>
+      <integer>325</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=operator&gt;_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -427,11 +443,11 @@
       <key>line</key>
       <integer>19</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=readAtTiles_XLX_SEP_ PragmaOptions=II = 1_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=readAtTiles_XLX_SEP_ PragmaOptions=II = 1_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -443,11 +459,11 @@
       <key>line</key>
       <integer>45</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=readBTiles_XLX_SEP_ PragmaOptions=II = 1_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=readBTiles_XLX_SEP_ PragmaOptions=II = 1_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -459,11 +475,11 @@
       <key>line</key>
       <integer>62</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=variable= AB_block complete dim = 1_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=array_partition_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=variable= AB_block complete dim = 1_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -475,11 +491,11 @@
       <key>line</key>
       <integer>71</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -491,11 +507,11 @@
       <key>line</key>
       <integer>73</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -507,11 +523,11 @@
       <key>line</key>
       <integer>88</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=II = 1_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=II = 1_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -523,11 +539,11 @@
       <key>line</key>
       <integer>91</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -539,11 +555,11 @@
       <key>line</key>
       <integer>101</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=II =1_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=II =1_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -555,11 +571,11 @@
       <key>line</key>
       <integer>106</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=computeTiles_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -571,11 +587,11 @@
       <key>line</key>
       <integer>128</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=writeTiles_XLX_SEP_ PragmaOptions=II = 1_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=writeTiles_XLX_SEP_ PragmaOptions=II = 1_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -587,11 +603,11 @@
       <key>line</key>
       <integer>138</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=aggregate_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=variable = AT_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=aggregate_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=variable = AT_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -603,11 +619,11 @@
       <key>line</key>
       <integer>140</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=aggregate_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=variable = B_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=aggregate_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=variable = B_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -619,11 +635,11 @@
       <key>line</key>
       <integer>142</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=aggregate_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=variable = ABC_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=aggregate_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=variable = ABC_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -635,11 +651,27 @@
       <key>line</key>
       <integer>1</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
       <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=name=MM_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>../MLP_baseline/mm.cpp</string>
+      <key>line</key>
+      <integer>155</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=m_axi port=AT bundle=gmem0 depth=50176_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -651,11 +683,11 @@
       <key>line</key>
       <integer>156</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=m_axi port=AT bundle=gmem0 depth=64_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=m_axi port=B bundle=gmem1 depth=6272_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -667,11 +699,11 @@
       <key>line</key>
       <integer>157</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=m_axi port=B bundle=gmem1 depth=64_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=m_axi port=C bundle=gmem2 depth=64_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -683,139 +715,11 @@
       <key>line</key>
       <integer>158</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=m_axi port=C bundle=gmem2 depth=32_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=m_axi port=ABC bundle=gmem3 depth=8192_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>../MLP_baseline/mm.cpp</string>
-      <key>line</key>
-      <integer>159</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=m_axi port=ABC bundle=gmem3 depth=64_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>../MLP_baseline/mm.cpp</string>
-      <key>line</key>
-      <integer>161</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=AT bundle=control_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>../MLP_baseline/mm.cpp</string>
-      <key>line</key>
-      <integer>162</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=B bundle=control_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>../MLP_baseline/mm.cpp</string>
-      <key>line</key>
-      <integer>163</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=C bundle=control_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>../MLP_baseline/mm.cpp</string>
-      <key>line</key>
-      <integer>164</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=ABC bundle=control_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>../MLP_baseline/mm.cpp</string>
-      <key>line</key>
-      <integer>165</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=N bundle=control_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>../MLP_baseline/mm.cpp</string>
-      <key>line</key>
-      <integer>166</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=M bundle=control_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
-      <key>WarningOption</key>
-      <string>dump-hls-pragmas</string>
-    </dict>
-    <dict>
-      <key>level</key>
-      <string>warning</string>
-      <key>filename</key>
-      <string>../MLP_baseline/mm.cpp</string>
-      <key>line</key>
-      <integer>167</integer>
-      <key>column</key>
-      <integer>9</integer>
-      <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=P bundle=control_XLX_SEP_</string>
-      <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -827,11 +731,91 @@
       <key>line</key>
       <integer>168</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=return bundle=control_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=AT bundle=control_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>../MLP_baseline/mm.cpp</string>
+      <key>line</key>
+      <integer>169</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=B bundle=control_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>6999</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>../MLP_baseline/mm.cpp</string>
+      <key>line</key>
+      <integer>170</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=C bundle=control_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>6999</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>../MLP_baseline/mm.cpp</string>
+      <key>line</key>
+      <integer>171</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=ABC bundle=control_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>6999</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>../MLP_baseline/mm.cpp</string>
+      <key>line</key>
+      <integer>172</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=N bundle=control_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>6999</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>../MLP_baseline/mm.cpp</string>
+      <key>line</key>
+      <integer>173</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=M bundle=control_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -843,11 +827,11 @@
       <key>line</key>
       <integer>174</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=variable=A_stream depth = 32_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=P bundle=control_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -859,11 +843,11 @@
       <key>line</key>
       <integer>175</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=variable=B_stream depth = 32_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=s_axilite port=return bundle=control_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -873,13 +857,13 @@
       <key>filename</key>
       <string>../MLP_baseline/mm.cpp</string>
       <key>line</key>
-      <integer>176</integer>
+      <integer>181</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=variable=AB_stream depth = 32_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=variable=A_stream depth = 32_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>
@@ -889,13 +873,45 @@
       <key>filename</key>
       <string>../MLP_baseline/mm.cpp</string>
       <key>line</key>
-      <integer>178</integer>
+      <integer>182</integer>
       <key>column</key>
-      <integer>9</integer>
+      <integer>1</integer>
       <key>message</key>
-      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=dataflow_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=variable=B_stream depth = 32_XLX_SEP_</string>
       <key>ID</key>
-      <integer>5471</integer>
+      <integer>6999</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>../MLP_baseline/mm.cpp</string>
+      <key>line</key>
+      <integer>183</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=variable=AB_stream depth = 32_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>6999</integer>
+      <key>WarningOption</key>
+      <string>dump-hls-pragmas</string>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>../MLP_baseline/mm.cpp</string>
+      <key>line</key>
+      <integer>185</integer>
+      <key>column</key>
+      <integer>1</integer>
+      <key>message</key>
+      <string>HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=dataflow_XLX_SEP_ PragmaContext=hls_XLX_SEP_ PragmaFunction=MM_XLX_SEP_ PragmaOptions=_XLX_SEP_</string>
+      <key>ID</key>
+      <integer>6999</integer>
       <key>WarningOption</key>
       <string>dump-hls-pragmas</string>
     </dict>

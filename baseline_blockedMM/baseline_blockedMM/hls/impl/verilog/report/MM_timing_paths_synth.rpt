@@ -1,8 +1,8 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
-| Date         : Thu Apr  9 09:42:26 2026
-| Host         : LAPTOP-L6H807T2 running 64-bit major release  (build 9200)
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Thu Apr  9 18:33:50 2026
+| Host         : jwood_Win_PC running 64-bit major release  (build 9200)
 | Command      : report_timing -max_paths 10 -file ./report/MM_timing_paths_synth.rpt
 | Design       : bd_0_wrapper
 | Device       : 7z020-clg400
@@ -13,7 +13,7 @@ Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanc
 Timing Report
 
 Slack (MET) :             5.757ns  (required time - arrival time)
-  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
   Destination:            bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[0]
                             (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
@@ -36,10 +36,10 @@ Slack (MET) :             5.757ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
-                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+                         net (fo=20372, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
+                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/C
   -------------------------------------------------------------------    -------------------
-                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/Q
+                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/Q
                          net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/p_1_in[0]
                          CARRY4 (Prop_carry4_S[0]_CO[3])
                                                       0.808     2.965 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15/CO[3]
@@ -64,7 +64,7 @@ Slack (MET) :             5.757ns  (required time - arrival time)
 
                          (clock ap_clk rise edge)    15.000    15.000 r  
                                                       0.000    15.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
+                         net (fo=20372, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/CLK
                          clock pessimism              0.000    15.924    
                          clock uncertainty           -0.035    15.889    
@@ -77,7 +77,7 @@ Slack (MET) :             5.757ns  (required time - arrival time)
                          slack                                  5.757    
 
 Slack (MET) :             5.757ns  (required time - arrival time)
-  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
   Destination:            bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[10]
                             (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
@@ -100,10 +100,10 @@ Slack (MET) :             5.757ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
-                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+                         net (fo=20372, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
+                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/C
   -------------------------------------------------------------------    -------------------
-                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/Q
+                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/Q
                          net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/p_1_in[0]
                          CARRY4 (Prop_carry4_S[0]_CO[3])
                                                       0.808     2.965 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15/CO[3]
@@ -128,7 +128,7 @@ Slack (MET) :             5.757ns  (required time - arrival time)
 
                          (clock ap_clk rise edge)    15.000    15.000 r  
                                                       0.000    15.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
+                         net (fo=20372, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/CLK
                          clock pessimism              0.000    15.924    
                          clock uncertainty           -0.035    15.889    
@@ -141,7 +141,7 @@ Slack (MET) :             5.757ns  (required time - arrival time)
                          slack                                  5.757    
 
 Slack (MET) :             5.757ns  (required time - arrival time)
-  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
   Destination:            bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[11]
                             (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
@@ -164,10 +164,10 @@ Slack (MET) :             5.757ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
-                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+                         net (fo=20372, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
+                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/C
   -------------------------------------------------------------------    -------------------
-                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/Q
+                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/Q
                          net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/p_1_in[0]
                          CARRY4 (Prop_carry4_S[0]_CO[3])
                                                       0.808     2.965 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15/CO[3]
@@ -192,7 +192,7 @@ Slack (MET) :             5.757ns  (required time - arrival time)
 
                          (clock ap_clk rise edge)    15.000    15.000 r  
                                                       0.000    15.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
+                         net (fo=20372, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/CLK
                          clock pessimism              0.000    15.924    
                          clock uncertainty           -0.035    15.889    
@@ -205,7 +205,7 @@ Slack (MET) :             5.757ns  (required time - arrival time)
                          slack                                  5.757    
 
 Slack (MET) :             5.757ns  (required time - arrival time)
-  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
   Destination:            bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[12]
                             (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
@@ -228,10 +228,10 @@ Slack (MET) :             5.757ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
-                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+                         net (fo=20372, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
+                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/C
   -------------------------------------------------------------------    -------------------
-                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/Q
+                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/Q
                          net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/p_1_in[0]
                          CARRY4 (Prop_carry4_S[0]_CO[3])
                                                       0.808     2.965 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15/CO[3]
@@ -256,7 +256,7 @@ Slack (MET) :             5.757ns  (required time - arrival time)
 
                          (clock ap_clk rise edge)    15.000    15.000 r  
                                                       0.000    15.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
+                         net (fo=20372, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/CLK
                          clock pessimism              0.000    15.924    
                          clock uncertainty           -0.035    15.889    
@@ -269,7 +269,7 @@ Slack (MET) :             5.757ns  (required time - arrival time)
                          slack                                  5.757    
 
 Slack (MET) :             5.757ns  (required time - arrival time)
-  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
   Destination:            bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[13]
                             (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
@@ -292,10 +292,10 @@ Slack (MET) :             5.757ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
-                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+                         net (fo=20372, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
+                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/C
   -------------------------------------------------------------------    -------------------
-                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/Q
+                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/Q
                          net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/p_1_in[0]
                          CARRY4 (Prop_carry4_S[0]_CO[3])
                                                       0.808     2.965 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15/CO[3]
@@ -320,7 +320,7 @@ Slack (MET) :             5.757ns  (required time - arrival time)
 
                          (clock ap_clk rise edge)    15.000    15.000 r  
                                                       0.000    15.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
+                         net (fo=20372, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/CLK
                          clock pessimism              0.000    15.924    
                          clock uncertainty           -0.035    15.889    
@@ -333,7 +333,7 @@ Slack (MET) :             5.757ns  (required time - arrival time)
                          slack                                  5.757    
 
 Slack (MET) :             5.757ns  (required time - arrival time)
-  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
   Destination:            bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[14]
                             (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
@@ -356,10 +356,10 @@ Slack (MET) :             5.757ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
-                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+                         net (fo=20372, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
+                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/C
   -------------------------------------------------------------------    -------------------
-                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/Q
+                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/Q
                          net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/p_1_in[0]
                          CARRY4 (Prop_carry4_S[0]_CO[3])
                                                       0.808     2.965 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15/CO[3]
@@ -384,7 +384,7 @@ Slack (MET) :             5.757ns  (required time - arrival time)
 
                          (clock ap_clk rise edge)    15.000    15.000 r  
                                                       0.000    15.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
+                         net (fo=20372, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/CLK
                          clock pessimism              0.000    15.924    
                          clock uncertainty           -0.035    15.889    
@@ -397,7 +397,7 @@ Slack (MET) :             5.757ns  (required time - arrival time)
                          slack                                  5.757    
 
 Slack (MET) :             5.757ns  (required time - arrival time)
-  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
   Destination:            bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[15]
                             (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
@@ -420,10 +420,10 @@ Slack (MET) :             5.757ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
-                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+                         net (fo=20372, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
+                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/C
   -------------------------------------------------------------------    -------------------
-                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/Q
+                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/Q
                          net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/p_1_in[0]
                          CARRY4 (Prop_carry4_S[0]_CO[3])
                                                       0.808     2.965 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15/CO[3]
@@ -448,7 +448,7 @@ Slack (MET) :             5.757ns  (required time - arrival time)
 
                          (clock ap_clk rise edge)    15.000    15.000 r  
                                                       0.000    15.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
+                         net (fo=20372, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/CLK
                          clock pessimism              0.000    15.924    
                          clock uncertainty           -0.035    15.889    
@@ -461,7 +461,7 @@ Slack (MET) :             5.757ns  (required time - arrival time)
                          slack                                  5.757    
 
 Slack (MET) :             5.757ns  (required time - arrival time)
-  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
   Destination:            bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[16]
                             (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
@@ -484,10 +484,10 @@ Slack (MET) :             5.757ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
-                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+                         net (fo=20372, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
+                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/C
   -------------------------------------------------------------------    -------------------
-                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/Q
+                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/Q
                          net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/p_1_in[0]
                          CARRY4 (Prop_carry4_S[0]_CO[3])
                                                       0.808     2.965 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15/CO[3]
@@ -512,7 +512,7 @@ Slack (MET) :             5.757ns  (required time - arrival time)
 
                          (clock ap_clk rise edge)    15.000    15.000 r  
                                                       0.000    15.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
+                         net (fo=20372, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/CLK
                          clock pessimism              0.000    15.924    
                          clock uncertainty           -0.035    15.889    
@@ -525,7 +525,7 @@ Slack (MET) :             5.757ns  (required time - arrival time)
                          slack                                  5.757    
 
 Slack (MET) :             5.757ns  (required time - arrival time)
-  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
   Destination:            bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[17]
                             (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
@@ -548,10 +548,10 @@ Slack (MET) :             5.757ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
-                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+                         net (fo=20372, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
+                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/C
   -------------------------------------------------------------------    -------------------
-                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/Q
+                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/Q
                          net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/p_1_in[0]
                          CARRY4 (Prop_carry4_S[0]_CO[3])
                                                       0.808     2.965 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15/CO[3]
@@ -576,7 +576,7 @@ Slack (MET) :             5.757ns  (required time - arrival time)
 
                          (clock ap_clk rise edge)    15.000    15.000 r  
                                                       0.000    15.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
+                         net (fo=20372, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/CLK
                          clock pessimism              0.000    15.924    
                          clock uncertainty           -0.035    15.889    
@@ -589,7 +589,7 @@ Slack (MET) :             5.757ns  (required time - arrival time)
                          slack                                  5.757    
 
 Slack (MET) :             5.757ns  (required time - arrival time)
-  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+  Source:                 bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
   Destination:            bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/PCIN[18]
                             (rising edge-triggered cell DSP48E1 clocked by ap_clk  {rise@0.000ns fall@7.500ns period=15.000ns})
@@ -612,10 +612,10 @@ Slack (MET) :             5.757ns  (required time - arrival time)
   -------------------------------------------------------------------    -------------------
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
-                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/C
+                         net (fo=20372, unset)        0.973     0.973    bd_0_i/hls_inst/inst/readAtTiles_U0/ap_clk
+                         FDRE                                         r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/C
   -------------------------------------------------------------------    -------------------
-                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_344_reg[16]__0/Q
+                         FDRE (Prop_fdre_C_Q)         0.518     1.491 r  bd_0_i/hls_inst/inst/readAtTiles_U0/bound6_reg_346_reg[16]__0/Q
                          net (fo=1, unplaced)         0.666     2.157    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/p_1_in[0]
                          CARRY4 (Prop_carry4_S[0]_CO[3])
                                                       0.808     2.965 r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_31ns_58_1_1_U13/tmp_product_i_15/CO[3]
@@ -640,7 +640,7 @@ Slack (MET) :             5.757ns  (required time - arrival time)
 
                          (clock ap_clk rise edge)    15.000    15.000 r  
                                                       0.000    15.000 r  ap_clk (IN)
-                         net (fo=20385, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
+                         net (fo=20372, unset)        0.924    15.924    bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/ap_clk
                          DSP48E1                                      r  bd_0_i/hls_inst/inst/readAtTiles_U0/mul_27ns_58ns_85_2_1_U14/buff0_reg/CLK
                          clock pessimism              0.000    15.924    
                          clock uncertainty           -0.035    15.889    

@@ -21,6 +21,8 @@ port (
 end entity;
 
 architecture behav of MM_mul_27ns_31ns_58_1_1 is
+attribute DowngradeIPIdentifiedWarnings : string;
+attribute DowngradeIPIdentifiedWarnings of behav: architecture is "yes";
     signal tmp_product : std_logic_vector(dout_WIDTH - 1 downto 0);
     signal a_i : std_logic_vector(din0_WIDTH - 1 downto 0);
     signal b_i : std_logic_vector(din1_WIDTH - 1 downto 0);

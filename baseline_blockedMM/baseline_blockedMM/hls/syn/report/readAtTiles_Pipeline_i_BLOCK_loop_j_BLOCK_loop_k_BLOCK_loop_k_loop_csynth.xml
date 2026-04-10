@@ -1,7 +1,7 @@
 <profile>
 
 <ReportVersion>
-<Version>2025.1</Version>
+<Version>2025.2</Version>
 </ReportVersion>
 
 <UserAssignments>
@@ -15,7 +15,7 @@
 </UserAssignments>
 
 <PerformanceEstimates>
-<PipelineType>loop auto-rewind stp (delay=0 cycles)</PipelineType>
+<PipelineType>loop pipeline stp</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
 <EstimatedClockPeriod>10.950</EstimatedClockPeriod>

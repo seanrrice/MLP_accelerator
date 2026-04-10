@@ -1,7 +1,7 @@
 <profile>
 
 <ReportVersion>
-<Version>2025.1</Version>
+<Version>2025.2</Version>
 </ReportVersion>
 
 <UserAssignments>
@@ -15,7 +15,7 @@
 </UserAssignments>
 
 <PerformanceEstimates>
-<PipelineType>loop auto-rewind stp (delay=0 cycles)</PipelineType>
+<PipelineType>loop pipeline stp</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
 <EstimatedClockPeriod>10.950</EstimatedClockPeriod>
@@ -755,8 +755,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>ABC_load</name>
-<Object>ABC_load</Object>
+<name>ABC_1</name>
+<Object>ABC_1</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>

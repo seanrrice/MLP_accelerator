@@ -3,9 +3,9 @@
 ================================================================
 == Vitis HLS Report for 'computeTiles_Pipeline_j_output_loop'
 ================================================================
-* Date:           Thu Apr  9 09:15:13 2026
+* Date:           Thu Apr  9 18:27:27 2026
 
-* Version:        2025.1 (Build 6135595 on May 21 2025)
+* Version:        2025.2 (Build 6295257 on Nov 14 2025)
 * Project:        baseline_blockedMM
 * Solution:       hls (Vivado IP Flow Target)
 * Product family: zynq
@@ -25,12 +25,12 @@
 
 + Latency: 
     * Summary: 
-    +---------+---------+----------+----------+-----+-----+------------------------------------------------+
-    |  Latency (cycles) |  Latency (absolute) |  Interval |                    Pipeline                    |
-    |   min   |   max   |    min   |    max   | min | max |                      Type                      |
-    +---------+---------+----------+----------+-----+-----+------------------------------------------------+
-    |       18|       18|  0.270 us|  0.270 us|   17|   17|  loop auto-rewind stp (delay=0 clock cycles(s))|
-    +---------+---------+----------+----------+-----+-----+------------------------------------------------+
+    +---------+---------+----------+----------+-----+-----+-------------------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval |      Pipeline     |
+    |   min   |   max   |    min   |    max   | min | max |        Type       |
+    +---------+---------+----------+----------+-----+-----+-------------------+
+    |       18|       18|  0.270 us|  0.270 us|    0|    0|  loop pipeline stp|
+    +---------+---------+----------+----------+-----+-----+-------------------+
 
     + Detail: 
         * Instance: 
@@ -170,21 +170,21 @@
 |AB_stream_write           |  out|    1|     ap_fifo|                            AB_stream|       pointer|
 |AB_stream_num_data_valid  |   in|   32|     ap_fifo|                            AB_stream|       pointer|
 |AB_stream_fifo_cap        |   in|   32|     ap_fifo|                            AB_stream|       pointer|
-|AB_block_0_2_reload       |   in|  512|     ap_none|                  AB_block_0_2_reload|        scalar|
-|AB_block_1_2_reload       |   in|  512|     ap_none|                  AB_block_1_2_reload|        scalar|
-|AB_block_2_2_reload       |   in|  512|     ap_none|                  AB_block_2_2_reload|        scalar|
-|AB_block_3_2_reload       |   in|  512|     ap_none|                  AB_block_3_2_reload|        scalar|
-|AB_block_4_2_reload       |   in|  512|     ap_none|                  AB_block_4_2_reload|        scalar|
-|AB_block_5_2_reload       |   in|  512|     ap_none|                  AB_block_5_2_reload|        scalar|
-|AB_block_6_2_reload       |   in|  512|     ap_none|                  AB_block_6_2_reload|        scalar|
-|AB_block_7_2_reload       |   in|  512|     ap_none|                  AB_block_7_2_reload|        scalar|
-|AB_block_8_2_reload       |   in|  512|     ap_none|                  AB_block_8_2_reload|        scalar|
-|AB_block_9_2_reload       |   in|  512|     ap_none|                  AB_block_9_2_reload|        scalar|
-|AB_block_10_2_reload      |   in|  512|     ap_none|                 AB_block_10_2_reload|        scalar|
-|AB_block_11_2_reload      |   in|  512|     ap_none|                 AB_block_11_2_reload|        scalar|
-|AB_block_12_2_reload      |   in|  512|     ap_none|                 AB_block_12_2_reload|        scalar|
-|AB_block_13_2_reload      |   in|  512|     ap_none|                 AB_block_13_2_reload|        scalar|
-|AB_block_14_2_reload      |   in|  512|     ap_none|                 AB_block_14_2_reload|        scalar|
-|AB_block_15_2_reload      |   in|  512|     ap_none|                 AB_block_15_2_reload|        scalar|
+|AB_block_16_reload        |   in|  512|     ap_none|                   AB_block_16_reload|        scalar|
+|AB_block_17_reload        |   in|  512|     ap_none|                   AB_block_17_reload|        scalar|
+|AB_block_18_reload        |   in|  512|     ap_none|                   AB_block_18_reload|        scalar|
+|AB_block_19_reload        |   in|  512|     ap_none|                   AB_block_19_reload|        scalar|
+|AB_block_20_reload        |   in|  512|     ap_none|                   AB_block_20_reload|        scalar|
+|AB_block_21_reload        |   in|  512|     ap_none|                   AB_block_21_reload|        scalar|
+|AB_block_22_reload        |   in|  512|     ap_none|                   AB_block_22_reload|        scalar|
+|AB_block_23_reload        |   in|  512|     ap_none|                   AB_block_23_reload|        scalar|
+|AB_block_24_reload        |   in|  512|     ap_none|                   AB_block_24_reload|        scalar|
+|AB_block_25_reload        |   in|  512|     ap_none|                   AB_block_25_reload|        scalar|
+|AB_block_26_reload        |   in|  512|     ap_none|                   AB_block_26_reload|        scalar|
+|AB_block_27_reload        |   in|  512|     ap_none|                   AB_block_27_reload|        scalar|
+|AB_block_28_reload        |   in|  512|     ap_none|                   AB_block_28_reload|        scalar|
+|AB_block_29_reload        |   in|  512|     ap_none|                   AB_block_29_reload|        scalar|
+|AB_block_30_reload        |   in|  512|     ap_none|                   AB_block_30_reload|        scalar|
+|AB_block_31_reload        |   in|  512|     ap_none|                   AB_block_31_reload|        scalar|
 +--------------------------+-----+-----+------------+-------------------------------------+--------------+
 

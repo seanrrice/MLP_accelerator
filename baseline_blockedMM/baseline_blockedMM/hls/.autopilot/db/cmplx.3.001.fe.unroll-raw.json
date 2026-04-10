@@ -1,7 +1,7 @@
 {
   "0": {
     "basicblocks": 1,
-    "calls": "1 2 6 3",
+    "calls": "4 3 6 1",
     "control_depth": 0,
     "def_use_depth": 1,
     "file": "mm.cpp",
@@ -12,36 +12,6 @@
     "total_instructions": 2833
   },
   "1": {
-    "basicblocks": 17,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 6,
-    "file": "mm.cpp",
-    "fileloc": 4,
-    "instructions": 52,
-    "loads": {
-      "L": 1
-    },
-    "memory_accesses": 2,
-    "name": "readAtTiles",
-    "total_instructions": 52
-  },
-  "2": {
-    "basicblocks": 17,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 6,
-    "file": "mm.cpp",
-    "fileloc": 30,
-    "instructions": 52,
-    "loads": {
-      "L": 1
-    },
-    "memory_accesses": 2,
-    "name": "readBTiles",
-    "total_instructions": 52
-  },
-  "3": {
     "basicblocks": 13,
     "calls": "",
     "control_depth": 0,
@@ -56,7 +26,49 @@
     },
     "total_instructions": 41
   },
+  "2": {
+    "basicblocks": 1,
+    "calls": "5",
+    "control_depth": 0,
+    "def_use_depth": 2,
+    "file": "array",
+    "fileloc": 185,
+    "instructions": 3,
+    "memory_accesses": 0,
+    "name": "operator[]",
+    "total_instructions": 5
+  },
+  "3": {
+    "basicblocks": 17,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 6,
+    "file": "mm.cpp",
+    "fileloc": 30,
+    "instructions": 52,
+    "loads": {
+      "L": 1
+    },
+    "memory_accesses": 2,
+    "name": "readBTiles",
+    "total_instructions": 52
+  },
   "4": {
+    "basicblocks": 17,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 6,
+    "file": "mm.cpp",
+    "fileloc": 4,
+    "instructions": 52,
+    "loads": {
+      "L": 1
+    },
+    "memory_accesses": 2,
+    "name": "readAtTiles",
+    "total_instructions": 52
+  },
+  "5": {
     "basicblocks": 1,
     "calls": "",
     "control_depth": 0,
@@ -68,21 +80,9 @@
     "name": "_S_ref",
     "total_instructions": 2
   },
-  "5": {
-    "basicblocks": 1,
-    "calls": "4",
-    "control_depth": 0,
-    "def_use_depth": 2,
-    "file": "array",
-    "fileloc": 185,
-    "instructions": 3,
-    "memory_accesses": 0,
-    "name": "operator[]",
-    "total_instructions": 5
-  },
   "6": {
     "basicblocks": 40,
-    "calls": "5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5",
+    "calls": "2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2",
     "control_depth": 1,
     "def_use_depth": 17,
     "file": "mm.cpp",

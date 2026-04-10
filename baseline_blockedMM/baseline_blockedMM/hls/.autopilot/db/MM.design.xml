@@ -8,19 +8,19 @@
 <InstName>entry_proc_U0</InstName>
 <ModuleName>entry_proc</ModuleName>
 <IsCompInst>true</IsCompInst>
-<ID>188</ID>
+<ID>192</ID>
 </Instance>
 <Instance>
 <InstName>readAtTiles_U0</InstName>
 <ModuleName>readAtTiles</ModuleName>
 <IsCompInst>true</IsCompInst>
-<ID>195</ID>
+<ID>199</ID>
 <InstancesList>
 <Instance>
-<InstName>grp_readAtTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_78</InstName>
+<InstName>grp_readAtTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_80</InstName>
 <ModuleName>readAtTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop</ModuleName>
 <IsCompInst>true</IsCompInst>
-<ID>78</ID>
+<ID>80</ID>
 </Instance>
 </InstancesList>
 </Instance>
@@ -28,13 +28,13 @@
 <InstName>readBTiles_U0</InstName>
 <ModuleName>readBTiles</ModuleName>
 <IsCompInst>true</IsCompInst>
-<ID>210</ID>
+<ID>214</ID>
 <InstancesList>
 <Instance>
-<InstName>grp_readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_78</InstName>
+<InstName>grp_readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop_fu_80</InstName>
 <ModuleName>readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop</ModuleName>
 <IsCompInst>true</IsCompInst>
-<ID>78</ID>
+<ID>80</ID>
 </Instance>
 </InstancesList>
 </Instance>
@@ -42,7 +42,7 @@
 <InstName>computeTiles_U0</InstName>
 <ModuleName>computeTiles</ModuleName>
 <IsCompInst>true</IsCompInst>
-<ID>225</ID>
+<ID>229</ID>
 <InstancesList>
 <Instance>
 <InstName>grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243</InstName>
@@ -62,13 +62,13 @@
 <InstName>writeTiles_U0</InstName>
 <ModuleName>writeTiles</ModuleName>
 <IsCompInst>true</IsCompInst>
-<ID>240</ID>
+<ID>244</ID>
 <InstancesList>
 <Instance>
-<InstName>grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_78</InstName>
+<InstName>grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_80</InstName>
 <ModuleName>writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop</ModuleName>
 <IsCompInst>true</IsCompInst>
-<ID>78</ID>
+<ID>80</ID>
 </Instance>
 </InstancesList>
 </Instance>
@@ -319,7 +319,7 @@
 <Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
 <Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>0</PipelineInitiationInterval>
-<PipelineType>loop auto-rewind stp (delay=0 clock cycles(s))</PipelineType>
+<PipelineType>loop pipeline stpstp (delay=0 clock cycles(s))</PipelineType>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
@@ -1089,7 +1089,7 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:7</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:5</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 <AreaEstimates>
@@ -1815,7 +1815,7 @@
 <Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
 <Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>0</PipelineInitiationInterval>
-<PipelineType>loop auto-rewind stp (delay=0 clock cycles(s))</PipelineType>
+<PipelineType>loop pipeline stpstp (delay=0 clock cycles(s))</PipelineType>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
@@ -2585,7 +2585,7 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:33</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:31</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 <AreaEstimates>
@@ -3311,7 +3311,7 @@
 <Average-caseRealTimeLatency>257.698 sec</Average-caseRealTimeLatency>
 <Worst-caseRealTimeLatency>515.396 sec</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>1 ~ 34359738113</PipelineInitiationInterval>
-<PipelineType>loop auto-rewind stp (delay=0 clock cycles(s))</PipelineType>
+<PipelineType>loop pipeline stpstp (delay=0 clock cycles(s))</PipelineType>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
@@ -3338,7 +3338,7 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:55~C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:186~../MLP_baseline/mm.cpp:92</SourceLocation>
+<SourceLocation>T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:55~T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:186~../MLP_baseline/mm.cpp:92</SourceLocation>
 <SummaryOfLoopViolations>
 <k_BLOCK_loop_k_loop_i_loop>
 <Name>k_BLOCK_loop_k_loop_i_loop</Name>
@@ -3546,8 +3546,8 @@
 <Attribute>unknown</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>or_ln74_15</name>
-<Object>or_ln74_15</Object>
+<name>AB_block_15</name>
+<Object>AB_block_15</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -3557,8 +3557,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>or_ln74_14</name>
-<Object>or_ln74_14</Object>
+<name>AB_block_14</name>
+<Object>AB_block_14</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -3568,8 +3568,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>or_ln74_13</name>
-<Object>or_ln74_13</Object>
+<name>AB_block_13</name>
+<Object>AB_block_13</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -3579,8 +3579,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>or_ln74_12</name>
-<Object>or_ln74_12</Object>
+<name>AB_block_12</name>
+<Object>AB_block_12</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -3590,8 +3590,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>or_ln74_11</name>
-<Object>or_ln74_11</Object>
+<name>AB_block_11</name>
+<Object>AB_block_11</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -3601,8 +3601,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>or_ln74_10</name>
-<Object>or_ln74_10</Object>
+<name>AB_block_10</name>
+<Object>AB_block_10</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -3612,8 +3612,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>or_ln74_9</name>
-<Object>or_ln74_9</Object>
+<name>AB_block_9</name>
+<Object>AB_block_9</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -3623,8 +3623,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>or_ln74_8</name>
-<Object>or_ln74_8</Object>
+<name>AB_block_8</name>
+<Object>AB_block_8</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -3634,8 +3634,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>or_ln74_7</name>
-<Object>or_ln74_7</Object>
+<name>AB_block_7</name>
+<Object>AB_block_7</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -3645,8 +3645,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>or_ln74_6</name>
-<Object>or_ln74_6</Object>
+<name>AB_block_6</name>
+<Object>AB_block_6</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -3656,8 +3656,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>or_ln74_5</name>
-<Object>or_ln74_5</Object>
+<name>AB_block_5</name>
+<Object>AB_block_5</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -3667,8 +3667,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>or_ln74_4</name>
-<Object>or_ln74_4</Object>
+<name>AB_block_4</name>
+<Object>AB_block_4</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -3678,8 +3678,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>or_ln74_3</name>
-<Object>or_ln74_3</Object>
+<name>AB_block_3</name>
+<Object>AB_block_3</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -3689,8 +3689,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>or_ln74_2</name>
-<Object>or_ln74_2</Object>
+<name>AB_block_2</name>
+<Object>AB_block_2</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -3700,8 +3700,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>or_ln74_1</name>
-<Object>or_ln74_1</Object>
+<name>AB_block_1</name>
+<Object>AB_block_1</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -3711,8 +3711,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>or_ln74_s</name>
-<Object>or_ln74_s</Object>
+<name>AB_block</name>
+<Object>AB_block</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -3733,8 +3733,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_15_2_out</name>
-<Object>AB_block_15_2_out</Object>
+<name>AB_block_31_out</name>
+<Object>AB_block_31_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -3744,8 +3744,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_15_2_out_ap_vld</name>
-<Object>AB_block_15_2_out</Object>
+<name>AB_block_31_out_ap_vld</name>
+<Object>AB_block_31_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -3755,8 +3755,8 @@
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_14_2_out</name>
-<Object>AB_block_14_2_out</Object>
+<name>AB_block_30_out</name>
+<Object>AB_block_30_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -3766,8 +3766,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_14_2_out_ap_vld</name>
-<Object>AB_block_14_2_out</Object>
+<name>AB_block_30_out_ap_vld</name>
+<Object>AB_block_30_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -3777,8 +3777,8 @@
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_13_2_out</name>
-<Object>AB_block_13_2_out</Object>
+<name>AB_block_29_out</name>
+<Object>AB_block_29_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -3788,8 +3788,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_13_2_out_ap_vld</name>
-<Object>AB_block_13_2_out</Object>
+<name>AB_block_29_out_ap_vld</name>
+<Object>AB_block_29_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -3799,8 +3799,8 @@
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_12_2_out</name>
-<Object>AB_block_12_2_out</Object>
+<name>AB_block_28_out</name>
+<Object>AB_block_28_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -3810,8 +3810,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_12_2_out_ap_vld</name>
-<Object>AB_block_12_2_out</Object>
+<name>AB_block_28_out_ap_vld</name>
+<Object>AB_block_28_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -3821,8 +3821,8 @@
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_11_2_out</name>
-<Object>AB_block_11_2_out</Object>
+<name>AB_block_27_out</name>
+<Object>AB_block_27_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -3832,8 +3832,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_11_2_out_ap_vld</name>
-<Object>AB_block_11_2_out</Object>
+<name>AB_block_27_out_ap_vld</name>
+<Object>AB_block_27_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -3843,8 +3843,8 @@
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_10_2_out</name>
-<Object>AB_block_10_2_out</Object>
+<name>AB_block_26_out</name>
+<Object>AB_block_26_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -3854,8 +3854,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_10_2_out_ap_vld</name>
-<Object>AB_block_10_2_out</Object>
+<name>AB_block_26_out_ap_vld</name>
+<Object>AB_block_26_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -3865,8 +3865,8 @@
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_9_2_out</name>
-<Object>AB_block_9_2_out</Object>
+<name>AB_block_25_out</name>
+<Object>AB_block_25_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -3876,8 +3876,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_9_2_out_ap_vld</name>
-<Object>AB_block_9_2_out</Object>
+<name>AB_block_25_out_ap_vld</name>
+<Object>AB_block_25_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -3887,8 +3887,8 @@
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_8_2_out</name>
-<Object>AB_block_8_2_out</Object>
+<name>AB_block_24_out</name>
+<Object>AB_block_24_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -3898,8 +3898,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_8_2_out_ap_vld</name>
-<Object>AB_block_8_2_out</Object>
+<name>AB_block_24_out_ap_vld</name>
+<Object>AB_block_24_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -3909,8 +3909,8 @@
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_7_2_out</name>
-<Object>AB_block_7_2_out</Object>
+<name>AB_block_23_out</name>
+<Object>AB_block_23_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -3920,8 +3920,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_7_2_out_ap_vld</name>
-<Object>AB_block_7_2_out</Object>
+<name>AB_block_23_out_ap_vld</name>
+<Object>AB_block_23_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -3931,8 +3931,8 @@
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_6_2_out</name>
-<Object>AB_block_6_2_out</Object>
+<name>AB_block_22_out</name>
+<Object>AB_block_22_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -3942,8 +3942,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_6_2_out_ap_vld</name>
-<Object>AB_block_6_2_out</Object>
+<name>AB_block_22_out_ap_vld</name>
+<Object>AB_block_22_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -3953,8 +3953,8 @@
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_5_2_out</name>
-<Object>AB_block_5_2_out</Object>
+<name>AB_block_21_out</name>
+<Object>AB_block_21_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -3964,8 +3964,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_5_2_out_ap_vld</name>
-<Object>AB_block_5_2_out</Object>
+<name>AB_block_21_out_ap_vld</name>
+<Object>AB_block_21_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -3975,8 +3975,8 @@
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_4_2_out</name>
-<Object>AB_block_4_2_out</Object>
+<name>AB_block_20_out</name>
+<Object>AB_block_20_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -3986,8 +3986,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_4_2_out_ap_vld</name>
-<Object>AB_block_4_2_out</Object>
+<name>AB_block_20_out_ap_vld</name>
+<Object>AB_block_20_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -3997,8 +3997,8 @@
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_3_2_out</name>
-<Object>AB_block_3_2_out</Object>
+<name>AB_block_19_out</name>
+<Object>AB_block_19_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -4008,8 +4008,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_3_2_out_ap_vld</name>
-<Object>AB_block_3_2_out</Object>
+<name>AB_block_19_out_ap_vld</name>
+<Object>AB_block_19_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -4019,8 +4019,8 @@
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_2_2_out</name>
-<Object>AB_block_2_2_out</Object>
+<name>AB_block_18_out</name>
+<Object>AB_block_18_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -4030,8 +4030,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_2_2_out_ap_vld</name>
-<Object>AB_block_2_2_out</Object>
+<name>AB_block_18_out_ap_vld</name>
+<Object>AB_block_18_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -4041,8 +4041,8 @@
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_1_2_out</name>
-<Object>AB_block_1_2_out</Object>
+<name>AB_block_17_out</name>
+<Object>AB_block_17_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -4052,8 +4052,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_1_2_out_ap_vld</name>
-<Object>AB_block_1_2_out</Object>
+<name>AB_block_17_out_ap_vld</name>
+<Object>AB_block_17_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -4063,8 +4063,8 @@
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_0_2_out</name>
-<Object>AB_block_0_2_out</Object>
+<name>AB_block_16_out</name>
+<Object>AB_block_16_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -4074,8 +4074,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_0_2_out_ap_vld</name>
-<Object>AB_block_0_2_out</Object>
+<name>AB_block_16_out_ap_vld</name>
+<Object>AB_block_16_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>ap_vld</IOProtocol>
@@ -4105,7 +4105,7 @@
 <Average-caseRealTimeLatency>0.270 us</Average-caseRealTimeLatency>
 <Worst-caseRealTimeLatency>0.270 us</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>17</PipelineInitiationInterval>
-<PipelineType>loop auto-rewind stp (delay=0 clock cycles(s))</PipelineType>
+<PipelineType>loop pipeline stpstp (delay=0 clock cycles(s))</PipelineType>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
@@ -4127,7 +4127,7 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:55~C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:186~../MLP_baseline/mm.cpp:107</SourceLocation>
+<SourceLocation>T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:55~T:/AMDDesignTools/2025.2/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:186~../MLP_baseline/mm.cpp:107</SourceLocation>
 <SummaryOfLoopViolations>
 <j_output_loop>
 <Name>j_output_loop</Name>
@@ -4280,8 +4280,8 @@
 <Attribute>unknown</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_0_2_reload</name>
-<Object>AB_block_0_2_reload</Object>
+<name>AB_block_16_reload</name>
+<Object>AB_block_16_reload</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -4291,8 +4291,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_1_2_reload</name>
-<Object>AB_block_1_2_reload</Object>
+<name>AB_block_17_reload</name>
+<Object>AB_block_17_reload</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -4302,8 +4302,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_2_2_reload</name>
-<Object>AB_block_2_2_reload</Object>
+<name>AB_block_18_reload</name>
+<Object>AB_block_18_reload</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -4313,8 +4313,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_3_2_reload</name>
-<Object>AB_block_3_2_reload</Object>
+<name>AB_block_19_reload</name>
+<Object>AB_block_19_reload</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -4324,8 +4324,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_4_2_reload</name>
-<Object>AB_block_4_2_reload</Object>
+<name>AB_block_20_reload</name>
+<Object>AB_block_20_reload</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -4335,8 +4335,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_5_2_reload</name>
-<Object>AB_block_5_2_reload</Object>
+<name>AB_block_21_reload</name>
+<Object>AB_block_21_reload</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -4346,8 +4346,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_6_2_reload</name>
-<Object>AB_block_6_2_reload</Object>
+<name>AB_block_22_reload</name>
+<Object>AB_block_22_reload</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -4357,8 +4357,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_7_2_reload</name>
-<Object>AB_block_7_2_reload</Object>
+<name>AB_block_23_reload</name>
+<Object>AB_block_23_reload</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -4368,8 +4368,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_8_2_reload</name>
-<Object>AB_block_8_2_reload</Object>
+<name>AB_block_24_reload</name>
+<Object>AB_block_24_reload</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -4379,8 +4379,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_9_2_reload</name>
-<Object>AB_block_9_2_reload</Object>
+<name>AB_block_25_reload</name>
+<Object>AB_block_25_reload</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -4390,8 +4390,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_10_2_reload</name>
-<Object>AB_block_10_2_reload</Object>
+<name>AB_block_26_reload</name>
+<Object>AB_block_26_reload</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -4401,8 +4401,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_11_2_reload</name>
-<Object>AB_block_11_2_reload</Object>
+<name>AB_block_27_reload</name>
+<Object>AB_block_27_reload</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -4412,8 +4412,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_12_2_reload</name>
-<Object>AB_block_12_2_reload</Object>
+<name>AB_block_28_reload</name>
+<Object>AB_block_28_reload</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -4423,8 +4423,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_13_2_reload</name>
-<Object>AB_block_13_2_reload</Object>
+<name>AB_block_29_reload</name>
+<Object>AB_block_29_reload</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -4434,8 +4434,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_14_2_reload</name>
-<Object>AB_block_14_2_reload</Object>
+<name>AB_block_30_reload</name>
+<Object>AB_block_30_reload</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -4445,8 +4445,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>AB_block_15_2_reload</name>
-<Object>AB_block_15_2_reload</Object>
+<name>AB_block_31_reload</name>
+<Object>AB_block_31_reload</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -5496,7 +5496,7 @@
 <Average-caseRealTimeLatency>1.1e+09 sec</Average-caseRealTimeLatency>
 <Worst-caseRealTimeLatency>4.3e+09 sec</Worst-caseRealTimeLatency>
 <PipelineInitiationInterval>1 ~ 288230371856744465</PipelineInitiationInterval>
-<PipelineType>loop auto-rewind stp (delay=0 clock cycles(s))</PipelineType>
+<PipelineType>loop pipeline stpstp (delay=0 clock cycles(s))</PipelineType>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
@@ -6215,8 +6215,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>ABC_load</name>
-<Object>ABC_load</Object>
+<name>ABC_1</name>
+<Object>ABC_1</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -6249,7 +6249,7 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:134</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:123</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 <AreaEstimates>
@@ -7100,7 +7100,7 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:178</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:185</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 <AreaEstimates>

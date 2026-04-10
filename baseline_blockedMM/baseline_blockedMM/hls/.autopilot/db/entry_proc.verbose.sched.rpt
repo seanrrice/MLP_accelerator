@@ -3,9 +3,9 @@
 ================================================================
 == Vitis HLS Report for 'entry_proc'
 ================================================================
-* Date:           Thu Apr  9 09:15:05 2026
+* Date:           Thu Apr  9 18:27:18 2026
 
-* Version:        2025.1 (Build 6135595 on May 21 2025)
+* Version:        2025.2 (Build 6295257 on Nov 14 2025)
 * Project:        baseline_blockedMM
 * Solution:       hls (Vivado IP Flow Target)
 * Product family: zynq
@@ -75,7 +75,7 @@ IsGatedGlobalClock: 0
 * FSM state operations: 
 
 State 1 <SV = 0> <Delay = 3.63>
-ST_1 : Operation 2 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %ABC_c, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @ScalarProp_str, i32 4294967295, i32 0, i32 0"   --->   Operation 2 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 2 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %ABC_c, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @ScalarProp_str, i32 4294967295, i32 0, i32 0, i32 0"   --->   Operation 2 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 3 [1/1] (0.00ns)   --->   "%ABC_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %ABC"   --->   Operation 3 'read' 'ABC_read' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 4 [1/1] ( I:3.63ns O:3.63ns )   --->   "%write_ln0 = write void @_ssdm_op_Write.ap_fifo.i64P0A, i64 %ABC_c, i64 %ABC_read"   --->   Operation 4 'write' 'write_ln0' <Predicate = true> <Delay = 3.63> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 64> <Depth = 4> <FIFO>
 ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%ret_ln0 = ret"   --->   Operation 5 'ret' 'ret_ln0' <Predicate = true> <Delay = 0.00>

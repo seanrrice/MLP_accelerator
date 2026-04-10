@@ -99,6 +99,15 @@ namespace hls::sim
   }
 }
 
+
+static std::vector<unsigned> autorestart_seq;
+extern "C" {
+  void __hls_sim_static_autorestart_seq_push(int value);
+}
+
+void __hls_sim_static_autorestart_seq_push(int value) {
+  autorestart_seq.push_back(value);
+}
 namespace hls::sim
 {
   size_t divide_ceil(size_t a, size_t b)
@@ -558,6 +567,17 @@ namespace hls::sim
          << "  BitWidth " << widthHBM << "\n"
          << "}\n";
     }
+    
+    void formatAutorestartSeq()
+    {
+      if (!autorestart_seq.empty()) {
+        ss << "set Autorestart_seq {\n";
+        for (const auto &val : autorestart_seq) {
+          ss << "  " << val << "\n";
+        }
+        ss << "}\n";
+      }
+    }
 
     void close()
     {
@@ -565,6 +585,7 @@ namespace hls::sim
       formatTransDepth();
       formatContainsVLA();
       formatTransNum();
+      formatAutorestartSeq();
       if (nameHBM != "") {
         formatHBM();
       }
@@ -1362,7 +1383,7 @@ void apatb_MM_hw(void* __xlx_apatb_param_AT, void* __xlx_apatb_param_B, void* __
   };
   port7.param = { __xlx_apatb_param_AT };
   port7.mname = { "AT" };
-  port7.nbytes = { 4096 };
+  port7.nbytes = { 3211264 };
 
 #ifdef USE_BINARY_TV_FILE
   static hls::sim::Memory<hls::sim::Input, hls::sim::Output> port8 {
@@ -1387,7 +1408,7 @@ void apatb_MM_hw(void* __xlx_apatb_param_AT, void* __xlx_apatb_param_B, void* __
   };
   port8.param = { __xlx_apatb_param_B };
   port8.mname = { "B" };
-  port8.nbytes = { 4096 };
+  port8.nbytes = { 401408 };
 
 #ifdef USE_BINARY_TV_FILE
   static hls::sim::Memory<hls::sim::Input, hls::sim::Output> port9 {
@@ -1412,7 +1433,7 @@ void apatb_MM_hw(void* __xlx_apatb_param_AT, void* __xlx_apatb_param_B, void* __
   };
   port9.param = { __xlx_apatb_param_C };
   port9.mname = { "C" };
-  port9.nbytes = { 128 };
+  port9.nbytes = { 256 };
 
 #ifdef USE_BINARY_TV_FILE
   static hls::sim::Memory<hls::sim::Input, hls::sim::Output> port10 {
@@ -1446,7 +1467,7 @@ void apatb_MM_hw(void* __xlx_apatb_param_AT, void* __xlx_apatb_param_B, void* __
   };
   port10.param = { __xlx_apatb_param_ABC };
   port10.mname = { "ABC" };
-  port10.nbytes = { 4096 };
+  port10.nbytes = { 524288 };
 
   try {
 #ifdef POST_CHECK

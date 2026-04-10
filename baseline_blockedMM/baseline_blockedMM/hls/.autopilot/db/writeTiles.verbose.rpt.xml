@@ -1,9 +1,9 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'writeTiles'" level="0">
-<item name = "Date">Thu Apr  9 09:15:14 2026
+<item name = "Date">Thu Apr  9 18:27:27 2026
 </item>
-<item name = "Version">2025.1 (Build 6135595 on May 21 2025)</item>
+<item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
 <item name = "Project">baseline_blockedMM</item>
 <item name = "Solution">hls (Vivado IP Flow Target)</item>
 <item name = "Product family">zynq</item>
@@ -31,7 +31,7 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_78">writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop, 2, 288230371856744480, 30.000 ns, 4.3e+09 sec, 1, 288230371856744480, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_80">writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop, 2, 288230371856744480, 30.000 ns, 4.3e+09 sec, 0, 0, loop pipeline stp</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
@@ -63,7 +63,7 @@
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
 <column name="mul_27ns_31ns_58_1_1_U142">mul_27ns_31ns_58_1_1, 0, 4, 0, 23, 0</column>
-<column name="grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_78">writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop, 0, 3, 874, 823, 0</column>
+<column name="grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_80">writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop, 0, 3, 874, 823, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
@@ -80,17 +80,17 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="p_neg3_fu_164_p2">-, 0, 0, 39, 1, 32</column>
-<column name="p_neg_fu_120_p2">-, 0, 0, 39, 1, 32</column>
-<column name="p_neg_t5_fu_179_p2">-, 0, 0, 35, 1, 28</column>
-<column name="p_neg_t_fu_136_p2">-, 0, 0, 35, 1, 28</column>
-<column name="empty_36_fu_195_p2">icmp, 0, 0, 35, 28, 1</column>
-<column name="empty_38_fu_207_p2">icmp, 0, 0, 35, 28, 1</column>
+<column name="sub_ln123_1_fu_181_p2">-, 0, 0, 35, 1, 28</column>
+<column name="sub_ln123_fu_166_p2">-, 0, 0, 39, 1, 32</column>
+<column name="sub_ln125_1_fu_138_p2">-, 0, 0, 35, 1, 28</column>
+<column name="sub_ln125_fu_122_p2">-, 0, 0, 39, 1, 32</column>
+<column name="empty_34_fu_197_p2">icmp, 0, 0, 35, 28, 1</column>
+<column name="empty_36_fu_209_p2">icmp, 0, 0, 35, 28, 1</column>
 <column name="ap_block_state1">or, 0, 0, 2, 1, 1</column>
-<column name="div2_fu_152_p3">select, 0, 0, 28, 1, 28</column>
-<column name="div_fu_185_p3">select, 0, 0, 28, 1, 28</column>
-<column name="empty_37_fu_200_p3">select, 0, 0, 27, 1, 27</column>
-<column name="smax2_fu_213_p3">select, 0, 0, 27, 1, 27</column>
+<column name="empty_35_fu_202_p3">select, 0, 0, 27, 1, 27</column>
+<column name="select_ln123_fu_187_p3">select, 0, 0, 28, 1, 28</column>
+<column name="select_ln125_fu_154_p3">select, 0, 0, 28, 1, 28</column>
+<column name="smax2_fu_215_p3">select, 0, 0, 27, 1, 27</column>
 </table>
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">
@@ -104,19 +104,19 @@
 </item>
 <item name = "Register"><table name="" hasTotal="1">
 <keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
-<column name="ABC_read_reg_243">64, 0, 64, 0</column>
-<column name="N_1_reg_237">32, 0, 32, 0</column>
+<column name="ABC_1_reg_245">64, 0, 64, 0</column>
+<column name="N_1_reg_239">32, 0, 32, 0</column>
 <column name="ap_CS_fsm">5, 0, 5, 0</column>
 <column name="ap_done_reg">1, 0, 1, 0</column>
-<column name="bound6_reg_283">58, 0, 58, 0</column>
-<column name="div2_reg_258">28, 0, 28, 0</column>
-<column name="empty_35_reg_263">27, 0, 27, 0</column>
-<column name="empty_37_reg_268">27, 0, 27, 0</column>
-<column name="grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_78_ap_start_reg">1, 0, 1, 0</column>
-<column name="smax2_reg_273">27, 0, 27, 0</column>
-<column name="tmp_1_reg_253">28, 0, 28, 0</column>
-<column name="tmp_4_reg_278">27, 0, 31, 4</column>
-<column name="tmp_5_reg_248">1, 0, 1, 0</column>
+<column name="bound6_reg_285">58, 0, 58, 0</column>
+<column name="empty_35_reg_270">27, 0, 27, 0</column>
+<column name="empty_reg_265">27, 0, 27, 0</column>
+<column name="grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_80_ap_start_reg">1, 0, 1, 0</column>
+<column name="select_ln125_reg_260">28, 0, 28, 0</column>
+<column name="smax2_reg_275">27, 0, 27, 0</column>
+<column name="tmp_1_reg_255">28, 0, 28, 0</column>
+<column name="tmp_4_reg_280">27, 0, 31, 4</column>
+<column name="tmp_5_reg_250">1, 0, 1, 0</column>
 </table>
 </item>
 </section>

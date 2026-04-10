@@ -1,0 +1,11 @@
+# Inferred from performance & pipeline pragmas/directives
+set_directive_loop_flatten readattiles/k_BLOCK_loop
+set_directive_loop_flatten readattiles/j_BLOCK_loop
+set_directive_loop_flatten readattiles/i_BLOCK_loop
+set_directive_loop_flatten readbtiles/k_BLOCK_loop
+set_directive_loop_flatten readbtiles/j_BLOCK_loop
+set_directive_loop_flatten readbtiles/i_BLOCK_loop
+set_directive_loop_flatten computetiles/k_loop
+set_directive_loop_flatten computetiles/k_BLOCK_loop
+set_directive_loop_flatten writetiles/j_BLOCK_loop
+set_directive_loop_flatten writetiles/i_BLOCK_loop

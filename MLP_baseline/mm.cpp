@@ -150,13 +150,20 @@ void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, 
     // #pragma HLS INTERFACE m_axi     port=C   bundle=gmem depth=1024
     // #pragma HLS INTERFACE m_axi     port=ABC bundle=gmem depth=131072
 
+    // Separate bundles to prevent dataflow deadlock
+    // (concurrent functions can't share one AXI port)
+    #pragma HLS INTERFACE m_axi     port=AT   bundle=gmem0 depth=50176
+    #pragma HLS INTERFACE m_axi     port=B   bundle=gmem1 depth=6272
+    #pragma HLS INTERFACE m_axi     port=C   bundle=gmem2 depth=64
+    #pragma HLS INTERFACE m_axi     port=ABC bundle=gmem3 depth=8192
+
     //================================================================
     //Pragmas for new testbench with smaller  to enable cosim to work
     //===============================================================
-    #pragma HLS INTERFACE m_axi port=AT  bundle=gmem0 depth=64
-    #pragma HLS INTERFACE m_axi port=B   bundle=gmem1 depth=64
-    #pragma HLS INTERFACE m_axi port=C   bundle=gmem2 depth=32
-    #pragma HLS INTERFACE m_axi port=ABC bundle=gmem3 depth=64
+    // #pragma HLS INTERFACE m_axi port=AT  bundle=gmem0 depth=64
+    // #pragma HLS INTERFACE m_axi port=B   bundle=gmem1 depth=64
+    // #pragma HLS INTERFACE m_axi port=C   bundle=gmem2 depth=32
+    // #pragma HLS INTERFACE m_axi port=ABC bundle=gmem3 depth=64
 
     #pragma HLS INTERFACE s_axilite port=AT     bundle=control
     #pragma HLS INTERFACE s_axilite port=B      bundle=control

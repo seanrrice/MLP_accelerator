@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1775752982">
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1775784859">
   <File Type="ROUTE-BUS-SKEW" Name="bd_0_wrapper_bus_skew_routed.rpt"/>
   <File Type="PA-DCP" Name="bd_0_wrapper.dcp"/>
   <File Type="ROUTE-BLACKBOX-DCP" Name="bd_0_wrapper_routed_bb.dcp"/>
@@ -19,6 +19,7 @@
   <File Type="OPT-TIMING" Name="bd_0_wrapper_timing_summary_opted.rpt"/>
   <File Type="PWROPT-DCP" Name="bd_0_wrapper_pwropt.dcp"/>
   <File Type="PWROPT-DRC" Name="bd_0_wrapper_drc_pwropted.rpt"/>
+  <File Type="NOC_TRAFFIC_SPEC_FILE" Name="bd_0_wrapper.nts"/>
   <File Type="PWROPT-TIMING" Name="bd_0_wrapper_timing_summary_pwropted.rpt"/>
   <File Type="PLACE-DCP" Name="bd_0_wrapper_placed.dcp"/>
   <File Type="PLACE-IO" Name="bd_0_wrapper_io_placed.rpt"/>
@@ -61,9 +62,10 @@
   <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="bd_0_wrapper_timing_summary_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="bd_0_wrapper_timing_summary_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="bd_0_wrapper_bus_skew_postroute_physopted.rpt"/>
-  <File Type="BG-BIT" Name="bd_0_wrapper.bit"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="bd_0_wrapper_bus_skew_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="bd_0_wrapper_bus_skew_postroute_physopted.rpx"/>
+  <File Type="NOC_SOLUTION_FILE" Name="bd_0_wrapper.ncr"/>
+  <File Type="BG-BIT" Name="bd_0_wrapper.bit"/>
   <File Type="BG-BIN" Name="bd_0_wrapper.bin"/>
   <File Type="BITSTR-MSK" Name="bd_0_wrapper.msk"/>
   <File Type="BITSTR-RBT" Name="bd_0_wrapper.rbt"/>

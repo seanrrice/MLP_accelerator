@@ -516,6 +516,7 @@
 			</second>
 		</item>
 	</node2core>
+	<sched_res class_id="-1"></sched_res>
 </syndb>
 </boost_serialization>
 

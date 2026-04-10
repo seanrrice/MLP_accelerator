@@ -1,6 +1,0 @@
-Calling MM kernel...
-Returned from MM kernel.
-*******************************************
-PASS: The output matches the golden output!
-*******************************************
-INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 128

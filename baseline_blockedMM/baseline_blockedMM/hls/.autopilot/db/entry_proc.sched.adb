@@ -404,6 +404,7 @@
 		<count>0</count>
 		<item_version>0</item_version>
 	</node2core>
+	<sched_res class_id="-1"></sched_res>
 </syndb>
 </boost_serialization>
 

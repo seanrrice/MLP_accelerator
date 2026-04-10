@@ -3,9 +3,9 @@
 ================================================================
 == Vitis HLS Report for 'computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop'
 ================================================================
-* Date:           Thu Apr  9 09:15:13 2026
+* Date:           Thu Apr  9 18:27:26 2026
 
-* Version:        2025.1 (Build 6135595 on May 21 2025)
+* Version:        2025.2 (Build 6295257 on Nov 14 2025)
 * Project:        baseline_blockedMM
 * Solution:       hls (Vivado IP Flow Target)
 * Product family: zynq
@@ -25,12 +25,12 @@
 
 + Latency: 
     * Summary: 
-    +---------+-------------+-----------+-------------+-----+-------------+------------------------------------------------+
-    |    Latency (cycles)   |    Latency (absolute)   |      Interval     |                    Pipeline                    |
-    |   min   |     max     |    min    |     max     | min |     max     |                      Type                      |
-    +---------+-------------+-----------+-------------+-----+-------------+------------------------------------------------+
-    |        2|  34359738117|  30.000 ns|  515.396 sec|    1|  34359738113|  loop auto-rewind stp (delay=0 clock cycles(s))|
-    +---------+-------------+-----------+-------------+-----+-------------+------------------------------------------------+
+    +---------+-------------+-----------+-------------+-----+-----+-------------------+
+    |    Latency (cycles)   |    Latency (absolute)   |  Interval |      Pipeline     |
+    |   min   |     max     |    min    |     max     | min | max |        Type       |
+    +---------+-------------+-----------+-------------+-----+-----+-------------------+
+    |        2|  34359738117|  30.000 ns|  515.396 sec|    0|    0|  loop pipeline stp|
+    +---------+-------------+-----------+-------------+-----+-----+-------------------+
 
     + Detail: 
         * Instance: 
@@ -141,7 +141,7 @@
     |add_ln92_8_fu_3092_p2                  |         +|   0|  0|    39|          32|          32|
     |add_ln92_9_fu_3328_p2                  |         +|   0|  0|    39|          32|          32|
     |add_ln92_fu_1204_p2                    |         +|   0|  0|    39|          32|          32|
-    |and_ln80_fu_731_p2                     |       and|   0|  0|     2|           1|           1|
+    |and_ln61_fu_731_p2                     |       and|   0|  0|     2|           1|           1|
     |ap_block_pp0_stage0_11001              |       and|   0|  0|     2|           1|           1|
     |ap_block_pp0_stage0_11001_grp1         |       and|   0|  0|     2|           1|           1|
     |ap_block_pp0_stage0_11001_grp2         |       and|   0|  0|     2|           1|           1|
@@ -152,11 +152,11 @@
     |icmp_ln82_fu_713_p2                    |      icmp|   0|  0|    13|          10|           9|
     |icmp_ln87_fu_725_p2                    |      icmp|   0|  0|    14|           5|           6|
     |lshr_ln92_fu_1011_p2                   |      lshr|   0|  0|  2171|         512|         512|
-    |or_ln82_fu_737_p2                      |        or|   0|  0|     2|           1|           1|
-    |select_ln82_1_fu_807_p3                |    select|   0|  0|    10|           1|           1|
-    |select_ln82_fu_743_p3                  |    select|   0|  0|     5|           1|           1|
+    |or_ln61_fu_737_p2                      |        or|   0|  0|     2|           1|           1|
+    |select_ln61_fu_743_p3                  |    select|   0|  0|     5|           1|           1|
+    |select_ln82_fu_807_p3                  |    select|   0|  0|    10|           1|           1|
     |ap_enable_pp0                          |       xor|   0|  0|     2|           1|           2|
-    |xor_ln80_fu_719_p2                     |       xor|   0|  0|     2|           1|           2|
+    |xor_ln61_fu_719_p2                     |       xor|   0|  0|     2|           1|           2|
     +---------------------------------------+----------+----+---+------+------------+------------+
     |Total                                  |          |   0|  0|  2978|        1140|        1091|
     +---------------------------------------+----------+----+---+------+------------+------------+
@@ -165,22 +165,22 @@
     +-------------------------+----+-----------+-----+-----------+
     |           Name          | LUT| Input Size| Bits| Total Bits|
     +-------------------------+----+-----------+-----+-----------+
-    |AB_block_0_2_fu_236      |   9|          2|  512|       1024|
-    |AB_block_10_2_fu_276     |   9|          2|  512|       1024|
-    |AB_block_11_2_fu_280     |   9|          2|  512|       1024|
-    |AB_block_12_2_fu_284     |   9|          2|  512|       1024|
-    |AB_block_13_2_fu_288     |   9|          2|  512|       1024|
-    |AB_block_14_2_fu_292     |   9|          2|  512|       1024|
-    |AB_block_15_2_fu_296     |   9|          2|  512|       1024|
-    |AB_block_1_2_fu_240      |   9|          2|  512|       1024|
-    |AB_block_2_2_fu_244      |   9|          2|  512|       1024|
-    |AB_block_3_2_fu_248      |   9|          2|  512|       1024|
-    |AB_block_4_2_fu_252      |   9|          2|  512|       1024|
-    |AB_block_5_2_fu_256      |   9|          2|  512|       1024|
-    |AB_block_6_2_fu_260      |   9|          2|  512|       1024|
-    |AB_block_7_2_fu_264      |   9|          2|  512|       1024|
-    |AB_block_8_2_fu_268      |   9|          2|  512|       1024|
-    |AB_block_9_2_fu_272      |   9|          2|  512|       1024|
+    |AB_block_16_fu_236       |   9|          2|  512|       1024|
+    |AB_block_17_fu_240       |   9|          2|  512|       1024|
+    |AB_block_18_fu_244       |   9|          2|  512|       1024|
+    |AB_block_19_fu_248       |   9|          2|  512|       1024|
+    |AB_block_20_fu_252       |   9|          2|  512|       1024|
+    |AB_block_21_fu_256       |   9|          2|  512|       1024|
+    |AB_block_22_fu_260       |   9|          2|  512|       1024|
+    |AB_block_23_fu_264       |   9|          2|  512|       1024|
+    |AB_block_24_fu_268       |   9|          2|  512|       1024|
+    |AB_block_25_fu_272       |   9|          2|  512|       1024|
+    |AB_block_26_fu_276       |   9|          2|  512|       1024|
+    |AB_block_27_fu_280       |   9|          2|  512|       1024|
+    |AB_block_28_fu_284       |   9|          2|  512|       1024|
+    |AB_block_29_fu_288       |   9|          2|  512|       1024|
+    |AB_block_30_fu_292       |   9|          2|  512|       1024|
+    |AB_block_31_fu_296       |   9|          2|  512|       1024|
     |A_stream_blk_n           |   9|          2|    1|          2|
     |B_stream_blk_n           |   9|          2|    1|          2|
     |ap_done_int              |   9|          2|    1|          2|
@@ -197,22 +197,22 @@
     +-------------------------------------------+-----+----+-----+-----------+
     |                    Name                   |  FF | LUT| Bits| Const Bits|
     +-------------------------------------------+-----+----+-----+-----------+
-    |AB_block_0_2_fu_236                        |  512|   0|  512|          0|
-    |AB_block_10_2_fu_276                       |  512|   0|  512|          0|
-    |AB_block_11_2_fu_280                       |  512|   0|  512|          0|
-    |AB_block_12_2_fu_284                       |  512|   0|  512|          0|
-    |AB_block_13_2_fu_288                       |  512|   0|  512|          0|
-    |AB_block_14_2_fu_292                       |  512|   0|  512|          0|
-    |AB_block_15_2_fu_296                       |  512|   0|  512|          0|
-    |AB_block_1_2_fu_240                        |  512|   0|  512|          0|
-    |AB_block_2_2_fu_244                        |  512|   0|  512|          0|
-    |AB_block_3_2_fu_248                        |  512|   0|  512|          0|
-    |AB_block_4_2_fu_252                        |  512|   0|  512|          0|
-    |AB_block_5_2_fu_256                        |  512|   0|  512|          0|
-    |AB_block_6_2_fu_260                        |  512|   0|  512|          0|
-    |AB_block_7_2_fu_264                        |  512|   0|  512|          0|
-    |AB_block_8_2_fu_268                        |  512|   0|  512|          0|
-    |AB_block_9_2_fu_272                        |  512|   0|  512|          0|
+    |AB_block_16_fu_236                         |  512|   0|  512|          0|
+    |AB_block_17_fu_240                         |  512|   0|  512|          0|
+    |AB_block_18_fu_244                         |  512|   0|  512|          0|
+    |AB_block_19_fu_248                         |  512|   0|  512|          0|
+    |AB_block_20_fu_252                         |  512|   0|  512|          0|
+    |AB_block_21_fu_256                         |  512|   0|  512|          0|
+    |AB_block_22_fu_260                         |  512|   0|  512|          0|
+    |AB_block_23_fu_264                         |  512|   0|  512|          0|
+    |AB_block_24_fu_268                         |  512|   0|  512|          0|
+    |AB_block_25_fu_272                         |  512|   0|  512|          0|
+    |AB_block_26_fu_276                         |  512|   0|  512|          0|
+    |AB_block_27_fu_280                         |  512|   0|  512|          0|
+    |AB_block_28_fu_284                         |  512|   0|  512|          0|
+    |AB_block_29_fu_288                         |  512|   0|  512|          0|
+    |AB_block_30_fu_292                         |  512|   0|  512|          0|
+    |AB_block_31_fu_296                         |  512|   0|  512|          0|
     |ap_CS_fsm                                  |    1|   0|    1|          0|
     |ap_block_pp0_stage0_subdone_grp0_done_reg  |    1|   0|    1|          0|
     |ap_block_pp0_stage0_subdone_grp1_done_reg  |    1|   0|    1|          0|
@@ -279,73 +279,73 @@
 == Interface
 ================================================================
 * Summary: 
-+--------------------------+-----+-----+------------+--------------------------------------------------+--------------+
-|         RTL Ports        | Dir | Bits|  Protocol  |                   Source Object                  |    C Type    |
-+--------------------------+-----+-----+------------+--------------------------------------------------+--------------+
-|ap_clk                    |   in|    1|  ap_ctrl_hs|  computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop|  return value|
-|ap_rst                    |   in|    1|  ap_ctrl_hs|  computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop|  return value|
-|ap_start                  |   in|    1|  ap_ctrl_hs|  computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop|  return value|
-|ap_done                   |  out|    1|  ap_ctrl_hs|  computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop|  return value|
-|ap_idle                   |  out|    1|  ap_ctrl_hs|  computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop|  return value|
-|ap_ready                  |  out|    1|  ap_ctrl_hs|  computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop|  return value|
-|A_stream_dout             |   in|  512|     ap_fifo|                                          A_stream|       pointer|
-|A_stream_empty_n          |   in|    1|     ap_fifo|                                          A_stream|       pointer|
-|A_stream_read             |  out|    1|     ap_fifo|                                          A_stream|       pointer|
-|A_stream_num_data_valid   |   in|    6|     ap_fifo|                                          A_stream|       pointer|
-|A_stream_fifo_cap         |   in|    6|     ap_fifo|                                          A_stream|       pointer|
-|B_stream_dout             |   in|  512|     ap_fifo|                                          B_stream|       pointer|
-|B_stream_empty_n          |   in|    1|     ap_fifo|                                          B_stream|       pointer|
-|B_stream_read             |  out|    1|     ap_fifo|                                          B_stream|       pointer|
-|B_stream_num_data_valid   |   in|    6|     ap_fifo|                                          B_stream|       pointer|
-|B_stream_fifo_cap         |   in|    6|     ap_fifo|                                          B_stream|       pointer|
-|or_ln74_15                |   in|  512|     ap_none|                                        or_ln74_15|        scalar|
-|or_ln74_14                |   in|  512|     ap_none|                                        or_ln74_14|        scalar|
-|or_ln74_13                |   in|  512|     ap_none|                                        or_ln74_13|        scalar|
-|or_ln74_12                |   in|  512|     ap_none|                                        or_ln74_12|        scalar|
-|or_ln74_11                |   in|  512|     ap_none|                                        or_ln74_11|        scalar|
-|or_ln74_10                |   in|  512|     ap_none|                                        or_ln74_10|        scalar|
-|or_ln74_9                 |   in|  512|     ap_none|                                         or_ln74_9|        scalar|
-|or_ln74_8                 |   in|  512|     ap_none|                                         or_ln74_8|        scalar|
-|or_ln74_7                 |   in|  512|     ap_none|                                         or_ln74_7|        scalar|
-|or_ln74_6                 |   in|  512|     ap_none|                                         or_ln74_6|        scalar|
-|or_ln74_5                 |   in|  512|     ap_none|                                         or_ln74_5|        scalar|
-|or_ln74_4                 |   in|  512|     ap_none|                                         or_ln74_4|        scalar|
-|or_ln74_3                 |   in|  512|     ap_none|                                         or_ln74_3|        scalar|
-|or_ln74_2                 |   in|  512|     ap_none|                                         or_ln74_2|        scalar|
-|or_ln74_1                 |   in|  512|     ap_none|                                         or_ln74_1|        scalar|
-|or_ln74_s                 |   in|  512|     ap_none|                                         or_ln74_s|        scalar|
-|tmp_28                    |   in|   35|     ap_none|                                            tmp_28|        scalar|
-|AB_block_15_2_out         |  out|  512|      ap_vld|                                 AB_block_15_2_out|       pointer|
-|AB_block_15_2_out_ap_vld  |  out|    1|      ap_vld|                                 AB_block_15_2_out|       pointer|
-|AB_block_14_2_out         |  out|  512|      ap_vld|                                 AB_block_14_2_out|       pointer|
-|AB_block_14_2_out_ap_vld  |  out|    1|      ap_vld|                                 AB_block_14_2_out|       pointer|
-|AB_block_13_2_out         |  out|  512|      ap_vld|                                 AB_block_13_2_out|       pointer|
-|AB_block_13_2_out_ap_vld  |  out|    1|      ap_vld|                                 AB_block_13_2_out|       pointer|
-|AB_block_12_2_out         |  out|  512|      ap_vld|                                 AB_block_12_2_out|       pointer|
-|AB_block_12_2_out_ap_vld  |  out|    1|      ap_vld|                                 AB_block_12_2_out|       pointer|
-|AB_block_11_2_out         |  out|  512|      ap_vld|                                 AB_block_11_2_out|       pointer|
-|AB_block_11_2_out_ap_vld  |  out|    1|      ap_vld|                                 AB_block_11_2_out|       pointer|
-|AB_block_10_2_out         |  out|  512|      ap_vld|                                 AB_block_10_2_out|       pointer|
-|AB_block_10_2_out_ap_vld  |  out|    1|      ap_vld|                                 AB_block_10_2_out|       pointer|
-|AB_block_9_2_out          |  out|  512|      ap_vld|                                  AB_block_9_2_out|       pointer|
-|AB_block_9_2_out_ap_vld   |  out|    1|      ap_vld|                                  AB_block_9_2_out|       pointer|
-|AB_block_8_2_out          |  out|  512|      ap_vld|                                  AB_block_8_2_out|       pointer|
-|AB_block_8_2_out_ap_vld   |  out|    1|      ap_vld|                                  AB_block_8_2_out|       pointer|
-|AB_block_7_2_out          |  out|  512|      ap_vld|                                  AB_block_7_2_out|       pointer|
-|AB_block_7_2_out_ap_vld   |  out|    1|      ap_vld|                                  AB_block_7_2_out|       pointer|
-|AB_block_6_2_out          |  out|  512|      ap_vld|                                  AB_block_6_2_out|       pointer|
-|AB_block_6_2_out_ap_vld   |  out|    1|      ap_vld|                                  AB_block_6_2_out|       pointer|
-|AB_block_5_2_out          |  out|  512|      ap_vld|                                  AB_block_5_2_out|       pointer|
-|AB_block_5_2_out_ap_vld   |  out|    1|      ap_vld|                                  AB_block_5_2_out|       pointer|
-|AB_block_4_2_out          |  out|  512|      ap_vld|                                  AB_block_4_2_out|       pointer|
-|AB_block_4_2_out_ap_vld   |  out|    1|      ap_vld|                                  AB_block_4_2_out|       pointer|
-|AB_block_3_2_out          |  out|  512|      ap_vld|                                  AB_block_3_2_out|       pointer|
-|AB_block_3_2_out_ap_vld   |  out|    1|      ap_vld|                                  AB_block_3_2_out|       pointer|
-|AB_block_2_2_out          |  out|  512|      ap_vld|                                  AB_block_2_2_out|       pointer|
-|AB_block_2_2_out_ap_vld   |  out|    1|      ap_vld|                                  AB_block_2_2_out|       pointer|
-|AB_block_1_2_out          |  out|  512|      ap_vld|                                  AB_block_1_2_out|       pointer|
-|AB_block_1_2_out_ap_vld   |  out|    1|      ap_vld|                                  AB_block_1_2_out|       pointer|
-|AB_block_0_2_out          |  out|  512|      ap_vld|                                  AB_block_0_2_out|       pointer|
-|AB_block_0_2_out_ap_vld   |  out|    1|      ap_vld|                                  AB_block_0_2_out|       pointer|
-+--------------------------+-----+-----+------------+--------------------------------------------------+--------------+
++-------------------------+-----+-----+------------+--------------------------------------------------+--------------+
+|        RTL Ports        | Dir | Bits|  Protocol  |                   Source Object                  |    C Type    |
++-------------------------+-----+-----+------------+--------------------------------------------------+--------------+
+|ap_clk                   |   in|    1|  ap_ctrl_hs|  computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop|  return value|
+|ap_rst                   |   in|    1|  ap_ctrl_hs|  computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop|  return value|
+|ap_start                 |   in|    1|  ap_ctrl_hs|  computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop|  return value|
+|ap_done                  |  out|    1|  ap_ctrl_hs|  computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop|  return value|
+|ap_idle                  |  out|    1|  ap_ctrl_hs|  computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop|  return value|
+|ap_ready                 |  out|    1|  ap_ctrl_hs|  computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop|  return value|
+|A_stream_dout            |   in|  512|     ap_fifo|                                          A_stream|       pointer|
+|A_stream_empty_n         |   in|    1|     ap_fifo|                                          A_stream|       pointer|
+|A_stream_read            |  out|    1|     ap_fifo|                                          A_stream|       pointer|
+|A_stream_num_data_valid  |   in|    6|     ap_fifo|                                          A_stream|       pointer|
+|A_stream_fifo_cap        |   in|    6|     ap_fifo|                                          A_stream|       pointer|
+|B_stream_dout            |   in|  512|     ap_fifo|                                          B_stream|       pointer|
+|B_stream_empty_n         |   in|    1|     ap_fifo|                                          B_stream|       pointer|
+|B_stream_read            |  out|    1|     ap_fifo|                                          B_stream|       pointer|
+|B_stream_num_data_valid  |   in|    6|     ap_fifo|                                          B_stream|       pointer|
+|B_stream_fifo_cap        |   in|    6|     ap_fifo|                                          B_stream|       pointer|
+|AB_block_15              |   in|  512|     ap_none|                                       AB_block_15|        scalar|
+|AB_block_14              |   in|  512|     ap_none|                                       AB_block_14|        scalar|
+|AB_block_13              |   in|  512|     ap_none|                                       AB_block_13|        scalar|
+|AB_block_12              |   in|  512|     ap_none|                                       AB_block_12|        scalar|
+|AB_block_11              |   in|  512|     ap_none|                                       AB_block_11|        scalar|
+|AB_block_10              |   in|  512|     ap_none|                                       AB_block_10|        scalar|
+|AB_block_9               |   in|  512|     ap_none|                                        AB_block_9|        scalar|
+|AB_block_8               |   in|  512|     ap_none|                                        AB_block_8|        scalar|
+|AB_block_7               |   in|  512|     ap_none|                                        AB_block_7|        scalar|
+|AB_block_6               |   in|  512|     ap_none|                                        AB_block_6|        scalar|
+|AB_block_5               |   in|  512|     ap_none|                                        AB_block_5|        scalar|
+|AB_block_4               |   in|  512|     ap_none|                                        AB_block_4|        scalar|
+|AB_block_3               |   in|  512|     ap_none|                                        AB_block_3|        scalar|
+|AB_block_2               |   in|  512|     ap_none|                                        AB_block_2|        scalar|
+|AB_block_1               |   in|  512|     ap_none|                                        AB_block_1|        scalar|
+|AB_block                 |   in|  512|     ap_none|                                          AB_block|        scalar|
+|tmp_28                   |   in|   35|     ap_none|                                            tmp_28|        scalar|
+|AB_block_31_out          |  out|  512|      ap_vld|                                   AB_block_31_out|       pointer|
+|AB_block_31_out_ap_vld   |  out|    1|      ap_vld|                                   AB_block_31_out|       pointer|
+|AB_block_30_out          |  out|  512|      ap_vld|                                   AB_block_30_out|       pointer|
+|AB_block_30_out_ap_vld   |  out|    1|      ap_vld|                                   AB_block_30_out|       pointer|
+|AB_block_29_out          |  out|  512|      ap_vld|                                   AB_block_29_out|       pointer|
+|AB_block_29_out_ap_vld   |  out|    1|      ap_vld|                                   AB_block_29_out|       pointer|
+|AB_block_28_out          |  out|  512|      ap_vld|                                   AB_block_28_out|       pointer|
+|AB_block_28_out_ap_vld   |  out|    1|      ap_vld|                                   AB_block_28_out|       pointer|
+|AB_block_27_out          |  out|  512|      ap_vld|                                   AB_block_27_out|       pointer|
+|AB_block_27_out_ap_vld   |  out|    1|      ap_vld|                                   AB_block_27_out|       pointer|
+|AB_block_26_out          |  out|  512|      ap_vld|                                   AB_block_26_out|       pointer|
+|AB_block_26_out_ap_vld   |  out|    1|      ap_vld|                                   AB_block_26_out|       pointer|
+|AB_block_25_out          |  out|  512|      ap_vld|                                   AB_block_25_out|       pointer|
+|AB_block_25_out_ap_vld   |  out|    1|      ap_vld|                                   AB_block_25_out|       pointer|
+|AB_block_24_out          |  out|  512|      ap_vld|                                   AB_block_24_out|       pointer|
+|AB_block_24_out_ap_vld   |  out|    1|      ap_vld|                                   AB_block_24_out|       pointer|
+|AB_block_23_out          |  out|  512|      ap_vld|                                   AB_block_23_out|       pointer|
+|AB_block_23_out_ap_vld   |  out|    1|      ap_vld|                                   AB_block_23_out|       pointer|
+|AB_block_22_out          |  out|  512|      ap_vld|                                   AB_block_22_out|       pointer|
+|AB_block_22_out_ap_vld   |  out|    1|      ap_vld|                                   AB_block_22_out|       pointer|
+|AB_block_21_out          |  out|  512|      ap_vld|                                   AB_block_21_out|       pointer|
+|AB_block_21_out_ap_vld   |  out|    1|      ap_vld|                                   AB_block_21_out|       pointer|
+|AB_block_20_out          |  out|  512|      ap_vld|                                   AB_block_20_out|       pointer|
+|AB_block_20_out_ap_vld   |  out|    1|      ap_vld|                                   AB_block_20_out|       pointer|
+|AB_block_19_out          |  out|  512|      ap_vld|                                   AB_block_19_out|       pointer|
+|AB_block_19_out_ap_vld   |  out|    1|      ap_vld|                                   AB_block_19_out|       pointer|
+|AB_block_18_out          |  out|  512|      ap_vld|                                   AB_block_18_out|       pointer|
+|AB_block_18_out_ap_vld   |  out|    1|      ap_vld|                                   AB_block_18_out|       pointer|
+|AB_block_17_out          |  out|  512|      ap_vld|                                   AB_block_17_out|       pointer|
+|AB_block_17_out_ap_vld   |  out|    1|      ap_vld|                                   AB_block_17_out|       pointer|
+|AB_block_16_out          |  out|  512|      ap_vld|                                   AB_block_16_out|       pointer|
+|AB_block_16_out_ap_vld   |  out|    1|      ap_vld|                                   AB_block_16_out|       pointer|
++-------------------------+-----+-----+------------+--------------------------------------------------+--------------+
 

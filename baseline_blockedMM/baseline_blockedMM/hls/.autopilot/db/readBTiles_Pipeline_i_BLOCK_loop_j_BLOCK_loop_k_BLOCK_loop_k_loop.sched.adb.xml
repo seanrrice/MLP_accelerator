@@ -317,9 +317,9 @@ newFuncRoot:13 %bound6_cast = zext i58 %bound6_read
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="23" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32" op_19_bw="32">
+<Node id="23" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32" op_19_bw="32" op_20_bw="32">
 <![CDATA[
-newFuncRoot:14 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %gmem1, void @empty_18, i32 0, i32 0, void @empty_0, i32 0, i32 64, void @empty_3, void @empty_2, void @empty_0, i32 16, i32 16, i32 16, i32 16, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0
+newFuncRoot:14 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %gmem1, void @empty_17, i32 0, i32 0, void @empty, i32 0, i32 6272, void @empty_2, void @empty_1, void @empty, i32 16, i32 16, i32 16, i32 16, void @empty, void @empty, i32 4294967295, i32 0, i32 0, i32 64
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>
@@ -332,9 +332,9 @@ newFuncRoot:14 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, 
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="24" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32" op_19_bw="32">
+<Node id="24" bw="0" op_0_bw="0" op_1_bw="512" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32" op_19_bw="32" op_20_bw="32">
 <![CDATA[
-newFuncRoot:15 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %B_stream, void @empty_10, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0
+newFuncRoot:15 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %B_stream, void @empty_9, i32 0, i32 0, void @empty, i32 0, i32 0, void @empty, void @empty, void @empty, i32 0, i32 0, i32 0, i32 0, void @empty, void @empty, i32 4294967295, i32 0, i32 0, i32 0
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>
@@ -941,10 +941,10 @@ for.inc25:25 %select_ln42_1 = select i1 %and_ln40, i28 %kb_2, i28 %select_ln40
 
 <Node id="64" bw="32" op_0_bw="32" op_1_bw="28" op_2_bw="4">
 <![CDATA[
-for.inc25:27 %mul = bitconcatenate i32 @_ssdm_op_BitConcatenate.i32.i28.i4, i28 %select_ln42_1, i4 0
+for.inc25:27 %shl_ln46_1 = bitconcatenate i32 @_ssdm_op_BitConcatenate.i32.i28.i4, i28 %select_ln42_1, i4 0
 
 ]]></Node>
-<StgValue><ssdm name="mul"/></StgValue>
+<StgValue><ssdm name="shl_ln46_1"/></StgValue>
 </operation>
 
 <operation id="73" st_id="3" stage="1" lat="1">
@@ -971,7 +971,7 @@ for.inc25:28 %zext_ln44 = zext i5 %select_ln42
 
 <Node id="67" bw="32" op_0_bw="32" op_1_bw="32">
 <![CDATA[
-for.inc25:30 %add_ln46 = add i32 %mul, i32 %zext_ln44
+for.inc25:30 %add_ln46 = add i32 %shl_ln46_1, i32 %zext_ln44
 
 ]]></Node>
 <StgValue><ssdm name="add_ln46"/></StgValue>
@@ -1114,10 +1114,10 @@ for.inc25:20 %select_ln40_1 = select i1 %select_ln38_1, i28 %jb_4, i28 %select_l
 
 <Node id="63" bw="32" op_0_bw="32" op_1_bw="28" op_2_bw="4">
 <![CDATA[
-for.inc25:26 %mul2 = bitconcatenate i32 @_ssdm_op_BitConcatenate.i32.i28.i4, i28 %select_ln40_1, i4 0
+for.inc25:26 %shl_ln = bitconcatenate i32 @_ssdm_op_BitConcatenate.i32.i28.i4, i28 %select_ln40_1, i4 0
 
 ]]></Node>
-<StgValue><ssdm name="mul2"/></StgValue>
+<StgValue><ssdm name="shl_ln"/></StgValue>
 </operation>
 
 <operation id="84" st_id="5" stage="1" lat="1">
@@ -1129,7 +1129,7 @@ for.inc25:26 %mul2 = bitconcatenate i32 @_ssdm_op_BitConcatenate.i32.i28.i4, i28
 
 <Node id="69" bw="32" op_0_bw="32" op_1_bw="32">
 <![CDATA[
-for.inc25:32 %add_ln46_1 = add i32 %mul_ln46, i32 %mul2
+for.inc25:32 %add_ln46_1 = add i32 %mul_ln46, i32 %shl_ln
 
 ]]></Node>
 <StgValue><ssdm name="add_ln46_1"/></StgValue>
@@ -1252,10 +1252,10 @@ for.inc25:38 %select_ln46 = select i1 %tmp, i28 %sub_ln46_1, i28 %tmp_1
 
 <Node id="76" bw="34" op_0_bw="34" op_1_bw="28" op_2_bw="6">
 <![CDATA[
-for.inc25:39 %shl_ln = bitconcatenate i34 @_ssdm_op_BitConcatenate.i34.i28.i6, i28 %select_ln46, i6 0
+for.inc25:39 %shl_ln46_2 = bitconcatenate i34 @_ssdm_op_BitConcatenate.i34.i28.i6, i28 %select_ln46, i6 0
 
 ]]></Node>
-<StgValue><ssdm name="shl_ln"/></StgValue>
+<StgValue><ssdm name="shl_ln46_2"/></StgValue>
 </operation>
 
 <operation id="93" st_id="6" stage="1" lat="1">
@@ -1267,7 +1267,7 @@ for.inc25:39 %shl_ln = bitconcatenate i34 @_ssdm_op_BitConcatenate.i34.i28.i6, i
 
 <Node id="77" bw="64" op_0_bw="34">
 <![CDATA[
-for.inc25:40 %sext_ln46 = sext i34 %shl_ln
+for.inc25:40 %sext_ln46 = sext i34 %shl_ln46_2
 
 ]]></Node>
 <StgValue><ssdm name="sext_ln46"/></StgValue>
@@ -1536,9 +1536,9 @@ for.inc25:6 %specloopname_ln0 = specloopname void @_ssdm_op_SpecLoopName, void @
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="66" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="32" op_3_bw="32" op_4_bw="32" op_5_bw="0">
+<Node id="66" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="32" op_3_bw="32" op_4_bw="32" op_5_bw="32" op_6_bw="0">
 <![CDATA[
-for.inc25:29 %specpipeline_ln45 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_0
+for.inc25:29 %specpipeline_ln45 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, i32 4294967295, void @empty
 
 ]]></Node>
 <StgValue><ssdm name="specpipeline_ln45"/></StgValue>

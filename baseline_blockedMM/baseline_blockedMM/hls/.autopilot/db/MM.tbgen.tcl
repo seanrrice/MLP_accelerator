@@ -6,6 +6,7 @@ set isPipelined 0
 set isPipelined_legacy 0
 set pipeline_type dataflow
 set FunctionProtocol ap_ctrl_hs
+set restart_counter_num 0
 set isOneStateSeq 0
 set ProfileFlag 0
 set StallSigGenFlag 0
@@ -35,10 +36,10 @@ set hasAXIMCache 0
 set l_AXIML2Cache [list]
 set AXIMCacheInstDict [dict create]
 set C_modelArgMapList {[ 
-	{ "Name" : "gmem0", "interface" : "axi_master", "bitwidth" : 512, "direction" : "READONLY", "bitSlice":[ {"cElement": [{"cName": "AT","offset": { "type": "dynamic","port_name": "AT","bundle": "control"},"direction": "READONLY"}]}]} , 
- 	{ "Name" : "gmem1", "interface" : "axi_master", "bitwidth" : 512, "direction" : "READONLY", "bitSlice":[ {"cElement": [{"cName": "B","offset": { "type": "dynamic","port_name": "B","bundle": "control"},"direction": "READONLY"}]}]} , 
- 	{ "Name" : "gmem2", "interface" : "axi_master", "bitwidth" : 32, "direction" : "READONLY", "bitSlice":[ {"cElement": [{"cName": "C","offset": { "type": "dynamic","port_name": "C","bundle": "control"},"direction": "READONLY"}]}]} , 
- 	{ "Name" : "gmem3", "interface" : "axi_master", "bitwidth" : 512, "direction" : "WRITEONLY", "bitSlice":[ {"cElement": [{"cName": "ABC","offset": { "type": "dynamic","port_name": "ABC","bundle": "control"},"direction": "WRITEONLY"}]}]} , 
+	{ "Name" : "gmem0", "interface" : "axi_master", "bitwidth" : 512, "direction" : "READONLY", "id_num" : 1, "bitSlice":[ {"cElement": [{"cName": "AT","offset": { "type": "dynamic","port_name": "AT","bundle": "control"},"direction": "READONLY"}]}]} , 
+ 	{ "Name" : "gmem1", "interface" : "axi_master", "bitwidth" : 512, "direction" : "READONLY", "id_num" : 1, "bitSlice":[ {"cElement": [{"cName": "B","offset": { "type": "dynamic","port_name": "B","bundle": "control"},"direction": "READONLY"}]}]} , 
+ 	{ "Name" : "gmem2", "interface" : "axi_master", "bitwidth" : 32, "direction" : "READONLY", "id_num" : 1, "bitSlice":[ {"cElement": [{"cName": "C","offset": { "type": "dynamic","port_name": "C","bundle": "control"},"direction": "READONLY"}]}]} , 
+ 	{ "Name" : "gmem3", "interface" : "axi_master", "bitwidth" : 512, "direction" : "WRITEONLY", "id_num" : 1, "bitSlice":[ {"cElement": [{"cName": "ABC","offset": { "type": "dynamic","port_name": "ABC","bundle": "control"},"direction": "WRITEONLY"}]}]} , 
  	{ "Name" : "AT", "interface" : "axi_slave", "bundle":"control","type":"ap_none","bitwidth" : 64, "direction" : "READONLY", "offset" : {"in":16}, "offset_end" : {"in":27}} , 
  	{ "Name" : "B", "interface" : "axi_slave", "bundle":"control","type":"ap_none","bitwidth" : 64, "direction" : "READONLY", "offset" : {"in":28}, "offset_end" : {"in":39}} , 
  	{ "Name" : "C", "interface" : "axi_slave", "bundle":"control","type":"ap_none","bitwidth" : 64, "direction" : "READONLY", "offset" : {"in":40}, "offset_end" : {"in":51}} , 
@@ -512,58 +513,58 @@ set ArgLastReadFirstWriteLatency {
 		N_c {Type O LastRead -1 FirstWrite 0}
 		P_c {Type O LastRead -1 FirstWrite 0}}
 	computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop {
-		or_ln74_15 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_14 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_13 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_12 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_11 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_10 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_9 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_8 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_7 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_6 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_5 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_4 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_3 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_2 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_1 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_s {Type I LastRead 0 FirstWrite -1}
+		AB_block_15 {Type I LastRead 0 FirstWrite -1}
+		AB_block_14 {Type I LastRead 0 FirstWrite -1}
+		AB_block_13 {Type I LastRead 0 FirstWrite -1}
+		AB_block_12 {Type I LastRead 0 FirstWrite -1}
+		AB_block_11 {Type I LastRead 0 FirstWrite -1}
+		AB_block_10 {Type I LastRead 0 FirstWrite -1}
+		AB_block_9 {Type I LastRead 0 FirstWrite -1}
+		AB_block_8 {Type I LastRead 0 FirstWrite -1}
+		AB_block_7 {Type I LastRead 0 FirstWrite -1}
+		AB_block_6 {Type I LastRead 0 FirstWrite -1}
+		AB_block_5 {Type I LastRead 0 FirstWrite -1}
+		AB_block_4 {Type I LastRead 0 FirstWrite -1}
+		AB_block_3 {Type I LastRead 0 FirstWrite -1}
+		AB_block_2 {Type I LastRead 0 FirstWrite -1}
+		AB_block_1 {Type I LastRead 0 FirstWrite -1}
+		AB_block {Type I LastRead 0 FirstWrite -1}
 		tmp_28 {Type I LastRead 0 FirstWrite -1}
 		A_stream {Type I LastRead 2 FirstWrite -1}
 		B_stream {Type I LastRead 2 FirstWrite -1}
-		AB_block_15_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_14_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_13_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_12_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_11_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_10_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_9_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_8_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_7_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_6_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_5_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_4_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_3_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_2_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_1_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_0_2_out {Type O LastRead -1 FirstWrite 4}}
+		AB_block_31_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_30_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_29_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_28_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_27_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_26_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_25_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_24_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_23_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_22_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_21_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_20_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_19_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_18_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_17_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_16_out {Type O LastRead -1 FirstWrite 4}}
 	computeTiles_Pipeline_j_output_loop {
-		AB_block_0_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_1_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_2_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_3_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_4_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_5_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_6_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_7_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_8_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_9_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_10_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_11_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_12_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_13_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_14_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_15_2_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_16_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_17_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_18_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_19_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_20_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_21_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_22_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_23_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_24_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_25_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_26_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_27_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_28_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_29_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_30_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_31_reload {Type I LastRead 0 FirstWrite -1}
 		AB_stream {Type O LastRead -1 FirstWrite 1}}
 	writeTiles {
 		AB_stream {Type I LastRead 5 FirstWrite -1}
@@ -576,7 +577,7 @@ set ArgLastReadFirstWriteLatency {
 		bound6 {Type I LastRead 0 FirstWrite -1}
 		AB_stream {Type I LastRead 5 FirstWrite -1}
 		N_1 {Type I LastRead 0 FirstWrite -1}
-		ABC_load {Type I LastRead 0 FirstWrite -1}
+		ABC_1 {Type I LastRead 0 FirstWrite -1}
 		gmem3 {Type O LastRead 7 FirstWrite 6}}}
 
 set hasDtUnsupportedChannel 0

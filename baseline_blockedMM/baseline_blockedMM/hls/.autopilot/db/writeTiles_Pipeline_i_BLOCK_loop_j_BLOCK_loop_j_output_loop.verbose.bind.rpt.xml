@@ -1,9 +1,9 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop'" level="0">
-<item name = "Date">Thu Apr  9 09:15:09 2026
+<item name = "Date">Thu Apr  9 18:27:23 2026
 </item>
-<item name = "Version">2025.1 (Build 6135595 on May 21 2025)</item>
+<item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
 <item name = "Project">baseline_blockedMM</item>
 <item name = "Solution">hls (Vivado IP Flow Target)</item>
 <item name = "Product family">zynq</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">2, 288230371856744480, 30.000 ns, 4.3e+09 sec, 1, 288230371856744480, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="">2, 288230371856744480, 30.000 ns, 4.3e+09 sec, 0, 0, loop pipeline stp</column>
 </table>
 </item>
 <item name = "Detail">

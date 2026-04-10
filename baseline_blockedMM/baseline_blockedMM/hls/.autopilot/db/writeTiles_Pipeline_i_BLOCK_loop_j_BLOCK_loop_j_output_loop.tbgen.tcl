@@ -6,6 +6,7 @@ set isPipelined 1
 set isPipelined_legacy 1
 set pipeline_type loop_auto_rewind
 set FunctionProtocol ap_ctrl_hs
+set restart_counter_num 0
 set isOneStateSeq 0
 set ProfileFlag 0
 set StallSigGenFlag 0
@@ -23,7 +24,7 @@ set C_modelArgList {
 	{ bound6 int 58 regular  }
 	{ AB_stream int 512 regular {fifo 0 volatile }  }
 	{ N_1 int 32 regular  }
-	{ ABC_load int 64 regular  }
+	{ ABC_1 int 64 regular  }
 	{ gmem3 int 512 regular {axi_master 1}  }
 }
 set hasAXIMCache 0
@@ -34,8 +35,8 @@ set C_modelArgMapList {[
  	{ "Name" : "bound6", "interface" : "wire", "bitwidth" : 58, "direction" : "READONLY"} , 
  	{ "Name" : "AB_stream", "interface" : "fifo", "bitwidth" : 512, "direction" : "READONLY"} , 
  	{ "Name" : "N_1", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
- 	{ "Name" : "ABC_load", "interface" : "wire", "bitwidth" : 64, "direction" : "READONLY"} , 
- 	{ "Name" : "gmem3", "interface" : "axi_master", "bitwidth" : 512, "direction" : "WRITEONLY", "bitSlice":[ {"cElement": [{"cName": "ABC","offset": { "type": "dynamic","port_name": "ABC","bundle": "control"},"direction": "WRITEONLY"}]}]} ]}
+ 	{ "Name" : "ABC_1", "interface" : "wire", "bitwidth" : 64, "direction" : "READONLY"} , 
+ 	{ "Name" : "gmem3", "interface" : "axi_master", "bitwidth" : 512, "direction" : "WRITEONLY", "id_num" : 0, "bitSlice":[ {"cElement": [{"cName": "ABC","offset": { "type": "dynamic","port_name": "ABC","bundle": "control"},"direction": "WRITEONLY"}]}]} ]}
 # RTL Port declarations: 
 set portNum 61
 set portList { 
@@ -99,7 +100,7 @@ set portList {
 	{ tmp_4 sc_in sc_lv 31 signal 0 } 
 	{ bound6 sc_in sc_lv 58 signal 1 } 
 	{ N_1 sc_in sc_lv 32 signal 3 } 
-	{ ABC_load sc_in sc_lv 64 signal 4 } 
+	{ ABC_1 sc_in sc_lv 64 signal 4 } 
 }
 set NewPortList {[ 
 	{ "name": "ap_clk", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "clock", "bundle":{"name": "ap_clk", "role": "default" }} , 
@@ -162,7 +163,7 @@ set NewPortList {[
  	{ "name": "tmp_4", "direction": "in", "datatype": "sc_lv", "bitwidth":31, "type": "signal", "bundle":{"name": "tmp_4", "role": "default" }} , 
  	{ "name": "bound6", "direction": "in", "datatype": "sc_lv", "bitwidth":58, "type": "signal", "bundle":{"name": "bound6", "role": "default" }} , 
  	{ "name": "N_1", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "N_1", "role": "default" }} , 
- 	{ "name": "ABC_load", "direction": "in", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "ABC_load", "role": "default" }}  ]}
+ 	{ "name": "ABC_1", "direction": "in", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "ABC_1", "role": "default" }}  ]}
 
 set ArgLastReadFirstWriteLatency {
 	writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop {
@@ -170,14 +171,14 @@ set ArgLastReadFirstWriteLatency {
 		bound6 {Type I LastRead 0 FirstWrite -1}
 		AB_stream {Type I LastRead 5 FirstWrite -1}
 		N_1 {Type I LastRead 0 FirstWrite -1}
-		ABC_load {Type I LastRead 0 FirstWrite -1}
+		ABC_1 {Type I LastRead 0 FirstWrite -1}
 		gmem3 {Type O LastRead 7 FirstWrite 6}}}
 
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
 	{"Name" : "Latency", "Min" : "2", "Max" : "288230371856744475"}
-	, {"Name" : "Interval", "Min" : "2", "Max" : "288230371856744475"}
+	, {"Name" : "Interval", "Min" : "1", "Max" : "288230371856744465"}
 ]}
 
 set PipelineEnableSignalInfo {[
@@ -187,8 +188,8 @@ set PipelineEnableSignalInfo {[
 set Spec2ImplPortList { 
 	tmp_4 { ap_none {  { tmp_4 in_data 0 31 } } }
 	bound6 { ap_none {  { bound6 in_data 0 58 } } }
-	AB_stream { ap_fifo {  { AB_stream_dout fifo_data_in 0 512 }  { AB_stream_empty_n fifo_status 0 1 }  { AB_stream_read fifo_port_we 1 1 }  { AB_stream_num_data_valid fifo_status_num_data_valid 0 6 }  { AB_stream_fifo_cap fifo_update 0 6 } } }
+	AB_stream { ap_fifo {  { AB_stream_dout fifo_data_out 0 512 }  { AB_stream_empty_n fifo_status_empty 0 1 }  { AB_stream_read fifo_data_in 1 1 }  { AB_stream_num_data_valid fifo_update 0 6 }  { AB_stream_fifo_cap fifo_data 0 6 } } }
 	N_1 { ap_none {  { N_1 in_data 0 32 } } }
-	ABC_load { ap_none {  { ABC_load in_data 0 64 } } }
+	ABC_1 { ap_none {  { ABC_1 in_data 0 64 } } }
 	 { m_axi {  { m_axi_gmem3_0_AWVALID VALID 1 1 }  { m_axi_gmem3_0_AWREADY READY 0 1 }  { m_axi_gmem3_0_AWADDR ADDR 1 64 }  { m_axi_gmem3_0_AWID ID 1 1 }  { m_axi_gmem3_0_AWLEN SIZE 1 32 }  { m_axi_gmem3_0_AWSIZE BURST 1 3 }  { m_axi_gmem3_0_AWBURST LOCK 1 2 }  { m_axi_gmem3_0_AWLOCK CACHE 1 2 }  { m_axi_gmem3_0_AWCACHE PROT 1 4 }  { m_axi_gmem3_0_AWPROT QOS 1 3 }  { m_axi_gmem3_0_AWQOS REGION 1 4 }  { m_axi_gmem3_0_AWREGION USER 1 4 }  { m_axi_gmem3_0_AWUSER DATA 1 1 }  { m_axi_gmem3_0_WVALID VALID 1 1 }  { m_axi_gmem3_0_WREADY READY 0 1 }  { m_axi_gmem3_0_WDATA FIFONUM 1 512 }  { m_axi_gmem3_0_WSTRB STRB 1 64 }  { m_axi_gmem3_0_WLAST LAST 1 1 }  { m_axi_gmem3_0_WID ID 1 1 }  { m_axi_gmem3_0_WUSER DATA 1 1 }  { m_axi_gmem3_0_ARVALID VALID 1 1 }  { m_axi_gmem3_0_ARREADY READY 0 1 }  { m_axi_gmem3_0_ARADDR ADDR 1 64 }  { m_axi_gmem3_0_ARID ID 1 1 }  { m_axi_gmem3_0_ARLEN SIZE 1 32 }  { m_axi_gmem3_0_ARSIZE BURST 1 3 }  { m_axi_gmem3_0_ARBURST LOCK 1 2 }  { m_axi_gmem3_0_ARLOCK CACHE 1 2 }  { m_axi_gmem3_0_ARCACHE PROT 1 4 }  { m_axi_gmem3_0_ARPROT QOS 1 3 }  { m_axi_gmem3_0_ARQOS REGION 1 4 }  { m_axi_gmem3_0_ARREGION USER 1 4 }  { m_axi_gmem3_0_ARUSER DATA 1 1 }  { m_axi_gmem3_0_RVALID VALID 0 1 }  { m_axi_gmem3_0_RREADY READY 1 1 }  { m_axi_gmem3_0_RDATA FIFONUM 0 512 }  { m_axi_gmem3_0_RLAST LAST 0 1 }  { m_axi_gmem3_0_RID ID 0 1 }  { m_axi_gmem3_0_RFIFONUM LEN 0 9 }  { m_axi_gmem3_0_RUSER DATA 0 1 }  { m_axi_gmem3_0_RRESP RESP 0 2 }  { m_axi_gmem3_0_BVALID VALID 0 1 }  { m_axi_gmem3_0_BREADY READY 1 1 }  { m_axi_gmem3_0_BRESP RESP 0 2 }  { m_axi_gmem3_0_BID ID 0 1 }  { m_axi_gmem3_0_BUSER DATA 0 1 } } }
 }

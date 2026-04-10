@@ -3,9 +3,9 @@
 ================================================================
 == Vitis HLS Report for 'MM'
 ================================================================
-* Date:           Thu Apr  9 09:15:16 2026
+* Date:           Thu Apr  9 18:27:28 2026
 
-* Version:        2025.1 (Build 6135595 on May 21 2025)
+* Version:        2025.2 (Build 6295257 on Nov 14 2025)
 * Project:        baseline_blockedMM
 * Solution:       hls (Vivado IP Flow Target)
 * Product family: zynq

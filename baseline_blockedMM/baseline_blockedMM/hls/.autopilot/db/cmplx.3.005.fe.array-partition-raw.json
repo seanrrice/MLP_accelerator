@@ -1,7 +1,7 @@
 {
   "0": {
     "basicblocks": 1,
-    "calls": "1 3 4 2",
+    "calls": "3 2 1 4",
     "control_depth": 0,
     "def_use_depth": 1,
     "file": "mm.cpp",
@@ -9,39 +9,27 @@
     "instructions": 33,
     "memory_accesses": 0,
     "name": "MM",
-    "total_instructions": 6139
+    "total_instructions": 6107
   },
   "1": {
-    "basicblocks": 12,
+    "basicblocks": 288,
     "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 6,
+    "control_depth": 4,
+    "def_use_depth": 18,
     "file": "mm.cpp",
-    "fileloc": 4,
-    "instructions": 41,
+    "fileloc": 54,
+    "instructions": 5959,
     "loads": {
-      "L": 1
+      "L": 289
     },
-    "memory_accesses": 2,
-    "name": "readAtTiles",
-    "total_instructions": 41
+    "memory_accesses": 546,
+    "name": "computeTiles",
+    "stores": {
+      "L": 528
+    },
+    "total_instructions": 5959
   },
   "2": {
-    "basicblocks": 9,
-    "calls": "",
-    "control_depth": 0,
-    "def_use_depth": 5,
-    "file": "mm.cpp",
-    "fileloc": 117,
-    "instructions": 33,
-    "memory_accesses": 2,
-    "name": "writeTiles",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 33
-  },
-  "3": {
     "basicblocks": 12,
     "calls": "",
     "control_depth": 0,
@@ -56,22 +44,34 @@
     "name": "readBTiles",
     "total_instructions": 41
   },
-  "4": {
-    "basicblocks": 288,
+  "3": {
+    "basicblocks": 12,
     "calls": "",
-    "control_depth": 4,
-    "def_use_depth": 18,
+    "control_depth": 0,
+    "def_use_depth": 6,
     "file": "mm.cpp",
-    "fileloc": 54,
-    "instructions": 5991,
+    "fileloc": 4,
+    "instructions": 41,
     "loads": {
-      "L": 289
+      "L": 1
     },
-    "memory_accesses": 546,
-    "name": "computeTiles",
+    "memory_accesses": 2,
+    "name": "readAtTiles",
+    "total_instructions": 41
+  },
+  "4": {
+    "basicblocks": 9,
+    "calls": "",
+    "control_depth": 0,
+    "def_use_depth": 5,
+    "file": "mm.cpp",
+    "fileloc": 117,
+    "instructions": 33,
+    "memory_accesses": 2,
+    "name": "writeTiles",
     "stores": {
-      "L": 528
+      "L": 1
     },
-    "total_instructions": 5991
+    "total_instructions": 33
   }
 }

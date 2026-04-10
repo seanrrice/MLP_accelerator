@@ -6,6 +6,7 @@ set isPipelined 1
 set isPipelined_legacy 1
 set pipeline_type loop_auto_rewind
 set FunctionProtocol ap_ctrl_hs
+set restart_counter_num 0
 set isOneStateSeq 0
 set ProfileFlag 0
 set StallSigGenFlag 0
@@ -38,7 +39,7 @@ set C_modelArgMapList {[
  	{ "Name" : "bound", "interface" : "wire", "bitwidth" : 31, "direction" : "READONLY"} , 
  	{ "Name" : "N", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
  	{ "Name" : "AT", "interface" : "wire", "bitwidth" : 64, "direction" : "READONLY"} , 
- 	{ "Name" : "gmem0", "interface" : "axi_master", "bitwidth" : 512, "direction" : "READONLY", "bitSlice":[ {"cElement": [{"cName": "AT","offset": { "type": "dynamic","port_name": "AT","bundle": "control"},"direction": "READONLY"}]}]} , 
+ 	{ "Name" : "gmem0", "interface" : "axi_master", "bitwidth" : 512, "direction" : "READONLY", "id_num" : 0, "bitSlice":[ {"cElement": [{"cName": "AT","offset": { "type": "dynamic","port_name": "AT","bundle": "control"},"direction": "READONLY"}]}]} , 
  	{ "Name" : "A_stream", "interface" : "fifo", "bitwidth" : 512, "direction" : "WRITEONLY"} ]}
 # RTL Port declarations: 
 set portNum 63
@@ -187,7 +188,7 @@ set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
 	{"Name" : "Latency", "Min" : "-1", "Max" : "-1"}
-	, {"Name" : "Interval", "Min" : "-1", "Max" : "-1"}
+	, {"Name" : "Interval", "Min" : "0", "Max" : "0"}
 ]}
 
 set PipelineEnableSignalInfo {[
@@ -202,5 +203,5 @@ set Spec2ImplPortList {
 	N { ap_none {  { N in_data 0 32 } } }
 	AT { ap_none {  { AT in_data 0 64 } } }
 	 { m_axi {  { m_axi_gmem0_0_AWVALID VALID 1 1 }  { m_axi_gmem0_0_AWREADY READY 0 1 }  { m_axi_gmem0_0_AWADDR ADDR 1 64 }  { m_axi_gmem0_0_AWID ID 1 1 }  { m_axi_gmem0_0_AWLEN SIZE 1 32 }  { m_axi_gmem0_0_AWSIZE BURST 1 3 }  { m_axi_gmem0_0_AWBURST LOCK 1 2 }  { m_axi_gmem0_0_AWLOCK CACHE 1 2 }  { m_axi_gmem0_0_AWCACHE PROT 1 4 }  { m_axi_gmem0_0_AWPROT QOS 1 3 }  { m_axi_gmem0_0_AWQOS REGION 1 4 }  { m_axi_gmem0_0_AWREGION USER 1 4 }  { m_axi_gmem0_0_AWUSER DATA 1 1 }  { m_axi_gmem0_0_WVALID VALID 1 1 }  { m_axi_gmem0_0_WREADY READY 0 1 }  { m_axi_gmem0_0_WDATA FIFONUM 1 512 }  { m_axi_gmem0_0_WSTRB STRB 1 64 }  { m_axi_gmem0_0_WLAST LAST 1 1 }  { m_axi_gmem0_0_WID ID 1 1 }  { m_axi_gmem0_0_WUSER DATA 1 1 }  { m_axi_gmem0_0_ARVALID VALID 1 1 }  { m_axi_gmem0_0_ARREADY READY 0 1 }  { m_axi_gmem0_0_ARADDR ADDR 1 64 }  { m_axi_gmem0_0_ARID ID 1 1 }  { m_axi_gmem0_0_ARLEN SIZE 1 32 }  { m_axi_gmem0_0_ARSIZE BURST 1 3 }  { m_axi_gmem0_0_ARBURST LOCK 1 2 }  { m_axi_gmem0_0_ARLOCK CACHE 1 2 }  { m_axi_gmem0_0_ARCACHE PROT 1 4 }  { m_axi_gmem0_0_ARPROT QOS 1 3 }  { m_axi_gmem0_0_ARQOS REGION 1 4 }  { m_axi_gmem0_0_ARREGION USER 1 4 }  { m_axi_gmem0_0_ARUSER DATA 1 1 }  { m_axi_gmem0_0_RVALID VALID 0 1 }  { m_axi_gmem0_0_RREADY READY 1 1 }  { m_axi_gmem0_0_RDATA FIFONUM 0 512 }  { m_axi_gmem0_0_RLAST LAST 0 1 }  { m_axi_gmem0_0_RID ID 0 1 }  { m_axi_gmem0_0_RFIFONUM LEN 0 9 }  { m_axi_gmem0_0_RUSER DATA 0 1 }  { m_axi_gmem0_0_RRESP RESP 0 2 }  { m_axi_gmem0_0_BVALID VALID 0 1 }  { m_axi_gmem0_0_BREADY READY 1 1 }  { m_axi_gmem0_0_BRESP RESP 0 2 }  { m_axi_gmem0_0_BID ID 0 1 }  { m_axi_gmem0_0_BUSER DATA 0 1 } } }
-	A_stream { ap_fifo {  { A_stream_din fifo_data_in 1 512 }  { A_stream_full_n fifo_status 0 1 }  { A_stream_write fifo_port_we 1 1 }  { A_stream_num_data_valid fifo_status_num_data_valid 0 6 }  { A_stream_fifo_cap fifo_update 0 6 } } }
+	A_stream { ap_fifo {  { A_stream_din fifo_data_out 1 512 }  { A_stream_full_n fifo_status_empty 0 1 }  { A_stream_write fifo_data_in 1 1 }  { A_stream_num_data_valid fifo_update 0 6 }  { A_stream_fifo_cap fifo_data 0 6 } } }
 }

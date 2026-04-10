@@ -1,5 +1,5 @@
 namespace eval ::optrace {
-  variable script "C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.runs/impl_1/bd_0_wrapper.tcl"
+  variable script "Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.runs/impl_1/bd_0_wrapper.tcl"
   variable category "vivado_impl"
 }
 
@@ -105,16 +105,16 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param chipscope.maxJobs 1
   set_param general.usePosixSpawnForFork 1
+  set_param chipscope.maxJobs 1
   set_param runs.launchOptions { -jobs 1  }
   reset_param project.defaultXPMLibraries 
-  open_checkpoint C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.runs/impl_1/bd_0_wrapper.dcp
-  set_property webtalk.parent_dir C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.cache/wt [current_project]
-  set_property parent.project_path C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.xpr [current_project]
-  set_property ip_repo_paths C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/ip [current_project]
+  open_checkpoint Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.runs/impl_1/bd_0_wrapper.dcp
+  set_property webtalk.parent_dir Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.cache/wt [current_project]
+  set_property parent.project_path Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.xpr [current_project]
+  set_property ip_repo_paths Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/impl/ip [current_project]
   update_ip_catalog
-  set_property ip_output_repo C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.cache/ip [current_project]
+  set_property ip_output_repo Z:/Labs/clab/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_FIFO XPM_MEMORY} [current_project]
 OPTRACE "init_design_reports" START { REPORT }

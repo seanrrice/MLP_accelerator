@@ -6,6 +6,7 @@ set isPipelined 0
 set isPipelined_legacy 0
 set pipeline_type none
 set FunctionProtocol ap_ctrl_hs
+set restart_counter_num 0
 set isOneStateSeq 0
 set ProfileFlag 0
 set StallSigGenFlag 0
@@ -36,7 +37,7 @@ set AXIMCacheInstDict [dict create]
 set C_modelArgMapList {[ 
 	{ "Name" : "A_stream", "interface" : "fifo", "bitwidth" : 512, "direction" : "READONLY"} , 
  	{ "Name" : "B_stream", "interface" : "fifo", "bitwidth" : 512, "direction" : "READONLY"} , 
- 	{ "Name" : "gmem2", "interface" : "axi_master", "bitwidth" : 32, "direction" : "READONLY", "bitSlice":[ {"cElement": [{"cName": "C","offset": { "type": "dynamic","port_name": "C","bundle": "control"},"direction": "READONLY"}]}]} , 
+ 	{ "Name" : "gmem2", "interface" : "axi_master", "bitwidth" : 32, "direction" : "READONLY", "id_num" : 0, "bitSlice":[ {"cElement": [{"cName": "C","offset": { "type": "dynamic","port_name": "C","bundle": "control"},"direction": "READONLY"}]}]} , 
  	{ "Name" : "C", "interface" : "wire", "bitwidth" : 64, "direction" : "READONLY"} , 
  	{ "Name" : "AB_stream", "interface" : "fifo", "bitwidth" : 512, "direction" : "WRITEONLY"} , 
  	{ "Name" : "N", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
@@ -227,58 +228,58 @@ set ArgLastReadFirstWriteLatency {
 		N_c {Type O LastRead -1 FirstWrite 0}
 		P_c {Type O LastRead -1 FirstWrite 0}}
 	computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop {
-		or_ln74_15 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_14 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_13 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_12 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_11 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_10 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_9 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_8 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_7 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_6 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_5 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_4 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_3 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_2 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_1 {Type I LastRead 0 FirstWrite -1}
-		or_ln74_s {Type I LastRead 0 FirstWrite -1}
+		AB_block_15 {Type I LastRead 0 FirstWrite -1}
+		AB_block_14 {Type I LastRead 0 FirstWrite -1}
+		AB_block_13 {Type I LastRead 0 FirstWrite -1}
+		AB_block_12 {Type I LastRead 0 FirstWrite -1}
+		AB_block_11 {Type I LastRead 0 FirstWrite -1}
+		AB_block_10 {Type I LastRead 0 FirstWrite -1}
+		AB_block_9 {Type I LastRead 0 FirstWrite -1}
+		AB_block_8 {Type I LastRead 0 FirstWrite -1}
+		AB_block_7 {Type I LastRead 0 FirstWrite -1}
+		AB_block_6 {Type I LastRead 0 FirstWrite -1}
+		AB_block_5 {Type I LastRead 0 FirstWrite -1}
+		AB_block_4 {Type I LastRead 0 FirstWrite -1}
+		AB_block_3 {Type I LastRead 0 FirstWrite -1}
+		AB_block_2 {Type I LastRead 0 FirstWrite -1}
+		AB_block_1 {Type I LastRead 0 FirstWrite -1}
+		AB_block {Type I LastRead 0 FirstWrite -1}
 		tmp_28 {Type I LastRead 0 FirstWrite -1}
 		A_stream {Type I LastRead 2 FirstWrite -1}
 		B_stream {Type I LastRead 2 FirstWrite -1}
-		AB_block_15_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_14_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_13_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_12_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_11_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_10_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_9_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_8_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_7_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_6_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_5_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_4_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_3_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_2_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_1_2_out {Type O LastRead -1 FirstWrite 4}
-		AB_block_0_2_out {Type O LastRead -1 FirstWrite 4}}
+		AB_block_31_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_30_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_29_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_28_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_27_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_26_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_25_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_24_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_23_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_22_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_21_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_20_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_19_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_18_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_17_out {Type O LastRead -1 FirstWrite 4}
+		AB_block_16_out {Type O LastRead -1 FirstWrite 4}}
 	computeTiles_Pipeline_j_output_loop {
-		AB_block_0_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_1_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_2_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_3_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_4_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_5_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_6_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_7_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_8_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_9_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_10_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_11_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_12_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_13_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_14_2_reload {Type I LastRead 0 FirstWrite -1}
-		AB_block_15_2_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_16_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_17_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_18_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_19_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_20_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_21_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_22_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_23_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_24_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_25_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_26_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_27_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_28_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_29_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_30_reload {Type I LastRead 0 FirstWrite -1}
+		AB_block_31_reload {Type I LastRead 0 FirstWrite -1}
 		AB_stream {Type O LastRead -1 FirstWrite 1}}}
 
 set hasDtUnsupportedChannel 0
@@ -292,14 +293,14 @@ set PipelineEnableSignalInfo {[
 ]}
 
 set Spec2ImplPortList { 
-	A_stream { ap_fifo {  { A_stream_dout fifo_data_in 0 512 }  { A_stream_empty_n fifo_status 0 1 }  { A_stream_read fifo_port_we 1 1 }  { A_stream_num_data_valid fifo_status_num_data_valid 0 6 }  { A_stream_fifo_cap fifo_update 0 6 } } }
-	B_stream { ap_fifo {  { B_stream_dout fifo_data_in 0 512 }  { B_stream_empty_n fifo_status 0 1 }  { B_stream_read fifo_port_we 1 1 }  { B_stream_num_data_valid fifo_status_num_data_valid 0 6 }  { B_stream_fifo_cap fifo_update 0 6 } } }
+	A_stream { ap_fifo {  { A_stream_dout fifo_data_out 0 512 }  { A_stream_empty_n fifo_status_empty 0 1 }  { A_stream_read fifo_data_in 1 1 }  { A_stream_num_data_valid fifo_update 0 6 }  { A_stream_fifo_cap fifo_data 0 6 } } }
+	B_stream { ap_fifo {  { B_stream_dout fifo_data_out 0 512 }  { B_stream_empty_n fifo_status_empty 0 1 }  { B_stream_read fifo_data_in 1 1 }  { B_stream_num_data_valid fifo_update 0 6 }  { B_stream_fifo_cap fifo_data 0 6 } } }
 	 { m_axi {  { m_axi_gmem2_0_AWVALID VALID 1 1 }  { m_axi_gmem2_0_AWREADY READY 0 1 }  { m_axi_gmem2_0_AWADDR ADDR 1 64 }  { m_axi_gmem2_0_AWID ID 1 1 }  { m_axi_gmem2_0_AWLEN SIZE 1 32 }  { m_axi_gmem2_0_AWSIZE BURST 1 3 }  { m_axi_gmem2_0_AWBURST LOCK 1 2 }  { m_axi_gmem2_0_AWLOCK CACHE 1 2 }  { m_axi_gmem2_0_AWCACHE PROT 1 4 }  { m_axi_gmem2_0_AWPROT QOS 1 3 }  { m_axi_gmem2_0_AWQOS REGION 1 4 }  { m_axi_gmem2_0_AWREGION USER 1 4 }  { m_axi_gmem2_0_AWUSER DATA 1 1 }  { m_axi_gmem2_0_WVALID VALID 1 1 }  { m_axi_gmem2_0_WREADY READY 0 1 }  { m_axi_gmem2_0_WDATA FIFONUM 1 32 }  { m_axi_gmem2_0_WSTRB STRB 1 4 }  { m_axi_gmem2_0_WLAST LAST 1 1 }  { m_axi_gmem2_0_WID ID 1 1 }  { m_axi_gmem2_0_WUSER DATA 1 1 }  { m_axi_gmem2_0_ARVALID VALID 1 1 }  { m_axi_gmem2_0_ARREADY READY 0 1 }  { m_axi_gmem2_0_ARADDR ADDR 1 64 }  { m_axi_gmem2_0_ARID ID 1 1 }  { m_axi_gmem2_0_ARLEN SIZE 1 32 }  { m_axi_gmem2_0_ARSIZE BURST 1 3 }  { m_axi_gmem2_0_ARBURST LOCK 1 2 }  { m_axi_gmem2_0_ARLOCK CACHE 1 2 }  { m_axi_gmem2_0_ARCACHE PROT 1 4 }  { m_axi_gmem2_0_ARPROT QOS 1 3 }  { m_axi_gmem2_0_ARQOS REGION 1 4 }  { m_axi_gmem2_0_ARREGION USER 1 4 }  { m_axi_gmem2_0_ARUSER DATA 1 1 }  { m_axi_gmem2_0_RVALID VALID 0 1 }  { m_axi_gmem2_0_RREADY READY 1 1 }  { m_axi_gmem2_0_RDATA FIFONUM 0 32 }  { m_axi_gmem2_0_RLAST LAST 0 1 }  { m_axi_gmem2_0_RID ID 0 1 }  { m_axi_gmem2_0_RFIFONUM LEN 0 9 }  { m_axi_gmem2_0_RUSER DATA 0 1 }  { m_axi_gmem2_0_RRESP RESP 0 2 }  { m_axi_gmem2_0_BVALID VALID 0 1 }  { m_axi_gmem2_0_BREADY READY 1 1 }  { m_axi_gmem2_0_BRESP RESP 0 2 }  { m_axi_gmem2_0_BID ID 0 1 }  { m_axi_gmem2_0_BUSER DATA 0 1 } } }
 	C { ap_none {  { C in_data 0 64 } } }
-	AB_stream { ap_fifo {  { AB_stream_din fifo_data_in 1 512 }  { AB_stream_full_n fifo_status 0 1 }  { AB_stream_write fifo_port_we 1 1 }  { AB_stream_num_data_valid fifo_status_num_data_valid 0 32 }  { AB_stream_fifo_cap fifo_update 0 32 } } }
+	AB_stream { ap_fifo {  { AB_stream_din fifo_data_out 1 512 }  { AB_stream_full_n fifo_status_empty 0 1 }  { AB_stream_write fifo_data_in 1 1 }  { AB_stream_num_data_valid fifo_update 0 32 }  { AB_stream_fifo_cap fifo_data 0 32 } } }
 	N { ap_none {  { N in_data 0 32 } } }
 	M { ap_none {  { M in_data 0 32 } } }
 	P { ap_none {  { P in_data 0 32 } } }
-	N_c { ap_fifo {  { N_c_din fifo_data_in 1 32 }  { N_c_full_n fifo_status 0 1 }  { N_c_write fifo_port_we 1 1 }  { N_c_num_data_valid fifo_status_num_data_valid 0 3 }  { N_c_fifo_cap fifo_update 0 3 } } }
-	P_c { ap_fifo {  { P_c_din fifo_data_in 1 32 }  { P_c_full_n fifo_status 0 1 }  { P_c_write fifo_port_we 1 1 }  { P_c_num_data_valid fifo_status_num_data_valid 0 3 }  { P_c_fifo_cap fifo_update 0 3 } } }
+	N_c { ap_fifo {  { N_c_din fifo_data_out 1 32 }  { N_c_full_n fifo_status_empty 0 1 }  { N_c_write fifo_data_in 1 1 }  { N_c_num_data_valid fifo_update 0 3 }  { N_c_fifo_cap fifo_data 0 3 } } }
+	P_c { ap_fifo {  { P_c_din fifo_data_out 1 32 }  { P_c_full_n fifo_status_empty 0 1 }  { P_c_write fifo_data_in 1 1 }  { P_c_num_data_valid fifo_update 0 3 }  { P_c_fifo_cap fifo_data 0 3 } } }
 }

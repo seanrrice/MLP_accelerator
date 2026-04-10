@@ -1,9 +1,9 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'computeTiles'" level="0">
-<item name = "Date">Thu Apr  9 09:15:09 2026
+<item name = "Date">Thu Apr  9 18:27:22 2026
 </item>
-<item name = "Version">2025.1 (Build 6135595 on May 21 2025)</item>
+<item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
 <item name = "Project">baseline_blockedMM</item>
 <item name = "Solution">hls (Vivado IP Flow Target)</item>
 <item name = "Product family">zynq</item>
@@ -31,8 +31,8 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243">computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop, 2, 34359738117, 30.000 ns, 515.396 sec, 1, 34359738113, loop auto-rewind stp (delay=0 clock cycles(s))</column>
-<column name="grp_computeTiles_Pipeline_j_output_loop_fu_284">computeTiles_Pipeline_j_output_loop, 18, 18, 0.270 us, 0.270 us, 17, 17, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_243">computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop, 2, 34359738117, 30.000 ns, 515.396 sec, 0, 0, loop pipeline stp</column>
+<column name="grp_computeTiles_Pipeline_j_output_loop_fu_284">computeTiles_Pipeline_j_output_loop, 18, 18, 0.270 us, 0.270 us, 0, 0, loop pipeline stp</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
