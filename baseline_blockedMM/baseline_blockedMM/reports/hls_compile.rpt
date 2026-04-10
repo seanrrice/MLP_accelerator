@@ -4,7 +4,7 @@
 == Synthesis Summary Report of 'MM'
 ================================================================
 + General Information: 
-    * Date:           Mon Apr  6 22:31:25 2026
+    * Date:           Fri Apr 10 13:02:07 2026
     * Version:        2025.1 (Build 6135595 on May 21 2025)
     * Project:        baseline_blockedMM
     * Solution:       hls (Vivado IP Flow Target)
@@ -20,14 +20,14 @@
     |                & Loops                | Type | Slack|    (cycles)   |    (ns)   |    Latency    | Interval|   Count   | Pipelined|  BRAM  |   DSP  |     FF    |    LUT    | URAM|
     +---------------------------------------+------+------+---------------+-----------+---------------+---------+-----------+----------+--------+--------+-----------+-----------+-----+
     |+ MM                                   |     -|  0.00|              -|          -|              -|        -|          -|        no|  3 (1%)|  9 (4%)|  4168 (3%)|  4108 (7%)|    -|
-    | o VITIS_LOOP_29_1                     |     -|  7.30|              -|          -|              -|        -|  134217727|        no|       -|       -|          -|          -|    -|
-    |  o VITIS_LOOP_31_2                    |     -|  7.30|              -|          -|  9730516772584|        -|  134217727|        no|       -|       -|          -|          -|    -|
-    |   o VITIS_LOOP_35_3_VITIS_LOOP_37_4   |     -|  7.30|            258|  2.580e+03|              3|        1|        256|       yes|       -|       -|          -|          -|    -|
-    |   o VITIS_LOOP_43_5                   |     -|  7.30|  9730516772046|  9.731e+13|          72498|        -|  134217727|        no|       -|       -|          -|          -|    -|
-    |    o VITIS_LOOP_45_6                  |     -|  7.30|          72496|  7.250e+05|           4531|        -|         16|        no|       -|       -|          -|          -|    -|
-    |     o VITIS_LOOP_47_7                 |     -|  7.30|           4528|  4.528e+04|            283|        -|         16|        no|       -|       -|          -|          -|    -|
-    |      o VITIS_LOOP_51_8                |     -|  7.30|            272|  2.720e+03|             17|        -|         16|        no|       -|       -|          -|          -|    -|
-    |   o VITIS_LOOP_61_9_VITIS_LOOP_63_10  |     -|  7.30|            266|  2.660e+03|             12|        1|        256|       yes|       -|       -|          -|          -|    -|
+    | o VITIS_LOOP_35_1                     |     -|  7.30|              -|          -|              -|        -|  134217727|        no|       -|       -|          -|          -|    -|
+    |  o VITIS_LOOP_37_2                    |     -|  7.30|              -|          -|  9730516772584|        -|  134217727|        no|       -|       -|          -|          -|    -|
+    |   o VITIS_LOOP_41_3_VITIS_LOOP_43_4   |     -|  7.30|            258|  2.580e+03|              3|        1|        256|       yes|       -|       -|          -|          -|    -|
+    |   o VITIS_LOOP_49_5                   |     -|  7.30|  9730516772046|  9.731e+13|          72498|        -|  134217727|        no|       -|       -|          -|          -|    -|
+    |    o VITIS_LOOP_51_6                  |     -|  7.30|          72496|  7.250e+05|           4531|        -|         16|        no|       -|       -|          -|          -|    -|
+    |     o VITIS_LOOP_53_7                 |     -|  7.30|           4528|  4.528e+04|            283|        -|         16|        no|       -|       -|          -|          -|    -|
+    |      o VITIS_LOOP_57_8                |     -|  7.30|            272|  2.720e+03|             17|        -|         16|        no|       -|       -|          -|          -|    -|
+    |   o VITIS_LOOP_67_9_VITIS_LOOP_69_10  |     -|  7.30|            266|  2.660e+03|             12|        1|        256|       yes|       -|       -|          -|          -|    -|
     +---------------------------------------+------+------+---------------+-----------+---------------+---------+-----------+----------+--------+--------+-----------+-----------+-----+
 
 
@@ -128,25 +128,25 @@
 +--------------+-----------+--------+-------+------------------+------------------------------+
 | HW Interface | Direction | Length | Width | Loop             | Loop Location                |
 +--------------+-----------+--------+-------+------------------+------------------------------+
-| m_axi_gmem   | read      | 16     | 32    | VITIS_LOOP_35_3  | ../MLP_baseline/mm.cpp:35:19 |
-| m_axi_gmem   | write     | 16     | 32    | VITIS_LOOP_63_10 | ../MLP_baseline/mm.cpp:63:20 |
+| m_axi_gmem   | read      | 16     | 32    | VITIS_LOOP_41_3  | ../MLP_baseline/mm.cpp:41:19 |
+| m_axi_gmem   | write     | 16     | 32    | VITIS_LOOP_69_10 | ../MLP_baseline/mm.cpp:69:20 |
 +--------------+-----------+--------+-------+------------------+------------------------------+
 
 * All M_AXI Variable Accesses
 +--------------+----------+------------------------------+-----------+--------------+--------+------------------+------------------------------+------------+-------------------------------------------------------------------------------------------------------+
 | HW Interface | Variable | Access Location              | Direction | Burst Status | Length | Loop             | Loop Location                | Resolution | Problem                                                                                               |
 +--------------+----------+------------------------------+-----------+--------------+--------+------------------+------------------------------+------------+-------------------------------------------------------------------------------------------------------+
-| m_axi_gmem   | C        | ../MLP_baseline/mm.cpp:35:19 | read      | Widen Fail   |        | VITIS_LOOP_35_3  | ../MLP_baseline/mm.cpp:35:19 | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
-| m_axi_gmem   | C        | ../MLP_baseline/mm.cpp:35:19 | read      | Fail         |        | VITIS_LOOP_31_2  | ../MLP_baseline/mm.cpp:31:19 | 214-230    | Stride is incompatible                                                                                |
-| m_axi_gmem   | C        | ../MLP_baseline/mm.cpp:35:19 | read      | Inferred     | 16     | VITIS_LOOP_35_3  | ../MLP_baseline/mm.cpp:35:19 |            |                                                                                                       |
-| m_axi_gmem   |          | ../MLP_baseline/mm.cpp:47:19 | read      | Fail         |        |                  |                              | 214-224    | Could not burst due to multiple potential reads to the same bundle in the same region.                |
-| m_axi_gmem   | B        | ../MLP_baseline/mm.cpp:49:16 | read      | Widen Fail   |        | VITIS_LOOP_47_7  | ../MLP_baseline/mm.cpp:47:19 | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
-| m_axi_gmem   | B        | ../MLP_baseline/mm.cpp:49:16 | read      | Fail         |        | VITIS_LOOP_45_6  | ../MLP_baseline/mm.cpp:45:19 | 214-230    | Stride is incompatible                                                                                |
-| m_axi_gmem   | B        | ../MLP_baseline/mm.cpp:49:16 | read      | Inferred     | 16     | VITIS_LOOP_47_7  | ../MLP_baseline/mm.cpp:47:19 |            |                                                                                                       |
-| m_axi_gmem   | A        | ../MLP_baseline/mm.cpp:53:16 | read      | Fail         |        | VITIS_LOOP_51_8  | ../MLP_baseline/mm.cpp:51:42 | 214-230    | Stride is incompatible                                                                                |
-| m_axi_gmem   | ABC      | ../MLP_baseline/mm.cpp:64:76 | write     | Widen Fail   |        | VITIS_LOOP_63_10 | ../MLP_baseline/mm.cpp:63:20 | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
-| m_axi_gmem   | ABC      | ../MLP_baseline/mm.cpp:64:76 | write     | Fail         |        | VITIS_LOOP_61_9  | ../MLP_baseline/mm.cpp:61:30 | 214-230    | Stride is incompatible                                                                                |
-| m_axi_gmem   | ABC      | ../MLP_baseline/mm.cpp:64:76 | write     | Inferred     | 16     | VITIS_LOOP_63_10 | ../MLP_baseline/mm.cpp:63:20 |            |                                                                                                       |
+| m_axi_gmem   | C        | ../MLP_baseline/mm.cpp:41:19 | read      | Widen Fail   |        | VITIS_LOOP_41_3  | ../MLP_baseline/mm.cpp:41:19 | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem   | C        | ../MLP_baseline/mm.cpp:41:19 | read      | Fail         |        | VITIS_LOOP_37_2  | ../MLP_baseline/mm.cpp:37:19 | 214-230    | Stride is incompatible                                                                                |
+| m_axi_gmem   | C        | ../MLP_baseline/mm.cpp:41:19 | read      | Inferred     | 16     | VITIS_LOOP_41_3  | ../MLP_baseline/mm.cpp:41:19 |            |                                                                                                       |
+| m_axi_gmem   |          | ../MLP_baseline/mm.cpp:53:19 | read      | Fail         |        |                  |                              | 214-224    | Could not burst due to multiple potential reads to the same bundle in the same region.                |
+| m_axi_gmem   | B        | ../MLP_baseline/mm.cpp:55:16 | read      | Widen Fail   |        | VITIS_LOOP_53_7  | ../MLP_baseline/mm.cpp:53:19 | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem   | B        | ../MLP_baseline/mm.cpp:55:16 | read      | Fail         |        | VITIS_LOOP_51_6  | ../MLP_baseline/mm.cpp:51:19 | 214-230    | Stride is incompatible                                                                                |
+| m_axi_gmem   | B        | ../MLP_baseline/mm.cpp:55:16 | read      | Inferred     | 16     | VITIS_LOOP_53_7  | ../MLP_baseline/mm.cpp:53:19 |            |                                                                                                       |
+| m_axi_gmem   | A        | ../MLP_baseline/mm.cpp:59:16 | read      | Fail         |        | VITIS_LOOP_57_8  | ../MLP_baseline/mm.cpp:57:42 | 214-230    | Stride is incompatible                                                                                |
+| m_axi_gmem   | ABC      | ../MLP_baseline/mm.cpp:70:76 | write     | Widen Fail   |        | VITIS_LOOP_69_10 | ../MLP_baseline/mm.cpp:69:20 | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem   | ABC      | ../MLP_baseline/mm.cpp:70:76 | write     | Fail         |        | VITIS_LOOP_67_9  | ../MLP_baseline/mm.cpp:67:30 | 214-230    | Stride is incompatible                                                                                |
+| m_axi_gmem   | ABC      | ../MLP_baseline/mm.cpp:70:76 | write     | Inferred     | 16     | VITIS_LOOP_69_10 | ../MLP_baseline/mm.cpp:69:20 |            |                                                                                                       |
 +--------------+----------+------------------------------+-----------+--------------+--------+------------------+------------------------------+------------+-------------------------------------------------------------------------------------------------------+
 
     * Resolution URL: docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=XXX-YYY.html (replace XXX-YYY with column value)
@@ -167,53 +167,53 @@
 |   p_neg_fu_582_p2         |     |        | p_neg        | sub    | fabric   | 0       |
 |   p_neg_t_fu_598_p2       |     |        | p_neg_t      | sub    | fabric   | 0       |
 |   div22_fu_614_p3         |     |        | div22        | select | auto_sel | 0       |
-|   add_ln29_1_fu_654_p2    |     |        | add_ln29_1   | add    | fabric   | 0       |
-|   icmp_ln29_fu_663_p2     |     |        | icmp_ln29    | setlt  | auto     | 0       |
-|   add_ln29_fu_668_p2      |     |        | add_ln29     | add    | fabric   | 0       |
+|   add_ln35_1_fu_654_p2    |     |        | add_ln35_1   | add    | fabric   | 0       |
+|   icmp_ln35_fu_663_p2     |     |        | icmp_ln35    | setlt  | auto     | 0       |
+|   add_ln35_fu_668_p2      |     |        | add_ln35     | add    | fabric   | 0       |
 |   empty_fu_694_p2         |     |        | empty        | add    | fabric   | 0       |
-|   icmp_ln31_fu_735_p2     |     |        | icmp_ln31    | setlt  | auto     | 0       |
-|   add_ln31_fu_740_p2      |     |        | add_ln31     | add    | fabric   | 0       |
-|   icmp_ln35_fu_754_p2     |     |        | icmp_ln35    | seteq  | auto     | 0       |
-|   add_ln35_1_fu_760_p2    |     |        | add_ln35_1   | add    | fabric   | 0       |
-|   add_ln35_fu_792_p2      |     |        | add_ln35     | add    | fabric   | 0       |
-|   icmp_ln37_fu_766_p2     |     |        | icmp_ln37    | seteq  | auto     | 0       |
-|   select_ln36_fu_772_p3   |     |        | select_ln36  | select | auto_sel | 0       |
-|   select_ln35_fu_798_p3   |     |        | select_ln35  | select | auto_sel | 0       |
+|   icmp_ln37_fu_735_p2     |     |        | icmp_ln37    | setlt  | auto     | 0       |
+|   add_ln37_fu_740_p2      |     |        | add_ln37     | add    | fabric   | 0       |
+|   icmp_ln41_fu_754_p2     |     |        | icmp_ln41    | seteq  | auto     | 0       |
+|   add_ln41_1_fu_760_p2    |     |        | add_ln41_1   | add    | fabric   | 0       |
+|   add_ln41_fu_792_p2      |     |        | add_ln41     | add    | fabric   | 0       |
+|   icmp_ln43_fu_766_p2     |     |        | icmp_ln43    | seteq  | auto     | 0       |
+|   select_ln42_fu_772_p3   |     |        | select_ln42  | select | auto_sel | 0       |
+|   select_ln41_fu_798_p3   |     |        | select_ln41  | select | auto_sel | 0       |
 |   first_iter_0_fu_780_p2  |     |        | first_iter_0 | seteq  | auto     | 0       |
-|   add_ln38_fu_820_p2      |     |        | add_ln38     | add    | fabric   | 0       |
-|   add_ln37_fu_786_p2      |     |        | add_ln37     | add    | fabric   | 0       |
-|   add_ln43_1_fu_846_p2    |     |        | add_ln43_1   | add    | fabric   | 0       |
-|   icmp_ln43_fu_855_p2     |     |        | icmp_ln43    | setlt  | auto     | 0       |
-|   add_ln43_fu_860_p2      |     |        | add_ln43     | add    | fabric   | 0       |
-|   add_ln45_1_fu_886_p2    |     |        | add_ln45_1   | add    | fabric   | 0       |
-|   icmp_ln45_fu_891_p2     |     |        | icmp_ln45    | seteq  | auto     | 0       |
-|   add_ln45_fu_897_p2      |     |        | add_ln45     | add    | fabric   | 0       |
+|   add_ln44_fu_820_p2      |     |        | add_ln44     | add    | fabric   | 0       |
+|   add_ln43_fu_786_p2      |     |        | add_ln43     | add    | fabric   | 0       |
+|   add_ln49_1_fu_846_p2    |     |        | add_ln49_1   | add    | fabric   | 0       |
+|   icmp_ln49_fu_855_p2     |     |        | icmp_ln49    | setlt  | auto     | 0       |
+|   add_ln49_fu_860_p2      |     |        | add_ln49     | add    | fabric   | 0       |
+|   add_ln51_1_fu_886_p2    |     |        | add_ln51_1   | add    | fabric   | 0       |
+|   icmp_ln51_fu_891_p2     |     |        | icmp_ln51    | seteq  | auto     | 0       |
+|   add_ln51_fu_897_p2      |     |        | add_ln51     | add    | fabric   | 0       |
 |   tmp_fu_903_p2           |     |        | tmp          | add    | fabric   | 0       |
 |   empty_50_fu_912_p2      |     |        | empty_50     | add    | fabric   | 0       |
 |   empty_51_fu_928_p2      |     |        | empty_51     | add    | fabric   | 0       |
-|   icmp_ln47_fu_947_p2     |     |        | icmp_ln47    | seteq  | auto     | 0       |
-|   add_ln47_fu_953_p2      |     |        | add_ln47     | add    | fabric   | 0       |
-|   add_ln49_fu_963_p2      |     |        | add_ln49     | add    | fabric   | 0       |
-|   icmp_ln51_fu_982_p2     |     |        | icmp_ln51    | seteq  | auto     | 0       |
-|   add_ln51_fu_988_p2      |     |        | add_ln51     | add    | fabric   | 0       |
-|   add_ln54_1_fu_1006_p2   |     |        | add_ln54_1   | add    | fabric   | 0       |
-|   add_ln53_fu_1015_p2     |     |        | add_ln53     | add    | fabric   | 0       |
-|   mul_32ns_32s_62_2_1_U1  | 4   |        | mul_ln53     | mul    | auto     | 1       |
-|   add_ln53_2_fu_1040_p2   |     |        | add_ln53_2   | add    | fabric   | 0       |
-|   mul_32s_32s_32_2_1_U2   | 3   |        | mul_ln54     | mul    | auto     | 1       |
-|   add_ln54_fu_1069_p2     |     |        | add_ln54     | add    | fabric   | 0       |
-|   icmp_ln61_fu_1075_p2    |     |        | icmp_ln61    | seteq  | auto     | 0       |
-|   add_ln61_1_fu_1081_p2   |     |        | add_ln61_1   | add    | fabric   | 0       |
-|   add_ln61_fu_1087_p2     |     |        | add_ln61     | add    | fabric   | 0       |
-|   icmp_ln63_fu_1093_p2    |     |        | icmp_ln63    | seteq  | auto     | 0       |
-|   select_ln62_fu_1099_p3  |     |        | select_ln62  | select | auto_sel | 0       |
-|   select_ln61_fu_1107_p3  |     |        | select_ln61  | select | auto_sel | 0       |
+|   icmp_ln53_fu_947_p2     |     |        | icmp_ln53    | seteq  | auto     | 0       |
+|   add_ln53_fu_953_p2      |     |        | add_ln53     | add    | fabric   | 0       |
+|   add_ln55_fu_963_p2      |     |        | add_ln55     | add    | fabric   | 0       |
+|   icmp_ln57_fu_982_p2     |     |        | icmp_ln57    | seteq  | auto     | 0       |
+|   add_ln57_fu_988_p2      |     |        | add_ln57     | add    | fabric   | 0       |
+|   add_ln60_1_fu_1006_p2   |     |        | add_ln60_1   | add    | fabric   | 0       |
+|   add_ln59_fu_1015_p2     |     |        | add_ln59     | add    | fabric   | 0       |
+|   mul_32ns_32s_62_2_1_U1  | 4   |        | mul_ln59     | mul    | auto     | 1       |
+|   add_ln59_2_fu_1040_p2   |     |        | add_ln59_2   | add    | fabric   | 0       |
+|   mul_32s_32s_32_2_1_U2   | 3   |        | mul_ln60     | mul    | auto     | 1       |
+|   add_ln60_fu_1069_p2     |     |        | add_ln60     | add    | fabric   | 0       |
+|   icmp_ln67_fu_1075_p2    |     |        | icmp_ln67    | seteq  | auto     | 0       |
+|   add_ln67_1_fu_1081_p2   |     |        | add_ln67_1   | add    | fabric   | 0       |
+|   add_ln67_fu_1087_p2     |     |        | add_ln67     | add    | fabric   | 0       |
+|   icmp_ln69_fu_1093_p2    |     |        | icmp_ln69    | seteq  | auto     | 0       |
+|   select_ln68_fu_1099_p3  |     |        | select_ln68  | select | auto_sel | 0       |
+|   select_ln67_fu_1107_p3  |     |        | select_ln67  | select | auto_sel | 0       |
 |   first_iter_1_fu_1119_p2 |     |        | first_iter_1 | seteq  | auto     | 0       |
 |   mul_5ns_32s_37_2_1_U3   | 2   |        | empty_55     | mul    | auto     | 1       |
 |   empty_57_fu_1183_p2     |     |        | empty_57     | add    | fabric   | 0       |
-|   add_ln64_fu_1137_p2     |     |        | add_ln64     | add    | fabric   | 0       |
-|   add_ln63_fu_1143_p2     |     |        | add_ln63     | add    | fabric   | 0       |
-|   icmp_ln63_1_fu_1149_p2  |     |        | icmp_ln63_1  | seteq  | auto     | 0       |
+|   add_ln70_fu_1137_p2     |     |        | add_ln70     | add    | fabric   | 0       |
+|   add_ln69_fu_1143_p2     |     |        | add_ln69     | add    | fabric   | 0       |
+|   icmp_ln69_1_fu_1149_p2  |     |        | icmp_ln69_1  | seteq  | auto     | 0       |
 +---------------------------+-----+--------+--------------+--------+----------+---------+
 
 
@@ -235,29 +235,29 @@
 == Pragma Report
 ================================================================
 * Valid Pragma Syntax
-+-----------+---------------------------------------+-----------------------------------------+
-| Type      | Options                               | Location                                |
-+-----------+---------------------------------------+-----------------------------------------+
-| INTERFACE | m_axi port=A bundle=gmem depth=1024   | ../MLP_baseline/mm.cpp:13 in mm, A      |
-| INTERFACE | m_axi port=B bundle=gmem depth=1024   | ../MLP_baseline/mm.cpp:14 in mm, B      |
-| INTERFACE | m_axi port=C bundle=gmem depth=32     | ../MLP_baseline/mm.cpp:15 in mm, C      |
-| INTERFACE | m_axi port=ABC bundle=gmem depth=1024 | ../MLP_baseline/mm.cpp:16 in mm, ABC    |
-| INTERFACE | s_axilite port=A bundle=control       | ../MLP_baseline/mm.cpp:18 in mm, A      |
-| INTERFACE | s_axilite port=B bundle=control       | ../MLP_baseline/mm.cpp:19 in mm, B      |
-| INTERFACE | s_axilite port=C bundle=control       | ../MLP_baseline/mm.cpp:20 in mm, C      |
-| INTERFACE | s_axilite port=ABC bundle=control     | ../MLP_baseline/mm.cpp:21 in mm, ABC    |
-| INTERFACE | s_axilite port=N bundle=control       | ../MLP_baseline/mm.cpp:22 in mm, N      |
-| INTERFACE | s_axilite port=M bundle=control       | ../MLP_baseline/mm.cpp:23 in mm, M      |
-| INTERFACE | s_axilite port=P bundle=control       | ../MLP_baseline/mm.cpp:24 in mm, P      |
-| INTERFACE | s_axilite port=return bundle=control  | ../MLP_baseline/mm.cpp:25 in mm, return |
-| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:30 in mm         |
-| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:32 in mm         |
-| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:36 in mm         |
-| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:44 in mm         |
-| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:46 in mm         |
-| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:48 in mm         |
-| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:52 in mm         |
-| PIPELINE  | off                                   | ../MLP_baseline/mm.cpp:62 in mm         |
-+-----------+---------------------------------------+-----------------------------------------+
++-----------+-----------------------------------------+-----------------------------------------+
+| Type      | Options                                 | Location                                |
++-----------+-----------------------------------------+-----------------------------------------+
+| INTERFACE | m_axi port=A bundle=gmem depth=802816   | ../MLP_baseline/mm.cpp:13 in mm, A      |
+| INTERFACE | m_axi port=B bundle=gmem depth=100352   | ../MLP_baseline/mm.cpp:14 in mm, B      |
+| INTERFACE | m_axi port=C bundle=gmem depth=1024     | ../MLP_baseline/mm.cpp:15 in mm, C      |
+| INTERFACE | m_axi port=ABC bundle=gmem depth=131072 | ../MLP_baseline/mm.cpp:16 in mm, ABC    |
+| INTERFACE | s_axilite port=A bundle=control         | ../MLP_baseline/mm.cpp:24 in mm, A      |
+| INTERFACE | s_axilite port=B bundle=control         | ../MLP_baseline/mm.cpp:25 in mm, B      |
+| INTERFACE | s_axilite port=C bundle=control         | ../MLP_baseline/mm.cpp:26 in mm, C      |
+| INTERFACE | s_axilite port=ABC bundle=control       | ../MLP_baseline/mm.cpp:27 in mm, ABC    |
+| INTERFACE | s_axilite port=N bundle=control         | ../MLP_baseline/mm.cpp:28 in mm, N      |
+| INTERFACE | s_axilite port=M bundle=control         | ../MLP_baseline/mm.cpp:29 in mm, M      |
+| INTERFACE | s_axilite port=P bundle=control         | ../MLP_baseline/mm.cpp:30 in mm, P      |
+| INTERFACE | s_axilite port=return bundle=control    | ../MLP_baseline/mm.cpp:31 in mm, return |
+| PIPELINE  | off                                     | ../MLP_baseline/mm.cpp:36 in mm         |
+| PIPELINE  | off                                     | ../MLP_baseline/mm.cpp:38 in mm         |
+| PIPELINE  | off                                     | ../MLP_baseline/mm.cpp:42 in mm         |
+| PIPELINE  | off                                     | ../MLP_baseline/mm.cpp:50 in mm         |
+| PIPELINE  | off                                     | ../MLP_baseline/mm.cpp:52 in mm         |
+| PIPELINE  | off                                     | ../MLP_baseline/mm.cpp:54 in mm         |
+| PIPELINE  | off                                     | ../MLP_baseline/mm.cpp:58 in mm         |
+| PIPELINE  | off                                     | ../MLP_baseline/mm.cpp:68 in mm         |
++-----------+-----------------------------------------+-----------------------------------------+
 
 

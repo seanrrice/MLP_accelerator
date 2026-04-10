@@ -51,7 +51,7 @@
     </RtlModule>
     <RtlModule CELL="inst/AB_block_U" DEPTH="1" TYPE="resource" MODULENAME="AB_block_RAM_AUTO_1R1W" DISPNAME="AB_block_U" RTLNAME="MM_AB_block_RAM_AUTO_1R1W">
       <Resources BRAM="1" LUT="80"/>
-      <BindNode BINDTYPE="storage" BRAM="1" BUNDLEDNAME="" DISPNAME="bind_storage ram_1p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="ram_1p" PRAGMA="" RTLNAME="AB_block_U" SOURCE="../MLP_baseline/mm.cpp:27" STORAGESIZE="32 256 1" STORAGESUBTYPE="" STORAGEUSAGE="ram_1p array" URAM="0" VARIABLE="AB_block" VISIBLE="true"/>
+      <BindNode BINDTYPE="storage" BRAM="1" BUNDLEDNAME="" DISPNAME="bind_storage ram_1p" DSP="0" ID="" IMPL="auto" LATENCY="1" LOOP="" OPTYPE="ram_1p" PRAGMA="" RTLNAME="AB_block_U" SOURCE="../MLP_baseline/mm.cpp:33" STORAGESIZE="32 256 1" STORAGESUBTYPE="" STORAGEUSAGE="ram_1p array" URAM="0" VARIABLE="AB_block" VISIBLE="true"/>
     </RtlModule>
     <RtlModule CELL="inst/control_s_axi_U" DEPTH="1" TYPE="resource" MODULENAME="control_s_axi" DISPNAME="control_s_axi_U" RTLNAME="MM_control_s_axi">
       <Resources FF="406" LUT="626"/>
@@ -62,13 +62,13 @@
       <BindNode BINDTYPE="adapter" BRAM="2" BUNDLEDNAME="gmem" DISPNAME="bind_adapter " DSP="0" ID="" IMPL="" LATENCY="" LOOP="" OPTYPE="" PRAGMA="" RTLNAME="gmem_m_axi_U" SOURCE="" STORAGESIZE="" STORAGESUBTYPE="m_axi" STORAGEUSAGE="interface" URAM="0" VARIABLE=""/>
     </RtlModule>
     <RtlModule CELL="inst/mul_32ns_32s_62_2_1_U1" DEPTH="1" TYPE="resource" MODULENAME="mul_32ns_32s_62_2_1" DISPNAME="mul_32ns_32s_62_2_1_U1" RTLNAME="MM_mul_32ns_32s_62_2_1">
-      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="1" LOOP="VITIS_LOOP_51_8" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32ns_32s_62_2_1_U1" SOURCE="../MLP_baseline/mm.cpp:53" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln53" VISIBLE="true"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="4" ID="" IMPL="auto" LATENCY="1" LOOP="VITIS_LOOP_57_8" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32ns_32s_62_2_1_U1" SOURCE="../MLP_baseline/mm.cpp:59" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln59" VISIBLE="true"/>
     </RtlModule>
     <RtlModule CELL="inst/mul_32s_32s_32_2_1_U2" DEPTH="1" TYPE="resource" MODULENAME="mul_32s_32s_32_2_1" DISPNAME="mul_32s_32s_32_2_1_U2" RTLNAME="MM_mul_32s_32s_32_2_1">
-      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="1" LOOP="VITIS_LOOP_51_8" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_2_1_U2" SOURCE="../MLP_baseline/mm.cpp:54" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln54" VISIBLE="true"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="3" ID="" IMPL="auto" LATENCY="1" LOOP="VITIS_LOOP_57_8" OPTYPE="mul" PRAGMA="" RTLNAME="mul_32s_32s_32_2_1_U2" SOURCE="../MLP_baseline/mm.cpp:60" STORAGESUBTYPE="" URAM="0" VARIABLE="mul_ln60" VISIBLE="true"/>
     </RtlModule>
     <RtlModule CELL="inst/mul_5ns_32s_37_2_1_U3" DEPTH="1" TYPE="resource" MODULENAME="mul_5ns_32s_37_2_1" DISPNAME="mul_5ns_32s_37_2_1_U3" RTLNAME="MM_mul_5ns_32s_37_2_1">
-      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="2" ID="" IMPL="auto" LATENCY="1" LOOP="VITIS_LOOP_61_9_VITIS_LOOP_63_10" OPTYPE="mul" PRAGMA="" RTLNAME="mul_5ns_32s_37_2_1_U3" SOURCE="../MLP_baseline/mm.cpp:61" STORAGESUBTYPE="" URAM="0" VARIABLE="empty_55" VISIBLE="true"/>
+      <BindNode BINDTYPE="op" BRAM="0" BUNDLEDNAME="" DISPNAME="bind_op mul" DSP="2" ID="" IMPL="auto" LATENCY="1" LOOP="VITIS_LOOP_67_9_VITIS_LOOP_69_10" OPTYPE="mul" PRAGMA="" RTLNAME="mul_5ns_32s_37_2_1_U3" SOURCE="../MLP_baseline/mm.cpp:67" STORAGESUBTYPE="" URAM="0" VARIABLE="empty_55" VISIBLE="true"/>
     </RtlModule>
   </RtlModules>
   <TimingPaths>
@@ -108,7 +108,7 @@
     <ReportFile TYPE="utilization_hierarchical" PATH="verilog/report/MM_utilization_hierarchical_synth.rpt"/>
   </VivadoReportFiles>
   <GeneralInfo NAME="General Information">
-    <item NAME="Date" VALUE="Mon Apr 06 22:46:50 -0700 2026"/>
+    <item NAME="Date" VALUE="Fri Apr 10 13:13:31 -0700 2026"/>
     <item NAME="Version" VALUE="2025.1 (Build 6135595 on May 21 2025)"/>
     <item NAME="Project" VALUE="baseline_blockedMM"/>
     <item NAME="Solution" VALUE="hls (Vivado IP Flow Target)"/>

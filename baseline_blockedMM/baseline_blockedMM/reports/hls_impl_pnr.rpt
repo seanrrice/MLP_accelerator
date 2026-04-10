@@ -2,7 +2,7 @@
 == Vivado Place & Route Results
 ================================================================
 + General Information:
-    * Date:            Mon Apr 06 22:46:50 -0700 2026
+    * Date:            Fri Apr 10 13:13:31 -0700 2026
     * Version:         2025.1 (Build 6135595 on May 21 2025)
     * Project:         baseline_blockedMM
     * Solution:        hls (Vivado IP Flow Target)
@@ -111,9 +111,9 @@ SRL:              145
 | Path  | SLACK | STARTPOINT PIN               | ENDPOINT PIN                | LOGIC LEVELS | MAX FANOUT | DATAPATH DELAY | DATAPATH LOGIC | DATAPATH NET |
 |       |       |                              |                             |              |            |                |          DELAY |        DELAY |
 +-------+-------+------------------------------+-----------------------------+--------------+------------+----------------+----------------+--------------+
-| Path1 | 3.664 | zext_ln43_reg_1357_reg[13]/C | empty_50_reg_1404_reg[61]/D |           16 |          4 |          6.314 |          3.791 |        2.523 |
-| Path2 | 3.775 | zext_ln43_reg_1357_reg[13]/C | empty_50_reg_1404_reg[60]/D |           16 |          4 |          6.203 |          3.680 |        2.523 |
-| Path3 | 3.778 | zext_ln43_reg_1357_reg[13]/C | empty_50_reg_1404_reg[57]/D |           15 |          4 |          6.200 |          3.677 |        2.523 |
+| Path1 | 3.664 | zext_ln49_reg_1357_reg[13]/C | empty_50_reg_1404_reg[61]/D |           16 |          4 |          6.314 |          3.791 |        2.523 |
+| Path2 | 3.775 | zext_ln49_reg_1357_reg[13]/C | empty_50_reg_1404_reg[60]/D |           16 |          4 |          6.203 |          3.680 |        2.523 |
+| Path3 | 3.778 | zext_ln49_reg_1357_reg[13]/C | empty_50_reg_1404_reg[57]/D |           15 |          4 |          6.200 |          3.677 |        2.523 |
 | Path4 | 3.798 | div2_reg_1251_reg[1]/C       | phi_mul19_fu_174_reg[32]/CE |            6 |         85 |          5.746 |          1.950 |        3.796 |
 | Path5 | 3.798 | div2_reg_1251_reg[1]/C       | phi_mul19_fu_174_reg[33]/CE |            6 |         85 |          5.746 |          1.950 |        3.796 |
 +-------+-------+------------------------------+-----------------------------+--------------+------------+----------------+----------------+--------------+
@@ -121,7 +121,7 @@ SRL:              145
     +----------------------------------------------------------+----------------------+
     | Path1 Cells                                              | Primitive Type       |
     +----------------------------------------------------------+----------------------+
-    | zext_ln43_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
+    | zext_ln49_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
     | empty_50_reg_1404[15]_i_9                                | LUT.others.LUT2      |
     | empty_50_reg_1404_reg[15]_i_2                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[19]_i_2                            | CARRY.others.CARRY4  |
@@ -139,7 +139,7 @@ SRL:              145
     | empty_50_reg_1404_reg[59]_i_1                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[61]_i_1                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[61]                                | FLOP_LATCH.flop.FDRE |
-    | zext_ln43_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
+    | zext_ln49_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
     | empty_50_reg_1404[15]_i_9                                | LUT.others.LUT2      |
     | empty_50_reg_1404_reg[15]_i_2                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[19]_i_2                            | CARRY.others.CARRY4  |
@@ -157,7 +157,7 @@ SRL:              145
     | empty_50_reg_1404_reg[59]_i_1                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[61]_i_1                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[60]                                | FLOP_LATCH.flop.FDRE |
-    | zext_ln43_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
+    | zext_ln49_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
     | empty_50_reg_1404[15]_i_9                                | LUT.others.LUT2      |
     | empty_50_reg_1404_reg[15]_i_2                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[19]_i_2                            | CARRY.others.CARRY4  |
@@ -195,7 +195,7 @@ SRL:              145
     +----------------------------------------------------------+----------------------+
     | Path2 Cells                                              | Primitive Type       |
     +----------------------------------------------------------+----------------------+
-    | zext_ln43_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
+    | zext_ln49_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
     | empty_50_reg_1404[15]_i_9                                | LUT.others.LUT2      |
     | empty_50_reg_1404_reg[15]_i_2                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[19]_i_2                            | CARRY.others.CARRY4  |
@@ -213,7 +213,7 @@ SRL:              145
     | empty_50_reg_1404_reg[59]_i_1                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[61]_i_1                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[61]                                | FLOP_LATCH.flop.FDRE |
-    | zext_ln43_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
+    | zext_ln49_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
     | empty_50_reg_1404[15]_i_9                                | LUT.others.LUT2      |
     | empty_50_reg_1404_reg[15]_i_2                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[19]_i_2                            | CARRY.others.CARRY4  |
@@ -231,7 +231,7 @@ SRL:              145
     | empty_50_reg_1404_reg[59]_i_1                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[61]_i_1                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[60]                                | FLOP_LATCH.flop.FDRE |
-    | zext_ln43_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
+    | zext_ln49_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
     | empty_50_reg_1404[15]_i_9                                | LUT.others.LUT2      |
     | empty_50_reg_1404_reg[15]_i_2                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[19]_i_2                            | CARRY.others.CARRY4  |
@@ -269,7 +269,7 @@ SRL:              145
     +----------------------------------------------------------+----------------------+
     | Path3 Cells                                              | Primitive Type       |
     +----------------------------------------------------------+----------------------+
-    | zext_ln43_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
+    | zext_ln49_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
     | empty_50_reg_1404[15]_i_9                                | LUT.others.LUT2      |
     | empty_50_reg_1404_reg[15]_i_2                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[19]_i_2                            | CARRY.others.CARRY4  |
@@ -287,7 +287,7 @@ SRL:              145
     | empty_50_reg_1404_reg[59]_i_1                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[61]_i_1                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[61]                                | FLOP_LATCH.flop.FDRE |
-    | zext_ln43_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
+    | zext_ln49_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
     | empty_50_reg_1404[15]_i_9                                | LUT.others.LUT2      |
     | empty_50_reg_1404_reg[15]_i_2                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[19]_i_2                            | CARRY.others.CARRY4  |
@@ -305,7 +305,7 @@ SRL:              145
     | empty_50_reg_1404_reg[59]_i_1                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[61]_i_1                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[60]                                | FLOP_LATCH.flop.FDRE |
-    | zext_ln43_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
+    | zext_ln49_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
     | empty_50_reg_1404[15]_i_9                                | LUT.others.LUT2      |
     | empty_50_reg_1404_reg[15]_i_2                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[19]_i_2                            | CARRY.others.CARRY4  |
@@ -343,7 +343,7 @@ SRL:              145
     +----------------------------------------------------------+----------------------+
     | Path4 Cells                                              | Primitive Type       |
     +----------------------------------------------------------+----------------------+
-    | zext_ln43_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
+    | zext_ln49_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
     | empty_50_reg_1404[15]_i_9                                | LUT.others.LUT2      |
     | empty_50_reg_1404_reg[15]_i_2                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[19]_i_2                            | CARRY.others.CARRY4  |
@@ -361,7 +361,7 @@ SRL:              145
     | empty_50_reg_1404_reg[59]_i_1                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[61]_i_1                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[61]                                | FLOP_LATCH.flop.FDRE |
-    | zext_ln43_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
+    | zext_ln49_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
     | empty_50_reg_1404[15]_i_9                                | LUT.others.LUT2      |
     | empty_50_reg_1404_reg[15]_i_2                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[19]_i_2                            | CARRY.others.CARRY4  |
@@ -379,7 +379,7 @@ SRL:              145
     | empty_50_reg_1404_reg[59]_i_1                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[61]_i_1                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[60]                                | FLOP_LATCH.flop.FDRE |
-    | zext_ln43_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
+    | zext_ln49_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
     | empty_50_reg_1404[15]_i_9                                | LUT.others.LUT2      |
     | empty_50_reg_1404_reg[15]_i_2                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[19]_i_2                            | CARRY.others.CARRY4  |
@@ -417,7 +417,7 @@ SRL:              145
     +----------------------------------------------------------+----------------------+
     | Path5 Cells                                              | Primitive Type       |
     +----------------------------------------------------------+----------------------+
-    | zext_ln43_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
+    | zext_ln49_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
     | empty_50_reg_1404[15]_i_9                                | LUT.others.LUT2      |
     | empty_50_reg_1404_reg[15]_i_2                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[19]_i_2                            | CARRY.others.CARRY4  |
@@ -435,7 +435,7 @@ SRL:              145
     | empty_50_reg_1404_reg[59]_i_1                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[61]_i_1                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[61]                                | FLOP_LATCH.flop.FDRE |
-    | zext_ln43_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
+    | zext_ln49_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
     | empty_50_reg_1404[15]_i_9                                | LUT.others.LUT2      |
     | empty_50_reg_1404_reg[15]_i_2                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[19]_i_2                            | CARRY.others.CARRY4  |
@@ -453,7 +453,7 @@ SRL:              145
     | empty_50_reg_1404_reg[59]_i_1                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[61]_i_1                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[60]                                | FLOP_LATCH.flop.FDRE |
-    | zext_ln43_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
+    | zext_ln49_reg_1357_reg[13]                               | FLOP_LATCH.flop.FDRE |
     | empty_50_reg_1404[15]_i_9                                | LUT.others.LUT2      |
     | empty_50_reg_1404_reg[15]_i_2                            | CARRY.others.CARRY4  |
     | empty_50_reg_1404_reg[19]_i_2                            | CARRY.others.CARRY4  |

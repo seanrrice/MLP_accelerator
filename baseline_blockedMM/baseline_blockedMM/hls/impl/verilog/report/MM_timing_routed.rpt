@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
-| Date         : Mon Apr  6 22:46:39 2026
+| Date         : Fri Apr 10 13:13:19 2026
 | Host         : LAPTOP-L6H807T2 running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -file ./report/MM_timing_routed.rpt
 | Design       : bd_0_wrapper
@@ -205,7 +205,7 @@ PW    :            0  Failing Endpoints,  Worst Slack        4.020ns,  Total Vio
 Max Delay Paths
 --------------------------------------------------------------------------------------
 Slack (MET) :             3.664ns  (required time - arrival time)
-  Source:                 bd_0_i/hls_inst/inst/zext_ln43_reg_1357_reg[13]/C
+  Source:                 bd_0_i/hls_inst/inst/zext_ln49_reg_1357_reg[13]/C
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
   Destination:            bd_0_i/hls_inst/inst/empty_50_reg_1404_reg[61]/D
                             (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
@@ -229,10 +229,10 @@ Slack (MET) :             3.664ns  (required time - arrival time)
                          (clock ap_clk rise edge)     0.000     0.000 r  
                                                       0.000     0.000 r  ap_clk (IN)
                          net (fo=4439, unset)         0.973     0.973    bd_0_i/hls_inst/inst/ap_clk
-    SLICE_X29Y34         FDRE                                         r  bd_0_i/hls_inst/inst/zext_ln43_reg_1357_reg[13]/C
+    SLICE_X29Y34         FDRE                                         r  bd_0_i/hls_inst/inst/zext_ln49_reg_1357_reg[13]/C
   -------------------------------------------------------------------    -------------------
-    SLICE_X29Y34         FDRE (Prop_fdre_C_Q)         0.456     1.429 r  bd_0_i/hls_inst/inst/zext_ln43_reg_1357_reg[13]/Q
-                         net (fo=4, routed)           1.423     2.852    bd_0_i/hls_inst/inst/zext_ln43_reg_1357_reg[9]
+    SLICE_X29Y34         FDRE (Prop_fdre_C_Q)         0.456     1.429 r  bd_0_i/hls_inst/inst/zext_ln49_reg_1357_reg[13]/Q
+                         net (fo=4, routed)           1.423     2.852    bd_0_i/hls_inst/inst/zext_ln49_reg_1357_reg[9]
     SLICE_X31Y38         LUT2 (Prop_lut2_I0_O)        0.124     2.976 r  bd_0_i/hls_inst/inst/empty_50_reg_1404[15]_i_9/O
                          net (fo=1, routed)           0.000     2.976    bd_0_i/hls_inst/inst/empty_50_reg_1404[15]_i_9_n_3
     SLICE_X31Y38         CARRY4 (Prop_carry4_S[1]_CO[3])

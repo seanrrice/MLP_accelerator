@@ -251,12 +251,12 @@ Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/websocket/pk
 Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/wip/pkgIndex.tcl 
 Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/pkgIndex.tcl 
 Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/zip/pkgIndex.tcl 
-Command           ap_source done; 0.139 sec.
+Command           ap_source done; 0.193 sec.
 Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tdom/pkgIndex.tcl 
 Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tk8.6/pkgIndex.tcl 
 Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/opt0.4/pkgIndex.tcl 
 Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/pkgs/win/thread2.8.7/pkgIndex.tcl 
-Command         ap_source done; 0.437 sec.
+Command         ap_source done; 0.662 sec.
 Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/0compatibility/pkgIndex.tcl 
 Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/amazon-s3/pkgIndex.tcl 
 Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/asn/pkgIndex.tcl 
@@ -508,13 +508,13 @@ Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/websocket/pkgI
 Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/wip/pkgIndex.tcl 
 Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/pkgIndex.tcl 
 Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/zip/pkgIndex.tcl 
-Command         ap_source done; 0.223 sec.
+Command         ap_source done; 0.129 sec.
 Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tdom/pkgIndex.tcl 
 Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tk8.6/pkgIndex.tcl 
 Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/opt0.4/pkgIndex.tcl 
 Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/pkgs/win/thread2.8.7/pkgIndex.tcl 
-Command       ap_source done; 0.862 sec.
-INFO-FLOW: Workspace C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls opened at Mon Apr 06 22:31:01 -0700 2026
+Command       ap_source done; 1.078 sec.
+INFO-FLOW: Workspace C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls opened at Fri Apr 10 13:01:42 -0700 2026
 Execute       send_msg_by_id INFO @200-1505@%s%s default  vivado 
 INFO: [HLS 200-1505] Using default flow_target 'vivado'
 Execute       send_msg_by_id INFO @200-2174@%s%s component C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg 
@@ -567,7 +567,7 @@ DBG:HLSDevice: Trying to load device library: C:/Xilinx/2025.1/Vitis\lib\win64.o
 DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/2025.1/Vivado/data/parts/arch.xml
 DBG:HLSDevice: init success
 INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
-Command           create_platform done; 2.346 sec.
+Command           create_platform done; 1.909 sec.
 Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/common/xilinx.gen 
 Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/plb46.gen 
 Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/axi4.gen 
@@ -578,22 +578,22 @@ Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/inter
 Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/dds_compiler.gen 
 Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/util.gen 
 Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfft.gen 
-Command             ap_source done; 0.182 sec.
+Command             ap_source done; 0.192 sec.
 Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfir.gen 
 Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/DSP48/dsp48.gen 
-Command           ap_source done; 0.245 sec.
+Command           ap_source done; 0.25 sec.
 Execute           ap_part_info -name xc7z020-clg400-1 -data info 
 Execute           config_compile -quiet -complex-mul-dsp=0 
-Command         set_part done; 2.712 sec.
+Command         set_part done; 2.212 sec.
 Execute         send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(5) 
 INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(5)
 Execute         config_export -format=ip_catalog 
-Command       apply_ini done; 2.902 sec.
+Command       apply_ini done; 2.316 sec.
 Execute       write_component -config C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg 
 Execute         send_msg_by_id INFO @200-2176@%s C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/vitis-comp.json 
 INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/vitis-comp.json
-Command     open_solution done; 3.854 sec.
-Command   open_component done; 3.86 sec.
+Command     open_solution done; 3.45 sec.
+Command   open_component done; 3.455 sec.
 Execute   apply_ini C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/config.cmdline -iscmdline 
 Execute   ::AP::init_summary_file csynth 
 Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
@@ -602,7 +602,7 @@ Execute     ap_part_info -name xc7z020-clg400-1 -data info
 INFO-FLOW: run_clang exec: C:/Xilinx/2025.1/Vitis/win64/tools/clang-3.9-csynth/bin/xilinx-performance-pragma-detector ../MLP_baseline/mm.cpp -- -fhls -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/2025.1/Vitis/common/technology/autopilot -I C:/Xilinx/2025.1/Vitis/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -I /usr/include/x86_64-linux-gnu > C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.cpp.xilinx-performance-pragma-detector.out.log 2> C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.cpp.xilinx-performance-pragma-detector.err.log
 INFO-FLOW: Running SLX 'csynth' proc: ::SLX::run_csynth
 Execute     elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -from_csynth_design=1 
-INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2 seconds. CPU system time: 2 seconds. Elapsed time: 6.297 seconds; current allocated memory: 163.727 MB.
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 2 seconds. CPU system time: 2 seconds. Elapsed time: 6.108 seconds; current allocated memory: 165.156 MB.
 Execute       set_directive_top MM -name=MM 
 INFO: [HLS 200-10] Analyzing design file '../MLP_baseline/mm.cpp' ... 
 INFO-FLOW: Compiling one TU...
@@ -611,47 +611,47 @@ Execute       ap_part_info -name xc7z020-clg400-1 -data info
 INFO-FLOW: Running: GCC PP 39
 INFO-FLOW: Source preprocessing
 INFO-FLOW: run_clang exec: C:/Xilinx/2025.1/Vitis/win64/tools/clang-3.9-csynth/bin/clang ../MLP_baseline/mm.cpp -foptimization-record-file=C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll|inline -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info --sysroot C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt -fhls -fno-exceptions -insert-hls-directive=C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/all.directive.json -E -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -hls-clock-period=10 -fno-threadsafe-statics -fno-use-cxa-atexit -target fpga64-xilinx-mingw32 -fno-threadsafe-statics -fno-use-cxa-atexit -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/2025.1/Vitis/common/technology/autopilot -I C:/Xilinx/2025.1/Vitis/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -I /usr/include/x86_64-linux-gnu -o C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.pp.0.cpp {-hls-platform-db-name=C:/Xilinx/2025.1/Vitis\common/technology\xilinx/common/platform.db} -hls-platform-name=zynq_slow -device-resource-info=BRAM_280.000000_DSP_220.000000_FF_106400.000000_LUT_53200.000000_SLICE_13300.000000_URAM_0.000000 -device-name-info=xc7z020clg400-1 > C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.cpp.clang.out.log 2> C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.cpp.clang.err.log
-INFO-FLOW: Done: GCC PP 39 time: 1.1 seconds per iteration
+INFO-FLOW: Done: GCC PP 39 time: 0.8 seconds per iteration
 INFO-FLOW: Source syntax check for synthesis
 INFO-FLOW: run_clang exec: C:/Xilinx/2025.1/Vitis/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll|inline -mllvm -pass-remarks=reflow|pasta|unroll|inline -fsyntax-only -fhls -target fpga64-xilinx-linux-gnu C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.pp.0.cpp {-hls-platform-db-name=C:/Xilinx/2025.1/Vitis\common/technology\xilinx/common/platform.db} -hls-platform-name=zynq_slow -device-resource-info=BRAM_280.000000_DSP_220.000000_FF_106400.000000_LUT_53200.000000_SLICE_13300.000000_URAM_0.000000 -device-name-info=xc7z020clg400-1 > C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/clang.out.log 2> C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/clang.err.log
 Execute       clang_tidy xilinx-systemc-detector -desc systemc-detector C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.pp.0.cpp  -target fpga  -directive=C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/.systemc_flag 
 INFO-FLOW: exec C:/Xilinx/2025.1/Vitis/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/.systemc_flag -fix-errors C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.pp.0.cpp -- - -target fpga -fhls -ferror-limit=0
-Command       clang_tidy done; 0.736 sec.
+Command       clang_tidy done; 1.067 sec.
 INFO-FLOW: Running: clang-tidy CDT preprocess 39
 Execute       clang_tidy xilinx-directive2pragma -desc directive2pragma C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.pp.0.cpp  -target fpga  -directive=C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/all.directive.json 
 INFO-FLOW: exec C:/Xilinx/2025.1/Vitis/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/all.directive.json -fix-errors C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.pp.0.cpp -- - -target fpga -fhls -ferror-limit=0
-Command       clang_tidy done; 0.96 sec.
-INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 1 seconds per iteration
+Command       clang_tidy done; 0.746 sec.
+INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 0.7 seconds per iteration
 INFO-FLOW: Calling xilinx-label-all-loops ... 
 INFO-FLOW: Calling xilinx-aggregate-on-hls-vector ... 
 Execute       clang_tidy -errorcheck -desc loop-label xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.pp.0.cpp  -target fpga  
 INFO-FLOW: run_clang exec: C:/Xilinx/2025.1/Vitis/win64/tools/clang-3.9-csynth/bin/clang-tidy -export-fixes=C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.pp.0.cpp.clang-tidy.loop-label.diag.yml -header-filter=.* --checks=-*,xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute -fix-errors C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.pp.0.cpp -- - -target fpga -fhls -ferror-limit=0 > C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.pp.0.cpp.clang-tidy.loop-label.out.log 2> C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.pp.0.cpp.clang-tidy.loop-label.err.log
 Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/yaml.tcl 
-Command       clang_tidy done; 1.476 sec.
+Command       clang_tidy done; 0.971 sec.
 INFO-FLOW: run_clang exec: C:/Xilinx/2025.1/Vitis/win64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.pp.0.cpp.xilinx-dataflow-lawyer.diag.yml C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.pp.0.cpp -- - -target fpga -fhls -ferror-limit=0 -fstrict-dataflow > C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.pp.0.cpp.xilinx-dataflow-lawyer.out.log 2> C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.pp.0.cpp.xilinx-dataflow-lawyer.err.log
 Execute       ap_part_info -name xc7z020-clg400-1 -data info 
 INFO-FLOW: compiling source code to llvm bc
 INFO-FLOW: run_clang exec: C:/Xilinx/2025.1/Vitis/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.pp.0.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll|inline -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -fhls -flto -fno-exceptions -Wno-error=c++11-narrowing -hls-emit-hint-scope C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.pp.0.cpp -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -hls-clock-period=10 -fno-threadsafe-statics -fno-use-cxa-atexit -target fpga64-xilinx-linux-gnu -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I C:/Xilinx/2025.1/Vitis/common/technology/autopilot -I C:/Xilinx/2025.1/Vitis/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E1__ -g -o C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.bc {-hls-platform-db-name=C:/Xilinx/2025.1/Vitis\common/technology\xilinx/common/platform.db} -hls-platform-name=zynq_slow -device-resource-info=BRAM_280.000000_DSP_220.000000_FF_106400.000000_LUT_53200.000000_SLICE_13300.000000_URAM_0.000000 -device-name-info=xc7z020clg400-1 > C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.pp.0.cpp.clang.out.log 2> C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.pp.0.cpp.clang.err.log
-INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 7.233 seconds; current allocated memory: 166.590 MB.
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 6.714 seconds; current allocated memory: 167.824 MB.
 INFO-FLOW: Linking Debug ...
 INFO-FLOW: Linking dut bc code.
 Execute       run_link_or_opt -out C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.0.bc -args  "C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.g.bc"  
 INFO-FLOW: run_clang exec: C:/Xilinx/2025.1/Vitis/win64/tools/clang-3.9-csynth/bin/llvm-link C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.g.bc -o C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.0.bc > C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.0.bc.llvm-link.out.log 2> C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.0.bc.llvm-link.err.log
-Command       run_link_or_opt done; 0.143 sec.
+Command       run_link_or_opt done; 0.131 sec.
 Execute       run_link_or_opt -opt -out C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.1.lower.bc -args C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics 
 INFO-FLOW: run_clang exec: C:/Xilinx/2025.1/Vitis/win64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll|inline -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.1.lower.bc.opt.diag.yml C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.0.bc -reflow-lower-math-intrinsics -o C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.1.lower.bc > C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.1.lower.bc.opt.out.log 2> C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.1.lower.bc.opt.err.log
 INFO-FLOW: Running: gen_design_size_report post-opt
 INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds per iteration
-Command       run_link_or_opt done; 0.134 sec.
+Command       run_link_or_opt done; 0.115 sec.
 INFO-FLOW: Linking math bc lib
 Execute       run_link_or_opt -out C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.2.m1.bc -args C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.1.lower.bc -only-needed C:/Xilinx/2025.1/Vitis/win64/lib/libhlsm_39.bc C:/Xilinx/2025.1/Vitis/win64/lib/libhlsmc++_39.bc 
 INFO-FLOW: run_clang exec: C:/Xilinx/2025.1/Vitis/win64/tools/clang-3.9-csynth/bin/llvm-link C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.1.lower.bc -only-needed C:/Xilinx/2025.1/Vitis/win64/lib/libhlsm_39.bc C:/Xilinx/2025.1/Vitis/win64/lib/libhlsmc++_39.bc -o C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.2.m1.bc > C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.out.log 2> C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.err.log
-Command       run_link_or_opt done; 2.202 sec.
+Command       run_link_or_opt done; 3.328 sec.
 Execute       run_link_or_opt -opt -out C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.3.fpc.bc -args C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=MM -reflow-float-conversion 
 INFO-FLOW: run_clang exec: C:/Xilinx/2025.1/Vitis/win64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll|inline -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.3.fpc.bc.opt.diag.yml C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=MM -reflow-float-conversion -o C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.3.fpc.bc > C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.3.fpc.bc.opt.out.log 2> C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.3.fpc.bc.opt.err.log
 INFO-FLOW: Running: gen_design_size_report post-opt
 INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds per iteration
-Command       run_link_or_opt done; 1.119 sec.
+Command       run_link_or_opt done; 1.023 sec.
 Execute       run_link_or_opt -out C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.4.m2.bc -args C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.3.fpc.bc -only-needed C:/Xilinx/2025.1/Vitis/win64/lib/libfloatconversion_39.bc 
 INFO-FLOW: run_clang exec: C:/Xilinx/2025.1/Vitis/win64/tools/clang-3.9-csynth/bin/llvm-link C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.3.fpc.bc -only-needed C:/Xilinx/2025.1/Vitis/win64/lib/libfloatconversion_39.bc -o C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.4.m2.bc > C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.out.log 2> C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.err.log
 Execute       run_link_or_opt -opt -out C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.5.gdce.bc -args C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.ld.4.m2.bc -reflow-globaldce -hls-top-function-name=MM 
@@ -691,55 +691,54 @@ Execute       send_msg_by_id INFO @200-1995@%s%s%s 122 Performance (step 3) (C:/
 INFO: [HLS 200-1995] There were 122 instructions in the design after the 'Performance (step 3)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
 Execute       send_msg_by_id INFO @200-1995@%s%s%s 122 Performance (step 4) (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2) 
 INFO: [HLS 200-1995] There were 122 instructions in the design after the 'Performance (step 4)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
-Command       send_msg_by_id done; 0.107 sec.
+Command       send_msg_by_id done; 0.979 sec.
 Execute       send_msg_by_id INFO @200-1995@%s%s%s 138 HW Transforms (step 1) (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2) 
 INFO: [HLS 200-1995] There were 138 instructions in the design after the 'HW Transforms (step 1)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
 Execute       send_msg_by_id INFO @200-1995@%s%s%s 171 HW Transforms (step 2) (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2) 
 INFO: [HLS 200-1995] There were 171 instructions in the design after the 'HW Transforms (step 2)' phase of compilation. See the Design Size Report for more details (C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth_design_size.rpt:2)
-INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_63_10> at ../MLP_baseline/mm.cpp:63:20 
-INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_37_4> at ../MLP_baseline/mm.cpp:37:19 
-INFO: [HLS 214-115] Multiple burst reads of length 16 and bit width 32 in loop 'VITIS_LOOP_35_3'(../MLP_baseline/mm.cpp:35:19) has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../MLP_baseline/mm.cpp:35:19)
-INFO: [HLS 214-115] Multiple burst writes of length 16 and bit width 32 in loop 'VITIS_LOOP_63_10'(../MLP_baseline/mm.cpp:63:20) has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../MLP_baseline/mm.cpp:63:20)
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_69_10> at ../MLP_baseline/mm.cpp:69:20 
+INFO: [HLS 214-376] automatically set the pipeline for Loop< VITIS_LOOP_43_4> at ../MLP_baseline/mm.cpp:43:19 
+INFO: [HLS 214-115] Multiple burst reads of length 16 and bit width 32 in loop 'VITIS_LOOP_41_3'(../MLP_baseline/mm.cpp:41:19) has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../MLP_baseline/mm.cpp:41:19)
+INFO: [HLS 214-115] Multiple burst writes of length 16 and bit width 32 in loop 'VITIS_LOOP_69_10'(../MLP_baseline/mm.cpp:69:20) has been inferred on bundle 'gmem'. These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings. (../MLP_baseline/mm.cpp:69:20)
 INFO-FLOW: DBG:PUTS: copy_raw_kernel_xml ap_link_39: kernel.xml not generated: C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/kernel.internal.xml
-INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 9.49 seconds; current allocated memory: 168.863 MB.
-INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.009 seconds; current allocated memory: 168.863 MB.
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 11.324 seconds; current allocated memory: 170.242 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.009 seconds; current allocated memory: 170.242 MB.
 Execute       opt_and_import_c a -opt_level=2 -skip_syncheck=0 -ng=0 -keep_printf=0 
 Execute         cleanup_all_models 
 INFO: [HLS 200-10] Starting code transformations ...
 INFO-FLOW: Running Standard Transforms...
 Execute         transform -hls -share-std-xform -demangle-name -inline-byval-memcpy -always-inline -promote-dbg-pointer -interface-preproc -mem2reg -scalarrepl -mem2reg -keep-read-access -instcombine -dce -promote-dbg-pointer -bitop-raise -loop-simplify -indvarspre -indvars -loop-simplify -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -simplifycfg -mem2reg -globalopt -global-constprop -deadargelim -instcombine -simplifycfg -scalarrepl -instcombine -reassociate -licm -simplifycfg -loop-simplify -indvars -instcombine -simplifycfg -mem2reg -loop-simplify -indvars -instcombine -gvn -gvn -instcombine -adce -break-crit-edges -simplifycfg -loop-delete -global-array-opt -dce -dse -adce -find-syn-modules -top MM -deadargelim -mem2reg -instcombine -dce -presyn-prepare -interface-preproc -syn-check -check-rec-only -find-region -simplifycfg -func-extr -function-inline -globaldce -mem2reg -instcombine -dce -gvn -globaldce -adce -adse -constprop -instcombine -bit-constprop -instcombine -dce -simplifycfg -bitop-raise -simplifycfg -dce -loop-delete -reassociate -globalopt -global-privatize -mem2reg -dce -global-constprop -pointer-simplify -constprop -dce -promote-dbg-pointer -norm-name C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.0.bc -o C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.1.bc -f -phase std-opt 
-Command         transform done; 0.164 sec.
-INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.211 seconds; current allocated memory: 174.055 MB.
+Command         transform done; 0.173 sec.
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.201 seconds; current allocated memory: 175.777 MB.
 INFO: [HLS 200-10] Checking synthesizability ...
 INFO-FLOW: Checking Synthesizability 1/2..
 Execute         transform -hls -syn-check -check-rec-only -scalarrepl -norm-name -dce -mem2reg -instcombine -directive-preproc -mem2reg -dse -dce -dce -pag -array-normalize -instcombine -dce -array-seg-normalize -instcombine -dce -data-pack -instcombine -dce -inst-simplify -array-flatten -instcombine -dce -array-burst -dce -deadargelim -promote-global-argument -simplifycfg -mem2reg -globaldce -dce -deadargelim -dce -instcombine -function-inline -globaldce -dce -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -dse -adse -instcombine -ptrLegalization -simplifycfg -dce -instcombine -pointer-simplify -ptrArgReplace -dce -instcombine -resolve-double-ptr -scalarrepl -norm-name -dce -mem2reg -instcombine -ptrLegalization -simplifycfg -deadargelim -instcombine -dce -inst-simplify -directive-preproc -mem2reg -dse -dce -globaldce C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.1.bc -o C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.2.prechk.bc -f 
 INFO-FLOW: Checking Synthesizability 2/2..
 Execute         transform -syn-check C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.2.prechk.bc -o C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.2.bc -f -phase syn-check 
-INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.087 seconds; current allocated memory: 177.027 MB.
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.1 seconds; current allocated memory: 178.781 MB.
 INFO-FLOW: Compiler optimizing ...
 INFO-FLOW: Share syncheck's 1.bc for syn flow: copy C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.g.1.bc to C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.o.1.bc
 INFO-FLOW: Presyn 1...
 Execute         transform -hls -tmp C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db -interface-port-rename -directive-preproc -mem2reg -dse -dce -scalarrepl -norm-name -deadargelim -dce -hls-dead-arg-elim -deadargelim -mem2reg -instcombine -dce -simplifycfg -dce -resource-proc -clib-intrinsic-prepare -dce -func-buffer -dce -pag -array-normalize -func-legal -instcombine -gvn -constprop -dce -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -ptrArgReplace -mem2reg -dce -array-seg-normalize -deadargelim -instcombine -dce -directive-preproc -mem2reg -dse -dce -pointer-simplify -dce -port-alignment -dce -interface-preproc -data-pack -instcombine -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -loop-simplify -indvars -instcombine -gvn -loop-simplify -mem2reg -dce -find-region -instcombine -inst-simplify -interface-preproc -cfgopt -instcombine -indvars -loop-simplify -loop-bound -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -clean-region -attach-range -gvn -inst-simplify -constprop -simplifycfg -dce -pointer-simplify -dce -globalopt -constprop -dce -ptrArgReplace -mem2reg -simplifycfg -dce -instcombine -dce -array-transform-check -array-reshape -instcombine -simplifycfg -dce -ptrArgReplace -deadargelim -mem2reg -instcombine -simplifycfg -dce -indvars -loop-simplify -loop-bound -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -duplicate-dataflow-processes -globaldce -instcombine -array-partition -prepare-dynamic-array-partition -instcombine -simplifycfg -dce -ptrArgReplace -global-constprop -deadargelim -mem2reg -func-legal -dce -global-constprop -deadargelim -mem2reg -simplifycfg -dce -merge-param -deadargelim -globalopt -constprop -dce -ptrArgReplace -mem2reg -simplifycfg -dce -mem-intrinsic-preproc -dce -global-internalize -global-privatize -mem2reg -globaldce -lcssa -loop-simplify -phi-select-elim -promote-global-argument -ptrArgReplace -mem2reg -dce -globalopt -mergereturn -simplify-global-access -mem2reg -dce -pointer-simplify -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -functionattrs -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -dce -norm-name -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -accesses-merge -function-inline -complex-op-raise -inst-simplify -globaldce -func-legal -dce -loop-bound -arraycheck -bitwidthmin2 -bitwidthmin2 -on-by-dataflow -loop-delete -instcombine -simplifycfg -globaldce -dce -gvn -deadargelim -dce -loop-simplify -clean-region -simplifycfg -propagate-stable-arguments -instcombine -simplifycfg -dce -globaldce -duplicate-dataflow-processes -stream-intrinsic-preproc -dce -check-ap-stream -loop-simplify -eliminate-keepreads -extract-dataflow-in-loop -loop-simplify -dce -gvn -deadargelim -dse -duplicate-dataflow-processes -check-dataflow-syntax -legalize-stream-variable -globaldce -extract-subproc -global-constprop -deadargelim -globaldce -legalize-global -dce -dead-channel-elimination -canonicalize-gep -globaldce -dce -gvn -hls-dead-arg-elim -deadargelim -canonicalize-dataflow -directive-preproc -dce -globaldce -scalar-preprocessing -scalar-propagation2 -scalar-stream -deadargelim -globaldce -mem2reg -check-dataflow-channels -function-stream -dce -globaldce -prop-fifo-spec -internal-stream-gen -canonicalize-gep -globaldce -dce -gvn -deadargelim -mergereturn -indvars -loop-simplify -instcombine -array-stream -array-seg-normalize -array-partition -clean-array-spec -func-legal -instcombine -simplifycfg -dce -bundle-memfifo-ops -deadargelim -directive-preproc -mem2reg -dse -dce -group-axi-access -licm -simplifycfg -dce -loop-delete -hls-display -norm-name C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.o.1.bc -o C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.o.1.tmp.bc -f 
-Command         transform done; 0.145 sec.
+Command         transform done; 0.14 sec.
 INFO-FLOW: Presyn 2...
 Execute         transform -hls -keep-callgraph -scalarrepl -mem2reg -port-alignment -attach-range -dce -pipe-mux-gen -indvars -loop-bound -inst-simplify -instcombine -dce -merge-array-access -mem2reg -dce -clean-region -mergereturn -if-conv -instcombine -dce -constprop -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -scalarrepl -mem2reg -global-constprop -deadargelim -deadargelim -instcombine -dce -simplifycfg -ptrArgReplace -mem2reg -function-inline -globaldce -mem2reg -instcombine -dce -expr-balance -instcombine -dce -bitwidthmin2 -bitwidthmin2 -interface-preproc -directive-preproc -inst-rectify -instcombine -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -functionattrs -constprop -instcombine -bit-constprop -simplify-global-access -globalopt -globaldce -inst-simplify -instcombine -elimdeaddata -dce -loop-delete -simplifycfg -loop-simplify -barrier -norm-name C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.o.1.tmp.bc -o C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.o.2.bc -f -phase presyn 
-INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.231 seconds; current allocated memory: 200.023 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.219 seconds; current allocated memory: 202.012 MB.
 Execute         transform -hls -auto-function-inline -globaldce -ptrArgReplace -mem2reg -dce -reset-lda -loop-simplify -indvars -aggr-aa -licm -loop-dep -loop-bound -licm -loop-simplify -loop-sink-hoist -flattenloopnest -array-flatten -gvn -instcombine -dce -array-map -dce -func-legal -gvn -adce -instcombine -cfgopt -simplifycfg-lite -loop-simplify -array-burst -promote-global-argument -dce -array-seg-normalize -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -gvn -gvn -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -dse -adse -adce -licm -inst-simplify -dce -globaldce -instcombine -array-stream -eliminate-keepreads -instcombine -dce -deadargelim -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -mem2reg -norm-name -mem2reg -instcombine -dse -adse -adce -ptrLegalization -dce -array-flatten -dce -instcombine -check-doubleptr -loop-rot -constprop -inst-simplify -cfgopt -simplifycfg-lite -loop-simplify -indvars -pointer-simplify -dce -loop-bound -loop-simplify -loop-preproc -constprop -global-constprop -gvn -mem2reg -instcombine -dce -loop-bound -loop-merge -dce -deadargelim -dce -canonicalize-dataflow -dce -deadargelim -globaldce -mem2reg -bram-byte-enable -inst-simplify -inst-rectify -instcombine -adce -deadargelim -load-elim -read-loop-dep -loop-simplify -loop-rewind-sink-hoist -loop-outline -hls-dead-arg-elim -directive-preproc -bitwidthmin2 -bitwidthmin2 -read-loop-dep -interface-preproc -directive-preproc -interface-gen -bram-byte-enable-spec-prop -mul2addshift -deadargelim -inst-simplify -dce -mem2reg -instcombine -gvn -dce -adse -loop-bound -instcombine -cfgopt -simplifycfg-lite -loop-simplify -clean-region -io-protocol -find-region -mem2reg -bitop-raise -complex-op-raise -inst-simplify -inst-rectify -instcombine -gvn -adce -deadargelim -float-op-raise -loop-simplify -phi-opt -bitop-raise -cfgopt -simplifycfg-lite -strip-dead-prototypes -interface-lower -bitop-lower -intrinsic-lower -auto-function-inline -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -inst-simplify -simplifycfg-lite -loop-simplify -mergereturn -inst-simplify -inst-rectify -globaldce -dce -load-elim -bitop-lower -float-op-raise -fma-raise -loop-rewind -pointer-simplify -dce -cfgopt -dce -loop-bound -loop-dep -read-loop-dep -dce -dyn-mem-reuse -dce -recurrence-min -dce -share-scalar-alloca -deadargelim -dce -check-stream -norm-name -legalize -inst-clarity -bitwidth -dce -validate-dataflow -dump-loop-dep-to-ir -check-all-ssdm -drop-inferred-ii -dump-complexity-metric C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.o.2.bc -o C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
-INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_35_3'(../MLP_baseline/mm.cpp:35:19) and 'VITIS_LOOP_37_4'(../MLP_baseline/mm.cpp:37:19) in function 'MM' into perfectly nested loops.
-INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_61_9'(../MLP_baseline/mm.cpp:61:30) and 'VITIS_LOOP_63_10'(../MLP_baseline/mm.cpp:63:20) in function 'MM' into perfectly nested loops.
-INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_35_3' (../MLP_baseline/mm.cpp:35:19) in function 'MM'.
-INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_61_9' (../MLP_baseline/mm.cpp:61:30) in function 'MM'.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_41_3'(../MLP_baseline/mm.cpp:41:19) and 'VITIS_LOOP_43_4'(../MLP_baseline/mm.cpp:43:19) in function 'MM' into perfectly nested loops.
+INFO: [HLS 200-2061] Successfully converted nested loops 'VITIS_LOOP_67_9'(../MLP_baseline/mm.cpp:67:30) and 'VITIS_LOOP_69_10'(../MLP_baseline/mm.cpp:69:20) in function 'MM' into perfectly nested loops.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_41_3' (../MLP_baseline/mm.cpp:41:19) in function 'MM'.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_67_9' (../MLP_baseline/mm.cpp:67:30) in function 'MM'.
 Execute           auto_get_db
-Command         transform done; 0.173 sec.
+Command         transform done; 0.186 sec.
 INFO-FLOW: Building ssdm...
 Execute         transform -hls -cdfg-build C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.o.3.bc -o C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
-Command         transform done; 0.129 sec.
-INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.303 seconds; current allocated memory: 200.195 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.276 seconds; current allocated memory: 202.039 MB.
 INFO-FLOW: Finish building internal data model.
-Command       opt_and_import_c done; 0.836 sec.
-Command     elaborate done; 17.58 sec.
+Command       opt_and_import_c done; 0.798 sec.
+Command     elaborate done; 18.861 sec.
 Execute     ap_eval exec zip -j C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/dut.hcp $dbDir/a.o.3.bc $dbDir/${topname}.rtl_wrap.cfg.tcl $dbDir/apatb_${topname}.cpp $dbDir/apatb_${topname}_util.cpp $dbDir/apatb_${topname}_ir.ll $dbDir/mapper_${topname}.cpp $dbDir/top-io-fe.xml $dbDir/kernel.internal.xml $workdir/../hls.app 
-Command     ap_eval done; 0.35 sec.
+Command     ap_eval done; 0.135 sec.
 Execute     autosyn -from_csynth_design=1 
 INFO: [HLS 200-10] Starting hardware synthesis ...
 INFO-FLOW: Synthesizing C/C++ design ...
@@ -767,13 +766,13 @@ INFO: [HLS 200-10] -------------------------------------------------------------
 Execute       set_default_model MM 
 Execute       schedule -model MM 
 INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_35_3_VITIS_LOOP_37_4'.
-INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_61_9_VITIS_LOOP_63_10'.
-INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 3, loop 'VITIS_LOOP_35_3_VITIS_LOOP_37_4'
-INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 12, loop 'VITIS_LOOP_61_9_VITIS_LOOP_63_10'
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_41_3_VITIS_LOOP_43_4'.
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_67_9_VITIS_LOOP_69_10'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 3, loop 'VITIS_LOOP_41_3_VITIS_LOOP_43_4'
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 12, loop 'VITIS_LOOP_67_9_VITIS_LOOP_69_10'
 INFO: [SCHED 204-11] Finished scheduling.
-Command       schedule done; 0.371 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.767 seconds; current allocated memory: 200.289 MB.
+Command       schedule done; 0.343 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.518 seconds; current allocated memory: 203.039 MB.
 Execute       syn_report -verbosereport -o C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.verbose.sched.rpt 
 Execute         list_part -family xc7z020-clg400-1 
 Execute           ap_family_info -name xc7z020-clg400-1 -data names 
@@ -787,7 +786,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.186 seconds; current allocated memory: 201.652 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.164 seconds; current allocated memory: 204.848 MB.
 Execute       syn_report -verbosereport -o C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.verbose.bind.rpt 
 Execute         list_part -family xc7z020-clg400-1 
 Execute           ap_family_info -name xc7z020-clg400-1 -data names 
@@ -818,8 +817,8 @@ INFO: [RTGEN 206-100] Generating core module 'mul_32s_32s_32_2_1': 1 instance(s)
 INFO: [RTGEN 206-100] Generating core module 'mul_5ns_32s_37_2_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'MM'.
 INFO: [RTMG 210-278] Implementing memory 'MM_AB_block_RAM_AUTO_1R1W' using auto RAMs.
-Command       create_rtl_model done; 0.265 sec.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.449 seconds; current allocated memory: 206.500 MB.
+Command       create_rtl_model done; 0.276 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.467 seconds; current allocated memory: 209.773 MB.
 Execute       source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.rtl_wrap.cfg.tcl 
 Execute       gen_rtl MM -istop -style xilinx -f -lang vhdl -o C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/vhdl/MM 
 Execute       gen_rtl MM -istop -style xilinx -f -lang vlog -o C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/verilog/MM 
@@ -836,7 +835,7 @@ Execute         list_part -family xc7z020-clg400-1
 Execute           ap_family_info -name xc7z020-clg400-1 -data names 
 Execute           ap_part_info -quiet -name xc7z020-clg400-1 -data family 
 Execute       db_write -model MM -f -o C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.adb 
-Command       db_write done; 0.108 sec.
+Command       db_write done; 0.118 sec.
 Execute       db_write -model MM -bindview -o C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/design.bindinfo.xml 
 Execute       gen_tb_info MM -p C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db -o C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM 
 Execute       export_constraint_db -f -tool general -o C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.constraint.tcl 
@@ -900,10 +899,10 @@ Execute         source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface
 Execute         source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/dds_compiler.gen 
 Execute         source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/util.gen 
 Execute         source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfft.gen 
-Command         ap_source done; 0.167 sec.
+Command         ap_source done; 0.102 sec.
 Execute         source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfir.gen 
 Execute         source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/DSP48/dsp48.gen 
-Command       ap_source done; 0.217 sec.
+Command       ap_source done; 0.145 sec.
 INFO-FLOW: DBG:PUTS:   using AESL_AUTOCG::g_clock_period=10.000 (was NA)
 INFO-FLOW: DBG:PROC: ::AESL_AUTOMG::generate_ip_cores gen_sim_model='1' gen_fp_models='0' gen_for_export='0' dstSCDir='' dstVhdlDir='C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/vhdl' dstVlogDir='C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/vlog' tclDir='C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db' modelList='MM_mul_32ns_32s_62_2_1
 MM_mul_32s_32s_32_2_1
@@ -920,15 +919,14 @@ Execute       source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baselin
 Execute       source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/global.setting.tcl 
 Execute       source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.compgen.tcl 
 Execute         source ./control.slave.tcl 
-Command       ap_source done; 0.119 sec.
-INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.683 seconds; current allocated memory: 213.375 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 1.372 seconds; current allocated memory: 217.523 MB.
 INFO-FLOW: DBG:PROC: ::HLSREPORTS::create_csynth_xml bind_info_var='bind_info' RtlSubPrefix='MM_' outfile=''
 INFO-FLOW: Running: create_csynth_xml read xml data
 INFO-FLOW: Done: create_csynth_xml read xml data time: 0 seconds per iteration
 INFO-FLOW: Running: create_csynth_xml bind info
 INFO-FLOW: Done: create_csynth_xml bind info time: 0 seconds per iteration
 INFO-FLOW: Running: create_csynth_xml config info
-INFO-FLOW: Done: create_csynth_xml config info time: 0.8 seconds per iteration
+INFO-FLOW: Done: create_csynth_xml config info time: 0.7 seconds per iteration
 INFO-FLOW: Running: create_csynth_xml write xml
 INFO-FLOW: Done: create_csynth_xml write xml time: 0 seconds per iteration
 INFO-FLOW: DBG:PUTS:      create_csynth_xml wrote csynth_xml=C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/syn/report/csynth.xml
@@ -955,769 +953,22 @@ Execute       ap_part_info -name xc7z020-clg400-1 -data info -quiet
 Execute       source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.constraint.tcl 
 Execute       sc_get_clocks MM 
 Execute       source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/global.setting.tcl 
-INFO-FLOW: DBG:PROC: ::HLSREPORTS::add_csynth_report_sections bind_info_dict='adapter_nodes {{BINDTYPE adapter ID {} IMPL {} LATENCY {} OPTYPE {} PRAGMA {} RTLNAME control_s_axi_U SOURCE {} VARIABLE {} LOOP {} BUNDLEDNAME control DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE s_axilite STORAGESIZE {} STORAGEUSAGE interface DISPNAME {bind_adapter }} {BINDTYPE adapter ID {} IMPL {} LATENCY {} OPTYPE {} PRAGMA {} RTLNAME gmem_m_axi_U SOURCE {} VARIABLE {} LOOP {} BUNDLEDNAME gmem DSP 0 BRAM 2 URAM 0 STORAGESUBTYPE m_axi STORAGESIZE {} STORAGEUSAGE interface DISPNAME {bind_adapter }}} cache_nodes {} report_dict {TOPINST MM MODULE2INSTS {MM MM} INST2MODULE {MM MM} INSTDATA {MM {DEPTH 1 CHILDREN {}}} MODULEDATA {MM {BINDINFO {{BINDTYPE storage ID {} IMPL auto LATENCY 1 OPTYPE ram_1p PRAGMA {} RTLNAME AB_block_U SOURCE ../MLP_baseline/mm.cpp:27 VARIABLE AB_block LOOP {} BUNDLEDNAME {} DSP 0 BRAM 1 URAM 0 STORAGESUBTYPE {} STORAGESIZE {32 256 1} STORAGEUSAGE {ram_1p array} DISPNAME {bind_storage ram_1p} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME p_neg9_fu_486_p2 SOURCE {} VARIABLE p_neg9 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME p_neg_t11_fu_502_p2 SOURCE {} VARIABLE p_neg_t11 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME div_fu_518_p3 SOURCE {} VARIABLE div LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME p_neg3_fu_534_p2 SOURCE {} VARIABLE p_neg3 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME p_neg_t5_fu_550_p2 SOURCE {} VARIABLE p_neg_t5 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME div2_fu_566_p3 SOURCE {} VARIABLE div2 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME p_neg_fu_582_p2 SOURCE {} VARIABLE p_neg LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME p_neg_t_fu_598_p2 SOURCE {} VARIABLE p_neg_t LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME div22_fu_614_p3 SOURCE {} VARIABLE div22 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln29_1_fu_654_p2 SOURCE ../MLP_baseline/mm.cpp:29 VARIABLE add_ln29_1 LOOP VITIS_LOOP_29_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE setlt PRAGMA {} RTLNAME icmp_ln29_fu_663_p2 SOURCE ../MLP_baseline/mm.cpp:29 VARIABLE icmp_ln29 LOOP VITIS_LOOP_29_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op setlt} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln29_fu_668_p2 SOURCE ../MLP_baseline/mm.cpp:29 VARIABLE add_ln29 LOOP VITIS_LOOP_29_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME empty_fu_694_p2 SOURCE ../MLP_baseline/mm.cpp:29 VARIABLE empty LOOP VITIS_LOOP_29_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE setlt PRAGMA {} RTLNAME icmp_ln31_fu_735_p2 SOURCE ../MLP_baseline/mm.cpp:31 VARIABLE icmp_ln31 LOOP VITIS_LOOP_31_2 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op setlt} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln31_fu_740_p2 SOURCE ../MLP_baseline/mm.cpp:31 VARIABLE add_ln31 LOOP VITIS_LOOP_31_2 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME icmp_ln35_fu_754_p2 SOURCE ../MLP_baseline/mm.cpp:35 VARIABLE icmp_ln35 LOOP VITIS_LOOP_35_3_VITIS_LOOP_37_4 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln35_1_fu_760_p2 SOURCE ../MLP_baseline/mm.cpp:35 VARIABLE add_ln35_1 LOOP VITIS_LOOP_35_3_VITIS_LOOP_37_4 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln35_fu_792_p2 SOURCE ../MLP_baseline/mm.cpp:35 VARIABLE add_ln35 LOOP VITIS_LOOP_35_3_VITIS_LOOP_37_4 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME icmp_ln37_fu_766_p2 SOURCE ../MLP_baseline/mm.cpp:37 VARIABLE icmp_ln37 LOOP VITIS_LOOP_35_3_VITIS_LOOP_37_4 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME select_ln36_fu_772_p3 SOURCE ../MLP_baseline/mm.cpp:36 VARIABLE select_ln36 LOOP VITIS_LOOP_35_3_VITIS_LOOP_37_4 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME select_ln35_fu_798_p3 SOURCE ../MLP_baseline/mm.cpp:35 VARIABLE select_ln35 LOOP VITIS_LOOP_35_3_VITIS_LOOP_37_4 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME first_iter_0_fu_780_p2 SOURCE ../MLP_baseline/mm.cpp:36 VARIABLE first_iter_0 LOOP VITIS_LOOP_35_3_VITIS_LOOP_37_4 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln38_fu_820_p2 SOURCE ../MLP_baseline/mm.cpp:38 VARIABLE add_ln38 LOOP VITIS_LOOP_35_3_VITIS_LOOP_37_4 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln37_fu_786_p2 SOURCE ../MLP_baseline/mm.cpp:37 VARIABLE add_ln37 LOOP VITIS_LOOP_35_3_VITIS_LOOP_37_4 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln43_1_fu_846_p2 SOURCE ../MLP_baseline/mm.cpp:43 VARIABLE add_ln43_1 LOOP VITIS_LOOP_43_5 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE setlt PRAGMA {} RTLNAME icmp_ln43_fu_855_p2 SOURCE ../MLP_baseline/mm.cpp:43 VARIABLE icmp_ln43 LOOP VITIS_LOOP_43_5 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op setlt} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln43_fu_860_p2 SOURCE ../MLP_baseline/mm.cpp:43 VARIABLE add_ln43 LOOP VITIS_LOOP_43_5 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln45_1_fu_886_p2 SOURCE ../MLP_baseline/mm.cpp:45 VARIABLE add_ln45_1 LOOP VITIS_LOOP_45_6 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME icmp_ln45_fu_891_p2 SOURCE ../MLP_baseline/mm.cpp:45 VARIABLE icmp_ln45 LOOP VITIS_LOOP_45_6 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln45_fu_897_p2 SOURCE ../MLP_baseline/mm.cpp:45 VARIABLE add_ln45 LOOP VITIS_LOOP_45_6 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME tmp_fu_903_p2 SOURCE ../MLP_baseline/mm.cpp:43 VARIABLE tmp LOOP VITIS_LOOP_45_6 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME empty_50_fu_912_p2 SOURCE ../MLP_baseline/mm.cpp:43 VARIABLE empty_50 LOOP VITIS_LOOP_45_6 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME empty_51_fu_928_p2 SOURCE ../MLP_baseline/mm.cpp:43 VARIABLE empty_51 LOOP VITIS_LOOP_45_6 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME icmp_ln47_fu_947_p2 SOURCE ../MLP_baseline/mm.cpp:47 VARIABLE icmp_ln47 LOOP VITIS_LOOP_47_7 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln47_fu_953_p2 SOURCE ../MLP_baseline/mm.cpp:47 VARIABLE add_ln47 LOOP VITIS_LOOP_47_7 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln49_fu_963_p2 SOURCE ../MLP_baseline/mm.cpp:49 VARIABLE add_ln49 LOOP VITIS_LOOP_47_7 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME icmp_ln51_fu_982_p2 SOURCE ../MLP_baseline/mm.cpp:51 VARIABLE icmp_ln51 LOOP VITIS_LOOP_51_8 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln51_fu_988_p2 SOURCE ../MLP_baseline/mm.cpp:51 VARIABLE add_ln51 LOOP VITIS_LOOP_51_8 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln54_1_fu_1006_p2 SOURCE ../MLP_baseline/mm.cpp:54 VARIABLE add_ln54_1 LOOP VITIS_LOOP_51_8 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln53_fu_1015_p2 SOURCE ../MLP_baseline/mm.cpp:53 VARIABLE add_ln53 LOOP VITIS_LOOP_51_8 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 1 OPTYPE mul PRAGMA {} RTLNAME mul_32ns_32s_62_2_1_U1 SOURCE ../MLP_baseline/mm.cpp:53 VARIABLE mul_ln53 LOOP VITIS_LOOP_51_8 BUNDLEDNAME {} DSP 4 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln53_2_fu_1040_p2 SOURCE ../MLP_baseline/mm.cpp:53 VARIABLE add_ln53_2 LOOP VITIS_LOOP_51_8 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 1 OPTYPE mul PRAGMA {} RTLNAME mul_32s_32s_32_2_1_U2 SOURCE ../MLP_baseline/mm.cpp:54 VARIABLE mul_ln54 LOOP VITIS_LOOP_51_8 BUNDLEDNAME {} DSP 3 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln54_fu_1069_p2 SOURCE ../MLP_baseline/mm.cpp:54 VARIABLE add_ln54 LOOP VITIS_LOOP_51_8 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME icmp_ln61_fu_1075_p2 SOURCE ../MLP_baseline/mm.cpp:61 VARIABLE icmp_ln61 LOOP VITIS_LOOP_61_9_VITIS_LOOP_63_10 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln61_1_fu_1081_p2 SOURCE ../MLP_baseline/mm.cpp:61 VARIABLE add_ln61_1 LOOP VITIS_LOOP_61_9_VITIS_LOOP_63_10 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln61_fu_1087_p2 SOURCE ../MLP_baseline/mm.cpp:61 VARIABLE add_ln61 LOOP VITIS_LOOP_61_9_VITIS_LOOP_63_10 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME icmp_ln63_fu_1093_p2 SOURCE ../MLP_baseline/mm.cpp:63 VARIABLE icmp_ln63 LOOP VITIS_LOOP_61_9_VITIS_LOOP_63_10 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME select_ln62_fu_1099_p3 SOURCE ../MLP_baseline/mm.cpp:62 VARIABLE select_ln62 LOOP VITIS_LOOP_61_9_VITIS_LOOP_63_10 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME select_ln61_fu_1107_p3 SOURCE ../MLP_baseline/mm.cpp:61 VARIABLE select_ln61 LOOP VITIS_LOOP_61_9_VITIS_LOOP_63_10 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME first_iter_1_fu_1119_p2 SOURCE ../MLP_baseline/mm.cpp:62 VARIABLE first_iter_1 LOOP VITIS_LOOP_61_9_VITIS_LOOP_63_10 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 1 OPTYPE mul PRAGMA {} RTLNAME mul_5ns_32s_37_2_1_U3 SOURCE ../MLP_baseline/mm.cpp:61 VARIABLE empty_55 LOOP VITIS_LOOP_61_9_VITIS_LOOP_63_10 BUNDLEDNAME {} DSP 2 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME empty_57_fu_1183_p2 SOURCE ../MLP_baseline/mm.cpp:29 VARIABLE empty_57 LOOP VITIS_LOOP_61_9_VITIS_LOOP_63_10 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln64_fu_1137_p2 SOURCE ../MLP_baseline/mm.cpp:64 VARIABLE add_ln64 LOOP VITIS_LOOP_61_9_VITIS_LOOP_63_10 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln63_fu_1143_p2 SOURCE ../MLP_baseline/mm.cpp:63 VARIABLE add_ln63 LOOP VITIS_LOOP_61_9_VITIS_LOOP_63_10 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME icmp_ln63_1_fu_1149_p2 SOURCE ../MLP_baseline/mm.cpp:63 VARIABLE icmp_ln63_1 LOOP VITIS_LOOP_61_9_VITIS_LOOP_63_10 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false}} AREA {DSP 9 BRAM 3 URAM 0}}}}'
+INFO-FLOW: DBG:PROC: ::HLSREPORTS::add_csynth_report_sections bind_info_dict='adapter_nodes {{BINDTYPE adapter ID {} IMPL {} LATENCY {} OPTYPE {} PRAGMA {} RTLNAME control_s_axi_U SOURCE {} VARIABLE {} LOOP {} BUNDLEDNAME control DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE s_axilite STORAGESIZE {} STORAGEUSAGE interface DISPNAME {bind_adapter }} {BINDTYPE adapter ID {} IMPL {} LATENCY {} OPTYPE {} PRAGMA {} RTLNAME gmem_m_axi_U SOURCE {} VARIABLE {} LOOP {} BUNDLEDNAME gmem DSP 0 BRAM 2 URAM 0 STORAGESUBTYPE m_axi STORAGESIZE {} STORAGEUSAGE interface DISPNAME {bind_adapter }}} cache_nodes {} report_dict {TOPINST MM MODULE2INSTS {MM MM} INST2MODULE {MM MM} INSTDATA {MM {DEPTH 1 CHILDREN {}}} MODULEDATA {MM {BINDINFO {{BINDTYPE storage ID {} IMPL auto LATENCY 1 OPTYPE ram_1p PRAGMA {} RTLNAME AB_block_U SOURCE ../MLP_baseline/mm.cpp:33 VARIABLE AB_block LOOP {} BUNDLEDNAME {} DSP 0 BRAM 1 URAM 0 STORAGESUBTYPE {} STORAGESIZE {32 256 1} STORAGEUSAGE {ram_1p array} DISPNAME {bind_storage ram_1p} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME p_neg9_fu_486_p2 SOURCE {} VARIABLE p_neg9 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME p_neg_t11_fu_502_p2 SOURCE {} VARIABLE p_neg_t11 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME div_fu_518_p3 SOURCE {} VARIABLE div LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME p_neg3_fu_534_p2 SOURCE {} VARIABLE p_neg3 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME p_neg_t5_fu_550_p2 SOURCE {} VARIABLE p_neg_t5 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME div2_fu_566_p3 SOURCE {} VARIABLE div2 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME p_neg_fu_582_p2 SOURCE {} VARIABLE p_neg LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE sub PRAGMA {} RTLNAME p_neg_t_fu_598_p2 SOURCE {} VARIABLE p_neg_t LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op sub} VISIBLE true} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME div22_fu_614_p3 SOURCE {} VARIABLE div22 LOOP {} BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln35_1_fu_654_p2 SOURCE ../MLP_baseline/mm.cpp:35 VARIABLE add_ln35_1 LOOP VITIS_LOOP_35_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE setlt PRAGMA {} RTLNAME icmp_ln35_fu_663_p2 SOURCE ../MLP_baseline/mm.cpp:35 VARIABLE icmp_ln35 LOOP VITIS_LOOP_35_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op setlt} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln35_fu_668_p2 SOURCE ../MLP_baseline/mm.cpp:35 VARIABLE add_ln35 LOOP VITIS_LOOP_35_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME empty_fu_694_p2 SOURCE ../MLP_baseline/mm.cpp:35 VARIABLE empty LOOP VITIS_LOOP_35_1 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE setlt PRAGMA {} RTLNAME icmp_ln37_fu_735_p2 SOURCE ../MLP_baseline/mm.cpp:37 VARIABLE icmp_ln37 LOOP VITIS_LOOP_37_2 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op setlt} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln37_fu_740_p2 SOURCE ../MLP_baseline/mm.cpp:37 VARIABLE add_ln37 LOOP VITIS_LOOP_37_2 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME icmp_ln41_fu_754_p2 SOURCE ../MLP_baseline/mm.cpp:41 VARIABLE icmp_ln41 LOOP VITIS_LOOP_41_3_VITIS_LOOP_43_4 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln41_1_fu_760_p2 SOURCE ../MLP_baseline/mm.cpp:41 VARIABLE add_ln41_1 LOOP VITIS_LOOP_41_3_VITIS_LOOP_43_4 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln41_fu_792_p2 SOURCE ../MLP_baseline/mm.cpp:41 VARIABLE add_ln41 LOOP VITIS_LOOP_41_3_VITIS_LOOP_43_4 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME icmp_ln43_fu_766_p2 SOURCE ../MLP_baseline/mm.cpp:43 VARIABLE icmp_ln43 LOOP VITIS_LOOP_41_3_VITIS_LOOP_43_4 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME select_ln42_fu_772_p3 SOURCE ../MLP_baseline/mm.cpp:42 VARIABLE select_ln42 LOOP VITIS_LOOP_41_3_VITIS_LOOP_43_4 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME select_ln41_fu_798_p3 SOURCE ../MLP_baseline/mm.cpp:41 VARIABLE select_ln41 LOOP VITIS_LOOP_41_3_VITIS_LOOP_43_4 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME first_iter_0_fu_780_p2 SOURCE ../MLP_baseline/mm.cpp:42 VARIABLE first_iter_0 LOOP VITIS_LOOP_41_3_VITIS_LOOP_43_4 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln44_fu_820_p2 SOURCE ../MLP_baseline/mm.cpp:44 VARIABLE add_ln44 LOOP VITIS_LOOP_41_3_VITIS_LOOP_43_4 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln43_fu_786_p2 SOURCE ../MLP_baseline/mm.cpp:43 VARIABLE add_ln43 LOOP VITIS_LOOP_41_3_VITIS_LOOP_43_4 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln49_1_fu_846_p2 SOURCE ../MLP_baseline/mm.cpp:49 VARIABLE add_ln49_1 LOOP VITIS_LOOP_49_5 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE setlt PRAGMA {} RTLNAME icmp_ln49_fu_855_p2 SOURCE ../MLP_baseline/mm.cpp:49 VARIABLE icmp_ln49 LOOP VITIS_LOOP_49_5 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op setlt} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln49_fu_860_p2 SOURCE ../MLP_baseline/mm.cpp:49 VARIABLE add_ln49 LOOP VITIS_LOOP_49_5 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln51_1_fu_886_p2 SOURCE ../MLP_baseline/mm.cpp:51 VARIABLE add_ln51_1 LOOP VITIS_LOOP_51_6 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME icmp_ln51_fu_891_p2 SOURCE ../MLP_baseline/mm.cpp:51 VARIABLE icmp_ln51 LOOP VITIS_LOOP_51_6 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln51_fu_897_p2 SOURCE ../MLP_baseline/mm.cpp:51 VARIABLE add_ln51 LOOP VITIS_LOOP_51_6 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME tmp_fu_903_p2 SOURCE ../MLP_baseline/mm.cpp:49 VARIABLE tmp LOOP VITIS_LOOP_51_6 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME empty_50_fu_912_p2 SOURCE ../MLP_baseline/mm.cpp:49 VARIABLE empty_50 LOOP VITIS_LOOP_51_6 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME empty_51_fu_928_p2 SOURCE ../MLP_baseline/mm.cpp:49 VARIABLE empty_51 LOOP VITIS_LOOP_51_6 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME icmp_ln53_fu_947_p2 SOURCE ../MLP_baseline/mm.cpp:53 VARIABLE icmp_ln53 LOOP VITIS_LOOP_53_7 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln53_fu_953_p2 SOURCE ../MLP_baseline/mm.cpp:53 VARIABLE add_ln53 LOOP VITIS_LOOP_53_7 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln55_fu_963_p2 SOURCE ../MLP_baseline/mm.cpp:55 VARIABLE add_ln55 LOOP VITIS_LOOP_53_7 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME icmp_ln57_fu_982_p2 SOURCE ../MLP_baseline/mm.cpp:57 VARIABLE icmp_ln57 LOOP VITIS_LOOP_57_8 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln57_fu_988_p2 SOURCE ../MLP_baseline/mm.cpp:57 VARIABLE add_ln57 LOOP VITIS_LOOP_57_8 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln60_1_fu_1006_p2 SOURCE ../MLP_baseline/mm.cpp:60 VARIABLE add_ln60_1 LOOP VITIS_LOOP_57_8 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln59_fu_1015_p2 SOURCE ../MLP_baseline/mm.cpp:59 VARIABLE add_ln59 LOOP VITIS_LOOP_57_8 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 1 OPTYPE mul PRAGMA {} RTLNAME mul_32ns_32s_62_2_1_U1 SOURCE ../MLP_baseline/mm.cpp:59 VARIABLE mul_ln59 LOOP VITIS_LOOP_57_8 BUNDLEDNAME {} DSP 4 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln59_2_fu_1040_p2 SOURCE ../MLP_baseline/mm.cpp:59 VARIABLE add_ln59_2 LOOP VITIS_LOOP_57_8 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 1 OPTYPE mul PRAGMA {} RTLNAME mul_32s_32s_32_2_1_U2 SOURCE ../MLP_baseline/mm.cpp:60 VARIABLE mul_ln60 LOOP VITIS_LOOP_57_8 BUNDLEDNAME {} DSP 3 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln60_fu_1069_p2 SOURCE ../MLP_baseline/mm.cpp:60 VARIABLE add_ln60 LOOP VITIS_LOOP_57_8 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME icmp_ln67_fu_1075_p2 SOURCE ../MLP_baseline/mm.cpp:67 VARIABLE icmp_ln67 LOOP VITIS_LOOP_67_9_VITIS_LOOP_69_10 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln67_1_fu_1081_p2 SOURCE ../MLP_baseline/mm.cpp:67 VARIABLE add_ln67_1 LOOP VITIS_LOOP_67_9_VITIS_LOOP_69_10 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln67_fu_1087_p2 SOURCE ../MLP_baseline/mm.cpp:67 VARIABLE add_ln67 LOOP VITIS_LOOP_67_9_VITIS_LOOP_69_10 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME icmp_ln69_fu_1093_p2 SOURCE ../MLP_baseline/mm.cpp:69 VARIABLE icmp_ln69 LOOP VITIS_LOOP_67_9_VITIS_LOOP_69_10 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME select_ln68_fu_1099_p3 SOURCE ../MLP_baseline/mm.cpp:68 VARIABLE select_ln68 LOOP VITIS_LOOP_67_9_VITIS_LOOP_69_10 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto_sel LATENCY 0 OPTYPE select PRAGMA {} RTLNAME select_ln67_fu_1107_p3 SOURCE ../MLP_baseline/mm.cpp:67 VARIABLE select_ln67 LOOP VITIS_LOOP_67_9_VITIS_LOOP_69_10 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op select} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME first_iter_1_fu_1119_p2 SOURCE ../MLP_baseline/mm.cpp:68 VARIABLE first_iter_1 LOOP VITIS_LOOP_67_9_VITIS_LOOP_69_10 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false} {BINDTYPE op ID {} IMPL auto LATENCY 1 OPTYPE mul PRAGMA {} RTLNAME mul_5ns_32s_37_2_1_U3 SOURCE ../MLP_baseline/mm.cpp:67 VARIABLE empty_55 LOOP VITIS_LOOP_67_9_VITIS_LOOP_69_10 BUNDLEDNAME {} DSP 2 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op mul} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME empty_57_fu_1183_p2 SOURCE ../MLP_baseline/mm.cpp:35 VARIABLE empty_57 LOOP VITIS_LOOP_67_9_VITIS_LOOP_69_10 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln70_fu_1137_p2 SOURCE ../MLP_baseline/mm.cpp:70 VARIABLE add_ln70 LOOP VITIS_LOOP_67_9_VITIS_LOOP_69_10 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL fabric LATENCY 0 OPTYPE add PRAGMA {} RTLNAME add_ln69_fu_1143_p2 SOURCE ../MLP_baseline/mm.cpp:69 VARIABLE add_ln69 LOOP VITIS_LOOP_67_9_VITIS_LOOP_69_10 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op add} VISIBLE true} {BINDTYPE op ID {} IMPL auto LATENCY 0 OPTYPE seteq PRAGMA {} RTLNAME icmp_ln69_1_fu_1149_p2 SOURCE ../MLP_baseline/mm.cpp:69 VARIABLE icmp_ln69_1 LOOP VITIS_LOOP_67_9_VITIS_LOOP_69_10 BUNDLEDNAME {} DSP 0 BRAM 0 URAM 0 STORAGESUBTYPE {} DISPNAME {bind_op seteq} VISIBLE false}} AREA {DSP 9 BRAM 3 URAM 0}}}}'
 INFO-FLOW: DBG:PUTS:      update_csynth_reports json2rpt_hw_sw_interfaces
 Execute       send_msg_by_id INFO @200-1603@%s  and missed bursts 
 INFO: [HLS 200-1603] Design has inferred MAXI bursts and missed bursts, see Vitis HLS GUI synthesis summary report for detailed information.
 INFO-FLOW: Running: gen_csynth_sec_pragma
-INFO-FLOW: Done: gen_csynth_sec_pragma time: 0.1 seconds per iteration
+INFO-FLOW: Done: gen_csynth_sec_pragma time: 0 seconds per iteration
 INFO-FLOW: DBG:PUTS:      update_csynth_reports wrote xml
 INFO-FLOW: DBG:PUTS:      update_csynth_reports appended to csynth rpt file
-INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 2.811 seconds; current allocated memory: 218.867 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.633 seconds; current allocated memory: 222.895 MB.
 INFO: [VHDL 208-304] Generating VHDL RTL for MM.
 INFO: [VLOG 209-307] Generating Verilog RTL for MM.
 Execute       syn_report -model MM -printsummary 
 INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
 INFO: [HLS 200-789] **** Estimated Fmax: 136.99 MHz
-Command     autosyn done; 5.547 sec.
-Command   csynth_design done; 24.526 sec.
-Execute   close_project 
-Execute     close_solution 
-Execute       cleanup_all 
-Execute       cleanup_all 
-Execute       source -notrace -encoding utf-8 C:/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/clock.tcl 
-Execute         source -encoding utf-8 C:/Xilinx/2025.1/Vitis/tps/tcl/tcl8/8.5/msgcat-1.6.1.tm 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/0compatibility/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/amazon-s3/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/asn/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/base32/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/base64/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/bee/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/bench/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/bibtex/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/cache/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/clay/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/clock/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/cmdline/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/comm/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/control/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/coroutine/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/counter/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/crc/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/cron/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/csv/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/debug/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/defer/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/dicttool/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/dns/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/docstrip/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/doctools/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/doctools2base/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/doctools2idx/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/doctools2toc/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/dtplite/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/fileutil/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ftp/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ftpd/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/fumagic/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/generator/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/gpx/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/grammar_aycock/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/grammar_fa/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/grammar_me/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/grammar_peg/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/hook/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/html/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/htmlparse/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/http/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/httpd/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/httpwget/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ident/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/imap4/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/inifile/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/interp/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/irc/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/javascript/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/jpeg/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/json/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/lambda/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/lazyset/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ldap/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/log/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/map/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/mapproj/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/markdown/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/math/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/md4/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/md5/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/md5crypt/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/mime/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/mkdoc/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/multiplexer/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/namespacex/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ncgi/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/nettool/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/nmea/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/nns/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/nntp/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ntp/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/oauth/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/oodialect/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/oometa/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ooutil/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/otp/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/page/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/pluginmgr/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/png/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/pop3/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/pop3d/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/practcl/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/processman/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/profiler/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/pt/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/rcs/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/report/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/rest/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ripemd/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/sasl/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/sha1/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/simulation/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/smtpd/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/snit/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/soundex/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/stooop/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/string/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/stringprep/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/struct/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/tar/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/tepam/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/term/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/textutil/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/tie/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/tiff/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/tool/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/transfer/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/treeql/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/try/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/udpcluster/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/uev/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/units/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/uri/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/uuid/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/valtype/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/virtchannel_base/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/virtchannel_core/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/virtchannel_transform/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/websocket/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/wip/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/zip/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/0compatibility/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/amazon-s3/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/asn/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/base32/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/base64/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/bee/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/bench/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/bibtex/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/cache/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/clay/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/clock/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/cmdline/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/comm/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/control/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/coroutine/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/counter/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/crc/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/cron/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/csv/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/debug/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/defer/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/dicttool/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/dns/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/docstrip/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/doctools/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/doctools2base/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/doctools2idx/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/doctools2toc/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/dtplite/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/fileutil/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ftp/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ftpd/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/fumagic/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/generator/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/gpx/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/grammar_aycock/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/grammar_fa/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/grammar_me/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/grammar_peg/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/hook/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/html/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/htmlparse/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/http/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/httpd/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/httpwget/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ident/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/imap4/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/inifile/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/interp/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/irc/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/javascript/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/jpeg/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/json/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/lambda/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/lazyset/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ldap/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/log/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/map/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/mapproj/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/markdown/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/math/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/md4/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/md5/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/md5crypt/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/mime/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/mkdoc/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/multiplexer/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/namespacex/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ncgi/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/nettool/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/nmea/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/nns/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/nntp/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ntp/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/oauth/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/oodialect/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/oometa/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ooutil/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/otp/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/page/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/pluginmgr/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/png/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/pop3/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/pop3d/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/practcl/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/processman/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/profiler/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/pt/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/rcs/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/report/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/rest/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ripemd/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/sasl/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/sha1/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/simulation/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/smtpd/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/snit/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/soundex/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/stooop/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/string/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/stringprep/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/struct/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/tar/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/tepam/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/term/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/textutil/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/tie/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/tiff/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/tool/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/transfer/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/treeql/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/try/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/udpcluster/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/uev/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/units/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/uri/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/uuid/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/valtype/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/virtchannel_base/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/virtchannel_core/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/virtchannel_transform/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/websocket/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/wip/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/pkgIndex.tcl 
-Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/zip/pkgIndex.tcl 
-Command           ap_source done; 0.161 sec.
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tdom/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tk8.6/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/opt0.4/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/pkgs/win/thread2.8.7/pkgIndex.tcl 
-Command         ap_source done; 0.32 sec.
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/0compatibility/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/amazon-s3/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/asn/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/base32/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/base64/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/bee/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/bench/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/bibtex/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/cache/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/clay/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/clock/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/cmdline/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/comm/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/control/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/coroutine/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/counter/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/crc/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/cron/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/csv/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/debug/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/defer/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/dicttool/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/dns/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/docstrip/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/doctools/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/doctools2base/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/doctools2idx/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/doctools2toc/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/dtplite/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/fileutil/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ftp/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ftpd/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/fumagic/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/generator/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/gpx/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/grammar_aycock/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/grammar_fa/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/grammar_me/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/grammar_peg/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/hook/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/html/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/htmlparse/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/http/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/httpd/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/httpwget/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ident/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/imap4/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/inifile/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/interp/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/irc/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/javascript/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/jpeg/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/json/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/lambda/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/lazyset/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ldap/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/log/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/map/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/mapproj/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/markdown/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/math/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/md4/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/md5/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/md5crypt/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/mime/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/mkdoc/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/multiplexer/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/namespacex/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ncgi/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/nettool/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/nmea/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/nns/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/nntp/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ntp/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/oauth/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/oodialect/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/oometa/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ooutil/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/otp/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/page/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/pluginmgr/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/png/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/pop3/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/pop3d/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/practcl/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/processman/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/profiler/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/pt/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/rcs/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/report/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/rest/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ripemd/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/sasl/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/sha1/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/simulation/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/smtpd/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/snit/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/soundex/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/stooop/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/string/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/stringprep/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/struct/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/tar/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/tepam/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/term/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/textutil/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/tie/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/tiff/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/tool/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/transfer/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/treeql/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/try/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/udpcluster/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/uev/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/units/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/uri/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/uuid/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/valtype/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/virtchannel_base/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/virtchannel_core/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/virtchannel_transform/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/websocket/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/wip/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/zip/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/0compatibility/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/amazon-s3/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/asn/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/base32/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/base64/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/bee/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/bench/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/bibtex/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/cache/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/clay/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/clock/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/cmdline/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/comm/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/control/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/coroutine/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/counter/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/crc/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/cron/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/csv/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/debug/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/defer/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/dicttool/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/dns/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/docstrip/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/doctools/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/doctools2base/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/doctools2idx/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/doctools2toc/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/dtplite/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/fileutil/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ftp/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ftpd/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/fumagic/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/generator/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/gpx/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/grammar_aycock/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/grammar_fa/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/grammar_me/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/grammar_peg/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/hook/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/html/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/htmlparse/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/http/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/httpd/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/httpwget/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ident/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/imap4/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/inifile/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/interp/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/irc/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/javascript/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/jpeg/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/json/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/lambda/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/lazyset/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ldap/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/log/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/map/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/mapproj/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/markdown/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/math/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/md4/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/md5/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/md5crypt/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/mime/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/mkdoc/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/multiplexer/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/namespacex/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ncgi/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/nettool/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/nmea/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/nns/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/nntp/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ntp/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/oauth/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/oodialect/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/oometa/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ooutil/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/otp/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/page/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/pluginmgr/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/png/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/pop3/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/pop3d/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/practcl/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/processman/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/profiler/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/pt/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/rcs/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/report/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/rest/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/ripemd/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/sasl/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/sha1/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/simulation/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/smtpd/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/snit/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/soundex/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/stooop/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/string/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/stringprep/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/struct/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/tar/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/tepam/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/term/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/textutil/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/tie/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/tiff/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/tool/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/transfer/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/treeql/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/try/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/udpcluster/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/uev/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/units/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/uri/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/uuid/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/valtype/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/virtchannel_base/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/virtchannel_core/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/virtchannel_transform/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/websocket/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/wip/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/pkgIndex.tcl 
-Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/zip/pkgIndex.tcl 
-Command         ap_source done; 0.12 sec.
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tdom/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tk8.6/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/opt0.4/pkgIndex.tcl 
-Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/pkgs/win/thread2.8.7/pkgIndex.tcl 
-Command       ap_source done; 0.622 sec.
-INFO-FLOW: Workspace C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls opened at Mon Apr 06 22:32:54 -0700 2026
-Execute       source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/global.setting.tcl 
-Execute       set_part xc7z020-clg400-1 
-Execute         create_platform xc7z020-clg400-1 -board  
-DBG:HLSDevice: Trying to load device library: C:/Xilinx/2025.1/Vitis\lib\win64.o\xv_hlsvwrap.dll
-DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/2025.1/Vivado/data/parts/arch.xml
-DBG:HLSDevice: init success
-INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
-Command         create_platform done; 1.665 sec.
-Execute         source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/common/xilinx.gen 
-Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/plb46.gen 
-Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/axi4.gen 
-Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/nativeAXI4.gen 
-Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/saxilite.gen 
-Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/scripts/xilinxcoregen.gen 
-Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/XilEDKCoreGen.gen 
-Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/dds_compiler.gen 
-Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/util.gen 
-Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfft.gen 
-Command           ap_source done; 0.189 sec.
-Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfir.gen 
-Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/DSP48/dsp48.gen 
-Command         ap_source done; 0.3 sec.
-Execute         ap_part_info -name xc7z020-clg400-1 -data info 
-Execute         config_compile -quiet -complex-mul-dsp=0 
-Command       set_part done; 2.115 sec.
-Execute       send_msg_by_id INFO @200-1505@%s%s default  vivado 
-INFO: [HLS 200-1505] Using default flow_target 'vivado'
-Execute       send_msg_by_id INFO @200-2174@%s%s component C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg 
-INFO: [HLS 200-2174] Applying component config ini file C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg
-Execute       apply_ini C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg 
-Execute         send_msg_by_id INFO @200-1465@%s 'syn.file=../MLP_baseline/mm.cpp' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(7) 
-INFO: [HLS 200-1465] Applying config ini 'syn.file=../MLP_baseline/mm.cpp' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(7)
-Execute         add_files C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm.cpp 
-INFO: [HLS 200-10] Adding design file 'C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm.cpp' to the project
-Execute         send_msg_by_id INFO @200-1465@%s 'syn.file=../MLP_baseline/mm.h' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(8) 
-INFO: [HLS 200-1465] Applying config ini 'syn.file=../MLP_baseline/mm.h' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(8)
-Execute         add_files C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm.h 
-INFO: [HLS 200-10] Adding design file 'C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm.h' to the project
-Execute         send_msg_by_id INFO @200-1465@%s 'tb.file=../MLP_baseline/first_layer_golden_output.txt' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(9) 
-INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/first_layer_golden_output.txt' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(9)
-Execute         add_files -tb C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/first_layer_golden_output.txt 
-INFO: [HLS 200-10] Adding test bench file 'C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/first_layer_golden_output.txt' to the project
-Execute         send_msg_by_id INFO @200-1465@%s 'tb.file=../MLP_baseline/mm_test.cpp' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(10) 
-INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/mm_test.cpp' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(10)
-Execute         add_files -tb C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm_test.cpp 
-INFO: [HLS 200-10] Adding test bench file 'C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm_test.cpp' to the project
-Execute         send_msg_by_id INFO @200-1465@%s 'tb.file=../MLP_baseline/mnist_images_int.txt' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(11) 
-INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/mnist_images_int.txt' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(11)
-Execute         add_files -tb C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mnist_images_int.txt 
-INFO: [HLS 200-10] Adding test bench file 'C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mnist_images_int.txt' to the project
-Execute         send_msg_by_id INFO @200-1465@%s 'tb.file=../MLP_baseline/weights_layer1.txt' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(12) 
-INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/weights_layer1.txt' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(12)
-Execute         add_files -tb C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/weights_layer1.txt 
-INFO: [HLS 200-10] Adding test bench file 'C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/weights_layer1.txt' to the project
-Execute         send_msg_by_id INFO @200-1465@%s 'tb.file=../MLP_baseline/weights_layer2.txt' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(13) 
-INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/weights_layer2.txt' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(13)
-Execute         add_files -tb C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/weights_layer2.txt 
-INFO: [HLS 200-10] Adding test bench file 'C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/weights_layer2.txt' to the project
-Execute         send_msg_by_id INFO @200-1465@%s 'tb.file=../MLP_baseline/weights_layer3.txt' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(14) 
-INFO: [HLS 200-1465] Applying config ini 'tb.file=../MLP_baseline/weights_layer3.txt' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(14)
-Execute         add_files -tb C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/weights_layer3.txt 
-INFO: [HLS 200-10] Adding test bench file 'C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/weights_layer3.txt' to the project
-Execute         send_msg_by_id INFO @200-1465@%s 'syn.top=MM' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(15) 
-INFO: [HLS 200-1465] Applying config ini 'syn.top=MM' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(15)
-Execute         set_top MM 
-Execute         send_msg_by_id INFO @200-1465@%s 'flow_target=vivado' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(4) 
-INFO: [HLS 200-1465] Applying config ini 'flow_target=vivado' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(4)
-Execute         send_msg_by_id INFO @200-1505@%s%s  vivado 
-INFO: [HLS 200-1505] Using flow_target 'vivado'
-Execute         send_msg_by_id INFO @200-1465@%s 'part=xc7z020clg400-1' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(1) 
-INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(1)
-Execute         set_part xc7z020clg400-1 
-Execute           create_platform xc7z020clg400-1 -board  
-Command           create_platform done; 0.447 sec.
-Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/common/xilinx.gen 
-Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/plb46.gen 
-Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/axi4.gen 
-Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/nativeAXI4.gen 
-Execute               source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/saxilite.gen 
-Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/scripts/xilinxcoregen.gen 
-Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/XilEDKCoreGen.gen 
-Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/dds_compiler.gen 
-Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/util.gen 
-Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfft.gen 
-Command             ap_source done; 0.201 sec.
-Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfir.gen 
-Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/DSP48/dsp48.gen 
-Command           ap_source done; 0.276 sec.
-Execute           ap_part_info -name xc7z020-clg400-1 -data info 
-Execute           config_compile -quiet -complex-mul-dsp=0 
-Command         set_part done; 0.815 sec.
-Execute         send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(5) 
-INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(5)
-Execute         config_export -format=ip_catalog 
-Command       apply_ini done; 0.989 sec.
-Execute       write_component -config C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg 
-Execute         send_msg_by_id INFO @200-2176@%s C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/vitis-comp.json 
-INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/vitis-comp.json
-Command     open_solution done; 3.866 sec.
-Command   open_component done; 3.875 sec.
-Execute   apply_ini C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/config.cmdline -iscmdline 
-Execute   ::AP::init_summary_file cosim 
-Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
-Execute   cosim_design 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/global.setting.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/global.setting.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/global.setting.tcl 
-INFO-FLOW: DBG:PUTS: read_platform_lib C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/global.setting.tcl
-Execute     source C:/Xilinx/2025.1/Vitis/common/technology/generic/autopilot/common.gen 
-Execute       source C:/Xilinx/2025.1/Vitis/common/technology/generic/autopilot/APCoreGen.gen 
-Execute     source C:/Xilinx/2025.1/Vitis/common/technology/generic/autopilot/op.gen 
-Execute     source C:/Xilinx/2025.1/Vitis/common/technology/generic/autopilot/op_simcore.gen 
-Execute     source C:/Xilinx/2025.1/Vitis/common/technology/generic/autopilot/interface.gen 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/global.setting.tcl 
-Execute     source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/common/xilinx.gen 
-Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/plb46.gen 
-Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/axi4.gen 
-Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/nativeAXI4.gen 
-Execute         source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/saxilite.gen 
-Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/scripts/xilinxcoregen.gen 
-Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/XilEDKCoreGen.gen 
-Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/dds_compiler.gen 
-Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/util.gen 
-Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfft.gen 
-Command       ap_source done; 0.473 sec.
-Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfir.gen 
-Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/DSP48/dsp48.gen 
-Command     ap_source done; 0.66 sec.
-INFO-FLOW: DBG:PUTS:   using AESL_AUTOCG::g_clock_period=10.000 (was NA)
-Execute     ap_part_info -name xc7z020-clg400-1 -data names -quiet 
-Execute     ap_part_info -name xc7z020-clg400-1 -data info -quiet 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/global.setting.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.rtl_wrap.cfg.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/cosimDB.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-INFO: [COSIM 212-47] Using XSIM for RTL simulation.
-INFO: [COSIM 212-14] Instrumenting C test bench ...
-Execute     ap_part_info -name xc7z020-clg400-1 -data info 
-INFO-FLOW: run_clang exec: C:/Xilinx/2025.1/Vitis/win64/tools/vcxx/libexec/clang -fno-builtin-isinf -fno-builtin-isnan -E -Wno-unknown-pragmas -Wno-unknown-pragmas -DGCC_COMPATIBLE_APINT -DAESL_TB -D__HLS_COSIM__ -D__VITIS_HLS__ --target=x86_64-w64-windows-gnu -D__USE_XOPEN2K8 -I C:/Xilinx/2025.1/Vitis/include -I include C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm_test.cpp -o C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/./sim/autowrap/testbench/mm_test.cpp_pre.cpp -std=gnu++14 -D__DSP48E1__ --sysroot=C:/Xilinx/2025.1/Vitis/tps/mingw/10.0.0/win64.o/nt > C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm_test.cpp.clang.autosim-tb.out.log 2> C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm_test.cpp.clang.autosim-tb.err.log
-INFO-FLOW: TB processing: C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm_test.cpp C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/./sim/autowrap/testbench/mm_test.cpp_pre.cpp
-Execute     clang_tidy xilinx-tb-process -desc tb-process C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/./sim/autowrap/testbench/mm_test.cpp_pre.cpp.tb.cpp std=gnu++14 
-INFO-FLOW: exec C:/Xilinx/2025.1/Vitis/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-tb-process -fix-errors C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/./sim/autowrap/testbench/mm_test.cpp_pre.cpp.tb.cpp -- -std=gnu++14 -fhls -ferror-limit=0
-Command     clang_tidy done; 2.232 sec.
-Execute     ap_part_info -name xc7z020-clg400-1 -data info 
-INFO-FLOW: run_clang exec: C:/Xilinx/2025.1/Vitis/win64/tools/vcxx/libexec/clang -fno-builtin-isinf -fno-builtin-isnan -E -DGCC_COMPATIBLE_APINT -DAESL_TB -D__HLS_COSIM__ -D__VITIS_HLS__ --target=x86_64-w64-windows-gnu -D__USE_XOPEN2K8 -I C:/Xilinx/2025.1/Vitis/include -I include C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm.cpp -o C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/./sim/autowrap/testbench/mm.cpp_pre.cpp -std=gnu++14 -D__DSP48E1__ --sysroot=C:/Xilinx/2025.1/Vitis/tps/mingw/10.0.0/win64.o/nt > C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.cpp.clang.autosim-tb.out.log 2> C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.cpp.clang.autosim-tb.err.log
-INFO-FLOW: TB processing: C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm.cpp C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/./sim/autowrap/testbench/mm.cpp_pre.cpp
-Execute     clang_tidy xilinx-tb-process -desc tb-process C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/./sim/autowrap/testbench/mm.cpp_pre.cpp.tb.cpp std=gnu++14 
-INFO-FLOW: exec C:/Xilinx/2025.1/Vitis/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-tb-process -fix-errors C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/./sim/autowrap/testbench/mm.cpp_pre.cpp.tb.cpp -- -std=gnu++14 -fhls -ferror-limit=0
-Command     clang_tidy done; 1.608 sec.
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/global.setting.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.rtl_wrap.cfg.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.rtl_wrap.cfg.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.rtl_wrap.cfg.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     ap_part_info -name xc7z020-clg400-1 -data info 
-Execute     source .run_sim.tcl 
-INFO: [COSIM 212-302] Starting C TB testing ... 
-Command     ap_source done; 0.397 sec.
-INFO: [COSIM 212-333] Generating C post check test bench ...
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-INFO: [COSIM 212-12] Generating RTL test bench ...
-Execute     source ../tv/cdatafile/ref.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source ../tv/cdatafile/ref.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.DependenceCheck.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.tbgen.tcl 
-INFO: [COSIM 212-1] *** C/RTL co-simulation file generation completed. ***
-Execute     source .run_sim.tcl 
-Execute       source check_sim.tcl 
-Execute       source dataflow_monitor_API.tcl 
-Execute       source .sim.status.tcl 
-INFO: [COSIM 212-323] Starting verilog simulation. 
-INFO: [COSIM 212-15] Starting XSIM ...
-INFO: [COSIM 212-316] Starting C post checking ...
-Command     ap_source done; 192.205 sec.
-INFO: [COSIM 212-1000] *** C/RTL co-simulation finished: PASS ***
-INFO: [COSIM 212-211] II is measurable only when transaction number is greater than 1 in RTL simulation. Otherwise, they will be marked as all NA. If user wants to calculate them, please make sure there are at least 2 transactions in RTL simulation.
-Command   cosim_design done; 218.689 sec.
+Command     autosyn done; 4.175 sec.
+Command   csynth_design done; 24.51 sec.
 Execute   close_project 
 Execute     close_solution 
 Execute       cleanup_all 
@@ -1980,7 +1231,7 @@ Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tdom/pkgIndex.tcl
 Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tk8.6/pkgIndex.tcl 
 Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/opt0.4/pkgIndex.tcl 
 Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/pkgs/win/thread2.8.7/pkgIndex.tcl 
-Command         ap_source done; 0.251 sec.
+Command         ap_source done; 0.283 sec.
 Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/0compatibility/pkgIndex.tcl 
 Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/amazon-s3/pkgIndex.tcl 
 Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/asn/pkgIndex.tcl 
@@ -2232,13 +1483,13 @@ Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/websocket/pkgI
 Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/wip/pkgIndex.tcl 
 Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/pkgIndex.tcl 
 Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/zip/pkgIndex.tcl 
-Command         ap_source done; 0.112 sec.
+Command         ap_source done; 0.116 sec.
 Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tdom/pkgIndex.tcl 
 Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tk8.6/pkgIndex.tcl 
 Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/opt0.4/pkgIndex.tcl 
 Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/pkgs/win/thread2.8.7/pkgIndex.tcl 
-Command       ap_source done; 0.507 sec.
-INFO-FLOW: Workspace C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls opened at Mon Apr 06 22:37:21 -0700 2026
+Command       ap_source done; 0.609 sec.
+INFO-FLOW: Workspace C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls opened at Fri Apr 10 13:02:54 -0700 2026
 Execute       source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/global.setting.tcl 
 Execute       set_part xc7z020-clg400-1 
 Execute         create_platform xc7z020-clg400-1 -board  
@@ -2246,7 +1497,7 @@ DBG:HLSDevice: Trying to load device library: C:/Xilinx/2025.1/Vitis\lib\win64.o
 DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/2025.1/Vivado/data/parts/arch.xml
 DBG:HLSDevice: init success
 INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
-Command         create_platform done; 1.432 sec.
+Command         create_platform done; 2.789 sec.
 Execute         source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/common/xilinx.gen 
 Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/plb46.gen 
 Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/axi4.gen 
@@ -2257,12 +1508,13 @@ Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interfa
 Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/dds_compiler.gen 
 Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/util.gen 
 Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfft.gen 
+Command           ap_source done; 0.132 sec.
 Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfir.gen 
 Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/DSP48/dsp48.gen 
-Command         ap_source done; 0.147 sec.
+Command         ap_source done; 0.171 sec.
 Execute         ap_part_info -name xc7z020-clg400-1 -data info 
 Execute         config_compile -quiet -complex-mul-dsp=0 
-Command       set_part done; 1.623 sec.
+Command       set_part done; 3.033 sec.
 Execute       send_msg_by_id INFO @200-1505@%s%s default  vivado 
 INFO: [HLS 200-1505] Using default flow_target 'vivado'
 Execute       send_msg_by_id INFO @200-2174@%s%s component C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg 
@@ -2311,7 +1563,7 @@ Execute         send_msg_by_id INFO @200-1465@%s 'part=xc7z020clg400-1' from C:/
 INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(1)
 Execute         set_part xc7z020clg400-1 
 Execute           create_platform xc7z020clg400-1 -board  
-Command           create_platform done; 0.192 sec.
+Command           create_platform done; 0.212 sec.
 Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/common/xilinx.gen 
 Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/plb46.gen 
 Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/axi4.gen 
@@ -2322,22 +1574,22 @@ Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/inter
 Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/dds_compiler.gen 
 Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/util.gen 
 Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfft.gen 
-Command             ap_source done; 0.134 sec.
+Command             ap_source done; 0.121 sec.
 Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfir.gen 
 Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/DSP48/dsp48.gen 
-Command           ap_source done; 0.174 sec.
+Command           ap_source done; 0.165 sec.
 Execute           ap_part_info -name xc7z020-clg400-1 -data info 
 Execute           config_compile -quiet -complex-mul-dsp=0 
-Command         set_part done; 0.439 sec.
+Command         set_part done; 0.422 sec.
 Execute         send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(5) 
 INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(5)
 Execute         config_export -format=ip_catalog 
-Command       apply_ini done; 0.548 sec.
+Command       apply_ini done; 0.526 sec.
 Execute       write_component -config C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg 
 Execute         send_msg_by_id INFO @200-2176@%s C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/vitis-comp.json 
 INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/vitis-comp.json
-Command     open_solution done; 2.775 sec.
-Command   open_component done; 2.78 sec.
+Command     open_solution done; 4.225 sec.
+Command   open_component done; 4.234 sec.
 Execute   apply_ini C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/config.cmdline -iscmdline 
 Execute   ::AP::init_summary_file package-ip 
 Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
@@ -2371,10 +1623,9 @@ Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/X
 Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/dds_compiler.gen 
 Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/util.gen 
 Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfft.gen 
-Command       ap_source done; 0.161 sec.
 Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfir.gen 
 Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/DSP48/dsp48.gen 
-Command     ap_source done; 0.205 sec.
+Command     ap_source done; 0.108 sec.
 INFO-FLOW: DBG:PUTS:   using AESL_AUTOCG::g_clock_period=10.000 (was NA)
 INFO-FLOW: DBG:PUTS:       initCTypeInfo top_module=MM xml_exists=0
 Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.rtl_wrap.cfg.tcl 
@@ -2442,15 +1693,15 @@ Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/X
 Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/dds_compiler.gen 
 Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/util.gen 
 Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfft.gen 
-Command       ap_source done; 0.149 sec.
+Command       ap_source done; 0.129 sec.
 Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfir.gen 
 Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/DSP48/dsp48.gen 
-Command     ap_source done; 0.184 sec.
+Command     ap_source done; 0.196 sec.
 INFO-FLOW: DBG:PUTS:     IP package: exec C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/ip/pack.bat
 INFO-FLOW: DBG:PUTS:     IP package: success C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/ip/pack.bat
 Execute     send_msg_by_id INFO @200-802@%s baseline_blockedMM/MM.zip 
 INFO: [HLS 200-802] Generated output file baseline_blockedMM/MM.zip
-Command   export_design done; 24.388 sec.
+Command   export_design done; 29.168 sec.
 Execute   close_project 
 Execute     close_solution 
 Execute       cleanup_all 
@@ -2708,12 +1959,12 @@ Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/websocket/pk
 Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/wip/pkgIndex.tcl 
 Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/pkgIndex.tcl 
 Execute             source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/zip/pkgIndex.tcl 
-Command           ap_source done; 0.171 sec.
+Command           ap_source done; 0.12 sec.
 Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tdom/pkgIndex.tcl 
 Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tk8.6/pkgIndex.tcl 
 Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/opt0.4/pkgIndex.tcl 
 Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/pkgs/win/thread2.8.7/pkgIndex.tcl 
-Command         ap_source done; 0.378 sec.
+Command         ap_source done; 0.273 sec.
 Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/0compatibility/pkgIndex.tcl 
 Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/amazon-s3/pkgIndex.tcl 
 Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/asn/pkgIndex.tcl 
@@ -2965,13 +2216,13 @@ Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/websocket/pkgI
 Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/wip/pkgIndex.tcl 
 Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/yaml/pkgIndex.tcl 
 Execute           source C:/Xilinx/2025.1/Vitis/tps/tcl/tcllib2.0/zip/pkgIndex.tcl 
-Command         ap_source done; 0.2 sec.
+Command         ap_source done; 0.227 sec.
 Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tdom/pkgIndex.tcl 
 Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tk8.6/pkgIndex.tcl 
 Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/opt0.4/pkgIndex.tcl 
 Execute         source C:/Xilinx/2025.1/Vitis/tps/tcl/tcl8.6/pkgs/win/thread2.8.7/pkgIndex.tcl 
-Command       ap_source done; 0.953 sec.
-INFO-FLOW: Workspace C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls opened at Mon Apr 06 22:38:21 -0700 2026
+Command       ap_source done; 0.653 sec.
+INFO-FLOW: Workspace C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls opened at Fri Apr 10 13:04:06 -0700 2026
 Execute       source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/global.setting.tcl 
 Execute       set_part xc7z020-clg400-1 
 Execute         create_platform xc7z020-clg400-1 -board  
@@ -2979,7 +2230,7 @@ DBG:HLSDevice: Trying to load device library: C:/Xilinx/2025.1/Vitis\lib\win64.o
 DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: C:/Xilinx/2025.1/Vivado/data/parts/arch.xml
 DBG:HLSDevice: init success
 INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg400-1'
-Command         create_platform done; 1.728 sec.
+Command         create_platform done; 2.601 sec.
 Execute         source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/common/xilinx.gen 
 Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/plb46.gen 
 Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/axi4.gen 
@@ -2992,10 +2243,10 @@ Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/util
 Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfft.gen 
 Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfir.gen 
 Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/DSP48/dsp48.gen 
-Command         ap_source done; 0.108 sec.
+Command         ap_source done; 0.116 sec.
 Execute         ap_part_info -name xc7z020-clg400-1 -data info 
 Execute         config_compile -quiet -complex-mul-dsp=0 
-Command       set_part done; 1.876 sec.
+Command       set_part done; 2.756 sec.
 Execute       send_msg_by_id INFO @200-1505@%s%s default  vivado 
 INFO: [HLS 200-1505] Using default flow_target 'vivado'
 Execute       send_msg_by_id INFO @200-2174@%s%s component C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg 
@@ -3044,7 +2295,7 @@ Execute         send_msg_by_id INFO @200-1465@%s 'part=xc7z020clg400-1' from C:/
 INFO: [HLS 200-1465] Applying config ini 'part=xc7z020clg400-1' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(1)
 Execute         set_part xc7z020clg400-1 
 Execute           create_platform xc7z020clg400-1 -board  
-Command           create_platform done; 0.182 sec.
+Command           create_platform done; 0.195 sec.
 Execute           source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/common/xilinx.gen 
 Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/plb46.gen 
 Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/axi4.gen 
@@ -3059,16 +2310,16 @@ Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xf
 Execute             source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/DSP48/dsp48.gen 
 Execute           ap_part_info -name xc7z020-clg400-1 -data info 
 Execute           config_compile -quiet -complex-mul-dsp=0 
-Command         set_part done; 0.318 sec.
+Command         set_part done; 0.324 sec.
 Execute         send_msg_by_id INFO @200-1465@%s 'package.output.format=ip_catalog' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(5) 
 INFO: [HLS 200-1465] Applying config ini 'package.output.format=ip_catalog' from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg(5)
 Execute         config_export -format=ip_catalog 
-Command       apply_ini done; 0.404 sec.
+Command       apply_ini done; 0.416 sec.
 Execute       write_component -config C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/hls_config.cfg 
 Execute         send_msg_by_id INFO @200-2176@%s C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/vitis-comp.json 
 INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/vitis-comp.json
-Command     open_solution done; 3.291 sec.
-Command   open_component done; 3.297 sec.
+Command     open_solution done; 3.884 sec.
+Command   open_component done; 3.889 sec.
 Execute   apply_ini C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/config.cmdline -iscmdline 
 Execute   ::AP::init_summary_file vivado-impl 
 Execute     AP::app_get_file_relativeroot [AP::app_get_root] {}
@@ -3101,9 +2352,10 @@ Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/X
 Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/dds_compiler.gen 
 Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/util.gen 
 Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfft.gen 
+Command       ap_source done; 0.101 sec.
 Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfir.gen 
 Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/DSP48/dsp48.gen 
-Command     ap_source done; 0.116 sec.
+Command     ap_source done; 0.133 sec.
 INFO-FLOW: DBG:PUTS:   using AESL_AUTOCG::g_clock_period=10.000 (was NA)
 INFO-FLOW: DBG:PUTS:       initCTypeInfo top_module=MM xml_exists=1
 Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.rtl_wrap.cfg.tcl 
@@ -3139,6 +2391,7 @@ Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_
 Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/global.setting.tcl 
 Execute     ap_part_info -name xc7z020-clg400-1 -data names -quiet 
 Execute     ap_part_info -name xc7z020-clg400-1 -data info -quiet 
+Command     ap_part_info done; 0.107 sec.
 Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/MM.constraint.tcl 
 Execute     sc_get_clocks MM 
 Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/global.setting.tcl 
@@ -3173,7 +2426,7 @@ Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/util.gen
 Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfft.gen 
 Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfir.gen 
 Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/DSP48/dsp48.gen 
-Command     ap_source done; 0.123 sec.
+Command     ap_source done; 0.104 sec.
 INFO-FLOW: DBG:PUTS:     IP package: exec C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/ip/pack.bat
 INFO-FLOW: DBG:PUTS:     IP package: success C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/ip/pack.bat
 INFO-FLOW: DBG:PUTS:   auto_impl: eval: -flow impl -rtl verilog
@@ -3201,9 +2454,10 @@ Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/interface/X
 Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/dds_compiler.gen 
 Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/util.gen 
 Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfft.gen 
+Command       ap_source done; 0.114 sec.
 Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfir.gen 
 Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/DSP48/dsp48.gen 
-Command     ap_source done; 0.114 sec.
+Command     ap_source done; 0.161 sec.
 INFO-FLOW: DBG:PUTS:       generate_syn_sh
 Execute     ap_part_info -name xc7z020-clg400-1 -data names -quiet 
 Execute     ap_part_info -name xc7z020-clg400-1 -data info -quiet 
@@ -3235,6 +2489,7 @@ Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/util.gen
 Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfft.gen 
 Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/ip/xfir.gen 
 Execute       source C:/Xilinx/2025.1/Vitis/common/technology/xilinx/DSP48/dsp48.gen 
+Command     ap_source done; 0.12 sec.
 Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/autopilot.rtl.models.tcl 
 Execute     source C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/global.setting.tcl 
 Execute     ap_part_info -name xc7z020-clg400-1 -data names -quiet 
@@ -3243,18 +2498,18 @@ INFO-FLOW: DBG:PUTS: debug_in_auto_impl: vlog exec C:/Users/seanr/vitis_projects
 INFO-FLOW: DBG:PROC: ::HLSREPORTS::auto_impl_report topinfo_dict='RtlTopPrefix {} RtlSubPrefix MM_ TopModuleNoPrefix MM TopModuleWithPrefix MM' export_design_flow='impl' impl_dir='C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl' lang='verilog' out_dir=''
 INFO-FLOW: DBG:PUTS:     auto_impl_report: impl processing xml
 Execute     ap_part_info -quiet -data family -name xc7z020-clg400-1 
-Command     ap_part_info done; 0.127 sec.
+Command     ap_part_info done; 0.114 sec.
 INFO-FLOW: DBG:PUTS:     writing export xml file: C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/report/verilog/export_impl.xml
-INFO-FLOW: DBG:PROC: ::HLSREPORTS::auto_impl_report_txt xml_root='domNode0000029626269DE8' export_design_flow='impl' export_rpt='C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/report/verilog/export_impl.rpt' rpt_txt_var=''
+INFO-FLOW: DBG:PROC: ::HLSREPORTS::auto_impl_report_txt xml_root='domNode00000299038506A8' export_design_flow='impl' export_rpt='C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/report/verilog/export_impl.rpt' rpt_txt_var=''
 INFO-FLOW: DBG:PUTS:     wrote export rpt file: export_impl.rpt
 INFO-FLOW: DBG:PUTS:     auto_impl_report: syn processing xml
 Execute     ap_part_info -quiet -data family -name xc7z020-clg400-1 
 INFO-FLOW: DBG:PUTS:     writing export xml file: C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/report/verilog/export_syn.xml
-INFO-FLOW: DBG:PROC: ::HLSREPORTS::auto_impl_report_txt xml_root='domNode00000296261C2B78' export_design_flow='syn' export_rpt='C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/report/verilog/export_syn.rpt' rpt_txt_var=''
+INFO-FLOW: DBG:PROC: ::HLSREPORTS::auto_impl_report_txt xml_root='domNode00000299037B22B8' export_design_flow='syn' export_rpt='C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/report/verilog/export_syn.rpt' rpt_txt_var=''
 INFO-FLOW: DBG:PUTS:     wrote export rpt file: export_syn.rpt
 Execute     send_msg_by_id INFO @200-802@%s baseline_blockedMM/MM.zip 
 INFO: [HLS 200-802] Generated output file baseline_blockedMM/MM.zip
-Command   export_design done; 506.114 sec.
+Command   export_design done; 561.118 sec.
 Execute   close_project 
 Execute     close_solution 
 Execute       cleanup_all 

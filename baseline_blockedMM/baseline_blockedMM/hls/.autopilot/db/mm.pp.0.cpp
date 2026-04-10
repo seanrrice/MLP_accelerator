@@ -40952,10 +40952,16 @@ __attribute__((sdx_kernel("MM", 0))) void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE
 
 
 
-#pragma HLS INTERFACE m_axi port=A bundle=gmem depth=1024
-#pragma HLS INTERFACE m_axi port=B bundle=gmem depth=1024
-#pragma HLS INTERFACE m_axi port=C bundle=gmem depth=32
-#pragma HLS INTERFACE m_axi port=ABC bundle=gmem depth=1024
+#pragma HLS INTERFACE m_axi port=A bundle=gmem depth=802816
+#pragma HLS INTERFACE m_axi port=B bundle=gmem depth=100352
+#pragma HLS INTERFACE m_axi port=C bundle=gmem depth=1024
+#pragma HLS INTERFACE m_axi port=ABC bundle=gmem depth=131072
+
+
+
+
+
+
 
 #pragma HLS INTERFACE s_axilite port=A bundle=control
 #pragma HLS INTERFACE s_axilite port=B bundle=control
@@ -40968,29 +40974,29 @@ __attribute__((sdx_kernel("MM", 0))) void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE
 
  DTYPE AB_block[BLOCK_SIZE][BLOCK_SIZE];
 
-    VITIS_LOOP_29_1: for (int ib = 0; ib < N / BLOCK_SIZE; ib++) {
+    VITIS_LOOP_35_1: for (int ib = 0; ib < N / BLOCK_SIZE; ib++) {
 #pragma HLS PIPELINE off
- VITIS_LOOP_31_2: for (int jb = 0; jb < P / BLOCK_SIZE; jb++) {
+ VITIS_LOOP_37_2: for (int jb = 0; jb < P / BLOCK_SIZE; jb++) {
 #pragma HLS PIPELINE off
 
 
- VITIS_LOOP_35_3: for (int i = 0; i < BLOCK_SIZE; i++) {
+ VITIS_LOOP_41_3: for (int i = 0; i < BLOCK_SIZE; i++) {
 #pragma HLS PIPELINE off
- VITIS_LOOP_37_4: for (int j = 0; j < BLOCK_SIZE; j++) {
+ VITIS_LOOP_43_4: for (int j = 0; j < BLOCK_SIZE; j++) {
                     AB_block[i][j] = C[ib * BLOCK_SIZE + i];
                 }
             }
 
 
-            VITIS_LOOP_43_5: for (int kb = 0; kb < M / BLOCK_SIZE; kb++) {
+            VITIS_LOOP_49_5: for (int kb = 0; kb < M / BLOCK_SIZE; kb++) {
 #pragma HLS PIPELINE off
- VITIS_LOOP_45_6: for (int k = 0; k < BLOCK_SIZE; k++) {
+ VITIS_LOOP_51_6: for (int k = 0; k < BLOCK_SIZE; k++) {
 #pragma HLS PIPELINE off
- VITIS_LOOP_47_7: for (int j = 0; j < BLOCK_SIZE; j++) {
+ VITIS_LOOP_53_7: for (int j = 0; j < BLOCK_SIZE; j++) {
 #pragma HLS PIPELINE off
  DTYPE Btemp = B[(kb * BLOCK_SIZE + k) * P + (jb * BLOCK_SIZE + j)];
 
-                        VITIS_LOOP_51_8: for (int i = 0; i < BLOCK_SIZE; i++) {
+                        VITIS_LOOP_57_8: for (int i = 0; i < BLOCK_SIZE; i++) {
 #pragma HLS PIPELINE off
  DTYPE Atemp = A[(ib * BLOCK_SIZE + i) * M + (kb * BLOCK_SIZE + k)];
                             AB_block[i][j] += Atemp * Btemp;
@@ -41000,9 +41006,9 @@ __attribute__((sdx_kernel("MM", 0))) void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE
             }
 
 
-            VITIS_LOOP_61_9: for (int i = 0; i < BLOCK_SIZE; i++) {
+            VITIS_LOOP_67_9: for (int i = 0; i < BLOCK_SIZE; i++) {
 #pragma HLS PIPELINE off
- VITIS_LOOP_63_10: for (int j = 0; j < BLOCK_SIZE; j++) {
+ VITIS_LOOP_69_10: for (int j = 0; j < BLOCK_SIZE; j++) {
                     ABC[(ib * BLOCK_SIZE + i) * P + (jb * BLOCK_SIZE + j)] = AB_block[i][j];
                 }
             }
