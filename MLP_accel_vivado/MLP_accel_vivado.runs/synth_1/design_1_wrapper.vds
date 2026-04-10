@@ -1,0 +1,528 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Fri Apr 10 11:01:54 2026
+# Process ID         : 6132
+# Current directory  : C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1
+# Command line       : vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file           : C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/design_1_wrapper.vds
+# Journal file       : C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1\vivado.jou
+# Running On         : LAPTOP-L6H807T2
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Pentium(R) Gold 7505 @ 2.00GHz
+# CPU Frequency      : 1997 MHz
+# CPU Physical cores : 2
+# CPU Logical cores  : 4
+# Host memory        : 8241 MB
+# Swap memory        : 15032 MB
+# Total Virtual      : 23273 MB
+# Available Virtual  : 3741 MB
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 512.914 ; gain = 215.184
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/2025.1/Vivado/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.cache/ip 
+add_files: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 541.332 ; gain = 25.477
+Command: read_checkpoint -auto_incremental -incremental C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top design_1_wrapper -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 21916
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1287.297 ; gain = 493.910
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_1' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_1_MM_0_0' [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_MM_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_MM_0_0' (0#1) [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_MM_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'interrupt' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem0_AWADDR' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem0_AWBURST' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem0_AWCACHE' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem0_AWID' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem0_AWLEN' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem0_AWLOCK' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem0_AWPROT' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem0_AWQOS' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem0_AWREGION' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem0_AWSIZE' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem0_AWVALID' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem0_BREADY' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem0_WDATA' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem0_WID' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem0_WLAST' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem0_WSTRB' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem0_WVALID' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem1_AWADDR' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem1_AWBURST' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem1_AWCACHE' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem1_AWID' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem1_AWLEN' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem1_AWLOCK' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem1_AWPROT' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem1_AWQOS' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem1_AWREGION' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem1_AWSIZE' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem1_AWVALID' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem1_BREADY' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem1_WDATA' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem1_WID' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem1_WLAST' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem1_WSTRB' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem1_WVALID' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem2_AWADDR' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem2_AWBURST' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem2_AWCACHE' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem2_AWID' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem2_AWLEN' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem2_AWLOCK' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem2_AWPROT' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem2_AWQOS' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem2_AWREGION' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem2_AWSIZE' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem2_AWVALID' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem2_BREADY' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem2_WDATA' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem2_WID' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem2_WLAST' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem2_WSTRB' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem2_WVALID' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem3_ARADDR' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem3_ARBURST' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem3_ARCACHE' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem3_ARID' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem3_ARLEN' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem3_ARLOCK' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem3_ARPROT' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem3_ARQOS' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem3_ARREGION' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem3_ARSIZE' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem3_ARVALID' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem3_RREADY' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7071] port 'm_axi_gmem3_WID' of module 'design_1_MM_0_0' is unconnected for instance 'MM_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+WARNING: [Synth 8-7023] instance 'MM_0' of module 'design_1_MM_0_0' has 180 connections declared, but only 115 given [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:345]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_mem_intercon_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:973]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1R706YB' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:2403]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_mem_intercon_imp_auto_ds_0' [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_axi_mem_intercon_imp_auto_ds_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_mem_intercon_imp_auto_ds_0' (0#1) [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_axi_mem_intercon_imp_auto_ds_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1R706YB' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:2403]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_3HM21E' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:2701]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_mem_intercon_imp_auto_ds_1' [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_axi_mem_intercon_imp_auto_ds_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_mem_intercon_imp_auto_ds_1' (0#1) [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_axi_mem_intercon_imp_auto_ds_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_3HM21E' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:2701]
+INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_1RU8VXS' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:2999]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_mem_intercon_imp_auto_ds_2' [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_axi_mem_intercon_imp_auto_ds_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_mem_intercon_imp_auto_ds_2' (0#1) [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_axi_mem_intercon_imp_auto_ds_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_1RU8VXS' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:2999]
+INFO: [Synth 8-6157] synthesizing module 'm03_couplers_imp_2KOEHD' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:3297]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_mem_intercon_imp_auto_ds_3' [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_axi_mem_intercon_imp_auto_ds_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_mem_intercon_imp_auto_ds_3' (0#1) [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_axi_mem_intercon_imp_auto_ds_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'm03_couplers_imp_2KOEHD' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:3297]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_7HNO1D' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:3595]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_mem_intercon_imp_auto_pc_0' [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_axi_mem_intercon_imp_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_mem_intercon_imp_auto_pc_0' (0#1) [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_axi_mem_intercon_imp_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_7HNO1D' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:3595]
+INFO: [Synth 8-6157] synthesizing module 's01_couplers_imp_1W60HW0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:3753]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_mem_intercon_imp_auto_pc_1' [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_axi_mem_intercon_imp_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_mem_intercon_imp_auto_pc_1' (0#1) [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_axi_mem_intercon_imp_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's01_couplers_imp_1W60HW0' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:3753]
+INFO: [Synth 8-6157] synthesizing module 's02_couplers_imp_8NCF02' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:3911]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_mem_intercon_imp_auto_pc_2' [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_axi_mem_intercon_imp_auto_pc_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_mem_intercon_imp_auto_pc_2' (0#1) [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_axi_mem_intercon_imp_auto_pc_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_mem_intercon_imp_auto_us_0' [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_axi_mem_intercon_imp_auto_us_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_mem_intercon_imp_auto_us_0' (0#1) [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_axi_mem_intercon_imp_auto_us_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's02_couplers_imp_8NCF02' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:3911]
+INFO: [Synth 8-6157] synthesizing module 's03_couplers_imp_1UQ1PUB' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:4115]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_mem_intercon_imp_auto_pc_3' [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_axi_mem_intercon_imp_auto_pc_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_mem_intercon_imp_auto_pc_3' (0#1) [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_axi_mem_intercon_imp_auto_pc_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's03_couplers_imp_1UQ1PUB' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:4115]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_mem_intercon_imp_xbar_0' [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_axi_mem_intercon_imp_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_mem_intercon_imp_xbar_0' (0#1) [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_axi_mem_intercon_imp_xbar_0_stub.v:6]
+WARNING: [Synth 8-689] width (3) of port connection 's_axi_arready' does not match port width (4) of module 'design_1_axi_mem_intercon_imp_xbar_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:2371]
+WARNING: [Synth 8-689] width (1536) of port connection 's_axi_rdata' does not match port width (2048) of module 'design_1_axi_mem_intercon_imp_xbar_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:2389]
+WARNING: [Synth 8-689] width (6) of port connection 's_axi_rid' does not match port width (12) of module 'design_1_axi_mem_intercon_imp_xbar_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:2390]
+WARNING: [Synth 8-689] width (3) of port connection 's_axi_rlast' does not match port width (4) of module 'design_1_axi_mem_intercon_imp_xbar_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:2391]
+WARNING: [Synth 8-689] width (6) of port connection 's_axi_rresp' does not match port width (8) of module 'design_1_axi_mem_intercon_imp_xbar_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:2393]
+WARNING: [Synth 8-689] width (3) of port connection 's_axi_rvalid' does not match port width (4) of module 'design_1_axi_mem_intercon_imp_xbar_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:2394]
+WARNING: [Synth 8-7071] port 'm_axi_wid' of module 'design_1_axi_mem_intercon_imp_xbar_0' is unconnected for instance 'xbar' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:2323]
+WARNING: [Synth 8-7023] instance 'xbar' of module 'design_1_axi_mem_intercon_imp_xbar_0' has 78 connections declared, but only 77 given [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:2323]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_mem_intercon_0' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:973]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_smc_0' [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_axi_smc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_smc_0' (0#1) [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_axi_smc_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'M00_AXI_awprot' of module 'design_1_axi_smc_0' is unconnected for instance 'axi_smc' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:687]
+WARNING: [Synth 8-7071] port 'M00_AXI_arprot' of module 'design_1_axi_smc_0' is unconnected for instance 'axi_smc' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:687]
+WARNING: [Synth 8-7023] instance 'axi_smc' of module 'design_1_axi_smc_0' has 59 connections declared, but only 57 given [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:687]
+INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_0' [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_0' (0#1) [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_processing_system7_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_BID' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:745]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_RID' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:745]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_RCOUNT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:745]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_WCOUNT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:745]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_RACOUNT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:745]
+WARNING: [Synth 8-7071] port 'S_AXI_HP0_WACOUNT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:745]
+WARNING: [Synth 8-7071] port 'S_AXI_HP1_BID' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:745]
+WARNING: [Synth 8-7071] port 'S_AXI_HP1_RID' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:745]
+WARNING: [Synth 8-7071] port 'S_AXI_HP1_RCOUNT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:745]
+WARNING: [Synth 8-7071] port 'S_AXI_HP1_WCOUNT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:745]
+WARNING: [Synth 8-7071] port 'S_AXI_HP1_RACOUNT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:745]
+WARNING: [Synth 8-7071] port 'S_AXI_HP1_WACOUNT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:745]
+WARNING: [Synth 8-7071] port 'S_AXI_HP2_BID' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:745]
+WARNING: [Synth 8-7071] port 'S_AXI_HP2_RID' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:745]
+WARNING: [Synth 8-7071] port 'S_AXI_HP2_RCOUNT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:745]
+WARNING: [Synth 8-7071] port 'S_AXI_HP2_WCOUNT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:745]
+WARNING: [Synth 8-7071] port 'S_AXI_HP2_RACOUNT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:745]
+WARNING: [Synth 8-7071] port 'S_AXI_HP2_WACOUNT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:745]
+WARNING: [Synth 8-7071] port 'S_AXI_HP3_BID' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:745]
+WARNING: [Synth 8-7071] port 'S_AXI_HP3_RID' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:745]
+WARNING: [Synth 8-7071] port 'S_AXI_HP3_RCOUNT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:745]
+WARNING: [Synth 8-7071] port 'S_AXI_HP3_WCOUNT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:745]
+WARNING: [Synth 8-7071] port 'S_AXI_HP3_RACOUNT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:745]
+WARNING: [Synth 8-7071] port 'S_AXI_HP3_WACOUNT' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:745]
+WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'design_1_processing_system7_0_0' has 242 connections declared, but only 218 given [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:745]
+INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps7_0_50M_0' [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_rst_ps7_0_50M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps7_0_50M_0' (0#1) [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/.Xil/Vivado-6132-LAPTOP-L6H807T2/realtime/design_1_rst_ps7_0_50M_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'design_1_rst_ps7_0_50M_0' is unconnected for instance 'rst_ps7_0_50M' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:964]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'design_1_rst_ps7_0_50M_0' is unconnected for instance 'rst_ps7_0_50M' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:964]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'design_1_rst_ps7_0_50M_0' is unconnected for instance 'rst_ps7_0_50M' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:964]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'design_1_rst_ps7_0_50M_0' is unconnected for instance 'rst_ps7_0_50M' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:964]
+WARNING: [Synth 8-7023] instance 'rst_ps7_0_50M' of module 'design_1_rst_ps7_0_50M_0' has 10 connections declared, but only 6 given [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:964]
+INFO: [Synth 8-6155] done synthesizing module 'design_1' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (0#1) [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:13]
+WARNING: [Synth 8-7129] Port M_ACLK in module s03_couplers_imp_1UQ1PUB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module s03_couplers_imp_1UQ1PUB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_bid[2] in module s03_couplers_imp_1UQ1PUB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_bid[1] in module s03_couplers_imp_1UQ1PUB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awlock[1] in module s03_couplers_imp_1UQ1PUB is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module s02_couplers_imp_8NCF02 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module s02_couplers_imp_8NCF02 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_arlock[1] in module s02_couplers_imp_8NCF02 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module s01_couplers_imp_1W60HW0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module s01_couplers_imp_1W60HW0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_rid[2] in module s01_couplers_imp_1W60HW0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_rid[1] in module s01_couplers_imp_1W60HW0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_arlock[1] in module s01_couplers_imp_1W60HW0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module s00_couplers_imp_7HNO1D is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module s00_couplers_imp_7HNO1D is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_rid[2] in module s00_couplers_imp_7HNO1D is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_AXI_rid[1] in module s00_couplers_imp_7HNO1D is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_arlock[1] in module s00_couplers_imp_7HNO1D is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[63] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[62] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[61] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[60] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[59] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[58] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[57] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[56] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[55] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[54] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[53] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[52] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[51] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[50] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[49] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[48] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[47] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[46] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[45] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[44] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[43] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[42] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[41] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[40] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[39] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[38] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[37] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[36] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[35] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[34] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[33] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[32] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[63] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[62] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[61] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[60] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[59] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[58] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[57] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[56] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[55] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[54] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[53] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[52] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[51] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[50] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[49] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[48] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[47] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[46] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[45] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[44] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[43] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[42] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[41] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[40] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[39] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[38] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[37] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[36] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[35] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[34] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[33] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_awaddr[32] in module m03_couplers_imp_2KOEHD is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m02_couplers_imp_1RU8VXS is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m02_couplers_imp_1RU8VXS is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[63] in module m02_couplers_imp_1RU8VXS is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[62] in module m02_couplers_imp_1RU8VXS is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[61] in module m02_couplers_imp_1RU8VXS is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[60] in module m02_couplers_imp_1RU8VXS is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[59] in module m02_couplers_imp_1RU8VXS is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[58] in module m02_couplers_imp_1RU8VXS is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[57] in module m02_couplers_imp_1RU8VXS is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[56] in module m02_couplers_imp_1RU8VXS is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[55] in module m02_couplers_imp_1RU8VXS is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[54] in module m02_couplers_imp_1RU8VXS is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[53] in module m02_couplers_imp_1RU8VXS is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[52] in module m02_couplers_imp_1RU8VXS is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[51] in module m02_couplers_imp_1RU8VXS is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_araddr[50] in module m02_couplers_imp_1RU8VXS is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 1426.344 ; gain = 632.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 1426.344 ; gain = 632.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 1426.344 ; gain = 632.957
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.173 . Memory (MB): peak = 1426.344 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_MM_0_0/design_1_MM_0_0/design_1_MM_0_0_in_context.xdc] for cell 'design_1_i/MM_0'
+Finished Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_MM_0_0/design_1_MM_0_0/design_1_MM_0_0_in_context.xdc] for cell 'design_1_i/MM_0'
+Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0/design_1_processing_system7_0_0_in_context.xdc] for cell 'design_1_i/processing_system7_0'
+Finished Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0/design_1_processing_system7_0_0_in_context.xdc] for cell 'design_1_i/processing_system7_0'
+Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/design_1_axi_smc_0/design_1_axi_smc_0_in_context.xdc] for cell 'design_1_i/axi_smc'
+Finished Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_axi_smc_0/design_1_axi_smc_0/design_1_axi_smc_0_in_context.xdc] for cell 'design_1_i/axi_smc'
+Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0_in_context.xdc] for cell 'design_1_i/rst_ps7_0_50M'
+Finished Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0/design_1_rst_ps7_0_50M_0_in_context.xdc] for cell 'design_1_i/rst_ps7_0_50M'
+Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_axi_mem_intercon_imp_xbar_0/design_1_axi_mem_intercon_imp_xbar_0/design_1_axi_mem_intercon_imp_xbar_0_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/xbar'
+Finished Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_axi_mem_intercon_imp_xbar_0/design_1_axi_mem_intercon_imp_xbar_0/design_1_axi_mem_intercon_imp_xbar_0_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/xbar'
+Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_axi_mem_intercon_imp_auto_pc_0/design_1_axi_mem_intercon_imp_auto_pc_0/design_1_axi_mem_intercon_imp_auto_pc_1_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/s00_couplers/auto_pc'
+Finished Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_axi_mem_intercon_imp_auto_pc_0/design_1_axi_mem_intercon_imp_auto_pc_0/design_1_axi_mem_intercon_imp_auto_pc_1_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/s00_couplers/auto_pc'
+Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_axi_mem_intercon_imp_auto_pc_1/design_1_axi_mem_intercon_imp_auto_pc_1/design_1_axi_mem_intercon_imp_auto_pc_1_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/s01_couplers/auto_pc'
+Finished Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_axi_mem_intercon_imp_auto_pc_1/design_1_axi_mem_intercon_imp_auto_pc_1/design_1_axi_mem_intercon_imp_auto_pc_1_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/s01_couplers/auto_pc'
+Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_axi_mem_intercon_imp_auto_pc_2/design_1_axi_mem_intercon_imp_auto_pc_2/design_1_axi_mem_intercon_imp_auto_pc_2_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/s02_couplers/auto_pc'
+Finished Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_axi_mem_intercon_imp_auto_pc_2/design_1_axi_mem_intercon_imp_auto_pc_2/design_1_axi_mem_intercon_imp_auto_pc_2_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/s02_couplers/auto_pc'
+Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_axi_mem_intercon_imp_auto_us_0/design_1_axi_mem_intercon_imp_auto_us_0/design_1_axi_mem_intercon_imp_auto_us_0_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/s02_couplers/auto_us'
+Finished Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_axi_mem_intercon_imp_auto_us_0/design_1_axi_mem_intercon_imp_auto_us_0/design_1_axi_mem_intercon_imp_auto_us_0_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/s02_couplers/auto_us'
+Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_axi_mem_intercon_imp_auto_pc_3/design_1_axi_mem_intercon_imp_auto_pc_3/design_1_axi_mem_intercon_imp_auto_pc_3_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/s03_couplers/auto_pc'
+Finished Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_axi_mem_intercon_imp_auto_pc_3/design_1_axi_mem_intercon_imp_auto_pc_3/design_1_axi_mem_intercon_imp_auto_pc_3_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/s03_couplers/auto_pc'
+Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_axi_mem_intercon_imp_auto_ds_0/design_1_axi_mem_intercon_imp_auto_ds_0/design_1_axi_mem_intercon_imp_auto_ds_3_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/m00_couplers/auto_ds'
+Finished Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_axi_mem_intercon_imp_auto_ds_0/design_1_axi_mem_intercon_imp_auto_ds_0/design_1_axi_mem_intercon_imp_auto_ds_3_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/m00_couplers/auto_ds'
+Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_axi_mem_intercon_imp_auto_ds_1/design_1_axi_mem_intercon_imp_auto_ds_1/design_1_axi_mem_intercon_imp_auto_ds_3_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/m01_couplers/auto_ds'
+Finished Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_axi_mem_intercon_imp_auto_ds_1/design_1_axi_mem_intercon_imp_auto_ds_1/design_1_axi_mem_intercon_imp_auto_ds_3_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/m01_couplers/auto_ds'
+Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_axi_mem_intercon_imp_auto_ds_2/design_1_axi_mem_intercon_imp_auto_ds_2/design_1_axi_mem_intercon_imp_auto_ds_3_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/m02_couplers/auto_ds'
+Finished Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_axi_mem_intercon_imp_auto_ds_2/design_1_axi_mem_intercon_imp_auto_ds_2/design_1_axi_mem_intercon_imp_auto_ds_3_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/m02_couplers/auto_ds'
+Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_axi_mem_intercon_imp_auto_ds_3/design_1_axi_mem_intercon_imp_auto_ds_3/design_1_axi_mem_intercon_imp_auto_ds_3_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/m03_couplers/auto_ds'
+Finished Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.gen/sources_1/bd/design_1/ip/design_1_axi_mem_intercon_imp_auto_ds_3/design_1_axi_mem_intercon_imp_auto_ds_3/design_1_axi_mem_intercon_imp_auto_ds_3_in_context.xdc] for cell 'design_1_i/axi_mem_intercon/m03_couplers/auto_ds'
+Parsing XDC File [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1426.344 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.044 . Memory (MB): peak = 1426.344 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 1426.344 ; gain = 632.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 1426.344 ; gain = 632.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 1426.344 ; gain = 632.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 1426.344 ; gain = 632.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:31 . Memory (MB): peak = 1436.984 ; gain = 643.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:42 . Memory (MB): peak = 1607.691 ; gain = 814.305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:42 . Memory (MB): peak = 1614.918 ; gain = 821.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:34 ; elapsed = 00:00:42 . Memory (MB): peak = 1629.867 ; gain = 836.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:40 ; elapsed = 00:00:50 . Memory (MB): peak = 1857.266 ; gain = 1063.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:40 ; elapsed = 00:00:50 . Memory (MB): peak = 1857.266 ; gain = 1063.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:40 ; elapsed = 00:00:50 . Memory (MB): peak = 1857.266 ; gain = 1063.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:40 ; elapsed = 00:00:50 . Memory (MB): peak = 1857.266 ; gain = 1063.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:40 ; elapsed = 00:00:50 . Memory (MB): peak = 1857.266 ; gain = 1063.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:40 ; elapsed = 00:00:50 . Memory (MB): peak = 1857.266 ; gain = 1063.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+----------------------------------------+----------+
+|      |BlackBox name                           |Instances |
++------+----------------------------------------+----------+
+|1     |design_1_MM_0_0                         |         1|
+|2     |design_1_axi_mem_intercon_imp_xbar_0    |         1|
+|3     |design_1_axi_mem_intercon_imp_auto_ds_0 |         1|
+|4     |design_1_axi_mem_intercon_imp_auto_ds_1 |         1|
+|5     |design_1_axi_mem_intercon_imp_auto_ds_2 |         1|
+|6     |design_1_axi_mem_intercon_imp_auto_ds_3 |         1|
+|7     |design_1_axi_mem_intercon_imp_auto_pc_0 |         1|
+|8     |design_1_axi_mem_intercon_imp_auto_pc_1 |         1|
+|9     |design_1_axi_mem_intercon_imp_auto_pc_2 |         1|
+|10    |design_1_axi_mem_intercon_imp_auto_us_0 |         1|
+|11    |design_1_axi_mem_intercon_imp_auto_pc_3 |         1|
+|12    |design_1_axi_smc_0                      |         1|
+|13    |design_1_processing_system7_0_0         |         1|
+|14    |design_1_rst_ps7_0_50M_0                |         1|
++------+----------------------------------------+----------+
+
+Report Cell Usage: 
++------+--------------------------------------+------+
+|      |Cell                                  |Count |
++------+--------------------------------------+------+
+|1     |design_1_MM_0                         |     1|
+|2     |design_1_axi_mem_intercon_imp_auto_ds |     4|
+|6     |design_1_axi_mem_intercon_imp_auto_pc |     4|
+|10    |design_1_axi_mem_intercon_imp_auto_us |     1|
+|11    |design_1_axi_mem_intercon_imp_xbar    |     1|
+|12    |design_1_axi_smc                      |     1|
+|13    |design_1_processing_system7_0         |     1|
+|14    |design_1_rst_ps7_0_50M                |     1|
++------+--------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:40 ; elapsed = 00:00:51 . Memory (MB): peak = 1857.266 ; gain = 1063.879
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 21 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:27 ; elapsed = 00:00:45 . Memory (MB): peak = 1857.266 ; gain = 1063.879
+Synthesis Optimization Complete : Time (s): cpu = 00:00:40 ; elapsed = 00:00:51 . Memory (MB): peak = 1857.266 ; gain = 1063.879
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.142 . Memory (MB): peak = 1857.266 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1873.801 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: b3b4ce23
+INFO: [Common 17-83] Releasing license: Synthesis
+72 Infos, 209 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:47 ; elapsed = 00:01:02 . Memory (MB): peak = 1877.828 ; gain = 1315.820
+INFO: [Common 17-1381] The checkpoint 'C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_accel_vivado/MLP_accel_vivado.runs/synth_1/design_1_wrapper.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 10 11:03:17 2026...

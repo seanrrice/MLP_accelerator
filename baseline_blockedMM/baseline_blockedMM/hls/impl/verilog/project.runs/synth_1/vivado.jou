@@ -3,8 +3,8 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Mon Apr  6 21:44:05 2026
-# Process ID         : 25688
+# Start of session at: Fri Apr 10 12:30:55 2026
+# Process ID         : 25960
 # Current directory  : C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.runs/synth_1
 # Command line       : vivado.exe -log bd_0_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_0_wrapper.tcl
 # Log file           : C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.runs/synth_1/bd_0_wrapper.vds
@@ -17,8 +17,8 @@
 # CPU Physical cores : 2
 # CPU Logical cores  : 4
 # Host memory        : 8241 MB
-# Swap memory        : 15864 MB
-# Total Virtual      : 24105 MB
-# Available Virtual  : 2965 MB
+# Swap memory        : 15746 MB
+# Total Virtual      : 23987 MB
+# Available Virtual  : 3173 MB
 #-----------------------------------------------------------
 source bd_0_wrapper.tcl -notrace

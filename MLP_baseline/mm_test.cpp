@@ -98,101 +98,101 @@ void readImages(const string& imgfilename, DTYPE* data) {
     imgFile.close();
 }
 
-//=======================================
-//Original test bench
+// =======================================
+// Original test bench
 // ======================================
 
-// const int N = 1024;
-// const int M = 784;
-// const int P = 128;
+const int N = 1024;
+const int M = 784;
+const int P = 128;
 
-// int main()
-// {
-// 	DTYPE* y1 = new DTYPE[N*P];
-//     DTYPE* w1 = new DTYPE[N*M];
-//     DTYPE* in = new DTYPE[M*P];
-//     DTYPE* b1 = new DTYPE[N];
+int main()
+{
+	DTYPE* y1 = new DTYPE[N*P];
+    DTYPE* w1 = new DTYPE[N*M];
+    DTYPE* in = new DTYPE[M*P];
+    DTYPE* b1 = new DTYPE[N];
 
-// 	cout << "\n---Testing results----------------------------------\n";
+	cout << "\n---Testing results----------------------------------\n";
 
-//     readImages("mnist_images_int.txt", in);
-//     readWeightsAndBiases("weights_layer1.txt", w1, b1, 1024, IMAGE_SIZE);
+    readImages("mnist_images_int.txt", in);
+    readWeightsAndBiases("weights_layer1.txt", w1, b1, 1024, IMAGE_SIZE);
 
-//     // Instantiate your function here
-//     cout << "About to call MM..." << endl;
-//     MM(w1, in, b1, y1, N, M, P);
-//     cout << "Returned from MM." << endl;
+    // Instantiate your function here
+    cout << "About to call MM..." << endl;
+    MM(w1, in, b1, y1, N, M, P);
+    cout << "Returned from MM." << endl;
     
-//     ofstream oFile("first_layer_actual_output.txt");
-// 	for (int i = 0; i < N*P; i++)
-// 		oFile << y1[i] << endl;
-//     oFile.close();
+    ofstream oFile("first_layer_actual_output.txt");
+	for (int i = 0; i < N*P; i++)
+		oFile << y1[i] << endl;
+    oFile.close();
 
-//     cout << "Comparing against output data " << endl;
-//     if (system("diff -w first_layer_actual_output.txt first_layer_golden_output.txt")) {
-//         cout << "*******************************************" << endl;
-//         cout << "FAIL: Output DOES NOT match the golden output" << endl;
-//         cout << "*******************************************" << endl;
-//         return 1;
-//     } else {
-//         cout << "*******************************************" << endl;
-//         cout << "PASS: The output matches the golden output!" << endl;
-//         cout << "*******************************************" << endl;
-//         return 0;
-//     }
+    cout << "Comparing against output data " << endl;
+    if (system("diff -w first_layer_actual_output.txt first_layer_golden_output.txt")) {
+        cout << "*******************************************" << endl;
+        cout << "FAIL: Output DOES NOT match the golden output" << endl;
+        cout << "*******************************************" << endl;
+        return 1;
+    } else {
+        cout << "*******************************************" << endl;
+        cout << "PASS: The output matches the golden output!" << endl;
+        cout << "*******************************************" << endl;
+        return 0;
+    }
  
-// }
+}
 
 //===========================================================================
 //Modified Testbench to enable cosim to work
 //=========================================================================
 
-void mm_sw_cosim(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P) {
-    for (int i = 0; i < N; i++) {
-        for (int j = 0; j < P; j++) {
-            DTYPE sum = 0;
-            for (int k = 0; k < M; k++) {
-                sum += A[i * M + k] * B[k * P + j];
-            }
-            ABC[i * P + j] = sum + C[i];
-        }
-    }
-}
+// void mm_sw_cosim(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P) {
+//     for (int i = 0; i < N; i++) {
+//         for (int j = 0; j < P; j++) {
+//             DTYPE sum = 0;
+//             for (int k = 0; k < M; k++) {
+//                 sum += A[i * M + k] * B[k * P + j];
+//             }
+//             ABC[i * P + j] = sum + C[i];
+//         }
+//     }
+// }
 
-const int N = 32;
-const int M = 32;
-const int P = 32;
+// const int N = 32;
+// const int M = 32;
+// const int P = 32;
 
-int main() {
-    DTYPE* y_hw = new DTYPE[N * P];
-    DTYPE* y_sw = new DTYPE[N * P];
-    DTYPE* A = new DTYPE[N * M];
-    DTYPE* B = new DTYPE[M * P];
-    DTYPE* C = new DTYPE[N];
+// int main() {
+//     DTYPE* y_hw = new DTYPE[N * P];
+//     DTYPE* y_sw = new DTYPE[N * P];
+//     DTYPE* A = new DTYPE[N * M];
+//     DTYPE* B = new DTYPE[M * P];
+//     DTYPE* C = new DTYPE[N];
 
-    for (int i = 0; i < N * M; i++) A[i] = (i % 5) + 1;
-    for (int i = 0; i < M * P; i++) B[i] = (i % 7) + 1;
-    for (int i = 0; i < N; i++) C[i] = i % 3;
+//     for (int i = 0; i < N * M; i++) A[i] = (i % 5) + 1;
+//     for (int i = 0; i < M * P; i++) B[i] = (i % 7) + 1;
+//     for (int i = 0; i < N; i++) C[i] = i % 3;
 
-    mm_sw_cosim(A, B, C, y_sw, N, M, P);
-    MM(A, B, C, y_hw, N, M, P);
+//     mm_sw_cosim(A, B, C, y_sw, N, M, P);
+//     MM(A, B, C, y_hw, N, M, P);
 
-    bool match = true;
-    for (int i = 0; i < N * P; i++) {
-        if (y_hw[i] != y_sw[i]) {
-            cout << "Mismatch at " << i
-                 << " hw=" << y_hw[i]
-                 << " sw=" << y_sw[i] << endl;
-            match = false;
-            break;
-        }
-    }
+//     bool match = true;
+//     for (int i = 0; i < N * P; i++) {
+//         if (y_hw[i] != y_sw[i]) {
+//             cout << "Mismatch at " << i
+//                  << " hw=" << y_hw[i]
+//                  << " sw=" << y_sw[i] << endl;
+//             match = false;
+//             break;
+//         }
+//     }
 
-    if (match) {
-        cout << "PASS" << endl;
-        return 0;
-    } else {
-        cout << "FAIL" << endl;
-        return 1;
-    }
-}
+//     if (match) {
+//         cout << "PASS" << endl;
+//         return 0;
+//     } else {
+//         cout << "FAIL" << endl;
+//         return 1;
+//     }
+// }

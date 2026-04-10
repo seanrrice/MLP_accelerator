@@ -32,6 +32,7 @@ INFO: [HLS 200-2176] Writing Vitis IDE component file C:/Users/seanr/vitis_proje
 INFO: [SIM 211-2] *************** CSIM start ***************
 INFO: [SIM 211-4] CSIM will launch CLANG as the compiler.
 INFO: [HLS 200-2036] Building debug C Simulation binaries
+   Compiling ../../../../../MLP_baseline/mm_test.cpp in debug mode
    Compiling ../../../../../MLP_baseline/mm.cpp in debug mode
    Generating csim.exe
 
@@ -48,5 +49,5 @@ PASS: The output matches the golden output!
 *******************************************
 INFO: [SIM 211-1] CSim done with 0 errors.
 INFO: [SIM 211-3] *************** CSIM finish ***************
-INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 2 seconds. Total elapsed time: 8.512 seconds; peak allocated memory: 164.391 MB.
-INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 15s
+INFO: [HLS 200-112] Total CPU user time: 2 seconds. Total CPU system time: 2 seconds. Total elapsed time: 14.943 seconds; peak allocated memory: 165.688 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 20s

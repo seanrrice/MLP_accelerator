@@ -2,102 +2,102 @@
 MainSourceFile:  'C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/.autopilot/db/mm.pp.0.cpp'
 Diagnostics:     
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_30_1:  '
-    FileOffset:      30
+    Message:         'Added loop label VITIS_LOOP_34_1:  '
+    FileOffset:      34
     FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\mm.cpp'
     Replacements:    
       - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-        Offset:          1192014
+        Offset:          1192047
         Length:          0
-        ReplacementText: 'VITIS_LOOP_30_1: '
+        ReplacementText: 'VITIS_LOOP_34_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_32_2:  '
-    FileOffset:      32
-    FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\mm.cpp'
-    Replacements:    
-      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-        Offset:          1192086
-        Length:          0
-        ReplacementText: 'VITIS_LOOP_32_2: '
-  - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_36_3:  '
+    Message:         'Added loop label VITIS_LOOP_36_2:  '
     FileOffset:      36
     FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\mm.cpp'
     Replacements:    
       - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-        Offset:          1192160
+        Offset:          1192119
         Length:          0
-        ReplacementText: 'VITIS_LOOP_36_3: '
+        ReplacementText: 'VITIS_LOOP_36_2: '
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_38_4:  '
-    FileOffset:      38
+    Message:         'Added loop label VITIS_LOOP_40_3:  '
+    FileOffset:      40
     FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\mm.cpp'
     Replacements:    
       - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-        Offset:          1192225
+        Offset:          1192193
         Length:          0
-        ReplacementText: 'VITIS_LOOP_38_4: '
+        ReplacementText: 'VITIS_LOOP_40_3: '
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_45_5:  '
-    FileOffset:      45
+    Message:         'Added loop label VITIS_LOOP_42_4:  '
+    FileOffset:      42
     FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\mm.cpp'
     Replacements:    
       - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-        Offset:          1192377
+        Offset:          1192258
         Length:          0
-        ReplacementText: 'VITIS_LOOP_45_5: '
+        ReplacementText: 'VITIS_LOOP_42_4: '
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_47_6:  '
-    FileOffset:      47
-    FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\mm.cpp'
-    Replacements:    
-      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-        Offset:          1192449
-        Length:          0
-        ReplacementText: 'VITIS_LOOP_47_6: '
-  - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_49_7:  '
+    Message:         'Added loop label VITIS_LOOP_49_5:  '
     FileOffset:      49
     FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\mm.cpp'
     Replacements:    
       - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-        Offset:          1192514
+        Offset:          1192410
         Length:          0
-        ReplacementText: 'VITIS_LOOP_49_7: '
+        ReplacementText: 'VITIS_LOOP_49_5: '
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_55_8:  '
-    FileOffset:      55
+    Message:         'Added loop label VITIS_LOOP_51_6:  '
+    FileOffset:      51
     FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\mm.cpp'
     Replacements:    
       - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-        Offset:          1192674
+        Offset:          1192482
         Length:          0
-        ReplacementText: 'VITIS_LOOP_55_8: '
+        ReplacementText: 'VITIS_LOOP_51_6: '
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_61_9:  '
-    FileOffset:      61
+    Message:         'Added loop label VITIS_LOOP_53_7:  '
+    FileOffset:      53
     FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\mm.cpp'
     Replacements:    
       - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-        Offset:          1192857
+        Offset:          1192547
         Length:          0
-        ReplacementText: 'VITIS_LOOP_61_9: '
+        ReplacementText: 'VITIS_LOOP_53_7: '
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_70_10:  '
-    FileOffset:      70
+    Message:         'Added loop label VITIS_LOOP_59_8:  '
+    FileOffset:      59
     FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\mm.cpp'
     Replacements:    
       - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-        Offset:          1193053
+        Offset:          1192707
         Length:          0
-        ReplacementText: 'VITIS_LOOP_70_10: '
+        ReplacementText: 'VITIS_LOOP_59_8: '
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_72_11:  '
-    FileOffset:      72
+    Message:         'Added loop label VITIS_LOOP_65_9:  '
+    FileOffset:      65
     FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\mm.cpp'
     Replacements:    
       - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-        Offset:          1193118
+        Offset:          1192890
         Length:          0
-        ReplacementText: 'VITIS_LOOP_72_11: '
+        ReplacementText: 'VITIS_LOOP_65_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_74_10:  '
+    FileOffset:      74
+    FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\mm.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1193086
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_74_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_76_11:  '
+    FileOffset:      76
+    FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\mm.cpp'
+    Replacements:    
+      - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
+        Offset:          1193151
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_76_11: '
 ...

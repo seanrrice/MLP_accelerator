@@ -8,13 +8,13 @@
   **** SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
   **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
   **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-  **** Start of session at: Mon Apr  6 21:41:30 2026
+  **** Start of session at: Fri Apr 10 12:28:13 2026
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source bd_0_hls_inst_0.tcl -notrace
-INFO: Dispatch client connection id - 54475
-create_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 512.711 ; gain = 214.770
+INFO: Dispatch client connection id - 65295
+create_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 510.953 ; gain = 212.457
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/ip'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/2025.1/Vivado/data/ip'.
@@ -27,80 +27,80 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020
 INFO: [Device 21-403] Loading part xc7z020clg400-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 12980
+INFO: [Synth 8-7075] Helper process launched with PID 16852
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1244.863 ; gain = 491.148
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 1245.281 ; gain = 491.141
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'bd_0_hls_inst_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/synth/bd_0_hls_inst_0.v:53]
-INFO: [Synth 8-6157] synthesizing module 'MM' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM.v:9]
-INFO: [Synth 8-6157] synthesizing module 'MM_AB_block_RAM_AUTO_1R1W' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_AB_block_RAM_AUTO_1R1W.v:7]
-INFO: [Synth 8-6155] done synthesizing module 'MM_AB_block_RAM_AUTO_1R1W' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_AB_block_RAM_AUTO_1R1W.v:7]
-INFO: [Synth 8-6157] synthesizing module 'MM_B_line_RAM_AUTO_1R1W' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_B_line_RAM_AUTO_1R1W.v:7]
-INFO: [Synth 8-6155] done synthesizing module 'MM_B_line_RAM_AUTO_1R1W' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_B_line_RAM_AUTO_1R1W.v:7]
-INFO: [Synth 8-6157] synthesizing module 'MM_control_s_axi' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_control_s_axi.v:9]
-INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_control_s_axi.v:258]
-INFO: [Synth 8-6155] done synthesizing module 'MM_control_s_axi' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_control_s_axi.v:9]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:9]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_store' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:903]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3774]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3774]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl__parameterized0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3774]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl__parameterized0' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3774]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized0' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized1' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl__parameterized1' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3774]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl__parameterized1' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3774]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized1' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized2' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl__parameterized2' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3774]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl__parameterized2' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3774]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized2' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized3' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl__parameterized3' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3774]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl__parameterized3' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3774]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized3' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_store' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:903]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_load' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:413]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized4' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_mem' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3814]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_mem' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3814]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized4' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_load' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:413]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_write' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:1934]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_burst_converter' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:2229]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_burst_sequential' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:2835]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_reg_slice' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3457]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_reg_slice' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3457]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_burst_sequential' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:2835]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_burst_converter' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:2229]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_throttle' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3188]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized5' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl__parameterized4' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3774]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl__parameterized4' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3774]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized5' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3561]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3457]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized0' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3457]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized1' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3457]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized1' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3457]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_throttle' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3188]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized2' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3457]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized2' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3457]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_write' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:1934]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_read' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:1682]
-INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized3' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3457]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized3' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3457]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_read' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:1682]
-INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:9]
-INFO: [Synth 8-6157] synthesizing module 'MM_mul_32ns_32s_62_2_1' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_mul_32ns_32s_62_2_1.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'MM_mul_32ns_32s_62_2_1' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_mul_32ns_32s_62_2_1.v:5]
-INFO: [Synth 8-6157] synthesizing module 'MM_mul_32s_32s_32_2_1' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_mul_32s_32s_32_2_1.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'MM_mul_32s_32s_32_2_1' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_mul_32s_32s_32_2_1.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'MM' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MM' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MM_AB_block_RAM_AUTO_1R1W' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_AB_block_RAM_AUTO_1R1W.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'MM_AB_block_RAM_AUTO_1R1W' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_AB_block_RAM_AUTO_1R1W.v:7]
+INFO: [Synth 8-6157] synthesizing module 'MM_B_line_RAM_AUTO_1R1W' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_B_line_RAM_AUTO_1R1W.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'MM_B_line_RAM_AUTO_1R1W' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_B_line_RAM_AUTO_1R1W.v:7]
+INFO: [Synth 8-6157] synthesizing module 'MM_control_s_axi' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_control_s_axi.v:9]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_control_s_axi.v:258]
+INFO: [Synth 8-6155] done synthesizing module 'MM_control_s_axi' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_control_s_axi.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_store' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:903]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl__parameterized0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl__parameterized0' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized0' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized1' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl__parameterized1' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl__parameterized1' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized1' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized2' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl__parameterized2' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl__parameterized2' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized2' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized3' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl__parameterized3' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl__parameterized3' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized3' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_store' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:903]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_load' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:413]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized4' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_mem' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3814]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_mem' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3814]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized4' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_load' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:413]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_write' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:1934]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_burst_converter' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:2229]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_burst_sequential' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:2835]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_reg_slice' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_reg_slice' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_burst_sequential' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:2835]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_burst_converter' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:2229]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_throttle' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3188]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized5' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl__parameterized4' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl__parameterized4' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized5' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized0' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized1' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized1' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_throttle' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3188]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized2' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized2' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_write' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:1934]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_read' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:1682]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized3' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized3' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_read' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:1682]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MM_mul_32ns_32s_62_2_1' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_mul_32ns_32s_62_2_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MM_mul_32ns_32s_62_2_1' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_mul_32ns_32s_62_2_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'MM_mul_32s_32s_32_2_1' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_mul_32s_32s_32_2_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MM_mul_32s_32s_32_2_1' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_mul_32s_32s_32_2_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MM' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM.v:9]
 INFO: [Synth 8-6155] done synthesizing module 'bd_0_hls_inst_0' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/synth/bd_0_hls_inst_0.v:53]
-WARNING: [Synth 8-6014] Unused sequential element int_ap_done_reg was removed.  [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_control_s_axi.v:355]
+WARNING: [Synth 8-6014] Unused sequential element int_ap_done_reg was removed.  [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_control_s_axi.v:355]
 INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
 WARNING: [Synth 8-7129] Port reset in module MM_mul_32s_32s_32_2_1 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port reset in module MM_mul_32ns_32s_62_2_1 is either unconnected or has no load
@@ -125,49 +125,50 @@ WARNING: [Synth 8-7129] Port AWADDR[0] in module MM_control_s_axi is either unco
 WARNING: [Synth 8-7129] Port reset in module MM_B_line_RAM_AUTO_1R1W is either unconnected or has no load
 WARNING: [Synth 8-7129] Port reset in module MM_AB_block_RAM_AUTO_1R1W is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1389.270 ; gain = 635.555
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:20 . Memory (MB): peak = 1389.902 ; gain = 635.762
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1389.270 ; gain = 635.555
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:20 . Memory (MB): peak = 1389.902 ; gain = 635.762
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1389.270 ; gain = 635.555
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:20 . Memory (MB): peak = 1389.902 ; gain = 635.762
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.235 . Memory (MB): peak = 1389.270 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.231 . Memory (MB): peak = 1389.902 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
 Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/constraints/MM_ooc.xdc] for cell 'inst'
+get_ports: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1447.988 ; gain = 0.000
 Finished Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/constraints/MM_ooc.xdc] for cell 'inst'
 Parsing XDC File [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1/dont_touch.xdc]
 Finished Parsing XDC File [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1452.434 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1449.160 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.239 . Memory (MB): peak = 1456.297 ; gain = 3.863
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.382 . Memory (MB): peak = 1452.125 ; gain = 2.965
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:29 ; elapsed = 00:00:34 . Memory (MB): peak = 1456.297 ; gain = 702.582
+Finished Constraint Validation : Time (s): cpu = 00:00:27 ; elapsed = 00:00:54 . Memory (MB): peak = 1452.125 ; gain = 697.984
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:29 ; elapsed = 00:00:34 . Memory (MB): peak = 1456.297 ; gain = 702.582
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:27 ; elapsed = 00:00:54 . Memory (MB): peak = 1452.125 ; gain = 697.984
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:34 . Memory (MB): peak = 1456.297 ; gain = 702.582
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:54 . Memory (MB): peak = 1452.125 ; gain = 697.984
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'wstate_reg' in module 'MM_control_s_axi'
 INFO: [Synth 8-802] inferred FSM for state register 'rstate_reg' in module 'MM_control_s_axi'
@@ -238,7 +239,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'MM_gmem_m_axi_reg_slice__parameterized3'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:31 ; elapsed = 00:00:37 . Memory (MB): peak = 1456.297 ; gain = 702.582
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:58 . Memory (MB): peak = 1452.125 ; gain = 697.984
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -355,9 +356,9 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
-WARNING: [Synth 8-3936] Found unconnected internal register 'wreq_throttle/rs_req/data_p1_reg' and it is trimmed from '73' to '72' bits. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3490]
-WARNING: [Synth 8-3936] Found unconnected internal register 'wreq_throttle/rs_req/data_p2_reg' and it is trimmed from '73' to '72' bits. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM_gmem_m_axi.v:3511]
-WARNING: [Synth 8-3936] Found unconnected internal register 'sext_ln30_1_reg_1206_reg' and it is trimmed from '34' to '32' bits. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/0065/hdl/verilog/MM.v:858]
+WARNING: [Synth 8-3936] Found unconnected internal register 'wreq_throttle/rs_req/data_p1_reg' and it is trimmed from '73' to '72' bits. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3490]
+WARNING: [Synth 8-3936] Found unconnected internal register 'wreq_throttle/rs_req/data_p2_reg' and it is trimmed from '73' to '72' bits. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM_gmem_m_axi.v:3511]
+WARNING: [Synth 8-3936] Found unconnected internal register 'sext_ln34_1_reg_1206_reg' and it is trimmed from '34' to '32' bits. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/18f7/hdl/verilog/MM.v:858]
 DSP Report: Generating DSP mul_32ns_32s_62_2_1_U1/tmp_product, operation Mode is: A2*B2.
 DSP Report: register empty_54_reg_1326_reg is absorbed into DSP mul_32ns_32s_62_2_1_U1/tmp_product.
 DSP Report: register mul_32ns_32s_62_2_1_U1/tmp_product is absorbed into DSP mul_32ns_32s_62_2_1_U1/tmp_product.
@@ -514,7 +515,7 @@ WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[46]_
 WARNING: [Synth 8-3332] Sequential element (mul_32s_32s_32_2_1_U2/buff0_reg[45]__0) is unused and will be removed from module MM.
 INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:56 ; elapsed = 00:01:05 . Memory (MB): peak = 1492.602 ; gain = 738.887
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:47 ; elapsed = 00:01:29 . Memory (MB): peak = 1493.918 ; gain = 739.777
 ---------------------------------------------------------------------------------
  Sort Area is  mul_32s_32s_32_2_1_U2/tmp_product_6 : 0 0 : 3155 5892 : Used 1 time 0
  Sort Area is  mul_32s_32s_32_2_1_U2/tmp_product_6 : 0 1 : 2737 5892 : Used 1 time 0
@@ -569,13 +570,13 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:11 ; elapsed = 00:01:24 . Memory (MB): peak = 1650.898 ; gain = 897.184
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:00 ; elapsed = 00:01:44 . Memory (MB): peak = 1652.961 ; gain = 898.820
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:14 ; elapsed = 00:01:27 . Memory (MB): peak = 1672.918 ; gain = 919.203
+Finished Timing Optimization : Time (s): cpu = 00:01:02 ; elapsed = 00:01:46 . Memory (MB): peak = 1675.340 ; gain = 921.199
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -605,7 +606,7 @@ Start Technology Mapping
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-7052] The timing for the instance inst/gmem_m_axi_U/load_unit_0/buff_rdata/U_fifo_mem/mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:17 ; elapsed = 00:01:33 . Memory (MB): peak = 1712.289 ; gain = 958.574
+Finished Technology Mapping : Time (s): cpu = 00:01:05 ; elapsed = 00:01:49 . Memory (MB): peak = 1714.488 ; gain = 960.348
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -623,37 +624,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:26 ; elapsed = 00:01:46 . Memory (MB): peak = 1905.836 ; gain = 1152.121
+Finished IO Insertion : Time (s): cpu = 00:01:12 ; elapsed = 00:01:57 . Memory (MB): peak = 1908.719 ; gain = 1154.578
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:27 ; elapsed = 00:01:47 . Memory (MB): peak = 1905.836 ; gain = 1152.121
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:12 ; elapsed = 00:01:57 . Memory (MB): peak = 1908.719 ; gain = 1154.578
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:28 ; elapsed = 00:01:49 . Memory (MB): peak = 1905.836 ; gain = 1152.121
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:13 ; elapsed = 00:01:58 . Memory (MB): peak = 1908.719 ; gain = 1154.578
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:28 ; elapsed = 00:01:49 . Memory (MB): peak = 1905.836 ; gain = 1152.121
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:13 ; elapsed = 00:01:58 . Memory (MB): peak = 1908.719 ; gain = 1154.578
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:28 ; elapsed = 00:01:50 . Memory (MB): peak = 1910.816 ; gain = 1157.102
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:13 ; elapsed = 00:01:58 . Memory (MB): peak = 1913.656 ; gain = 1159.516
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:28 ; elapsed = 00:01:51 . Memory (MB): peak = 1910.816 ; gain = 1157.102
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:13 ; elapsed = 00:01:58 . Memory (MB): peak = 1913.656 ; gain = 1159.516
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -718,32 +719,32 @@ Report Cell Usage:
 |19    |FDSE     |    18|
 +------+---------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:28 ; elapsed = 00:01:51 . Memory (MB): peak = 1910.816 ; gain = 1157.102
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:13 ; elapsed = 00:01:58 . Memory (MB): peak = 1913.656 ; gain = 1159.516
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 142 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:01:09 ; elapsed = 00:01:46 . Memory (MB): peak = 1910.816 ; gain = 1090.074
-Synthesis Optimization Complete : Time (s): cpu = 00:01:28 ; elapsed = 00:01:53 . Memory (MB): peak = 1910.816 ; gain = 1157.102
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:56 ; elapsed = 00:01:40 . Memory (MB): peak = 1913.656 ; gain = 1097.293
+Synthesis Optimization Complete : Time (s): cpu = 00:01:13 ; elapsed = 00:01:58 . Memory (MB): peak = 1913.656 ; gain = 1159.516
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.224 . Memory (MB): peak = 1919.883 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.162 . Memory (MB): peak = 1920.648 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 434 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1923.562 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1923.012 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 32 instances were transformed.
   RAM16X1S => RAM32X1S (RAMS32): 32 instances
 
-Synth Design complete | Checksum: cf8047c3
+Synth Design complete | Checksum: 2426ad6e
 INFO: [Common 17-83] Releasing license: Synthesis
 106 Infos, 138 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:38 ; elapsed = 00:02:08 . Memory (MB): peak = 1923.562 ; gain = 1389.512
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.058 . Memory (MB): peak = 1923.562 ; gain = 0.000
+synth_design: Time (s): cpu = 00:01:20 ; elapsed = 00:02:09 . Memory (MB): peak = 1923.012 ; gain = 1394.934
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.054 . Memory (MB): peak = 1923.012 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1/bd_0_hls_inst_0.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP bd_0_hls_inst_0, cache-ID = 356fde73b5545c38
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP bd_0_hls_inst_0, cache-ID = 2560e2042d223178
 INFO: [Coretcl 2-1174] Renamed 42 cell refs.
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 1923.562 ; gain = 0.000
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 1923.012 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1/bd_0_hls_inst_0.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file bd_0_hls_inst_0_utilization_synth.rpt -pb bd_0_hls_inst_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Apr  6 21:43:59 2026...
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 10 12:30:48 2026...

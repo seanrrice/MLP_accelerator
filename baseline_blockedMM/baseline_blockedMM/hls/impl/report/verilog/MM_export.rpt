@@ -4,7 +4,7 @@ Implementation tool: Xilinx Vivado v.2025.1
 Project:             baseline_blockedMM
 Solution:            hls
 Device target:       xc7z020-clg400-1
-Report date:         Mon Apr 06 21:49:30 -0700 2026
+Report date:         Fri Apr 10 12:36:38 -0700 2026
 
 #=== Post-Implementation Resource usage ===
 SLICE:         1129
