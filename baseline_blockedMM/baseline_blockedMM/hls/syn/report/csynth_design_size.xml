@@ -32,7 +32,7 @@
         <hiertable>
             <header size="7" col0="Function" col1="Location" col2="Compile/Link" col3="Unroll/Inline" col4="Array/Struct" col5="Performance" col6="HW Transforms"/>
             <rows>
-                <row id="0" col0="MM" col1="mm.cpp:7" col2="183" col3="124" col4="135" col5="132" col6="185"/>
+                <row id="0" col0="MM" col1="mm.cpp:8" col2="183" col3="124" col4="135" col5="132" col6="185"/>
             </rows>
             <notes/>
         </hiertable>

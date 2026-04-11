@@ -1,5 +1,6 @@
 #include "mm.h"
 
+
 typedef int DTYPE;
 const int BLOCK_SIZE = 16; //block size
 
@@ -42,8 +43,11 @@ void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P) {
     
     // Blocked matmul
     for(int ib = 0; ib < N/BLOCK_SIZE; ib ++){
+        #pragma HLS LOOP_TRIPCOUNT min=64 max=64
         #pragma HLS pipeline off
+
         for(int jb = 0; jb < P/BLOCK_SIZE; jb ++){
+            #pragma HLS LOOP_TRIPCOUNT min=8 max=8
             #pragma HLS pipeline off
             for(int i=0;i<BLOCK_SIZE;i++){
                 #pragma HLS pipeline off
@@ -53,6 +57,7 @@ void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P) {
                 }
             }
             for (int kb = 0; kb < M/BLOCK_SIZE; kb ++){
+                #pragma HLS LOOP_TRIPCOUNT min=49 max=49
                 #pragma HLS pipeline off
                 for(int k = 0; k < BLOCK_SIZE; k++){
                     #pragma HLS pipeline off

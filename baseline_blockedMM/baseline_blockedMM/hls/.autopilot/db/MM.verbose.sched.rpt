@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'MM'
 ================================================================
-* Date:           Fri Apr 10 12:44:38 2026
+* Date:           Sat Apr 11 16:31:18 2026
 
 * Version:        2025.1 (Build 6135595 on May 21 2025)
 * Project:        baseline_blockedMM
@@ -25,34 +25,34 @@
 
 + Latency: 
     * Summary: 
-    +---------+---------+-----------+----------+-----+-----+---------+
-    |  Latency (cycles) |  Latency (absolute)  |  Interval | Pipeline|
-    |   min   |   max   |    min    |    max   | min | max |   Type  |
-    +---------+---------+-----------+----------+-----+-----+---------+
-    |        1|        ?|  10.000 ns|         ?|    2|    ?|       no|
-    +---------+---------+-----------+----------+-----+-----+---------+
+    +-----------+-----------+-----------+-----------+-----------+-----------+---------+
+    |    Latency (cycles)   |   Latency (absolute)  |        Interval       | Pipeline|
+    |    min    |    max    |    min    |    max    |    min    |    max    |   Type  |
+    +-----------+-----------+-----------+-----------+-----------+-----------+---------+
+    |  634903681|  634903681|  6.349 sec|  6.349 sec|  634903682|  634903682|       no|
+    +-----------+-----------+-----------+-----------+-----------+-----------+---------+
 
     + Detail: 
         * Instance: 
         N/A
 
         * Loop: 
-        +----------------------------+---------+---------------+----------------------+-----------+-----------+---------------+----------+
-        |                            |     Latency (cycles)    |       Iteration      |  Initiation Interval  |      Trip     |          |
-        |          Loop Name         |   min   |      max      |        Latency       |  achieved |   target  |     Count     | Pipelined|
-        +----------------------------+---------+---------------+----------------------+-----------+-----------+---------------+----------+
-        |- VITIS_LOOP_44_1           |        0|              ?|                 2 ~ ?|          -|          -|  0 ~ 134217727|        no|
-        | + VITIS_LOOP_46_2          |        0|              ?|  1228 ~ 3393292575242|          -|          -|  0 ~ 134217727|        no|
-        |  ++ VITIS_LOOP_48_3        |      304|            304|                    19|          -|          -|             16|        no|
-        |   +++ VITIS_LOOP_50_4      |       16|             16|                     1|          -|          -|             16|        no|
-        |  ++ VITIS_LOOP_55_5        |        0|  3393292574014|                 25282|          -|          -|  0 ~ 134217727|        no|
-        |   +++ VITIS_LOOP_57_6      |    25280|          25280|                  1580|          -|          -|             16|        no|
-        |    ++++ VITIS_LOOP_59_7    |       48|             48|                     3|          -|          -|             16|        no|
-        |    ++++ VITIS_LOOP_63_8    |     1520|           1520|                    95|          -|          -|             16|        no|
-        |     +++++ VITIS_LOOP_66_9  |       80|             80|                     5|          -|          -|             16|        no|
-        |  ++ VITIS_LOOP_73_10       |      912|            912|                    57|          -|          -|             16|        no|
-        |   +++ VITIS_LOOP_75_11     |       48|             48|                     3|          -|          -|             16|        no|
-        +----------------------------+---------+---------------+----------------------+-----------+-----------+---------------+----------+
+        +----------------------------+-----------+-----------+----------+-----------+-----------+------+----------+
+        |                            |    Latency (cycles)   | Iteration|  Initiation Interval  | Trip |          |
+        |          Loop Name         |    min    |    max    |  Latency |  achieved |   target  | Count| Pipelined|
+        +----------------------------+-----------+-----------+----------+-----------+-----------+------+----------+
+        |- VITIS_LOOP_45_1           |  634903680|  634903680|   9920370|          -|          -|    64|        no|
+        | + VITIS_LOOP_49_2          |    9920368|    9920368|   1240046|          -|          -|     8|        no|
+        |  ++ VITIS_LOOP_52_3        |        304|        304|        19|          -|          -|    16|        no|
+        |   +++ VITIS_LOOP_54_4      |         16|         16|         1|          -|          -|    16|        no|
+        |  ++ VITIS_LOOP_59_5        |    1238818|    1238818|     25282|          -|          -|    49|        no|
+        |   +++ VITIS_LOOP_62_6      |      25280|      25280|      1580|          -|          -|    16|        no|
+        |    ++++ VITIS_LOOP_64_7    |         48|         48|         3|          -|          -|    16|        no|
+        |    ++++ VITIS_LOOP_68_8    |       1520|       1520|        95|          -|          -|    16|        no|
+        |     +++++ VITIS_LOOP_71_9  |         80|         80|         5|          -|          -|    16|        no|
+        |  ++ VITIS_LOOP_78_10       |        912|        912|        57|          -|          -|    16|        no|
+        |   +++ VITIS_LOOP_80_11     |         48|         48|         3|          -|          -|    16|        no|
+        +----------------------------+-----------+-----------+----------+-----------+-----------+------+----------+
 
 ============================================================
 + Verbose Summary: Synthesis Manager
@@ -148,8 +148,8 @@ IsGatedGlobalClock: 0
 
 State 1 <SV = 0> <Delay = 6.82>
 ST_1 : Operation 59 [1/1] (0.00ns)   --->   "%phi_mul8 = alloca i32 1"   --->   Operation 59 'alloca' 'phi_mul8' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 60 [1/1] (0.00ns)   --->   "%ib = alloca i32 1" [../MLP_baseline/mm.cpp:44]   --->   Operation 60 'alloca' 'ib' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 61 [1/1] (0.00ns)   --->   "%spectopmodule_ln7 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_15" [../MLP_baseline/mm.cpp:7]   --->   Operation 61 'spectopmodule' 'spectopmodule_ln7' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 60 [1/1] (0.00ns)   --->   "%ib = alloca i32 1" [../MLP_baseline/mm.cpp:45]   --->   Operation 60 'alloca' 'ib' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 61 [1/1] (0.00ns)   --->   "%spectopmodule_ln8 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_15" [../MLP_baseline/mm.cpp:8]   --->   Operation 61 'spectopmodule' 'spectopmodule_ln8' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 62 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %gmem, void @empty, i32 0, i32 0, void @empty_0, i32 0, i32 802816, void @empty_1, void @empty_2, void @empty_0, i32 16, i32 16, i32 16, i32 16, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 62 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 63 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i32 %gmem"   --->   Operation 63 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 64 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %A, void @empty_3, i32 4294967295, i32 4294967295, void @empty_4, i32 0, i32 0, void @empty_5, void @empty_6, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_7, i32 4294967295, i32 0, i32 0"   --->   Operation 64 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
@@ -177,8 +177,8 @@ ST_1 : Operation 85 [1/1] (1.00ns)   --->   "%ABC_read = read i64 @_ssdm_op_Read
 ST_1 : Operation 86 [1/1] (1.00ns)   --->   "%C_read = read i64 @_ssdm_op_Read.s_axilite.i64, i64 %C"   --->   Operation 86 'read' 'C_read' <Predicate = true> <Delay = 1.00> <CoreInst = "s_axilite">   --->   Core 112 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
 ST_1 : Operation 87 [1/1] (1.00ns)   --->   "%B_read = read i64 @_ssdm_op_Read.s_axilite.i64, i64 %B"   --->   Operation 87 'read' 'B_read' <Predicate = true> <Delay = 1.00> <CoreInst = "s_axilite">   --->   Core 112 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
 ST_1 : Operation 88 [1/1] (1.00ns)   --->   "%A_read = read i64 @_ssdm_op_Read.s_axilite.i64, i64 %A"   --->   Operation 88 'read' 'A_read' <Predicate = true> <Delay = 1.00> <CoreInst = "s_axilite">   --->   Core 112 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
-ST_1 : Operation 89 [1/1] (0.00ns)   --->   "%AB_block = alloca i64 1" [../MLP_baseline/mm.cpp:40]   --->   Operation 89 'alloca' 'AB_block' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 256> <RAM>
-ST_1 : Operation 90 [1/1] (0.00ns)   --->   "%B_line = alloca i64 1" [../MLP_baseline/mm.cpp:41]   --->   Operation 90 'alloca' 'B_line' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_1 : Operation 89 [1/1] (0.00ns)   --->   "%AB_block = alloca i64 1" [../MLP_baseline/mm.cpp:41]   --->   Operation 89 'alloca' 'AB_block' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 256> <RAM>
+ST_1 : Operation 90 [1/1] (0.00ns)   --->   "%B_line = alloca i64 1" [../MLP_baseline/mm.cpp:42]   --->   Operation 90 'alloca' 'B_line' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
 ST_1 : Operation 91 [1/1] (0.00ns)   --->   "%tmp_17 = bitselect i1 @_ssdm_op_BitSelect.i1.i32.i32, i32 %N_read, i32 31"   --->   Operation 91 'bitselect' 'tmp_17' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 92 [1/1] (2.55ns)   --->   "%p_neg9 = sub i32 0, i32 %N_read"   --->   Operation 92 'sub' 'p_neg9' <Predicate = true> <Delay = 2.55> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.55> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 93 [1/1] (0.00ns)   --->   "%tmp_1 = partselect i28 @_ssdm_op_PartSelect.i28.i32.i32.i32, i32 %p_neg9, i32 4, i32 31"   --->   Operation 93 'partselect' 'tmp_1' <Predicate = true> <Delay = 0.00>
@@ -197,350 +197,350 @@ ST_1 : Operation 105 [1/1] (0.00ns)   --->   "%tmp_5 = partselect i28 @_ssdm_op_
 ST_1 : Operation 106 [1/1] (2.43ns)   --->   "%p_neg_t = sub i28 0, i28 %tmp_5"   --->   Operation 106 'sub' 'p_neg_t' <Predicate = true> <Delay = 2.43> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.43> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 107 [1/1] (0.00ns)   --->   "%tmp_6 = partselect i28 @_ssdm_op_PartSelect.i28.i32.i32.i32, i32 %M_read, i32 4, i32 31"   --->   Operation 107 'partselect' 'tmp_6' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 108 [1/1] (0.83ns)   --->   "%div22 = select i1 %tmp_19, i28 %p_neg_t, i28 %tmp_6"   --->   Operation 108 'select' 'div22' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_1 : Operation 109 [1/1] (0.00ns)   --->   "%sext_ln44 = sext i32 %M_read" [../MLP_baseline/mm.cpp:44]   --->   Operation 109 'sext' 'sext_ln44' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 110 [1/1] (0.00ns)   --->   "%sext_ln44_1 = sext i32 %P_read" [../MLP_baseline/mm.cpp:44]   --->   Operation 110 'sext' 'sext_ln44_1' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 111 [1/1] (0.00ns)   --->   "%sext_ln44_2 = sext i32 %P_read" [../MLP_baseline/mm.cpp:44]   --->   Operation 111 'sext' 'sext_ln44_2' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 112 [1/1] (1.58ns)   --->   "%store_ln44 = store i27 0, i27 %ib" [../MLP_baseline/mm.cpp:44]   --->   Operation 112 'store' 'store_ln44' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 109 [1/1] (0.00ns)   --->   "%sext_ln45 = sext i32 %M_read" [../MLP_baseline/mm.cpp:45]   --->   Operation 109 'sext' 'sext_ln45' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 110 [1/1] (0.00ns)   --->   "%sext_ln45_1 = sext i32 %P_read" [../MLP_baseline/mm.cpp:45]   --->   Operation 110 'sext' 'sext_ln45_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 111 [1/1] (0.00ns)   --->   "%sext_ln45_2 = sext i32 %P_read" [../MLP_baseline/mm.cpp:45]   --->   Operation 111 'sext' 'sext_ln45_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 112 [1/1] (1.58ns)   --->   "%store_ln45 = store i27 0, i27 %ib" [../MLP_baseline/mm.cpp:45]   --->   Operation 112 'store' 'store_ln45' <Predicate = true> <Delay = 1.58>
 ST_1 : Operation 113 [1/1] (1.58ns)   --->   "%store_ln0 = store i58 0, i58 %phi_mul8"   --->   Operation 113 'store' 'store_ln0' <Predicate = true> <Delay = 1.58>
-ST_1 : Operation 114 [1/1] (0.00ns)   --->   "%br_ln44 = br void %VITIS_LOOP_46_2" [../MLP_baseline/mm.cpp:44]   --->   Operation 114 'br' 'br_ln44' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 114 [1/1] (0.00ns)   --->   "%br_ln45 = br void %VITIS_LOOP_49_2" [../MLP_baseline/mm.cpp:45]   --->   Operation 114 'br' 'br_ln45' <Predicate = true> <Delay = 0.00>
 
 State 2 <SV = 1> <Delay = 4.02>
-ST_2 : Operation 115 [1/1] (0.00ns)   --->   "%phi_mul8_load = load i58 %phi_mul8" [../MLP_baseline/mm.cpp:44]   --->   Operation 115 'load' 'phi_mul8_load' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 116 [1/1] (0.00ns)   --->   "%ib_1 = load i27 %ib" [../MLP_baseline/mm.cpp:44]   --->   Operation 116 'load' 'ib_1' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 117 [1/1] (3.36ns)   --->   "%add_ln44_1 = add i58 %phi_mul8_load, i58 %sext_ln44_2" [../MLP_baseline/mm.cpp:44]   --->   Operation 117 'add' 'add_ln44_1' <Predicate = true> <Delay = 3.36> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 3.36> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_2 : Operation 118 [1/1] (0.00ns)   --->   "%zext_ln44 = zext i27 %ib_1" [../MLP_baseline/mm.cpp:44]   --->   Operation 118 'zext' 'zext_ln44' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 119 [1/1] (2.43ns)   --->   "%icmp_ln44 = icmp_slt  i28 %zext_ln44, i28 %div" [../MLP_baseline/mm.cpp:44]   --->   Operation 119 'icmp' 'icmp_ln44' <Predicate = true> <Delay = 2.43> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.43> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
-ST_2 : Operation 120 [1/1] (2.40ns)   --->   "%add_ln44 = add i27 %ib_1, i27 1" [../MLP_baseline/mm.cpp:44]   --->   Operation 120 'add' 'add_ln44' <Predicate = true> <Delay = 2.40> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.40> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_2 : Operation 121 [1/1] (0.00ns)   --->   "%br_ln44 = br i1 %icmp_ln44, void %for.end119, void %VITIS_LOOP_46_2.split" [../MLP_baseline/mm.cpp:44]   --->   Operation 121 'br' 'br_ln44' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 122 [1/1] (0.00ns)   --->   "%specpipeline_ln45 = specpipeline void @_ssdm_op_SpecPipeline, i32 0, i32 0, i32 1, i32 0, void @empty_0" [../MLP_baseline/mm.cpp:45]   --->   Operation 122 'specpipeline' 'specpipeline_ln45' <Predicate = (icmp_ln44)> <Delay = 0.00>
-ST_2 : Operation 123 [1/1] (0.00ns)   --->   "%speclooptripcount_ln44 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 0, i64 134217727, i64 67108863" [../MLP_baseline/mm.cpp:44]   --->   Operation 123 'speclooptripcount' 'speclooptripcount_ln44' <Predicate = (icmp_ln44)> <Delay = 0.00>
-ST_2 : Operation 124 [1/1] (0.00ns)   --->   "%specloopname_ln44 = specloopname void @_ssdm_op_SpecLoopName, void @empty_26" [../MLP_baseline/mm.cpp:44]   --->   Operation 124 'specloopname' 'specloopname_ln44' <Predicate = (icmp_ln44)> <Delay = 0.00>
-ST_2 : Operation 125 [1/1] (0.00ns)   --->   "%tmp_7 = bitconcatenate i62 @_ssdm_op_BitConcatenate.i62.i58.i4, i58 %phi_mul8_load, i4 0" [../MLP_baseline/mm.cpp:44]   --->   Operation 125 'bitconcatenate' 'tmp_7' <Predicate = (icmp_ln44)> <Delay = 0.00>
-ST_2 : Operation 126 [1/1] (0.00ns)   --->   "%tmp_8 = bitconcatenate i33 @_ssdm_op_BitConcatenate.i33.i27.i6, i27 %ib_1, i6 0" [../MLP_baseline/mm.cpp:44]   --->   Operation 126 'bitconcatenate' 'tmp_8' <Predicate = (icmp_ln44)> <Delay = 0.00>
-ST_2 : Operation 127 [1/1] (0.00ns)   --->   "%p_cast16 = zext i33 %tmp_8" [../MLP_baseline/mm.cpp:44]   --->   Operation 127 'zext' 'p_cast16' <Predicate = (icmp_ln44)> <Delay = 0.00>
-ST_2 : Operation 128 [1/1] (3.52ns)   --->   "%empty = add i64 %p_cast16, i64 %C_read" [../MLP_baseline/mm.cpp:44]   --->   Operation 128 'add' 'empty' <Predicate = (icmp_ln44)> <Delay = 3.52> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 3.52> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_2 : Operation 129 [1/1] (0.00ns)   --->   "%tmp_9 = bitconcatenate i31 @_ssdm_op_BitConcatenate.i31.i27.i4, i27 %ib_1, i4 0" [../MLP_baseline/mm.cpp:44]   --->   Operation 129 'bitconcatenate' 'tmp_9' <Predicate = (icmp_ln44)> <Delay = 0.00>
-ST_2 : Operation 130 [1/1] (0.00ns)   --->   "%tmp_9_cast = zext i31 %tmp_9" [../MLP_baseline/mm.cpp:44]   --->   Operation 130 'zext' 'tmp_9_cast' <Predicate = (icmp_ln44)> <Delay = 0.00>
-ST_2 : Operation 131 [1/1] (0.00ns)   --->   "%p_cast6 = partselect i62 @_ssdm_op_PartSelect.i62.i64.i32.i32, i64 %empty, i32 2, i32 63" [../MLP_baseline/mm.cpp:44]   --->   Operation 131 'partselect' 'p_cast6' <Predicate = (icmp_ln44)> <Delay = 0.00>
-ST_2 : Operation 132 [1/1] (0.00ns)   --->   "%p_cast6_cast = sext i62 %p_cast6" [../MLP_baseline/mm.cpp:44]   --->   Operation 132 'sext' 'p_cast6_cast' <Predicate = (icmp_ln44)> <Delay = 0.00>
-ST_2 : Operation 133 [1/1] (0.00ns)   --->   "%gmem_addr = getelementptr i32 %gmem, i64 %p_cast6_cast" [../MLP_baseline/mm.cpp:44]   --->   Operation 133 'getelementptr' 'gmem_addr' <Predicate = (icmp_ln44)> <Delay = 0.00>
-ST_2 : Operation 134 [1/1] (1.58ns)   --->   "%br_ln46 = br void %VITIS_LOOP_48_3" [../MLP_baseline/mm.cpp:46]   --->   Operation 134 'br' 'br_ln46' <Predicate = (icmp_ln44)> <Delay = 1.58>
-ST_2 : Operation 135 [1/1] (0.00ns)   --->   "%ret_ln83 = ret" [../MLP_baseline/mm.cpp:83]   --->   Operation 135 'ret' 'ret_ln83' <Predicate = (!icmp_ln44)> <Delay = 0.00>
+ST_2 : Operation 115 [1/1] (0.00ns)   --->   "%phi_mul8_load = load i58 %phi_mul8" [../MLP_baseline/mm.cpp:45]   --->   Operation 115 'load' 'phi_mul8_load' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 116 [1/1] (0.00ns)   --->   "%ib_1 = load i27 %ib" [../MLP_baseline/mm.cpp:45]   --->   Operation 116 'load' 'ib_1' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 117 [1/1] (3.36ns)   --->   "%add_ln45_1 = add i58 %phi_mul8_load, i58 %sext_ln45_2" [../MLP_baseline/mm.cpp:45]   --->   Operation 117 'add' 'add_ln45_1' <Predicate = true> <Delay = 3.36> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 3.36> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 118 [1/1] (0.00ns)   --->   "%zext_ln45 = zext i27 %ib_1" [../MLP_baseline/mm.cpp:45]   --->   Operation 118 'zext' 'zext_ln45' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 119 [1/1] (2.43ns)   --->   "%icmp_ln45 = icmp_slt  i28 %zext_ln45, i28 %div" [../MLP_baseline/mm.cpp:45]   --->   Operation 119 'icmp' 'icmp_ln45' <Predicate = true> <Delay = 2.43> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.43> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 120 [1/1] (2.40ns)   --->   "%add_ln45 = add i27 %ib_1, i27 1" [../MLP_baseline/mm.cpp:45]   --->   Operation 120 'add' 'add_ln45' <Predicate = true> <Delay = 2.40> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.40> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 121 [1/1] (0.00ns)   --->   "%br_ln45 = br i1 %icmp_ln45, void %for.end119, void %VITIS_LOOP_49_2.split" [../MLP_baseline/mm.cpp:45]   --->   Operation 121 'br' 'br_ln45' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 122 [1/1] (0.00ns)   --->   "%specpipeline_ln47 = specpipeline void @_ssdm_op_SpecPipeline, i32 0, i32 0, i32 1, i32 0, void @empty_0" [../MLP_baseline/mm.cpp:47]   --->   Operation 122 'specpipeline' 'specpipeline_ln47' <Predicate = (icmp_ln45)> <Delay = 0.00>
+ST_2 : Operation 123 [1/1] (0.00ns)   --->   "%speclooptripcount_ln46 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 64, i64 64, i64 64" [../MLP_baseline/mm.cpp:46]   --->   Operation 123 'speclooptripcount' 'speclooptripcount_ln46' <Predicate = (icmp_ln45)> <Delay = 0.00>
+ST_2 : Operation 124 [1/1] (0.00ns)   --->   "%specloopname_ln45 = specloopname void @_ssdm_op_SpecLoopName, void @empty_26" [../MLP_baseline/mm.cpp:45]   --->   Operation 124 'specloopname' 'specloopname_ln45' <Predicate = (icmp_ln45)> <Delay = 0.00>
+ST_2 : Operation 125 [1/1] (0.00ns)   --->   "%tmp_7 = bitconcatenate i62 @_ssdm_op_BitConcatenate.i62.i58.i4, i58 %phi_mul8_load, i4 0" [../MLP_baseline/mm.cpp:45]   --->   Operation 125 'bitconcatenate' 'tmp_7' <Predicate = (icmp_ln45)> <Delay = 0.00>
+ST_2 : Operation 126 [1/1] (0.00ns)   --->   "%tmp_8 = bitconcatenate i33 @_ssdm_op_BitConcatenate.i33.i27.i6, i27 %ib_1, i6 0" [../MLP_baseline/mm.cpp:45]   --->   Operation 126 'bitconcatenate' 'tmp_8' <Predicate = (icmp_ln45)> <Delay = 0.00>
+ST_2 : Operation 127 [1/1] (0.00ns)   --->   "%p_cast16 = zext i33 %tmp_8" [../MLP_baseline/mm.cpp:45]   --->   Operation 127 'zext' 'p_cast16' <Predicate = (icmp_ln45)> <Delay = 0.00>
+ST_2 : Operation 128 [1/1] (3.52ns)   --->   "%empty = add i64 %p_cast16, i64 %C_read" [../MLP_baseline/mm.cpp:45]   --->   Operation 128 'add' 'empty' <Predicate = (icmp_ln45)> <Delay = 3.52> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 3.52> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 129 [1/1] (0.00ns)   --->   "%tmp_9 = bitconcatenate i31 @_ssdm_op_BitConcatenate.i31.i27.i4, i27 %ib_1, i4 0" [../MLP_baseline/mm.cpp:45]   --->   Operation 129 'bitconcatenate' 'tmp_9' <Predicate = (icmp_ln45)> <Delay = 0.00>
+ST_2 : Operation 130 [1/1] (0.00ns)   --->   "%tmp_9_cast = zext i31 %tmp_9" [../MLP_baseline/mm.cpp:45]   --->   Operation 130 'zext' 'tmp_9_cast' <Predicate = (icmp_ln45)> <Delay = 0.00>
+ST_2 : Operation 131 [1/1] (0.00ns)   --->   "%p_cast6 = partselect i62 @_ssdm_op_PartSelect.i62.i64.i32.i32, i64 %empty, i32 2, i32 63" [../MLP_baseline/mm.cpp:45]   --->   Operation 131 'partselect' 'p_cast6' <Predicate = (icmp_ln45)> <Delay = 0.00>
+ST_2 : Operation 132 [1/1] (0.00ns)   --->   "%p_cast6_cast = sext i62 %p_cast6" [../MLP_baseline/mm.cpp:45]   --->   Operation 132 'sext' 'p_cast6_cast' <Predicate = (icmp_ln45)> <Delay = 0.00>
+ST_2 : Operation 133 [1/1] (0.00ns)   --->   "%gmem_addr = getelementptr i32 %gmem, i64 %p_cast6_cast" [../MLP_baseline/mm.cpp:45]   --->   Operation 133 'getelementptr' 'gmem_addr' <Predicate = (icmp_ln45)> <Delay = 0.00>
+ST_2 : Operation 134 [1/1] (1.58ns)   --->   "%br_ln49 = br void %VITIS_LOOP_52_3" [../MLP_baseline/mm.cpp:49]   --->   Operation 134 'br' 'br_ln49' <Predicate = (icmp_ln45)> <Delay = 1.58>
+ST_2 : Operation 135 [1/1] (0.00ns)   --->   "%ret_ln88 = ret" [../MLP_baseline/mm.cpp:88]   --->   Operation 135 'ret' 'ret_ln88' <Predicate = (!icmp_ln45)> <Delay = 0.00>
 
 State 3 <SV = 2> <Delay = 4.02>
-ST_3 : Operation 136 [1/1] (0.00ns)   --->   "%jb = phi i27 0, void %VITIS_LOOP_46_2.split, i27 %add_ln46, void %for.inc114" [../MLP_baseline/mm.cpp:46]   --->   Operation 136 'phi' 'jb' <Predicate = true> <Delay = 0.00>
-ST_3 : Operation 137 [1/1] (0.00ns)   --->   "%zext_ln46 = zext i27 %jb" [../MLP_baseline/mm.cpp:46]   --->   Operation 137 'zext' 'zext_ln46' <Predicate = true> <Delay = 0.00>
-ST_3 : Operation 138 [1/1] (2.43ns)   --->   "%icmp_ln46 = icmp_slt  i28 %zext_ln46, i28 %div2" [../MLP_baseline/mm.cpp:46]   --->   Operation 138 'icmp' 'icmp_ln46' <Predicate = true> <Delay = 2.43> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.43> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 139 [1/1] (2.40ns)   --->   "%add_ln46 = add i27 %jb, i27 1" [../MLP_baseline/mm.cpp:46]   --->   Operation 139 'add' 'add_ln46' <Predicate = true> <Delay = 2.40> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.40> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 140 [1/1] (0.00ns)   --->   "%br_ln46 = br i1 %icmp_ln46, void %for.inc117, void %VITIS_LOOP_48_3.split" [../MLP_baseline/mm.cpp:46]   --->   Operation 140 'br' 'br_ln46' <Predicate = true> <Delay = 0.00>
-ST_3 : Operation 141 [1/1] (1.58ns)   --->   "%store_ln44 = store i27 %add_ln44, i27 %ib" [../MLP_baseline/mm.cpp:44]   --->   Operation 141 'store' 'store_ln44' <Predicate = (!icmp_ln46)> <Delay = 1.58>
-ST_3 : Operation 142 [1/1] (1.58ns)   --->   "%store_ln44 = store i58 %add_ln44_1, i58 %phi_mul8" [../MLP_baseline/mm.cpp:44]   --->   Operation 142 'store' 'store_ln44' <Predicate = (!icmp_ln46)> <Delay = 1.58>
-ST_3 : Operation 143 [1/1] (0.00ns)   --->   "%br_ln44 = br void %VITIS_LOOP_46_2" [../MLP_baseline/mm.cpp:44]   --->   Operation 143 'br' 'br_ln44' <Predicate = (!icmp_ln46)> <Delay = 0.00>
+ST_3 : Operation 136 [1/1] (0.00ns)   --->   "%jb = phi i27 0, void %VITIS_LOOP_49_2.split, i27 %add_ln49, void %for.inc114" [../MLP_baseline/mm.cpp:49]   --->   Operation 136 'phi' 'jb' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 137 [1/1] (0.00ns)   --->   "%zext_ln49 = zext i27 %jb" [../MLP_baseline/mm.cpp:49]   --->   Operation 137 'zext' 'zext_ln49' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 138 [1/1] (2.43ns)   --->   "%icmp_ln49 = icmp_slt  i28 %zext_ln49, i28 %div2" [../MLP_baseline/mm.cpp:49]   --->   Operation 138 'icmp' 'icmp_ln49' <Predicate = true> <Delay = 2.43> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.43> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 139 [1/1] (2.40ns)   --->   "%add_ln49 = add i27 %jb, i27 1" [../MLP_baseline/mm.cpp:49]   --->   Operation 139 'add' 'add_ln49' <Predicate = true> <Delay = 2.40> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.40> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 140 [1/1] (0.00ns)   --->   "%br_ln49 = br i1 %icmp_ln49, void %for.inc117, void %VITIS_LOOP_52_3.split" [../MLP_baseline/mm.cpp:49]   --->   Operation 140 'br' 'br_ln49' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 141 [1/1] (1.58ns)   --->   "%store_ln45 = store i27 %add_ln45, i27 %ib" [../MLP_baseline/mm.cpp:45]   --->   Operation 141 'store' 'store_ln45' <Predicate = (!icmp_ln49)> <Delay = 1.58>
+ST_3 : Operation 142 [1/1] (1.58ns)   --->   "%store_ln45 = store i58 %add_ln45_1, i58 %phi_mul8" [../MLP_baseline/mm.cpp:45]   --->   Operation 142 'store' 'store_ln45' <Predicate = (!icmp_ln49)> <Delay = 1.58>
+ST_3 : Operation 143 [1/1] (0.00ns)   --->   "%br_ln45 = br void %VITIS_LOOP_49_2" [../MLP_baseline/mm.cpp:45]   --->   Operation 143 'br' 'br_ln45' <Predicate = (!icmp_ln49)> <Delay = 0.00>
 
 State 4 <SV = 3> <Delay = 7.30>
-ST_4 : Operation 144 [8/8] (7.30ns)   --->   "%empty_53 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr, i64 16" [../MLP_baseline/mm.cpp:48]   --->   Operation 144 'readreq' 'empty_53' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_4 : Operation 144 [8/8] (7.30ns)   --->   "%empty_53 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr, i64 16" [../MLP_baseline/mm.cpp:52]   --->   Operation 144 'readreq' 'empty_53' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 5 <SV = 4> <Delay = 7.30>
-ST_5 : Operation 145 [7/8] (7.30ns)   --->   "%empty_53 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr, i64 16" [../MLP_baseline/mm.cpp:48]   --->   Operation 145 'readreq' 'empty_53' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_5 : Operation 145 [7/8] (7.30ns)   --->   "%empty_53 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr, i64 16" [../MLP_baseline/mm.cpp:52]   --->   Operation 145 'readreq' 'empty_53' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 6 <SV = 5> <Delay = 7.30>
-ST_6 : Operation 146 [6/8] (7.30ns)   --->   "%empty_53 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr, i64 16" [../MLP_baseline/mm.cpp:48]   --->   Operation 146 'readreq' 'empty_53' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_6 : Operation 146 [6/8] (7.30ns)   --->   "%empty_53 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr, i64 16" [../MLP_baseline/mm.cpp:52]   --->   Operation 146 'readreq' 'empty_53' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 7 <SV = 6> <Delay = 7.30>
-ST_7 : Operation 147 [5/8] (7.30ns)   --->   "%empty_53 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr, i64 16" [../MLP_baseline/mm.cpp:48]   --->   Operation 147 'readreq' 'empty_53' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_7 : Operation 147 [5/8] (7.30ns)   --->   "%empty_53 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr, i64 16" [../MLP_baseline/mm.cpp:52]   --->   Operation 147 'readreq' 'empty_53' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 8 <SV = 7> <Delay = 7.30>
-ST_8 : Operation 148 [4/8] (7.30ns)   --->   "%empty_53 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr, i64 16" [../MLP_baseline/mm.cpp:48]   --->   Operation 148 'readreq' 'empty_53' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_8 : Operation 148 [4/8] (7.30ns)   --->   "%empty_53 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr, i64 16" [../MLP_baseline/mm.cpp:52]   --->   Operation 148 'readreq' 'empty_53' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 9 <SV = 8> <Delay = 7.30>
-ST_9 : Operation 149 [3/8] (7.30ns)   --->   "%empty_53 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr, i64 16" [../MLP_baseline/mm.cpp:48]   --->   Operation 149 'readreq' 'empty_53' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_9 : Operation 149 [3/8] (7.30ns)   --->   "%empty_53 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr, i64 16" [../MLP_baseline/mm.cpp:52]   --->   Operation 149 'readreq' 'empty_53' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 10 <SV = 9> <Delay = 7.30>
-ST_10 : Operation 150 [2/8] (7.30ns)   --->   "%empty_53 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr, i64 16" [../MLP_baseline/mm.cpp:48]   --->   Operation 150 'readreq' 'empty_53' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_10 : Operation 150 [2/8] (7.30ns)   --->   "%empty_53 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr, i64 16" [../MLP_baseline/mm.cpp:52]   --->   Operation 150 'readreq' 'empty_53' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 11 <SV = 10> <Delay = 7.30>
-ST_11 : Operation 151 [1/1] (0.00ns)   --->   "%specpipeline_ln47 = specpipeline void @_ssdm_op_SpecPipeline, i32 0, i32 0, i32 1, i32 0, void @empty_0" [../MLP_baseline/mm.cpp:47]   --->   Operation 151 'specpipeline' 'specpipeline_ln47' <Predicate = true> <Delay = 0.00>
-ST_11 : Operation 152 [1/1] (0.00ns)   --->   "%speclooptripcount_ln46 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 0, i64 134217727, i64 67108863" [../MLP_baseline/mm.cpp:46]   --->   Operation 152 'speclooptripcount' 'speclooptripcount_ln46' <Predicate = true> <Delay = 0.00>
-ST_11 : Operation 153 [1/1] (0.00ns)   --->   "%specloopname_ln46 = specloopname void @_ssdm_op_SpecLoopName, void @empty_25" [../MLP_baseline/mm.cpp:46]   --->   Operation 153 'specloopname' 'specloopname_ln46' <Predicate = true> <Delay = 0.00>
-ST_11 : Operation 154 [1/8] (7.30ns)   --->   "%empty_53 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr, i64 16" [../MLP_baseline/mm.cpp:48]   --->   Operation 154 'readreq' 'empty_53' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
-ST_11 : Operation 155 [1/1] (1.58ns)   --->   "%br_ln48 = br void %VITIS_LOOP_50_4" [../MLP_baseline/mm.cpp:48]   --->   Operation 155 'br' 'br_ln48' <Predicate = true> <Delay = 1.58>
+ST_11 : Operation 151 [1/1] (0.00ns)   --->   "%specpipeline_ln51 = specpipeline void @_ssdm_op_SpecPipeline, i32 0, i32 0, i32 1, i32 0, void @empty_0" [../MLP_baseline/mm.cpp:51]   --->   Operation 151 'specpipeline' 'specpipeline_ln51' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 152 [1/1] (0.00ns)   --->   "%speclooptripcount_ln50 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 8, i64 8, i64 8" [../MLP_baseline/mm.cpp:50]   --->   Operation 152 'speclooptripcount' 'speclooptripcount_ln50' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 153 [1/1] (0.00ns)   --->   "%specloopname_ln49 = specloopname void @_ssdm_op_SpecLoopName, void @empty_25" [../MLP_baseline/mm.cpp:49]   --->   Operation 153 'specloopname' 'specloopname_ln49' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 154 [1/8] (7.30ns)   --->   "%empty_53 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr, i64 16" [../MLP_baseline/mm.cpp:52]   --->   Operation 154 'readreq' 'empty_53' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_11 : Operation 155 [1/1] (1.58ns)   --->   "%br_ln52 = br void %VITIS_LOOP_54_4" [../MLP_baseline/mm.cpp:52]   --->   Operation 155 'br' 'br_ln52' <Predicate = true> <Delay = 1.58>
 
 State 12 <SV = 11> <Delay = 3.36>
-ST_12 : Operation 156 [1/1] (0.00ns)   --->   "%i = phi i5 0, void %VITIS_LOOP_48_3.split, i5 %add_ln48, void %for.inc18" [../MLP_baseline/mm.cpp:48]   --->   Operation 156 'phi' 'i' <Predicate = true> <Delay = 0.00>
-ST_12 : Operation 157 [1/1] (1.78ns)   --->   "%icmp_ln48 = icmp_eq  i5 %i, i5 16" [../MLP_baseline/mm.cpp:48]   --->   Operation 157 'icmp' 'icmp_ln48' <Predicate = true> <Delay = 1.78> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
-ST_12 : Operation 158 [1/1] (1.78ns)   --->   "%add_ln48 = add i5 %i, i5 1" [../MLP_baseline/mm.cpp:48]   --->   Operation 158 'add' 'add_ln48' <Predicate = true> <Delay = 1.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_12 : Operation 159 [1/1] (0.00ns)   --->   "%br_ln48 = br i1 %icmp_ln48, void %VITIS_LOOP_50_4.split, void %VITIS_LOOP_55_5" [../MLP_baseline/mm.cpp:48]   --->   Operation 159 'br' 'br_ln48' <Predicate = true> <Delay = 0.00>
-ST_12 : Operation 160 [1/1] (0.00ns)   --->   "%trunc_ln48 = trunc i5 %i" [../MLP_baseline/mm.cpp:48]   --->   Operation 160 'trunc' 'trunc_ln48' <Predicate = (!icmp_ln48)> <Delay = 0.00>
-ST_12 : Operation 161 [1/1] (0.00ns)   --->   "%shl_ln = bitconcatenate i31 @_ssdm_op_BitConcatenate.i31.i27.i4, i27 %jb, i4 0" [../MLP_baseline/mm.cpp:48]   --->   Operation 161 'bitconcatenate' 'shl_ln' <Predicate = (icmp_ln48)> <Delay = 0.00>
-ST_12 : Operation 162 [1/1] (0.00ns)   --->   "%zext_ln55 = zext i31 %shl_ln" [../MLP_baseline/mm.cpp:55]   --->   Operation 162 'zext' 'zext_ln55' <Predicate = (icmp_ln48)> <Delay = 0.00>
-ST_12 : Operation 163 [1/1] (0.00ns)   --->   "%zext_ln55_1 = zext i31 %shl_ln" [../MLP_baseline/mm.cpp:55]   --->   Operation 163 'zext' 'zext_ln55_1' <Predicate = (icmp_ln48)> <Delay = 0.00>
-ST_12 : Operation 164 [1/1] (1.58ns)   --->   "%br_ln55 = br void %VITIS_LOOP_57_6" [../MLP_baseline/mm.cpp:55]   --->   Operation 164 'br' 'br_ln55' <Predicate = (icmp_ln48)> <Delay = 1.58>
+ST_12 : Operation 156 [1/1] (0.00ns)   --->   "%i = phi i5 0, void %VITIS_LOOP_52_3.split, i5 %add_ln52, void %for.inc18" [../MLP_baseline/mm.cpp:52]   --->   Operation 156 'phi' 'i' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 157 [1/1] (1.78ns)   --->   "%icmp_ln52 = icmp_eq  i5 %i, i5 16" [../MLP_baseline/mm.cpp:52]   --->   Operation 157 'icmp' 'icmp_ln52' <Predicate = true> <Delay = 1.78> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_12 : Operation 158 [1/1] (1.78ns)   --->   "%add_ln52 = add i5 %i, i5 1" [../MLP_baseline/mm.cpp:52]   --->   Operation 158 'add' 'add_ln52' <Predicate = true> <Delay = 1.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_12 : Operation 159 [1/1] (0.00ns)   --->   "%br_ln52 = br i1 %icmp_ln52, void %VITIS_LOOP_54_4.split, void %VITIS_LOOP_59_5" [../MLP_baseline/mm.cpp:52]   --->   Operation 159 'br' 'br_ln52' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 160 [1/1] (0.00ns)   --->   "%trunc_ln52 = trunc i5 %i" [../MLP_baseline/mm.cpp:52]   --->   Operation 160 'trunc' 'trunc_ln52' <Predicate = (!icmp_ln52)> <Delay = 0.00>
+ST_12 : Operation 161 [1/1] (0.00ns)   --->   "%shl_ln = bitconcatenate i31 @_ssdm_op_BitConcatenate.i31.i27.i4, i27 %jb, i4 0" [../MLP_baseline/mm.cpp:52]   --->   Operation 161 'bitconcatenate' 'shl_ln' <Predicate = (icmp_ln52)> <Delay = 0.00>
+ST_12 : Operation 162 [1/1] (0.00ns)   --->   "%zext_ln59 = zext i31 %shl_ln" [../MLP_baseline/mm.cpp:59]   --->   Operation 162 'zext' 'zext_ln59' <Predicate = (icmp_ln52)> <Delay = 0.00>
+ST_12 : Operation 163 [1/1] (0.00ns)   --->   "%zext_ln59_1 = zext i31 %shl_ln" [../MLP_baseline/mm.cpp:59]   --->   Operation 163 'zext' 'zext_ln59_1' <Predicate = (icmp_ln52)> <Delay = 0.00>
+ST_12 : Operation 164 [1/1] (1.58ns)   --->   "%br_ln59 = br void %VITIS_LOOP_62_6" [../MLP_baseline/mm.cpp:59]   --->   Operation 164 'br' 'br_ln59' <Predicate = (icmp_ln52)> <Delay = 1.58>
 
 State 13 <SV = 12> <Delay = 7.30>
-ST_13 : Operation 165 [1/1] (0.00ns)   --->   "%tmp_s = bitconcatenate i8 @_ssdm_op_BitConcatenate.i8.i4.i4, i4 %trunc_ln48, i4 0" [../MLP_baseline/mm.cpp:52]   --->   Operation 165 'bitconcatenate' 'tmp_s' <Predicate = true> <Delay = 0.00>
-ST_13 : Operation 166 [1/1] (0.00ns)   --->   "%specpipeline_ln49 = specpipeline void @_ssdm_op_SpecPipeline, i32 0, i32 0, i32 1, i32 0, void @empty_0" [../MLP_baseline/mm.cpp:49]   --->   Operation 166 'specpipeline' 'specpipeline_ln49' <Predicate = true> <Delay = 0.00>
-ST_13 : Operation 167 [1/1] (0.00ns)   --->   "%speclooptripcount_ln48 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 16, i64 16, i64 16" [../MLP_baseline/mm.cpp:48]   --->   Operation 167 'speclooptripcount' 'speclooptripcount_ln48' <Predicate = true> <Delay = 0.00>
-ST_13 : Operation 168 [1/1] (0.00ns)   --->   "%specloopname_ln48 = specloopname void @_ssdm_op_SpecLoopName, void @empty_17" [../MLP_baseline/mm.cpp:48]   --->   Operation 168 'specloopname' 'specloopname_ln48' <Predicate = true> <Delay = 0.00>
-ST_13 : Operation 169 [1/1] (7.30ns)   --->   "%gmem_addr_read = read i32 @_ssdm_op_Read.m_axi.p1i32, i32 %gmem_addr" [../MLP_baseline/mm.cpp:44]   --->   Operation 169 'read' 'gmem_addr_read' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
-ST_13 : Operation 170 [1/1] (1.58ns)   --->   "%br_ln50 = br void %for.inc" [../MLP_baseline/mm.cpp:50]   --->   Operation 170 'br' 'br_ln50' <Predicate = true> <Delay = 1.58>
+ST_13 : Operation 165 [1/1] (0.00ns)   --->   "%tmp_s = bitconcatenate i8 @_ssdm_op_BitConcatenate.i8.i4.i4, i4 %trunc_ln52, i4 0" [../MLP_baseline/mm.cpp:56]   --->   Operation 165 'bitconcatenate' 'tmp_s' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 166 [1/1] (0.00ns)   --->   "%specpipeline_ln53 = specpipeline void @_ssdm_op_SpecPipeline, i32 0, i32 0, i32 1, i32 0, void @empty_0" [../MLP_baseline/mm.cpp:53]   --->   Operation 166 'specpipeline' 'specpipeline_ln53' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 167 [1/1] (0.00ns)   --->   "%speclooptripcount_ln52 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 16, i64 16, i64 16" [../MLP_baseline/mm.cpp:52]   --->   Operation 167 'speclooptripcount' 'speclooptripcount_ln52' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 168 [1/1] (0.00ns)   --->   "%specloopname_ln52 = specloopname void @_ssdm_op_SpecLoopName, void @empty_17" [../MLP_baseline/mm.cpp:52]   --->   Operation 168 'specloopname' 'specloopname_ln52' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 169 [1/1] (7.30ns)   --->   "%gmem_addr_read = read i32 @_ssdm_op_Read.m_axi.p1i32, i32 %gmem_addr" [../MLP_baseline/mm.cpp:45]   --->   Operation 169 'read' 'gmem_addr_read' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_13 : Operation 170 [1/1] (1.58ns)   --->   "%br_ln54 = br void %for.inc" [../MLP_baseline/mm.cpp:54]   --->   Operation 170 'br' 'br_ln54' <Predicate = true> <Delay = 1.58>
 
 State 14 <SV = 13> <Delay = 5.16>
-ST_14 : Operation 171 [1/1] (0.00ns)   --->   "%j = phi i5 0, void %VITIS_LOOP_50_4.split, i5 %add_ln50, void %for.inc.split" [../MLP_baseline/mm.cpp:50]   --->   Operation 171 'phi' 'j' <Predicate = true> <Delay = 0.00>
-ST_14 : Operation 172 [1/1] (1.78ns)   --->   "%icmp_ln50 = icmp_eq  i5 %j, i5 16" [../MLP_baseline/mm.cpp:50]   --->   Operation 172 'icmp' 'icmp_ln50' <Predicate = true> <Delay = 1.78> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
-ST_14 : Operation 173 [1/1] (1.78ns)   --->   "%add_ln50 = add i5 %j, i5 1" [../MLP_baseline/mm.cpp:50]   --->   Operation 173 'add' 'add_ln50' <Predicate = true> <Delay = 1.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_14 : Operation 174 [1/1] (0.00ns)   --->   "%br_ln50 = br i1 %icmp_ln50, void %for.inc.split, void %for.inc18" [../MLP_baseline/mm.cpp:50]   --->   Operation 174 'br' 'br_ln50' <Predicate = true> <Delay = 0.00>
-ST_14 : Operation 175 [1/1] (0.00ns)   --->   "%zext_ln52 = zext i5 %j" [../MLP_baseline/mm.cpp:52]   --->   Operation 175 'zext' 'zext_ln52' <Predicate = (!icmp_ln50)> <Delay = 0.00>
-ST_14 : Operation 176 [1/1] (1.91ns)   --->   "%add_ln52 = add i8 %tmp_s, i8 %zext_ln52" [../MLP_baseline/mm.cpp:52]   --->   Operation 176 'add' 'add_ln52' <Predicate = (!icmp_ln50)> <Delay = 1.91> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.91> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_14 : Operation 177 [1/1] (0.00ns)   --->   "%zext_ln52_1 = zext i8 %add_ln52" [../MLP_baseline/mm.cpp:52]   --->   Operation 177 'zext' 'zext_ln52_1' <Predicate = (!icmp_ln50)> <Delay = 0.00>
-ST_14 : Operation 178 [1/1] (0.00ns)   --->   "%AB_block_addr = getelementptr i32 %AB_block, i64 0, i64 %zext_ln52_1" [../MLP_baseline/mm.cpp:52]   --->   Operation 178 'getelementptr' 'AB_block_addr' <Predicate = (!icmp_ln50)> <Delay = 0.00>
-ST_14 : Operation 179 [1/1] (0.00ns)   --->   "%specpipeline_ln51 = specpipeline void @_ssdm_op_SpecPipeline, i32 0, i32 0, i32 1, i32 0, void @empty_0" [../MLP_baseline/mm.cpp:51]   --->   Operation 179 'specpipeline' 'specpipeline_ln51' <Predicate = (!icmp_ln50)> <Delay = 0.00>
-ST_14 : Operation 180 [1/1] (0.00ns)   --->   "%speclooptripcount_ln50 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 16, i64 16, i64 16" [../MLP_baseline/mm.cpp:50]   --->   Operation 180 'speclooptripcount' 'speclooptripcount_ln50' <Predicate = (!icmp_ln50)> <Delay = 0.00>
-ST_14 : Operation 181 [1/1] (0.00ns)   --->   "%specloopname_ln50 = specloopname void @_ssdm_op_SpecLoopName, void @empty_16" [../MLP_baseline/mm.cpp:50]   --->   Operation 181 'specloopname' 'specloopname_ln50' <Predicate = (!icmp_ln50)> <Delay = 0.00>
-ST_14 : Operation 182 [1/1] ( I:3.25ns O:3.25ns )   --->   "%store_ln52 = store i32 %gmem_addr_read, i8 %AB_block_addr" [../MLP_baseline/mm.cpp:52]   --->   Operation 182 'store' 'store_ln52' <Predicate = (!icmp_ln50)> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 256> <RAM>
-ST_14 : Operation 183 [1/1] (0.00ns)   --->   "%br_ln50 = br void %for.inc" [../MLP_baseline/mm.cpp:50]   --->   Operation 183 'br' 'br_ln50' <Predicate = (!icmp_ln50)> <Delay = 0.00>
-ST_14 : Operation 184 [1/1] (0.00ns)   --->   "%br_ln48 = br void %VITIS_LOOP_50_4" [../MLP_baseline/mm.cpp:48]   --->   Operation 184 'br' 'br_ln48' <Predicate = (icmp_ln50)> <Delay = 0.00>
+ST_14 : Operation 171 [1/1] (0.00ns)   --->   "%j = phi i5 0, void %VITIS_LOOP_54_4.split, i5 %add_ln54, void %for.inc.split" [../MLP_baseline/mm.cpp:54]   --->   Operation 171 'phi' 'j' <Predicate = true> <Delay = 0.00>
+ST_14 : Operation 172 [1/1] (1.78ns)   --->   "%icmp_ln54 = icmp_eq  i5 %j, i5 16" [../MLP_baseline/mm.cpp:54]   --->   Operation 172 'icmp' 'icmp_ln54' <Predicate = true> <Delay = 1.78> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_14 : Operation 173 [1/1] (1.78ns)   --->   "%add_ln54 = add i5 %j, i5 1" [../MLP_baseline/mm.cpp:54]   --->   Operation 173 'add' 'add_ln54' <Predicate = true> <Delay = 1.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_14 : Operation 174 [1/1] (0.00ns)   --->   "%br_ln54 = br i1 %icmp_ln54, void %for.inc.split, void %for.inc18" [../MLP_baseline/mm.cpp:54]   --->   Operation 174 'br' 'br_ln54' <Predicate = true> <Delay = 0.00>
+ST_14 : Operation 175 [1/1] (0.00ns)   --->   "%zext_ln56 = zext i5 %j" [../MLP_baseline/mm.cpp:56]   --->   Operation 175 'zext' 'zext_ln56' <Predicate = (!icmp_ln54)> <Delay = 0.00>
+ST_14 : Operation 176 [1/1] (1.91ns)   --->   "%add_ln56 = add i8 %tmp_s, i8 %zext_ln56" [../MLP_baseline/mm.cpp:56]   --->   Operation 176 'add' 'add_ln56' <Predicate = (!icmp_ln54)> <Delay = 1.91> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.91> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_14 : Operation 177 [1/1] (0.00ns)   --->   "%zext_ln56_1 = zext i8 %add_ln56" [../MLP_baseline/mm.cpp:56]   --->   Operation 177 'zext' 'zext_ln56_1' <Predicate = (!icmp_ln54)> <Delay = 0.00>
+ST_14 : Operation 178 [1/1] (0.00ns)   --->   "%AB_block_addr = getelementptr i32 %AB_block, i64 0, i64 %zext_ln56_1" [../MLP_baseline/mm.cpp:56]   --->   Operation 178 'getelementptr' 'AB_block_addr' <Predicate = (!icmp_ln54)> <Delay = 0.00>
+ST_14 : Operation 179 [1/1] (0.00ns)   --->   "%specpipeline_ln55 = specpipeline void @_ssdm_op_SpecPipeline, i32 0, i32 0, i32 1, i32 0, void @empty_0" [../MLP_baseline/mm.cpp:55]   --->   Operation 179 'specpipeline' 'specpipeline_ln55' <Predicate = (!icmp_ln54)> <Delay = 0.00>
+ST_14 : Operation 180 [1/1] (0.00ns)   --->   "%speclooptripcount_ln54 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 16, i64 16, i64 16" [../MLP_baseline/mm.cpp:54]   --->   Operation 180 'speclooptripcount' 'speclooptripcount_ln54' <Predicate = (!icmp_ln54)> <Delay = 0.00>
+ST_14 : Operation 181 [1/1] (0.00ns)   --->   "%specloopname_ln54 = specloopname void @_ssdm_op_SpecLoopName, void @empty_16" [../MLP_baseline/mm.cpp:54]   --->   Operation 181 'specloopname' 'specloopname_ln54' <Predicate = (!icmp_ln54)> <Delay = 0.00>
+ST_14 : Operation 182 [1/1] ( I:3.25ns O:3.25ns )   --->   "%store_ln56 = store i32 %gmem_addr_read, i8 %AB_block_addr" [../MLP_baseline/mm.cpp:56]   --->   Operation 182 'store' 'store_ln56' <Predicate = (!icmp_ln54)> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 256> <RAM>
+ST_14 : Operation 183 [1/1] (0.00ns)   --->   "%br_ln54 = br void %for.inc" [../MLP_baseline/mm.cpp:54]   --->   Operation 183 'br' 'br_ln54' <Predicate = (!icmp_ln54)> <Delay = 0.00>
+ST_14 : Operation 184 [1/1] (0.00ns)   --->   "%br_ln52 = br void %VITIS_LOOP_54_4" [../MLP_baseline/mm.cpp:52]   --->   Operation 184 'br' 'br_ln52' <Predicate = (icmp_ln54)> <Delay = 0.00>
 
 State 15 <SV = 12> <Delay = 4.02>
-ST_15 : Operation 185 [1/1] (0.00ns)   --->   "%kb = phi i27 0, void %VITIS_LOOP_55_5, i27 %add_ln55, void %for.inc83" [../MLP_baseline/mm.cpp:55]   --->   Operation 185 'phi' 'kb' <Predicate = true> <Delay = 0.00>
-ST_15 : Operation 186 [1/1] (0.00ns)   --->   "%phi_mul2 = phi i58 0, void %VITIS_LOOP_55_5, i58 %add_ln55_1, void %for.inc83" [../MLP_baseline/mm.cpp:55]   --->   Operation 186 'phi' 'phi_mul2' <Predicate = true> <Delay = 0.00>
-ST_15 : Operation 187 [1/1] (3.36ns)   --->   "%add_ln55_1 = add i58 %phi_mul2, i58 %sext_ln44_2" [../MLP_baseline/mm.cpp:55]   --->   Operation 187 'add' 'add_ln55_1' <Predicate = true> <Delay = 3.36> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 3.36> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_15 : Operation 188 [1/1] (0.00ns)   --->   "%zext_ln55_2 = zext i27 %kb" [../MLP_baseline/mm.cpp:55]   --->   Operation 188 'zext' 'zext_ln55_2' <Predicate = true> <Delay = 0.00>
-ST_15 : Operation 189 [1/1] (2.43ns)   --->   "%icmp_ln55 = icmp_slt  i28 %zext_ln55_2, i28 %div22" [../MLP_baseline/mm.cpp:55]   --->   Operation 189 'icmp' 'icmp_ln55' <Predicate = true> <Delay = 2.43> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.43> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
-ST_15 : Operation 190 [1/1] (2.40ns)   --->   "%add_ln55 = add i27 %kb, i27 1" [../MLP_baseline/mm.cpp:55]   --->   Operation 190 'add' 'add_ln55' <Predicate = true> <Delay = 2.40> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.40> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_15 : Operation 191 [1/1] (0.00ns)   --->   "%br_ln55 = br i1 %icmp_ln55, void %VITIS_LOOP_75_11.preheader, void %VITIS_LOOP_57_6.split" [../MLP_baseline/mm.cpp:55]   --->   Operation 191 'br' 'br_ln55' <Predicate = true> <Delay = 0.00>
-ST_15 : Operation 192 [1/1] (0.00ns)   --->   "%specpipeline_ln56 = specpipeline void @_ssdm_op_SpecPipeline, i32 0, i32 0, i32 1, i32 0, void @empty_0" [../MLP_baseline/mm.cpp:56]   --->   Operation 192 'specpipeline' 'specpipeline_ln56' <Predicate = (icmp_ln55)> <Delay = 0.00>
-ST_15 : Operation 193 [1/1] (0.00ns)   --->   "%speclooptripcount_ln55 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 0, i64 134217727, i64 67108863" [../MLP_baseline/mm.cpp:55]   --->   Operation 193 'speclooptripcount' 'speclooptripcount_ln55' <Predicate = (icmp_ln55)> <Delay = 0.00>
-ST_15 : Operation 194 [1/1] (0.00ns)   --->   "%specloopname_ln55 = specloopname void @_ssdm_op_SpecLoopName, void @empty_22" [../MLP_baseline/mm.cpp:55]   --->   Operation 194 'specloopname' 'specloopname_ln55' <Predicate = (icmp_ln55)> <Delay = 0.00>
-ST_15 : Operation 195 [1/1] (0.00ns)   --->   "%tmp_10 = bitconcatenate i62 @_ssdm_op_BitConcatenate.i62.i58.i4, i58 %phi_mul2, i4 0" [../MLP_baseline/mm.cpp:55]   --->   Operation 195 'bitconcatenate' 'tmp_10' <Predicate = (icmp_ln55)> <Delay = 0.00>
-ST_15 : Operation 196 [1/1] (0.00ns)   --->   "%tmp_11 = bitconcatenate i31 @_ssdm_op_BitConcatenate.i31.i27.i4, i27 %kb, i4 0" [../MLP_baseline/mm.cpp:55]   --->   Operation 196 'bitconcatenate' 'tmp_11' <Predicate = (icmp_ln55)> <Delay = 0.00>
-ST_15 : Operation 197 [1/1] (0.00ns)   --->   "%zext_ln57 = zext i31 %tmp_11" [../MLP_baseline/mm.cpp:57]   --->   Operation 197 'zext' 'zext_ln57' <Predicate = (icmp_ln55)> <Delay = 0.00>
-ST_15 : Operation 198 [1/1] (1.58ns)   --->   "%br_ln57 = br void %VITIS_LOOP_59_7" [../MLP_baseline/mm.cpp:57]   --->   Operation 198 'br' 'br_ln57' <Predicate = (icmp_ln55)> <Delay = 1.58>
-ST_15 : Operation 199 [1/1] (1.58ns)   --->   "%br_ln73 = br void %VITIS_LOOP_75_11" [../MLP_baseline/mm.cpp:73]   --->   Operation 199 'br' 'br_ln73' <Predicate = (!icmp_ln55)> <Delay = 1.58>
+ST_15 : Operation 185 [1/1] (0.00ns)   --->   "%kb = phi i27 0, void %VITIS_LOOP_59_5, i27 %add_ln59, void %for.inc83" [../MLP_baseline/mm.cpp:59]   --->   Operation 185 'phi' 'kb' <Predicate = true> <Delay = 0.00>
+ST_15 : Operation 186 [1/1] (0.00ns)   --->   "%phi_mul2 = phi i58 0, void %VITIS_LOOP_59_5, i58 %add_ln59_1, void %for.inc83" [../MLP_baseline/mm.cpp:59]   --->   Operation 186 'phi' 'phi_mul2' <Predicate = true> <Delay = 0.00>
+ST_15 : Operation 187 [1/1] (3.36ns)   --->   "%add_ln59_1 = add i58 %phi_mul2, i58 %sext_ln45_2" [../MLP_baseline/mm.cpp:59]   --->   Operation 187 'add' 'add_ln59_1' <Predicate = true> <Delay = 3.36> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 3.36> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_15 : Operation 188 [1/1] (0.00ns)   --->   "%zext_ln59_2 = zext i27 %kb" [../MLP_baseline/mm.cpp:59]   --->   Operation 188 'zext' 'zext_ln59_2' <Predicate = true> <Delay = 0.00>
+ST_15 : Operation 189 [1/1] (2.43ns)   --->   "%icmp_ln59 = icmp_slt  i28 %zext_ln59_2, i28 %div22" [../MLP_baseline/mm.cpp:59]   --->   Operation 189 'icmp' 'icmp_ln59' <Predicate = true> <Delay = 2.43> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.43> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_15 : Operation 190 [1/1] (2.40ns)   --->   "%add_ln59 = add i27 %kb, i27 1" [../MLP_baseline/mm.cpp:59]   --->   Operation 190 'add' 'add_ln59' <Predicate = true> <Delay = 2.40> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.40> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_15 : Operation 191 [1/1] (0.00ns)   --->   "%br_ln59 = br i1 %icmp_ln59, void %VITIS_LOOP_80_11.preheader, void %VITIS_LOOP_62_6.split" [../MLP_baseline/mm.cpp:59]   --->   Operation 191 'br' 'br_ln59' <Predicate = true> <Delay = 0.00>
+ST_15 : Operation 192 [1/1] (0.00ns)   --->   "%specpipeline_ln61 = specpipeline void @_ssdm_op_SpecPipeline, i32 0, i32 0, i32 1, i32 0, void @empty_0" [../MLP_baseline/mm.cpp:61]   --->   Operation 192 'specpipeline' 'specpipeline_ln61' <Predicate = (icmp_ln59)> <Delay = 0.00>
+ST_15 : Operation 193 [1/1] (0.00ns)   --->   "%speclooptripcount_ln60 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 49, i64 49, i64 49" [../MLP_baseline/mm.cpp:60]   --->   Operation 193 'speclooptripcount' 'speclooptripcount_ln60' <Predicate = (icmp_ln59)> <Delay = 0.00>
+ST_15 : Operation 194 [1/1] (0.00ns)   --->   "%specloopname_ln59 = specloopname void @_ssdm_op_SpecLoopName, void @empty_22" [../MLP_baseline/mm.cpp:59]   --->   Operation 194 'specloopname' 'specloopname_ln59' <Predicate = (icmp_ln59)> <Delay = 0.00>
+ST_15 : Operation 195 [1/1] (0.00ns)   --->   "%tmp_10 = bitconcatenate i62 @_ssdm_op_BitConcatenate.i62.i58.i4, i58 %phi_mul2, i4 0" [../MLP_baseline/mm.cpp:59]   --->   Operation 195 'bitconcatenate' 'tmp_10' <Predicate = (icmp_ln59)> <Delay = 0.00>
+ST_15 : Operation 196 [1/1] (0.00ns)   --->   "%tmp_11 = bitconcatenate i31 @_ssdm_op_BitConcatenate.i31.i27.i4, i27 %kb, i4 0" [../MLP_baseline/mm.cpp:59]   --->   Operation 196 'bitconcatenate' 'tmp_11' <Predicate = (icmp_ln59)> <Delay = 0.00>
+ST_15 : Operation 197 [1/1] (0.00ns)   --->   "%zext_ln62 = zext i31 %tmp_11" [../MLP_baseline/mm.cpp:62]   --->   Operation 197 'zext' 'zext_ln62' <Predicate = (icmp_ln59)> <Delay = 0.00>
+ST_15 : Operation 198 [1/1] (1.58ns)   --->   "%br_ln62 = br void %VITIS_LOOP_64_7" [../MLP_baseline/mm.cpp:62]   --->   Operation 198 'br' 'br_ln62' <Predicate = (icmp_ln59)> <Delay = 1.58>
+ST_15 : Operation 199 [1/1] (1.58ns)   --->   "%br_ln78 = br void %VITIS_LOOP_80_11" [../MLP_baseline/mm.cpp:78]   --->   Operation 199 'br' 'br_ln78' <Predicate = (!icmp_ln59)> <Delay = 1.58>
 
 State 16 <SV = 13> <Delay = 6.18>
-ST_16 : Operation 200 [1/1] (0.00ns)   --->   "%k = phi i5 0, void %VITIS_LOOP_57_6.split, i5 %add_ln57, void %for.inc80" [../MLP_baseline/mm.cpp:57]   --->   Operation 200 'phi' 'k' <Predicate = true> <Delay = 0.00>
-ST_16 : Operation 201 [1/1] (0.00ns)   --->   "%phi_mul = phi i36 0, void %VITIS_LOOP_57_6.split, i36 %add_ln57_1, void %for.inc80" [../MLP_baseline/mm.cpp:57]   --->   Operation 201 'phi' 'phi_mul' <Predicate = true> <Delay = 0.00>
-ST_16 : Operation 202 [1/1] (2.71ns)   --->   "%add_ln57_1 = add i36 %phi_mul, i36 %sext_ln44_1" [../MLP_baseline/mm.cpp:57]   --->   Operation 202 'add' 'add_ln57_1' <Predicate = true> <Delay = 2.71> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.71> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_16 : Operation 203 [1/1] (1.78ns)   --->   "%icmp_ln57 = icmp_eq  i5 %k, i5 16" [../MLP_baseline/mm.cpp:57]   --->   Operation 203 'icmp' 'icmp_ln57' <Predicate = true> <Delay = 1.78> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
-ST_16 : Operation 204 [1/1] (1.78ns)   --->   "%add_ln57 = add i5 %k, i5 1" [../MLP_baseline/mm.cpp:57]   --->   Operation 204 'add' 'add_ln57' <Predicate = true> <Delay = 1.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_16 : Operation 205 [1/1] (0.00ns)   --->   "%br_ln57 = br i1 %icmp_ln57, void %VITIS_LOOP_59_7.split, void %for.inc83" [../MLP_baseline/mm.cpp:57]   --->   Operation 205 'br' 'br_ln57' <Predicate = true> <Delay = 0.00>
-ST_16 : Operation 206 [1/1] (2.71ns)   --->   "%tmp = add i36 %zext_ln55_1, i36 %phi_mul" [../MLP_baseline/mm.cpp:55]   --->   Operation 206 'add' 'tmp' <Predicate = (!icmp_ln57)> <Delay = 2.71> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.71> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_16 : Operation 207 [1/1] (0.00ns)   --->   "%tmp_cast = sext i36 %tmp" [../MLP_baseline/mm.cpp:55]   --->   Operation 207 'sext' 'tmp_cast' <Predicate = (!icmp_ln57)> <Delay = 0.00>
-ST_16 : Operation 208 [1/1] (3.46ns)   --->   "%empty_54 = add i62 %tmp_cast, i62 %tmp_10" [../MLP_baseline/mm.cpp:55]   --->   Operation 208 'add' 'empty_54' <Predicate = (!icmp_ln57)> <Delay = 3.46> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 3.46> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_16 : Operation 209 [1/1] (0.00ns)   --->   "%br_ln55 = br void %VITIS_LOOP_57_6" [../MLP_baseline/mm.cpp:55]   --->   Operation 209 'br' 'br_ln55' <Predicate = (icmp_ln57)> <Delay = 0.00>
+ST_16 : Operation 200 [1/1] (0.00ns)   --->   "%k = phi i5 0, void %VITIS_LOOP_62_6.split, i5 %add_ln62, void %for.inc80" [../MLP_baseline/mm.cpp:62]   --->   Operation 200 'phi' 'k' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 201 [1/1] (0.00ns)   --->   "%phi_mul = phi i36 0, void %VITIS_LOOP_62_6.split, i36 %add_ln62_1, void %for.inc80" [../MLP_baseline/mm.cpp:62]   --->   Operation 201 'phi' 'phi_mul' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 202 [1/1] (2.71ns)   --->   "%add_ln62_1 = add i36 %phi_mul, i36 %sext_ln45_1" [../MLP_baseline/mm.cpp:62]   --->   Operation 202 'add' 'add_ln62_1' <Predicate = true> <Delay = 2.71> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.71> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_16 : Operation 203 [1/1] (1.78ns)   --->   "%icmp_ln62 = icmp_eq  i5 %k, i5 16" [../MLP_baseline/mm.cpp:62]   --->   Operation 203 'icmp' 'icmp_ln62' <Predicate = true> <Delay = 1.78> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_16 : Operation 204 [1/1] (1.78ns)   --->   "%add_ln62 = add i5 %k, i5 1" [../MLP_baseline/mm.cpp:62]   --->   Operation 204 'add' 'add_ln62' <Predicate = true> <Delay = 1.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_16 : Operation 205 [1/1] (0.00ns)   --->   "%br_ln62 = br i1 %icmp_ln62, void %VITIS_LOOP_64_7.split, void %for.inc83" [../MLP_baseline/mm.cpp:62]   --->   Operation 205 'br' 'br_ln62' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 206 [1/1] (2.71ns)   --->   "%tmp = add i36 %zext_ln59_1, i36 %phi_mul" [../MLP_baseline/mm.cpp:59]   --->   Operation 206 'add' 'tmp' <Predicate = (!icmp_ln62)> <Delay = 2.71> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.71> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_16 : Operation 207 [1/1] (0.00ns)   --->   "%tmp_cast = sext i36 %tmp" [../MLP_baseline/mm.cpp:59]   --->   Operation 207 'sext' 'tmp_cast' <Predicate = (!icmp_ln62)> <Delay = 0.00>
+ST_16 : Operation 208 [1/1] (3.46ns)   --->   "%empty_54 = add i62 %tmp_cast, i62 %tmp_10" [../MLP_baseline/mm.cpp:59]   --->   Operation 208 'add' 'empty_54' <Predicate = (!icmp_ln62)> <Delay = 3.46> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 3.46> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_16 : Operation 209 [1/1] (0.00ns)   --->   "%br_ln59 = br void %VITIS_LOOP_62_6" [../MLP_baseline/mm.cpp:59]   --->   Operation 209 'br' 'br_ln59' <Predicate = (icmp_ln62)> <Delay = 0.00>
 
 State 17 <SV = 14> <Delay = 3.52>
-ST_17 : Operation 210 [1/1] (0.00ns)   --->   "%tmp_12 = bitconcatenate i64 @_ssdm_op_BitConcatenate.i64.i62.i2, i62 %empty_54, i2 0" [../MLP_baseline/mm.cpp:55]   --->   Operation 210 'bitconcatenate' 'tmp_12' <Predicate = true> <Delay = 0.00>
-ST_17 : Operation 211 [1/1] (3.52ns)   --->   "%empty_55 = add i64 %tmp_12, i64 %B_read" [../MLP_baseline/mm.cpp:55]   --->   Operation 211 'add' 'empty_55' <Predicate = true> <Delay = 3.52> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 3.52> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_17 : Operation 212 [1/1] (0.00ns)   --->   "%trunc_ln = partselect i62 @_ssdm_op_PartSelect.i62.i64.i32.i32, i64 %empty_55, i32 2, i32 63" [../MLP_baseline/mm.cpp:59]   --->   Operation 212 'partselect' 'trunc_ln' <Predicate = true> <Delay = 0.00>
-ST_17 : Operation 213 [1/1] (0.00ns)   --->   "%sext_ln59 = sext i62 %trunc_ln" [../MLP_baseline/mm.cpp:59]   --->   Operation 213 'sext' 'sext_ln59' <Predicate = true> <Delay = 0.00>
-ST_17 : Operation 214 [1/1] (0.00ns)   --->   "%gmem_addr_1 = getelementptr i32 %gmem, i64 %sext_ln59" [../MLP_baseline/mm.cpp:59]   --->   Operation 214 'getelementptr' 'gmem_addr_1' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 210 [1/1] (0.00ns)   --->   "%tmp_12 = bitconcatenate i64 @_ssdm_op_BitConcatenate.i64.i62.i2, i62 %empty_54, i2 0" [../MLP_baseline/mm.cpp:59]   --->   Operation 210 'bitconcatenate' 'tmp_12' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 211 [1/1] (3.52ns)   --->   "%empty_55 = add i64 %tmp_12, i64 %B_read" [../MLP_baseline/mm.cpp:59]   --->   Operation 211 'add' 'empty_55' <Predicate = true> <Delay = 3.52> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 3.52> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_17 : Operation 212 [1/1] (0.00ns)   --->   "%trunc_ln = partselect i62 @_ssdm_op_PartSelect.i62.i64.i32.i32, i64 %empty_55, i32 2, i32 63" [../MLP_baseline/mm.cpp:64]   --->   Operation 212 'partselect' 'trunc_ln' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 213 [1/1] (0.00ns)   --->   "%sext_ln64 = sext i62 %trunc_ln" [../MLP_baseline/mm.cpp:64]   --->   Operation 213 'sext' 'sext_ln64' <Predicate = true> <Delay = 0.00>
+ST_17 : Operation 214 [1/1] (0.00ns)   --->   "%gmem_addr_1 = getelementptr i32 %gmem, i64 %sext_ln64" [../MLP_baseline/mm.cpp:64]   --->   Operation 214 'getelementptr' 'gmem_addr_1' <Predicate = true> <Delay = 0.00>
 
 State 18 <SV = 15> <Delay = 7.30>
-ST_18 : Operation 215 [8/8] (7.30ns)   --->   "%empty_56 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr_1, i64 16" [../MLP_baseline/mm.cpp:59]   --->   Operation 215 'readreq' 'empty_56' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_18 : Operation 215 [8/8] (7.30ns)   --->   "%empty_56 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr_1, i64 16" [../MLP_baseline/mm.cpp:64]   --->   Operation 215 'readreq' 'empty_56' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 19 <SV = 16> <Delay = 7.30>
-ST_19 : Operation 216 [7/8] (7.30ns)   --->   "%empty_56 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr_1, i64 16" [../MLP_baseline/mm.cpp:59]   --->   Operation 216 'readreq' 'empty_56' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_19 : Operation 216 [7/8] (7.30ns)   --->   "%empty_56 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr_1, i64 16" [../MLP_baseline/mm.cpp:64]   --->   Operation 216 'readreq' 'empty_56' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 20 <SV = 17> <Delay = 7.30>
-ST_20 : Operation 217 [6/8] (7.30ns)   --->   "%empty_56 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr_1, i64 16" [../MLP_baseline/mm.cpp:59]   --->   Operation 217 'readreq' 'empty_56' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_20 : Operation 217 [6/8] (7.30ns)   --->   "%empty_56 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr_1, i64 16" [../MLP_baseline/mm.cpp:64]   --->   Operation 217 'readreq' 'empty_56' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 21 <SV = 18> <Delay = 7.30>
-ST_21 : Operation 218 [5/8] (7.30ns)   --->   "%empty_56 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr_1, i64 16" [../MLP_baseline/mm.cpp:59]   --->   Operation 218 'readreq' 'empty_56' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_21 : Operation 218 [5/8] (7.30ns)   --->   "%empty_56 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr_1, i64 16" [../MLP_baseline/mm.cpp:64]   --->   Operation 218 'readreq' 'empty_56' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 22 <SV = 19> <Delay = 7.30>
-ST_22 : Operation 219 [4/8] (7.30ns)   --->   "%empty_56 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr_1, i64 16" [../MLP_baseline/mm.cpp:59]   --->   Operation 219 'readreq' 'empty_56' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_22 : Operation 219 [4/8] (7.30ns)   --->   "%empty_56 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr_1, i64 16" [../MLP_baseline/mm.cpp:64]   --->   Operation 219 'readreq' 'empty_56' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 23 <SV = 20> <Delay = 7.30>
-ST_23 : Operation 220 [3/8] (7.30ns)   --->   "%empty_56 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr_1, i64 16" [../MLP_baseline/mm.cpp:59]   --->   Operation 220 'readreq' 'empty_56' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_23 : Operation 220 [3/8] (7.30ns)   --->   "%empty_56 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr_1, i64 16" [../MLP_baseline/mm.cpp:64]   --->   Operation 220 'readreq' 'empty_56' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 24 <SV = 21> <Delay = 7.30>
-ST_24 : Operation 221 [2/8] (7.30ns)   --->   "%empty_56 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr_1, i64 16" [../MLP_baseline/mm.cpp:59]   --->   Operation 221 'readreq' 'empty_56' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_24 : Operation 221 [2/8] (7.30ns)   --->   "%empty_56 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr_1, i64 16" [../MLP_baseline/mm.cpp:64]   --->   Operation 221 'readreq' 'empty_56' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 25 <SV = 22> <Delay = 7.30>
-ST_25 : Operation 222 [1/1] (0.00ns)   --->   "%zext_ln57_1 = zext i5 %k" [../MLP_baseline/mm.cpp:57]   --->   Operation 222 'zext' 'zext_ln57_1' <Predicate = true> <Delay = 0.00>
-ST_25 : Operation 223 [1/1] (0.00ns)   --->   "%specpipeline_ln58 = specpipeline void @_ssdm_op_SpecPipeline, i32 0, i32 0, i32 1, i32 0, void @empty_0" [../MLP_baseline/mm.cpp:58]   --->   Operation 223 'specpipeline' 'specpipeline_ln58' <Predicate = true> <Delay = 0.00>
-ST_25 : Operation 224 [1/1] (0.00ns)   --->   "%speclooptripcount_ln57 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 16, i64 16, i64 16" [../MLP_baseline/mm.cpp:57]   --->   Operation 224 'speclooptripcount' 'speclooptripcount_ln57' <Predicate = true> <Delay = 0.00>
-ST_25 : Operation 225 [1/1] (0.00ns)   --->   "%specloopname_ln57 = specloopname void @_ssdm_op_SpecLoopName, void @empty_21" [../MLP_baseline/mm.cpp:57]   --->   Operation 225 'specloopname' 'specloopname_ln57' <Predicate = true> <Delay = 0.00>
-ST_25 : Operation 226 [1/8] (7.30ns)   --->   "%empty_56 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr_1, i64 16" [../MLP_baseline/mm.cpp:59]   --->   Operation 226 'readreq' 'empty_56' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
-ST_25 : Operation 227 [1/1] (1.58ns)   --->   "%br_ln59 = br void %for.inc45" [../MLP_baseline/mm.cpp:59]   --->   Operation 227 'br' 'br_ln59' <Predicate = true> <Delay = 1.58>
+ST_25 : Operation 222 [1/1] (0.00ns)   --->   "%zext_ln62_1 = zext i5 %k" [../MLP_baseline/mm.cpp:62]   --->   Operation 222 'zext' 'zext_ln62_1' <Predicate = true> <Delay = 0.00>
+ST_25 : Operation 223 [1/1] (0.00ns)   --->   "%specpipeline_ln63 = specpipeline void @_ssdm_op_SpecPipeline, i32 0, i32 0, i32 1, i32 0, void @empty_0" [../MLP_baseline/mm.cpp:63]   --->   Operation 223 'specpipeline' 'specpipeline_ln63' <Predicate = true> <Delay = 0.00>
+ST_25 : Operation 224 [1/1] (0.00ns)   --->   "%speclooptripcount_ln62 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 16, i64 16, i64 16" [../MLP_baseline/mm.cpp:62]   --->   Operation 224 'speclooptripcount' 'speclooptripcount_ln62' <Predicate = true> <Delay = 0.00>
+ST_25 : Operation 225 [1/1] (0.00ns)   --->   "%specloopname_ln62 = specloopname void @_ssdm_op_SpecLoopName, void @empty_21" [../MLP_baseline/mm.cpp:62]   --->   Operation 225 'specloopname' 'specloopname_ln62' <Predicate = true> <Delay = 0.00>
+ST_25 : Operation 226 [1/8] (7.30ns)   --->   "%empty_56 = readreq i1 @_ssdm_op_ReadReq.m_axi.p1i32, i32 %gmem_addr_1, i64 16" [../MLP_baseline/mm.cpp:64]   --->   Operation 226 'readreq' 'empty_56' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_25 : Operation 227 [1/1] (1.58ns)   --->   "%br_ln64 = br void %for.inc45" [../MLP_baseline/mm.cpp:64]   --->   Operation 227 'br' 'br_ln64' <Predicate = true> <Delay = 1.58>
 
 State 26 <SV = 23> <Delay = 3.36>
-ST_26 : Operation 228 [1/1] (0.00ns)   --->   "%j_1 = phi i5 0, void %VITIS_LOOP_59_7.split, i5 %add_ln59, void %for.inc45.split" [../MLP_baseline/mm.cpp:59]   --->   Operation 228 'phi' 'j_1' <Predicate = true> <Delay = 0.00>
-ST_26 : Operation 229 [1/1] (1.78ns)   --->   "%icmp_ln59 = icmp_eq  i5 %j_1, i5 16" [../MLP_baseline/mm.cpp:59]   --->   Operation 229 'icmp' 'icmp_ln59' <Predicate = true> <Delay = 1.78> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
-ST_26 : Operation 230 [1/1] (1.78ns)   --->   "%add_ln59 = add i5 %j_1, i5 1" [../MLP_baseline/mm.cpp:59]   --->   Operation 230 'add' 'add_ln59' <Predicate = true> <Delay = 1.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_26 : Operation 231 [1/1] (0.00ns)   --->   "%br_ln59 = br i1 %icmp_ln59, void %for.inc45.split, void %VITIS_LOOP_66_9.preheader" [../MLP_baseline/mm.cpp:59]   --->   Operation 231 'br' 'br_ln59' <Predicate = true> <Delay = 0.00>
-ST_26 : Operation 232 [1/1] (1.58ns)   --->   "%br_ln63 = br void %VITIS_LOOP_66_9" [../MLP_baseline/mm.cpp:63]   --->   Operation 232 'br' 'br_ln63' <Predicate = (icmp_ln59)> <Delay = 1.58>
+ST_26 : Operation 228 [1/1] (0.00ns)   --->   "%j_1 = phi i5 0, void %VITIS_LOOP_64_7.split, i5 %add_ln64, void %for.inc45.split" [../MLP_baseline/mm.cpp:64]   --->   Operation 228 'phi' 'j_1' <Predicate = true> <Delay = 0.00>
+ST_26 : Operation 229 [1/1] (1.78ns)   --->   "%icmp_ln64 = icmp_eq  i5 %j_1, i5 16" [../MLP_baseline/mm.cpp:64]   --->   Operation 229 'icmp' 'icmp_ln64' <Predicate = true> <Delay = 1.78> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_26 : Operation 230 [1/1] (1.78ns)   --->   "%add_ln64 = add i5 %j_1, i5 1" [../MLP_baseline/mm.cpp:64]   --->   Operation 230 'add' 'add_ln64' <Predicate = true> <Delay = 1.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_26 : Operation 231 [1/1] (0.00ns)   --->   "%br_ln64 = br i1 %icmp_ln64, void %for.inc45.split, void %VITIS_LOOP_71_9.preheader" [../MLP_baseline/mm.cpp:64]   --->   Operation 231 'br' 'br_ln64' <Predicate = true> <Delay = 0.00>
+ST_26 : Operation 232 [1/1] (1.58ns)   --->   "%br_ln68 = br void %VITIS_LOOP_71_9" [../MLP_baseline/mm.cpp:68]   --->   Operation 232 'br' 'br_ln68' <Predicate = (icmp_ln64)> <Delay = 1.58>
 
 State 27 <SV = 24> <Delay = 7.30>
-ST_27 : Operation 233 [1/1] (7.30ns)   --->   "%gmem_addr_1_read = read i32 @_ssdm_op_Read.m_axi.p1i32, i32 %gmem_addr_1" [../MLP_baseline/mm.cpp:61]   --->   Operation 233 'read' 'gmem_addr_1_read' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_27 : Operation 233 [1/1] (7.30ns)   --->   "%gmem_addr_1_read = read i32 @_ssdm_op_Read.m_axi.p1i32, i32 %gmem_addr_1" [../MLP_baseline/mm.cpp:66]   --->   Operation 233 'read' 'gmem_addr_1_read' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 28 <SV = 25> <Delay = 2.32>
-ST_28 : Operation 234 [1/1] (0.00ns)   --->   "%zext_ln59 = zext i5 %j_1" [../MLP_baseline/mm.cpp:59]   --->   Operation 234 'zext' 'zext_ln59' <Predicate = true> <Delay = 0.00>
-ST_28 : Operation 235 [1/1] (0.00ns)   --->   "%specpipeline_ln60 = specpipeline void @_ssdm_op_SpecPipeline, i32 0, i32 0, i32 1, i32 0, void @empty_0" [../MLP_baseline/mm.cpp:60]   --->   Operation 235 'specpipeline' 'specpipeline_ln60' <Predicate = true> <Delay = 0.00>
-ST_28 : Operation 236 [1/1] (0.00ns)   --->   "%speclooptripcount_ln59 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 16, i64 16, i64 16" [../MLP_baseline/mm.cpp:59]   --->   Operation 236 'speclooptripcount' 'speclooptripcount_ln59' <Predicate = true> <Delay = 0.00>
-ST_28 : Operation 237 [1/1] (0.00ns)   --->   "%specloopname_ln59 = specloopname void @_ssdm_op_SpecLoopName, void @empty_18" [../MLP_baseline/mm.cpp:59]   --->   Operation 237 'specloopname' 'specloopname_ln59' <Predicate = true> <Delay = 0.00>
-ST_28 : Operation 238 [1/1] (0.00ns)   --->   "%B_line_addr = getelementptr i32 %B_line, i64 0, i64 %zext_ln59" [../MLP_baseline/mm.cpp:61]   --->   Operation 238 'getelementptr' 'B_line_addr' <Predicate = true> <Delay = 0.00>
-ST_28 : Operation 239 [1/1] ( I:2.32ns O:2.32ns )   --->   "%store_ln61 = store i32 %gmem_addr_1_read, i4 %B_line_addr" [../MLP_baseline/mm.cpp:61]   --->   Operation 239 'store' 'store_ln61' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
-ST_28 : Operation 240 [1/1] (0.00ns)   --->   "%br_ln59 = br void %for.inc45" [../MLP_baseline/mm.cpp:59]   --->   Operation 240 'br' 'br_ln59' <Predicate = true> <Delay = 0.00>
+ST_28 : Operation 234 [1/1] (0.00ns)   --->   "%zext_ln64 = zext i5 %j_1" [../MLP_baseline/mm.cpp:64]   --->   Operation 234 'zext' 'zext_ln64' <Predicate = true> <Delay = 0.00>
+ST_28 : Operation 235 [1/1] (0.00ns)   --->   "%specpipeline_ln65 = specpipeline void @_ssdm_op_SpecPipeline, i32 0, i32 0, i32 1, i32 0, void @empty_0" [../MLP_baseline/mm.cpp:65]   --->   Operation 235 'specpipeline' 'specpipeline_ln65' <Predicate = true> <Delay = 0.00>
+ST_28 : Operation 236 [1/1] (0.00ns)   --->   "%speclooptripcount_ln64 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 16, i64 16, i64 16" [../MLP_baseline/mm.cpp:64]   --->   Operation 236 'speclooptripcount' 'speclooptripcount_ln64' <Predicate = true> <Delay = 0.00>
+ST_28 : Operation 237 [1/1] (0.00ns)   --->   "%specloopname_ln64 = specloopname void @_ssdm_op_SpecLoopName, void @empty_18" [../MLP_baseline/mm.cpp:64]   --->   Operation 237 'specloopname' 'specloopname_ln64' <Predicate = true> <Delay = 0.00>
+ST_28 : Operation 238 [1/1] (0.00ns)   --->   "%B_line_addr = getelementptr i32 %B_line, i64 0, i64 %zext_ln64" [../MLP_baseline/mm.cpp:66]   --->   Operation 238 'getelementptr' 'B_line_addr' <Predicate = true> <Delay = 0.00>
+ST_28 : Operation 239 [1/1] ( I:2.32ns O:2.32ns )   --->   "%store_ln66 = store i32 %gmem_addr_1_read, i4 %B_line_addr" [../MLP_baseline/mm.cpp:66]   --->   Operation 239 'store' 'store_ln66' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_28 : Operation 240 [1/1] (0.00ns)   --->   "%br_ln64 = br void %for.inc45" [../MLP_baseline/mm.cpp:64]   --->   Operation 240 'br' 'br_ln64' <Predicate = true> <Delay = 0.00>
 
 State 29 <SV = 24> <Delay = 2.52>
-ST_29 : Operation 241 [1/1] (0.00ns)   --->   "%i_2 = phi i5 %add_ln63, void %for.inc77, i5 0, void %VITIS_LOOP_66_9.preheader" [../MLP_baseline/mm.cpp:63]   --->   Operation 241 'phi' 'i_2' <Predicate = true> <Delay = 0.00>
-ST_29 : Operation 242 [1/1] (1.78ns)   --->   "%icmp_ln63 = icmp_eq  i5 %i_2, i5 16" [../MLP_baseline/mm.cpp:63]   --->   Operation 242 'icmp' 'icmp_ln63' <Predicate = true> <Delay = 1.78> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
-ST_29 : Operation 243 [1/1] (1.78ns)   --->   "%add_ln63 = add i5 %i_2, i5 1" [../MLP_baseline/mm.cpp:63]   --->   Operation 243 'add' 'add_ln63' <Predicate = true> <Delay = 1.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_29 : Operation 244 [1/1] (0.00ns)   --->   "%br_ln63 = br i1 %icmp_ln63, void %VITIS_LOOP_66_9.split, void %for.inc80" [../MLP_baseline/mm.cpp:63]   --->   Operation 244 'br' 'br_ln63' <Predicate = true> <Delay = 0.00>
-ST_29 : Operation 245 [1/1] (0.00ns)   --->   "%trunc_ln63 = trunc i5 %i_2" [../MLP_baseline/mm.cpp:63]   --->   Operation 245 'trunc' 'trunc_ln63' <Predicate = (!icmp_ln63)> <Delay = 0.00>
-ST_29 : Operation 246 [1/1] (0.00ns)   --->   "%zext_ln63 = zext i5 %i_2" [../MLP_baseline/mm.cpp:63]   --->   Operation 246 'zext' 'zext_ln63' <Predicate = (!icmp_ln63)> <Delay = 0.00>
-ST_29 : Operation 247 [1/1] (2.52ns)   --->   "%add_ln65 = add i32 %zext_ln63, i32 %tmp_9_cast" [../MLP_baseline/mm.cpp:65]   --->   Operation 247 'add' 'add_ln65' <Predicate = (!icmp_ln63)> <Delay = 2.52> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.52> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_29 : Operation 248 [1/1] (0.00ns)   --->   "%br_ln57 = br void %VITIS_LOOP_59_7" [../MLP_baseline/mm.cpp:57]   --->   Operation 248 'br' 'br_ln57' <Predicate = (icmp_ln63)> <Delay = 0.00>
+ST_29 : Operation 241 [1/1] (0.00ns)   --->   "%i_2 = phi i5 %add_ln68, void %for.inc77, i5 0, void %VITIS_LOOP_71_9.preheader" [../MLP_baseline/mm.cpp:68]   --->   Operation 241 'phi' 'i_2' <Predicate = true> <Delay = 0.00>
+ST_29 : Operation 242 [1/1] (1.78ns)   --->   "%icmp_ln68 = icmp_eq  i5 %i_2, i5 16" [../MLP_baseline/mm.cpp:68]   --->   Operation 242 'icmp' 'icmp_ln68' <Predicate = true> <Delay = 1.78> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_29 : Operation 243 [1/1] (1.78ns)   --->   "%add_ln68 = add i5 %i_2, i5 1" [../MLP_baseline/mm.cpp:68]   --->   Operation 243 'add' 'add_ln68' <Predicate = true> <Delay = 1.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_29 : Operation 244 [1/1] (0.00ns)   --->   "%br_ln68 = br i1 %icmp_ln68, void %VITIS_LOOP_71_9.split, void %for.inc80" [../MLP_baseline/mm.cpp:68]   --->   Operation 244 'br' 'br_ln68' <Predicate = true> <Delay = 0.00>
+ST_29 : Operation 245 [1/1] (0.00ns)   --->   "%trunc_ln68 = trunc i5 %i_2" [../MLP_baseline/mm.cpp:68]   --->   Operation 245 'trunc' 'trunc_ln68' <Predicate = (!icmp_ln68)> <Delay = 0.00>
+ST_29 : Operation 246 [1/1] (0.00ns)   --->   "%zext_ln68 = zext i5 %i_2" [../MLP_baseline/mm.cpp:68]   --->   Operation 246 'zext' 'zext_ln68' <Predicate = (!icmp_ln68)> <Delay = 0.00>
+ST_29 : Operation 247 [1/1] (2.52ns)   --->   "%add_ln70 = add i32 %zext_ln68, i32 %tmp_9_cast" [../MLP_baseline/mm.cpp:70]   --->   Operation 247 'add' 'add_ln70' <Predicate = (!icmp_ln68)> <Delay = 2.52> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.52> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_29 : Operation 248 [1/1] (0.00ns)   --->   "%br_ln62 = br void %VITIS_LOOP_64_7" [../MLP_baseline/mm.cpp:62]   --->   Operation 248 'br' 'br_ln62' <Predicate = (icmp_ln68)> <Delay = 0.00>
 
 State 30 <SV = 25> <Delay = 6.91>
-ST_30 : Operation 249 [1/1] (0.00ns)   --->   "%zext_ln65 = zext i32 %add_ln65" [../MLP_baseline/mm.cpp:65]   --->   Operation 249 'zext' 'zext_ln65' <Predicate = true> <Delay = 0.00>
-ST_30 : Operation 250 [2/2] (6.91ns)   --->   "%mul_ln65 = mul i62 %zext_ln65, i62 %sext_ln44" [../MLP_baseline/mm.cpp:65]   --->   Operation 250 'mul' 'mul_ln65' <Predicate = true> <Delay = 6.91> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 1> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_30 : Operation 249 [1/1] (0.00ns)   --->   "%zext_ln70 = zext i32 %add_ln70" [../MLP_baseline/mm.cpp:70]   --->   Operation 249 'zext' 'zext_ln70' <Predicate = true> <Delay = 0.00>
+ST_30 : Operation 250 [2/2] (6.91ns)   --->   "%mul_ln70 = mul i62 %zext_ln70, i62 %sext_ln45" [../MLP_baseline/mm.cpp:70]   --->   Operation 250 'mul' 'mul_ln70' <Predicate = true> <Delay = 6.91> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 1> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 
 State 31 <SV = 26> <Delay = 6.91>
-ST_31 : Operation 251 [1/2] (6.91ns)   --->   "%mul_ln65 = mul i62 %zext_ln65, i62 %sext_ln44" [../MLP_baseline/mm.cpp:65]   --->   Operation 251 'mul' 'mul_ln65' <Predicate = true> <Delay = 6.91> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 1> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_31 : Operation 251 [1/2] (6.91ns)   --->   "%mul_ln70 = mul i62 %zext_ln70, i62 %sext_ln45" [../MLP_baseline/mm.cpp:70]   --->   Operation 251 'mul' 'mul_ln70' <Predicate = true> <Delay = 6.91> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 1> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
 
 State 32 <SV = 27> <Delay = 5.25>
-ST_32 : Operation 252 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln65_1 = add i62 %zext_ln57, i62 %mul_ln65" [../MLP_baseline/mm.cpp:65]   --->   Operation 252 'add' 'add_ln65_1' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 2.62> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
-ST_32 : Operation 253 [1/1] (5.25ns) (root node of TernaryAdder)   --->   "%add_ln65_3 = add i62 %add_ln65_1, i62 %zext_ln57_1" [../MLP_baseline/mm.cpp:65]   --->   Operation 253 'add' 'add_ln65_3' <Predicate = true> <Delay = 5.25> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 2.62> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_32 : Operation 252 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln70_1 = add i62 %zext_ln62, i62 %mul_ln70" [../MLP_baseline/mm.cpp:70]   --->   Operation 252 'add' 'add_ln70_1' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 2.62> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_32 : Operation 253 [1/1] (5.25ns) (root node of TernaryAdder)   --->   "%add_ln70_3 = add i62 %add_ln70_1, i62 %zext_ln62_1" [../MLP_baseline/mm.cpp:70]   --->   Operation 253 'add' 'add_ln70_3' <Predicate = true> <Delay = 5.25> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 2.62> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
 
 State 33 <SV = 28> <Delay = 3.52>
-ST_33 : Operation 254 [1/1] (0.00ns)   --->   "%shl_ln1 = bitconcatenate i64 @_ssdm_op_BitConcatenate.i64.i62.i2, i62 %add_ln65_3, i2 0" [../MLP_baseline/mm.cpp:65]   --->   Operation 254 'bitconcatenate' 'shl_ln1' <Predicate = true> <Delay = 0.00>
-ST_33 : Operation 255 [1/1] (3.52ns)   --->   "%add_ln65_2 = add i64 %shl_ln1, i64 %A_read" [../MLP_baseline/mm.cpp:65]   --->   Operation 255 'add' 'add_ln65_2' <Predicate = true> <Delay = 3.52> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 3.52> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_33 : Operation 256 [1/1] (0.00ns)   --->   "%trunc_ln2 = partselect i62 @_ssdm_op_PartSelect.i62.i64.i32.i32, i64 %add_ln65_2, i32 2, i32 63" [../MLP_baseline/mm.cpp:65]   --->   Operation 256 'partselect' 'trunc_ln2' <Predicate = true> <Delay = 0.00>
-ST_33 : Operation 257 [1/1] (0.00ns)   --->   "%sext_ln65 = sext i62 %trunc_ln2" [../MLP_baseline/mm.cpp:65]   --->   Operation 257 'sext' 'sext_ln65' <Predicate = true> <Delay = 0.00>
-ST_33 : Operation 258 [1/1] (0.00ns)   --->   "%gmem_addr_3 = getelementptr i32 %gmem, i64 %sext_ln65" [../MLP_baseline/mm.cpp:65]   --->   Operation 258 'getelementptr' 'gmem_addr_3' <Predicate = true> <Delay = 0.00>
+ST_33 : Operation 254 [1/1] (0.00ns)   --->   "%shl_ln1 = bitconcatenate i64 @_ssdm_op_BitConcatenate.i64.i62.i2, i62 %add_ln70_3, i2 0" [../MLP_baseline/mm.cpp:70]   --->   Operation 254 'bitconcatenate' 'shl_ln1' <Predicate = true> <Delay = 0.00>
+ST_33 : Operation 255 [1/1] (3.52ns)   --->   "%add_ln70_2 = add i64 %shl_ln1, i64 %A_read" [../MLP_baseline/mm.cpp:70]   --->   Operation 255 'add' 'add_ln70_2' <Predicate = true> <Delay = 3.52> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 3.52> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_33 : Operation 256 [1/1] (0.00ns)   --->   "%trunc_ln2 = partselect i62 @_ssdm_op_PartSelect.i62.i64.i32.i32, i64 %add_ln70_2, i32 2, i32 63" [../MLP_baseline/mm.cpp:70]   --->   Operation 256 'partselect' 'trunc_ln2' <Predicate = true> <Delay = 0.00>
+ST_33 : Operation 257 [1/1] (0.00ns)   --->   "%sext_ln70 = sext i62 %trunc_ln2" [../MLP_baseline/mm.cpp:70]   --->   Operation 257 'sext' 'sext_ln70' <Predicate = true> <Delay = 0.00>
+ST_33 : Operation 258 [1/1] (0.00ns)   --->   "%gmem_addr_3 = getelementptr i32 %gmem, i64 %sext_ln70" [../MLP_baseline/mm.cpp:70]   --->   Operation 258 'getelementptr' 'gmem_addr_3' <Predicate = true> <Delay = 0.00>
 
 State 34 <SV = 29> <Delay = 7.30>
-ST_34 : Operation 259 [8/8] (7.30ns)   --->   "%Atemp_req = readreq i1 @_ssdm_op_ReadReq.m_axi.i32P1A, i32 %gmem_addr_3, i64 1" [../MLP_baseline/mm.cpp:65]   --->   Operation 259 'readreq' 'Atemp_req' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_34 : Operation 259 [8/8] (7.30ns)   --->   "%Atemp_req = readreq i1 @_ssdm_op_ReadReq.m_axi.i32P1A, i32 %gmem_addr_3, i64 1" [../MLP_baseline/mm.cpp:70]   --->   Operation 259 'readreq' 'Atemp_req' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 35 <SV = 30> <Delay = 7.30>
-ST_35 : Operation 260 [7/8] (7.30ns)   --->   "%Atemp_req = readreq i1 @_ssdm_op_ReadReq.m_axi.i32P1A, i32 %gmem_addr_3, i64 1" [../MLP_baseline/mm.cpp:65]   --->   Operation 260 'readreq' 'Atemp_req' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_35 : Operation 260 [7/8] (7.30ns)   --->   "%Atemp_req = readreq i1 @_ssdm_op_ReadReq.m_axi.i32P1A, i32 %gmem_addr_3, i64 1" [../MLP_baseline/mm.cpp:70]   --->   Operation 260 'readreq' 'Atemp_req' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 36 <SV = 31> <Delay = 7.30>
-ST_36 : Operation 261 [6/8] (7.30ns)   --->   "%Atemp_req = readreq i1 @_ssdm_op_ReadReq.m_axi.i32P1A, i32 %gmem_addr_3, i64 1" [../MLP_baseline/mm.cpp:65]   --->   Operation 261 'readreq' 'Atemp_req' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_36 : Operation 261 [6/8] (7.30ns)   --->   "%Atemp_req = readreq i1 @_ssdm_op_ReadReq.m_axi.i32P1A, i32 %gmem_addr_3, i64 1" [../MLP_baseline/mm.cpp:70]   --->   Operation 261 'readreq' 'Atemp_req' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 37 <SV = 32> <Delay = 7.30>
-ST_37 : Operation 262 [5/8] (7.30ns)   --->   "%Atemp_req = readreq i1 @_ssdm_op_ReadReq.m_axi.i32P1A, i32 %gmem_addr_3, i64 1" [../MLP_baseline/mm.cpp:65]   --->   Operation 262 'readreq' 'Atemp_req' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_37 : Operation 262 [5/8] (7.30ns)   --->   "%Atemp_req = readreq i1 @_ssdm_op_ReadReq.m_axi.i32P1A, i32 %gmem_addr_3, i64 1" [../MLP_baseline/mm.cpp:70]   --->   Operation 262 'readreq' 'Atemp_req' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 38 <SV = 33> <Delay = 7.30>
-ST_38 : Operation 263 [4/8] (7.30ns)   --->   "%Atemp_req = readreq i1 @_ssdm_op_ReadReq.m_axi.i32P1A, i32 %gmem_addr_3, i64 1" [../MLP_baseline/mm.cpp:65]   --->   Operation 263 'readreq' 'Atemp_req' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_38 : Operation 263 [4/8] (7.30ns)   --->   "%Atemp_req = readreq i1 @_ssdm_op_ReadReq.m_axi.i32P1A, i32 %gmem_addr_3, i64 1" [../MLP_baseline/mm.cpp:70]   --->   Operation 263 'readreq' 'Atemp_req' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 39 <SV = 34> <Delay = 7.30>
-ST_39 : Operation 264 [3/8] (7.30ns)   --->   "%Atemp_req = readreq i1 @_ssdm_op_ReadReq.m_axi.i32P1A, i32 %gmem_addr_3, i64 1" [../MLP_baseline/mm.cpp:65]   --->   Operation 264 'readreq' 'Atemp_req' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_39 : Operation 264 [3/8] (7.30ns)   --->   "%Atemp_req = readreq i1 @_ssdm_op_ReadReq.m_axi.i32P1A, i32 %gmem_addr_3, i64 1" [../MLP_baseline/mm.cpp:70]   --->   Operation 264 'readreq' 'Atemp_req' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 40 <SV = 35> <Delay = 7.30>
-ST_40 : Operation 265 [2/8] (7.30ns)   --->   "%Atemp_req = readreq i1 @_ssdm_op_ReadReq.m_axi.i32P1A, i32 %gmem_addr_3, i64 1" [../MLP_baseline/mm.cpp:65]   --->   Operation 265 'readreq' 'Atemp_req' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_40 : Operation 265 [2/8] (7.30ns)   --->   "%Atemp_req = readreq i1 @_ssdm_op_ReadReq.m_axi.i32P1A, i32 %gmem_addr_3, i64 1" [../MLP_baseline/mm.cpp:70]   --->   Operation 265 'readreq' 'Atemp_req' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 41 <SV = 36> <Delay = 7.30>
-ST_41 : Operation 266 [1/8] (7.30ns)   --->   "%Atemp_req = readreq i1 @_ssdm_op_ReadReq.m_axi.i32P1A, i32 %gmem_addr_3, i64 1" [../MLP_baseline/mm.cpp:65]   --->   Operation 266 'readreq' 'Atemp_req' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_41 : Operation 266 [1/8] (7.30ns)   --->   "%Atemp_req = readreq i1 @_ssdm_op_ReadReq.m_axi.i32P1A, i32 %gmem_addr_3, i64 1" [../MLP_baseline/mm.cpp:70]   --->   Operation 266 'readreq' 'Atemp_req' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 6> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 42 <SV = 37> <Delay = 7.30>
-ST_42 : Operation 267 [1/1] (0.00ns)   --->   "%tmp_15 = bitconcatenate i8 @_ssdm_op_BitConcatenate.i8.i4.i4, i4 %trunc_ln63, i4 0" [../MLP_baseline/mm.cpp:68]   --->   Operation 267 'bitconcatenate' 'tmp_15' <Predicate = true> <Delay = 0.00>
-ST_42 : Operation 268 [1/1] (0.00ns)   --->   "%specpipeline_ln64 = specpipeline void @_ssdm_op_SpecPipeline, i32 0, i32 0, i32 1, i32 0, void @empty_0" [../MLP_baseline/mm.cpp:64]   --->   Operation 268 'specpipeline' 'specpipeline_ln64' <Predicate = true> <Delay = 0.00>
-ST_42 : Operation 269 [1/1] (0.00ns)   --->   "%speclooptripcount_ln63 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 16, i64 16, i64 16" [../MLP_baseline/mm.cpp:63]   --->   Operation 269 'speclooptripcount' 'speclooptripcount_ln63' <Predicate = true> <Delay = 0.00>
-ST_42 : Operation 270 [1/1] (0.00ns)   --->   "%specloopname_ln63 = specloopname void @_ssdm_op_SpecLoopName, void @empty_20" [../MLP_baseline/mm.cpp:63]   --->   Operation 270 'specloopname' 'specloopname_ln63' <Predicate = true> <Delay = 0.00>
-ST_42 : Operation 271 [1/1] (7.30ns)   --->   "%Atemp = read i32 @_ssdm_op_Read.m_axi.i32P1A, i32 %gmem_addr_3" [../MLP_baseline/mm.cpp:65]   --->   Operation 271 'read' 'Atemp' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
-ST_42 : Operation 272 [1/1] (1.58ns)   --->   "%br_ln66 = br void %for.inc74" [../MLP_baseline/mm.cpp:66]   --->   Operation 272 'br' 'br_ln66' <Predicate = true> <Delay = 1.58>
+ST_42 : Operation 267 [1/1] (0.00ns)   --->   "%tmp_15 = bitconcatenate i8 @_ssdm_op_BitConcatenate.i8.i4.i4, i4 %trunc_ln68, i4 0" [../MLP_baseline/mm.cpp:73]   --->   Operation 267 'bitconcatenate' 'tmp_15' <Predicate = true> <Delay = 0.00>
+ST_42 : Operation 268 [1/1] (0.00ns)   --->   "%specpipeline_ln69 = specpipeline void @_ssdm_op_SpecPipeline, i32 0, i32 0, i32 1, i32 0, void @empty_0" [../MLP_baseline/mm.cpp:69]   --->   Operation 268 'specpipeline' 'specpipeline_ln69' <Predicate = true> <Delay = 0.00>
+ST_42 : Operation 269 [1/1] (0.00ns)   --->   "%speclooptripcount_ln68 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 16, i64 16, i64 16" [../MLP_baseline/mm.cpp:68]   --->   Operation 269 'speclooptripcount' 'speclooptripcount_ln68' <Predicate = true> <Delay = 0.00>
+ST_42 : Operation 270 [1/1] (0.00ns)   --->   "%specloopname_ln68 = specloopname void @_ssdm_op_SpecLoopName, void @empty_20" [../MLP_baseline/mm.cpp:68]   --->   Operation 270 'specloopname' 'specloopname_ln68' <Predicate = true> <Delay = 0.00>
+ST_42 : Operation 271 [1/1] (7.30ns)   --->   "%Atemp = read i32 @_ssdm_op_Read.m_axi.i32P1A, i32 %gmem_addr_3" [../MLP_baseline/mm.cpp:70]   --->   Operation 271 'read' 'Atemp' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_42 : Operation 272 [1/1] (1.58ns)   --->   "%br_ln71 = br void %for.inc74" [../MLP_baseline/mm.cpp:71]   --->   Operation 272 'br' 'br_ln71' <Predicate = true> <Delay = 1.58>
 
 State 43 <SV = 38> <Delay = 2.32>
-ST_43 : Operation 273 [1/1] (0.00ns)   --->   "%j_3 = phi i5 0, void %VITIS_LOOP_66_9.split, i5 %add_ln66, void %for.inc74.split" [../MLP_baseline/mm.cpp:66]   --->   Operation 273 'phi' 'j_3' <Predicate = true> <Delay = 0.00>
-ST_43 : Operation 274 [1/1] (1.78ns)   --->   "%icmp_ln66 = icmp_eq  i5 %j_3, i5 16" [../MLP_baseline/mm.cpp:66]   --->   Operation 274 'icmp' 'icmp_ln66' <Predicate = true> <Delay = 1.78> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
-ST_43 : Operation 275 [1/1] (1.78ns)   --->   "%add_ln66 = add i5 %j_3, i5 1" [../MLP_baseline/mm.cpp:66]   --->   Operation 275 'add' 'add_ln66' <Predicate = true> <Delay = 1.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_43 : Operation 276 [1/1] (0.00ns)   --->   "%br_ln66 = br i1 %icmp_ln66, void %for.inc74.split, void %for.inc77" [../MLP_baseline/mm.cpp:66]   --->   Operation 276 'br' 'br_ln66' <Predicate = true> <Delay = 0.00>
-ST_43 : Operation 277 [1/1] (0.00ns)   --->   "%zext_ln66 = zext i5 %j_3" [../MLP_baseline/mm.cpp:66]   --->   Operation 277 'zext' 'zext_ln66' <Predicate = (!icmp_ln66)> <Delay = 0.00>
-ST_43 : Operation 278 [1/1] (0.00ns)   --->   "%zext_ln68 = zext i5 %j_3" [../MLP_baseline/mm.cpp:68]   --->   Operation 278 'zext' 'zext_ln68' <Predicate = (!icmp_ln66)> <Delay = 0.00>
-ST_43 : Operation 279 [1/1] (1.91ns)   --->   "%add_ln68_1 = add i8 %tmp_15, i8 %zext_ln68" [../MLP_baseline/mm.cpp:68]   --->   Operation 279 'add' 'add_ln68_1' <Predicate = (!icmp_ln66)> <Delay = 1.91> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.91> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_43 : Operation 280 [1/1] (0.00ns)   --->   "%B_line_addr_1 = getelementptr i32 %B_line, i64 0, i64 %zext_ln66" [../MLP_baseline/mm.cpp:68]   --->   Operation 280 'getelementptr' 'B_line_addr_1' <Predicate = (!icmp_ln66)> <Delay = 0.00>
-ST_43 : Operation 281 [2/2] (2.32ns)   --->   "%B_line_load = load i4 %B_line_addr_1" [../MLP_baseline/mm.cpp:68]   --->   Operation 281 'load' 'B_line_load' <Predicate = (!icmp_ln66)> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
-ST_43 : Operation 282 [1/1] (0.00ns)   --->   "%br_ln63 = br void %VITIS_LOOP_66_9" [../MLP_baseline/mm.cpp:63]   --->   Operation 282 'br' 'br_ln63' <Predicate = (icmp_ln66)> <Delay = 0.00>
+ST_43 : Operation 273 [1/1] (0.00ns)   --->   "%j_3 = phi i5 0, void %VITIS_LOOP_71_9.split, i5 %add_ln71, void %for.inc74.split" [../MLP_baseline/mm.cpp:71]   --->   Operation 273 'phi' 'j_3' <Predicate = true> <Delay = 0.00>
+ST_43 : Operation 274 [1/1] (1.78ns)   --->   "%icmp_ln71 = icmp_eq  i5 %j_3, i5 16" [../MLP_baseline/mm.cpp:71]   --->   Operation 274 'icmp' 'icmp_ln71' <Predicate = true> <Delay = 1.78> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_43 : Operation 275 [1/1] (1.78ns)   --->   "%add_ln71 = add i5 %j_3, i5 1" [../MLP_baseline/mm.cpp:71]   --->   Operation 275 'add' 'add_ln71' <Predicate = true> <Delay = 1.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_43 : Operation 276 [1/1] (0.00ns)   --->   "%br_ln71 = br i1 %icmp_ln71, void %for.inc74.split, void %for.inc77" [../MLP_baseline/mm.cpp:71]   --->   Operation 276 'br' 'br_ln71' <Predicate = true> <Delay = 0.00>
+ST_43 : Operation 277 [1/1] (0.00ns)   --->   "%zext_ln71 = zext i5 %j_3" [../MLP_baseline/mm.cpp:71]   --->   Operation 277 'zext' 'zext_ln71' <Predicate = (!icmp_ln71)> <Delay = 0.00>
+ST_43 : Operation 278 [1/1] (0.00ns)   --->   "%zext_ln73 = zext i5 %j_3" [../MLP_baseline/mm.cpp:73]   --->   Operation 278 'zext' 'zext_ln73' <Predicate = (!icmp_ln71)> <Delay = 0.00>
+ST_43 : Operation 279 [1/1] (1.91ns)   --->   "%add_ln73_1 = add i8 %tmp_15, i8 %zext_ln73" [../MLP_baseline/mm.cpp:73]   --->   Operation 279 'add' 'add_ln73_1' <Predicate = (!icmp_ln71)> <Delay = 1.91> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.91> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_43 : Operation 280 [1/1] (0.00ns)   --->   "%B_line_addr_1 = getelementptr i32 %B_line, i64 0, i64 %zext_ln71" [../MLP_baseline/mm.cpp:73]   --->   Operation 280 'getelementptr' 'B_line_addr_1' <Predicate = (!icmp_ln71)> <Delay = 0.00>
+ST_43 : Operation 281 [2/2] (2.32ns)   --->   "%B_line_load = load i4 %B_line_addr_1" [../MLP_baseline/mm.cpp:73]   --->   Operation 281 'load' 'B_line_load' <Predicate = (!icmp_ln71)> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_43 : Operation 282 [1/1] (0.00ns)   --->   "%br_ln68 = br void %VITIS_LOOP_71_9" [../MLP_baseline/mm.cpp:68]   --->   Operation 282 'br' 'br_ln68' <Predicate = (icmp_ln71)> <Delay = 0.00>
 
 State 44 <SV = 39> <Delay = 2.32>
-ST_44 : Operation 283 [1/2] ( I:2.32ns O:2.32ns )   --->   "%B_line_load = load i4 %B_line_addr_1" [../MLP_baseline/mm.cpp:68]   --->   Operation 283 'load' 'B_line_load' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
+ST_44 : Operation 283 [1/2] ( I:2.32ns O:2.32ns )   --->   "%B_line_load = load i4 %B_line_addr_1" [../MLP_baseline/mm.cpp:73]   --->   Operation 283 'load' 'B_line_load' <Predicate = true> <Delay = 2.32> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 16> <RAM>
 
 State 45 <SV = 40> <Delay = 6.91>
-ST_45 : Operation 284 [1/1] (0.00ns)   --->   "%zext_ln68_1 = zext i8 %add_ln68_1" [../MLP_baseline/mm.cpp:68]   --->   Operation 284 'zext' 'zext_ln68_1' <Predicate = true> <Delay = 0.00>
-ST_45 : Operation 285 [1/1] (0.00ns)   --->   "%AB_block_addr_2 = getelementptr i32 %AB_block, i64 0, i64 %zext_ln68_1" [../MLP_baseline/mm.cpp:68]   --->   Operation 285 'getelementptr' 'AB_block_addr_2' <Predicate = true> <Delay = 0.00>
-ST_45 : Operation 286 [2/2] (6.91ns)   --->   "%mul_ln68 = mul i32 %B_line_load, i32 %Atemp" [../MLP_baseline/mm.cpp:68]   --->   Operation 286 'mul' 'mul_ln68' <Predicate = true> <Delay = 6.91> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 1> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
-ST_45 : Operation 287 [2/2] (3.25ns)   --->   "%AB_block_load_1 = load i8 %AB_block_addr_2" [../MLP_baseline/mm.cpp:68]   --->   Operation 287 'load' 'AB_block_load_1' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 256> <RAM>
+ST_45 : Operation 284 [1/1] (0.00ns)   --->   "%zext_ln73_1 = zext i8 %add_ln73_1" [../MLP_baseline/mm.cpp:73]   --->   Operation 284 'zext' 'zext_ln73_1' <Predicate = true> <Delay = 0.00>
+ST_45 : Operation 285 [1/1] (0.00ns)   --->   "%AB_block_addr_2 = getelementptr i32 %AB_block, i64 0, i64 %zext_ln73_1" [../MLP_baseline/mm.cpp:73]   --->   Operation 285 'getelementptr' 'AB_block_addr_2' <Predicate = true> <Delay = 0.00>
+ST_45 : Operation 286 [2/2] (6.91ns)   --->   "%mul_ln73 = mul i32 %B_line_load, i32 %Atemp" [../MLP_baseline/mm.cpp:73]   --->   Operation 286 'mul' 'mul_ln73' <Predicate = true> <Delay = 6.91> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 1> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_45 : Operation 287 [2/2] (3.25ns)   --->   "%AB_block_load_1 = load i8 %AB_block_addr_2" [../MLP_baseline/mm.cpp:73]   --->   Operation 287 'load' 'AB_block_load_1' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 256> <RAM>
 
 State 46 <SV = 41> <Delay = 6.91>
-ST_46 : Operation 288 [1/2] (6.91ns)   --->   "%mul_ln68 = mul i32 %B_line_load, i32 %Atemp" [../MLP_baseline/mm.cpp:68]   --->   Operation 288 'mul' 'mul_ln68' <Predicate = true> <Delay = 6.91> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 1> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
-ST_46 : Operation 289 [1/2] ( I:3.25ns O:3.25ns )   --->   "%AB_block_load_1 = load i8 %AB_block_addr_2" [../MLP_baseline/mm.cpp:68]   --->   Operation 289 'load' 'AB_block_load_1' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 256> <RAM>
+ST_46 : Operation 288 [1/2] (6.91ns)   --->   "%mul_ln73 = mul i32 %B_line_load, i32 %Atemp" [../MLP_baseline/mm.cpp:73]   --->   Operation 288 'mul' 'mul_ln73' <Predicate = true> <Delay = 6.91> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 1> <II = 1> <Delay = 6.91> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_46 : Operation 289 [1/2] ( I:3.25ns O:3.25ns )   --->   "%AB_block_load_1 = load i8 %AB_block_addr_2" [../MLP_baseline/mm.cpp:73]   --->   Operation 289 'load' 'AB_block_load_1' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 256> <RAM>
 
 State 47 <SV = 42> <Delay = 5.80>
-ST_47 : Operation 290 [1/1] (0.00ns)   --->   "%specpipeline_ln67 = specpipeline void @_ssdm_op_SpecPipeline, i32 0, i32 0, i32 1, i32 0, void @empty_0" [../MLP_baseline/mm.cpp:67]   --->   Operation 290 'specpipeline' 'specpipeline_ln67' <Predicate = true> <Delay = 0.00>
-ST_47 : Operation 291 [1/1] (0.00ns)   --->   "%speclooptripcount_ln66 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 16, i64 16, i64 16" [../MLP_baseline/mm.cpp:66]   --->   Operation 291 'speclooptripcount' 'speclooptripcount_ln66' <Predicate = true> <Delay = 0.00>
-ST_47 : Operation 292 [1/1] (0.00ns)   --->   "%specloopname_ln66 = specloopname void @_ssdm_op_SpecLoopName, void @empty_19" [../MLP_baseline/mm.cpp:66]   --->   Operation 292 'specloopname' 'specloopname_ln66' <Predicate = true> <Delay = 0.00>
-ST_47 : Operation 293 [1/1] (2.55ns)   --->   "%add_ln68 = add i32 %AB_block_load_1, i32 %mul_ln68" [../MLP_baseline/mm.cpp:68]   --->   Operation 293 'add' 'add_ln68' <Predicate = true> <Delay = 2.55> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.55> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_47 : Operation 294 [1/1] ( I:3.25ns O:3.25ns )   --->   "%store_ln68 = store i32 %add_ln68, i8 %AB_block_addr_2" [../MLP_baseline/mm.cpp:68]   --->   Operation 294 'store' 'store_ln68' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 256> <RAM>
-ST_47 : Operation 295 [1/1] (0.00ns)   --->   "%br_ln66 = br void %for.inc74" [../MLP_baseline/mm.cpp:66]   --->   Operation 295 'br' 'br_ln66' <Predicate = true> <Delay = 0.00>
+ST_47 : Operation 290 [1/1] (0.00ns)   --->   "%specpipeline_ln72 = specpipeline void @_ssdm_op_SpecPipeline, i32 0, i32 0, i32 1, i32 0, void @empty_0" [../MLP_baseline/mm.cpp:72]   --->   Operation 290 'specpipeline' 'specpipeline_ln72' <Predicate = true> <Delay = 0.00>
+ST_47 : Operation 291 [1/1] (0.00ns)   --->   "%speclooptripcount_ln71 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 16, i64 16, i64 16" [../MLP_baseline/mm.cpp:71]   --->   Operation 291 'speclooptripcount' 'speclooptripcount_ln71' <Predicate = true> <Delay = 0.00>
+ST_47 : Operation 292 [1/1] (0.00ns)   --->   "%specloopname_ln71 = specloopname void @_ssdm_op_SpecLoopName, void @empty_19" [../MLP_baseline/mm.cpp:71]   --->   Operation 292 'specloopname' 'specloopname_ln71' <Predicate = true> <Delay = 0.00>
+ST_47 : Operation 293 [1/1] (2.55ns)   --->   "%add_ln73 = add i32 %AB_block_load_1, i32 %mul_ln73" [../MLP_baseline/mm.cpp:73]   --->   Operation 293 'add' 'add_ln73' <Predicate = true> <Delay = 2.55> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.55> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_47 : Operation 294 [1/1] ( I:3.25ns O:3.25ns )   --->   "%store_ln73 = store i32 %add_ln73, i8 %AB_block_addr_2" [../MLP_baseline/mm.cpp:73]   --->   Operation 294 'store' 'store_ln73' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 256> <RAM>
+ST_47 : Operation 295 [1/1] (0.00ns)   --->   "%br_ln71 = br void %for.inc74" [../MLP_baseline/mm.cpp:71]   --->   Operation 295 'br' 'br_ln71' <Predicate = true> <Delay = 0.00>
 
 State 48 <SV = 13> <Delay = 5.25>
-ST_48 : Operation 296 [1/1] (0.00ns)   --->   "%i_1 = phi i5 %add_ln73, void %for.inc111, i5 0, void %VITIS_LOOP_75_11.preheader" [../MLP_baseline/mm.cpp:73]   --->   Operation 296 'phi' 'i_1' <Predicate = true> <Delay = 0.00>
-ST_48 : Operation 297 [1/1] (0.00ns)   --->   "%phi_mul5 = phi i36 %add_ln73_1, void %for.inc111, i36 0, void %VITIS_LOOP_75_11.preheader" [../MLP_baseline/mm.cpp:73]   --->   Operation 297 'phi' 'phi_mul5' <Predicate = true> <Delay = 0.00>
-ST_48 : Operation 298 [1/1] (2.71ns)   --->   "%add_ln73_1 = add i36 %phi_mul5, i36 %sext_ln44_1" [../MLP_baseline/mm.cpp:73]   --->   Operation 298 'add' 'add_ln73_1' <Predicate = true> <Delay = 2.71> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.71> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_48 : Operation 299 [1/1] (1.78ns)   --->   "%icmp_ln73 = icmp_eq  i5 %i_1, i5 16" [../MLP_baseline/mm.cpp:73]   --->   Operation 299 'icmp' 'icmp_ln73' <Predicate = true> <Delay = 1.78> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
-ST_48 : Operation 300 [1/1] (1.78ns)   --->   "%add_ln73 = add i5 %i_1, i5 1" [../MLP_baseline/mm.cpp:73]   --->   Operation 300 'add' 'add_ln73' <Predicate = true> <Delay = 1.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_48 : Operation 301 [1/1] (0.00ns)   --->   "%br_ln73 = br i1 %icmp_ln73, void %VITIS_LOOP_75_11.split, void %for.inc114" [../MLP_baseline/mm.cpp:73]   --->   Operation 301 'br' 'br_ln73' <Predicate = true> <Delay = 0.00>
-ST_48 : Operation 302 [1/1] (0.00ns)   --->   "%trunc_ln73 = trunc i5 %i_1" [../MLP_baseline/mm.cpp:73]   --->   Operation 302 'trunc' 'trunc_ln73' <Predicate = (!icmp_ln73)> <Delay = 0.00>
-ST_48 : Operation 303 [1/1] (0.00ns)   --->   "%p_cast12 = sext i36 %phi_mul5" [../MLP_baseline/mm.cpp:73]   --->   Operation 303 'sext' 'p_cast12' <Predicate = (!icmp_ln73)> <Delay = 0.00>
-ST_48 : Operation 304 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%tmp2 = add i62 %tmp_7, i62 %p_cast12" [../MLP_baseline/mm.cpp:44]   --->   Operation 304 'add' 'tmp2' <Predicate = (!icmp_ln73)> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 2.62> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
-ST_48 : Operation 305 [1/1] (5.25ns) (root node of TernaryAdder)   --->   "%empty_57 = add i62 %tmp2, i62 %zext_ln55" [../MLP_baseline/mm.cpp:44]   --->   Operation 305 'add' 'empty_57' <Predicate = (!icmp_ln73)> <Delay = 5.25> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 2.62> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
-ST_48 : Operation 306 [1/1] (0.00ns)   --->   "%br_ln46 = br void %VITIS_LOOP_48_3" [../MLP_baseline/mm.cpp:46]   --->   Operation 306 'br' 'br_ln46' <Predicate = (icmp_ln73)> <Delay = 0.00>
+ST_48 : Operation 296 [1/1] (0.00ns)   --->   "%i_1 = phi i5 %add_ln78, void %for.inc111, i5 0, void %VITIS_LOOP_80_11.preheader" [../MLP_baseline/mm.cpp:78]   --->   Operation 296 'phi' 'i_1' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 297 [1/1] (0.00ns)   --->   "%phi_mul5 = phi i36 %add_ln78_1, void %for.inc111, i36 0, void %VITIS_LOOP_80_11.preheader" [../MLP_baseline/mm.cpp:78]   --->   Operation 297 'phi' 'phi_mul5' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 298 [1/1] (2.71ns)   --->   "%add_ln78_1 = add i36 %phi_mul5, i36 %sext_ln45_1" [../MLP_baseline/mm.cpp:78]   --->   Operation 298 'add' 'add_ln78_1' <Predicate = true> <Delay = 2.71> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.71> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_48 : Operation 299 [1/1] (1.78ns)   --->   "%icmp_ln78 = icmp_eq  i5 %i_1, i5 16" [../MLP_baseline/mm.cpp:78]   --->   Operation 299 'icmp' 'icmp_ln78' <Predicate = true> <Delay = 1.78> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_48 : Operation 300 [1/1] (1.78ns)   --->   "%add_ln78 = add i5 %i_1, i5 1" [../MLP_baseline/mm.cpp:78]   --->   Operation 300 'add' 'add_ln78' <Predicate = true> <Delay = 1.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_48 : Operation 301 [1/1] (0.00ns)   --->   "%br_ln78 = br i1 %icmp_ln78, void %VITIS_LOOP_80_11.split, void %for.inc114" [../MLP_baseline/mm.cpp:78]   --->   Operation 301 'br' 'br_ln78' <Predicate = true> <Delay = 0.00>
+ST_48 : Operation 302 [1/1] (0.00ns)   --->   "%trunc_ln78 = trunc i5 %i_1" [../MLP_baseline/mm.cpp:78]   --->   Operation 302 'trunc' 'trunc_ln78' <Predicate = (!icmp_ln78)> <Delay = 0.00>
+ST_48 : Operation 303 [1/1] (0.00ns)   --->   "%p_cast12 = sext i36 %phi_mul5" [../MLP_baseline/mm.cpp:78]   --->   Operation 303 'sext' 'p_cast12' <Predicate = (!icmp_ln78)> <Delay = 0.00>
+ST_48 : Operation 304 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%tmp2 = add i62 %tmp_7, i62 %p_cast12" [../MLP_baseline/mm.cpp:45]   --->   Operation 304 'add' 'tmp2' <Predicate = (!icmp_ln78)> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 2.62> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_48 : Operation 305 [1/1] (5.25ns) (root node of TernaryAdder)   --->   "%empty_57 = add i62 %tmp2, i62 %zext_ln59" [../MLP_baseline/mm.cpp:45]   --->   Operation 305 'add' 'empty_57' <Predicate = (!icmp_ln78)> <Delay = 5.25> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 2.62> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_48 : Operation 306 [1/1] (0.00ns)   --->   "%br_ln49 = br void %VITIS_LOOP_52_3" [../MLP_baseline/mm.cpp:49]   --->   Operation 306 'br' 'br_ln49' <Predicate = (icmp_ln78)> <Delay = 0.00>
 
 State 49 <SV = 14> <Delay = 3.52>
-ST_49 : Operation 307 [1/1] (0.00ns)   --->   "%tmp_14 = bitconcatenate i64 @_ssdm_op_BitConcatenate.i64.i62.i2, i62 %empty_57, i2 0" [../MLP_baseline/mm.cpp:44]   --->   Operation 307 'bitconcatenate' 'tmp_14' <Predicate = true> <Delay = 0.00>
-ST_49 : Operation 308 [1/1] (3.52ns)   --->   "%empty_58 = add i64 %tmp_14, i64 %ABC_read" [../MLP_baseline/mm.cpp:44]   --->   Operation 308 'add' 'empty_58' <Predicate = true> <Delay = 3.52> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 3.52> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_49 : Operation 309 [1/1] (0.00ns)   --->   "%trunc_ln1 = partselect i62 @_ssdm_op_PartSelect.i62.i64.i32.i32, i64 %empty_58, i32 2, i32 63" [../MLP_baseline/mm.cpp:75]   --->   Operation 309 'partselect' 'trunc_ln1' <Predicate = true> <Delay = 0.00>
-ST_49 : Operation 310 [1/1] (0.00ns)   --->   "%sext_ln75 = sext i62 %trunc_ln1" [../MLP_baseline/mm.cpp:75]   --->   Operation 310 'sext' 'sext_ln75' <Predicate = true> <Delay = 0.00>
-ST_49 : Operation 311 [1/1] (0.00ns)   --->   "%gmem_addr_2 = getelementptr i32 %gmem, i64 %sext_ln75" [../MLP_baseline/mm.cpp:75]   --->   Operation 311 'getelementptr' 'gmem_addr_2' <Predicate = true> <Delay = 0.00>
+ST_49 : Operation 307 [1/1] (0.00ns)   --->   "%tmp_14 = bitconcatenate i64 @_ssdm_op_BitConcatenate.i64.i62.i2, i62 %empty_57, i2 0" [../MLP_baseline/mm.cpp:45]   --->   Operation 307 'bitconcatenate' 'tmp_14' <Predicate = true> <Delay = 0.00>
+ST_49 : Operation 308 [1/1] (3.52ns)   --->   "%empty_58 = add i64 %tmp_14, i64 %ABC_read" [../MLP_baseline/mm.cpp:45]   --->   Operation 308 'add' 'empty_58' <Predicate = true> <Delay = 3.52> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 3.52> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_49 : Operation 309 [1/1] (0.00ns)   --->   "%trunc_ln1 = partselect i62 @_ssdm_op_PartSelect.i62.i64.i32.i32, i64 %empty_58, i32 2, i32 63" [../MLP_baseline/mm.cpp:80]   --->   Operation 309 'partselect' 'trunc_ln1' <Predicate = true> <Delay = 0.00>
+ST_49 : Operation 310 [1/1] (0.00ns)   --->   "%sext_ln80 = sext i62 %trunc_ln1" [../MLP_baseline/mm.cpp:80]   --->   Operation 310 'sext' 'sext_ln80' <Predicate = true> <Delay = 0.00>
+ST_49 : Operation 311 [1/1] (0.00ns)   --->   "%gmem_addr_2 = getelementptr i32 %gmem, i64 %sext_ln80" [../MLP_baseline/mm.cpp:80]   --->   Operation 311 'getelementptr' 'gmem_addr_2' <Predicate = true> <Delay = 0.00>
 
 State 50 <SV = 15> <Delay = 7.30>
-ST_50 : Operation 312 [1/1] (0.00ns)   --->   "%tmp_13 = bitconcatenate i8 @_ssdm_op_BitConcatenate.i8.i4.i4, i4 %trunc_ln73, i4 0" [../MLP_baseline/mm.cpp:77]   --->   Operation 312 'bitconcatenate' 'tmp_13' <Predicate = true> <Delay = 0.00>
-ST_50 : Operation 313 [1/1] (0.00ns)   --->   "%specpipeline_ln74 = specpipeline void @_ssdm_op_SpecPipeline, i32 0, i32 0, i32 1, i32 0, void @empty_0" [../MLP_baseline/mm.cpp:74]   --->   Operation 313 'specpipeline' 'specpipeline_ln74' <Predicate = true> <Delay = 0.00>
-ST_50 : Operation 314 [1/1] (0.00ns)   --->   "%speclooptripcount_ln73 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 16, i64 16, i64 16" [../MLP_baseline/mm.cpp:73]   --->   Operation 314 'speclooptripcount' 'speclooptripcount_ln73' <Predicate = true> <Delay = 0.00>
-ST_50 : Operation 315 [1/1] (0.00ns)   --->   "%specloopname_ln73 = specloopname void @_ssdm_op_SpecLoopName, void @empty_24" [../MLP_baseline/mm.cpp:73]   --->   Operation 315 'specloopname' 'specloopname_ln73' <Predicate = true> <Delay = 0.00>
-ST_50 : Operation 316 [1/1] (7.30ns)   --->   "%empty_59 = writereq i1 @_ssdm_op_WriteReq.m_axi.p1i32, i32 %gmem_addr_2, i64 16" [../MLP_baseline/mm.cpp:75]   --->   Operation 316 'writereq' 'empty_59' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 9> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
-ST_50 : Operation 317 [1/1] (1.58ns)   --->   "%br_ln75 = br void %for.inc108" [../MLP_baseline/mm.cpp:75]   --->   Operation 317 'br' 'br_ln75' <Predicate = true> <Delay = 1.58>
+ST_50 : Operation 312 [1/1] (0.00ns)   --->   "%tmp_13 = bitconcatenate i8 @_ssdm_op_BitConcatenate.i8.i4.i4, i4 %trunc_ln78, i4 0" [../MLP_baseline/mm.cpp:82]   --->   Operation 312 'bitconcatenate' 'tmp_13' <Predicate = true> <Delay = 0.00>
+ST_50 : Operation 313 [1/1] (0.00ns)   --->   "%specpipeline_ln79 = specpipeline void @_ssdm_op_SpecPipeline, i32 0, i32 0, i32 1, i32 0, void @empty_0" [../MLP_baseline/mm.cpp:79]   --->   Operation 313 'specpipeline' 'specpipeline_ln79' <Predicate = true> <Delay = 0.00>
+ST_50 : Operation 314 [1/1] (0.00ns)   --->   "%speclooptripcount_ln78 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 16, i64 16, i64 16" [../MLP_baseline/mm.cpp:78]   --->   Operation 314 'speclooptripcount' 'speclooptripcount_ln78' <Predicate = true> <Delay = 0.00>
+ST_50 : Operation 315 [1/1] (0.00ns)   --->   "%specloopname_ln78 = specloopname void @_ssdm_op_SpecLoopName, void @empty_24" [../MLP_baseline/mm.cpp:78]   --->   Operation 315 'specloopname' 'specloopname_ln78' <Predicate = true> <Delay = 0.00>
+ST_50 : Operation 316 [1/1] (7.30ns)   --->   "%empty_59 = writereq i1 @_ssdm_op_WriteReq.m_axi.p1i32, i32 %gmem_addr_2, i64 16" [../MLP_baseline/mm.cpp:80]   --->   Operation 316 'writereq' 'empty_59' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 9> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_50 : Operation 317 [1/1] (1.58ns)   --->   "%br_ln80 = br void %for.inc108" [../MLP_baseline/mm.cpp:80]   --->   Operation 317 'br' 'br_ln80' <Predicate = true> <Delay = 1.58>
 
 State 51 <SV = 16> <Delay = 5.16>
-ST_51 : Operation 318 [1/1] (0.00ns)   --->   "%j_2 = phi i5 0, void %VITIS_LOOP_75_11.split, i5 %add_ln75, void %for.inc108.split" [../MLP_baseline/mm.cpp:75]   --->   Operation 318 'phi' 'j_2' <Predicate = true> <Delay = 0.00>
-ST_51 : Operation 319 [1/1] (1.78ns)   --->   "%icmp_ln75 = icmp_eq  i5 %j_2, i5 16" [../MLP_baseline/mm.cpp:75]   --->   Operation 319 'icmp' 'icmp_ln75' <Predicate = true> <Delay = 1.78> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
-ST_51 : Operation 320 [1/1] (1.78ns)   --->   "%add_ln75 = add i5 %j_2, i5 1" [../MLP_baseline/mm.cpp:75]   --->   Operation 320 'add' 'add_ln75' <Predicate = true> <Delay = 1.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_51 : Operation 321 [1/1] (0.00ns)   --->   "%br_ln75 = br i1 %icmp_ln75, void %for.inc108.split, void %for.inc111" [../MLP_baseline/mm.cpp:75]   --->   Operation 321 'br' 'br_ln75' <Predicate = true> <Delay = 0.00>
-ST_51 : Operation 322 [1/1] (0.00ns)   --->   "%zext_ln77 = zext i5 %j_2" [../MLP_baseline/mm.cpp:77]   --->   Operation 322 'zext' 'zext_ln77' <Predicate = (!icmp_ln75)> <Delay = 0.00>
-ST_51 : Operation 323 [1/1] (1.91ns)   --->   "%add_ln77 = add i8 %tmp_13, i8 %zext_ln77" [../MLP_baseline/mm.cpp:77]   --->   Operation 323 'add' 'add_ln77' <Predicate = (!icmp_ln75)> <Delay = 1.91> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.91> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_51 : Operation 324 [1/1] (0.00ns)   --->   "%zext_ln77_1 = zext i8 %add_ln77" [../MLP_baseline/mm.cpp:77]   --->   Operation 324 'zext' 'zext_ln77_1' <Predicate = (!icmp_ln75)> <Delay = 0.00>
-ST_51 : Operation 325 [1/1] (0.00ns)   --->   "%AB_block_addr_1 = getelementptr i32 %AB_block, i64 0, i64 %zext_ln77_1" [../MLP_baseline/mm.cpp:77]   --->   Operation 325 'getelementptr' 'AB_block_addr_1' <Predicate = (!icmp_ln75)> <Delay = 0.00>
-ST_51 : Operation 326 [2/2] (3.25ns)   --->   "%AB_block_load = load i8 %AB_block_addr_1" [../MLP_baseline/mm.cpp:77]   --->   Operation 326 'load' 'AB_block_load' <Predicate = (!icmp_ln75)> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 256> <RAM>
+ST_51 : Operation 318 [1/1] (0.00ns)   --->   "%j_2 = phi i5 0, void %VITIS_LOOP_80_11.split, i5 %add_ln80, void %for.inc108.split" [../MLP_baseline/mm.cpp:80]   --->   Operation 318 'phi' 'j_2' <Predicate = true> <Delay = 0.00>
+ST_51 : Operation 319 [1/1] (1.78ns)   --->   "%icmp_ln80 = icmp_eq  i5 %j_2, i5 16" [../MLP_baseline/mm.cpp:80]   --->   Operation 319 'icmp' 'icmp_ln80' <Predicate = true> <Delay = 1.78> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'seteq' 'setne' 'setle' 'setge' 'setlt' 'setgt'> <InPorts = 2> <OutPorts = 1>
+ST_51 : Operation 320 [1/1] (1.78ns)   --->   "%add_ln80 = add i5 %j_2, i5 1" [../MLP_baseline/mm.cpp:80]   --->   Operation 320 'add' 'add_ln80' <Predicate = true> <Delay = 1.78> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_51 : Operation 321 [1/1] (0.00ns)   --->   "%br_ln80 = br i1 %icmp_ln80, void %for.inc108.split, void %for.inc111" [../MLP_baseline/mm.cpp:80]   --->   Operation 321 'br' 'br_ln80' <Predicate = true> <Delay = 0.00>
+ST_51 : Operation 322 [1/1] (0.00ns)   --->   "%zext_ln82 = zext i5 %j_2" [../MLP_baseline/mm.cpp:82]   --->   Operation 322 'zext' 'zext_ln82' <Predicate = (!icmp_ln80)> <Delay = 0.00>
+ST_51 : Operation 323 [1/1] (1.91ns)   --->   "%add_ln82 = add i8 %tmp_13, i8 %zext_ln82" [../MLP_baseline/mm.cpp:82]   --->   Operation 323 'add' 'add_ln82' <Predicate = (!icmp_ln80)> <Delay = 1.91> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.91> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_51 : Operation 324 [1/1] (0.00ns)   --->   "%zext_ln82_1 = zext i8 %add_ln82" [../MLP_baseline/mm.cpp:82]   --->   Operation 324 'zext' 'zext_ln82_1' <Predicate = (!icmp_ln80)> <Delay = 0.00>
+ST_51 : Operation 325 [1/1] (0.00ns)   --->   "%AB_block_addr_1 = getelementptr i32 %AB_block, i64 0, i64 %zext_ln82_1" [../MLP_baseline/mm.cpp:82]   --->   Operation 325 'getelementptr' 'AB_block_addr_1' <Predicate = (!icmp_ln80)> <Delay = 0.00>
+ST_51 : Operation 326 [2/2] (3.25ns)   --->   "%AB_block_load = load i8 %AB_block_addr_1" [../MLP_baseline/mm.cpp:82]   --->   Operation 326 'load' 'AB_block_load' <Predicate = (!icmp_ln80)> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 256> <RAM>
 
 State 52 <SV = 17> <Delay = 3.25>
-ST_52 : Operation 327 [1/2] ( I:3.25ns O:3.25ns )   --->   "%AB_block_load = load i8 %AB_block_addr_1" [../MLP_baseline/mm.cpp:77]   --->   Operation 327 'load' 'AB_block_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 256> <RAM>
+ST_52 : Operation 327 [1/2] ( I:3.25ns O:3.25ns )   --->   "%AB_block_load = load i8 %AB_block_addr_1" [../MLP_baseline/mm.cpp:82]   --->   Operation 327 'load' 'AB_block_load' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 81 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 256> <RAM>
 
 State 53 <SV = 18> <Delay = 7.30>
-ST_53 : Operation 328 [1/1] (0.00ns)   --->   "%specpipeline_ln76 = specpipeline void @_ssdm_op_SpecPipeline, i32 0, i32 0, i32 1, i32 0, void @empty_0" [../MLP_baseline/mm.cpp:76]   --->   Operation 328 'specpipeline' 'specpipeline_ln76' <Predicate = true> <Delay = 0.00>
-ST_53 : Operation 329 [1/1] (0.00ns)   --->   "%speclooptripcount_ln75 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 16, i64 16, i64 16" [../MLP_baseline/mm.cpp:75]   --->   Operation 329 'speclooptripcount' 'speclooptripcount_ln75' <Predicate = true> <Delay = 0.00>
-ST_53 : Operation 330 [1/1] (0.00ns)   --->   "%specloopname_ln75 = specloopname void @_ssdm_op_SpecLoopName, void @empty_23" [../MLP_baseline/mm.cpp:75]   --->   Operation 330 'specloopname' 'specloopname_ln75' <Predicate = true> <Delay = 0.00>
-ST_53 : Operation 331 [1/1] (7.30ns)   --->   "%write_ln77 = write void @_ssdm_op_Write.m_axi.p1i32, i32 %gmem_addr_2, i32 %AB_block_load, i4 15" [../MLP_baseline/mm.cpp:77]   --->   Operation 331 'write' 'write_ln77' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 5> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
-ST_53 : Operation 332 [1/1] (0.00ns)   --->   "%br_ln75 = br void %for.inc108" [../MLP_baseline/mm.cpp:75]   --->   Operation 332 'br' 'br_ln75' <Predicate = true> <Delay = 0.00>
+ST_53 : Operation 328 [1/1] (0.00ns)   --->   "%specpipeline_ln81 = specpipeline void @_ssdm_op_SpecPipeline, i32 0, i32 0, i32 1, i32 0, void @empty_0" [../MLP_baseline/mm.cpp:81]   --->   Operation 328 'specpipeline' 'specpipeline_ln81' <Predicate = true> <Delay = 0.00>
+ST_53 : Operation 329 [1/1] (0.00ns)   --->   "%speclooptripcount_ln80 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 16, i64 16, i64 16" [../MLP_baseline/mm.cpp:80]   --->   Operation 329 'speclooptripcount' 'speclooptripcount_ln80' <Predicate = true> <Delay = 0.00>
+ST_53 : Operation 330 [1/1] (0.00ns)   --->   "%specloopname_ln80 = specloopname void @_ssdm_op_SpecLoopName, void @empty_23" [../MLP_baseline/mm.cpp:80]   --->   Operation 330 'specloopname' 'specloopname_ln80' <Predicate = true> <Delay = 0.00>
+ST_53 : Operation 331 [1/1] (7.30ns)   --->   "%write_ln82 = write void @_ssdm_op_Write.m_axi.p1i32, i32 %gmem_addr_2, i32 %AB_block_load, i4 15" [../MLP_baseline/mm.cpp:82]   --->   Operation 331 'write' 'write_ln82' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 5> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_53 : Operation 332 [1/1] (0.00ns)   --->   "%br_ln80 = br void %for.inc108" [../MLP_baseline/mm.cpp:80]   --->   Operation 332 'br' 'br_ln80' <Predicate = true> <Delay = 0.00>
 
 State 54 <SV = 17> <Delay = 7.30>
-ST_54 : Operation 333 [5/5] (7.30ns)   --->   "%empty_60 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem_addr_2" [../MLP_baseline/mm.cpp:73]   --->   Operation 333 'writeresp' 'empty_60' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_54 : Operation 333 [5/5] (7.30ns)   --->   "%empty_60 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem_addr_2" [../MLP_baseline/mm.cpp:78]   --->   Operation 333 'writeresp' 'empty_60' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 55 <SV = 18> <Delay = 7.30>
-ST_55 : Operation 334 [4/5] (7.30ns)   --->   "%empty_60 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem_addr_2" [../MLP_baseline/mm.cpp:73]   --->   Operation 334 'writeresp' 'empty_60' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_55 : Operation 334 [4/5] (7.30ns)   --->   "%empty_60 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem_addr_2" [../MLP_baseline/mm.cpp:78]   --->   Operation 334 'writeresp' 'empty_60' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 56 <SV = 19> <Delay = 7.30>
-ST_56 : Operation 335 [3/5] (7.30ns)   --->   "%empty_60 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem_addr_2" [../MLP_baseline/mm.cpp:73]   --->   Operation 335 'writeresp' 'empty_60' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_56 : Operation 335 [3/5] (7.30ns)   --->   "%empty_60 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem_addr_2" [../MLP_baseline/mm.cpp:78]   --->   Operation 335 'writeresp' 'empty_60' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 57 <SV = 20> <Delay = 7.30>
-ST_57 : Operation 336 [2/5] (7.30ns)   --->   "%empty_60 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem_addr_2" [../MLP_baseline/mm.cpp:73]   --->   Operation 336 'writeresp' 'empty_60' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_57 : Operation 336 [2/5] (7.30ns)   --->   "%empty_60 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem_addr_2" [../MLP_baseline/mm.cpp:78]   --->   Operation 336 'writeresp' 'empty_60' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
 
 State 58 <SV = 21> <Delay = 7.30>
-ST_58 : Operation 337 [1/5] (7.30ns)   --->   "%empty_60 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem_addr_2" [../MLP_baseline/mm.cpp:73]   --->   Operation 337 'writeresp' 'empty_60' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
-ST_58 : Operation 338 [1/1] (0.00ns)   --->   "%br_ln73 = br void %VITIS_LOOP_75_11" [../MLP_baseline/mm.cpp:73]   --->   Operation 338 'br' 'br_ln73' <Predicate = true> <Delay = 0.00>
+ST_58 : Operation 337 [1/5] (7.30ns)   --->   "%empty_60 = writeresp i1 @_ssdm_op_WriteResp.m_axi.p1i32, i32 %gmem_addr_2" [../MLP_baseline/mm.cpp:78]   --->   Operation 337 'writeresp' 'empty_60' <Predicate = true> <Delay = 7.30> <CoreInst = "m_axi">   --->   Core 111 'm_axi' <Latency = 3> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write' 'readreq' 'writereq' 'writeresp'>
+ST_58 : Operation 338 [1/1] (0.00ns)   --->   "%br_ln78 = br void %VITIS_LOOP_80_11" [../MLP_baseline/mm.cpp:78]   --->   Operation 338 'br' 'br_ln78' <Predicate = true> <Delay = 0.00>
 
 
 ============================================================
@@ -557,257 +557,257 @@ The critical path consists of the following:
 
  <State 2>: 4.021ns
 The critical path consists of the following:
-	'load' operation 27 bit ('ib', ../MLP_baseline/mm.cpp:44) on local variable 'ib', ../MLP_baseline/mm.cpp:44 [67]  (0.000 ns)
-	'add' operation 64 bit ('empty', ../MLP_baseline/mm.cpp:44) [80]  (3.520 ns)
+	'load' operation 27 bit ('ib', ../MLP_baseline/mm.cpp:45) on local variable 'ib', ../MLP_baseline/mm.cpp:45 [67]  (0.000 ns)
+	'add' operation 64 bit ('empty', ../MLP_baseline/mm.cpp:45) [80]  (3.520 ns)
 	blocking operation 0.50125 ns on control path)
 
  <State 3>: 4.021ns
 The critical path consists of the following:
-	'phi' operation 27 bit ('jb', ../MLP_baseline/mm.cpp:46) with incoming values : ('add_ln46', ../MLP_baseline/mm.cpp:46) [88]  (0.000 ns)
-	'icmp' operation 1 bit ('icmp_ln46', ../MLP_baseline/mm.cpp:46) [90]  (2.433 ns)
+	'phi' operation 27 bit ('jb', ../MLP_baseline/mm.cpp:49) with incoming values : ('add_ln49', ../MLP_baseline/mm.cpp:49) [88]  (0.000 ns)
+	'icmp' operation 1 bit ('icmp_ln49', ../MLP_baseline/mm.cpp:49) [90]  (2.433 ns)
 	blocking operation 1.588 ns on control path)
 
  <State 4>: 7.300ns
 The critical path consists of the following:
-	bus request operation ('empty_53', ../MLP_baseline/mm.cpp:48) on port 'gmem' (../MLP_baseline/mm.cpp:48) [97]  (7.300 ns)
+	bus request operation ('empty_53', ../MLP_baseline/mm.cpp:52) on port 'gmem' (../MLP_baseline/mm.cpp:52) [97]  (7.300 ns)
 
  <State 5>: 7.300ns
 The critical path consists of the following:
-	bus request operation ('empty_53', ../MLP_baseline/mm.cpp:48) on port 'gmem' (../MLP_baseline/mm.cpp:48) [97]  (7.300 ns)
+	bus request operation ('empty_53', ../MLP_baseline/mm.cpp:52) on port 'gmem' (../MLP_baseline/mm.cpp:52) [97]  (7.300 ns)
 
  <State 6>: 7.300ns
 The critical path consists of the following:
-	bus request operation ('empty_53', ../MLP_baseline/mm.cpp:48) on port 'gmem' (../MLP_baseline/mm.cpp:48) [97]  (7.300 ns)
+	bus request operation ('empty_53', ../MLP_baseline/mm.cpp:52) on port 'gmem' (../MLP_baseline/mm.cpp:52) [97]  (7.300 ns)
 
  <State 7>: 7.300ns
 The critical path consists of the following:
-	bus request operation ('empty_53', ../MLP_baseline/mm.cpp:48) on port 'gmem' (../MLP_baseline/mm.cpp:48) [97]  (7.300 ns)
+	bus request operation ('empty_53', ../MLP_baseline/mm.cpp:52) on port 'gmem' (../MLP_baseline/mm.cpp:52) [97]  (7.300 ns)
 
  <State 8>: 7.300ns
 The critical path consists of the following:
-	bus request operation ('empty_53', ../MLP_baseline/mm.cpp:48) on port 'gmem' (../MLP_baseline/mm.cpp:48) [97]  (7.300 ns)
+	bus request operation ('empty_53', ../MLP_baseline/mm.cpp:52) on port 'gmem' (../MLP_baseline/mm.cpp:52) [97]  (7.300 ns)
 
  <State 9>: 7.300ns
 The critical path consists of the following:
-	bus request operation ('empty_53', ../MLP_baseline/mm.cpp:48) on port 'gmem' (../MLP_baseline/mm.cpp:48) [97]  (7.300 ns)
+	bus request operation ('empty_53', ../MLP_baseline/mm.cpp:52) on port 'gmem' (../MLP_baseline/mm.cpp:52) [97]  (7.300 ns)
 
  <State 10>: 7.300ns
 The critical path consists of the following:
-	bus request operation ('empty_53', ../MLP_baseline/mm.cpp:48) on port 'gmem' (../MLP_baseline/mm.cpp:48) [97]  (7.300 ns)
+	bus request operation ('empty_53', ../MLP_baseline/mm.cpp:52) on port 'gmem' (../MLP_baseline/mm.cpp:52) [97]  (7.300 ns)
 
  <State 11>: 7.300ns
 The critical path consists of the following:
-	bus request operation ('empty_53', ../MLP_baseline/mm.cpp:48) on port 'gmem' (../MLP_baseline/mm.cpp:48) [97]  (7.300 ns)
+	bus request operation ('empty_53', ../MLP_baseline/mm.cpp:52) on port 'gmem' (../MLP_baseline/mm.cpp:52) [97]  (7.300 ns)
 
  <State 12>: 3.368ns
 The critical path consists of the following:
-	'phi' operation 5 bit ('i', ../MLP_baseline/mm.cpp:48) with incoming values : ('add_ln48', ../MLP_baseline/mm.cpp:48) [100]  (0.000 ns)
-	'icmp' operation 1 bit ('icmp_ln48', ../MLP_baseline/mm.cpp:48) [101]  (1.780 ns)
+	'phi' operation 5 bit ('i', ../MLP_baseline/mm.cpp:52) with incoming values : ('add_ln52', ../MLP_baseline/mm.cpp:52) [100]  (0.000 ns)
+	'icmp' operation 1 bit ('icmp_ln52', ../MLP_baseline/mm.cpp:52) [101]  (1.780 ns)
 	blocking operation 1.588 ns on control path)
 
  <State 13>: 7.300ns
 The critical path consists of the following:
-	bus read operation ('gmem_addr_read', ../MLP_baseline/mm.cpp:44) on port 'gmem' (../MLP_baseline/mm.cpp:44) [110]  (7.300 ns)
+	bus read operation ('gmem_addr_read', ../MLP_baseline/mm.cpp:45) on port 'gmem' (../MLP_baseline/mm.cpp:45) [110]  (7.300 ns)
 
  <State 14>: 5.169ns
 The critical path consists of the following:
-	'phi' operation 5 bit ('j', ../MLP_baseline/mm.cpp:50) with incoming values : ('add_ln50', ../MLP_baseline/mm.cpp:50) [113]  (0.000 ns)
-	'add' operation 8 bit ('add_ln52', ../MLP_baseline/mm.cpp:52) [119]  (1.915 ns)
-	'getelementptr' operation 8 bit ('AB_block_addr', ../MLP_baseline/mm.cpp:52) [121]  (0.000 ns)
-	'store' operation 0 bit ('store_ln52', ../MLP_baseline/mm.cpp:52) of variable 'gmem_addr_read', ../MLP_baseline/mm.cpp:44 on array 'AB_block', ../MLP_baseline/mm.cpp:40 [125]  (3.254 ns)
+	'phi' operation 5 bit ('j', ../MLP_baseline/mm.cpp:54) with incoming values : ('add_ln54', ../MLP_baseline/mm.cpp:54) [113]  (0.000 ns)
+	'add' operation 8 bit ('add_ln56', ../MLP_baseline/mm.cpp:56) [119]  (1.915 ns)
+	'getelementptr' operation 8 bit ('AB_block_addr', ../MLP_baseline/mm.cpp:56) [121]  (0.000 ns)
+	'store' operation 0 bit ('store_ln56', ../MLP_baseline/mm.cpp:56) of variable 'gmem_addr_read', ../MLP_baseline/mm.cpp:45 on array 'AB_block', ../MLP_baseline/mm.cpp:41 [125]  (3.254 ns)
 
  <State 15>: 4.021ns
 The critical path consists of the following:
-	'phi' operation 58 bit ('phi_mul2', ../MLP_baseline/mm.cpp:55) with incoming values : ('add_ln55_1', ../MLP_baseline/mm.cpp:55) [136]  (0.000 ns)
-	'add' operation 58 bit ('add_ln55_1', ../MLP_baseline/mm.cpp:55) [137]  (3.365 ns)
+	'phi' operation 58 bit ('phi_mul2', ../MLP_baseline/mm.cpp:59) with incoming values : ('add_ln59_1', ../MLP_baseline/mm.cpp:59) [136]  (0.000 ns)
+	'add' operation 58 bit ('add_ln59_1', ../MLP_baseline/mm.cpp:59) [137]  (3.365 ns)
 	blocking operation 0.65575 ns on control path)
 
  <State 16>: 6.184ns
 The critical path consists of the following:
-	'phi' operation 36 bit ('phi_mul', ../MLP_baseline/mm.cpp:57) with incoming values : ('add_ln57_1', ../MLP_baseline/mm.cpp:57) [152]  (0.000 ns)
-	'add' operation 36 bit ('tmp', ../MLP_baseline/mm.cpp:55) [162]  (2.715 ns)
-	'add' operation 62 bit ('empty_54', ../MLP_baseline/mm.cpp:55) [164]  (3.469 ns)
+	'phi' operation 36 bit ('phi_mul', ../MLP_baseline/mm.cpp:62) with incoming values : ('add_ln62_1', ../MLP_baseline/mm.cpp:62) [152]  (0.000 ns)
+	'add' operation 36 bit ('tmp', ../MLP_baseline/mm.cpp:59) [162]  (2.715 ns)
+	'add' operation 62 bit ('empty_54', ../MLP_baseline/mm.cpp:59) [164]  (3.469 ns)
 
  <State 17>: 3.520ns
 The critical path consists of the following:
-	'add' operation 64 bit ('empty_55', ../MLP_baseline/mm.cpp:55) [166]  (3.520 ns)
+	'add' operation 64 bit ('empty_55', ../MLP_baseline/mm.cpp:59) [166]  (3.520 ns)
 
  <State 18>: 7.300ns
 The critical path consists of the following:
-	bus request operation ('empty_56', ../MLP_baseline/mm.cpp:59) on port 'gmem' (../MLP_baseline/mm.cpp:59) [170]  (7.300 ns)
+	bus request operation ('empty_56', ../MLP_baseline/mm.cpp:64) on port 'gmem' (../MLP_baseline/mm.cpp:64) [170]  (7.300 ns)
 
  <State 19>: 7.300ns
 The critical path consists of the following:
-	bus request operation ('empty_56', ../MLP_baseline/mm.cpp:59) on port 'gmem' (../MLP_baseline/mm.cpp:59) [170]  (7.300 ns)
+	bus request operation ('empty_56', ../MLP_baseline/mm.cpp:64) on port 'gmem' (../MLP_baseline/mm.cpp:64) [170]  (7.300 ns)
 
  <State 20>: 7.300ns
 The critical path consists of the following:
-	bus request operation ('empty_56', ../MLP_baseline/mm.cpp:59) on port 'gmem' (../MLP_baseline/mm.cpp:59) [170]  (7.300 ns)
+	bus request operation ('empty_56', ../MLP_baseline/mm.cpp:64) on port 'gmem' (../MLP_baseline/mm.cpp:64) [170]  (7.300 ns)
 
  <State 21>: 7.300ns
 The critical path consists of the following:
-	bus request operation ('empty_56', ../MLP_baseline/mm.cpp:59) on port 'gmem' (../MLP_baseline/mm.cpp:59) [170]  (7.300 ns)
+	bus request operation ('empty_56', ../MLP_baseline/mm.cpp:64) on port 'gmem' (../MLP_baseline/mm.cpp:64) [170]  (7.300 ns)
 
  <State 22>: 7.300ns
 The critical path consists of the following:
-	bus request operation ('empty_56', ../MLP_baseline/mm.cpp:59) on port 'gmem' (../MLP_baseline/mm.cpp:59) [170]  (7.300 ns)
+	bus request operation ('empty_56', ../MLP_baseline/mm.cpp:64) on port 'gmem' (../MLP_baseline/mm.cpp:64) [170]  (7.300 ns)
 
  <State 23>: 7.300ns
 The critical path consists of the following:
-	bus request operation ('empty_56', ../MLP_baseline/mm.cpp:59) on port 'gmem' (../MLP_baseline/mm.cpp:59) [170]  (7.300 ns)
+	bus request operation ('empty_56', ../MLP_baseline/mm.cpp:64) on port 'gmem' (../MLP_baseline/mm.cpp:64) [170]  (7.300 ns)
 
  <State 24>: 7.300ns
 The critical path consists of the following:
-	bus request operation ('empty_56', ../MLP_baseline/mm.cpp:59) on port 'gmem' (../MLP_baseline/mm.cpp:59) [170]  (7.300 ns)
+	bus request operation ('empty_56', ../MLP_baseline/mm.cpp:64) on port 'gmem' (../MLP_baseline/mm.cpp:64) [170]  (7.300 ns)
 
  <State 25>: 7.300ns
 The critical path consists of the following:
-	bus request operation ('empty_56', ../MLP_baseline/mm.cpp:59) on port 'gmem' (../MLP_baseline/mm.cpp:59) [170]  (7.300 ns)
+	bus request operation ('empty_56', ../MLP_baseline/mm.cpp:64) on port 'gmem' (../MLP_baseline/mm.cpp:64) [170]  (7.300 ns)
 
  <State 26>: 3.368ns
 The critical path consists of the following:
-	'phi' operation 5 bit ('j', ../MLP_baseline/mm.cpp:59) with incoming values : ('add_ln59', ../MLP_baseline/mm.cpp:59) [173]  (0.000 ns)
-	'icmp' operation 1 bit ('icmp_ln59', ../MLP_baseline/mm.cpp:59) [174]  (1.780 ns)
+	'phi' operation 5 bit ('j', ../MLP_baseline/mm.cpp:64) with incoming values : ('add_ln64', ../MLP_baseline/mm.cpp:64) [173]  (0.000 ns)
+	'icmp' operation 1 bit ('icmp_ln64', ../MLP_baseline/mm.cpp:64) [174]  (1.780 ns)
 	blocking operation 1.588 ns on control path)
 
  <State 27>: 7.300ns
 The critical path consists of the following:
-	bus read operation ('gmem_addr_1_read', ../MLP_baseline/mm.cpp:61) on port 'gmem' (../MLP_baseline/mm.cpp:61) [182]  (7.300 ns)
+	bus read operation ('gmem_addr_1_read', ../MLP_baseline/mm.cpp:66) on port 'gmem' (../MLP_baseline/mm.cpp:66) [182]  (7.300 ns)
 
  <State 28>: 2.322ns
 The critical path consists of the following:
-	'getelementptr' operation 4 bit ('B_line_addr', ../MLP_baseline/mm.cpp:61) [183]  (0.000 ns)
-	'store' operation 0 bit ('store_ln61', ../MLP_baseline/mm.cpp:61) of variable 'gmem_addr_1_read', ../MLP_baseline/mm.cpp:61 on array 'B_line', ../MLP_baseline/mm.cpp:41 [184]  (2.322 ns)
+	'getelementptr' operation 4 bit ('B_line_addr', ../MLP_baseline/mm.cpp:66) [183]  (0.000 ns)
+	'store' operation 0 bit ('store_ln66', ../MLP_baseline/mm.cpp:66) of variable 'gmem_addr_1_read', ../MLP_baseline/mm.cpp:66 on array 'B_line', ../MLP_baseline/mm.cpp:42 [184]  (2.322 ns)
 
  <State 29>: 2.522ns
 The critical path consists of the following:
-	'phi' operation 5 bit ('i', ../MLP_baseline/mm.cpp:63) with incoming values : ('add_ln63', ../MLP_baseline/mm.cpp:63) [189]  (0.000 ns)
-	'add' operation 32 bit ('add_ln65', ../MLP_baseline/mm.cpp:65) [200]  (2.522 ns)
+	'phi' operation 5 bit ('i', ../MLP_baseline/mm.cpp:68) with incoming values : ('add_ln68', ../MLP_baseline/mm.cpp:68) [189]  (0.000 ns)
+	'add' operation 32 bit ('add_ln70', ../MLP_baseline/mm.cpp:70) [200]  (2.522 ns)
 
  <State 30>: 6.912ns
 The critical path consists of the following:
-	'mul' operation 62 bit ('mul_ln65', ../MLP_baseline/mm.cpp:65) [202]  (6.912 ns)
+	'mul' operation 62 bit ('mul_ln70', ../MLP_baseline/mm.cpp:70) [202]  (6.912 ns)
 
  <State 31>: 6.912ns
 The critical path consists of the following:
-	'mul' operation 62 bit ('mul_ln65', ../MLP_baseline/mm.cpp:65) [202]  (6.912 ns)
+	'mul' operation 62 bit ('mul_ln70', ../MLP_baseline/mm.cpp:70) [202]  (6.912 ns)
 
  <State 32>: 5.257ns
 The critical path consists of the following:
-	'add' operation 62 bit ('add_ln65_1', ../MLP_baseline/mm.cpp:65) [203]  (0.000 ns)
-	'add' operation 62 bit ('add_ln65_3', ../MLP_baseline/mm.cpp:65) [204]  (5.257 ns)
+	'add' operation 62 bit ('add_ln70_1', ../MLP_baseline/mm.cpp:70) [203]  (0.000 ns)
+	'add' operation 62 bit ('add_ln70_3', ../MLP_baseline/mm.cpp:70) [204]  (5.257 ns)
 
  <State 33>: 3.520ns
 The critical path consists of the following:
-	'add' operation 64 bit ('add_ln65_2', ../MLP_baseline/mm.cpp:65) [206]  (3.520 ns)
+	'add' operation 64 bit ('add_ln70_2', ../MLP_baseline/mm.cpp:70) [206]  (3.520 ns)
 
  <State 34>: 7.300ns
 The critical path consists of the following:
-	bus request operation ('Atemp_req', ../MLP_baseline/mm.cpp:65) on port 'gmem' (../MLP_baseline/mm.cpp:65) [210]  (7.300 ns)
+	bus request operation ('Atemp_req', ../MLP_baseline/mm.cpp:70) on port 'gmem' (../MLP_baseline/mm.cpp:70) [210]  (7.300 ns)
 
  <State 35>: 7.300ns
 The critical path consists of the following:
-	bus request operation ('Atemp_req', ../MLP_baseline/mm.cpp:65) on port 'gmem' (../MLP_baseline/mm.cpp:65) [210]  (7.300 ns)
+	bus request operation ('Atemp_req', ../MLP_baseline/mm.cpp:70) on port 'gmem' (../MLP_baseline/mm.cpp:70) [210]  (7.300 ns)
 
  <State 36>: 7.300ns
 The critical path consists of the following:
-	bus request operation ('Atemp_req', ../MLP_baseline/mm.cpp:65) on port 'gmem' (../MLP_baseline/mm.cpp:65) [210]  (7.300 ns)
+	bus request operation ('Atemp_req', ../MLP_baseline/mm.cpp:70) on port 'gmem' (../MLP_baseline/mm.cpp:70) [210]  (7.300 ns)
 
  <State 37>: 7.300ns
 The critical path consists of the following:
-	bus request operation ('Atemp_req', ../MLP_baseline/mm.cpp:65) on port 'gmem' (../MLP_baseline/mm.cpp:65) [210]  (7.300 ns)
+	bus request operation ('Atemp_req', ../MLP_baseline/mm.cpp:70) on port 'gmem' (../MLP_baseline/mm.cpp:70) [210]  (7.300 ns)
 
  <State 38>: 7.300ns
 The critical path consists of the following:
-	bus request operation ('Atemp_req', ../MLP_baseline/mm.cpp:65) on port 'gmem' (../MLP_baseline/mm.cpp:65) [210]  (7.300 ns)
+	bus request operation ('Atemp_req', ../MLP_baseline/mm.cpp:70) on port 'gmem' (../MLP_baseline/mm.cpp:70) [210]  (7.300 ns)
 
  <State 39>: 7.300ns
 The critical path consists of the following:
-	bus request operation ('Atemp_req', ../MLP_baseline/mm.cpp:65) on port 'gmem' (../MLP_baseline/mm.cpp:65) [210]  (7.300 ns)
+	bus request operation ('Atemp_req', ../MLP_baseline/mm.cpp:70) on port 'gmem' (../MLP_baseline/mm.cpp:70) [210]  (7.300 ns)
 
  <State 40>: 7.300ns
 The critical path consists of the following:
-	bus request operation ('Atemp_req', ../MLP_baseline/mm.cpp:65) on port 'gmem' (../MLP_baseline/mm.cpp:65) [210]  (7.300 ns)
+	bus request operation ('Atemp_req', ../MLP_baseline/mm.cpp:70) on port 'gmem' (../MLP_baseline/mm.cpp:70) [210]  (7.300 ns)
 
  <State 41>: 7.300ns
 The critical path consists of the following:
-	bus request operation ('Atemp_req', ../MLP_baseline/mm.cpp:65) on port 'gmem' (../MLP_baseline/mm.cpp:65) [210]  (7.300 ns)
+	bus request operation ('Atemp_req', ../MLP_baseline/mm.cpp:70) on port 'gmem' (../MLP_baseline/mm.cpp:70) [210]  (7.300 ns)
 
  <State 42>: 7.300ns
 The critical path consists of the following:
-	bus read operation ('Atemp', ../MLP_baseline/mm.cpp:65) on port 'gmem' (../MLP_baseline/mm.cpp:65) [211]  (7.300 ns)
+	bus read operation ('Atemp', ../MLP_baseline/mm.cpp:70) on port 'gmem' (../MLP_baseline/mm.cpp:70) [211]  (7.300 ns)
 
  <State 43>: 2.322ns
 The critical path consists of the following:
-	'phi' operation 5 bit ('j', ../MLP_baseline/mm.cpp:66) with incoming values : ('add_ln66', ../MLP_baseline/mm.cpp:66) [214]  (0.000 ns)
-	'getelementptr' operation 4 bit ('B_line_addr_1', ../MLP_baseline/mm.cpp:68) [227]  (0.000 ns)
-	'load' operation 32 bit ('B_line_load', ../MLP_baseline/mm.cpp:68) on array 'B_line', ../MLP_baseline/mm.cpp:41 [228]  (2.322 ns)
+	'phi' operation 5 bit ('j', ../MLP_baseline/mm.cpp:71) with incoming values : ('add_ln71', ../MLP_baseline/mm.cpp:71) [214]  (0.000 ns)
+	'getelementptr' operation 4 bit ('B_line_addr_1', ../MLP_baseline/mm.cpp:73) [227]  (0.000 ns)
+	'load' operation 32 bit ('B_line_load', ../MLP_baseline/mm.cpp:73) on array 'B_line', ../MLP_baseline/mm.cpp:42 [228]  (2.322 ns)
 
  <State 44>: 2.322ns
 The critical path consists of the following:
-	'load' operation 32 bit ('B_line_load', ../MLP_baseline/mm.cpp:68) on array 'B_line', ../MLP_baseline/mm.cpp:41 [228]  (2.322 ns)
+	'load' operation 32 bit ('B_line_load', ../MLP_baseline/mm.cpp:73) on array 'B_line', ../MLP_baseline/mm.cpp:42 [228]  (2.322 ns)
 
  <State 45>: 6.912ns
 The critical path consists of the following:
-	'mul' operation 32 bit ('mul_ln68', ../MLP_baseline/mm.cpp:68) [229]  (6.912 ns)
+	'mul' operation 32 bit ('mul_ln73', ../MLP_baseline/mm.cpp:73) [229]  (6.912 ns)
 
  <State 46>: 6.912ns
 The critical path consists of the following:
-	'mul' operation 32 bit ('mul_ln68', ../MLP_baseline/mm.cpp:68) [229]  (6.912 ns)
+	'mul' operation 32 bit ('mul_ln73', ../MLP_baseline/mm.cpp:73) [229]  (6.912 ns)
 
  <State 47>: 5.806ns
 The critical path consists of the following:
-	'add' operation 32 bit ('add_ln68', ../MLP_baseline/mm.cpp:68) [231]  (2.552 ns)
-	'store' operation 0 bit ('store_ln68', ../MLP_baseline/mm.cpp:68) of variable 'add_ln68', ../MLP_baseline/mm.cpp:68 on array 'AB_block', ../MLP_baseline/mm.cpp:40 [232]  (3.254 ns)
+	'add' operation 32 bit ('add_ln73', ../MLP_baseline/mm.cpp:73) [231]  (2.552 ns)
+	'store' operation 0 bit ('store_ln73', ../MLP_baseline/mm.cpp:73) of variable 'add_ln73', ../MLP_baseline/mm.cpp:73 on array 'AB_block', ../MLP_baseline/mm.cpp:41 [232]  (3.254 ns)
 
  <State 48>: 5.257ns
 The critical path consists of the following:
-	'phi' operation 36 bit ('phi_mul5', ../MLP_baseline/mm.cpp:73) with incoming values : ('add_ln73_1', ../MLP_baseline/mm.cpp:73) [244]  (0.000 ns)
-	'add' operation 62 bit ('tmp2', ../MLP_baseline/mm.cpp:44) [256]  (0.000 ns)
-	'add' operation 62 bit ('empty_57', ../MLP_baseline/mm.cpp:44) [257]  (5.257 ns)
+	'phi' operation 36 bit ('phi_mul5', ../MLP_baseline/mm.cpp:78) with incoming values : ('add_ln78_1', ../MLP_baseline/mm.cpp:78) [244]  (0.000 ns)
+	'add' operation 62 bit ('tmp2', ../MLP_baseline/mm.cpp:45) [256]  (0.000 ns)
+	'add' operation 62 bit ('empty_57', ../MLP_baseline/mm.cpp:45) [257]  (5.257 ns)
 
  <State 49>: 3.520ns
 The critical path consists of the following:
-	'add' operation 64 bit ('empty_58', ../MLP_baseline/mm.cpp:44) [259]  (3.520 ns)
+	'add' operation 64 bit ('empty_58', ../MLP_baseline/mm.cpp:45) [259]  (3.520 ns)
 
  <State 50>: 7.300ns
 The critical path consists of the following:
-	bus request operation ('empty_59', ../MLP_baseline/mm.cpp:75) on port 'gmem' (../MLP_baseline/mm.cpp:75) [263]  (7.300 ns)
+	bus request operation ('empty_59', ../MLP_baseline/mm.cpp:80) on port 'gmem' (../MLP_baseline/mm.cpp:80) [263]  (7.300 ns)
 
  <State 51>: 5.169ns
 The critical path consists of the following:
-	'phi' operation 5 bit ('j', ../MLP_baseline/mm.cpp:75) with incoming values : ('add_ln75', ../MLP_baseline/mm.cpp:75) [266]  (0.000 ns)
-	'add' operation 8 bit ('add_ln77', ../MLP_baseline/mm.cpp:77) [272]  (1.915 ns)
-	'getelementptr' operation 8 bit ('AB_block_addr_1', ../MLP_baseline/mm.cpp:77) [274]  (0.000 ns)
-	'load' operation 32 bit ('AB_block_load', ../MLP_baseline/mm.cpp:77) on array 'AB_block', ../MLP_baseline/mm.cpp:40 [278]  (3.254 ns)
+	'phi' operation 5 bit ('j', ../MLP_baseline/mm.cpp:80) with incoming values : ('add_ln80', ../MLP_baseline/mm.cpp:80) [266]  (0.000 ns)
+	'add' operation 8 bit ('add_ln82', ../MLP_baseline/mm.cpp:82) [272]  (1.915 ns)
+	'getelementptr' operation 8 bit ('AB_block_addr_1', ../MLP_baseline/mm.cpp:82) [274]  (0.000 ns)
+	'load' operation 32 bit ('AB_block_load', ../MLP_baseline/mm.cpp:82) on array 'AB_block', ../MLP_baseline/mm.cpp:41 [278]  (3.254 ns)
 
  <State 52>: 3.254ns
 The critical path consists of the following:
-	'load' operation 32 bit ('AB_block_load', ../MLP_baseline/mm.cpp:77) on array 'AB_block', ../MLP_baseline/mm.cpp:40 [278]  (3.254 ns)
+	'load' operation 32 bit ('AB_block_load', ../MLP_baseline/mm.cpp:82) on array 'AB_block', ../MLP_baseline/mm.cpp:41 [278]  (3.254 ns)
 
  <State 53>: 7.300ns
 The critical path consists of the following:
-	bus write operation ('write_ln77', ../MLP_baseline/mm.cpp:77) on port 'gmem' (../MLP_baseline/mm.cpp:77) [279]  (7.300 ns)
+	bus write operation ('write_ln82', ../MLP_baseline/mm.cpp:82) on port 'gmem' (../MLP_baseline/mm.cpp:82) [279]  (7.300 ns)
 
  <State 54>: 7.300ns
 The critical path consists of the following:
-	bus response operation ('empty_60', ../MLP_baseline/mm.cpp:73) on port 'gmem' (../MLP_baseline/mm.cpp:73) [282]  (7.300 ns)
+	bus response operation ('empty_60', ../MLP_baseline/mm.cpp:78) on port 'gmem' (../MLP_baseline/mm.cpp:78) [282]  (7.300 ns)
 
  <State 55>: 7.300ns
 The critical path consists of the following:
-	bus response operation ('empty_60', ../MLP_baseline/mm.cpp:73) on port 'gmem' (../MLP_baseline/mm.cpp:73) [282]  (7.300 ns)
+	bus response operation ('empty_60', ../MLP_baseline/mm.cpp:78) on port 'gmem' (../MLP_baseline/mm.cpp:78) [282]  (7.300 ns)
 
  <State 56>: 7.300ns
 The critical path consists of the following:
-	bus response operation ('empty_60', ../MLP_baseline/mm.cpp:73) on port 'gmem' (../MLP_baseline/mm.cpp:73) [282]  (7.300 ns)
+	bus response operation ('empty_60', ../MLP_baseline/mm.cpp:78) on port 'gmem' (../MLP_baseline/mm.cpp:78) [282]  (7.300 ns)
 
  <State 57>: 7.300ns
 The critical path consists of the following:
-	bus response operation ('empty_60', ../MLP_baseline/mm.cpp:73) on port 'gmem' (../MLP_baseline/mm.cpp:73) [282]  (7.300 ns)
+	bus response operation ('empty_60', ../MLP_baseline/mm.cpp:78) on port 'gmem' (../MLP_baseline/mm.cpp:78) [282]  (7.300 ns)
 
  <State 58>: 7.300ns
 The critical path consists of the following:
-	bus response operation ('empty_60', ../MLP_baseline/mm.cpp:73) on port 'gmem' (../MLP_baseline/mm.cpp:73) [282]  (7.300 ns)
+	bus response operation ('empty_60', ../MLP_baseline/mm.cpp:78) on port 'gmem' (../MLP_baseline/mm.cpp:78) [282]  (7.300 ns)
 
 
 ============================================================
