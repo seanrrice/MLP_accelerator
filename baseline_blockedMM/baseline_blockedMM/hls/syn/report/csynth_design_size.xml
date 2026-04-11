@@ -13,7 +13,7 @@
             <column name="Array/Struct">, , After user array partition and struct aggregate/disaggregate pragmas are applied</column>
             <column name="">(1) array partition, 6722, user array partition pragmas are applied</column>
             <column name="">(2) simplification, 2341, simplification of applied user array partition &amp; struct aggregate/disaggregate pragmas</column>
-            <column name="">(3) aggregate/disaggregate, 2341, user struct aggregate/disaggregate pragmas are applied</column>
+            <column name="">(3) aggregate/disaggregate , 2341, user struct aggregate/disaggregate pragmas are applied</column>
             <column name="">(4) array reshape, 2341, apply array reshape pragmas</column>
             <column name="">(5) access patterns, 4417, array access pattern optmizations</column>
             <column name="">, , </column>
@@ -44,3 +44,4 @@
         </table>
     </item>
 </design_size>
+

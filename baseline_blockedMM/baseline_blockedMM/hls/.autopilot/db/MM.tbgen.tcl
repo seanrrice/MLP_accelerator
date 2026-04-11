@@ -6,7 +6,6 @@ set isPipelined 0
 set isPipelined_legacy 0
 set pipeline_type none
 set FunctionProtocol ap_ctrl_hs
-set restart_counter_num 0
 set isOneStateSeq 0
 set ProfileFlag 0
 set StallSigGenFlag 0
@@ -33,7 +32,7 @@ set hasAXIMCache 0
 set l_AXIML2Cache [list]
 set AXIMCacheInstDict [dict create]
 set C_modelArgMapList {[ 
-	{ "Name" : "gmem", "interface" : "axi_master", "bitwidth" : 32, "direction" : "READWRITE", "id_num" : 1, "bitSlice":[ {"cElement": [{"cName": "A","offset": { "type": "dynamic","port_name": "A","bundle": "control"},"direction": "READONLY"},{"cName": "B","offset": { "type": "dynamic","port_name": "B","bundle": "control"},"direction": "READONLY"},{"cName": "C","offset": { "type": "dynamic","port_name": "C","bundle": "control"},"direction": "READONLY"},{"cName": "ABC","offset": { "type": "dynamic","port_name": "ABC","bundle": "control"},"direction": "WRITEONLY"}]}]} , 
+	{ "Name" : "gmem", "interface" : "axi_master", "bitwidth" : 32, "direction" : "READWRITE", "bitSlice":[ {"cElement": [{"cName": "A","offset": { "type": "dynamic","port_name": "A","bundle": "control"},"direction": "READONLY"},{"cName": "B","offset": { "type": "dynamic","port_name": "B","bundle": "control"},"direction": "READONLY"},{"cName": "C","offset": { "type": "dynamic","port_name": "C","bundle": "control"},"direction": "READONLY"},{"cName": "ABC","offset": { "type": "dynamic","port_name": "ABC","bundle": "control"},"direction": "WRITEONLY"}]}]} , 
  	{ "Name" : "A", "interface" : "axi_slave", "bundle":"control","type":"ap_none","bitwidth" : 64, "direction" : "READONLY", "offset" : {"in":16}, "offset_end" : {"in":27}} , 
  	{ "Name" : "B", "interface" : "axi_slave", "bundle":"control","type":"ap_none","bitwidth" : 64, "direction" : "READONLY", "offset" : {"in":28}, "offset_end" : {"in":39}} , 
  	{ "Name" : "C", "interface" : "axi_slave", "bundle":"control","type":"ap_none","bitwidth" : 64, "direction" : "READONLY", "offset" : {"in":40}, "offset_end" : {"in":51}} , 
@@ -187,7 +186,7 @@ set ArgLastReadFirstWriteLatency {
 		N {Type I LastRead 0 FirstWrite -1}
 		M {Type I LastRead 0 FirstWrite -1}
 		P {Type I LastRead 0 FirstWrite -1}}
-	MM_Pipeline_VITIS_LOOP_65_8 {
+	MM_Pipeline_VITIS_LOOP_67_8 {
 		mux_case_155331271_lcssa1784 {Type I LastRead 0 FirstWrite -1}
 		mux_case_145321269_lcssa1782 {Type I LastRead 0 FirstWrite -1}
 		mux_case_135311267_lcssa1780 {Type I LastRead 0 FirstWrite -1}
@@ -445,10 +444,10 @@ set ArgLastReadFirstWriteLatency {
 		mux_case_1763_lcssa1276 {Type I LastRead 0 FirstWrite -1}
 		mux_case_0761_lcssa1274 {Type I LastRead 0 FirstWrite -1}
 		gmem {Type I LastRead 11 FirstWrite -1}
-		shl_ln56_3 {Type I LastRead 0 FirstWrite -1}
-		sext_ln49 {Type I LastRead 0 FirstWrite -1}
-		zext_ln60 {Type I LastRead 0 FirstWrite -1}
-		zext_ln60_1 {Type I LastRead 0 FirstWrite -1}
+		tmp_23 {Type I LastRead 0 FirstWrite -1}
+		sext_ln51 {Type I LastRead 0 FirstWrite -1}
+		zext_ln62 {Type I LastRead 0 FirstWrite -1}
+		zext_ln62_1 {Type I LastRead 0 FirstWrite -1}
 		A {Type I LastRead 0 FirstWrite -1}
 		gmem_addr_17_read {Type I LastRead 0 FirstWrite -1}
 		gmem_addr_17_read_1 {Type I LastRead 0 FirstWrite -1}

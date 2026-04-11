@@ -1,0 +1,43 @@
+In file included from C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\..\MLP_baseline\mm.cpp:1:
+In file included from C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\..\MLP_baseline/mm.h:1:
+In file included from C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\iostream:9:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\yvals_core.h:571:2: error: STL1000: Unexpected compiler version, expected Clang 11.0.0 or newer.
+#error STL1000: Unexpected compiler version, expected Clang 11.0.0 or newer.
+ ^
+In file included from C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\..\MLP_baseline\mm.cpp:1:
+In file included from C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\..\MLP_baseline/mm.h:1:
+In file included from C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\iostream:11:
+In file included from C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\istream:11:
+In file included from C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\ostream:11:
+In file included from C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\ios:11:
+In file included from C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\xlocnum:15:
+In file included from C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\iterator:12:
+In file included from C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\xutility:15:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\utility:131:9: error: expected member name or ';' after declaration specifiers
+        !conjunction_v<_Is_implicitly_default_constructible<_Uty1>, _Is_implicitly_default_constructible<_Uty2>>)
+        ^
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\utility:131:9: error: expected ')'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\utility:130:23: note: to match this '('
+    constexpr explicit(
+                      ^
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\utility:212:24: error: expected member name or ';' after declaration specifiers
+    constexpr explicit(!conjunction_v<is_convertible<const _Other1&, _Ty1>, is_convertible<const _Other2&, _Ty2>>)
+    ~~~~~~~~~~~~~~~~~~ ^
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\utility:212:24: error: expected ')'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\utility:212:23: note: to match this '('
+    constexpr explicit(!conjunction_v<is_convertible<const _Other1&, _Ty1>, is_convertible<const _Other2&, _Ty2>>)
+                      ^
+In file included from C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\..\MLP_baseline\mm.cpp:1:
+In file included from C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\..\MLP_baseline/mm.h:1:
+In file included from C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\iostream:11:
+In file included from C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\istream:11:
+In file included from C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\ostream:11:
+In file included from C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\ios:11:
+In file included from C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\xlocnum:15:
+In file included from C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\iterator:12:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\xutility:72:31: error: '_To' does not refer to a value
+    return __builtin_bit_cast(_To, _Val);
+                              ^
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\xutility:62:17: note: declared here
+template <class _To, class _From,
+                ^

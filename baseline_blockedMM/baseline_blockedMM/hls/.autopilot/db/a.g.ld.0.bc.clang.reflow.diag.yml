@@ -1,11 +1,11 @@
 --- !Passed
 Pass:            reflow-infer-unroll
 Name:            ImplicitUnroll
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 68, Column: 42 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 70, Column: 42 }
 Function:        MM
 Args:            
   - String:          'Loop '''
-  - LoopName:        VITIS_LOOP_68_9
+  - LoopName:        VITIS_LOOP_70_9
   - String:          ''' is marked as complete unroll implied by the pipeline pragma'
 ...
 --- !Passed
@@ -15,9 +15,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_52_3
+  - LoopName:        VITIS_LOOP_54_3
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:52:30'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:54:30'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -31,9 +31,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_54_4
+  - LoopName:        VITIS_LOOP_56_4
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:54:34'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:56:19'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -47,9 +47,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_54_4
+  - LoopName:        VITIS_LOOP_56_4
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:54:34'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:56:19'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -63,9 +63,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_54_4
+  - LoopName:        VITIS_LOOP_56_4
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:54:34'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:56:19'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -79,9 +79,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_54_4
+  - LoopName:        VITIS_LOOP_56_4
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:54:34'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:56:19'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -95,9 +95,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_54_4
+  - LoopName:        VITIS_LOOP_56_4
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:54:34'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:56:19'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -111,9 +111,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_54_4
+  - LoopName:        VITIS_LOOP_56_4
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:54:34'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:56:19'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -127,9 +127,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_54_4
+  - LoopName:        VITIS_LOOP_56_4
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:54:34'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:56:19'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -143,9 +143,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_54_4
+  - LoopName:        VITIS_LOOP_56_4
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:54:34'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:56:19'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -159,9 +159,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_54_4
+  - LoopName:        VITIS_LOOP_56_4
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:54:34'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:56:19'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -175,9 +175,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_54_4
+  - LoopName:        VITIS_LOOP_56_4
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:54:34'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:56:19'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -191,9 +191,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_54_4
+  - LoopName:        VITIS_LOOP_56_4
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:54:34'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:56:19'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -207,9 +207,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_54_4
+  - LoopName:        VITIS_LOOP_56_4
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:54:34'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:56:19'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -223,9 +223,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_54_4
+  - LoopName:        VITIS_LOOP_56_4
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:54:34'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:56:19'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -239,9 +239,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_54_4
+  - LoopName:        VITIS_LOOP_56_4
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:54:34'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:56:19'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -255,9 +255,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_54_4
+  - LoopName:        VITIS_LOOP_56_4
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:54:34'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:56:19'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -271,9 +271,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_54_4
+  - LoopName:        VITIS_LOOP_56_4
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:54:34'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:56:19'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -287,9 +287,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_61_7
+  - LoopName:        VITIS_LOOP_63_7
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:61:38'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:63:38'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -303,9 +303,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_68_9
+  - LoopName:        VITIS_LOOP_70_9
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:68:42'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:70:42'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -319,9 +319,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_76_10
+  - LoopName:        VITIS_LOOP_78_10
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:76:31'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:78:31'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -335,9 +335,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_78_11
+  - LoopName:        VITIS_LOOP_80_11
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:78:35'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:20'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -351,9 +351,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_78_11
+  - LoopName:        VITIS_LOOP_80_11
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:78:35'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:20'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -367,9 +367,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_78_11
+  - LoopName:        VITIS_LOOP_80_11
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:78:35'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:20'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -383,9 +383,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_78_11
+  - LoopName:        VITIS_LOOP_80_11
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:78:35'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:20'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -399,9 +399,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_78_11
+  - LoopName:        VITIS_LOOP_80_11
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:78:35'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:20'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -415,9 +415,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_78_11
+  - LoopName:        VITIS_LOOP_80_11
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:78:35'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:20'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -431,9 +431,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_78_11
+  - LoopName:        VITIS_LOOP_80_11
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:78:35'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:20'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -447,9 +447,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_78_11
+  - LoopName:        VITIS_LOOP_80_11
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:78:35'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:20'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -463,9 +463,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_78_11
+  - LoopName:        VITIS_LOOP_80_11
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:78:35'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:20'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -479,9 +479,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_78_11
+  - LoopName:        VITIS_LOOP_80_11
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:78:35'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:20'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -495,9 +495,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_78_11
+  - LoopName:        VITIS_LOOP_80_11
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:78:35'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:20'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -511,9 +511,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_78_11
+  - LoopName:        VITIS_LOOP_80_11
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:78:35'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:20'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -527,9 +527,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_78_11
+  - LoopName:        VITIS_LOOP_80_11
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:78:35'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:20'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -543,9 +543,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_78_11
+  - LoopName:        VITIS_LOOP_80_11
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:78:35'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:20'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -559,9 +559,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_78_11
+  - LoopName:        VITIS_LOOP_80_11
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:78:35'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:20'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -575,9 +575,9 @@ DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_78_11
+  - LoopName:        VITIS_LOOP_80_11
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:78:35'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:20'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -598,7 +598,7 @@ Args:
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
   - String:          'Applying '
@@ -616,7 +616,7 @@ Args:
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 37 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 65, Column: 14 }
 Function:        MM
 Args:            
   - String:          'Sequential '
@@ -630,83 +630,82 @@ Args:
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_60_6
+  - LoopName:        VITIS_LOOP_62_6
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:60:34'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:62:34'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 37 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 65, Column: 14 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_61_7.load.27
+  - OrigID:          VITIS_LOOP_63_7.load.27
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 37 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 65, Column: 14 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_61_7.load.30
+  - OrigID:          VITIS_LOOP_63_7.load.30
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 37 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 65, Column: 14 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_61_7.load.33
+  - OrigID:          VITIS_LOOP_63_7.load.33
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 37 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 65, Column: 14 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_61_7.load.36
+  - OrigID:          VITIS_LOOP_63_7.load.36
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 37 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 65, Column: 14 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_61_7.load.39
+  - OrigID:          VITIS_LOOP_63_7.load.39
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 37 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 65, Column: 14 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_61_7.load.42
+  - OrigID:          VITIS_LOOP_63_7.load.42
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 37 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 65, Column: 14 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_61_7.load.45
+  - OrigID:          VITIS_LOOP_63_7.load.45
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 37 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 65, Column: 14 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_61_7.load.48
+  - OrigID:          VITIS_LOOP_63_7.load.48
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 37 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 65, Column: 14 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_61_7.load.51
+  - OrigID:          VITIS_LOOP_63_7.load.51
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 37 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 65, Column: 14 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_61_7.load.54
+  - OrigID:          VITIS_LOOP_63_7.load.54
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 37 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 65, Column: 14 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_61_7.load.57
+  - OrigID:          VITIS_LOOP_63_7.load.57
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 37 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 65, Column: 14 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_61_7.load.60
+  - OrigID:          VITIS_LOOP_63_7.load.60
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 37 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 65, Column: 14 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_61_7.load.63
+  - OrigID:          VITIS_LOOP_63_7.load.63
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 37 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 65, Column: 14 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_61_7.load.66
+  - OrigID:          VITIS_LOOP_63_7.load.66
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 37 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 65, Column: 14 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_61_7.load.69
+  - OrigID:          VITIS_LOOP_63_7.load.69
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 37 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 65, Column: 14 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_61_7.load.72
+  - OrigID:          VITIS_LOOP_63_7.load.72
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Sequential '
@@ -720,83 +719,82 @@ Args:
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_50_2
+  - LoopName:        VITIS_LOOP_52_2
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:50:26'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:52:26'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.3
+  - OrigID:          VITIS_LOOP_78_10.store.3
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.7
+  - OrigID:          VITIS_LOOP_78_10.store.7
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.11
+  - OrigID:          VITIS_LOOP_78_10.store.11
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.15
+  - OrigID:          VITIS_LOOP_78_10.store.15
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.19
+  - OrigID:          VITIS_LOOP_78_10.store.19
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.23
+  - OrigID:          VITIS_LOOP_78_10.store.23
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.27
+  - OrigID:          VITIS_LOOP_78_10.store.27
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.31
+  - OrigID:          VITIS_LOOP_78_10.store.31
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.35
+  - OrigID:          VITIS_LOOP_78_10.store.35
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.39
+  - OrigID:          VITIS_LOOP_78_10.store.39
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.43
+  - OrigID:          VITIS_LOOP_78_10.store.43
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.47
+  - OrigID:          VITIS_LOOP_78_10.store.47
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.51
+  - OrigID:          VITIS_LOOP_78_10.store.51
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.55
+  - OrigID:          VITIS_LOOP_78_10.store.55
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.59
+  - OrigID:          VITIS_LOOP_78_10.store.59
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.63
+  - OrigID:          VITIS_LOOP_78_10.store.63
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Sequential '
@@ -810,83 +808,82 @@ Args:
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_50_2
+  - LoopName:        VITIS_LOOP_52_2
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:50:26'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:52:26'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.85
+  - OrigID:          VITIS_LOOP_78_10.store.85
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.89
+  - OrigID:          VITIS_LOOP_78_10.store.89
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.93
+  - OrigID:          VITIS_LOOP_78_10.store.93
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.97
+  - OrigID:          VITIS_LOOP_78_10.store.97
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.101
+  - OrigID:          VITIS_LOOP_78_10.store.101
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.105
+  - OrigID:          VITIS_LOOP_78_10.store.105
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.109
+  - OrigID:          VITIS_LOOP_78_10.store.109
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.113
+  - OrigID:          VITIS_LOOP_78_10.store.113
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.117
+  - OrigID:          VITIS_LOOP_78_10.store.117
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.121
+  - OrigID:          VITIS_LOOP_78_10.store.121
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.125
+  - OrigID:          VITIS_LOOP_78_10.store.125
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.129
+  - OrigID:          VITIS_LOOP_78_10.store.129
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.133
+  - OrigID:          VITIS_LOOP_78_10.store.133
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.137
+  - OrigID:          VITIS_LOOP_78_10.store.137
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.141
+  - OrigID:          VITIS_LOOP_78_10.store.141
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.145
+  - OrigID:          VITIS_LOOP_78_10.store.145
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Sequential '
@@ -900,83 +897,82 @@ Args:
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_50_2
+  - LoopName:        VITIS_LOOP_52_2
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:50:26'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:52:26'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.167
+  - OrigID:          VITIS_LOOP_78_10.store.167
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.171
+  - OrigID:          VITIS_LOOP_78_10.store.171
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.175
+  - OrigID:          VITIS_LOOP_78_10.store.175
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.179
+  - OrigID:          VITIS_LOOP_78_10.store.179
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.183
+  - OrigID:          VITIS_LOOP_78_10.store.183
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.187
+  - OrigID:          VITIS_LOOP_78_10.store.187
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.191
+  - OrigID:          VITIS_LOOP_78_10.store.191
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.195
+  - OrigID:          VITIS_LOOP_78_10.store.195
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.199
+  - OrigID:          VITIS_LOOP_78_10.store.199
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.203
+  - OrigID:          VITIS_LOOP_78_10.store.203
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.207
+  - OrigID:          VITIS_LOOP_78_10.store.207
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.211
+  - OrigID:          VITIS_LOOP_78_10.store.211
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.215
+  - OrigID:          VITIS_LOOP_78_10.store.215
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.219
+  - OrigID:          VITIS_LOOP_78_10.store.219
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.223
+  - OrigID:          VITIS_LOOP_78_10.store.223
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.227
+  - OrigID:          VITIS_LOOP_78_10.store.227
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Sequential '
@@ -990,83 +986,82 @@ Args:
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_50_2
+  - LoopName:        VITIS_LOOP_52_2
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:50:26'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:52:26'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.249
+  - OrigID:          VITIS_LOOP_78_10.store.249
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.253
+  - OrigID:          VITIS_LOOP_78_10.store.253
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.257
+  - OrigID:          VITIS_LOOP_78_10.store.257
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.261
+  - OrigID:          VITIS_LOOP_78_10.store.261
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.265
+  - OrigID:          VITIS_LOOP_78_10.store.265
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.269
+  - OrigID:          VITIS_LOOP_78_10.store.269
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.273
+  - OrigID:          VITIS_LOOP_78_10.store.273
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.277
+  - OrigID:          VITIS_LOOP_78_10.store.277
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.281
+  - OrigID:          VITIS_LOOP_78_10.store.281
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.285
+  - OrigID:          VITIS_LOOP_78_10.store.285
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.289
+  - OrigID:          VITIS_LOOP_78_10.store.289
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.293
+  - OrigID:          VITIS_LOOP_78_10.store.293
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.297
+  - OrigID:          VITIS_LOOP_78_10.store.297
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.301
+  - OrigID:          VITIS_LOOP_78_10.store.301
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.305
+  - OrigID:          VITIS_LOOP_78_10.store.305
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.309
+  - OrigID:          VITIS_LOOP_78_10.store.309
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Sequential '
@@ -1080,83 +1075,82 @@ Args:
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_50_2
+  - LoopName:        VITIS_LOOP_52_2
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:50:26'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:52:26'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.331
+  - OrigID:          VITIS_LOOP_78_10.store.331
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.335
+  - OrigID:          VITIS_LOOP_78_10.store.335
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.339
+  - OrigID:          VITIS_LOOP_78_10.store.339
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.343
+  - OrigID:          VITIS_LOOP_78_10.store.343
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.347
+  - OrigID:          VITIS_LOOP_78_10.store.347
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.351
+  - OrigID:          VITIS_LOOP_78_10.store.351
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.355
+  - OrigID:          VITIS_LOOP_78_10.store.355
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.359
+  - OrigID:          VITIS_LOOP_78_10.store.359
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.363
+  - OrigID:          VITIS_LOOP_78_10.store.363
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.367
+  - OrigID:          VITIS_LOOP_78_10.store.367
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.371
+  - OrigID:          VITIS_LOOP_78_10.store.371
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.375
+  - OrigID:          VITIS_LOOP_78_10.store.375
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.379
+  - OrigID:          VITIS_LOOP_78_10.store.379
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.383
+  - OrigID:          VITIS_LOOP_78_10.store.383
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.387
+  - OrigID:          VITIS_LOOP_78_10.store.387
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.391
+  - OrigID:          VITIS_LOOP_78_10.store.391
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Sequential '
@@ -1170,83 +1164,82 @@ Args:
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_50_2
+  - LoopName:        VITIS_LOOP_52_2
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:50:26'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:52:26'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.413
+  - OrigID:          VITIS_LOOP_78_10.store.413
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.417
+  - OrigID:          VITIS_LOOP_78_10.store.417
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.421
+  - OrigID:          VITIS_LOOP_78_10.store.421
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.425
+  - OrigID:          VITIS_LOOP_78_10.store.425
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.429
+  - OrigID:          VITIS_LOOP_78_10.store.429
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.433
+  - OrigID:          VITIS_LOOP_78_10.store.433
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.437
+  - OrigID:          VITIS_LOOP_78_10.store.437
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.441
+  - OrigID:          VITIS_LOOP_78_10.store.441
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.445
+  - OrigID:          VITIS_LOOP_78_10.store.445
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.449
+  - OrigID:          VITIS_LOOP_78_10.store.449
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.453
+  - OrigID:          VITIS_LOOP_78_10.store.453
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.457
+  - OrigID:          VITIS_LOOP_78_10.store.457
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.461
+  - OrigID:          VITIS_LOOP_78_10.store.461
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.465
+  - OrigID:          VITIS_LOOP_78_10.store.465
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.469
+  - OrigID:          VITIS_LOOP_78_10.store.469
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.473
+  - OrigID:          VITIS_LOOP_78_10.store.473
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Sequential '
@@ -1260,83 +1253,82 @@ Args:
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_50_2
+  - LoopName:        VITIS_LOOP_52_2
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:50:26'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:52:26'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.495
+  - OrigID:          VITIS_LOOP_78_10.store.495
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.499
+  - OrigID:          VITIS_LOOP_78_10.store.499
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.503
+  - OrigID:          VITIS_LOOP_78_10.store.503
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.507
+  - OrigID:          VITIS_LOOP_78_10.store.507
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.511
+  - OrigID:          VITIS_LOOP_78_10.store.511
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.515
+  - OrigID:          VITIS_LOOP_78_10.store.515
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.519
+  - OrigID:          VITIS_LOOP_78_10.store.519
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.523
+  - OrigID:          VITIS_LOOP_78_10.store.523
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.527
+  - OrigID:          VITIS_LOOP_78_10.store.527
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.531
+  - OrigID:          VITIS_LOOP_78_10.store.531
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.535
+  - OrigID:          VITIS_LOOP_78_10.store.535
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.539
+  - OrigID:          VITIS_LOOP_78_10.store.539
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.543
+  - OrigID:          VITIS_LOOP_78_10.store.543
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.547
+  - OrigID:          VITIS_LOOP_78_10.store.547
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.551
+  - OrigID:          VITIS_LOOP_78_10.store.551
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.555
+  - OrigID:          VITIS_LOOP_78_10.store.555
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Sequential '
@@ -1350,83 +1342,82 @@ Args:
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_50_2
+  - LoopName:        VITIS_LOOP_52_2
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:50:26'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:52:26'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.577
+  - OrigID:          VITIS_LOOP_78_10.store.577
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.581
+  - OrigID:          VITIS_LOOP_78_10.store.581
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.585
+  - OrigID:          VITIS_LOOP_78_10.store.585
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.589
+  - OrigID:          VITIS_LOOP_78_10.store.589
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.593
+  - OrigID:          VITIS_LOOP_78_10.store.593
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.597
+  - OrigID:          VITIS_LOOP_78_10.store.597
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.601
+  - OrigID:          VITIS_LOOP_78_10.store.601
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.605
+  - OrigID:          VITIS_LOOP_78_10.store.605
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.609
+  - OrigID:          VITIS_LOOP_78_10.store.609
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.613
+  - OrigID:          VITIS_LOOP_78_10.store.613
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.617
+  - OrigID:          VITIS_LOOP_78_10.store.617
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.621
+  - OrigID:          VITIS_LOOP_78_10.store.621
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.625
+  - OrigID:          VITIS_LOOP_78_10.store.625
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.629
+  - OrigID:          VITIS_LOOP_78_10.store.629
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.633
+  - OrigID:          VITIS_LOOP_78_10.store.633
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.637
+  - OrigID:          VITIS_LOOP_78_10.store.637
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Sequential '
@@ -1440,83 +1431,82 @@ Args:
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_50_2
+  - LoopName:        VITIS_LOOP_52_2
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:50:26'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:52:26'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.659
+  - OrigID:          VITIS_LOOP_78_10.store.659
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.663
+  - OrigID:          VITIS_LOOP_78_10.store.663
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.667
+  - OrigID:          VITIS_LOOP_78_10.store.667
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.671
+  - OrigID:          VITIS_LOOP_78_10.store.671
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.675
+  - OrigID:          VITIS_LOOP_78_10.store.675
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.679
+  - OrigID:          VITIS_LOOP_78_10.store.679
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.683
+  - OrigID:          VITIS_LOOP_78_10.store.683
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.687
+  - OrigID:          VITIS_LOOP_78_10.store.687
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.691
+  - OrigID:          VITIS_LOOP_78_10.store.691
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.695
+  - OrigID:          VITIS_LOOP_78_10.store.695
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.699
+  - OrigID:          VITIS_LOOP_78_10.store.699
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.703
+  - OrigID:          VITIS_LOOP_78_10.store.703
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.707
+  - OrigID:          VITIS_LOOP_78_10.store.707
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.711
+  - OrigID:          VITIS_LOOP_78_10.store.711
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.715
+  - OrigID:          VITIS_LOOP_78_10.store.715
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.719
+  - OrigID:          VITIS_LOOP_78_10.store.719
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Sequential '
@@ -1530,83 +1520,82 @@ Args:
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_50_2
+  - LoopName:        VITIS_LOOP_52_2
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:50:26'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:52:26'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.741
+  - OrigID:          VITIS_LOOP_78_10.store.741
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.745
+  - OrigID:          VITIS_LOOP_78_10.store.745
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.749
+  - OrigID:          VITIS_LOOP_78_10.store.749
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.753
+  - OrigID:          VITIS_LOOP_78_10.store.753
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.757
+  - OrigID:          VITIS_LOOP_78_10.store.757
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.761
+  - OrigID:          VITIS_LOOP_78_10.store.761
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.765
+  - OrigID:          VITIS_LOOP_78_10.store.765
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.769
+  - OrigID:          VITIS_LOOP_78_10.store.769
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.773
+  - OrigID:          VITIS_LOOP_78_10.store.773
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.777
+  - OrigID:          VITIS_LOOP_78_10.store.777
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.781
+  - OrigID:          VITIS_LOOP_78_10.store.781
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.785
+  - OrigID:          VITIS_LOOP_78_10.store.785
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.789
+  - OrigID:          VITIS_LOOP_78_10.store.789
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.793
+  - OrigID:          VITIS_LOOP_78_10.store.793
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.797
+  - OrigID:          VITIS_LOOP_78_10.store.797
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.801
+  - OrigID:          VITIS_LOOP_78_10.store.801
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Sequential '
@@ -1620,83 +1609,82 @@ Args:
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_50_2
+  - LoopName:        VITIS_LOOP_52_2
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:50:26'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:52:26'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.823
+  - OrigID:          VITIS_LOOP_78_10.store.823
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.827
+  - OrigID:          VITIS_LOOP_78_10.store.827
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.831
+  - OrigID:          VITIS_LOOP_78_10.store.831
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.835
+  - OrigID:          VITIS_LOOP_78_10.store.835
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.839
+  - OrigID:          VITIS_LOOP_78_10.store.839
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.843
+  - OrigID:          VITIS_LOOP_78_10.store.843
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.847
+  - OrigID:          VITIS_LOOP_78_10.store.847
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.851
+  - OrigID:          VITIS_LOOP_78_10.store.851
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.855
+  - OrigID:          VITIS_LOOP_78_10.store.855
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.859
+  - OrigID:          VITIS_LOOP_78_10.store.859
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.863
+  - OrigID:          VITIS_LOOP_78_10.store.863
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.867
+  - OrigID:          VITIS_LOOP_78_10.store.867
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.871
+  - OrigID:          VITIS_LOOP_78_10.store.871
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.875
+  - OrigID:          VITIS_LOOP_78_10.store.875
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.879
+  - OrigID:          VITIS_LOOP_78_10.store.879
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.883
+  - OrigID:          VITIS_LOOP_78_10.store.883
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Sequential '
@@ -1710,83 +1698,82 @@ Args:
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_50_2
+  - LoopName:        VITIS_LOOP_52_2
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:50:26'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:52:26'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.905
+  - OrigID:          VITIS_LOOP_78_10.store.905
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.909
+  - OrigID:          VITIS_LOOP_78_10.store.909
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.913
+  - OrigID:          VITIS_LOOP_78_10.store.913
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.917
+  - OrigID:          VITIS_LOOP_78_10.store.917
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.921
+  - OrigID:          VITIS_LOOP_78_10.store.921
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.925
+  - OrigID:          VITIS_LOOP_78_10.store.925
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.929
+  - OrigID:          VITIS_LOOP_78_10.store.929
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.933
+  - OrigID:          VITIS_LOOP_78_10.store.933
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.937
+  - OrigID:          VITIS_LOOP_78_10.store.937
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.941
+  - OrigID:          VITIS_LOOP_78_10.store.941
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.945
+  - OrigID:          VITIS_LOOP_78_10.store.945
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.949
+  - OrigID:          VITIS_LOOP_78_10.store.949
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.953
+  - OrigID:          VITIS_LOOP_78_10.store.953
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.957
+  - OrigID:          VITIS_LOOP_78_10.store.957
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.961
+  - OrigID:          VITIS_LOOP_78_10.store.961
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.965
+  - OrigID:          VITIS_LOOP_78_10.store.965
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Sequential '
@@ -1800,83 +1787,82 @@ Args:
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_50_2
+  - LoopName:        VITIS_LOOP_52_2
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:50:26'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:52:26'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.987
+  - OrigID:          VITIS_LOOP_78_10.store.987
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.991
+  - OrigID:          VITIS_LOOP_78_10.store.991
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.995
+  - OrigID:          VITIS_LOOP_78_10.store.995
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.999
+  - OrigID:          VITIS_LOOP_78_10.store.999
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1003
+  - OrigID:          VITIS_LOOP_78_10.store.1003
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1007
+  - OrigID:          VITIS_LOOP_78_10.store.1007
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1011
+  - OrigID:          VITIS_LOOP_78_10.store.1011
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1015
+  - OrigID:          VITIS_LOOP_78_10.store.1015
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1019
+  - OrigID:          VITIS_LOOP_78_10.store.1019
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1023
+  - OrigID:          VITIS_LOOP_78_10.store.1023
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1027
+  - OrigID:          VITIS_LOOP_78_10.store.1027
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1031
+  - OrigID:          VITIS_LOOP_78_10.store.1031
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1035
+  - OrigID:          VITIS_LOOP_78_10.store.1035
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1039
+  - OrigID:          VITIS_LOOP_78_10.store.1039
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1043
+  - OrigID:          VITIS_LOOP_78_10.store.1043
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1047
+  - OrigID:          VITIS_LOOP_78_10.store.1047
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Sequential '
@@ -1890,83 +1876,82 @@ Args:
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_50_2
+  - LoopName:        VITIS_LOOP_52_2
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:50:26'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:52:26'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1069
+  - OrigID:          VITIS_LOOP_78_10.store.1069
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1073
+  - OrigID:          VITIS_LOOP_78_10.store.1073
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1077
+  - OrigID:          VITIS_LOOP_78_10.store.1077
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1081
+  - OrigID:          VITIS_LOOP_78_10.store.1081
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1085
+  - OrigID:          VITIS_LOOP_78_10.store.1085
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1089
+  - OrigID:          VITIS_LOOP_78_10.store.1089
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1093
+  - OrigID:          VITIS_LOOP_78_10.store.1093
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1097
+  - OrigID:          VITIS_LOOP_78_10.store.1097
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1101
+  - OrigID:          VITIS_LOOP_78_10.store.1101
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1105
+  - OrigID:          VITIS_LOOP_78_10.store.1105
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1109
+  - OrigID:          VITIS_LOOP_78_10.store.1109
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1113
+  - OrigID:          VITIS_LOOP_78_10.store.1113
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1117
+  - OrigID:          VITIS_LOOP_78_10.store.1117
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1121
+  - OrigID:          VITIS_LOOP_78_10.store.1121
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1125
+  - OrigID:          VITIS_LOOP_78_10.store.1125
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1129
+  - OrigID:          VITIS_LOOP_78_10.store.1129
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Sequential '
@@ -1980,83 +1965,83 @@ Args:
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_50_2
+  - LoopName:        VITIS_LOOP_52_2
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:50:26'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:52:26'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1151
+  - OrigID:          VITIS_LOOP_78_10.store.1151
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1155
+  - OrigID:          VITIS_LOOP_78_10.store.1155
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1159
+  - OrigID:          VITIS_LOOP_78_10.store.1159
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1163
+  - OrigID:          VITIS_LOOP_78_10.store.1163
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1167
+  - OrigID:          VITIS_LOOP_78_10.store.1167
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1171
+  - OrigID:          VITIS_LOOP_78_10.store.1171
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1175
+  - OrigID:          VITIS_LOOP_78_10.store.1175
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1179
+  - OrigID:          VITIS_LOOP_78_10.store.1179
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1183
+  - OrigID:          VITIS_LOOP_78_10.store.1183
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1187
+  - OrigID:          VITIS_LOOP_78_10.store.1187
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1191
+  - OrigID:          VITIS_LOOP_78_10.store.1191
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1195
+  - OrigID:          VITIS_LOOP_78_10.store.1195
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1199
+  - OrigID:          VITIS_LOOP_78_10.store.1199
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1203
+  - OrigID:          VITIS_LOOP_78_10.store.1203
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1207
+  - OrigID:          VITIS_LOOP_78_10.store.1207
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1211
+  - OrigID:          VITIS_LOOP_78_10.store.1211
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 50, Column: 64 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 52, Column: 64 }
 Function:        MM
 Args:            
   - String:          'Sequential '
@@ -2070,83 +2055,82 @@ Args:
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_50_2
+  - LoopName:        VITIS_LOOP_52_2
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:50:26'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:52:26'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1233
+  - OrigID:          VITIS_LOOP_78_10.store.1233
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1237
+  - OrigID:          VITIS_LOOP_78_10.store.1237
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1241
+  - OrigID:          VITIS_LOOP_78_10.store.1241
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1245
+  - OrigID:          VITIS_LOOP_78_10.store.1245
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1249
+  - OrigID:          VITIS_LOOP_78_10.store.1249
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1253
+  - OrigID:          VITIS_LOOP_78_10.store.1253
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1257
+  - OrigID:          VITIS_LOOP_78_10.store.1257
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1261
+  - OrigID:          VITIS_LOOP_78_10.store.1261
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1265
+  - OrigID:          VITIS_LOOP_78_10.store.1265
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1269
+  - OrigID:          VITIS_LOOP_78_10.store.1269
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1273
+  - OrigID:          VITIS_LOOP_78_10.store.1273
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1277
+  - OrigID:          VITIS_LOOP_78_10.store.1277
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1281
+  - OrigID:          VITIS_LOOP_78_10.store.1281
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1285
+  - OrigID:          VITIS_LOOP_78_10.store.1285
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1289
+  - OrigID:          VITIS_LOOP_78_10.store.1289
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 66 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 47 }
   - OrigDirection:   write
-  - OrigID:          VITIS_LOOP_76_10.store.1293
+  - OrigID:          VITIS_LOOP_78_10.store.1293
 ...
 --- !Passed
 Pass:            reflow-burst-inference
 Name:            BurstInferred
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 56, Column: 38 }
 Function:        MM
 Args:            
   - String:          'Sequential '
@@ -2160,98 +2144,82 @@ Args:
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_50_2
+  - LoopName:        VITIS_LOOP_52_2
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:50:26'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:52:26'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 56, Column: 38 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_52_3.load.69
+  - OrigID:          VITIS_LOOP_54_3.load.69
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 56, Column: 38 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_52_3.load.70
+  - OrigID:          VITIS_LOOP_54_3.load.70
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 56, Column: 38 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_52_3.load.71
+  - OrigID:          VITIS_LOOP_54_3.load.71
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 56, Column: 38 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_52_3.load.72
+  - OrigID:          VITIS_LOOP_54_3.load.72
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 56, Column: 38 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_52_3.load.73
+  - OrigID:          VITIS_LOOP_54_3.load.73
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 56, Column: 38 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_52_3.load.74
+  - OrigID:          VITIS_LOOP_54_3.load.74
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 56, Column: 38 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_52_3.load.75
+  - OrigID:          VITIS_LOOP_54_3.load.75
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 56, Column: 38 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_52_3.load.76
+  - OrigID:          VITIS_LOOP_54_3.load.76
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 56, Column: 38 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_52_3.load.77
+  - OrigID:          VITIS_LOOP_54_3.load.77
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 56, Column: 38 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_52_3.load.78
+  - OrigID:          VITIS_LOOP_54_3.load.78
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 56, Column: 38 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_52_3.load.79
+  - OrigID:          VITIS_LOOP_54_3.load.79
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 56, Column: 38 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_52_3.load.80
+  - OrigID:          VITIS_LOOP_54_3.load.80
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 56, Column: 38 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_52_3.load.81
+  - OrigID:          VITIS_LOOP_54_3.load.81
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 56, Column: 38 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_52_3.load.82
+  - OrigID:          VITIS_LOOP_54_3.load.82
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 56, Column: 38 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_52_3.load.83
+  - OrigID:          VITIS_LOOP_54_3.load.83
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 56, Column: 38 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_52_3.load.84
+  - OrigID:          VITIS_LOOP_54_3.load.84
 ...
 --- !Missed
 Pass:            reflow-burst-inference
 Name:            IncompatibleStride
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 67, Column: 39 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 69, Column: 16 }
 Function:        MM
 Args:            
   - String:          Stride is incompatible
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      Atemp
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 67, Column: 39 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 69, Column: 16 }
   - OrigDirection:   read
-  - OrigID:          VITIS_LOOP_68_9.load.23
+  - OrigID:          VITIS_LOOP_70_9.load.23
   - ArrayName:       A
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_65_8
+  - LoopName:        VITIS_LOOP_67_8
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:65:38'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:67:38'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
@@ -2260,22 +2228,22 @@ Args:
 --- !Missed
 Pass:            reflow-burst-inference
 Name:            IncompatibleStride
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 37 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 65, Column: 14 }
 Function:        MM
 Args:            
   - String:          Stride is incompatible
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 37 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 65, Column: 14 }
   - OrigDirection:   read
   - OrigID:          scevgepseq
   - ArrayName:       B
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_60_6
+  - LoopName:        VITIS_LOOP_62_6
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:60:34'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:62:34'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
@@ -2284,22 +2252,20 @@ Args:
 --- !Missed
 Pass:            reflow-burst-inference
 Name:            IncompatibleStride
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 56, Column: 38 }
 Function:        MM
 Args:            
   - String:          Stride is incompatible
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 56, Column: 38 }
   - OrigDirection:   read
   - OrigID:          scevgep760seq
   - ArrayName:       C
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
-  - LoopName:        VITIS_LOOP_50_2
+  - LoopName:        VITIS_LOOP_52_2
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:50:26'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:52:26'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
@@ -2308,7 +2274,6 @@ Args:
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualThreshold
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Could not widen since type '
@@ -2317,7 +2282,6 @@ Args:
   - Threshold:       '0'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
   - OrigDirection:   write
   - OrigID:          scevgep744seq
   - ArrayName:       ABC
@@ -2331,7 +2295,6 @@ Args:
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualThreshold
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Could not widen since type '
@@ -2340,7 +2303,6 @@ Args:
   - Threshold:       '0'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
   - OrigDirection:   write
   - OrigID:          scevgep745seq
   - ArrayName:       ABC
@@ -2354,7 +2316,6 @@ Args:
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualThreshold
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Could not widen since type '
@@ -2363,7 +2324,6 @@ Args:
   - Threshold:       '0'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
   - OrigDirection:   write
   - OrigID:          scevgep746seq
   - ArrayName:       ABC
@@ -2377,7 +2337,6 @@ Args:
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualThreshold
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Could not widen since type '
@@ -2386,7 +2345,6 @@ Args:
   - Threshold:       '0'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
   - OrigDirection:   write
   - OrigID:          scevgep747seq
   - ArrayName:       ABC
@@ -2400,7 +2358,6 @@ Args:
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualThreshold
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Could not widen since type '
@@ -2409,7 +2366,6 @@ Args:
   - Threshold:       '0'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
   - OrigDirection:   write
   - OrigID:          scevgep748seq
   - ArrayName:       ABC
@@ -2423,7 +2379,6 @@ Args:
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualThreshold
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Could not widen since type '
@@ -2432,7 +2387,6 @@ Args:
   - Threshold:       '0'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
   - OrigDirection:   write
   - OrigID:          scevgep749seq
   - ArrayName:       ABC
@@ -2446,7 +2400,6 @@ Args:
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualThreshold
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Could not widen since type '
@@ -2455,7 +2408,6 @@ Args:
   - Threshold:       '0'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
   - OrigDirection:   write
   - OrigID:          scevgep750seq
   - ArrayName:       ABC
@@ -2469,7 +2421,6 @@ Args:
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualThreshold
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Could not widen since type '
@@ -2478,7 +2429,6 @@ Args:
   - Threshold:       '0'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
   - OrigDirection:   write
   - OrigID:          scevgep751seq
   - ArrayName:       ABC
@@ -2492,7 +2442,6 @@ Args:
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualThreshold
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Could not widen since type '
@@ -2501,7 +2450,6 @@ Args:
   - Threshold:       '0'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
   - OrigDirection:   write
   - OrigID:          scevgep752seq
   - ArrayName:       ABC
@@ -2515,7 +2463,6 @@ Args:
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualThreshold
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Could not widen since type '
@@ -2524,7 +2471,6 @@ Args:
   - Threshold:       '0'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
   - OrigDirection:   write
   - OrigID:          scevgep753seq
   - ArrayName:       ABC
@@ -2538,7 +2484,6 @@ Args:
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualThreshold
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Could not widen since type '
@@ -2547,7 +2492,6 @@ Args:
   - Threshold:       '0'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
   - OrigDirection:   write
   - OrigID:          scevgep754seq
   - ArrayName:       ABC
@@ -2561,7 +2505,6 @@ Args:
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualThreshold
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Could not widen since type '
@@ -2570,7 +2513,6 @@ Args:
   - Threshold:       '0'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
   - OrigDirection:   write
   - OrigID:          scevgep755seq
   - ArrayName:       ABC
@@ -2584,7 +2526,6 @@ Args:
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualThreshold
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Could not widen since type '
@@ -2593,7 +2534,6 @@ Args:
   - Threshold:       '0'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
   - OrigDirection:   write
   - OrigID:          scevgep756seq
   - ArrayName:       ABC
@@ -2607,7 +2547,6 @@ Args:
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualThreshold
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Could not widen since type '
@@ -2616,7 +2555,6 @@ Args:
   - Threshold:       '0'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
   - OrigDirection:   write
   - OrigID:          scevgep757seq
   - ArrayName:       ABC
@@ -2630,7 +2568,6 @@ Args:
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualThreshold
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Could not widen since type '
@@ -2639,7 +2576,6 @@ Args:
   - Threshold:       '0'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
   - OrigDirection:   write
   - OrigID:          scevgep758seq
   - ArrayName:       ABC
@@ -2653,7 +2589,7 @@ Args:
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualThreshold
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 50, Column: 64 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 52, Column: 64 }
 Function:        MM
 Args:            
   - String:          'Could not widen since type '
@@ -2662,7 +2598,7 @@ Args:
   - Threshold:       '0'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 50, Column: 64 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 52, Column: 64 }
   - OrigDirection:   write
   - OrigID:          scevgep759seq
   - ArrayName:       ABC
@@ -2676,7 +2612,7 @@ Args:
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualThreshold
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 37 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 65, Column: 14 }
 Function:        MM
 Args:            
   - String:          'Could not widen since type '
@@ -2685,7 +2621,7 @@ Args:
   - Threshold:       '0'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 37 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 65, Column: 14 }
   - OrigDirection:   read
   - OrigID:          scevgepseq
   - ArrayName:       B
@@ -2699,7 +2635,6 @@ Args:
 --- !Missed
 Pass:            reflow-burst-widen
 Name:            GreaterOrEqualThreshold
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 56, Column: 38 }
 Function:        MM
 Args:            
   - String:          'Could not widen since type '
@@ -2708,7 +2643,6 @@ Args:
   - Threshold:       '0'
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      call
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 56, Column: 38 }
   - OrigDirection:   read
   - OrigID:          scevgep760seq
   - ArrayName:       C
@@ -2722,231 +2656,839 @@ Args:
 --- !Passed
 Pass:            reflow-loop-flatten-cost-model
 Name:            FlattenOffInference
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 34 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 62, Column: 34 }
 Function:        MM
 Args:            
-  - String:          'Disabling loop flattening for loop '''
-  - LoopName:        VITIS_LOOP_60_6
+  - String:          'Automatically disabling loop flattening for loop '''
+  - LoopName:        VITIS_LOOP_62_6
   - String:          '''.'
 ...
 --- !Passed
 Pass:            reflow-loop-flatten-cost-model
 Name:            AutoParallelPerformanceDrivenVerbosePassed
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 34 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 62, Column: 34 }
 Function:        MM
 Args:            
   - PragmaType:      loop_flatten
   - String:          ' '
-  - PragmaOptions:   'off '
+  - PragmaOptions:   off
   - String:          ' '
   - PragmaIsAuto:    '1'
   - String:          ' '
   - PragmaFunction:  MM
   - String:          ' '
-  - PragmaSrcLoc:    '../MLP_baseline/mm.cpp:66:1'
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 1 }
-  - LoopName:        VITIS_LOOP_60_6
+  - PragmaSrcLoc:    '../MLP_baseline/mm.cpp:62:34'
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 62, Column: 34 }
+  - LoopName:        VITIS_LOOP_62_6
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:60:34'
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 34 }
+  - LoopLoc:         '../MLP_baseline/mm.cpp:62:34'
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 62, Column: 34 }
   - String:          ' '
 ...
 --- !Passed
 Pass:            reflow-auto-array-partition
 Name:            AutoArrayPromotion
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
-  - String:          'Partitioning array '''
-  - Value:           AB_block_0
+  - String:          'Automatically partitioning array '''
+  - Value:           AB_block
   - String:          ''' dimension '
   - Dim:             '1'
-  - String:          ' due to constant index.'
+  - String:          ' completely based on constant index.'
 ...
 --- !Passed
 Pass:            reflow-auto-array-partition
 Name:            AutoArrayPromotion
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
-  - String:          'Partitioning array '''
-  - Value:           AB_block_1
+  - String:          'Automatically partitioning array '''
+  - Value:           AB_block
   - String:          ''' dimension '
   - Dim:             '1'
-  - String:          ' due to constant index.'
+  - String:          ' completely based on constant index.'
 ...
 --- !Passed
 Pass:            reflow-auto-array-partition
 Name:            AutoArrayPromotion
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
-  - String:          'Partitioning array '''
-  - Value:           AB_block_2
+  - String:          'Automatically partitioning array '''
+  - Value:           AB_block
   - String:          ''' dimension '
   - Dim:             '1'
-  - String:          ' due to constant index.'
+  - String:          ' completely based on constant index.'
 ...
 --- !Passed
 Pass:            reflow-auto-array-partition
 Name:            AutoArrayPromotion
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
-  - String:          'Partitioning array '''
-  - Value:           AB_block_3
+  - String:          'Automatically partitioning array '''
+  - Value:           AB_block
   - String:          ''' dimension '
   - Dim:             '1'
-  - String:          ' due to constant index.'
+  - String:          ' completely based on constant index.'
 ...
 --- !Passed
 Pass:            reflow-auto-array-partition
 Name:            AutoArrayPromotion
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
-  - String:          'Partitioning array '''
-  - Value:           AB_block_4
+  - String:          'Automatically partitioning array '''
+  - Value:           AB_block
   - String:          ''' dimension '
   - Dim:             '1'
-  - String:          ' due to constant index.'
+  - String:          ' completely based on constant index.'
 ...
 --- !Passed
 Pass:            reflow-auto-array-partition
 Name:            AutoArrayPromotion
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
-  - String:          'Partitioning array '''
-  - Value:           AB_block_5
+  - String:          'Automatically partitioning array '''
+  - Value:           AB_block
   - String:          ''' dimension '
   - Dim:             '1'
-  - String:          ' due to constant index.'
+  - String:          ' completely based on constant index.'
 ...
 --- !Passed
 Pass:            reflow-auto-array-partition
 Name:            AutoArrayPromotion
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
-  - String:          'Partitioning array '''
-  - Value:           AB_block_6
+  - String:          'Automatically partitioning array '''
+  - Value:           AB_block
   - String:          ''' dimension '
   - Dim:             '1'
-  - String:          ' due to constant index.'
+  - String:          ' completely based on constant index.'
 ...
 --- !Passed
 Pass:            reflow-auto-array-partition
 Name:            AutoArrayPromotion
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
-  - String:          'Partitioning array '''
-  - Value:           AB_block_7
+  - String:          'Automatically partitioning array '''
+  - Value:           AB_block
   - String:          ''' dimension '
   - Dim:             '1'
-  - String:          ' due to constant index.'
+  - String:          ' completely based on constant index.'
 ...
 --- !Passed
 Pass:            reflow-auto-array-partition
 Name:            AutoArrayPromotion
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
-  - String:          'Partitioning array '''
-  - Value:           AB_block_8
+  - String:          'Automatically partitioning array '''
+  - Value:           AB_block
   - String:          ''' dimension '
   - Dim:             '1'
-  - String:          ' due to constant index.'
+  - String:          ' completely based on constant index.'
 ...
 --- !Passed
 Pass:            reflow-auto-array-partition
 Name:            AutoArrayPromotion
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
-  - String:          'Partitioning array '''
-  - Value:           AB_block_9
+  - String:          'Automatically partitioning array '''
+  - Value:           AB_block
   - String:          ''' dimension '
   - Dim:             '1'
-  - String:          ' due to constant index.'
+  - String:          ' completely based on constant index.'
 ...
 --- !Passed
 Pass:            reflow-auto-array-partition
 Name:            AutoArrayPromotion
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
-  - String:          'Partitioning array '''
-  - Value:           AB_block_10
+  - String:          'Automatically partitioning array '''
+  - Value:           AB_block
   - String:          ''' dimension '
   - Dim:             '1'
-  - String:          ' due to constant index.'
+  - String:          ' completely based on constant index.'
 ...
 --- !Passed
 Pass:            reflow-auto-array-partition
 Name:            AutoArrayPromotion
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
-  - String:          'Partitioning array '''
-  - Value:           AB_block_11
+  - String:          'Automatically partitioning array '''
+  - Value:           AB_block
   - String:          ''' dimension '
   - Dim:             '1'
-  - String:          ' due to constant index.'
+  - String:          ' completely based on constant index.'
 ...
 --- !Passed
 Pass:            reflow-auto-array-partition
 Name:            AutoArrayPromotion
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
-  - String:          'Partitioning array '''
-  - Value:           AB_block_12
+  - String:          'Automatically partitioning array '''
+  - Value:           AB_block
   - String:          ''' dimension '
   - Dim:             '1'
-  - String:          ' due to constant index.'
+  - String:          ' completely based on constant index.'
 ...
 --- !Passed
 Pass:            reflow-auto-array-partition
 Name:            AutoArrayPromotion
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
-  - String:          'Partitioning array '''
-  - Value:           AB_block_13
+  - String:          'Automatically partitioning array '''
+  - Value:           AB_block
   - String:          ''' dimension '
   - Dim:             '1'
-  - String:          ' due to constant index.'
+  - String:          ' completely based on constant index.'
 ...
 --- !Passed
 Pass:            reflow-auto-array-partition
 Name:            AutoArrayPromotion
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
-  - String:          'Partitioning array '''
-  - Value:           AB_block_14
+  - String:          'Automatically partitioning array '''
+  - Value:           AB_block
   - String:          ''' dimension '
   - Dim:             '1'
-  - String:          ' due to constant index.'
+  - String:          ' completely based on constant index.'
 ...
 --- !Passed
 Pass:            reflow-auto-array-partition
 Name:            AutoArrayPromotion
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
-  - String:          'Partitioning array '''
-  - Value:           AB_block_15
+  - String:          'Automatically partitioning array '''
+  - Value:           AB_block
   - String:          ''' dimension '
   - Dim:             '1'
-  - String:          ' due to constant index.'
+  - String:          ' completely based on constant index.'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=AB_block_0'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  MM
+  - String:          ' '
+  - varLoc:          '../MLP_baseline/mm.cpp:41:8'
+  - String:          ' '
+  - VarName:         AB_block_0
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            AB_block_0
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=AB_block_1'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  MM
+  - String:          ' '
+  - varLoc:          '../MLP_baseline/mm.cpp:41:8'
+  - String:          ' '
+  - VarName:         AB_block_1
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            AB_block_1
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=AB_block_10'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  MM
+  - String:          ' '
+  - varLoc:          '../MLP_baseline/mm.cpp:41:8'
+  - String:          ' '
+  - VarName:         AB_block_10
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            AB_block_10
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=AB_block_11'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  MM
+  - String:          ' '
+  - varLoc:          '../MLP_baseline/mm.cpp:41:8'
+  - String:          ' '
+  - VarName:         AB_block_11
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            AB_block_11
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=AB_block_12'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  MM
+  - String:          ' '
+  - varLoc:          '../MLP_baseline/mm.cpp:41:8'
+  - String:          ' '
+  - VarName:         AB_block_12
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            AB_block_12
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=AB_block_13'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  MM
+  - String:          ' '
+  - varLoc:          '../MLP_baseline/mm.cpp:41:8'
+  - String:          ' '
+  - VarName:         AB_block_13
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            AB_block_13
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=AB_block_14'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  MM
+  - String:          ' '
+  - varLoc:          '../MLP_baseline/mm.cpp:41:8'
+  - String:          ' '
+  - VarName:         AB_block_14
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            AB_block_14
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=AB_block_15'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  MM
+  - String:          ' '
+  - varLoc:          '../MLP_baseline/mm.cpp:41:8'
+  - String:          ' '
+  - VarName:         AB_block_15
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            AB_block_15
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=AB_block_2'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  MM
+  - String:          ' '
+  - varLoc:          '../MLP_baseline/mm.cpp:41:8'
+  - String:          ' '
+  - VarName:         AB_block_2
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            AB_block_2
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=AB_block_3'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  MM
+  - String:          ' '
+  - varLoc:          '../MLP_baseline/mm.cpp:41:8'
+  - String:          ' '
+  - VarName:         AB_block_3
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            AB_block_3
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=AB_block_4'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  MM
+  - String:          ' '
+  - varLoc:          '../MLP_baseline/mm.cpp:41:8'
+  - String:          ' '
+  - VarName:         AB_block_4
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            AB_block_4
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=AB_block_5'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  MM
+  - String:          ' '
+  - varLoc:          '../MLP_baseline/mm.cpp:41:8'
+  - String:          ' '
+  - VarName:         AB_block_5
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            AB_block_5
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=AB_block_6'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  MM
+  - String:          ' '
+  - varLoc:          '../MLP_baseline/mm.cpp:41:8'
+  - String:          ' '
+  - VarName:         AB_block_6
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            AB_block_6
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=AB_block_7'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  MM
+  - String:          ' '
+  - varLoc:          '../MLP_baseline/mm.cpp:41:8'
+  - String:          ' '
+  - VarName:         AB_block_7
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            AB_block_7
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=AB_block_8'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  MM
+  - String:          ' '
+  - varLoc:          '../MLP_baseline/mm.cpp:41:8'
+  - String:          ' '
+  - VarName:         AB_block_8
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            AB_block_8
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoParallelPerformanceDrivenVerbosePassed
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - PragmaType:      array_partition
+  - String:          ' '
+  - PragmaOptions:   'dim=1 type=complete  variable=AB_block_9'
+  - String:          ' '
+  - PragmaIsAuto:    '1'
+  - String:          ' '
+  - PragmaFunction:  MM
+  - String:          ' '
+  - varLoc:          '../MLP_baseline/mm.cpp:41:8'
+  - String:          ' '
+  - VarName:         AB_block_9
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-auto-array-partition
+Name:            AutoArrayXform
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
+Function:        MM
+Args:            
+  - String:          'Inferring pragma '''
+  - PragmaType:      array_partition
+  - String:          ' type='
+  - Mode:            complete
+  - String:          ' dim='
+  - Dim:             '1'
+  - String:          ''' for array '''
+  - Name:            AB_block_9
+  - String:          ''''
+  - String:          ' due to '
+  - String:          pipeline
+  - String:          ' pragma'
 ...
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
   - String:          'Applying '
@@ -2964,7 +3506,7 @@ Args:
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
   - String:          'Applying '
@@ -2982,7 +3524,7 @@ Args:
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
   - String:          'Applying '
@@ -3000,7 +3542,7 @@ Args:
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
   - String:          'Applying '
@@ -3018,7 +3560,7 @@ Args:
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
   - String:          'Applying '
@@ -3036,7 +3578,7 @@ Args:
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
   - String:          'Applying '
@@ -3054,7 +3596,7 @@ Args:
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
   - String:          'Applying '
@@ -3072,7 +3614,7 @@ Args:
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
   - String:          'Applying '
@@ -3090,7 +3632,7 @@ Args:
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
   - String:          'Applying '
@@ -3108,7 +3650,7 @@ Args:
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
   - String:          'Applying '
@@ -3126,7 +3668,7 @@ Args:
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
   - String:          'Applying '
@@ -3144,7 +3686,7 @@ Args:
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
   - String:          'Applying '
@@ -3162,7 +3704,7 @@ Args:
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
   - String:          'Applying '
@@ -3180,7 +3722,7 @@ Args:
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
   - String:          'Applying '
@@ -3198,7 +3740,7 @@ Args:
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
   - String:          'Applying '
@@ -3216,7 +3758,7 @@ Args:
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 39, Column: 11 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 41, Column: 8 }
 Function:        MM
 Args:            
   - String:          'Applying '
@@ -3234,7 +3776,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredVerboseSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 56, Column: 38 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3258,7 +3799,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 56, Column: 38 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3275,7 +3815,7 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredVerboseSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 37 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 65, Column: 14 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3299,7 +3839,7 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 37 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 65, Column: 14 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3316,7 +3856,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredVerboseSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3340,7 +3879,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3357,7 +3895,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredVerboseSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3381,7 +3918,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3398,7 +3934,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredVerboseSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3422,7 +3957,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3439,7 +3973,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredVerboseSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3463,7 +3996,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3480,7 +4012,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredVerboseSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3504,7 +4035,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3521,7 +4051,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredVerboseSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3545,7 +4074,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3562,7 +4090,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredVerboseSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3586,7 +4113,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3603,7 +4129,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredVerboseSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3627,7 +4152,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3644,7 +4168,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredVerboseSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3668,7 +4191,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3685,7 +4207,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredVerboseSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3709,7 +4230,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3726,7 +4246,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredVerboseSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3750,7 +4269,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3767,7 +4285,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredVerboseSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3791,7 +4308,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3808,7 +4324,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredVerboseSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3832,7 +4347,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3849,7 +4363,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredVerboseSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3873,7 +4386,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3890,7 +4402,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredVerboseSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3914,7 +4425,6 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 80, Column: 45 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3931,7 +4441,7 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredVerboseSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 50, Column: 64 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 52, Column: 64 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '
@@ -3955,7 +4465,7 @@ Args:
 --- !Passed
 Pass:            reflow-burst-summary
 Name:            BurstInferredSummary
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 50, Column: 64 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 52, Column: 64 }
 Function:        MM
 Args:            
   - String:          'Multiple burst '

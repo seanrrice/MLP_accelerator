@@ -1,10 +1,10 @@
 {
     "1": {
-        "name": "MM_Pipeline_VITIS_LOOP_65_8",
+        "name": "MM_Pipeline_VITIS_LOOP_67_8",
         "file": "..\/MLP_baseline\/mm.cpp",
-        "fileloc": "65",
-        "instructions": "1910",
-        "total_instructions": "1910",
+        "fileloc": "67",
+        "instructions": "1911",
+        "total_instructions": "1911",
         "calls": "",
         "basicblocks": "21",
         "memory_accesses": "516",
@@ -25,7 +25,7 @@
         "file": "mm.cpp",
         "fileloc": "6",
         "instructions": "1585",
-        "total_instructions": "3495",
+        "total_instructions": "3496",
         "calls": "1",
         "basicblocks": "13",
         "memory_accesses": "0",

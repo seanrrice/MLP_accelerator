@@ -1,23 +1,24 @@
 
 
-Implementation tool: Xilinx Vivado v.2025.2
+Implementation tool: Xilinx Vivado v.2025.1
 Project:             baseline_blockedMM
 Solution:            hls
 Device target:       xc7z020-clg400-1
-Report date:         Mon Apr 06 18:47:01 -0700 2026
+Report date:         Fri Apr 10 17:28:51 -0700 2026
 
-#=== Post-Synthesis Resource usage ===
-SLICE:            0
-LUT:          28453
-FF:           32193
+#=== Post-Implementation Resource usage ===
+SLICE:         8221
+LUT:          28281
+FF:           32173
 DSP:             52
 BRAM:             1
 URAM:             0
 LATCH:            0
-SRL:            270
+SRL:            150
 CLB:              0
 
 #=== Final timing ===
 CP required:                     15.000
 CP achieved post-synthesis:      7.791
+CP achieved post-implementation: 14.547
 Timing met

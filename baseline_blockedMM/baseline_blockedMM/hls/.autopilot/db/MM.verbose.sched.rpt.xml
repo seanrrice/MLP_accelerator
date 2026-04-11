@@ -1,9 +1,9 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'MM'" level="0">
-<item name = "Date">Mon Apr  6 18:33:49 2026
+<item name = "Date">Fri Apr 10 16:54:56 2026
 </item>
-<item name = "Version">2025.2 (Build 6295257 on Nov 14 2025)</item>
+<item name = "Version">2025.1 (Build 6135595 on May 21 2025)</item>
 <item name = "Project">baseline_blockedMM</item>
 <item name = "Solution">hls (Vivado IP Flow Target)</item>
 <item name = "Product family">zynq</item>
@@ -35,10 +35,10 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- VITIS_LOOP_49_1">0, ?, 6 ~ ?, -, -, 0 ~ 134217727, no</column>
-<column name=" + VITIS_LOOP_50_2">0, ?, 289 ~ 124822486399, -, -, 0 ~ 134217727, no</column>
-<column name="  ++ VITIS_LOOP_59_5">0, 124822486110, 930, -, -, 0 ~ 134217727, no</column>
-<column name="   +++ VITIS_LOOP_60_6">928, 928, 58, -, -, 16, no</column>
+<column name="- VITIS_LOOP_51_1">0, ?, 6 ~ ?, -, -, 0 ~ 134217727, no</column>
+<column name=" + VITIS_LOOP_52_2">0, ?, 289 ~ 124822486399, -, -, 0 ~ 134217727, no</column>
+<column name="  ++ VITIS_LOOP_61_5">0, 124822486110, 930, -, -, 0 ~ 134217727, no</column>
+<column name="   +++ VITIS_LOOP_62_6">928, 928, 58, -, -, 16, no</column>
 </table>
 </item>
 </section>

@@ -30,10 +30,13 @@ set ExtraCLdFlags {}
 set SynCheckOptions {}
 set PresynOptions {}
 set PreprocOptions {}
+set SchedOptions {}
+set BindOptions {}
+set RtlGenOptions {}
 set RtlWriterOptions {}
-set CbcGenFlag 0
-set CasGenFlag 0
-set CasMonitorFlag 0
+set CbcGenFlag {}
+set CasGenFlag {}
+set CasMonitorFlag {}
 set AutoSimOptions {}
 set ExportMCPathFlag 0
 set SCTraceFileName mytrace
@@ -43,7 +46,7 @@ set TargetInfo xc7z020:-clg400:-1
 set SourceFiles {sc {} c ../../../MLP_baseline/mm.cpp}
 set SourceFlags {sc {} c {{}}}
 set DirectiveFile {}
-set TBFiles {verilog {Z:/Labs/clab/MLP_baseline/weights_layer3.txt Z:/Labs/clab/MLP_baseline/weights_layer2.txt Z:/Labs/clab/MLP_baseline/weights_layer1.txt Z:/Labs/clab/MLP_baseline/mnist_images_int.txt Z:/Labs/clab/MLP_baseline/mm_test.cpp Z:/Labs/clab/MLP_baseline/first_layer_golden_output.txt} bc {Z:/Labs/clab/MLP_baseline/weights_layer3.txt Z:/Labs/clab/MLP_baseline/weights_layer2.txt Z:/Labs/clab/MLP_baseline/weights_layer1.txt Z:/Labs/clab/MLP_baseline/mnist_images_int.txt Z:/Labs/clab/MLP_baseline/mm_test.cpp Z:/Labs/clab/MLP_baseline/first_layer_golden_output.txt} sc {Z:/Labs/clab/MLP_baseline/weights_layer3.txt Z:/Labs/clab/MLP_baseline/weights_layer2.txt Z:/Labs/clab/MLP_baseline/weights_layer1.txt Z:/Labs/clab/MLP_baseline/mnist_images_int.txt Z:/Labs/clab/MLP_baseline/mm_test.cpp Z:/Labs/clab/MLP_baseline/first_layer_golden_output.txt} vhdl {Z:/Labs/clab/MLP_baseline/weights_layer3.txt Z:/Labs/clab/MLP_baseline/weights_layer2.txt Z:/Labs/clab/MLP_baseline/weights_layer1.txt Z:/Labs/clab/MLP_baseline/mnist_images_int.txt Z:/Labs/clab/MLP_baseline/mm_test.cpp Z:/Labs/clab/MLP_baseline/first_layer_golden_output.txt} c {} cas {Z:/Labs/clab/MLP_baseline/weights_layer3.txt Z:/Labs/clab/MLP_baseline/weights_layer2.txt Z:/Labs/clab/MLP_baseline/weights_layer1.txt Z:/Labs/clab/MLP_baseline/mnist_images_int.txt Z:/Labs/clab/MLP_baseline/mm_test.cpp Z:/Labs/clab/MLP_baseline/first_layer_golden_output.txt}}
+set TBFiles {verilog {C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/weights_layer3.txt C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/weights_layer2.txt C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/weights_layer1.txt C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mnist_images_int.txt C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm_test.cpp C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/first_layer_golden_output.txt} bc {C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/weights_layer3.txt C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/weights_layer2.txt C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/weights_layer1.txt C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mnist_images_int.txt C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm_test.cpp C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/first_layer_golden_output.txt} sc {C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/weights_layer3.txt C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/weights_layer2.txt C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/weights_layer1.txt C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mnist_images_int.txt C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm_test.cpp C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/first_layer_golden_output.txt} vhdl {C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/weights_layer3.txt C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/weights_layer2.txt C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/weights_layer1.txt C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mnist_images_int.txt C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm_test.cpp C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/first_layer_golden_output.txt} c {} cas {C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/weights_layer3.txt C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/weights_layer2.txt C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/weights_layer1.txt C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mnist_images_int.txt C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/mm_test.cpp C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/MLP_baseline/first_layer_golden_output.txt}}
 set SpecLanguage C
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
 set TVOutFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}

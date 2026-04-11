@@ -1,8 +1,8 @@
-MM_mul_31ns_32s_62_1_1
+MM_mul_32ns_32s_62_1_1
 MM_mul_32s_32s_32_1_1
 MM_sparsemux_33_4_32_1_1
 MM_flow_control_loop_pipe_sequential_init
 MM_gmem_m_axi
 MM_control_s_axi
-MM_Pipeline_VITIS_LOOP_65_8
+MM_Pipeline_VITIS_LOOP_67_8
 MM

@@ -14,18 +14,20 @@ void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P) {
     // Original pragmas with original data sizes
     //==========================================
 
-    // #pragma HLS INTERFACE m_axi     port=A   bundle=gmem depth=802816
-    // #pragma HLS INTERFACE m_axi     port=B   bundle=gmem depth=100352
-    // #pragma HLS INTERFACE m_axi     port=C   bundle=gmem depth=1024
-    // #pragma HLS INTERFACE m_axi     port=ABC bundle=gmem depth=131072
+    #pragma HLS INTERFACE m_axi     port=A   bundle=gmem depth=802816
+    #pragma HLS INTERFACE m_axi     port=B   bundle=gmem depth=100352
+    #pragma HLS INTERFACE m_axi     port=C   bundle=gmem depth=1024
+    #pragma HLS INTERFACE m_axi     port=ABC bundle=gmem depth=131072
+
+    
 
     //================================================================
     //Pragmas for new testbench with smaller  to enable cosim to work
     //===============================================================
-    #pragma HLS INTERFACE m_axi port=A   bundle=gmem depth=1024
-    #pragma HLS INTERFACE m_axi port=B   bundle=gmem depth=1024
-    #pragma HLS INTERFACE m_axi port=C   bundle=gmem depth=32
-    #pragma HLS INTERFACE m_axi port=ABC bundle=gmem depth=1024
+    // #pragma HLS INTERFACE m_axi port=A   bundle=gmem depth=1024
+    // #pragma HLS INTERFACE m_axi port=B   bundle=gmem depth=1024
+    // #pragma HLS INTERFACE m_axi port=C   bundle=gmem depth=32
+    // #pragma HLS INTERFACE m_axi port=ABC bundle=gmem depth=1024
 
     #pragma HLS INTERFACE s_axilite port=A      bundle=control
     #pragma HLS INTERFACE s_axilite port=B      bundle=control
