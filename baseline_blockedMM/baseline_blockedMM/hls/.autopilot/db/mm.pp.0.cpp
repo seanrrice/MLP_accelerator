@@ -40966,37 +40966,40 @@ __attribute__((sdx_kernel("MM", 0))) void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE
     DTYPE B_line[BLOCK_SIZE];
 
     VITIS_LOOP_34_1: for (int ib = 0; ib < N / BLOCK_SIZE; ib++) {
+#pragma HLS LOOP_TRIPCOUNT min=64 max=64
 #pragma HLS pipeline off
- VITIS_LOOP_36_2: for (int jb = 0; jb < P / BLOCK_SIZE; jb++) {
+ VITIS_LOOP_37_2: for (int jb = 0; jb < P / BLOCK_SIZE; jb++) {
+#pragma HLS LOOP_TRIPCOUNT min=8 max=8
 #pragma HLS pipeline off
 
 
- VITIS_LOOP_40_3: for (int i = 0; i < BLOCK_SIZE; i++) {
+ VITIS_LOOP_42_3: for (int i = 0; i < BLOCK_SIZE; i++) {
 #pragma HLS pipeline off
- VITIS_LOOP_42_4: for (int j = 0; j < BLOCK_SIZE; j++) {
+ VITIS_LOOP_44_4: for (int j = 0; j < BLOCK_SIZE; j++) {
 #pragma HLS pipeline off
  AB_block[i][j] = C[ib * BLOCK_SIZE + i];
                 }
             }
 
 
-            VITIS_LOOP_49_5: for (int kb = 0; kb < M / BLOCK_SIZE; kb++) {
+            VITIS_LOOP_51_5: for (int kb = 0; kb < M / BLOCK_SIZE; kb++) {
+#pragma HLS LOOP_TRIPCOUNT min=49 max=49
 #pragma HLS pipeline off
- VITIS_LOOP_51_6: for (int i = 0; i < BLOCK_SIZE; i++) {
+ VITIS_LOOP_54_6: for (int i = 0; i < BLOCK_SIZE; i++) {
 #pragma HLS pipeline off
- VITIS_LOOP_53_7: for (int k = 0; k < BLOCK_SIZE; k++) {
+ VITIS_LOOP_56_7: for (int k = 0; k < BLOCK_SIZE; k++) {
 #pragma HLS pipeline off
 
  DTYPE Atemp = A[(ib * BLOCK_SIZE + i) * M + (kb * BLOCK_SIZE + k)];
 
 
-                        VITIS_LOOP_59_8: for (int j = 0; j < BLOCK_SIZE; j++) {
+                        VITIS_LOOP_62_8: for (int j = 0; j < BLOCK_SIZE; j++) {
 #pragma HLS pipeline off
  B_line[j] = B[(kb * BLOCK_SIZE + k) * P + (jb * BLOCK_SIZE + j)];
                         }
 
 
-                        VITIS_LOOP_65_9: for (int j = 0; j < BLOCK_SIZE; j++) {
+                        VITIS_LOOP_68_9: for (int j = 0; j < BLOCK_SIZE; j++) {
 #pragma HLS pipeline off
  AB_block[i][j] += Atemp * B_line[j];
                         }
@@ -41005,9 +41008,9 @@ __attribute__((sdx_kernel("MM", 0))) void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE
             }
 
 
-            VITIS_LOOP_74_10: for (int i = 0; i < BLOCK_SIZE; i++) {
+            VITIS_LOOP_77_10: for (int i = 0; i < BLOCK_SIZE; i++) {
 #pragma HLS pipeline off
- VITIS_LOOP_76_11: for (int j = 0; j < BLOCK_SIZE; j++) {
+ VITIS_LOOP_79_11: for (int j = 0; j < BLOCK_SIZE; j++) {
 #pragma HLS pipeline off
  ABC[(ib * BLOCK_SIZE + i) * P + (jb * BLOCK_SIZE + j)] = AB_block[i][j];
                 }
