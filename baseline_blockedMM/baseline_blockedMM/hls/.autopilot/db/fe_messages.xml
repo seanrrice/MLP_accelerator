@@ -39,27 +39,36 @@
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=return bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:36:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=64 max=64" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:37:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:38:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:39:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=8 max=8" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:40:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:42:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
-    </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:50:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:44:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:52:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=49 max=49" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:53:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:54:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:55:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:58:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:57:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:68:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:61:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:71:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="off" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
 </xilinx:hls_fe_msgs>

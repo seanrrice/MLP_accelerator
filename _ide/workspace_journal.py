@@ -16,3 +16,5 @@ comp.run(operation="PACKAGE")
 
 comp.run(operation="IMPLEMENTATION")
 
+comp.run(operation="SYNTHESIS")
+

@@ -33,8 +33,10 @@ void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P) {
     DTYPE AB_block[BLOCK_SIZE][BLOCK_SIZE];
 
     for (int ib = 0; ib < N / BLOCK_SIZE; ib++) {
+        #pragma HLS LOOP_TRIPCOUNT min=64 max=64
         #pragma HLS PIPELINE off
         for (int jb = 0; jb < P / BLOCK_SIZE; jb++) {
+            #pragma HLS LOOP_TRIPCOUNT min=8 max=8
             #pragma HLS PIPELINE off
 
             // Initialize output tile with bias
@@ -47,6 +49,7 @@ void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P) {
 
             // Accumulate tile products in k-j-i order
             for (int kb = 0; kb < M / BLOCK_SIZE; kb++) {
+                #pragma HLS LOOP_TRIPCOUNT min=49 max=49
                 #pragma HLS PIPELINE off
                 for (int k = 0; k < BLOCK_SIZE; k++) {
                     #pragma HLS PIPELINE off
