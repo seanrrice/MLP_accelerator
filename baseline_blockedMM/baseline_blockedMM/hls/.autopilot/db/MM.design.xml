@@ -5,10 +5,10 @@
 <ModuleName>MM</ModuleName>
 <InstancesList>
 <Instance>
-<InstName>grp_MM_Pipeline_i_loop_fu_883</InstName>
+<InstName>grp_MM_Pipeline_i_loop_fu_881</InstName>
 <ModuleName>MM_Pipeline_i_loop</ModuleName>
 <IsCompInst>true</IsCompInst>
-<ID>883</ID>
+<ID>881</ID>
 </Instance>
 </InstancesList>
 </TopModule>
@@ -56,13 +56,13 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:55~C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:186~../MLP_baseline/mm.cpp:72</SourceLocation>
+<SourceLocation>C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:55~C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:186~../MLP_baseline/mm.cpp:75</SourceLocation>
 <SummaryOfLoopViolations>
 <i_loop>
 <Name>i_loop</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:67</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:70</SourceLocation>
 </i_loop>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>
@@ -352,8 +352,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>trunc_ln63_1</name>
-<Object>trunc_ln63_1</Object>
+<name>trunc_ln66_1</name>
+<Object>trunc_ln66_1</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -363,8 +363,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>trunc_ln63_2</name>
-<Object>trunc_ln63_2</Object>
+<name>trunc_ln66_2</name>
+<Object>trunc_ln66_2</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -374,8 +374,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>trunc_ln63_3</name>
-<Object>trunc_ln63_3</Object>
+<name>trunc_ln66_3</name>
+<Object>trunc_ln66_3</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -385,8 +385,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>trunc_ln63_4</name>
-<Object>trunc_ln63_4</Object>
+<name>trunc_ln66_4</name>
+<Object>trunc_ln66_4</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -396,8 +396,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>trunc_ln63_5</name>
-<Object>trunc_ln63_5</Object>
+<name>trunc_ln66_5</name>
+<Object>trunc_ln66_5</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -407,8 +407,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>trunc_ln63_6</name>
-<Object>trunc_ln63_6</Object>
+<name>trunc_ln66_6</name>
+<Object>trunc_ln66_6</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -418,8 +418,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>trunc_ln63_7</name>
-<Object>trunc_ln63_7</Object>
+<name>trunc_ln66_7</name>
+<Object>trunc_ln66_7</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -429,8 +429,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>trunc_ln63_8</name>
-<Object>trunc_ln63_8</Object>
+<name>trunc_ln66_8</name>
+<Object>trunc_ln66_8</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -440,8 +440,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>trunc_ln63_9</name>
-<Object>trunc_ln63_9</Object>
+<name>trunc_ln66_9</name>
+<Object>trunc_ln66_9</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -451,8 +451,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>trunc_ln63_10</name>
-<Object>trunc_ln63_10</Object>
+<name>trunc_ln66_10</name>
+<Object>trunc_ln66_10</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -462,8 +462,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>trunc_ln63_11</name>
-<Object>trunc_ln63_11</Object>
+<name>trunc_ln66_11</name>
+<Object>trunc_ln66_11</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -473,8 +473,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>trunc_ln63_12</name>
-<Object>trunc_ln63_12</Object>
+<name>trunc_ln66_12</name>
+<Object>trunc_ln66_12</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -484,8 +484,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>trunc_ln63_13</name>
-<Object>trunc_ln63_13</Object>
+<name>trunc_ln66_13</name>
+<Object>trunc_ln66_13</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -495,8 +495,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>trunc_ln63_14</name>
-<Object>trunc_ln63_14</Object>
+<name>trunc_ln66_14</name>
+<Object>trunc_ln66_14</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -506,8 +506,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>trunc_ln63_15</name>
-<Object>trunc_ln63_15</Object>
+<name>trunc_ln66_15</name>
+<Object>trunc_ln66_15</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -891,13 +891,13 @@
 <EstimatedClockPeriod>10.950</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
-<Best-caseLatency>1</Best-caseLatency>
-<Average-caseLatency>undef</Average-caseLatency>
-<Worst-caseLatency>undef</Worst-caseLatency>
-<Best-caseRealTimeLatency>15.000 ns</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
-<PipelineInitiationInterval>2 ~ ?</PipelineInitiationInterval>
+<Best-caseLatency>14744705</Best-caseLatency>
+<Average-caseLatency>14744705</Average-caseLatency>
+<Worst-caseLatency>14744705</Worst-caseLatency>
+<Best-caseRealTimeLatency>0.221 sec</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.221 sec</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.221 sec</Worst-caseRealTimeLatency>
+<PipelineInitiationInterval>14744706</PipelineInitiationInterval>
 <PipelineType>no</PipelineType>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
@@ -905,22 +905,12 @@
 <i_BLOCK_loop>
 <Name>i_BLOCK_loop</Name>
 <Slack>10.95</Slack>
-<TripCount>
-<range>
-<min>0</min>
-<max>134217727</max>
-</range>
-</TripCount>
+<TripCount>64</TripCount>
 <isPerfectNested>0</isPerfectNested>
-<Latency>0 ~ ?</Latency>
-<AbsoluteTimeLatency>0 ns ~ ?</AbsoluteTimeLatency>
-<IterationLatency>
-<range>
-<min>2</min>
-<max>-1</max>
-</range>
-</IterationLatency>
-<PipelineDepth>2 ~ ?</PipelineDepth>
+<Latency>14744704</Latency>
+<AbsoluteTimeLatency>0.221 sec</AbsoluteTimeLatency>
+<IterationLatency>230386</IterationLatency>
+<PipelineDepth>230386</PipelineDepth>
 <PipelineType>no</PipelineType>
 <PerformancePragma>-</PerformancePragma>
 <InstanceList>
@@ -928,22 +918,12 @@
 <j_BLOCK_loop>
 <Name>j_BLOCK_loop</Name>
 <Slack>10.95</Slack>
-<TripCount>
-<range>
-<min>0</min>
-<max>134217727</max>
-</range>
-</TripCount>
+<TripCount>8</TripCount>
 <isPerfectNested>1</isPerfectNested>
-<Latency>0 ~ ?</Latency>
-<AbsoluteTimeLatency>0 ns ~ ?</AbsoluteTimeLatency>
-<IterationLatency>
-<range>
-<min>476</min>
-<max>77577846682</max>
-</range>
-</IterationLatency>
-<PipelineDepth>476 ~ 77577846682</PipelineDepth>
+<Latency>230384</Latency>
+<AbsoluteTimeLatency>3.456 ms</AbsoluteTimeLatency>
+<IterationLatency>28798</IterationLatency>
+<PipelineDepth>28798</PipelineDepth>
 <PipelineType>no</PipelineType>
 <PerformancePragma>-</PerformancePragma>
 <InstanceList>
@@ -951,15 +931,10 @@
 <k_BLOCK_loop>
 <Name>k_BLOCK_loop</Name>
 <Slack>10.95</Slack>
-<TripCount>
-<range>
-<min>0</min>
-<max>134217727</max>
-</range>
-</TripCount>
+<TripCount>49</TripCount>
 <isPerfectNested>0</isPerfectNested>
-<Latency>0 ~ 77577846206</Latency>
-<AbsoluteTimeLatency>0 ns ~ 1.2e+03 sec</AbsoluteTimeLatency>
+<Latency>28322</Latency>
+<AbsoluteTimeLatency>0.425 ms</AbsoluteTimeLatency>
 <IterationLatency>578</IterationLatency>
 <PipelineDepth>578</PipelineDepth>
 <PipelineType>no</PipelineType>
@@ -978,7 +953,7 @@
 <PipelineType>no</PipelineType>
 <PerformancePragma>-</PerformancePragma>
 <InstanceList>
-<Instance>grp_MM_Pipeline_i_loop_fu_883</Instance>
+<Instance>grp_MM_Pipeline_i_loop_fu_881</Instance>
 </InstanceList>
 </k_loop>
 </k_BLOCK_loop>
@@ -1027,29 +1002,29 @@
 <Name>j_BLOCK_loop</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:50</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:51</SourceLocation>
 <k_BLOCK_loop>
 <Name>k_BLOCK_loop</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:57</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:59</SourceLocation>
 <k_loop>
 <Name>k_loop</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:57</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:59</SourceLocation>
 </k_loop>
 </k_BLOCK_loop>
 <j_output_loop>
 <Name>j_output_loop</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:79</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:82</SourceLocation>
 <i_output_loop>
 <Name>i_output_loop</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:84</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:87</SourceLocation>
 </i_output_loop>
 </j_output_loop>
 </j_BLOCK_loop>

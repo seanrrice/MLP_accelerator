@@ -41328,8 +41328,10 @@ __attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT __attribute__((align
  cout << "Entering MM..." << endl;
 
     i_BLOCK_loop: for(int ib = 0; ib < N/BLOCK_SIZE; ib ++){
+#pragma HLS LOOP_TRIPCOUNT min = 64 max = 64
 #pragma HLS PIPELINE off
  j_BLOCK_loop: for(int jb = 0; jb < P/BLOCK_SIZE; jb ++){
+#pragma HLS LOOP_TRIPCOUNT min = 8 max = 8
 #pragma HLS PIPELINE off
 
  block_init_outer_loop: for(int i=0;i<BLOCK_SIZE;i++){
@@ -41341,6 +41343,7 @@ __attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT __attribute__((align
             }
             k_BLOCK_loop: for (int kb = 0; kb < M/BLOCK_SIZE; kb ++){
 #pragma HLS PIPELINE off
+#pragma HLS LOOP_TRIPCOUNT min = 49 max = 49
  k_loop: for(int k = 0; k < BLOCK_SIZE; k++){
                     B_line = B[((kb*BLOCK_SIZE+k)*P + jb*BLOCK_SIZE) / BLOCK_SIZE];
 

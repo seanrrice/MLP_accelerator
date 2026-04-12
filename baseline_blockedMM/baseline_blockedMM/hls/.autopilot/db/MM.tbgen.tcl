@@ -205,21 +205,21 @@ set ArgLastReadFirstWriteLatency {
 		AB_block_0_1 {Type I LastRead 0 FirstWrite -1}
 		gmem_load_17 {Type I LastRead 0 FirstWrite -1}
 		empty {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_1 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_2 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_3 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_4 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_5 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_6 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_7 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_8 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_9 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_10 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_11 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_12 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_13 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_14 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_15 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_1 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_2 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_3 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_4 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_5 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_6 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_7 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_8 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_9 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_10 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_11 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_12 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_13 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_14 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_15 {Type I LastRead 0 FirstWrite -1}
 		AB_block_15_2_out {Type O LastRead -1 FirstWrite 1}
 		AB_block_14_2_out {Type O LastRead -1 FirstWrite 1}
 		AB_block_13_2_out {Type O LastRead -1 FirstWrite 1}
@@ -240,8 +240,8 @@ set ArgLastReadFirstWriteLatency {
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "1", "Max" : "-1"}
-	, {"Name" : "Interval", "Min" : "2", "Max" : "0"}
+	{"Name" : "Latency", "Min" : "14744705", "Max" : "14744705"}
+	, {"Name" : "Interval", "Min" : "14744706", "Max" : "14744706"}
 ]}
 
 set PipelineEnableSignalInfo {[

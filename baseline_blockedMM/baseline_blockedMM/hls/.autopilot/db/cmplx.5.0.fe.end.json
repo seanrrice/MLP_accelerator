@@ -1,25 +1,4 @@
 {
-    "1": {
-        "name": "MM_Pipeline_i_loop",
-        "file": "..\/MLP_baseline\/mm.cpp",
-        "fileloc": "67",
-        "instructions": "469",
-        "total_instructions": "469",
-        "calls": "",
-        "basicblocks": "21",
-        "memory_accesses": "34",
-        "control_depth": "2",
-        "def_use_depth": "1",
-        "loads": {
-            "L": "33"
-        },
-        "stores": {
-            "L": "34"
-        },
-        "loops": {
-            "L": "1"
-        }
-    },
     "0": {
         "name": "MM",
         "file": "mm.cpp",
@@ -40,6 +19,27 @@
         "loops": {
             "L": "1",
             "N": "5"
+        }
+    },
+    "1": {
+        "name": "MM_Pipeline_i_loop",
+        "file": "..\/MLP_baseline\/mm.cpp",
+        "fileloc": "70",
+        "instructions": "469",
+        "total_instructions": "469",
+        "calls": "",
+        "basicblocks": "21",
+        "memory_accesses": "34",
+        "control_depth": "2",
+        "def_use_depth": "1",
+        "loads": {
+            "L": "33"
+        },
+        "stores": {
+            "L": "34"
+        },
+        "loops": {
+            "L": "1"
         }
     }
 }

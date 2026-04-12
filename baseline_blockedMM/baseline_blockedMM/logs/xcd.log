@@ -2014,3 +2014,28 @@
 04/10/26 16:03:58: Socket received request to stop server.
 04/10/26 16:03:58: Dispatch Server: do_await_stop
 04/10/26 16:03:58: SERVER: destructor for server bound to port 52676
+04/11/26 17:09:13: Running xcd server. This server was built by gradle.
+04/11/26 17:09:13: Server was asked to start on port: '59000'
+04/11/26 17:09:13: Server is using token UUID: 'e75b6362-543b-49d6-bd22-f5cd94755035'
+04/11/26 17:09:13: SESSION_MGR: creating session with session uuid: '6d04a3e9-ade5-4ab9-8d63-1f78fcd2ec76' and name 'default'
+04/11/26 17:09:13: Attempting to start server on port '59000'
+04/11/26 17:09:13: Running Dispatch Server
+04/11/26 17:09:13: Version 2.2.0
+04/11/26 17:09:15: Dispatch Server: Accepted socket connection from client
+04/11/26 17:09:15: Starting Socket connection
+04/11/26 17:09:15: EXCHANGE_TOKEN received, server token: e75b6362-543b-49d6-bd22-f5cd94755035, passed token: e75b6362-543b-49d6-bd22-f5cd94755035
+04/11/26 17:09:16: DISPATCH_HANDLER: Adding handler from function makeHandler in library xv_system_diagram
+04/11/26 17:09:16: SESSION_MGR: creating session with session uuid: '5b177805-aeee-4773-90bc-7477118520c3' and name 'v++_compile_baseline_blockedMM'
+04/11/26 17:09:16: KERNEL_SVC: creating session with uuid: '5b177805-aeee-4773-90bc-7477118520c3' and name 'v++_compile_baseline_blockedMM'
+04/11/26 17:09:16: GUIDANCE_SMGR: creating guidance session with uuid: '5b177805-aeee-4773-90bc-7477118520c3' and name 'v++_compile_baseline_blockedMM'
+04/11/26 17:09:16: SYSTEM_DIAGRAM: creating session with uuid: '5b177805-aeee-4773-90bc-7477118520c3' and name 'v++_compile_baseline_blockedMM'
+04/11/26 17:09:30: Dispatch Server: Accepted socket connection from client
+04/11/26 17:09:30: Starting Socket connection
+04/11/26 17:10:18: SESSION_MGR: closing session for UUID '5b177805-aeee-4773-90bc-7477118520c3' with name 'v++_compile_baseline_blockedMM'
+04/11/26 17:10:18: KERNEL_SVC: closing session for UUID '5b177805-aeee-4773-90bc-7477118520c3' with name 'v++_compile_baseline_blockedMM'
+04/11/26 17:10:18: GUIDANCE_SMGR: closing session for UUID '5b177805-aeee-4773-90bc-7477118520c3' with name 'v++_compile_baseline_blockedMM'
+04/11/26 17:10:18: SYSTEM_DIAGRAM: closing session for UUID '5b177805-aeee-4773-90bc-7477118520c3' with name 'v++_compile_baseline_blockedMM'
+04/11/26 17:10:18: STOP_SERVER received, server token: e75b6362-543b-49d6-bd22-f5cd94755035, passed token: e75b6362-543b-49d6-bd22-f5cd94755035
+04/11/26 17:10:18: Socket received request to stop server.
+04/11/26 17:10:18: Dispatch Server: do_await_stop
+04/11/26 17:10:18: SERVER: destructor for server bound to port 59000

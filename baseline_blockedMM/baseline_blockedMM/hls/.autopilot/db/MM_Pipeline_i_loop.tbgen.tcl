@@ -37,21 +37,21 @@ set C_modelArgList {
 	{ AB_block_0_1 int 512 regular  }
 	{ gmem_load_17 int 512 regular  }
 	{ empty int 32 regular  }
-	{ trunc_ln63_1 int 32 regular  }
-	{ trunc_ln63_2 int 32 regular  }
-	{ trunc_ln63_3 int 32 regular  }
-	{ trunc_ln63_4 int 32 regular  }
-	{ trunc_ln63_5 int 32 regular  }
-	{ trunc_ln63_6 int 32 regular  }
-	{ trunc_ln63_7 int 32 regular  }
-	{ trunc_ln63_8 int 32 regular  }
-	{ trunc_ln63_9 int 32 regular  }
-	{ trunc_ln63_10 int 32 regular  }
-	{ trunc_ln63_11 int 32 regular  }
-	{ trunc_ln63_12 int 32 regular  }
-	{ trunc_ln63_13 int 32 regular  }
-	{ trunc_ln63_14 int 32 regular  }
-	{ trunc_ln63_15 int 32 regular  }
+	{ trunc_ln66_1 int 32 regular  }
+	{ trunc_ln66_2 int 32 regular  }
+	{ trunc_ln66_3 int 32 regular  }
+	{ trunc_ln66_4 int 32 regular  }
+	{ trunc_ln66_5 int 32 regular  }
+	{ trunc_ln66_6 int 32 regular  }
+	{ trunc_ln66_7 int 32 regular  }
+	{ trunc_ln66_8 int 32 regular  }
+	{ trunc_ln66_9 int 32 regular  }
+	{ trunc_ln66_10 int 32 regular  }
+	{ trunc_ln66_11 int 32 regular  }
+	{ trunc_ln66_12 int 32 regular  }
+	{ trunc_ln66_13 int 32 regular  }
+	{ trunc_ln66_14 int 32 regular  }
+	{ trunc_ln66_15 int 32 regular  }
 	{ AB_block_15_2_out int 512 regular {pointer 1}  }
 	{ AB_block_14_2_out int 512 regular {pointer 1}  }
 	{ AB_block_13_2_out int 512 regular {pointer 1}  }
@@ -91,21 +91,21 @@ set C_modelArgMapList {[
  	{ "Name" : "AB_block_0_1", "interface" : "wire", "bitwidth" : 512, "direction" : "READONLY"} , 
  	{ "Name" : "gmem_load_17", "interface" : "wire", "bitwidth" : 512, "direction" : "READONLY"} , 
  	{ "Name" : "empty", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
- 	{ "Name" : "trunc_ln63_1", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
- 	{ "Name" : "trunc_ln63_2", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
- 	{ "Name" : "trunc_ln63_3", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
- 	{ "Name" : "trunc_ln63_4", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
- 	{ "Name" : "trunc_ln63_5", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
- 	{ "Name" : "trunc_ln63_6", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
- 	{ "Name" : "trunc_ln63_7", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
- 	{ "Name" : "trunc_ln63_8", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
- 	{ "Name" : "trunc_ln63_9", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
- 	{ "Name" : "trunc_ln63_10", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
- 	{ "Name" : "trunc_ln63_11", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
- 	{ "Name" : "trunc_ln63_12", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
- 	{ "Name" : "trunc_ln63_13", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
- 	{ "Name" : "trunc_ln63_14", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
- 	{ "Name" : "trunc_ln63_15", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
+ 	{ "Name" : "trunc_ln66_1", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
+ 	{ "Name" : "trunc_ln66_2", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
+ 	{ "Name" : "trunc_ln66_3", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
+ 	{ "Name" : "trunc_ln66_4", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
+ 	{ "Name" : "trunc_ln66_5", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
+ 	{ "Name" : "trunc_ln66_6", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
+ 	{ "Name" : "trunc_ln66_7", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
+ 	{ "Name" : "trunc_ln66_8", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
+ 	{ "Name" : "trunc_ln66_9", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
+ 	{ "Name" : "trunc_ln66_10", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
+ 	{ "Name" : "trunc_ln66_11", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
+ 	{ "Name" : "trunc_ln66_12", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
+ 	{ "Name" : "trunc_ln66_13", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
+ 	{ "Name" : "trunc_ln66_14", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
+ 	{ "Name" : "trunc_ln66_15", "interface" : "wire", "bitwidth" : 32, "direction" : "READONLY"} , 
  	{ "Name" : "AB_block_15_2_out", "interface" : "wire", "bitwidth" : 512, "direction" : "WRITEONLY"} , 
  	{ "Name" : "AB_block_14_2_out", "interface" : "wire", "bitwidth" : 512, "direction" : "WRITEONLY"} , 
  	{ "Name" : "AB_block_13_2_out", "interface" : "wire", "bitwidth" : 512, "direction" : "WRITEONLY"} , 
@@ -149,21 +149,21 @@ set portList {
 	{ AB_block_0_1 sc_in sc_lv 512 signal 15 } 
 	{ gmem_load_17 sc_in sc_lv 512 signal 16 } 
 	{ empty sc_in sc_lv 32 signal 17 } 
-	{ trunc_ln63_1 sc_in sc_lv 32 signal 18 } 
-	{ trunc_ln63_2 sc_in sc_lv 32 signal 19 } 
-	{ trunc_ln63_3 sc_in sc_lv 32 signal 20 } 
-	{ trunc_ln63_4 sc_in sc_lv 32 signal 21 } 
-	{ trunc_ln63_5 sc_in sc_lv 32 signal 22 } 
-	{ trunc_ln63_6 sc_in sc_lv 32 signal 23 } 
-	{ trunc_ln63_7 sc_in sc_lv 32 signal 24 } 
-	{ trunc_ln63_8 sc_in sc_lv 32 signal 25 } 
-	{ trunc_ln63_9 sc_in sc_lv 32 signal 26 } 
-	{ trunc_ln63_10 sc_in sc_lv 32 signal 27 } 
-	{ trunc_ln63_11 sc_in sc_lv 32 signal 28 } 
-	{ trunc_ln63_12 sc_in sc_lv 32 signal 29 } 
-	{ trunc_ln63_13 sc_in sc_lv 32 signal 30 } 
-	{ trunc_ln63_14 sc_in sc_lv 32 signal 31 } 
-	{ trunc_ln63_15 sc_in sc_lv 32 signal 32 } 
+	{ trunc_ln66_1 sc_in sc_lv 32 signal 18 } 
+	{ trunc_ln66_2 sc_in sc_lv 32 signal 19 } 
+	{ trunc_ln66_3 sc_in sc_lv 32 signal 20 } 
+	{ trunc_ln66_4 sc_in sc_lv 32 signal 21 } 
+	{ trunc_ln66_5 sc_in sc_lv 32 signal 22 } 
+	{ trunc_ln66_6 sc_in sc_lv 32 signal 23 } 
+	{ trunc_ln66_7 sc_in sc_lv 32 signal 24 } 
+	{ trunc_ln66_8 sc_in sc_lv 32 signal 25 } 
+	{ trunc_ln66_9 sc_in sc_lv 32 signal 26 } 
+	{ trunc_ln66_10 sc_in sc_lv 32 signal 27 } 
+	{ trunc_ln66_11 sc_in sc_lv 32 signal 28 } 
+	{ trunc_ln66_12 sc_in sc_lv 32 signal 29 } 
+	{ trunc_ln66_13 sc_in sc_lv 32 signal 30 } 
+	{ trunc_ln66_14 sc_in sc_lv 32 signal 31 } 
+	{ trunc_ln66_15 sc_in sc_lv 32 signal 32 } 
 	{ AB_block_15_2_out sc_out sc_lv 512 signal 33 } 
 	{ AB_block_15_2_out_ap_vld sc_out sc_logic 1 outvld 33 } 
 	{ AB_block_14_2_out sc_out sc_lv 512 signal 34 } 
@@ -222,21 +222,21 @@ set NewPortList {[
  	{ "name": "AB_block_0_1", "direction": "in", "datatype": "sc_lv", "bitwidth":512, "type": "signal", "bundle":{"name": "AB_block_0_1", "role": "default" }} , 
  	{ "name": "gmem_load_17", "direction": "in", "datatype": "sc_lv", "bitwidth":512, "type": "signal", "bundle":{"name": "gmem_load_17", "role": "default" }} , 
  	{ "name": "empty", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "empty", "role": "default" }} , 
- 	{ "name": "trunc_ln63_1", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln63_1", "role": "default" }} , 
- 	{ "name": "trunc_ln63_2", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln63_2", "role": "default" }} , 
- 	{ "name": "trunc_ln63_3", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln63_3", "role": "default" }} , 
- 	{ "name": "trunc_ln63_4", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln63_4", "role": "default" }} , 
- 	{ "name": "trunc_ln63_5", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln63_5", "role": "default" }} , 
- 	{ "name": "trunc_ln63_6", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln63_6", "role": "default" }} , 
- 	{ "name": "trunc_ln63_7", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln63_7", "role": "default" }} , 
- 	{ "name": "trunc_ln63_8", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln63_8", "role": "default" }} , 
- 	{ "name": "trunc_ln63_9", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln63_9", "role": "default" }} , 
- 	{ "name": "trunc_ln63_10", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln63_10", "role": "default" }} , 
- 	{ "name": "trunc_ln63_11", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln63_11", "role": "default" }} , 
- 	{ "name": "trunc_ln63_12", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln63_12", "role": "default" }} , 
- 	{ "name": "trunc_ln63_13", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln63_13", "role": "default" }} , 
- 	{ "name": "trunc_ln63_14", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln63_14", "role": "default" }} , 
- 	{ "name": "trunc_ln63_15", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln63_15", "role": "default" }} , 
+ 	{ "name": "trunc_ln66_1", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln66_1", "role": "default" }} , 
+ 	{ "name": "trunc_ln66_2", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln66_2", "role": "default" }} , 
+ 	{ "name": "trunc_ln66_3", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln66_3", "role": "default" }} , 
+ 	{ "name": "trunc_ln66_4", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln66_4", "role": "default" }} , 
+ 	{ "name": "trunc_ln66_5", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln66_5", "role": "default" }} , 
+ 	{ "name": "trunc_ln66_6", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln66_6", "role": "default" }} , 
+ 	{ "name": "trunc_ln66_7", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln66_7", "role": "default" }} , 
+ 	{ "name": "trunc_ln66_8", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln66_8", "role": "default" }} , 
+ 	{ "name": "trunc_ln66_9", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln66_9", "role": "default" }} , 
+ 	{ "name": "trunc_ln66_10", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln66_10", "role": "default" }} , 
+ 	{ "name": "trunc_ln66_11", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln66_11", "role": "default" }} , 
+ 	{ "name": "trunc_ln66_12", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln66_12", "role": "default" }} , 
+ 	{ "name": "trunc_ln66_13", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln66_13", "role": "default" }} , 
+ 	{ "name": "trunc_ln66_14", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln66_14", "role": "default" }} , 
+ 	{ "name": "trunc_ln66_15", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "trunc_ln66_15", "role": "default" }} , 
  	{ "name": "AB_block_15_2_out", "direction": "out", "datatype": "sc_lv", "bitwidth":512, "type": "signal", "bundle":{"name": "AB_block_15_2_out", "role": "default" }} , 
  	{ "name": "AB_block_15_2_out_ap_vld", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "outvld", "bundle":{"name": "AB_block_15_2_out", "role": "ap_vld" }} , 
  	{ "name": "AB_block_14_2_out", "direction": "out", "datatype": "sc_lv", "bitwidth":512, "type": "signal", "bundle":{"name": "AB_block_14_2_out", "role": "default" }} , 
@@ -290,21 +290,21 @@ set ArgLastReadFirstWriteLatency {
 		AB_block_0_1 {Type I LastRead 0 FirstWrite -1}
 		gmem_load_17 {Type I LastRead 0 FirstWrite -1}
 		empty {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_1 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_2 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_3 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_4 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_5 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_6 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_7 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_8 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_9 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_10 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_11 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_12 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_13 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_14 {Type I LastRead 0 FirstWrite -1}
-		trunc_ln63_15 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_1 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_2 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_3 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_4 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_5 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_6 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_7 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_8 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_9 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_10 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_11 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_12 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_13 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_14 {Type I LastRead 0 FirstWrite -1}
+		trunc_ln66_15 {Type I LastRead 0 FirstWrite -1}
 		AB_block_15_2_out {Type O LastRead -1 FirstWrite 1}
 		AB_block_14_2_out {Type O LastRead -1 FirstWrite 1}
 		AB_block_13_2_out {Type O LastRead -1 FirstWrite 1}
@@ -352,21 +352,21 @@ set Spec2ImplPortList {
 	AB_block_0_1 { ap_none {  { AB_block_0_1 in_data 0 512 } } }
 	gmem_load_17 { ap_none {  { gmem_load_17 in_data 0 512 } } }
 	empty { ap_none {  { empty in_data 0 32 } } }
-	trunc_ln63_1 { ap_none {  { trunc_ln63_1 in_data 0 32 } } }
-	trunc_ln63_2 { ap_none {  { trunc_ln63_2 in_data 0 32 } } }
-	trunc_ln63_3 { ap_none {  { trunc_ln63_3 in_data 0 32 } } }
-	trunc_ln63_4 { ap_none {  { trunc_ln63_4 in_data 0 32 } } }
-	trunc_ln63_5 { ap_none {  { trunc_ln63_5 in_data 0 32 } } }
-	trunc_ln63_6 { ap_none {  { trunc_ln63_6 in_data 0 32 } } }
-	trunc_ln63_7 { ap_none {  { trunc_ln63_7 in_data 0 32 } } }
-	trunc_ln63_8 { ap_none {  { trunc_ln63_8 in_data 0 32 } } }
-	trunc_ln63_9 { ap_none {  { trunc_ln63_9 in_data 0 32 } } }
-	trunc_ln63_10 { ap_none {  { trunc_ln63_10 in_data 0 32 } } }
-	trunc_ln63_11 { ap_none {  { trunc_ln63_11 in_data 0 32 } } }
-	trunc_ln63_12 { ap_none {  { trunc_ln63_12 in_data 0 32 } } }
-	trunc_ln63_13 { ap_none {  { trunc_ln63_13 in_data 0 32 } } }
-	trunc_ln63_14 { ap_none {  { trunc_ln63_14 in_data 0 32 } } }
-	trunc_ln63_15 { ap_none {  { trunc_ln63_15 in_data 0 32 } } }
+	trunc_ln66_1 { ap_none {  { trunc_ln66_1 in_data 0 32 } } }
+	trunc_ln66_2 { ap_none {  { trunc_ln66_2 in_data 0 32 } } }
+	trunc_ln66_3 { ap_none {  { trunc_ln66_3 in_data 0 32 } } }
+	trunc_ln66_4 { ap_none {  { trunc_ln66_4 in_data 0 32 } } }
+	trunc_ln66_5 { ap_none {  { trunc_ln66_5 in_data 0 32 } } }
+	trunc_ln66_6 { ap_none {  { trunc_ln66_6 in_data 0 32 } } }
+	trunc_ln66_7 { ap_none {  { trunc_ln66_7 in_data 0 32 } } }
+	trunc_ln66_8 { ap_none {  { trunc_ln66_8 in_data 0 32 } } }
+	trunc_ln66_9 { ap_none {  { trunc_ln66_9 in_data 0 32 } } }
+	trunc_ln66_10 { ap_none {  { trunc_ln66_10 in_data 0 32 } } }
+	trunc_ln66_11 { ap_none {  { trunc_ln66_11 in_data 0 32 } } }
+	trunc_ln66_12 { ap_none {  { trunc_ln66_12 in_data 0 32 } } }
+	trunc_ln66_13 { ap_none {  { trunc_ln66_13 in_data 0 32 } } }
+	trunc_ln66_14 { ap_none {  { trunc_ln66_14 in_data 0 32 } } }
+	trunc_ln66_15 { ap_none {  { trunc_ln66_15 in_data 0 32 } } }
 	AB_block_15_2_out { ap_vld {  { AB_block_15_2_out out_data 1 512 }  { AB_block_15_2_out_ap_vld out_vld 1 1 } } }
 	AB_block_14_2_out { ap_vld {  { AB_block_14_2_out out_data 1 512 }  { AB_block_14_2_out_ap_vld out_vld 1 1 } } }
 	AB_block_13_2_out { ap_vld {  { AB_block_13_2_out out_data 1 512 }  { AB_block_13_2_out_ap_vld out_vld 1 1 } } }

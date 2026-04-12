@@ -29,7 +29,7 @@ Args:
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 57, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 59, Column: 2 }
 Function:        MM
 Args:            
   - Callee:          'std::array<int, 16ul>::operator[](unsigned long)'
@@ -43,7 +43,7 @@ Args:
 --- !Passed
 Pass:            reflow-infer-unroll
 Name:            ImplicitUnroll
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 70, Column: 10 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 73, Column: 10 }
 Function:        MM
 Args:            
   - String:          'Loop '''
@@ -59,22 +59,6 @@ Args:
   - String:          'Unrolling loop '''
   - LoopName:        block_init_outer_loop
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:53:25'
-  - String:          ') '
-  - String:          'in function '''
-  - String:          MM
-  - String:          ''' completely with a factor of '
-  - Factor:          '16'
-...
---- !Passed
-Pass:            reflow-pragma-loop-unroll
-Name:            PragmaFullyUnroll
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
-Function:        MM
-Args:            
-  - String:          'Unrolling loop '''
-  - LoopName:        block_init_inner_loop
-  - String:          ''' ('
   - LoopLoc:         '../MLP_baseline/mm.cpp:55:25'
   - String:          ') '
   - String:          'in function '''
@@ -91,7 +75,7 @@ Args:
   - String:          'Unrolling loop '''
   - LoopName:        block_init_inner_loop
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:55:25'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:57:25'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -107,7 +91,7 @@ Args:
   - String:          'Unrolling loop '''
   - LoopName:        block_init_inner_loop
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:55:25'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:57:25'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -123,7 +107,7 @@ Args:
   - String:          'Unrolling loop '''
   - LoopName:        block_init_inner_loop
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:55:25'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:57:25'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -139,7 +123,7 @@ Args:
   - String:          'Unrolling loop '''
   - LoopName:        block_init_inner_loop
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:55:25'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:57:25'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -155,7 +139,7 @@ Args:
   - String:          'Unrolling loop '''
   - LoopName:        block_init_inner_loop
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:55:25'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:57:25'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -171,7 +155,7 @@ Args:
   - String:          'Unrolling loop '''
   - LoopName:        block_init_inner_loop
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:55:25'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:57:25'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -187,7 +171,7 @@ Args:
   - String:          'Unrolling loop '''
   - LoopName:        block_init_inner_loop
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:55:25'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:57:25'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -203,7 +187,7 @@ Args:
   - String:          'Unrolling loop '''
   - LoopName:        block_init_inner_loop
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:55:25'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:57:25'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -219,7 +203,7 @@ Args:
   - String:          'Unrolling loop '''
   - LoopName:        block_init_inner_loop
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:55:25'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:57:25'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -235,7 +219,7 @@ Args:
   - String:          'Unrolling loop '''
   - LoopName:        block_init_inner_loop
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:55:25'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:57:25'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -251,7 +235,7 @@ Args:
   - String:          'Unrolling loop '''
   - LoopName:        block_init_inner_loop
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:55:25'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:57:25'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -267,7 +251,7 @@ Args:
   - String:          'Unrolling loop '''
   - LoopName:        block_init_inner_loop
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:55:25'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:57:25'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -283,7 +267,7 @@ Args:
   - String:          'Unrolling loop '''
   - LoopName:        block_init_inner_loop
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:55:25'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:57:25'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -299,7 +283,7 @@ Args:
   - String:          'Unrolling loop '''
   - LoopName:        block_init_inner_loop
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:55:25'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:57:25'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -315,7 +299,23 @@ Args:
   - String:          'Unrolling loop '''
   - LoopName:        block_init_inner_loop
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:55:25'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:57:25'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MM
+  - String:          ''' completely with a factor of '
+  - Factor:          '16'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
+Function:        MM
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        block_init_inner_loop
+  - String:          ''' ('
+  - LoopLoc:         '../MLP_baseline/mm.cpp:57:25'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -331,7 +331,7 @@ Args:
   - String:          'Unrolling loop '''
   - LoopName:        j_loop
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:70:10'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:73:10'
   - String:          ') '
   - String:          'in function '''
   - String:          MM
@@ -341,7 +341,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 72, Column: 32 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 75, Column: 32 }
 Function:        MM
 Args:            
   - String:          'Duplicating function '''
@@ -351,7 +351,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 72, Column: 32 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 75, Column: 32 }
 Function:        MM
 Args:            
   - String:          'Duplicating function '''
@@ -361,7 +361,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 72, Column: 32 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 75, Column: 32 }
 Function:        MM
 Args:            
   - String:          'Duplicating function '''
@@ -371,7 +371,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 72, Column: 32 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 75, Column: 32 }
 Function:        MM
 Args:            
   - String:          'Duplicating function '''
@@ -381,7 +381,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 72, Column: 32 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 75, Column: 32 }
 Function:        MM
 Args:            
   - String:          'Duplicating function '''
@@ -391,7 +391,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 72, Column: 32 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 75, Column: 32 }
 Function:        MM
 Args:            
   - String:          'Duplicating function '''
@@ -401,7 +401,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 72, Column: 32 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 75, Column: 32 }
 Function:        MM
 Args:            
   - String:          'Duplicating function '''
@@ -411,7 +411,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 72, Column: 32 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 75, Column: 32 }
 Function:        MM
 Args:            
   - String:          'Duplicating function '''
@@ -421,7 +421,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 72, Column: 32 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 75, Column: 32 }
 Function:        MM
 Args:            
   - String:          'Duplicating function '''
@@ -431,7 +431,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 72, Column: 32 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 75, Column: 32 }
 Function:        MM
 Args:            
   - String:          'Duplicating function '''
@@ -441,7 +441,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 72, Column: 32 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 75, Column: 32 }
 Function:        MM
 Args:            
   - String:          'Duplicating function '''
@@ -451,7 +451,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 72, Column: 32 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 75, Column: 32 }
 Function:        MM
 Args:            
   - String:          'Duplicating function '''
@@ -461,7 +461,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 72, Column: 32 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 75, Column: 32 }
 Function:        MM
 Args:            
   - String:          'Duplicating function '''
@@ -471,7 +471,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 72, Column: 32 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 75, Column: 32 }
 Function:        MM
 Args:            
   - String:          'Duplicating function '''
@@ -481,7 +481,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 72, Column: 32 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 75, Column: 32 }
 Function:        MM
 Args:            
   - String:          'Duplicating function '''
@@ -491,7 +491,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 84, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 87, Column: 2 }
 Function:        MM
 Args:            
   - String:          'Duplicating function '''
@@ -501,7 +501,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 72, Column: 32 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 75, Column: 32 }
 Function:        MM
 Args:            
   - String:          'Duplicating function '''
@@ -511,7 +511,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 72, Column: 20 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 75, Column: 20 }
 Function:        MM
 Args:            
   - String:          'Duplicating function '''
@@ -564,7 +564,7 @@ Args:
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 57, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 59, Column: 2 }
 Function:        MM
 Args:            
   - Callee:          'std::array<int, 16ul>::operator[](unsigned long)'
@@ -578,7 +578,7 @@ Args:
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 72, Column: 20 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 75, Column: 20 }
 Function:        MM
 Args:            
   - Callee:          'std::array<int, 16ul>::operator[](unsigned long) (.1)'
@@ -746,7 +746,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 81, Column: 13 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 84, Column: 13 }
 Function:        MM
 Args:            
   - String:          'Aggregating '
@@ -1033,7 +1033,7 @@ Args:
   - String:          ' '
   - LoopName:        j_BLOCK_loop
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:50:16'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:51:16'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
@@ -1091,30 +1091,6 @@ Args:
 --- !Missed
 Pass:            reflow-burst-inference
 Name:            CouldNotAnalyzePattern
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 28 }
-Function:        MM
-Args:            
-  - String:          Could not analyze pattern
-  - String:          ' _XLX_SEP_ '
-  - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 63, Column: 28 }
-  - OrigDirection:   read
-  - OrigID:          i_loop.load.8
-  - ArrayName:       B
-  - String:          ' '
-  - BundleName:      gmem
-  - String:          ' '
-  - LoopName:        k_loop
-  - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:62:10'
-  - String:          ' '
-  - Function:        MM
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
-  - String:          ' '
-...
---- !Missed
-Pass:            reflow-burst-inference
-Name:            CouldNotAnalyzePattern
 DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 28 }
 Function:        MM
 Args:            
@@ -1123,14 +1099,14 @@ Args:
   - OrigAccess:      load
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 28 }
   - OrigDirection:   read
-  - OrigID:          i_loop.load.31
-  - ArrayName:       AT
+  - OrigID:          i_loop.load.8
+  - ArrayName:       B
   - String:          ' '
   - BundleName:      gmem
   - String:          ' '
   - LoopName:        k_loop
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:62:10'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:65:10'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
@@ -1139,13 +1115,37 @@ Args:
 --- !Missed
 Pass:            reflow-burst-inference
 Name:            CouldNotAnalyzePattern
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 86, Column: 71 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 69, Column: 28 }
+Function:        MM
+Args:            
+  - String:          Could not analyze pattern
+  - String:          ' _XLX_SEP_ '
+  - OrigAccess:      load
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 69, Column: 28 }
+  - OrigDirection:   read
+  - OrigID:          i_loop.load.31
+  - ArrayName:       AT
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        k_loop
+  - String:          ' '
+  - LoopLoc:         '../MLP_baseline/mm.cpp:65:10'
+  - String:          ' '
+  - Function:        MM
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzePattern
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 89, Column: 71 }
 Function:        MM
 Args:            
   - String:          Could not analyze pattern
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 86, Column: 71 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 89, Column: 71 }
   - OrigDirection:   write
   - OrigID:          for.inc105.store.72
   - ArrayName:       ABC
@@ -1154,7 +1154,7 @@ Args:
   - String:          ' '
   - LoopName:        j_output_loop
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:79:28'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:82:28'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
@@ -1176,7 +1176,7 @@ Args:
   - String:          ' '
   - LoopName:        j_BLOCK_loop
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:50:16'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:51:16'
   - String:          ' '
   - Function:        MM
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 6, Column: 0 }
@@ -1206,7 +1206,7 @@ Args:
 --- !Passed
 Pass:            reflow-loop-flatten-cost-model
 Name:            FlattenOffInference
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 62, Column: 10 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 65, Column: 10 }
 Function:        MM
 Args:            
   - String:          'Automatically disabling loop flattening for loop '''
@@ -1216,7 +1216,7 @@ Args:
 --- !Passed
 Pass:            reflow-loop-flatten-cost-model
 Name:            AutoParallelPerformanceDrivenVerbosePassed
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 62, Column: 10 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 65, Column: 10 }
 Function:        MM
 Args:            
   - PragmaType:      loop_flatten
@@ -1227,12 +1227,12 @@ Args:
   - String:          ' '
   - PragmaFunction:  MM
   - String:          ' '
-  - PragmaSrcLoc:    '../MLP_baseline/mm.cpp:62:10'
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 62, Column: 10 }
+  - PragmaSrcLoc:    '../MLP_baseline/mm.cpp:65:10'
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 65, Column: 10 }
   - LoopName:        k_loop
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:62:10'
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 62, Column: 10 }
+  - LoopLoc:         '../MLP_baseline/mm.cpp:65:10'
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 65, Column: 10 }
   - String:          ' '
 ...
 --- !Missed

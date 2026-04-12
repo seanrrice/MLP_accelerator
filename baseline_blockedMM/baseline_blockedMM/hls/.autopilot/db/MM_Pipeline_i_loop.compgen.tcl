@@ -292,14 +292,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 53 \
-    name trunc_ln63_1 \
+    name trunc_ln66_1 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_trunc_ln63_1 \
+    corename dc_trunc_ln66_1 \
     op interface \
-    ports { trunc_ln63_1 { I 32 vector } } \
+    ports { trunc_ln66_1 { I 32 vector } } \
 } "
 }
 
@@ -307,14 +307,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 54 \
-    name trunc_ln63_2 \
+    name trunc_ln66_2 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_trunc_ln63_2 \
+    corename dc_trunc_ln66_2 \
     op interface \
-    ports { trunc_ln63_2 { I 32 vector } } \
+    ports { trunc_ln66_2 { I 32 vector } } \
 } "
 }
 
@@ -322,14 +322,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 55 \
-    name trunc_ln63_3 \
+    name trunc_ln66_3 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_trunc_ln63_3 \
+    corename dc_trunc_ln66_3 \
     op interface \
-    ports { trunc_ln63_3 { I 32 vector } } \
+    ports { trunc_ln66_3 { I 32 vector } } \
 } "
 }
 
@@ -337,14 +337,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 56 \
-    name trunc_ln63_4 \
+    name trunc_ln66_4 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_trunc_ln63_4 \
+    corename dc_trunc_ln66_4 \
     op interface \
-    ports { trunc_ln63_4 { I 32 vector } } \
+    ports { trunc_ln66_4 { I 32 vector } } \
 } "
 }
 
@@ -352,14 +352,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 57 \
-    name trunc_ln63_5 \
+    name trunc_ln66_5 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_trunc_ln63_5 \
+    corename dc_trunc_ln66_5 \
     op interface \
-    ports { trunc_ln63_5 { I 32 vector } } \
+    ports { trunc_ln66_5 { I 32 vector } } \
 } "
 }
 
@@ -367,14 +367,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 58 \
-    name trunc_ln63_6 \
+    name trunc_ln66_6 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_trunc_ln63_6 \
+    corename dc_trunc_ln66_6 \
     op interface \
-    ports { trunc_ln63_6 { I 32 vector } } \
+    ports { trunc_ln66_6 { I 32 vector } } \
 } "
 }
 
@@ -382,14 +382,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 59 \
-    name trunc_ln63_7 \
+    name trunc_ln66_7 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_trunc_ln63_7 \
+    corename dc_trunc_ln66_7 \
     op interface \
-    ports { trunc_ln63_7 { I 32 vector } } \
+    ports { trunc_ln66_7 { I 32 vector } } \
 } "
 }
 
@@ -397,14 +397,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 60 \
-    name trunc_ln63_8 \
+    name trunc_ln66_8 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_trunc_ln63_8 \
+    corename dc_trunc_ln66_8 \
     op interface \
-    ports { trunc_ln63_8 { I 32 vector } } \
+    ports { trunc_ln66_8 { I 32 vector } } \
 } "
 }
 
@@ -412,14 +412,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 61 \
-    name trunc_ln63_9 \
+    name trunc_ln66_9 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_trunc_ln63_9 \
+    corename dc_trunc_ln66_9 \
     op interface \
-    ports { trunc_ln63_9 { I 32 vector } } \
+    ports { trunc_ln66_9 { I 32 vector } } \
 } "
 }
 
@@ -427,14 +427,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 62 \
-    name trunc_ln63_10 \
+    name trunc_ln66_10 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_trunc_ln63_10 \
+    corename dc_trunc_ln66_10 \
     op interface \
-    ports { trunc_ln63_10 { I 32 vector } } \
+    ports { trunc_ln66_10 { I 32 vector } } \
 } "
 }
 
@@ -442,14 +442,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 63 \
-    name trunc_ln63_11 \
+    name trunc_ln66_11 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_trunc_ln63_11 \
+    corename dc_trunc_ln66_11 \
     op interface \
-    ports { trunc_ln63_11 { I 32 vector } } \
+    ports { trunc_ln66_11 { I 32 vector } } \
 } "
 }
 
@@ -457,14 +457,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 64 \
-    name trunc_ln63_12 \
+    name trunc_ln66_12 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_trunc_ln63_12 \
+    corename dc_trunc_ln66_12 \
     op interface \
-    ports { trunc_ln63_12 { I 32 vector } } \
+    ports { trunc_ln66_12 { I 32 vector } } \
 } "
 }
 
@@ -472,14 +472,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 65 \
-    name trunc_ln63_13 \
+    name trunc_ln66_13 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_trunc_ln63_13 \
+    corename dc_trunc_ln66_13 \
     op interface \
-    ports { trunc_ln63_13 { I 32 vector } } \
+    ports { trunc_ln66_13 { I 32 vector } } \
 } "
 }
 
@@ -487,14 +487,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 66 \
-    name trunc_ln63_14 \
+    name trunc_ln66_14 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_trunc_ln63_14 \
+    corename dc_trunc_ln66_14 \
     op interface \
-    ports { trunc_ln63_14 { I 32 vector } } \
+    ports { trunc_ln66_14 { I 32 vector } } \
 } "
 }
 
@@ -502,14 +502,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 67 \
-    name trunc_ln63_15 \
+    name trunc_ln66_15 \
     type other \
     dir I \
     reset_level 1 \
     sync_rst true \
-    corename dc_trunc_ln63_15 \
+    corename dc_trunc_ln66_15 \
     op interface \
-    ports { trunc_ln63_15 { I 32 vector } } \
+    ports { trunc_ln66_15 { I 32 vector } } \
 } "
 }
 

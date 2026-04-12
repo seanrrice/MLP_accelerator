@@ -46,8 +46,10 @@ void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, 
     cout << "Entering MM..." << endl;
     // Blocked matmul
     i_BLOCK_loop: for(int ib = 0; ib < N/BLOCK_SIZE; ib ++){
+        #pragma HLS LOOP_TRIPCOUNT min = 64 max = 64
         #pragma HLS PIPELINE off
         j_BLOCK_loop: for(int jb = 0; jb < P/BLOCK_SIZE; jb ++){
+            #pragma HLS LOOP_TRIPCOUNT min = 8 max = 8
             #pragma HLS PIPELINE off
             // Initialize block with bias vector data
             block_init_outer_loop: for(int i=0;i<BLOCK_SIZE;i++){
@@ -59,6 +61,7 @@ void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, 
             }
             k_BLOCK_loop: for (int kb = 0; kb < M/BLOCK_SIZE; kb ++){
                 #pragma HLS PIPELINE off
+                #pragma HLS LOOP_TRIPCOUNT min = 49 max = 49
                 k_loop: for(int k = 0; k < BLOCK_SIZE; k++){
                     B_line = B[((kb*BLOCK_SIZE+k)*P + jb*BLOCK_SIZE) / BLOCK_SIZE];
                     // The input is A transpose, so we need to read the row instead of the column

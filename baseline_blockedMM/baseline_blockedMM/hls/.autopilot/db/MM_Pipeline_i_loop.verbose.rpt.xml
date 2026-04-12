@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'MM_Pipeline_i_loop'" level="0">
-<item name = "Date">Fri Apr 10 15:37:58 2026
+<item name = "Date">Sat Apr 11 17:10:11 2026
 </item>
 <item name = "Version">2025.1 (Build 6135595 on May 21 2025)</item>
 <item name = "Project">baseline_blockedMM</item>
@@ -110,25 +110,25 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="add_ln67_fu_764_p2">+, 0, 0, 13, 5, 1</column>
-<column name="add_ln72_10_fu_3378_p2">+, 0, 0, 39, 32, 32</column>
-<column name="add_ln72_11_fu_3614_p2">+, 0, 0, 39, 32, 32</column>
-<column name="add_ln72_12_fu_3850_p2">+, 0, 0, 39, 32, 32</column>
-<column name="add_ln72_13_fu_4086_p2">+, 0, 0, 39, 32, 32</column>
-<column name="add_ln72_14_fu_4322_p2">+, 0, 0, 39, 32, 32</column>
-<column name="add_ln72_15_fu_4558_p2">+, 0, 0, 39, 32, 32</column>
-<column name="add_ln72_1_fu_1254_p2">+, 0, 0, 39, 32, 32</column>
-<column name="add_ln72_2_fu_1490_p2">+, 0, 0, 39, 32, 32</column>
-<column name="add_ln72_3_fu_1726_p2">+, 0, 0, 39, 32, 32</column>
-<column name="add_ln72_4_fu_1962_p2">+, 0, 0, 39, 32, 32</column>
-<column name="add_ln72_5_fu_2198_p2">+, 0, 0, 39, 32, 32</column>
-<column name="add_ln72_6_fu_2434_p2">+, 0, 0, 39, 32, 32</column>
-<column name="add_ln72_7_fu_2670_p2">+, 0, 0, 39, 32, 32</column>
-<column name="add_ln72_8_fu_2906_p2">+, 0, 0, 39, 32, 32</column>
-<column name="add_ln72_9_fu_3142_p2">+, 0, 0, 39, 32, 32</column>
-<column name="add_ln72_fu_1018_p2">+, 0, 0, 39, 32, 32</column>
-<column name="icmp_ln67_fu_758_p2">icmp, 0, 0, 14, 5, 6</column>
-<column name="lshr_ln72_fu_786_p2">lshr, 0, 0, 2171, 512, 512</column>
+<column name="add_ln70_fu_764_p2">+, 0, 0, 13, 5, 1</column>
+<column name="add_ln75_10_fu_3378_p2">+, 0, 0, 39, 32, 32</column>
+<column name="add_ln75_11_fu_3614_p2">+, 0, 0, 39, 32, 32</column>
+<column name="add_ln75_12_fu_3850_p2">+, 0, 0, 39, 32, 32</column>
+<column name="add_ln75_13_fu_4086_p2">+, 0, 0, 39, 32, 32</column>
+<column name="add_ln75_14_fu_4322_p2">+, 0, 0, 39, 32, 32</column>
+<column name="add_ln75_15_fu_4558_p2">+, 0, 0, 39, 32, 32</column>
+<column name="add_ln75_1_fu_1254_p2">+, 0, 0, 39, 32, 32</column>
+<column name="add_ln75_2_fu_1490_p2">+, 0, 0, 39, 32, 32</column>
+<column name="add_ln75_3_fu_1726_p2">+, 0, 0, 39, 32, 32</column>
+<column name="add_ln75_4_fu_1962_p2">+, 0, 0, 39, 32, 32</column>
+<column name="add_ln75_5_fu_2198_p2">+, 0, 0, 39, 32, 32</column>
+<column name="add_ln75_6_fu_2434_p2">+, 0, 0, 39, 32, 32</column>
+<column name="add_ln75_7_fu_2670_p2">+, 0, 0, 39, 32, 32</column>
+<column name="add_ln75_8_fu_2906_p2">+, 0, 0, 39, 32, 32</column>
+<column name="add_ln75_9_fu_3142_p2">+, 0, 0, 39, 32, 32</column>
+<column name="add_ln75_fu_1018_p2">+, 0, 0, 39, 32, 32</column>
+<column name="icmp_ln70_fu_758_p2">icmp, 0, 0, 14, 5, 6</column>
+<column name="lshr_ln75_fu_786_p2">lshr, 0, 0, 2171, 512, 512</column>
 <column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
 </table>
 </item>
@@ -180,26 +180,26 @@
 <column name="ap_enable_reg_pp0_iter2">1, 0, 1, 0</column>
 <column name="ap_loop_exit_ready_pp0_iter1_reg">1, 0, 1, 0</column>
 <column name="i_fu_228">5, 0, 5, 0</column>
-<column name="icmp_ln67_reg_4958">1, 0, 1, 0</column>
-<column name="mul_ln72_10_reg_5052">32, 0, 32, 0</column>
-<column name="mul_ln72_11_reg_5057">32, 0, 32, 0</column>
-<column name="mul_ln72_12_reg_5062">32, 0, 32, 0</column>
-<column name="mul_ln72_13_reg_5067">32, 0, 32, 0</column>
-<column name="mul_ln72_14_reg_5072">32, 0, 32, 0</column>
-<column name="mul_ln72_15_reg_5077">32, 0, 32, 0</column>
-<column name="mul_ln72_1_reg_5007">32, 0, 32, 0</column>
-<column name="mul_ln72_2_reg_5012">32, 0, 32, 0</column>
-<column name="mul_ln72_3_reg_5017">32, 0, 32, 0</column>
-<column name="mul_ln72_4_reg_5022">32, 0, 32, 0</column>
-<column name="mul_ln72_5_reg_5027">32, 0, 32, 0</column>
-<column name="mul_ln72_6_reg_5032">32, 0, 32, 0</column>
-<column name="mul_ln72_7_reg_5037">32, 0, 32, 0</column>
-<column name="mul_ln72_8_reg_5042">32, 0, 32, 0</column>
-<column name="mul_ln72_9_reg_5047">32, 0, 32, 0</column>
-<column name="mul_ln72_reg_5002">32, 0, 32, 0</column>
-<column name="trunc_ln67_reg_4962">4, 0, 4, 0</column>
-<column name="trunc_ln67_reg_4962_pp0_iter1_reg">4, 0, 4, 0</column>
-<column name="trunc_ln72_reg_4982">32, 0, 32, 0</column>
+<column name="icmp_ln70_reg_4958">1, 0, 1, 0</column>
+<column name="mul_ln75_10_reg_5052">32, 0, 32, 0</column>
+<column name="mul_ln75_11_reg_5057">32, 0, 32, 0</column>
+<column name="mul_ln75_12_reg_5062">32, 0, 32, 0</column>
+<column name="mul_ln75_13_reg_5067">32, 0, 32, 0</column>
+<column name="mul_ln75_14_reg_5072">32, 0, 32, 0</column>
+<column name="mul_ln75_15_reg_5077">32, 0, 32, 0</column>
+<column name="mul_ln75_1_reg_5007">32, 0, 32, 0</column>
+<column name="mul_ln75_2_reg_5012">32, 0, 32, 0</column>
+<column name="mul_ln75_3_reg_5017">32, 0, 32, 0</column>
+<column name="mul_ln75_4_reg_5022">32, 0, 32, 0</column>
+<column name="mul_ln75_5_reg_5027">32, 0, 32, 0</column>
+<column name="mul_ln75_6_reg_5032">32, 0, 32, 0</column>
+<column name="mul_ln75_7_reg_5037">32, 0, 32, 0</column>
+<column name="mul_ln75_8_reg_5042">32, 0, 32, 0</column>
+<column name="mul_ln75_9_reg_5047">32, 0, 32, 0</column>
+<column name="mul_ln75_reg_5002">32, 0, 32, 0</column>
+<column name="trunc_ln70_reg_4962">4, 0, 4, 0</column>
+<column name="trunc_ln70_reg_4962_pp0_iter1_reg">4, 0, 4, 0</column>
+<column name="trunc_ln75_reg_4982">32, 0, 32, 0</column>
 </table>
 </item>
 </section>
@@ -233,21 +233,21 @@
 <column name="AB_block_0_1">in, 512, ap_none, AB_block_0_1, scalar</column>
 <column name="gmem_load_17">in, 512, ap_none, gmem_load_17, scalar</column>
 <column name="empty">in, 32, ap_none, empty, scalar</column>
-<column name="trunc_ln63_1">in, 32, ap_none, trunc_ln63_1, scalar</column>
-<column name="trunc_ln63_2">in, 32, ap_none, trunc_ln63_2, scalar</column>
-<column name="trunc_ln63_3">in, 32, ap_none, trunc_ln63_3, scalar</column>
-<column name="trunc_ln63_4">in, 32, ap_none, trunc_ln63_4, scalar</column>
-<column name="trunc_ln63_5">in, 32, ap_none, trunc_ln63_5, scalar</column>
-<column name="trunc_ln63_6">in, 32, ap_none, trunc_ln63_6, scalar</column>
-<column name="trunc_ln63_7">in, 32, ap_none, trunc_ln63_7, scalar</column>
-<column name="trunc_ln63_8">in, 32, ap_none, trunc_ln63_8, scalar</column>
-<column name="trunc_ln63_9">in, 32, ap_none, trunc_ln63_9, scalar</column>
-<column name="trunc_ln63_10">in, 32, ap_none, trunc_ln63_10, scalar</column>
-<column name="trunc_ln63_11">in, 32, ap_none, trunc_ln63_11, scalar</column>
-<column name="trunc_ln63_12">in, 32, ap_none, trunc_ln63_12, scalar</column>
-<column name="trunc_ln63_13">in, 32, ap_none, trunc_ln63_13, scalar</column>
-<column name="trunc_ln63_14">in, 32, ap_none, trunc_ln63_14, scalar</column>
-<column name="trunc_ln63_15">in, 32, ap_none, trunc_ln63_15, scalar</column>
+<column name="trunc_ln66_1">in, 32, ap_none, trunc_ln66_1, scalar</column>
+<column name="trunc_ln66_2">in, 32, ap_none, trunc_ln66_2, scalar</column>
+<column name="trunc_ln66_3">in, 32, ap_none, trunc_ln66_3, scalar</column>
+<column name="trunc_ln66_4">in, 32, ap_none, trunc_ln66_4, scalar</column>
+<column name="trunc_ln66_5">in, 32, ap_none, trunc_ln66_5, scalar</column>
+<column name="trunc_ln66_6">in, 32, ap_none, trunc_ln66_6, scalar</column>
+<column name="trunc_ln66_7">in, 32, ap_none, trunc_ln66_7, scalar</column>
+<column name="trunc_ln66_8">in, 32, ap_none, trunc_ln66_8, scalar</column>
+<column name="trunc_ln66_9">in, 32, ap_none, trunc_ln66_9, scalar</column>
+<column name="trunc_ln66_10">in, 32, ap_none, trunc_ln66_10, scalar</column>
+<column name="trunc_ln66_11">in, 32, ap_none, trunc_ln66_11, scalar</column>
+<column name="trunc_ln66_12">in, 32, ap_none, trunc_ln66_12, scalar</column>
+<column name="trunc_ln66_13">in, 32, ap_none, trunc_ln66_13, scalar</column>
+<column name="trunc_ln66_14">in, 32, ap_none, trunc_ln66_14, scalar</column>
+<column name="trunc_ln66_15">in, 32, ap_none, trunc_ln66_15, scalar</column>
 <column name="AB_block_15_2_out">out, 512, ap_vld, AB_block_15_2_out, pointer</column>
 <column name="AB_block_15_2_out_ap_vld">out, 1, ap_vld, AB_block_15_2_out, pointer</column>
 <column name="AB_block_14_2_out">out, 512, ap_vld, AB_block_14_2_out, pointer</column>
