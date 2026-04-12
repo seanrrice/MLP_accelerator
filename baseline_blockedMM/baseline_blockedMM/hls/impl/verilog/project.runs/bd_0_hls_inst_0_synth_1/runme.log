@@ -1,0 +1,1387 @@
+
+*** Running vivado
+    with args -log bd_0_hls_inst_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_0_hls_inst_0.tcl
+
+
+
+****** Vivado v2025.1 (64-bit)
+  **** SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Sat Apr 11 22:04:15 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source bd_0_hls_inst_0.tcl -notrace
+INFO: Dispatch client connection id - 64908
+create_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 512.223 ; gain = 213.004
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/2025.1/Vivado/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.cache/ip 
+Command: synth_design -top bd_0_hls_inst_0 -part xc7z020clg400-1 -directive sdx_optimization_effort_high -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 7516
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1246.246 ; gain = 492.004
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'bd_0_hls_inst_0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/synth/bd_0_hls_inst_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'MM' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MM_MM_Pipeline_i_loop' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_MM_Pipeline_i_loop.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MM_mul_32s_32s_32_1_1' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_mul_32s_32s_32_1_1.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'MM_mul_32s_32s_32_1_1' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_mul_32s_32s_32_1_1.v:5]
+INFO: [Synth 8-6157] synthesizing module 'MM_sparsemux_33_4_32_1_1' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_sparsemux_33_4_32_1_1.v:8]
+INFO: [Synth 8-226] default block is never used [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_sparsemux_33_4_32_1_1.v:126]
+INFO: [Synth 8-6155] done synthesizing module 'MM_sparsemux_33_4_32_1_1' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_sparsemux_33_4_32_1_1.v:8]
+INFO: [Synth 8-6157] synthesizing module 'MM_flow_control_loop_pipe_sequential_init' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_flow_control_loop_pipe_sequential_init.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'MM_flow_control_loop_pipe_sequential_init' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_flow_control_loop_pipe_sequential_init.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'MM_MM_Pipeline_i_loop' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_MM_Pipeline_i_loop.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MM_control_s_axi' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_control_s_axi.v:9]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_control_s_axi.v:258]
+INFO: [Synth 8-6155] done synthesizing module 'MM_control_s_axi' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_control_s_axi.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:9]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_store' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:903]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl__parameterized0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl__parameterized0' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized0' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized1' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl__parameterized1' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl__parameterized1' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized1' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized2' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl__parameterized2' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl__parameterized2' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized2' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized3' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl__parameterized3' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl__parameterized3' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized3' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_store' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:903]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_load' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:413]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized4' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_mem' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3814]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_mem' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3814]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized4' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_load' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:413]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_write' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:1934]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_burst_converter' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:2229]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_burst_sequential' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:2835]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_reg_slice' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_reg_slice' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_burst_sequential' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:2835]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_burst_converter' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:2229]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_throttle' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3188]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_fifo__parameterized5' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_srl__parameterized4' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_srl__parameterized4' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3774]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_fifo__parameterized5' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3561]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized0' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized0' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized1' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized1' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_throttle' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3188]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized2' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized2' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_write' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:1934]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_read' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:1682]
+INFO: [Synth 8-6157] synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized3' [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_reg_slice__parameterized3' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:3457]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi_read' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:1682]
+INFO: [Synth 8-6155] done synthesizing module 'MM_gmem_m_axi' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_gmem_m_axi.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'MM' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'bd_0_hls_inst_0' (0#1) [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/synth/bd_0_hls_inst_0.v:53]
+WARNING: [Synth 8-6014] Unused sequential element int_ap_done_reg was removed.  [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_control_s_axi.v:355]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+WARNING: [Synth 8-7129] Port in_BUS_RID[0] in module MM_gmem_m_axi_read is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BUS_RRESP[1] in module MM_gmem_m_axi_read is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BUS_RRESP[0] in module MM_gmem_m_axi_read is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BUS_RUSER[0] in module MM_gmem_m_axi_read is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BURST_AWLEN[7] in module MM_gmem_m_axi_throttle is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BURST_AWLEN[6] in module MM_gmem_m_axi_throttle is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BURST_AWLEN[5] in module MM_gmem_m_axi_throttle is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BURST_AWLEN[4] in module MM_gmem_m_axi_throttle is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BURST_AWLEN[3] in module MM_gmem_m_axi_throttle is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BURST_AWLEN[2] in module MM_gmem_m_axi_throttle is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BURST_AWLEN[1] in module MM_gmem_m_axi_throttle is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BURST_AWLEN[0] in module MM_gmem_m_axi_throttle is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BUS_BID[0] in module MM_gmem_m_axi_write is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BUS_BRESP[1] in module MM_gmem_m_axi_write is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BUS_BRESP[0] in module MM_gmem_m_axi_write is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BUS_BUSER[0] in module MM_gmem_m_axi_write is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AWADDR[1] in module MM_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AWADDR[0] in module MM_control_s_axi is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1449.832 ; gain = 695.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1449.832 ; gain = 695.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1449.832 ; gain = 695.590
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.856 . Memory (MB): peak = 1449.832 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/constraints/MM_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/constraints/MM_ooc.xdc] for cell 'inst'
+Parsing XDC File [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 1642.879 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 1683.320 ; gain = 929.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 1683.320 ; gain = 929.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 1683.320 ; gain = 929.078
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'wstate_reg' in module 'MM_control_s_axi'
+INFO: [Synth 8-802] inferred FSM for state register 'rstate_reg' in module 'MM_control_s_axi'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'MM_gmem_m_axi_reg_slice'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'MM_gmem_m_axi_reg_slice__parameterized0'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'MM_gmem_m_axi_reg_slice__parameterized1'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'MM_gmem_m_axi_reg_slice__parameterized2'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'MM_gmem_m_axi_reg_slice__parameterized3'
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0001 |                               11
+*
+                  WRIDLE |                             0010 |                               00
+                  WRDATA |                             0100 |                               01
+                  WRRESP |                             1000 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wstate_reg' using encoding 'one-hot' in module 'MM_control_s_axi'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              001 |                               10
+*
+                  RDIDLE |                              010 |                               00
+                  RDDATA |                              100 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rstate_reg' using encoding 'one-hot' in module 'MM_control_s_axi'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                               00 |                               10
+                     ONE |                               10 |                               11
+                     TWO |                               01 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'MM_gmem_m_axi_reg_slice'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                               00 |                               10
+                     ONE |                               10 |                               11
+                     TWO |                               01 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'MM_gmem_m_axi_reg_slice__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                               00 |                               10
+                     ONE |                               10 |                               11
+                     TWO |                               01 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'MM_gmem_m_axi_reg_slice__parameterized1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                               00 |                               10
+                     ONE |                               10 |                               11
+                     TWO |                               01 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'MM_gmem_m_axi_reg_slice__parameterized2'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                               00 |                               10
+                     ONE |                               10 |                               11
+                     TWO |                               01 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'MM_gmem_m_axi_reg_slice__parameterized3'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:40 ; elapsed = 00:00:47 . Memory (MB): peak = 1683.320 ; gain = 929.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   64 Bit       Adders := 19    
+	   2 Input   52 Bit       Adders := 2     
+	   2 Input   32 Bit       Adders := 25    
+	   2 Input   28 Bit       Adders := 6     
+	   2 Input   27 Bit       Adders := 3     
+	   2 Input   12 Bit       Adders := 4     
+	   3 Input    9 Bit       Adders := 1     
+	   2 Input    9 Bit       Adders := 2     
+	   3 Input    8 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 3     
+	   2 Input    6 Bit       Adders := 16    
+	   2 Input    5 Bit       Adders := 19    
+	   2 Input    4 Bit       Adders := 12    
+	   2 Input    3 Bit       Adders := 6     
+	   2 Input    2 Bit       Adders := 2     
++---XORs : 
+	   2 Input    512 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 3     
++---Registers : 
+	              576 Bit    Registers := 1     
+	              514 Bit    Registers := 3     
+	              512 Bit    Registers := 51    
+	              503 Bit    Registers := 1     
+	               97 Bit    Registers := 4     
+	               96 Bit    Registers := 2     
+	               73 Bit    Registers := 2     
+	               64 Bit    Registers := 12    
+	               59 Bit    Registers := 16    
+	               58 Bit    Registers := 4     
+	               52 Bit    Registers := 2     
+	               32 Bit    Registers := 87    
+	               28 Bit    Registers := 3     
+	               27 Bit    Registers := 10    
+	               20 Bit    Registers := 2     
+	                9 Bit    Registers := 6     
+	                8 Bit    Registers := 8     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 26    
+	                5 Bit    Registers := 20    
+	                4 Bit    Registers := 15    
+	                3 Bit    Registers := 4     
+	                2 Bit    Registers := 9     
+	                1 Bit    Registers := 96    
++---Multipliers : 
+	              32x32  Multipliers := 18    
++---RAMs : 
+	             127K Bit	(255 X 514 bit)          RAMs := 1     
++---Muxes : 
+	   2 Input  514 Bit        Muxes := 1     
+	   2 Input  512 Bit        Muxes := 50    
+	   2 Input   97 Bit        Muxes := 2     
+	   2 Input   73 Bit        Muxes := 1     
+	   2 Input   64 Bit        Muxes := 8     
+	   2 Input   58 Bit        Muxes := 1     
+	   2 Input   54 Bit        Muxes := 1     
+	   2 Input   53 Bit        Muxes := 1     
+	   2 Input   52 Bit        Muxes := 2     
+	   2 Input   49 Bit        Muxes := 1     
+	   2 Input   48 Bit        Muxes := 1     
+	   2 Input   47 Bit        Muxes := 1     
+	   2 Input   46 Bit        Muxes := 1     
+	   2 Input   44 Bit        Muxes := 1     
+	   2 Input   43 Bit        Muxes := 1     
+	   2 Input   36 Bit        Muxes := 1     
+	   2 Input   35 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 2     
+	   2 Input   31 Bit        Muxes := 1     
+	   2 Input   28 Bit        Muxes := 7     
+	   2 Input   27 Bit        Muxes := 1     
+	   2 Input   26 Bit        Muxes := 1     
+	   2 Input   25 Bit        Muxes := 1     
+	   2 Input   24 Bit        Muxes := 1     
+	   2 Input   23 Bit        Muxes := 1     
+	   2 Input   22 Bit        Muxes := 1     
+	   2 Input   21 Bit        Muxes := 1     
+	   2 Input   20 Bit        Muxes := 3     
+	   2 Input   19 Bit        Muxes := 1     
+	   2 Input   18 Bit        Muxes := 1     
+	   2 Input   17 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 1     
+	   2 Input   15 Bit        Muxes := 1     
+	   2 Input   14 Bit        Muxes := 1     
+	   2 Input   13 Bit        Muxes := 1     
+	   4 Input   12 Bit        Muxes := 2     
+	   2 Input   12 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 1     
+	   2 Input   10 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 3     
+	   4 Input    9 Bit        Muxes := 2     
+	   4 Input    8 Bit        Muxes := 4     
+	   2 Input    8 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 12    
+	   2 Input    5 Bit        Muxes := 7     
+	   2 Input    4 Bit        Muxes := 9     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 6     
+	   3 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 92    
+	   3 Input    2 Bit        Muxes := 18    
+	   4 Input    2 Bit        Muxes := 6     
+	   2 Input    1 Bit        Muxes := 142   
+	   4 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-12192] Not enough pipeline registers after wide multiplier. Pipeline registers present is 1. Recommended levels of pipeline registers is 4. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_mul_32s_32s_32_1_1.v:44]
+INFO: [Synth 8-12192] Not enough pipeline registers after wide multiplier. Pipeline registers present is 1. Recommended levels of pipeline registers is 4. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_mul_32s_32s_32_1_1.v:44]
+INFO: [Synth 8-12192] Not enough pipeline registers after wide multiplier. Pipeline registers present is 1. Recommended levels of pipeline registers is 4. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_mul_32s_32s_32_1_1.v:44]
+INFO: [Synth 8-12192] Not enough pipeline registers after wide multiplier. Pipeline registers present is 1. Recommended levels of pipeline registers is 4. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_mul_32s_32s_32_1_1.v:44]
+INFO: [Synth 8-12192] Not enough pipeline registers after wide multiplier. Pipeline registers present is 1. Recommended levels of pipeline registers is 4. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_mul_32s_32s_32_1_1.v:44]
+INFO: [Synth 8-12192] Not enough pipeline registers after wide multiplier. Pipeline registers present is 1. Recommended levels of pipeline registers is 4. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_mul_32s_32s_32_1_1.v:44]
+INFO: [Synth 8-12192] Not enough pipeline registers after wide multiplier. Pipeline registers present is 1. Recommended levels of pipeline registers is 4. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_mul_32s_32s_32_1_1.v:44]
+INFO: [Synth 8-12192] Not enough pipeline registers after wide multiplier. Pipeline registers present is 1. Recommended levels of pipeline registers is 4. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_mul_32s_32s_32_1_1.v:44]
+INFO: [Synth 8-12192] Not enough pipeline registers after wide multiplier. Pipeline registers present is 1. Recommended levels of pipeline registers is 4. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_mul_32s_32s_32_1_1.v:44]
+INFO: [Synth 8-12192] Not enough pipeline registers after wide multiplier. Pipeline registers present is 1. Recommended levels of pipeline registers is 4. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_mul_32s_32s_32_1_1.v:44]
+INFO: [Synth 8-12192] Not enough pipeline registers after wide multiplier. Pipeline registers present is 1. Recommended levels of pipeline registers is 4. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_mul_32s_32s_32_1_1.v:44]
+INFO: [Synth 8-12192] Not enough pipeline registers after wide multiplier. Pipeline registers present is 1. Recommended levels of pipeline registers is 4. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_mul_32s_32s_32_1_1.v:44]
+INFO: [Synth 8-12192] Not enough pipeline registers after wide multiplier. Pipeline registers present is 1. Recommended levels of pipeline registers is 4. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_mul_32s_32s_32_1_1.v:44]
+INFO: [Synth 8-12192] Not enough pipeline registers after wide multiplier. Pipeline registers present is 1. Recommended levels of pipeline registers is 4. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_mul_32s_32s_32_1_1.v:44]
+INFO: [Synth 8-12192] Not enough pipeline registers after wide multiplier. Pipeline registers present is 1. Recommended levels of pipeline registers is 4. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_mul_32s_32s_32_1_1.v:44]
+INFO: [Synth 8-12192] Not enough pipeline registers after wide multiplier. Pipeline registers present is 1. Recommended levels of pipeline registers is 4. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_mul_32s_32s_32_1_1.v:44]
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U1/tmp_product, operation Mode is: A*B2.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_32s_32s_32_1_1_U1/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U1/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U1/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U1/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U1/tmp_product.
+DSP Report: Generating DSP mul_ln75_reg_5002_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_ln75_reg_5002_reg.
+DSP Report: register mul_ln75_reg_5002_reg is absorbed into DSP mul_ln75_reg_5002_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U1/tmp_product is absorbed into DSP mul_ln75_reg_5002_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U1/tmp_product is absorbed into DSP mul_ln75_reg_5002_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U1/tmp_product, operation Mode is: A2*B.
+DSP Report: register mul_32s_32s_32_1_1_U1/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U1/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U1/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U1/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U1/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U1/tmp_product.
+DSP Report: Generating DSP mul_ln75_reg_5002_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register mul_ln75_reg_5002_reg is absorbed into DSP mul_ln75_reg_5002_reg.
+DSP Report: register mul_ln75_reg_5002_reg is absorbed into DSP mul_ln75_reg_5002_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U1/tmp_product is absorbed into DSP mul_ln75_reg_5002_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U1/tmp_product is absorbed into DSP mul_ln75_reg_5002_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U2/tmp_product, operation Mode is: A*B2.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_32s_32s_32_1_1_U2/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U2/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U2/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U2/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U2/tmp_product.
+DSP Report: Generating DSP mul_ln75_1_reg_5007_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_ln75_1_reg_5007_reg.
+DSP Report: register mul_ln75_1_reg_5007_reg is absorbed into DSP mul_ln75_1_reg_5007_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U2/tmp_product is absorbed into DSP mul_ln75_1_reg_5007_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U2/tmp_product is absorbed into DSP mul_ln75_1_reg_5007_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U2/tmp_product, operation Mode is: A2*B.
+DSP Report: register mul_32s_32s_32_1_1_U2/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U2/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U2/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U2/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U2/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U2/tmp_product.
+DSP Report: Generating DSP mul_ln75_1_reg_5007_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register mul_ln75_1_reg_5007_reg is absorbed into DSP mul_ln75_1_reg_5007_reg.
+DSP Report: register mul_ln75_1_reg_5007_reg is absorbed into DSP mul_ln75_1_reg_5007_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U2/tmp_product is absorbed into DSP mul_ln75_1_reg_5007_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U2/tmp_product is absorbed into DSP mul_ln75_1_reg_5007_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U3/tmp_product, operation Mode is: A*B2.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_32s_32s_32_1_1_U3/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U3/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U3/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U3/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U3/tmp_product.
+DSP Report: Generating DSP mul_ln75_2_reg_5012_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_ln75_2_reg_5012_reg.
+DSP Report: register mul_ln75_2_reg_5012_reg is absorbed into DSP mul_ln75_2_reg_5012_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U3/tmp_product is absorbed into DSP mul_ln75_2_reg_5012_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U3/tmp_product is absorbed into DSP mul_ln75_2_reg_5012_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U3/tmp_product, operation Mode is: A2*B.
+DSP Report: register mul_32s_32s_32_1_1_U3/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U3/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U3/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U3/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U3/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U3/tmp_product.
+DSP Report: Generating DSP mul_ln75_2_reg_5012_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register mul_ln75_2_reg_5012_reg is absorbed into DSP mul_ln75_2_reg_5012_reg.
+DSP Report: register mul_ln75_2_reg_5012_reg is absorbed into DSP mul_ln75_2_reg_5012_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U3/tmp_product is absorbed into DSP mul_ln75_2_reg_5012_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U3/tmp_product is absorbed into DSP mul_ln75_2_reg_5012_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U4/tmp_product, operation Mode is: A*B2.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_32s_32s_32_1_1_U4/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U4/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U4/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U4/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U4/tmp_product.
+DSP Report: Generating DSP mul_ln75_3_reg_5017_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_ln75_3_reg_5017_reg.
+DSP Report: register mul_ln75_3_reg_5017_reg is absorbed into DSP mul_ln75_3_reg_5017_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U4/tmp_product is absorbed into DSP mul_ln75_3_reg_5017_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U4/tmp_product is absorbed into DSP mul_ln75_3_reg_5017_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U4/tmp_product, operation Mode is: A2*B.
+DSP Report: register mul_32s_32s_32_1_1_U4/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U4/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U4/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U4/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U4/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U4/tmp_product.
+DSP Report: Generating DSP mul_ln75_3_reg_5017_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register mul_ln75_3_reg_5017_reg is absorbed into DSP mul_ln75_3_reg_5017_reg.
+DSP Report: register mul_ln75_3_reg_5017_reg is absorbed into DSP mul_ln75_3_reg_5017_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U4/tmp_product is absorbed into DSP mul_ln75_3_reg_5017_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U4/tmp_product is absorbed into DSP mul_ln75_3_reg_5017_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U5/tmp_product, operation Mode is: A*B2.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_32s_32s_32_1_1_U5/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U5/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U5/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U5/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U5/tmp_product.
+DSP Report: Generating DSP mul_ln75_4_reg_5022_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_ln75_4_reg_5022_reg.
+DSP Report: register mul_ln75_4_reg_5022_reg is absorbed into DSP mul_ln75_4_reg_5022_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U5/tmp_product is absorbed into DSP mul_ln75_4_reg_5022_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U5/tmp_product is absorbed into DSP mul_ln75_4_reg_5022_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U5/tmp_product, operation Mode is: A2*B.
+DSP Report: register mul_32s_32s_32_1_1_U5/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U5/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U5/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U5/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U5/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U5/tmp_product.
+DSP Report: Generating DSP mul_ln75_4_reg_5022_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register mul_ln75_4_reg_5022_reg is absorbed into DSP mul_ln75_4_reg_5022_reg.
+DSP Report: register mul_ln75_4_reg_5022_reg is absorbed into DSP mul_ln75_4_reg_5022_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U5/tmp_product is absorbed into DSP mul_ln75_4_reg_5022_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U5/tmp_product is absorbed into DSP mul_ln75_4_reg_5022_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U6/tmp_product, operation Mode is: A*B2.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_32s_32s_32_1_1_U6/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U6/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U6/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U6/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U6/tmp_product.
+DSP Report: Generating DSP mul_ln75_5_reg_5027_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_ln75_5_reg_5027_reg.
+DSP Report: register mul_ln75_5_reg_5027_reg is absorbed into DSP mul_ln75_5_reg_5027_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U6/tmp_product is absorbed into DSP mul_ln75_5_reg_5027_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U6/tmp_product is absorbed into DSP mul_ln75_5_reg_5027_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U6/tmp_product, operation Mode is: A2*B.
+DSP Report: register mul_32s_32s_32_1_1_U6/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U6/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U6/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U6/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U6/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U6/tmp_product.
+DSP Report: Generating DSP mul_ln75_5_reg_5027_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register mul_ln75_5_reg_5027_reg is absorbed into DSP mul_ln75_5_reg_5027_reg.
+DSP Report: register mul_ln75_5_reg_5027_reg is absorbed into DSP mul_ln75_5_reg_5027_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U6/tmp_product is absorbed into DSP mul_ln75_5_reg_5027_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U6/tmp_product is absorbed into DSP mul_ln75_5_reg_5027_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U7/tmp_product, operation Mode is: A*B2.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_32s_32s_32_1_1_U7/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U7/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U7/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U7/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U7/tmp_product.
+DSP Report: Generating DSP mul_ln75_6_reg_5032_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_ln75_6_reg_5032_reg.
+DSP Report: register mul_ln75_6_reg_5032_reg is absorbed into DSP mul_ln75_6_reg_5032_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U7/tmp_product is absorbed into DSP mul_ln75_6_reg_5032_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U7/tmp_product is absorbed into DSP mul_ln75_6_reg_5032_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U7/tmp_product, operation Mode is: A2*B.
+DSP Report: register mul_32s_32s_32_1_1_U7/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U7/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U7/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U7/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U7/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U7/tmp_product.
+DSP Report: Generating DSP mul_ln75_6_reg_5032_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register mul_ln75_6_reg_5032_reg is absorbed into DSP mul_ln75_6_reg_5032_reg.
+DSP Report: register mul_ln75_6_reg_5032_reg is absorbed into DSP mul_ln75_6_reg_5032_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U7/tmp_product is absorbed into DSP mul_ln75_6_reg_5032_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U7/tmp_product is absorbed into DSP mul_ln75_6_reg_5032_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U8/tmp_product, operation Mode is: A*B2.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_32s_32s_32_1_1_U8/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U8/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U8/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U8/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U8/tmp_product.
+DSP Report: Generating DSP mul_ln75_7_reg_5037_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_ln75_7_reg_5037_reg.
+DSP Report: register mul_ln75_7_reg_5037_reg is absorbed into DSP mul_ln75_7_reg_5037_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U8/tmp_product is absorbed into DSP mul_ln75_7_reg_5037_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U8/tmp_product is absorbed into DSP mul_ln75_7_reg_5037_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U8/tmp_product, operation Mode is: A2*B.
+DSP Report: register mul_32s_32s_32_1_1_U8/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U8/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U8/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U8/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U8/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U8/tmp_product.
+DSP Report: Generating DSP mul_ln75_7_reg_5037_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register mul_ln75_7_reg_5037_reg is absorbed into DSP mul_ln75_7_reg_5037_reg.
+DSP Report: register mul_ln75_7_reg_5037_reg is absorbed into DSP mul_ln75_7_reg_5037_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U8/tmp_product is absorbed into DSP mul_ln75_7_reg_5037_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U8/tmp_product is absorbed into DSP mul_ln75_7_reg_5037_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U9/tmp_product, operation Mode is: A*B2.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_32s_32s_32_1_1_U9/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U9/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U9/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U9/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U9/tmp_product.
+DSP Report: Generating DSP mul_ln75_8_reg_5042_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_ln75_8_reg_5042_reg.
+DSP Report: register mul_ln75_8_reg_5042_reg is absorbed into DSP mul_ln75_8_reg_5042_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U9/tmp_product is absorbed into DSP mul_ln75_8_reg_5042_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U9/tmp_product is absorbed into DSP mul_ln75_8_reg_5042_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U9/tmp_product, operation Mode is: A2*B.
+DSP Report: register mul_32s_32s_32_1_1_U9/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U9/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U9/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U9/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U9/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U9/tmp_product.
+DSP Report: Generating DSP mul_ln75_8_reg_5042_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register mul_ln75_8_reg_5042_reg is absorbed into DSP mul_ln75_8_reg_5042_reg.
+DSP Report: register mul_ln75_8_reg_5042_reg is absorbed into DSP mul_ln75_8_reg_5042_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U9/tmp_product is absorbed into DSP mul_ln75_8_reg_5042_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U9/tmp_product is absorbed into DSP mul_ln75_8_reg_5042_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U10/tmp_product, operation Mode is: A*B2.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_32s_32s_32_1_1_U10/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U10/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U10/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U10/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U10/tmp_product.
+DSP Report: Generating DSP mul_ln75_9_reg_5047_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_ln75_9_reg_5047_reg.
+DSP Report: register mul_ln75_9_reg_5047_reg is absorbed into DSP mul_ln75_9_reg_5047_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U10/tmp_product is absorbed into DSP mul_ln75_9_reg_5047_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U10/tmp_product is absorbed into DSP mul_ln75_9_reg_5047_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U10/tmp_product, operation Mode is: A2*B.
+DSP Report: register mul_32s_32s_32_1_1_U10/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U10/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U10/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U10/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U10/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U10/tmp_product.
+DSP Report: Generating DSP mul_ln75_9_reg_5047_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register mul_ln75_9_reg_5047_reg is absorbed into DSP mul_ln75_9_reg_5047_reg.
+DSP Report: register mul_ln75_9_reg_5047_reg is absorbed into DSP mul_ln75_9_reg_5047_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U10/tmp_product is absorbed into DSP mul_ln75_9_reg_5047_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U10/tmp_product is absorbed into DSP mul_ln75_9_reg_5047_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U11/tmp_product, operation Mode is: A*B2.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_32s_32s_32_1_1_U11/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U11/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U11/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U11/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U11/tmp_product.
+DSP Report: Generating DSP mul_ln75_10_reg_5052_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_ln75_10_reg_5052_reg.
+DSP Report: register mul_ln75_10_reg_5052_reg is absorbed into DSP mul_ln75_10_reg_5052_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U11/tmp_product is absorbed into DSP mul_ln75_10_reg_5052_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U11/tmp_product is absorbed into DSP mul_ln75_10_reg_5052_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U11/tmp_product, operation Mode is: A2*B.
+DSP Report: register mul_32s_32s_32_1_1_U11/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U11/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U11/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U11/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U11/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U11/tmp_product.
+DSP Report: Generating DSP mul_ln75_10_reg_5052_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register mul_ln75_10_reg_5052_reg is absorbed into DSP mul_ln75_10_reg_5052_reg.
+DSP Report: register mul_ln75_10_reg_5052_reg is absorbed into DSP mul_ln75_10_reg_5052_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U11/tmp_product is absorbed into DSP mul_ln75_10_reg_5052_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U11/tmp_product is absorbed into DSP mul_ln75_10_reg_5052_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U12/tmp_product, operation Mode is: A*B2.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_32s_32s_32_1_1_U12/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U12/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U12/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U12/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U12/tmp_product.
+DSP Report: Generating DSP mul_ln75_11_reg_5057_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_ln75_11_reg_5057_reg.
+DSP Report: register mul_ln75_11_reg_5057_reg is absorbed into DSP mul_ln75_11_reg_5057_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U12/tmp_product is absorbed into DSP mul_ln75_11_reg_5057_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U12/tmp_product is absorbed into DSP mul_ln75_11_reg_5057_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U12/tmp_product, operation Mode is: A2*B.
+DSP Report: register mul_32s_32s_32_1_1_U12/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U12/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U12/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U12/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U12/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U12/tmp_product.
+DSP Report: Generating DSP mul_ln75_11_reg_5057_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register mul_ln75_11_reg_5057_reg is absorbed into DSP mul_ln75_11_reg_5057_reg.
+DSP Report: register mul_ln75_11_reg_5057_reg is absorbed into DSP mul_ln75_11_reg_5057_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U12/tmp_product is absorbed into DSP mul_ln75_11_reg_5057_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U12/tmp_product is absorbed into DSP mul_ln75_11_reg_5057_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U13/tmp_product, operation Mode is: A*B2.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_32s_32s_32_1_1_U13/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U13/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U13/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U13/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U13/tmp_product.
+DSP Report: Generating DSP mul_ln75_12_reg_5062_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_ln75_12_reg_5062_reg.
+DSP Report: register mul_ln75_12_reg_5062_reg is absorbed into DSP mul_ln75_12_reg_5062_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U13/tmp_product is absorbed into DSP mul_ln75_12_reg_5062_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U13/tmp_product is absorbed into DSP mul_ln75_12_reg_5062_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U13/tmp_product, operation Mode is: A2*B.
+DSP Report: register mul_32s_32s_32_1_1_U13/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U13/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U13/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U13/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U13/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U13/tmp_product.
+DSP Report: Generating DSP mul_ln75_12_reg_5062_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register mul_ln75_12_reg_5062_reg is absorbed into DSP mul_ln75_12_reg_5062_reg.
+DSP Report: register mul_ln75_12_reg_5062_reg is absorbed into DSP mul_ln75_12_reg_5062_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U13/tmp_product is absorbed into DSP mul_ln75_12_reg_5062_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U13/tmp_product is absorbed into DSP mul_ln75_12_reg_5062_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U14/tmp_product, operation Mode is: A*B2.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_32s_32s_32_1_1_U14/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U14/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U14/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U14/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U14/tmp_product.
+DSP Report: Generating DSP mul_ln75_13_reg_5067_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_ln75_13_reg_5067_reg.
+DSP Report: register mul_ln75_13_reg_5067_reg is absorbed into DSP mul_ln75_13_reg_5067_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U14/tmp_product is absorbed into DSP mul_ln75_13_reg_5067_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U14/tmp_product is absorbed into DSP mul_ln75_13_reg_5067_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U14/tmp_product, operation Mode is: A2*B.
+DSP Report: register mul_32s_32s_32_1_1_U14/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U14/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U14/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U14/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U14/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U14/tmp_product.
+DSP Report: Generating DSP mul_ln75_13_reg_5067_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register mul_ln75_13_reg_5067_reg is absorbed into DSP mul_ln75_13_reg_5067_reg.
+DSP Report: register mul_ln75_13_reg_5067_reg is absorbed into DSP mul_ln75_13_reg_5067_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U14/tmp_product is absorbed into DSP mul_ln75_13_reg_5067_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U14/tmp_product is absorbed into DSP mul_ln75_13_reg_5067_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U15/tmp_product, operation Mode is: A*B2.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_32s_32s_32_1_1_U15/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U15/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U15/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U15/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U15/tmp_product.
+DSP Report: Generating DSP mul_ln75_14_reg_5072_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_ln75_14_reg_5072_reg.
+DSP Report: register mul_ln75_14_reg_5072_reg is absorbed into DSP mul_ln75_14_reg_5072_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U15/tmp_product is absorbed into DSP mul_ln75_14_reg_5072_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U15/tmp_product is absorbed into DSP mul_ln75_14_reg_5072_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U15/tmp_product, operation Mode is: A2*B.
+DSP Report: register mul_32s_32s_32_1_1_U15/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U15/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U15/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U15/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U15/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U15/tmp_product.
+DSP Report: Generating DSP mul_ln75_14_reg_5072_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register mul_ln75_14_reg_5072_reg is absorbed into DSP mul_ln75_14_reg_5072_reg.
+DSP Report: register mul_ln75_14_reg_5072_reg is absorbed into DSP mul_ln75_14_reg_5072_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U15/tmp_product is absorbed into DSP mul_ln75_14_reg_5072_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U15/tmp_product is absorbed into DSP mul_ln75_14_reg_5072_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U16/tmp_product, operation Mode is: A*B2.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_32s_32s_32_1_1_U16/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U16/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U16/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U16/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U16/tmp_product.
+DSP Report: Generating DSP mul_ln75_15_reg_5077_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register trunc_ln75_reg_4982_reg is absorbed into DSP mul_ln75_15_reg_5077_reg.
+DSP Report: register mul_ln75_15_reg_5077_reg is absorbed into DSP mul_ln75_15_reg_5077_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U16/tmp_product is absorbed into DSP mul_ln75_15_reg_5077_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U16/tmp_product is absorbed into DSP mul_ln75_15_reg_5077_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U16/tmp_product, operation Mode is: A2*B.
+DSP Report: register mul_32s_32s_32_1_1_U16/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U16/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U16/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U16/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U16/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U16/tmp_product.
+DSP Report: Generating DSP mul_ln75_15_reg_5077_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register mul_ln75_15_reg_5077_reg is absorbed into DSP mul_ln75_15_reg_5077_reg.
+DSP Report: register mul_ln75_15_reg_5077_reg is absorbed into DSP mul_ln75_15_reg_5077_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U16/tmp_product is absorbed into DSP mul_ln75_15_reg_5077_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U16/tmp_product is absorbed into DSP mul_ln75_15_reg_5077_reg.
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (grp_MM_Pipeline_i_loop_fu_881/\ap_CS_fsm_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (grp_MM_Pipeline_i_loop_fu_881/ap_done_reg_reg)
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[47]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[46]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[45]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[44]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[43]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[42]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[41]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[40]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[39]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[38]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[37]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[36]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[35]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[34]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[33]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[32]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[31]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[30]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[29]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[28]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[27]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[26]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[25]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[24]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[23]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[22]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[21]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[20]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[19]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[18]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[17]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[16]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[15]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[47]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[46]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[45]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[44]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[43]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[42]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[41]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[40]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[39]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[38]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[37]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[36]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[35]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[34]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[33]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[32]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[31]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[30]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[29]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[28]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[27]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[26]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[25]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[24]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[23]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[22]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[21]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[20]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[19]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[18]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_reg_5002_reg[17]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[47]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[46]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[45]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[44]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[43]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[42]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[41]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[40]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[39]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[38]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[37]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[36]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[35]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[34]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[33]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[32]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[31]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[30]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[29]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[28]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[27]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[26]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[25]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[24]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[23]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[22]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[21]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[20]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[19]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[18]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[17]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[16]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[15]) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[47]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[46]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+WARNING: [Synth 8-3332] Sequential element (mul_ln75_1_reg_5007_reg[45]__0) is unused and will be removed from module MM_MM_Pipeline_i_loop.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-7129] Port in_BURST_AWLEN[7] in module MM_gmem_m_axi_throttle is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BURST_AWLEN[6] in module MM_gmem_m_axi_throttle is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BURST_AWLEN[5] in module MM_gmem_m_axi_throttle is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BURST_AWLEN[4] in module MM_gmem_m_axi_throttle is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BURST_AWLEN[3] in module MM_gmem_m_axi_throttle is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BURST_AWLEN[2] in module MM_gmem_m_axi_throttle is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BURST_AWLEN[1] in module MM_gmem_m_axi_throttle is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BURST_AWLEN[0] in module MM_gmem_m_axi_throttle is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BUS_BID[0] in module MM_gmem_m_axi_write is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BUS_BRESP[1] in module MM_gmem_m_axi_write is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BUS_BRESP[0] in module MM_gmem_m_axi_write is either unconnected or has no load
+WARNING: [Synth 8-7129] Port in_BUS_BUSER[0] in module MM_gmem_m_axi_write is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RID[0] in module MM_gmem_m_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RRESP[1] in module MM_gmem_m_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RRESP[0] in module MM_gmem_m_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RUSER[0] in module MM_gmem_m_axi is either unconnected or has no load
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/bus_write/\wreq_burst_conv/burst_sequential/rs_req/data_p2_reg[96] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/\bus_read/rreq_burst_conv/burst_sequential/rs_req/data_p2_reg[96] )
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_write/wreq_burst_conv/burst_sequential/start_addr_reg[5]' (FDRE) to 'gmem_m_axi_U/bus_write/wreq_burst_conv/burst_sequential/start_addr_reg[4]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_write/wreq_burst_conv/burst_sequential/start_addr_reg[4]' (FDRE) to 'gmem_m_axi_U/bus_write/wreq_burst_conv/burst_sequential/start_addr_reg[3]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_write/wreq_burst_conv/burst_sequential/start_addr_reg[3]' (FDRE) to 'gmem_m_axi_U/bus_write/wreq_burst_conv/burst_sequential/start_addr_reg[2]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_write/wreq_burst_conv/burst_sequential/start_addr_reg[2]' (FDRE) to 'gmem_m_axi_U/bus_write/wreq_burst_conv/burst_sequential/start_addr_reg[1]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_write/wreq_burst_conv/burst_sequential/start_addr_reg[1]' (FDRE) to 'gmem_m_axi_U/bus_write/wreq_burst_conv/burst_sequential/start_addr_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/bus_write/\wreq_burst_conv/burst_sequential/start_addr_reg[0] )
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_write/wreq_burst_conv/burst_sequential/could_multi_bursts.burst_len_reg[4]' (FDRE) to 'gmem_m_axi_U/bus_write/wreq_burst_conv/burst_sequential/could_multi_bursts.burst_len_plus1_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_write/wreq_burst_conv/burst_sequential/could_multi_bursts.burst_len_reg[5]' (FDRE) to 'gmem_m_axi_U/bus_write/wreq_burst_conv/burst_sequential/could_multi_bursts.burst_len_reg[6]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_write/wreq_burst_conv/burst_sequential/could_multi_bursts.burst_len_reg[6]' (FDRE) to 'gmem_m_axi_U/bus_write/wreq_burst_conv/burst_sequential/could_multi_bursts.burst_len_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/bus_write/\wreq_burst_conv/burst_sequential/could_multi_bursts.burst_len_reg[7] )
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/store_unit_0/tmp_len_reg[0]' (FDRE) to 'gmem_m_axi_U/store_unit_0/tmp_len_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/store_unit_0/tmp_addr_reg[0]' (FDRE) to 'gmem_m_axi_U/store_unit_0/tmp_addr_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/store_unit_0/tmp_len_reg[1]' (FDRE) to 'gmem_m_axi_U/store_unit_0/tmp_len_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/store_unit_0/tmp_addr_reg[1]' (FDRE) to 'gmem_m_axi_U/store_unit_0/tmp_addr_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/store_unit_0/tmp_len_reg[2]' (FDRE) to 'gmem_m_axi_U/store_unit_0/tmp_len_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/store_unit_0/tmp_addr_reg[2]' (FDRE) to 'gmem_m_axi_U/store_unit_0/tmp_addr_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/store_unit_0/tmp_len_reg[3]' (FDRE) to 'gmem_m_axi_U/store_unit_0/tmp_len_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/store_unit_0/tmp_addr_reg[3]' (FDRE) to 'gmem_m_axi_U/store_unit_0/tmp_addr_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/store_unit_0/tmp_len_reg[4]' (FDRE) to 'gmem_m_axi_U/store_unit_0/tmp_len_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/store_unit_0/tmp_addr_reg[4]' (FDRE) to 'gmem_m_axi_U/store_unit_0/tmp_addr_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/\store_unit_0/tmp_addr_reg[5] )
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/load_unit_0/tmp_len_reg[0]' (FDRE) to 'gmem_m_axi_U/load_unit_0/tmp_len_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/rs_req/data_p2_reg[64]' (FDE) to 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/rs_req/data_p2_reg[69]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/load_unit_0/tmp_addr_reg[0]' (FDRE) to 'gmem_m_axi_U/load_unit_0/tmp_addr_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/rs_req/data_p2_reg[0]' (FDE) to 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/rs_req/data_p2_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/load_unit_0/tmp_len_reg[1]' (FDRE) to 'gmem_m_axi_U/load_unit_0/tmp_len_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/rs_req/data_p2_reg[65]' (FDE) to 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/rs_req/data_p2_reg[69]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/load_unit_0/tmp_addr_reg[1]' (FDRE) to 'gmem_m_axi_U/load_unit_0/tmp_addr_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/rs_req/data_p2_reg[1]' (FDE) to 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/rs_req/data_p2_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/load_unit_0/tmp_len_reg[2]' (FDRE) to 'gmem_m_axi_U/load_unit_0/tmp_len_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/rs_req/data_p2_reg[66]' (FDE) to 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/rs_req/data_p2_reg[69]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/load_unit_0/tmp_addr_reg[2]' (FDRE) to 'gmem_m_axi_U/load_unit_0/tmp_addr_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/rs_req/data_p2_reg[2]' (FDE) to 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/rs_req/data_p2_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/load_unit_0/tmp_len_reg[3]' (FDRE) to 'gmem_m_axi_U/load_unit_0/tmp_len_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/rs_req/data_p2_reg[67]' (FDE) to 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/rs_req/data_p2_reg[69]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/load_unit_0/tmp_addr_reg[3]' (FDRE) to 'gmem_m_axi_U/load_unit_0/tmp_addr_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/rs_req/data_p2_reg[3]' (FDE) to 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/rs_req/data_p2_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/load_unit_0/tmp_len_reg[4]' (FDRE) to 'gmem_m_axi_U/load_unit_0/tmp_len_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/rs_req/data_p2_reg[68]' (FDE) to 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/rs_req/data_p2_reg[69]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/load_unit_0/tmp_addr_reg[4]' (FDRE) to 'gmem_m_axi_U/load_unit_0/tmp_addr_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/rs_req/data_p2_reg[4]' (FDE) to 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/rs_req/data_p2_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/\load_unit_0/tmp_addr_reg[5] )
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/rs_req/data_p2_reg[5]' (FDE) to 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/rs_req/data_p2_reg[96]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/bus_write/\wreq_burst_conv/burst_sequential/could_multi_bursts.burst_len_plus1_reg[5] )
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_write/wreq_burst_conv/burst_sequential/could_multi_bursts.burst_len_plus1_reg[6]' (FDRE) to 'gmem_m_axi_U/bus_write/wreq_burst_conv/burst_sequential/could_multi_bursts.burst_len_plus1_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_write/wreq_burst_conv/burst_sequential/could_multi_bursts.burst_len_plus1_reg[7]' (FDRE) to 'gmem_m_axi_U/bus_write/wreq_burst_conv/burst_sequential/could_multi_bursts.burst_len_plus1_reg[8]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/bus_write/\wreq_burst_conv/burst_sequential/could_multi_bursts.burst_len_plus1_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/bus_write/\rs_resp/data_p2_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/bus_write/\wreq_throttle/rs_burst/data_p2_reg[8] )
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/start_addr_reg[5]' (FDRE) to 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/start_addr_reg[4]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/start_addr_reg[4]' (FDRE) to 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/start_addr_reg[3]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/start_addr_reg[3]' (FDRE) to 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/start_addr_reg[2]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/start_addr_reg[2]' (FDRE) to 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/start_addr_reg[1]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/start_addr_reg[1]' (FDRE) to 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/start_addr_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/\bus_read/rreq_burst_conv/burst_sequential/start_addr_reg[0] )
+INFO: [Synth 8-3886] merging instance 'p_cast719_reg_3372_reg[5]' (FDE) to 'p_cast721_reg_3382_reg[5]'
+INFO: [Synth 8-3886] merging instance 'p_cast719_reg_3372_reg[4]' (FDE) to 'p_cast720_reg_3377_reg[4]'
+INFO: [Synth 8-3886] merging instance 'p_cast719_reg_3372_reg[3]' (FDE) to 'p_cast720_reg_3377_reg[3]'
+INFO: [Synth 8-3886] merging instance 'p_cast720_reg_3377_reg[7]' (FDE) to 'p_cast728_reg_3417_reg[7]'
+INFO: [Synth 8-3886] merging instance 'p_cast720_reg_3377_reg[6]' (FDE) to 'p_cast724_reg_3397_reg[6]'
+INFO: [Synth 8-3886] merging instance 'p_cast720_reg_3377_reg[5]' (FDE) to 'p_cast718_reg_3367_reg[5]'
+INFO: [Synth 8-3886] merging instance 'p_cast720_reg_3377_reg[4]' (FDE) to 'p_cast718_reg_3367_reg[4]'
+INFO: [Synth 8-3886] merging instance 'p_cast720_reg_3377_reg[3]' (FDE) to 'p_cast718_reg_3367_reg[3]'
+INFO: [Synth 8-3886] merging instance 'p_cast718_reg_3367_reg[6]' (FDE) to 'p_cast722_reg_3387_reg[6]'
+INFO: [Synth 8-3886] merging instance 'p_cast718_reg_3367_reg[5]' (FDE) to 'p_cast722_reg_3387_reg[5]'
+INFO: [Synth 8-3886] merging instance 'p_cast718_reg_3367_reg[4]' (FDE) to 'p_cast721_reg_3382_reg[4]'
+INFO: [Synth 8-3886] merging instance 'p_cast718_reg_3367_reg[3]' (FDE) to 'p_cast721_reg_3382_reg[3]'
+INFO: [Synth 8-3886] merging instance 'p_cast721_reg_3382_reg[5]' (FDE) to 'p_cast717_reg_3362_reg[5]'
+INFO: [Synth 8-3886] merging instance 'p_cast721_reg_3382_reg[4]' (FDE) to 'p_cast722_reg_3387_reg[4]'
+INFO: [Synth 8-3886] merging instance 'p_cast721_reg_3382_reg[3]' (FDE) to 'p_cast722_reg_3387_reg[3]'
+INFO: [Synth 8-3886] merging instance 'p_cast722_reg_3387_reg[6]' (FDE) to 'p_cast726_reg_3407_reg[6]'
+INFO: [Synth 8-3886] merging instance 'p_cast722_reg_3387_reg[5]' (FDE) to 'p_cast724_reg_3397_reg[5]'
+INFO: [Synth 8-3886] merging instance 'p_cast722_reg_3387_reg[4]' (FDE) to 'p_cast717_reg_3362_reg[4]'
+INFO: [Synth 8-3886] merging instance 'p_cast722_reg_3387_reg[3]' (FDE) to 'p_cast717_reg_3362_reg[3]'
+INFO: [Synth 8-3886] merging instance 'p_cast717_reg_3362_reg[5]' (FDE) to 'p_cast723_reg_3392_reg[5]'
+INFO: [Synth 8-3886] merging instance 'p_cast717_reg_3362_reg[4]' (FDE) to 'p_cast723_reg_3392_reg[4]'
+INFO: [Synth 8-3886] merging instance 'p_cast717_reg_3362_reg[3]' (FDE) to 'p_cast723_reg_3392_reg[3]'
+INFO: [Synth 8-3886] merging instance 'p_cast723_reg_3392_reg[5]' (FDE) to 'p_cast725_reg_3402_reg[5]'
+INFO: [Synth 8-3886] merging instance 'p_cast723_reg_3392_reg[4]' (FDE) to 'p_cast724_reg_3397_reg[4]'
+INFO: [Synth 8-3886] merging instance 'p_cast723_reg_3392_reg[3]' (FDE) to 'p_cast724_reg_3397_reg[3]'
+INFO: [Synth 8-3886] merging instance 'p_cast716_reg_3357_reg[7]' (FDE) to 'p_cast724_reg_3397_reg[7]'
+INFO: [Synth 8-3886] merging instance 'p_cast716_reg_3357_reg[6]' (FDE) to 'p_cast724_reg_3397_reg[6]'
+INFO: [Synth 8-3886] merging instance 'p_cast716_reg_3357_reg[5]' (FDE) to 'p_cast724_reg_3397_reg[5]'
+INFO: [Synth 8-3886] merging instance 'p_cast716_reg_3357_reg[4]' (FDE) to 'p_cast724_reg_3397_reg[4]'
+INFO: [Synth 8-3886] merging instance 'p_cast716_reg_3357_reg[3]' (FDE) to 'p_cast724_reg_3397_reg[3]'
+INFO: [Synth 8-3886] merging instance 'p_cast724_reg_3397_reg[6]' (FDE) to 'p_cast728_reg_3417_reg[6]'
+INFO: [Synth 8-3886] merging instance 'p_cast724_reg_3397_reg[5]' (FDE) to 'p_cast726_reg_3407_reg[5]'
+INFO: [Synth 8-3886] merging instance 'p_cast724_reg_3397_reg[4]' (FDE) to 'p_cast725_reg_3402_reg[4]'
+INFO: [Synth 8-3886] merging instance 'p_cast724_reg_3397_reg[3]' (FDE) to 'p_cast725_reg_3402_reg[3]'
+INFO: [Synth 8-3886] merging instance 'p_cast725_reg_3402_reg[5]' (FDE) to 'p_cast727_reg_3412_reg[5]'
+INFO: [Synth 8-3886] merging instance 'p_cast725_reg_3402_reg[4]' (FDE) to 'p_cast726_reg_3407_reg[4]'
+INFO: [Synth 8-3886] merging instance 'p_cast725_reg_3402_reg[3]' (FDE) to 'p_cast726_reg_3407_reg[3]'
+INFO: [Synth 8-3886] merging instance 'p_cast726_reg_3407_reg[6]' (FDE) to 'p_cast730_reg_3427_reg[6]'
+INFO: [Synth 8-3886] merging instance 'p_cast726_reg_3407_reg[5]' (FDE) to 'p_cast728_reg_3417_reg[5]'
+INFO: [Synth 8-3886] merging instance 'p_cast726_reg_3407_reg[4]' (FDE) to 'p_cast727_reg_3412_reg[4]'
+INFO: [Synth 8-3886] merging instance 'p_cast726_reg_3407_reg[3]' (FDE) to 'p_cast727_reg_3412_reg[3]'
+INFO: [Synth 8-3886] merging instance 'p_cast727_reg_3412_reg[5]' (FDE) to 'p_cast729_reg_3422_reg[5]'
+INFO: [Synth 8-3886] merging instance 'p_cast727_reg_3412_reg[4]' (FDE) to 'p_cast728_reg_3417_reg[4]'
+INFO: [Synth 8-3886] merging instance 'p_cast727_reg_3412_reg[3]' (FDE) to 'p_cast728_reg_3417_reg[3]'
+INFO: [Synth 8-3886] merging instance 'p_cast728_reg_3417_reg[5]' (FDE) to 'p_cast730_reg_3427_reg[5]'
+INFO: [Synth 8-3886] merging instance 'p_cast728_reg_3417_reg[4]' (FDE) to 'p_cast729_reg_3422_reg[4]'
+INFO: [Synth 8-3886] merging instance 'p_cast728_reg_3417_reg[3]' (FDE) to 'p_cast729_reg_3422_reg[3]'
+INFO: [Synth 8-3886] merging instance 'p_cast729_reg_3422_reg[5]' (FDE) to 'zext_ln48_reg_3432_reg[5]'
+INFO: [Synth 8-3886] merging instance 'p_cast729_reg_3422_reg[4]' (FDE) to 'p_cast730_reg_3427_reg[4]'
+INFO: [Synth 8-3886] merging instance 'p_cast729_reg_3422_reg[3]' (FDE) to 'p_cast730_reg_3427_reg[3]'
+INFO: [Synth 8-3886] merging instance 'p_cast730_reg_3427_reg[4]' (FDE) to 'zext_ln48_reg_3432_reg[4]'
+INFO: [Synth 8-3886] merging instance 'p_cast730_reg_3427_reg[3]' (FDE) to 'zext_ln48_reg_3432_reg[3]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/could_multi_bursts.burst_len_plus1_reg[5]' (FDRE) to 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/could_multi_bursts.burst_len_reg[4]'
+INFO: [Synth 8-3886] merging instance 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/could_multi_bursts.burst_len_plus1_reg[6]' (FDRE) to 'gmem_m_axi_U/bus_read/rreq_burst_conv/burst_sequential/could_multi_bursts.burst_len_plus1_reg[7]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/\bus_read/rreq_burst_conv/burst_sequential/could_multi_bursts.burst_len_plus1_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\p_cast716_reg_3357_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/\bus_read/rreq_burst_conv/burst_sequential/could_multi_bursts.burst_len_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/\bus_read/rreq_burst_conv/burst_sequential/could_multi_bursts.burst_len_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/bus_write/\wreq_burst_conv/burst_sequential/rs_req/data_p1_reg[96] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/bus_write/\wreq_burst_conv/burst_sequential/rs_req/data_p2_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/\bus_read/rreq_burst_conv/burst_sequential/rs_req/data_p2_reg[96] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/\bus_read/rreq_burst_conv/burst_sequential/rs_req/data_p1_reg[96] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/bus_write/\wreq_burst_conv/burst_sequential/sect_addr_buf_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/\load_unit_0/fifo_rreq/U_fifo_srl/dout_reg[95] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/\store_unit_0/fifo_wreq/U_fifo_srl/dout_reg[95] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/bus_write/\rs_resp/data_p1_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/bus_write/\wreq_throttle/rs_burst/data_p1_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/\bus_read/rreq_burst_conv/burst_sequential/sect_addr_buf_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/bus_write/\wreq_burst_conv/burst_sequential/req_id_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/bus_write/\wreq_burst_conv/burst_sequential/rs_req/data_p1_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/\bus_read/rreq_burst_conv/burst_sequential/rs_req/data_p1_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/\bus_read/rreq_burst_conv/burst_sequential/req_id_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/\store_unit_0/conservative_gen.fifo_burst/U_fifo_srl/dout_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/bus_write/\wreq_burst_conv/burst_sequential/req_id_buf_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/\bus_read/rreq_burst_conv/burst_sequential/req_id_buf_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/\store_unit_0/conservative_gen.local_BURST_WLEN_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/bus_write/\wreq_burst_conv/burst_sequential/could_multi_bursts.burst_id_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/bus_write/\wreq_throttle/rs_burst/data_p2_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/bus_write/\wreq_throttle/rs_burst/data_p1_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/bus_write/\wreq_throttle/rs_req/data_p2_reg[71] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/bus_write/\wreq_throttle/rs_req/data_p1_reg[71] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/bus_write/\wreq_throttle/fifo_burst_gen[0].fifo_req/U_fifo_srl/dout_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/bus_write/\wreq_throttle/rs_req/data_p2_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gmem_m_axi_U/bus_write/\wreq_throttle/rs_req/data_p1_reg[5] )
+INFO: [Synth 8-12192] Not enough pipeline registers after wide multiplier. Pipeline registers present is 1. Recommended levels of pipeline registers is 4. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_mul_32s_32s_32_1_1.v:44]
+INFO: [Synth 8-12192] Not enough pipeline registers after wide multiplier. Pipeline registers present is 1. Recommended levels of pipeline registers is 4. [c:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.gen/sources_1/bd/bd_0/ipshared/8da5/hdl/verilog/MM_mul_32s_32s_32_1_1.v:44]
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U84/tmp_product, operation Mode is: A*B.
+DSP Report: operator mul_32s_32s_32_1_1_U84/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U84/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U84/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U84/tmp_product.
+DSP Report: Generating DSP reg_963_reg, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: register reg_963_reg is absorbed into DSP reg_963_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U84/tmp_product is absorbed into DSP reg_963_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U84/tmp_product is absorbed into DSP reg_963_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U84/tmp_product, operation Mode is: A*B.
+DSP Report: operator mul_32s_32s_32_1_1_U84/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U84/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U84/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U84/tmp_product.
+DSP Report: Generating DSP reg_963_reg, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: register reg_963_reg is absorbed into DSP reg_963_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U84/tmp_product is absorbed into DSP reg_963_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U84/tmp_product is absorbed into DSP reg_963_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U85/tmp_product, operation Mode is: A2*B2.
+DSP Report: register add_ln66_reg_3962_reg is absorbed into DSP mul_32s_32s_32_1_1_U85/tmp_product.
+DSP Report: register mul_32s_32s_32_1_1_U85/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U85/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U85/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U85/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U85/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U85/tmp_product.
+DSP Report: Generating DSP mul_ln69_reg_3968_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register add_ln66_reg_3962_reg is absorbed into DSP mul_ln69_reg_3968_reg.
+DSP Report: register mul_ln69_reg_3968_reg is absorbed into DSP mul_ln69_reg_3968_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U85/tmp_product is absorbed into DSP mul_ln69_reg_3968_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U85/tmp_product is absorbed into DSP mul_ln69_reg_3968_reg.
+DSP Report: Generating DSP mul_32s_32s_32_1_1_U85/tmp_product, operation Mode is: A2*B2.
+DSP Report: register mul_32s_32s_32_1_1_U85/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U85/tmp_product.
+DSP Report: register mul_32s_32s_32_1_1_U85/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U85/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U85/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U85/tmp_product.
+DSP Report: operator mul_32s_32s_32_1_1_U85/tmp_product is absorbed into DSP mul_32s_32s_32_1_1_U85/tmp_product.
+DSP Report: Generating DSP mul_ln69_reg_3968_reg, operation Mode is: (PCIN>>17)+A2*B.
+DSP Report: register mul_ln69_reg_3968_reg is absorbed into DSP mul_ln69_reg_3968_reg.
+DSP Report: register mul_ln69_reg_3968_reg is absorbed into DSP mul_ln69_reg_3968_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U85/tmp_product is absorbed into DSP mul_ln69_reg_3968_reg.
+DSP Report: operator mul_32s_32s_32_1_1_U85/tmp_product is absorbed into DSP mul_ln69_reg_3968_reg.
+WARNING: [Synth 8-7129] Port AWADDR[1] in module MM_control_s_axi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port AWADDR[0] in module MM_control_s_axi is either unconnected or has no load
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\tmp_60_cast_reg_3445_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (control_s_axi_U/\waddr_reg[1] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:12 ; elapsed = 00:01:55 . Memory (MB): peak = 1683.320 ; gain = 929.078
+---------------------------------------------------------------------------------
+ Sort Area is MM__GB6 mul_32s_32s_32_1_1_U85/tmp_product_6 : 0 0 : 3137 5856 : Used 1 time 0
+ Sort Area is MM__GB6 mul_32s_32s_32_1_1_U85/tmp_product_6 : 0 1 : 2719 5856 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U1/tmp_product_0 : 0 0 : 3119 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U1/tmp_product_0 : 0 1 : 2719 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U10/tmp_product_16 : 0 0 : 3119 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U10/tmp_product_16 : 0 1 : 2719 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U11/tmp_product_18 : 0 0 : 3119 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U11/tmp_product_18 : 0 1 : 2719 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U12/tmp_product_1a : 0 0 : 3119 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U12/tmp_product_1a : 0 1 : 2719 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U13/tmp_product_1c : 0 0 : 3119 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U13/tmp_product_1c : 0 1 : 2719 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U14/tmp_product_1e : 0 0 : 3119 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U14/tmp_product_1e : 0 1 : 2719 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U15/tmp_product_20 : 0 0 : 3119 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U15/tmp_product_20 : 0 1 : 2719 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U16/tmp_product_22 : 0 0 : 3119 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U16/tmp_product_22 : 0 1 : 2719 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U2/tmp_product_6 : 0 0 : 3119 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U2/tmp_product_6 : 0 1 : 2719 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U3/tmp_product_8 : 0 0 : 3119 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U3/tmp_product_8 : 0 1 : 2719 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U4/tmp_product_a : 0 0 : 3119 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U4/tmp_product_a : 0 1 : 2719 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U5/tmp_product_c : 0 0 : 3119 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U5/tmp_product_c : 0 1 : 2719 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U6/tmp_product_e : 0 0 : 3119 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U6/tmp_product_e : 0 1 : 2719 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U7/tmp_product_10 : 0 0 : 3119 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U7/tmp_product_10 : 0 1 : 2719 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U8/tmp_product_12 : 0 0 : 3119 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U8/tmp_product_12 : 0 1 : 2719 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U9/tmp_product_14 : 0 0 : 3119 5838 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U9/tmp_product_14 : 0 1 : 2719 5838 : Used 1 time 0
+ Sort Area is MM__GB6 mul_32s_32s_32_1_1_U85/tmp_product_9 : 0 0 : 2667 5215 : Used 1 time 0
+ Sort Area is MM__GB6 mul_32s_32s_32_1_1_U85/tmp_product_9 : 0 1 : 2548 5215 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U1/tmp_product_3 : 0 0 : 2649 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U1/tmp_product_3 : 0 1 : 2548 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U10/tmp_product_17 : 0 0 : 2649 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U10/tmp_product_17 : 0 1 : 2548 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U11/tmp_product_19 : 0 0 : 2649 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U11/tmp_product_19 : 0 1 : 2548 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U12/tmp_product_1b : 0 0 : 2649 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U12/tmp_product_1b : 0 1 : 2548 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U13/tmp_product_1d : 0 0 : 2649 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U13/tmp_product_1d : 0 1 : 2548 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U14/tmp_product_1f : 0 0 : 2649 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U14/tmp_product_1f : 0 1 : 2548 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U15/tmp_product_21 : 0 0 : 2649 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U15/tmp_product_21 : 0 1 : 2548 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U16/tmp_product_23 : 0 0 : 2649 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U16/tmp_product_23 : 0 1 : 2548 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U2/tmp_product_7 : 0 0 : 2649 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U2/tmp_product_7 : 0 1 : 2548 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U3/tmp_product_9 : 0 0 : 2649 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U3/tmp_product_9 : 0 1 : 2548 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U4/tmp_product_b : 0 0 : 2649 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U4/tmp_product_b : 0 1 : 2548 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U5/tmp_product_d : 0 0 : 2649 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U5/tmp_product_d : 0 1 : 2548 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U6/tmp_product_f : 0 0 : 2649 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U6/tmp_product_f : 0 1 : 2548 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U7/tmp_product_11 : 0 0 : 2649 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U7/tmp_product_11 : 0 1 : 2548 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U8/tmp_product_13 : 0 0 : 2649 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U8/tmp_product_13 : 0 1 : 2548 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U9/tmp_product_15 : 0 0 : 2649 5197 : Used 1 time 0
+ Sort Area is MM__GB0 mul_32s_32s_32_1_1_U9/tmp_product_15 : 0 1 : 2548 5197 : Used 1 time 0
+ Sort Area is MM__GB6 mul_32s_32s_32_1_1_U84/tmp_product_0 : 0 0 : 2701 4912 : Used 1 time 0
+ Sort Area is MM__GB6 mul_32s_32s_32_1_1_U84/tmp_product_0 : 0 1 : 2211 4912 : Used 1 time 0
+ Sort Area is MM__GB6 mul_32s_32s_32_1_1_U84/tmp_product_3 : 0 0 : 2158 4062 : Used 1 time 0
+ Sort Area is MM__GB6 mul_32s_32s_32_1_1_U84/tmp_product_3 : 0 1 : 1904 4062 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
++-------------+-------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name  | RTL Object                                | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++-------------+-------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|gmem_m_axi_U | load_unit_0/buff_rdata/U_fifo_mem/mem_reg | 255 x 514(READ_FIRST)  | W |   | 255 x 514(WRITE_FIRST) |   | R | Port A and B     | 1      | 7      | 
++-------------+-------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++----------------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name           | DSP Mapping     | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++----------------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|MM_MM_Pipeline_i_loop | A*B2            | 18     | 15     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 15     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A2*B            | 18     | 18     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 18     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A*B2            | 18     | 15     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 15     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A2*B            | 18     | 18     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 18     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A*B2            | 18     | 15     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 15     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A2*B            | 18     | 18     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 18     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A*B2            | 18     | 15     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 15     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A2*B            | 18     | 18     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 18     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A*B2            | 18     | 15     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 15     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A2*B            | 18     | 18     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 18     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A*B2            | 18     | 15     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 15     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A2*B            | 18     | 18     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 18     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A*B2            | 18     | 15     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 15     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A2*B            | 18     | 18     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 18     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A*B2            | 18     | 15     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 15     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A2*B            | 18     | 18     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 18     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A*B2            | 18     | 15     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 15     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A2*B            | 18     | 18     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 18     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A*B2            | 18     | 15     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 15     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A2*B            | 18     | 18     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 18     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A*B2            | 18     | 15     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 15     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A2*B            | 18     | 18     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 18     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A*B2            | 18     | 15     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 15     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A2*B            | 18     | 18     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 18     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A*B2            | 18     | 15     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 15     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A2*B            | 18     | 18     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 18     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A*B2            | 18     | 15     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 15     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A2*B            | 18     | 18     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 18     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A*B2            | 18     | 15     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 15     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A2*B            | 18     | 18     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 18     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A*B2            | 18     | 15     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 15     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A2*B            | 18     | 18     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17)+A2*B | 18     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM__GB6               | A*B             | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|MM__GB6               | (PCIN>>17)+A*B  | 15     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|MM__GB6               | A*B             | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|MM__GB6               | (PCIN>>17)+A*B  | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|MM__GB6               | A2*B2           | 18     | 15     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MM__GB6               | (PCIN>>17)+A2*B | 15     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
+|MM__GB6               | A2*B2           | 18     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MM__GB6               | (PCIN>>17)+A2*B | 18     | 15     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 1    | 
++----------------------+-----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:32 ; elapsed = 00:02:24 . Memory (MB): peak = 1802.598 ; gain = 1048.355
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:56 ; elapsed = 00:02:52 . Memory (MB): peak = 2295.992 ; gain = 1541.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++-------------+-------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name  | RTL Object                                | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++-------------+-------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|gmem_m_axi_U | load_unit_0/buff_rdata/U_fifo_mem/mem_reg | 255 x 514(READ_FIRST)  | W |   | 255 x 514(WRITE_FIRST) |   | R | Port A and B     | 1      | 7      | 
++-------------+-------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance inst/i_5/gmem_m_axi_U/load_unit_0/buff_rdata/U_fifo_mem/mem_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/i_5/gmem_m_axi_U/load_unit_0/buff_rdata/U_fifo_mem/mem_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/i_5/gmem_m_axi_U/load_unit_0/buff_rdata/U_fifo_mem/mem_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/i_5/gmem_m_axi_U/load_unit_0/buff_rdata/U_fifo_mem/mem_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/i_5/gmem_m_axi_U/load_unit_0/buff_rdata/U_fifo_mem/mem_reg_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/i_5/gmem_m_axi_U/load_unit_0/buff_rdata/U_fifo_mem/mem_reg_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/i_5/gmem_m_axi_U/load_unit_0/buff_rdata/U_fifo_mem/mem_reg_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/i_5/gmem_m_axi_U/load_unit_0/buff_rdata/U_fifo_mem/mem_reg_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:31 ; elapsed = 00:04:11 . Memory (MB): peak = 2297.160 ; gain = 1542.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance inst/gmem_m_axi_U/load_unit_0/buff_rdata/U_fifo_mem/mem_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/gmem_m_axi_U/load_unit_0/buff_rdata/U_fifo_mem/mem_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/gmem_m_axi_U/load_unit_0/buff_rdata/U_fifo_mem/mem_reg_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/gmem_m_axi_U/load_unit_0/buff_rdata/U_fifo_mem/mem_reg_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/gmem_m_axi_U/load_unit_0/buff_rdata/U_fifo_mem/mem_reg_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/gmem_m_axi_U/load_unit_0/buff_rdata/U_fifo_mem/mem_reg_5 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/gmem_m_axi_U/load_unit_0/buff_rdata/U_fifo_mem/mem_reg_6 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/gmem_m_axi_U/load_unit_0/buff_rdata/U_fifo_mem/mem_reg_7 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:53 ; elapsed = 00:04:41 . Memory (MB): peak = 2297.160 ; gain = 1542.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:53 ; elapsed = 00:04:42 . Memory (MB): peak = 2297.160 ; gain = 1542.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:00 ; elapsed = 00:04:50 . Memory (MB): peak = 2297.160 ; gain = 1542.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:00 ; elapsed = 00:04:50 . Memory (MB): peak = 2297.160 ; gain = 1542.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:03 ; elapsed = 00:04:53 . Memory (MB): peak = 2297.160 ; gain = 1542.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:03 ; elapsed = 00:04:53 . Memory (MB): peak = 2297.160 ; gain = 1542.918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+-------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name          | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+-------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|MM          | ap_CS_fsm_reg[56] | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|MM          | ap_CS_fsm_reg[40] | 6      | 1     | YES          | NO                 | YES               | 1      | 0       | 
++------------+-------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+
+Dynamic Shift Register Report:
++------------+-------------+--------+------------+--------+---------+--------+--------+--------+
+|Module Name | RTL Name    | Length | Data Width | SRL16E | SRLC32E | Mux F7 | Mux F8 | Mux F9 | 
++------------+-------------+--------+------------+--------+---------+--------+--------+--------+
+|dsrl        | mem_reg[14] | 8      | 8          | 8      | 0       | 0      | 0      | 0      | 
+|dsrl__1     | mem_reg[5]  | 96     | 96         | 96     | 0       | 0      | 0      | 0      | 
+|dsrl__2     | mem_reg[30] | 576    | 576        | 0      | 576     | 0      | 0      | 0      | 
+|dsrl__3     | mem_reg[14] | 1      | 1          | 1      | 0       | 0      | 0      | 0      | 
+|dsrl__4     | mem_reg[5]  | 1      | 1          | 1      | 0       | 0      | 0      | 0      | 
+|dsrl__5     | mem_reg[14] | 64     | 64         | 64     | 0       | 0      | 0      | 0      | 
++------------+-------------+--------+------------+--------+---------+--------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++----------------------+-------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name           | DSP Mapping       | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++----------------------+-------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|MM__GB6               | (PCIN>>17+A*B)'   | 0      | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|MM__GB6               | (PCIN>>17+A'*B')' | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17+A'*B')' | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17+A'*B')' | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17+A'*B')' | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17+A'*B')' | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17+A'*B')' | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17+A'*B')' | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17+A'*B')' | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17+A'*B')' | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17+A'*B')' | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17+A'*B')' | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17+A'*B')' | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17+A'*B')' | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17+A'*B')' | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17+A'*B')' | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17+A'*B')' | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | (PCIN>>17+A'*B')' | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | (A'*B')'          | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A'*B'             | 17     | 17     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (A'*B')'          | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A'*B'             | 17     | 17     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (A'*B')'          | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A'*B'             | 17     | 17     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (A'*B')'          | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A'*B'             | 17     | 17     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (A'*B')'          | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A'*B'             | 17     | 17     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (A'*B')'          | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A'*B'             | 17     | 17     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (A'*B')'          | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A'*B'             | 17     | 17     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (A'*B')'          | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A'*B'             | 17     | 17     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (A'*B')'          | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A'*B'             | 17     | 17     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (A'*B')'          | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A'*B'             | 17     | 17     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (A'*B')'          | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A'*B'             | 17     | 17     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (A'*B')'          | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A'*B'             | 17     | 17     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (A'*B')'          | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A'*B'             | 17     | 17     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (A'*B')'          | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A'*B'             | 17     | 17     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (A'*B')'          | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A'*B'             | 17     | 17     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MM_MM_Pipeline_i_loop | (A'*B')'          | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM_MM_Pipeline_i_loop | A'*B'             | 17     | 17     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|MM__GB6               | (A*B)'            | 17     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|MM__GB6               | A*B               | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|MM__GB6               | (A'*B')'          | 17     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|MM__GB6               | A'*B'             | 17     | 17     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
++----------------------+-------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |   752|
+|2     |DSP48E1  |    54|
+|7     |LUT1     |   462|
+|8     |LUT2     |   648|
+|9     |LUT3     | 25788|
+|10    |LUT4     |  1009|
+|11    |LUT5     |  1785|
+|12    |LUT6     |  8303|
+|13    |MUXF7    |  2304|
+|14    |MUXF8    |   704|
+|15    |RAMB18E1 |     1|
+|16    |RAMB36E1 |     7|
+|17    |SRL16E   |   185|
+|18    |SRLC32E  |   576|
+|19    |FDRE     | 33134|
+|20    |FDSE     |    18|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:03 ; elapsed = 00:04:53 . Memory (MB): peak = 2297.160 ; gain = 1542.918
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 118 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:40 ; elapsed = 00:04:46 . Memory (MB): peak = 2297.160 ; gain = 1309.430
+Synthesis Optimization Complete : Time (s): cpu = 00:03:04 ; elapsed = 00:04:59 . Memory (MB): peak = 2297.160 ; gain = 1542.918
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2297.160 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 3822 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 2297.160 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 713fcbea
+INFO: [Common 17-83] Releasing license: Synthesis
+289 Infos, 138 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:03:24 ; elapsed = 00:05:25 . Memory (MB): peak = 2297.160 ; gain = 1768.199
+Write ShapeDB Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.341 . Memory (MB): peak = 2297.160 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1/bd_0_hls_inst_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 2297.160 ; gain = 0.000
+write_vhdl: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 2297.160 ; gain = 0.000
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP bd_0_hls_inst_0, cache-ID = ceb04d839812c103
+INFO: [Coretcl 2-1174] Renamed 58 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 2297.160 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/seanr/vitis_projects/Lab3_MLP_optimization/baseline_blockedMM/baseline_blockedMM/hls/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1/bd_0_hls_inst_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:04 ; elapsed = 00:00:14 . Memory (MB): peak = 2297.160 ; gain = 0.000
+INFO: [Vivado 12-24828] Executing command : report_utilization -file bd_0_hls_inst_0_utilization_synth.rpt -pb bd_0_hls_inst_0_utilization_synth.pb
+write_vhdl: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2297.160 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Apr 11 22:10:38 2026...
