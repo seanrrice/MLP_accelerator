@@ -9,10 +9,10 @@
 <ENTRY>
 {
  "type": "ET_CmdStep",
- "dateTimestamp": "04/10/26 16:54:12",
- "timestampMillis": "1775865252093",
+ "dateTimestamp": "04/11/26 17:00:19",
+ "timestampMillis": "1775952019718",
  "buildStep": {
-  "cmdId": "8826839b-adfa-4e5c-97bf-620afc8227e1",
+  "cmdId": "8306122c-7f3e-4757-8d1a-9ab2b103fe37",
   "name": "v++",
   "logFile": "C:/Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\baseline_blockedMM\\logs\\baseline_blockedMM.steps.log",
   "commandLine": "C:/Xilinx/2025.1/Vitis/bin/unwrapped/win64.o/v++.exe  -c --mode hls --config C:\\Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\hls_config.cfg --work_dir baseline_blockedMM ",
@@ -28,7 +28,7 @@
   "iniFiles": [
    {
     "path": "C:/Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\hls_config.cfg",
-    "content": "part=xc7z020clg400-1\n\n[hls]\nflow_target=vivado\npackage.output.format=ip_catalog\npackage.output.syn=false\nsyn.file=../MLP_baseline/mm.cpp\nsyn.file=../MLP_baseline/mm.h\ntb.file=../MLP_baseline/first_layer_golden_output.txt\ntb.file=../MLP_baseline/mm_test.cpp\ntb.file=../MLP_baseline/mnist_images_int.txt\ntb.file=../MLP_baseline/weights_layer1.txt\ntb.file=../MLP_baseline/weights_layer2.txt\ntb.file=../MLP_baseline/weights_layer3.txt\nsyn.top=MM\nclock=15\ncosim.trace_level=all\npackage.output.file=Z:\\Labs\\MLP_accelerator\\package"
+    "content": "part=xc7z020clg400-1\n\n[hls]\nflow_target=vivado\npackage.output.format=ip_catalog\npackage.output.syn=false\nsyn.file=../MLP_baseline/mm.cpp\nsyn.file=../MLP_baseline/mm.h\ntb.file=../MLP_baseline/first_layer_golden_output.txt\ntb.file=../MLP_baseline/mm_test.cpp\ntb.file=../MLP_baseline/mnist_images_int.txt\ntb.file=../MLP_baseline/weights_layer1.txt\ntb.file=../MLP_baseline/weights_layer2.txt\ntb.file=../MLP_baseline/weights_layer3.txt\nsyn.top=MM\nclock=15\ncosim.trace_level=all\npackage.output.file=C:\\Users\\seanr\\vitis_projects\\Lab3_MLP_optimization"
    }
   ],
   "cwd": "C:\\Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM"
@@ -38,10 +38,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/10/26 16:54:12",
- "timestampMillis": "1775865252093",
+ "dateTimestamp": "04/11/26 17:00:19",
+ "timestampMillis": "1775952019721",
  "status": {
-  "cmdId": "8826839b-adfa-4e5c-97bf-620afc8227e1",
+  "cmdId": "8306122c-7f3e-4757-8d1a-9ab2b103fe37",
   "state": "CS_RUNNING"
  }
 }
@@ -49,8 +49,8 @@
 <ENTRY>
 {
  "type": "ET_FlowMetaData",
- "dateTimestamp": "04/10/26 16:54:18",
- "timestampMillis": "1775865258205",
+ "dateTimestamp": "04/11/26 17:00:33",
+ "timestampMillis": "1775952033014",
  "buildSummary": {
   "hardwarePlatform": "",
   "hardwareDsa": "",
@@ -86,10 +86,10 @@
 <ENTRY>
 {
  "type": "ET_SubCmdStep",
- "dateTimestamp": "04/10/26 16:54:18",
- "timestampMillis": "1775865258206",
+ "dateTimestamp": "04/11/26 17:00:33",
+ "timestampMillis": "1775952033017",
  "buildStep": {
-  "cmdId": "a762b04d-bd0b-4d98-b9e3-85d9a93921f7",
+  "cmdId": "490eaf23-8335-47af-a5d2-2386c8ded5df",
   "name": "",
   "logFile": "C:/Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\baseline_blockedMM\\hls\\hls.log",
   "commandLine": "",
@@ -102,10 +102,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/10/26 16:54:18",
- "timestampMillis": "1775865258207",
+ "dateTimestamp": "04/11/26 17:00:33",
+ "timestampMillis": "1775952033018",
  "status": {
-  "cmdId": "a762b04d-bd0b-4d98-b9e3-85d9a93921f7",
+  "cmdId": "490eaf23-8335-47af-a5d2-2386c8ded5df",
   "state": "CS_RUNNING"
  }
 }
@@ -113,8 +113,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/10/26 16:54:18",
- "timestampMillis": "1775865258207",
+ "dateTimestamp": "04/11/26 17:00:33",
+ "timestampMillis": "1775952033019",
  "report": {
   "path": "C:/Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\baseline_blockedMM\\hls\\hls_data.json",
   "name": "",
@@ -127,8 +127,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/10/26 16:54:18",
- "timestampMillis": "1775865258208",
+ "dateTimestamp": "04/11/26 17:00:33",
+ "timestampMillis": "1775952033020",
  "report": {
   "path": "C:/Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\baseline_blockedMM\\hls\\syn\\report\\csynth.rpt",
   "name": "",
@@ -141,8 +141,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/10/26 16:54:18",
- "timestampMillis": "1775865258209",
+ "dateTimestamp": "04/11/26 17:00:33",
+ "timestampMillis": "1775952033021",
  "report": {
   "path": "C:/Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\baseline_blockedMM\\hls\\syn\\report\\csynth.xml",
   "name": "",
@@ -155,8 +155,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/10/26 16:55:09",
- "timestampMillis": "1775865309241",
+ "dateTimestamp": "04/11/26 17:01:58",
+ "timestampMillis": "1775952118214",
  "report": {
   "path": "C:/Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\baseline_blockedMM\\hls",
   "name": "",
@@ -169,8 +169,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/10/26 16:55:09",
- "timestampMillis": "1775865309243",
+ "dateTimestamp": "04/11/26 17:01:58",
+ "timestampMillis": "1775952118215",
  "report": {
   "path": "C:/Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\baseline_blockedMM\\hls",
   "name": "",
@@ -183,8 +183,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/10/26 16:55:09",
- "timestampMillis": "1775865309244",
+ "dateTimestamp": "04/11/26 17:01:58",
+ "timestampMillis": "1775952118216",
  "report": {
   "path": "C:/Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\baseline_blockedMM\\hls",
   "name": "",
@@ -197,10 +197,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/10/26 16:55:09",
- "timestampMillis": "1775865309244",
+ "dateTimestamp": "04/11/26 17:01:58",
+ "timestampMillis": "1775952118216",
  "status": {
-  "cmdId": "a762b04d-bd0b-4d98-b9e3-85d9a93921f7",
+  "cmdId": "490eaf23-8335-47af-a5d2-2386c8ded5df",
   "state": "CS_PASSED"
  }
 }
@@ -208,10 +208,10 @@
 <ENTRY>
 {
  "type": "ET_Status",
- "dateTimestamp": "04/10/26 16:55:09",
- "timestampMillis": "1775865309602",
+ "dateTimestamp": "04/11/26 17:01:58",
+ "timestampMillis": "1775952118738",
  "status": {
-  "cmdId": "8826839b-adfa-4e5c-97bf-620afc8227e1",
+  "cmdId": "8306122c-7f3e-4757-8d1a-9ab2b103fe37",
   "state": "CS_PASSED"
  }
 }
@@ -219,8 +219,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/10/26 16:55:09",
- "timestampMillis": "1775865309694",
+ "dateTimestamp": "04/11/26 17:01:58",
+ "timestampMillis": "1775952118793",
  "report": {
   "path": "C:/Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\baseline_blockedMM\\reports\\v++_compile_baseline_blockedMM_guidance.html",
   "name": "",
@@ -233,8 +233,8 @@
 <ENTRY>
 {
  "type": "ET_Report",
- "dateTimestamp": "04/10/26 16:55:09",
- "timestampMillis": "1775865309695",
+ "dateTimestamp": "04/11/26 17:01:58",
+ "timestampMillis": "1775952118793",
  "report": {
   "path": "C:/Users\\seanr\\vitis_projects\\Lab3_MLP_optimization\\baseline_blockedMM\\baseline_blockedMM\\reports\\.db\\v++_compile_baseline_blockedMM_guidance.pb3",
   "name": "",

@@ -31,3 +31,5 @@ vitis.dispose()
 
 vitis.dispose()
 
+comp.run(operation="SYNTHESIS")
+

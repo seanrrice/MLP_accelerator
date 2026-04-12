@@ -49,7 +49,9 @@ void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P) {
     cout << "Entering MM..." << endl;
     // Blocked matmul
     for(int ib = 0; ib < N/BLOCK_SIZE; ib ++){
+        #pragma HLS LOOP_TRIPCOUNT min=64 max=64
         for(int jb = 0; jb < P/BLOCK_SIZE; jb ++){
+            #pragma HLS LOOP_TRIPCOUNT min=8 max=8
             // Initialize block with bias vector data
             for(int i=0;i<BLOCK_SIZE;i++){
                 #pragma HLS UNROLL
@@ -59,6 +61,7 @@ void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE* ABC, int N, int M, int P) {
                 }
             }
             for (int kb = 0; kb < M/BLOCK_SIZE; kb ++){
+                #pragma HLS LOOP_TRIPCOUNT min=49 max=49
                 for(int k = 0; k < BLOCK_SIZE; k++){
                     for(int j=0; j < BLOCK_SIZE; j++){
                         #pragma HLS UNROLL

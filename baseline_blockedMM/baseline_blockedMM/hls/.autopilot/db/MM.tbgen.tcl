@@ -186,7 +186,7 @@ set ArgLastReadFirstWriteLatency {
 		N {Type I LastRead 0 FirstWrite -1}
 		M {Type I LastRead 0 FirstWrite -1}
 		P {Type I LastRead 0 FirstWrite -1}}
-	MM_Pipeline_VITIS_LOOP_67_8 {
+	MM_Pipeline_VITIS_LOOP_70_8 {
 		mux_case_155331271_lcssa1784 {Type I LastRead 0 FirstWrite -1}
 		mux_case_145321269_lcssa1782 {Type I LastRead 0 FirstWrite -1}
 		mux_case_135311267_lcssa1780 {Type I LastRead 0 FirstWrite -1}
@@ -446,8 +446,8 @@ set ArgLastReadFirstWriteLatency {
 		gmem {Type I LastRead 11 FirstWrite -1}
 		tmp_23 {Type I LastRead 0 FirstWrite -1}
 		sext_ln51 {Type I LastRead 0 FirstWrite -1}
-		zext_ln62 {Type I LastRead 0 FirstWrite -1}
-		zext_ln62_1 {Type I LastRead 0 FirstWrite -1}
+		zext_ln65 {Type I LastRead 0 FirstWrite -1}
+		zext_ln65_1 {Type I LastRead 0 FirstWrite -1}
 		A {Type I LastRead 0 FirstWrite -1}
 		gmem_addr_17_read {Type I LastRead 0 FirstWrite -1}
 		gmem_addr_17_read_1 {Type I LastRead 0 FirstWrite -1}
@@ -725,8 +725,8 @@ set ArgLastReadFirstWriteLatency {
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "1", "Max" : "-1"}
-	, {"Name" : "Interval", "Min" : "2", "Max" : "0"}
+	{"Name" : "Latency", "Min" : "23480193", "Max" : "23480193"}
+	, {"Name" : "Interval", "Min" : "23480194", "Max" : "23480194"}
 ]}
 
 set PipelineEnableSignalInfo {[

@@ -5,8 +5,8 @@
 <ModuleName>MM</ModuleName>
 <InstancesList>
 <Instance>
-<InstName>grp_MM_Pipeline_VITIS_LOOP_67_8_fu_7202</InstName>
-<ModuleName>MM_Pipeline_VITIS_LOOP_67_8</ModuleName>
+<InstName>grp_MM_Pipeline_VITIS_LOOP_70_8_fu_7202</InstName>
+<ModuleName>MM_Pipeline_VITIS_LOOP_70_8</ModuleName>
 <IsCompInst>true</IsCompInst>
 <ID>7202</ID>
 </Instance>
@@ -16,9 +16,9 @@
 
 <ModuleInformation>
 <Module>
-<Name>MM_Pipeline_VITIS_LOOP_67_8</Name>
+<Name>MM_Pipeline_VITIS_LOOP_70_8</Name>
 <Loops>
-<VITIS_LOOP_67_8></VITIS_LOOP_67_8>
+<VITIS_LOOP_70_8></VITIS_LOOP_70_8>
 </Loops>
 <PerformanceEstimates>
 <SummaryOfTimingAnalysis>
@@ -38,8 +38,8 @@
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
-<VITIS_LOOP_67_8>
-<Name>VITIS_LOOP_67_8</Name>
+<VITIS_LOOP_70_8>
+<Name>VITIS_LOOP_70_8</Name>
 <Slack>10.95</Slack>
 <TripCount>16</TripCount>
 <isPerfectNested>0</isPerfectNested>
@@ -51,19 +51,19 @@
 <PerformancePragma>-</PerformancePragma>
 <InstanceList>
 </InstanceList>
-</VITIS_LOOP_67_8>
+</VITIS_LOOP_70_8>
 </SummaryOfLoopLatency>
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:67</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:70</SourceLocation>
 <SummaryOfLoopViolations>
-<VITIS_LOOP_67_8>
-<Name>VITIS_LOOP_67_8</Name>
+<VITIS_LOOP_70_8>
+<Name>VITIS_LOOP_70_8</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:67</SourceLocation>
-</VITIS_LOOP_67_8>
+<SourceLocation>../MLP_baseline/mm.cpp:70</SourceLocation>
+</VITIS_LOOP_70_8>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>
 </PerformanceEstimates>
@@ -89,7 +89,7 @@
 <InterfaceSummary>
 <RtlPorts>
 <name>ap_clk</name>
-<Object>MM_Pipeline_VITIS_LOOP_67_8</Object>
+<Object>MM_Pipeline_VITIS_LOOP_70_8</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -100,7 +100,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_rst</name>
-<Object>MM_Pipeline_VITIS_LOOP_67_8</Object>
+<Object>MM_Pipeline_VITIS_LOOP_70_8</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -111,7 +111,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_start</name>
-<Object>MM_Pipeline_VITIS_LOOP_67_8</Object>
+<Object>MM_Pipeline_VITIS_LOOP_70_8</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -122,7 +122,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_done</name>
-<Object>MM_Pipeline_VITIS_LOOP_67_8</Object>
+<Object>MM_Pipeline_VITIS_LOOP_70_8</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -133,7 +133,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_idle</name>
-<Object>MM_Pipeline_VITIS_LOOP_67_8</Object>
+<Object>MM_Pipeline_VITIS_LOOP_70_8</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -144,7 +144,7 @@
 </RtlPorts>
 <RtlPorts>
 <name>ap_ready</name>
-<Object>MM_Pipeline_VITIS_LOOP_67_8</Object>
+<Object>MM_Pipeline_VITIS_LOOP_70_8</Object>
 <Type>return value</Type>
 <Scope></Scope>
 <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -3498,8 +3498,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>zext_ln62</name>
-<Object>zext_ln62</Object>
+<name>zext_ln65</name>
+<Object>zext_ln65</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -3509,8 +3509,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>zext_ln62_1</name>
-<Object>zext_ln62_1</Object>
+<name>zext_ln65_1</name>
+<Object>zext_ln65_1</Object>
 <Type>scalar</Type>
 <Scope></Scope>
 <IOProtocol>ap_none</IOProtocol>
@@ -9344,11 +9344,11 @@
 <Name>MM</Name>
 <Loops>
 <VITIS_LOOP_51_1>
-<VITIS_LOOP_52_2>
-<VITIS_LOOP_61_5>
-<VITIS_LOOP_62_6></VITIS_LOOP_62_6>
-</VITIS_LOOP_61_5>
-</VITIS_LOOP_52_2>
+<VITIS_LOOP_53_2>
+<VITIS_LOOP_63_5>
+<VITIS_LOOP_65_6></VITIS_LOOP_65_6>
+</VITIS_LOOP_63_5>
+</VITIS_LOOP_53_2>
 </VITIS_LOOP_51_1>
 </Loops>
 <PerformanceEstimates>
@@ -9358,13 +9358,13 @@
 <EstimatedClockPeriod>10.950</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
-<Best-caseLatency>1</Best-caseLatency>
-<Average-caseLatency>undef</Average-caseLatency>
-<Worst-caseLatency>undef</Worst-caseLatency>
-<Best-caseRealTimeLatency>15.000 ns</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
-<PipelineInitiationInterval>2 ~ ?</PipelineInitiationInterval>
+<Best-caseLatency>23480193</Best-caseLatency>
+<Average-caseLatency>23480193</Average-caseLatency>
+<Worst-caseLatency>23480193</Worst-caseLatency>
+<Best-caseRealTimeLatency>0.352 sec</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.352 sec</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.352 sec</Worst-caseRealTimeLatency>
+<PipelineInitiationInterval>23480194</PipelineInitiationInterval>
 <PipelineType>no</PipelineType>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
@@ -9372,69 +9372,44 @@
 <VITIS_LOOP_51_1>
 <Name>VITIS_LOOP_51_1</Name>
 <Slack>10.95</Slack>
-<TripCount>
-<range>
-<min>0</min>
-<max>134217727</max>
-</range>
-</TripCount>
+<TripCount>64</TripCount>
 <isPerfectNested>0</isPerfectNested>
-<Latency>0 ~ ?</Latency>
-<AbsoluteTimeLatency>0 ns ~ ?</AbsoluteTimeLatency>
-<IterationLatency>
-<range>
-<min>6</min>
-<max>-1</max>
-</range>
-</IterationLatency>
-<PipelineDepth>6 ~ ?</PipelineDepth>
+<Latency>23480192</Latency>
+<AbsoluteTimeLatency>0.352 sec</AbsoluteTimeLatency>
+<IterationLatency>366878</IterationLatency>
+<PipelineDepth>366878</PipelineDepth>
 <PipelineType>no</PipelineType>
 <PerformancePragma>-</PerformancePragma>
 <InstanceList>
 </InstanceList>
-<VITIS_LOOP_52_2>
-<Name>VITIS_LOOP_52_2</Name>
+<VITIS_LOOP_53_2>
+<Name>VITIS_LOOP_53_2</Name>
 <Slack>10.95</Slack>
-<TripCount>
-<range>
-<min>0</min>
-<max>134217727</max>
-</range>
-</TripCount>
+<TripCount>8</TripCount>
 <isPerfectNested>1</isPerfectNested>
-<Latency>0 ~ ?</Latency>
-<AbsoluteTimeLatency>0 ns ~ ?</AbsoluteTimeLatency>
-<IterationLatency>
-<range>
-<min>289</min>
-<max>124822486399</max>
-</range>
-</IterationLatency>
-<PipelineDepth>289 ~ 124822486399</PipelineDepth>
+<Latency>366872</Latency>
+<AbsoluteTimeLatency>5.503 ms</AbsoluteTimeLatency>
+<IterationLatency>45859</IterationLatency>
+<PipelineDepth>45859</PipelineDepth>
 <PipelineType>no</PipelineType>
 <PerformancePragma>-</PerformancePragma>
 <InstanceList>
 </InstanceList>
-<VITIS_LOOP_61_5>
-<Name>VITIS_LOOP_61_5</Name>
+<VITIS_LOOP_63_5>
+<Name>VITIS_LOOP_63_5</Name>
 <Slack>10.95</Slack>
-<TripCount>
-<range>
-<min>0</min>
-<max>134217727</max>
-</range>
-</TripCount>
+<TripCount>49</TripCount>
 <isPerfectNested>0</isPerfectNested>
-<Latency>0 ~ 124822486110</Latency>
-<AbsoluteTimeLatency>0 ns ~ 1.9e+03 sec</AbsoluteTimeLatency>
+<Latency>45570</Latency>
+<AbsoluteTimeLatency>0.684 ms</AbsoluteTimeLatency>
 <IterationLatency>930</IterationLatency>
 <PipelineDepth>930</PipelineDepth>
 <PipelineType>no</PipelineType>
 <PerformancePragma>-</PerformancePragma>
 <InstanceList>
 </InstanceList>
-<VITIS_LOOP_62_6>
-<Name>VITIS_LOOP_62_6</Name>
+<VITIS_LOOP_65_6>
+<Name>VITIS_LOOP_65_6</Name>
 <Slack>10.95</Slack>
 <TripCount>16</TripCount>
 <isPerfectNested>1</isPerfectNested>
@@ -9445,11 +9420,11 @@
 <PipelineType>no</PipelineType>
 <PerformancePragma>-</PerformancePragma>
 <InstanceList>
-<Instance>grp_MM_Pipeline_VITIS_LOOP_67_8_fu_7202</Instance>
+<Instance>grp_MM_Pipeline_VITIS_LOOP_70_8_fu_7202</Instance>
 </InstanceList>
-</VITIS_LOOP_62_6>
-</VITIS_LOOP_61_5>
-</VITIS_LOOP_52_2>
+</VITIS_LOOP_65_6>
+</VITIS_LOOP_63_5>
+</VITIS_LOOP_53_2>
 </VITIS_LOOP_51_1>
 </SummaryOfLoopLatency>
 <SummaryOfViolations>
@@ -9462,24 +9437,24 @@
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
 <SourceLocation>../MLP_baseline/mm.cpp:51</SourceLocation>
-<VITIS_LOOP_52_2>
-<Name>VITIS_LOOP_52_2</Name>
+<VITIS_LOOP_53_2>
+<Name>VITIS_LOOP_53_2</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:52</SourceLocation>
-<VITIS_LOOP_61_5>
-<Name>VITIS_LOOP_61_5</Name>
-<IssueType>-</IssueType>
-<ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:51</SourceLocation>
-<VITIS_LOOP_62_6>
-<Name>VITIS_LOOP_62_6</Name>
+<SourceLocation>../MLP_baseline/mm.cpp:53</SourceLocation>
+<VITIS_LOOP_63_5>
+<Name>VITIS_LOOP_63_5</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
 <SourceLocation>../MLP_baseline/mm.cpp:51</SourceLocation>
-</VITIS_LOOP_62_6>
-</VITIS_LOOP_61_5>
-</VITIS_LOOP_52_2>
+<VITIS_LOOP_65_6>
+<Name>VITIS_LOOP_65_6</Name>
+<IssueType>-</IssueType>
+<ViolationType>-</ViolationType>
+<SourceLocation>../MLP_baseline/mm.cpp:51</SourceLocation>
+</VITIS_LOOP_65_6>
+</VITIS_LOOP_63_5>
+</VITIS_LOOP_53_2>
 </VITIS_LOOP_51_1>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>

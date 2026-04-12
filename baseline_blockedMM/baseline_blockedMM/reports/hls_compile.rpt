@@ -4,7 +4,7 @@
 == Synthesis Summary Report of 'MM'
 ================================================================
 + General Information: 
-    * Date:           Fri Apr 10 16:55:06 2026
+    * Date:           Sat Apr 11 17:01:55 2026
     * Version:        2025.1 (Build 6135595 on May 21 2025)
     * Project:        baseline_blockedMM
     * Solution:       hls (Vivado IP Flow Target)
@@ -15,18 +15,18 @@
 + Performance & Resource Estimates: 
     
     PS: '+' for module; 'o' for loop; '*' for dataflow
-    +------------------------------------+------+-------+--------------+-----------+--------------+---------+-----------+----------+---------+----------+-------------+-------------+-----+
-    |               Modules              | Issue|       |          Latency         |   Iteration  |         |    Trip   |          |         |          |             |             |     |
-    |               & Loops              | Type | Slack |   (cycles)   |    (ns)   |    Latency   | Interval|   Count   | Pipelined|  BRAM   |    DSP   |      FF     |     LUT     | URAM|
-    +------------------------------------+------+-------+--------------+-----------+--------------+---------+-----------+----------+---------+----------+-------------+-------------+-----+
-    |+ MM                                |     -|   0.00|             -|          -|             -|        -|          -|        no|  2 (~0%)|  52 (23%)|  32397 (30%)|  18379 (34%)|    -|
-    | o VITIS_LOOP_51_1                  |     -|  10.95|             -|          -|             -|        -|  134217727|        no|        -|         -|            -|            -|    -|
-    |  o VITIS_LOOP_52_2                 |     -|  10.95|             -|          -|  124822486399|        -|  134217727|        no|        -|         -|            -|            -|    -|
-    |   o VITIS_LOOP_61_5                |     -|  10.95|  124822486110|  1.872e+12|           930|        -|  134217727|        no|        -|         -|            -|            -|    -|
-    |    o VITIS_LOOP_62_6               |     -|  10.95|           928|  1.392e+04|            58|        -|         16|        no|        -|         -|            -|            -|    -|
-    |     + MM_Pipeline_VITIS_LOOP_67_8  |     -|   0.00|            30|    450.000|             -|       17|          -|    rewind|        -|  52 (23%)|    9157 (8%)|    4693 (8%)|    -|
-    |      o VITIS_LOOP_67_8             |     -|  10.95|            28|    420.000|            14|        1|         16|       yes|        -|         -|            -|            -|    -|
-    +------------------------------------+------+-------+--------------+-----------+--------------+---------+-----------+----------+---------+----------+-------------+-------------+-----+
+    +------------------------------------+------+-------+----------+-----------+----------+----------+------+----------+---------+----------+-------------+-------------+-----+
+    |               Modules              | Issue|       |        Latency       | Iteration|          | Trip |          |         |          |             |             |     |
+    |               & Loops              | Type | Slack | (cycles) |    (ns)   |  Latency | Interval | Count| Pipelined|  BRAM   |    DSP   |      FF     |     LUT     | URAM|
+    +------------------------------------+------+-------+----------+-----------+----------+----------+------+----------+---------+----------+-------------+-------------+-----+
+    |+ MM                                |     -|   0.00|  23480193|  3.522e+08|         -|  23480194|     -|        no|  2 (~0%)|  52 (23%)|  32397 (30%)|  18379 (34%)|    -|
+    | o VITIS_LOOP_51_1                  |     -|  10.95|  23480192|  3.522e+08|    366878|         -|    64|        no|        -|         -|            -|            -|    -|
+    |  o VITIS_LOOP_53_2                 |     -|  10.95|    366872|  5.503e+06|     45859|         -|     8|        no|        -|         -|            -|            -|    -|
+    |   o VITIS_LOOP_63_5                |     -|  10.95|     45570|  6.836e+05|       930|         -|    49|        no|        -|         -|            -|            -|    -|
+    |    o VITIS_LOOP_65_6               |     -|  10.95|       928|  1.392e+04|        58|         -|    16|        no|        -|         -|            -|            -|    -|
+    |     + MM_Pipeline_VITIS_LOOP_70_8  |     -|   0.00|        30|    450.000|         -|        17|     -|    rewind|        -|  52 (23%)|    9157 (8%)|    4693 (8%)|    -|
+    |      o VITIS_LOOP_70_8             |     -|  10.95|        28|    420.000|        14|         1|    16|       yes|        -|         -|            -|            -|    -|
+    +------------------------------------+------+-------+----------+-----------+----------+----------+------+----------+---------+----------+-------------+-------------+-----+
 
 
 ================================================================
@@ -134,12 +134,12 @@
 +--------------+----------+------------------------------+-----------+--------------+--------+-----------------+------------------------------+------------+-------------------------------------------------------------------------------------------------------+
 | HW Interface | Variable | Access Location              | Direction | Burst Status | Length | Loop            | Loop Location                | Resolution | Problem                                                                                               |
 +--------------+----------+------------------------------+-----------+--------------+--------+-----------------+------------------------------+------------+-------------------------------------------------------------------------------------------------------+
-| m_axi_gmem   | B        | ../MLP_baseline/mm.cpp:65:14 | read      | Widen Fail   |        |                 |                              | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
-| m_axi_gmem   | B        | ../MLP_baseline/mm.cpp:65:14 | read      | Fail         |        | VITIS_LOOP_62_6 | ../MLP_baseline/mm.cpp:62:34 | 214-230    | Stride is incompatible                                                                                |
-| m_axi_gmem   | B        | ../MLP_baseline/mm.cpp:65:14 | read      | Inferred     | 16     | VITIS_LOOP_62_6 | ../MLP_baseline/mm.cpp:62:34 |            |                                                                                                       |
-| m_axi_gmem   | A        | ../MLP_baseline/mm.cpp:69:16 | read      | Fail         |        | VITIS_LOOP_67_8 | ../MLP_baseline/mm.cpp:67:38 | 214-230    | Stride is incompatible                                                                                |
-| m_axi_gmem   | ABC      | ../MLP_baseline/mm.cpp:82:47 | write     | Widen Fail   |        |                 |                              | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
-| m_axi_gmem   | ABC      | ../MLP_baseline/mm.cpp:82:47 | write     | Inferred     | 16     | VITIS_LOOP_52_2 | ../MLP_baseline/mm.cpp:52:26 |            |                                                                                                       |
+| m_axi_gmem   | B        | ../MLP_baseline/mm.cpp:68:14 | read      | Widen Fail   |        |                 |                              | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem   | B        | ../MLP_baseline/mm.cpp:68:14 | read      | Fail         |        | VITIS_LOOP_65_6 | ../MLP_baseline/mm.cpp:65:19 | 214-230    | Stride is incompatible                                                                                |
+| m_axi_gmem   | B        | ../MLP_baseline/mm.cpp:68:14 | read      | Inferred     | 16     | VITIS_LOOP_65_6 | ../MLP_baseline/mm.cpp:65:19 |            |                                                                                                       |
+| m_axi_gmem   | A        | ../MLP_baseline/mm.cpp:72:16 | read      | Fail         |        | VITIS_LOOP_70_8 | ../MLP_baseline/mm.cpp:70:38 | 214-230    | Stride is incompatible                                                                                |
+| m_axi_gmem   | ABC      | ../MLP_baseline/mm.cpp:85:47 | write     | Widen Fail   |        |                 |                              | 214-353    | Could not widen since type i32 size is greater than or equal to the max_widen_bitwidth threshold of 0 |
+| m_axi_gmem   | ABC      | ../MLP_baseline/mm.cpp:85:47 | write     | Inferred     | 16     | VITIS_LOOP_53_2 | ../MLP_baseline/mm.cpp:53:19 |            |                                                                                                       |
 +--------------+----------+------------------------------+-----------+--------------+--------+-----------------+------------------------------+------------+-------------------------------------------------------------------------------------------------------+
 
     * Resolution URL: docs.xilinx.com/access/sources/dita/topic?Doc_Version=2025.1%20English&url=ug1448-hls-guidance&resourceid=XXX-YYY.html (replace XXX-YYY with column value)
@@ -179,8 +179,8 @@
 |   empty_73_fu_8316_p2          |     |        | empty_73    | sub       | fabric                   | 0       |
 |   empty_74_fu_8320_p2          |     |        | empty_74    | sub       | fabric                   | 0       |
 |   empty_75_fu_8332_p2          |     |        | empty_75    | sub       | fabric                   | 0       |
-|   icmp_ln52_fu_8341_p2         |     |        | icmp_ln52   | setlt     | auto                     | 0       |
-|   add_ln52_fu_8346_p2          |     |        | add_ln52    | add       | fabric                   | 0       |
+|   icmp_ln53_fu_8341_p2         |     |        | icmp_ln53   | setlt     | auto                     | 0       |
+|   add_ln53_fu_8346_p2          |     |        | add_ln53    | add       | fabric                   | 0       |
 |   empty_76_fu_8380_p2          |     |        | empty_76    | add       | fabric                   | 0       |
 |   empty_77_fu_8393_p2          |     |        | empty_77    | add       | fabric                   | 0       |
 |   empty_78_fu_8406_p2          |     |        | empty_78    | add       | fabric                   | 0       |
@@ -198,12 +198,12 @@
 |   tmp1_fu_8562_p2              |     |        | tmp1        | add       | fabric                   | 0       |
 |   empty_90_fu_8571_p2          |     |        | empty_90    | add       | fabric                   | 0       |
 |   empty_91_fu_8584_p2          |     |        | empty_91    | add       | fabric                   | 0       |
-|   add_ln61_1_fu_8597_p2        |     |        | add_ln61_1  | add       | fabric                   | 0       |
-|   icmp_ln61_fu_8606_p2         |     |        | icmp_ln61   | setlt     | auto                     | 0       |
-|   add_ln61_fu_8611_p2          |     |        | add_ln61    | add       | fabric                   | 0       |
-|   add_ln62_1_fu_9017_p2        |     |        | add_ln62_1  | add       | fabric                   | 0       |
-|   icmp_ln62_fu_9022_p2         |     |        | icmp_ln62   | seteq     | auto                     | 0       |
-|   add_ln62_fu_9028_p2          |     |        | add_ln62    | add       | fabric                   | 0       |
+|   add_ln63_1_fu_8597_p2        |     |        | add_ln63_1  | add       | fabric                   | 0       |
+|   icmp_ln63_fu_8606_p2         |     |        | icmp_ln63   | setlt     | auto                     | 0       |
+|   add_ln63_fu_8611_p2          |     |        | add_ln63    | add       | fabric                   | 0       |
+|   add_ln65_1_fu_9017_p2        |     |        | add_ln65_1  | add       | fabric                   | 0       |
+|   icmp_ln65_fu_9022_p2         |     |        | icmp_ln65   | seteq     | auto                     | 0       |
+|   add_ln65_fu_9028_p2          |     |        | add_ln65    | add       | fabric                   | 0       |
 |   tmp2_fu_9038_p2              |     |        | tmp2        | add       | fabric                   | 0       |
 |   empty_93_fu_9047_p2          |     |        | empty_93    | add       | fabric                   | 0       |
 |   empty_94_fu_9060_p2          |     |        | empty_94    | add       | fabric                   | 0       |
@@ -223,60 +223,60 @@
 |   empty_109_fu_8685_p2         |     |        | empty_109   | add       | fabric                   | 0       |
 |   empty_110_fu_8689_p2         |     |        | empty_110   | add       | fabric                   | 0       |
 |   empty_111_fu_8693_p2         |     |        | empty_111   | add       | fabric                   | 0       |
-|  + MM_Pipeline_VITIS_LOOP_67_8 | 52  |        |             |           |                          |         |
-|    icmp_ln67_fu_7034_p2        |     |        | icmp_ln67   | seteq     | auto                     | 0       |
-|    add_ln67_fu_7040_p2         |     |        | add_ln67    | add       | fabric                   | 0       |
-|    add_ln69_fu_7054_p2         |     |        | add_ln69    | add       | fabric                   | 0       |
-|    mul_32ns_32s_62_1_1_U1      | 4   |        | mul_ln69    | mul       | auto                     | 0       |
-|    add_ln69_2_fu_7120_p2       |     |        | add_ln69_2  | add       | fabric                   | 0       |
-|    mul_32s_32s_32_1_1_U2       | 3   |        | mul_ln72    | mul       | auto                     | 0       |
+|  + MM_Pipeline_VITIS_LOOP_70_8 | 52  |        |             |           |                          |         |
+|    icmp_ln70_fu_7034_p2        |     |        | icmp_ln70   | seteq     | auto                     | 0       |
+|    add_ln70_fu_7040_p2         |     |        | add_ln70    | add       | fabric                   | 0       |
+|    add_ln72_fu_7054_p2         |     |        | add_ln72    | add       | fabric                   | 0       |
+|    mul_32ns_32s_62_1_1_U1      | 4   |        | mul_ln72    | mul       | auto                     | 0       |
+|    add_ln72_2_fu_7120_p2       |     |        | add_ln72_2  | add       | fabric                   | 0       |
+|    mul_32s_32s_32_1_1_U2       | 3   |        | mul_ln75    | mul       | auto                     | 0       |
 |    sparsemux_33_4_32_1_1_U18   |     |        | tmp         | sparsemux | compactencoding_dontcare | 0       |
-|    add_ln72_fu_7984_p2         |     |        | add_ln72    | add       | fabric                   | 0       |
-|    mul_32s_32s_32_1_1_U3       | 3   |        | mul_ln72_1  | mul       | auto                     | 0       |
-|    mul_32s_32s_32_1_1_U4       | 3   |        | mul_ln72_2  | mul       | auto                     | 0       |
-|    mul_32s_32s_32_1_1_U5       | 3   |        | mul_ln72_3  | mul       | auto                     | 0       |
-|    mul_32s_32s_32_1_1_U6       | 3   |        | mul_ln72_4  | mul       | auto                     | 0       |
-|    mul_32s_32s_32_1_1_U7       | 3   |        | mul_ln72_5  | mul       | auto                     | 0       |
-|    mul_32s_32s_32_1_1_U8       | 3   |        | mul_ln72_6  | mul       | auto                     | 0       |
-|    mul_32s_32s_32_1_1_U9       | 3   |        | mul_ln72_7  | mul       | auto                     | 0       |
-|    mul_32s_32s_32_1_1_U10      | 3   |        | mul_ln72_8  | mul       | auto                     | 0       |
-|    mul_32s_32s_32_1_1_U11      | 3   |        | mul_ln72_9  | mul       | auto                     | 0       |
-|    mul_32s_32s_32_1_1_U12      | 3   |        | mul_ln72_10 | mul       | auto                     | 0       |
-|    mul_32s_32s_32_1_1_U13      | 3   |        | mul_ln72_11 | mul       | auto                     | 0       |
-|    mul_32s_32s_32_1_1_U14      | 3   |        | mul_ln72_12 | mul       | auto                     | 0       |
-|    mul_32s_32s_32_1_1_U15      | 3   |        | mul_ln72_13 | mul       | auto                     | 0       |
-|    mul_32s_32s_32_1_1_U16      | 3   |        | mul_ln72_14 | mul       | auto                     | 0       |
-|    mul_32s_32s_32_1_1_U17      | 3   |        | mul_ln72_15 | mul       | auto                     | 0       |
+|    add_ln75_fu_7984_p2         |     |        | add_ln75    | add       | fabric                   | 0       |
+|    mul_32s_32s_32_1_1_U3       | 3   |        | mul_ln75_1  | mul       | auto                     | 0       |
+|    mul_32s_32s_32_1_1_U4       | 3   |        | mul_ln75_2  | mul       | auto                     | 0       |
+|    mul_32s_32s_32_1_1_U5       | 3   |        | mul_ln75_3  | mul       | auto                     | 0       |
+|    mul_32s_32s_32_1_1_U6       | 3   |        | mul_ln75_4  | mul       | auto                     | 0       |
+|    mul_32s_32s_32_1_1_U7       | 3   |        | mul_ln75_5  | mul       | auto                     | 0       |
+|    mul_32s_32s_32_1_1_U8       | 3   |        | mul_ln75_6  | mul       | auto                     | 0       |
+|    mul_32s_32s_32_1_1_U9       | 3   |        | mul_ln75_7  | mul       | auto                     | 0       |
+|    mul_32s_32s_32_1_1_U10      | 3   |        | mul_ln75_8  | mul       | auto                     | 0       |
+|    mul_32s_32s_32_1_1_U11      | 3   |        | mul_ln75_9  | mul       | auto                     | 0       |
+|    mul_32s_32s_32_1_1_U12      | 3   |        | mul_ln75_10 | mul       | auto                     | 0       |
+|    mul_32s_32s_32_1_1_U13      | 3   |        | mul_ln75_11 | mul       | auto                     | 0       |
+|    mul_32s_32s_32_1_1_U14      | 3   |        | mul_ln75_12 | mul       | auto                     | 0       |
+|    mul_32s_32s_32_1_1_U15      | 3   |        | mul_ln75_13 | mul       | auto                     | 0       |
+|    mul_32s_32s_32_1_1_U16      | 3   |        | mul_ln75_14 | mul       | auto                     | 0       |
+|    mul_32s_32s_32_1_1_U17      | 3   |        | mul_ln75_15 | mul       | auto                     | 0       |
 |    sparsemux_33_4_32_1_1_U19   |     |        | tmp_1       | sparsemux | compactencoding_dontcare | 0       |
-|    add_ln72_1_fu_8060_p2       |     |        | add_ln72_1  | add       | fabric                   | 0       |
+|    add_ln75_1_fu_8060_p2       |     |        | add_ln75_1  | add       | fabric                   | 0       |
 |    sparsemux_33_4_32_1_1_U20   |     |        | tmp_2       | sparsemux | compactencoding_dontcare | 0       |
-|    add_ln72_2_fu_8136_p2       |     |        | add_ln72_2  | add       | fabric                   | 0       |
+|    add_ln75_2_fu_8136_p2       |     |        | add_ln75_2  | add       | fabric                   | 0       |
 |    sparsemux_33_4_32_1_1_U21   |     |        | tmp_3       | sparsemux | compactencoding_dontcare | 0       |
-|    add_ln72_3_fu_8212_p2       |     |        | add_ln72_3  | add       | fabric                   | 0       |
+|    add_ln75_3_fu_8212_p2       |     |        | add_ln75_3  | add       | fabric                   | 0       |
 |    sparsemux_33_4_32_1_1_U22   |     |        | tmp_4       | sparsemux | compactencoding_dontcare | 0       |
-|    add_ln72_4_fu_8288_p2       |     |        | add_ln72_4  | add       | fabric                   | 0       |
+|    add_ln75_4_fu_8288_p2       |     |        | add_ln75_4  | add       | fabric                   | 0       |
 |    sparsemux_33_4_32_1_1_U23   |     |        | tmp_5       | sparsemux | compactencoding_dontcare | 0       |
-|    add_ln72_5_fu_8364_p2       |     |        | add_ln72_5  | add       | fabric                   | 0       |
+|    add_ln75_5_fu_8364_p2       |     |        | add_ln75_5  | add       | fabric                   | 0       |
 |    sparsemux_33_4_32_1_1_U24   |     |        | tmp_6       | sparsemux | compactencoding_dontcare | 0       |
-|    add_ln72_6_fu_8440_p2       |     |        | add_ln72_6  | add       | fabric                   | 0       |
+|    add_ln75_6_fu_8440_p2       |     |        | add_ln75_6  | add       | fabric                   | 0       |
 |    sparsemux_33_4_32_1_1_U25   |     |        | tmp_7       | sparsemux | compactencoding_dontcare | 0       |
-|    add_ln72_7_fu_8516_p2       |     |        | add_ln72_7  | add       | fabric                   | 0       |
+|    add_ln75_7_fu_8516_p2       |     |        | add_ln75_7  | add       | fabric                   | 0       |
 |    sparsemux_33_4_32_1_1_U26   |     |        | tmp_8       | sparsemux | compactencoding_dontcare | 0       |
-|    add_ln72_8_fu_8592_p2       |     |        | add_ln72_8  | add       | fabric                   | 0       |
+|    add_ln75_8_fu_8592_p2       |     |        | add_ln75_8  | add       | fabric                   | 0       |
 |    sparsemux_33_4_32_1_1_U27   |     |        | tmp_9       | sparsemux | compactencoding_dontcare | 0       |
-|    add_ln72_9_fu_8668_p2       |     |        | add_ln72_9  | add       | fabric                   | 0       |
+|    add_ln75_9_fu_8668_p2       |     |        | add_ln75_9  | add       | fabric                   | 0       |
 |    sparsemux_33_4_32_1_1_U28   |     |        | tmp_s       | sparsemux | compactencoding_dontcare | 0       |
-|    add_ln72_10_fu_8744_p2      |     |        | add_ln72_10 | add       | fabric                   | 0       |
+|    add_ln75_10_fu_8744_p2      |     |        | add_ln75_10 | add       | fabric                   | 0       |
 |    sparsemux_33_4_32_1_1_U29   |     |        | tmp_10      | sparsemux | compactencoding_dontcare | 0       |
-|    add_ln72_11_fu_8820_p2      |     |        | add_ln72_11 | add       | fabric                   | 0       |
+|    add_ln75_11_fu_8820_p2      |     |        | add_ln75_11 | add       | fabric                   | 0       |
 |    sparsemux_33_4_32_1_1_U30   |     |        | tmp_11      | sparsemux | compactencoding_dontcare | 0       |
-|    add_ln72_12_fu_8896_p2      |     |        | add_ln72_12 | add       | fabric                   | 0       |
+|    add_ln75_12_fu_8896_p2      |     |        | add_ln75_12 | add       | fabric                   | 0       |
 |    sparsemux_33_4_32_1_1_U31   |     |        | tmp_12      | sparsemux | compactencoding_dontcare | 0       |
-|    add_ln72_13_fu_8972_p2      |     |        | add_ln72_13 | add       | fabric                   | 0       |
+|    add_ln75_13_fu_8972_p2      |     |        | add_ln75_13 | add       | fabric                   | 0       |
 |    sparsemux_33_4_32_1_1_U32   |     |        | tmp_13      | sparsemux | compactencoding_dontcare | 0       |
-|    add_ln72_14_fu_9048_p2      |     |        | add_ln72_14 | add       | fabric                   | 0       |
+|    add_ln75_14_fu_9048_p2      |     |        | add_ln75_14 | add       | fabric                   | 0       |
 |    sparsemux_33_4_32_1_1_U33   |     |        | tmp_14      | sparsemux | compactencoding_dontcare | 0       |
-|    add_ln72_15_fu_9124_p2      |     |        | add_ln72_15 | add       | fabric                   | 0       |
+|    add_ln75_15_fu_9124_p2      |     |        | add_ln75_15 | add       | fabric                   | 0       |
 +--------------------------------+-----+--------+-------------+-----------+--------------------------+---------+
 
 
@@ -300,7 +300,7 @@
 +--------------+---------+-------------------------------------------------------------------------------------+---------------------------------------+
 | Type         | Options | Location                                                                            | Inferred From                         |
 +--------------+---------+-------------------------------------------------------------------------------------+---------------------------------------+
-| LOOP_FLATTEN | 0       | loop VITIS_LOOP_62_6 (../MLP_baseline/mm.cpp:62:34) in mm ../MLP_baseline/mm.cpp:62 | performance ../MLP_baseline/mm.cpp:62 |
+| LOOP_FLATTEN | 0       | loop VITIS_LOOP_65_6 (../MLP_baseline/mm.cpp:65:19) in mm ../MLP_baseline/mm.cpp:65 | performance ../MLP_baseline/mm.cpp:65 |
 +--------------+---------+-------------------------------------------------------------------------------------+---------------------------------------+
 
 * Valid Pragma Syntax
@@ -321,13 +321,16 @@
 | INTERFACE       | s_axilite port=return bundle=control    | ../MLP_baseline/mm.cpp:39 in mm, return   |
 | ARRAY_PARTITION | variable=AB_block type=complete         | ../MLP_baseline/mm.cpp:43 in mm, AB_block |
 | ARRAY_PARTITION | variable=B_line type=complete           | ../MLP_baseline/mm.cpp:44 in mm, B_line   |
-| UNROLL          |                                         | ../MLP_baseline/mm.cpp:55 in mm           |
+| LOOP_TRIPCOUNT  | min=64 max=64                           | ../MLP_baseline/mm.cpp:52 in mm           |
+| LOOP_TRIPCOUNT  | min=8 max=8                             | ../MLP_baseline/mm.cpp:54 in mm           |
 | UNROLL          |                                         | ../MLP_baseline/mm.cpp:57 in mm           |
-| UNROLL          |                                         | ../MLP_baseline/mm.cpp:64 in mm           |
-| PIPELINE        | ii=1                                    | ../MLP_baseline/mm.cpp:68 in mm           |
-| UNROLL          |                                         | ../MLP_baseline/mm.cpp:71 in mm           |
-| UNROLL          |                                         | ../MLP_baseline/mm.cpp:79 in mm           |
-| UNROLL          |                                         | ../MLP_baseline/mm.cpp:81 in mm           |
+| UNROLL          |                                         | ../MLP_baseline/mm.cpp:59 in mm           |
+| LOOP_TRIPCOUNT  | min=49 max=49                           | ../MLP_baseline/mm.cpp:64 in mm           |
+| UNROLL          |                                         | ../MLP_baseline/mm.cpp:67 in mm           |
+| PIPELINE        | ii=1                                    | ../MLP_baseline/mm.cpp:71 in mm           |
+| UNROLL          |                                         | ../MLP_baseline/mm.cpp:74 in mm           |
+| UNROLL          |                                         | ../MLP_baseline/mm.cpp:82 in mm           |
+| UNROLL          |                                         | ../MLP_baseline/mm.cpp:84 in mm           |
 +-----------------+-----------------------------------------+-------------------------------------------+
 
 

@@ -44,56 +44,65 @@
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:44:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=B_line type=complete" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:55:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:52:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=64 max=64" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:54:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=8 max=8" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:57:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:64:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:59:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:68:9" msg_body="HLS pragma dump">
-        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:64:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=49 max=49" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:67:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:71:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:74:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:79:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:82:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:81:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:84:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:70:42" msg_body="Loop 'VITIS_LOOP_70_9' is marked as complete unroll implied by the pipeline pragma">
-        <args LoopName="VITIS_LOOP_70_9"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:73:42" msg_body="Loop 'VITIS_LOOP_73_9' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_73_9"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:6:0" msg_body="Unrolling loop 'VITIS_LOOP_54_3' (../MLP_baseline/mm.cpp:54:30) in function 'MM' completely with a factor of 16">
-        <args Factor="16" LoopLoc="../MLP_baseline/mm.cpp:54:30" LoopName="VITIS_LOOP_54_3"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:6:0" msg_body="Unrolling loop 'VITIS_LOOP_56_3' (../MLP_baseline/mm.cpp:56:19) in function 'MM' completely with a factor of 16">
+        <args Factor="16" LoopLoc="../MLP_baseline/mm.cpp:56:19" LoopName="VITIS_LOOP_56_3"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:6:0" msg_body="Unrolling loop 'VITIS_LOOP_56_4' (../MLP_baseline/mm.cpp:56:19) in function 'MM' completely with a factor of 16">
-        <args Factor="16" LoopLoc="../MLP_baseline/mm.cpp:56:19" LoopName="VITIS_LOOP_56_4"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:6:0" msg_body="Unrolling loop 'VITIS_LOOP_58_4' (../MLP_baseline/mm.cpp:58:19) in function 'MM' completely with a factor of 16">
+        <args Factor="16" LoopLoc="../MLP_baseline/mm.cpp:58:19" LoopName="VITIS_LOOP_58_4"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:6:0" msg_body="Unrolling loop 'VITIS_LOOP_63_7' (../MLP_baseline/mm.cpp:63:38) in function 'MM' completely with a factor of 16">
-        <args Factor="16" LoopLoc="../MLP_baseline/mm.cpp:63:38" LoopName="VITIS_LOOP_63_7"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:6:0" msg_body="Unrolling loop 'VITIS_LOOP_66_7' (../MLP_baseline/mm.cpp:66:38) in function 'MM' completely with a factor of 16">
+        <args Factor="16" LoopLoc="../MLP_baseline/mm.cpp:66:38" LoopName="VITIS_LOOP_66_7"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:6:0" msg_body="Unrolling loop 'VITIS_LOOP_70_9' (../MLP_baseline/mm.cpp:70:42) in function 'MM' completely with a factor of 16">
-        <args Factor="16" LoopLoc="../MLP_baseline/mm.cpp:70:42" LoopName="VITIS_LOOP_70_9"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:6:0" msg_body="Unrolling loop 'VITIS_LOOP_73_9' (../MLP_baseline/mm.cpp:73:42) in function 'MM' completely with a factor of 16">
+        <args Factor="16" LoopLoc="../MLP_baseline/mm.cpp:73:42" LoopName="VITIS_LOOP_73_9"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:6:0" msg_body="Unrolling loop 'VITIS_LOOP_78_10' (../MLP_baseline/mm.cpp:78:31) in function 'MM' completely with a factor of 16">
-        <args Factor="16" LoopLoc="../MLP_baseline/mm.cpp:78:31" LoopName="VITIS_LOOP_78_10"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:6:0" msg_body="Unrolling loop 'VITIS_LOOP_81_10' (../MLP_baseline/mm.cpp:81:31) in function 'MM' completely with a factor of 16">
+        <args Factor="16" LoopLoc="../MLP_baseline/mm.cpp:81:31" LoopName="VITIS_LOOP_81_10"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:6:0" msg_body="Unrolling loop 'VITIS_LOOP_80_11' (../MLP_baseline/mm.cpp:80:20) in function 'MM' completely with a factor of 16">
-        <args Factor="16" LoopLoc="../MLP_baseline/mm.cpp:80:20" LoopName="VITIS_LOOP_80_11"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:6:0" msg_body="Unrolling loop 'VITIS_LOOP_83_11' (../MLP_baseline/mm.cpp:83:20) in function 'MM' completely with a factor of 16">
+        <args Factor="16" LoopLoc="../MLP_baseline/mm.cpp:83:20" LoopName="VITIS_LOOP_83_11"/>
     </msg>
     <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:41:8" msg_body="Applying array_partition to 'AB_block': Complete partitioning on dimension 1.">
         <args Dim="1" Mode="Complete" UOName="AB_block"/>
     </msg>
-    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-437" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:62:34" msg_body="Automatically disabling loop flattening for loop 'VITIS_LOOP_62_6'.">
-        <args LoopName="VITIS_LOOP_62_6"/>
+    <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-437" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:65:19" msg_body="Automatically disabling loop flattening for loop 'VITIS_LOOP_65_6'.">
+        <args LoopName="VITIS_LOOP_65_6"/>
     </msg>
-    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:62:34" msg_body="loop_flatten 0 1 MM ../MLP_baseline/mm.cpp:62:34VITIS_LOOP_62_6 ../MLP_baseline/mm.cpp:62:34">
-        <args LoopLoc="../MLP_baseline/mm.cpp:62:34" LoopLoc-DebugLoc="File ../MLP_baseline/mm.cpp Line 62 Column 34" LoopName="VITIS_LOOP_62_6" PragmaFunction="MM" PragmaIsAuto="1" PragmaOptions="0" PragmaSrcLoc="../MLP_baseline/mm.cpp:62:34" PragmaSrcLoc-DebugLoc="File ../MLP_baseline/mm.cpp Line 62 Column 34" PragmaType="loop_flatten"/>
+    <msg msg_groups="AUTOMATION_VERBOSE_PASSED" msg_id="214-335" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:65:19" msg_body="loop_flatten 0 1 MM ../MLP_baseline/mm.cpp:65:19VITIS_LOOP_65_6 ../MLP_baseline/mm.cpp:65:19">
+        <args LoopLoc="../MLP_baseline/mm.cpp:65:19" LoopLoc-DebugLoc="File ../MLP_baseline/mm.cpp Line 65 Column 19" LoopName="VITIS_LOOP_65_6" PragmaFunction="MM" PragmaIsAuto="1" PragmaOptions="0" PragmaSrcLoc="../MLP_baseline/mm.cpp:65:19" PragmaSrcLoc-DebugLoc="File ../MLP_baseline/mm.cpp Line 65 Column 19" PragmaType="loop_flatten"/>
     </msg>
     <msg msg_groups="AUTOMATION PRAGMA_MISC" msg_id="214-449" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:41:8" msg_body="Automatically partitioning array 'AB_block' dimension 1 completely based on constant index.">
         <args Dim="1" Value="AB_block"/>

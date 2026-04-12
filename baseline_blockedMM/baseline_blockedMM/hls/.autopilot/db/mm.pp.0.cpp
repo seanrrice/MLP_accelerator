@@ -40973,25 +40973,28 @@ __attribute__((sdx_kernel("MM", 0))) void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE
  cout << "Entering MM..." << endl;
 
     VITIS_LOOP_51_1: for(int ib = 0; ib < N/BLOCK_SIZE; ib ++){
-        VITIS_LOOP_52_2: for(int jb = 0; jb < P/BLOCK_SIZE; jb ++){
+#pragma HLS LOOP_TRIPCOUNT min=64 max=64
+ VITIS_LOOP_53_2: for(int jb = 0; jb < P/BLOCK_SIZE; jb ++){
+#pragma HLS LOOP_TRIPCOUNT min=8 max=8
 
-            VITIS_LOOP_54_3: for(int i=0;i<BLOCK_SIZE;i++){
+ VITIS_LOOP_56_3: for(int i=0;i<BLOCK_SIZE;i++){
 #pragma HLS UNROLL
- VITIS_LOOP_56_4: for(int j=0;j<BLOCK_SIZE;j++){
+ VITIS_LOOP_58_4: for(int j=0;j<BLOCK_SIZE;j++){
 #pragma HLS UNROLL
  AB_block[i][j] = C[ib*BLOCK_SIZE+i];
                 }
             }
-            VITIS_LOOP_61_5: for (int kb = 0; kb < M/BLOCK_SIZE; kb ++){
-                VITIS_LOOP_62_6: for(int k = 0; k < BLOCK_SIZE; k++){
-                    VITIS_LOOP_63_7: for(int j=0; j < BLOCK_SIZE; j++){
+            VITIS_LOOP_63_5: for (int kb = 0; kb < M/BLOCK_SIZE; kb ++){
+#pragma HLS LOOP_TRIPCOUNT min=49 max=49
+ VITIS_LOOP_65_6: for(int k = 0; k < BLOCK_SIZE; k++){
+                    VITIS_LOOP_66_7: for(int j=0; j < BLOCK_SIZE; j++){
 #pragma HLS UNROLL
  B_line[j] = B[(kb*BLOCK_SIZE+k)*P + jb*BLOCK_SIZE + j];
                     }
-                    VITIS_LOOP_67_8: for(int i=0;i<BLOCK_SIZE;i++){
+                    VITIS_LOOP_70_8: for(int i=0;i<BLOCK_SIZE;i++){
 #pragma HLS PIPELINE II=1
  DTYPE Atemp = A[(ib*BLOCK_SIZE+i)*M + kb*BLOCK_SIZE + k];
-                        VITIS_LOOP_70_9: for(int j=0;j<BLOCK_SIZE;j++){
+                        VITIS_LOOP_73_9: for(int j=0;j<BLOCK_SIZE;j++){
 #pragma HLS UNROLL
  AB_block[i][j] += Atemp * B_line[j];
                         }
@@ -40999,9 +41002,9 @@ __attribute__((sdx_kernel("MM", 0))) void MM(DTYPE* A, DTYPE* B, DTYPE* C, DTYPE
                 }
             }
 
-            VITIS_LOOP_78_10: for(int i=0;i<BLOCK_SIZE;i++){
+            VITIS_LOOP_81_10: for(int i=0;i<BLOCK_SIZE;i++){
 #pragma HLS UNROLL
- VITIS_LOOP_80_11: for(int j=0;j<BLOCK_SIZE;j++){
+ VITIS_LOOP_83_11: for(int j=0;j<BLOCK_SIZE;j++){
 #pragma HLS UNROLL
  ABC[(ib*BLOCK_SIZE+i)*P + jb*BLOCK_SIZE + j] = AB_block[i][j];
                 }

@@ -1,11 +1,14 @@
 <pragmas>
-<pragma file="../MLP_baseline/mm.cpp" line="55" pragmaType="unroll" parentfunction="MM" factor="-1" skip_exit_check="0"/>
-<pragma file="../MLP_baseline/mm.cpp" line="79" pragmaType="unroll" parentfunction="MM" factor="-1" skip_exit_check="0"/>
+<pragma file="../MLP_baseline/mm.cpp" line="52" pragmaType="loop_tripcount" parentfunction="MM" min="64" max="64" avg="64"/>
+<pragma file="../MLP_baseline/mm.cpp" line="54" pragmaType="loop_tripcount" parentfunction="MM" min="8" max="8" avg="8"/>
 <pragma file="../MLP_baseline/mm.cpp" line="57" pragmaType="unroll" parentfunction="MM" factor="-1" skip_exit_check="0"/>
-<pragma file="../MLP_baseline/mm.cpp" line="81" pragmaType="unroll" parentfunction="MM" factor="-1" skip_exit_check="0"/>
-<pragma file="../MLP_baseline/mm.cpp" line="64" pragmaType="unroll" parentfunction="MM" factor="-1" skip_exit_check="0"/>
-<pragma file="../MLP_baseline/mm.cpp" line="68" pragmaType="pipeline" parentfunction="MM" off="0" ii="1" rewind="0" style=""/>
-<pragma file="../MLP_baseline/mm.cpp" line="71" pragmaType="unroll" parentfunction="MM" factor="-1" skip_exit_check="0"/>
+<pragma file="../MLP_baseline/mm.cpp" line="64" pragmaType="loop_tripcount" parentfunction="MM" min="49" max="49" avg="49"/>
+<pragma file="../MLP_baseline/mm.cpp" line="82" pragmaType="unroll" parentfunction="MM" factor="-1" skip_exit_check="0"/>
+<pragma file="../MLP_baseline/mm.cpp" line="59" pragmaType="unroll" parentfunction="MM" factor="-1" skip_exit_check="0"/>
+<pragma file="../MLP_baseline/mm.cpp" line="84" pragmaType="unroll" parentfunction="MM" factor="-1" skip_exit_check="0"/>
+<pragma file="../MLP_baseline/mm.cpp" line="67" pragmaType="unroll" parentfunction="MM" factor="-1" skip_exit_check="0"/>
+<pragma file="../MLP_baseline/mm.cpp" line="71" pragmaType="pipeline" parentfunction="MM" off="0" ii="1" rewind="0" style=""/>
+<pragma file="../MLP_baseline/mm.cpp" line="74" pragmaType="unroll" parentfunction="MM" factor="-1" skip_exit_check="0"/>
 <pragma file="../MLP_baseline/mm.cpp" line="17" pragmaType="interface" parentfunction="MM" mode="m_axi" port="A" bundle="gmem" offset="" name="" depth="802816" num_read_outstanding="-1" num_write_outstanding="-1" max_burst_read_length="-1" max_burst_write_length="-1" latency="-1" max_widen_bitwidth="-1" channel=""/>
 <pragma file="../MLP_baseline/mm.cpp" line="18" pragmaType="interface" parentfunction="MM" mode="m_axi" port="B" bundle="gmem" offset="" name="" depth="100352" num_read_outstanding="-1" num_write_outstanding="-1" max_burst_read_length="-1" max_burst_write_length="-1" latency="-1" max_widen_bitwidth="-1" channel=""/>
 <pragma file="../MLP_baseline/mm.cpp" line="19" pragmaType="interface" parentfunction="MM" mode="m_axi" port="C" bundle="gmem" offset="" name="" depth="1024" num_read_outstanding="-1" num_write_outstanding="-1" max_burst_read_length="-1" max_burst_write_length="-1" latency="-1" max_widen_bitwidth="-1" channel=""/>

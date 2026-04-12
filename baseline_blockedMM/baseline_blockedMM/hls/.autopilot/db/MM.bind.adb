@@ -14556,10 +14556,10 @@
 					<Obj>
 						<type>0</type>
 						<id>358</id>
-						<name>br_ln52</name>
+						<name>br_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -14575,7 +14575,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -14615,7 +14615,7 @@
 						<name>jb</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -14631,7 +14631,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -14671,10 +14671,10 @@
 					<Obj>
 						<type>0</type>
 						<id>361</id>
-						<name>zext_ln52</name>
+						<name>zext_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -14690,7 +14690,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -14727,10 +14727,10 @@
 					<Obj>
 						<type>0</type>
 						<id>362</id>
-						<name>icmp_ln52</name>
+						<name>icmp_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -14746,7 +14746,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -14784,10 +14784,10 @@
 					<Obj>
 						<type>0</type>
 						<id>363</id>
-						<name>add_ln52</name>
+						<name>add_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -14803,7 +14803,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -14841,10 +14841,10 @@
 					<Obj>
 						<type>0</type>
 						<id>364</id>
-						<name>br_ln52</name>
+						<name>br_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -14860,7 +14860,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -14902,7 +14902,7 @@
 						<name>tmp_23</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -14918,7 +14918,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -14960,7 +14960,7 @@
 						<name>tmp_24_cast18</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -14976,7 +14976,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -15016,7 +15016,7 @@
 						<name>p_cast38</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -15032,7 +15032,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -15072,7 +15072,7 @@
 						<name>tmp_24_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -15088,7 +15088,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -15128,7 +15128,7 @@
 						<name>empty_76</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -15144,7 +15144,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -15185,7 +15185,7 @@
 						<name>tmp_24</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -15201,7 +15201,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -15243,7 +15243,7 @@
 						<name>empty_77</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -15259,7 +15259,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -15300,7 +15300,7 @@
 						<name>tmp_25</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -15316,7 +15316,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -15358,7 +15358,7 @@
 						<name>empty_78</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -15374,7 +15374,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -15415,7 +15415,7 @@
 						<name>tmp_26</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -15431,7 +15431,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -15473,7 +15473,7 @@
 						<name>empty_79</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -15489,7 +15489,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -15530,7 +15530,7 @@
 						<name>tmp_27</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -15546,7 +15546,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -15588,7 +15588,7 @@
 						<name>empty_80</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -15604,7 +15604,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -15645,7 +15645,7 @@
 						<name>tmp_28</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -15661,7 +15661,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -15703,7 +15703,7 @@
 						<name>empty_81</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -15719,7 +15719,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -15760,7 +15760,7 @@
 						<name>tmp_29</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -15776,7 +15776,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -15818,7 +15818,7 @@
 						<name>empty_82</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -15834,7 +15834,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -15875,7 +15875,7 @@
 						<name>tmp_30</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -15891,7 +15891,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -15933,7 +15933,7 @@
 						<name>empty_83</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -15949,7 +15949,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -15990,7 +15990,7 @@
 						<name>tmp_31</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -16006,7 +16006,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -16048,7 +16048,7 @@
 						<name>empty_84</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -16064,7 +16064,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -16105,7 +16105,7 @@
 						<name>tmp_32</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -16121,7 +16121,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -16163,7 +16163,7 @@
 						<name>empty_85</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -16179,7 +16179,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -16220,7 +16220,7 @@
 						<name>tmp_33</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -16236,7 +16236,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -16278,7 +16278,7 @@
 						<name>empty_86</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -16294,7 +16294,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -16335,7 +16335,7 @@
 						<name>tmp_34</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -16351,7 +16351,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -16393,7 +16393,7 @@
 						<name>empty_87</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -16409,7 +16409,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -16450,7 +16450,7 @@
 						<name>tmp_35</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -16466,7 +16466,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -16508,7 +16508,7 @@
 						<name>empty_88</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -16524,7 +16524,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -16565,7 +16565,7 @@
 						<name>tmp_36</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -16581,7 +16581,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -16738,7 +16738,7 @@
 						<name>tmp1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -16754,7 +16754,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -16795,7 +16795,7 @@
 						<name>tmp1_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -16811,7 +16811,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -16851,7 +16851,7 @@
 						<name>empty_90</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -16867,7 +16867,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -16908,7 +16908,7 @@
 						<name>tmp_38</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -16924,7 +16924,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -16966,7 +16966,7 @@
 						<name>empty_91</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -16982,7 +16982,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -17023,7 +17023,7 @@
 						<name>tmp_39</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -17039,7 +17039,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -18064,10 +18064,10 @@
 					<Obj>
 						<type>0</type>
 						<id>423</id>
-						<name>br_ln61</name>
+						<name>br_ln63</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>61</lineNumber>
+						<lineNumber>63</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -18083,7 +18083,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>61</second>
+										<second>63</second>
 									</item>
 								</second>
 							</item>
@@ -33227,7 +33227,7 @@
 						<name>kb</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>61</lineNumber>
+						<lineNumber>63</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -33243,7 +33243,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>61</second>
+										<second>63</second>
 									</item>
 								</second>
 							</item>
@@ -33286,7 +33286,7 @@
 						<name>phi_mul2</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>61</lineNumber>
+						<lineNumber>63</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -33302,7 +33302,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>61</second>
+										<second>63</second>
 									</item>
 								</second>
 							</item>
@@ -33342,10 +33342,10 @@
 					<Obj>
 						<type>0</type>
 						<id>683</id>
-						<name>add_ln61_1</name>
+						<name>add_ln63_1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>61</lineNumber>
+						<lineNumber>63</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -33361,7 +33361,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>61</second>
+										<second>63</second>
 									</item>
 								</second>
 							</item>
@@ -33399,10 +33399,10 @@
 					<Obj>
 						<type>0</type>
 						<id>684</id>
-						<name>zext_ln61</name>
+						<name>zext_ln63</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>61</lineNumber>
+						<lineNumber>63</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -33418,7 +33418,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>61</second>
+										<second>63</second>
 									</item>
 								</second>
 							</item>
@@ -33455,10 +33455,10 @@
 					<Obj>
 						<type>0</type>
 						<id>685</id>
-						<name>icmp_ln61</name>
+						<name>icmp_ln63</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>61</lineNumber>
+						<lineNumber>63</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -33474,7 +33474,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>61</second>
+										<second>63</second>
 									</item>
 								</second>
 							</item>
@@ -33512,10 +33512,10 @@
 					<Obj>
 						<type>0</type>
 						<id>686</id>
-						<name>add_ln61</name>
+						<name>add_ln63</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>61</lineNumber>
+						<lineNumber>63</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -33531,7 +33531,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>61</second>
+										<second>63</second>
 									</item>
 								</second>
 							</item>
@@ -33569,10 +33569,10 @@
 					<Obj>
 						<type>0</type>
 						<id>687</id>
-						<name>br_ln61</name>
+						<name>br_ln63</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>61</lineNumber>
+						<lineNumber>63</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -33588,7 +33588,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>61</second>
+										<second>63</second>
 									</item>
 								</second>
 							</item>
@@ -33630,7 +33630,7 @@
 						<name>tmp_40</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>61</lineNumber>
+						<lineNumber>63</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -33646,7 +33646,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>61</second>
+										<second>63</second>
 									</item>
 								</second>
 							</item>
@@ -33688,7 +33688,7 @@
 						<name>tmp_41</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>61</lineNumber>
+						<lineNumber>63</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -33704,7 +33704,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>61</second>
+										<second>63</second>
 									</item>
 								</second>
 							</item>
@@ -33743,10 +33743,10 @@
 					<Obj>
 						<type>0</type>
 						<id>693</id>
-						<name>br_ln62</name>
+						<name>br_ln65</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>62</lineNumber>
+						<lineNumber>65</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -33762,7 +33762,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>62</second>
+										<second>65</second>
 									</item>
 								</second>
 							</item>
@@ -48906,7 +48906,7 @@
 						<name>k</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>62</lineNumber>
+						<lineNumber>65</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -48922,7 +48922,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>62</second>
+										<second>65</second>
 									</item>
 								</second>
 							</item>
@@ -48965,7 +48965,7 @@
 						<name>phi_mul</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>62</lineNumber>
+						<lineNumber>65</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -48981,7 +48981,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>62</second>
+										<second>65</second>
 									</item>
 								</second>
 							</item>
@@ -49021,10 +49021,10 @@
 					<Obj>
 						<type>0</type>
 						<id>953</id>
-						<name>add_ln62_1</name>
+						<name>add_ln65_1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>62</lineNumber>
+						<lineNumber>65</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -49040,7 +49040,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>62</second>
+										<second>65</second>
 									</item>
 								</second>
 							</item>
@@ -49078,10 +49078,10 @@
 					<Obj>
 						<type>0</type>
 						<id>954</id>
-						<name>icmp_ln62</name>
+						<name>icmp_ln65</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>62</lineNumber>
+						<lineNumber>65</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -49097,7 +49097,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>62</second>
+										<second>65</second>
 									</item>
 								</second>
 							</item>
@@ -49135,10 +49135,10 @@
 					<Obj>
 						<type>0</type>
 						<id>955</id>
-						<name>add_ln62</name>
+						<name>add_ln65</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>62</lineNumber>
+						<lineNumber>65</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -49154,7 +49154,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>62</second>
+										<second>65</second>
 									</item>
 								</second>
 							</item>
@@ -49192,10 +49192,10 @@
 					<Obj>
 						<type>0</type>
 						<id>956</id>
-						<name>br_ln62</name>
+						<name>br_ln65</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>62</lineNumber>
+						<lineNumber>65</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -49211,7 +49211,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>62</second>
+										<second>65</second>
 									</item>
 								</second>
 							</item>
@@ -49250,10 +49250,10 @@
 					<Obj>
 						<type>0</type>
 						<id>958</id>
-						<name>trunc_ln62</name>
+						<name>trunc_ln65</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>62</lineNumber>
+						<lineNumber>65</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -49269,7 +49269,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>62</second>
+										<second>65</second>
 									</item>
 								</second>
 							</item>
@@ -49309,7 +49309,7 @@
 						<name>tmp2</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -49325,7 +49325,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -49366,7 +49366,7 @@
 						<name>tmp2_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -49382,7 +49382,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -49422,7 +49422,7 @@
 						<name>empty_93</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -49438,7 +49438,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -49479,7 +49479,7 @@
 						<name>tmp_42</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -49495,7 +49495,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -49537,7 +49537,7 @@
 						<name>empty_94</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -49553,7 +49553,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -49594,7 +49594,7 @@
 						<name>trunc_ln1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>68</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -49610,7 +49610,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>65</second>
+										<second>68</second>
 									</item>
 								</second>
 							</item>
@@ -49650,10 +49650,10 @@
 					<Obj>
 						<type>0</type>
 						<id>967</id>
-						<name>sext_ln65</name>
+						<name>sext_ln68</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>68</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -49669,7 +49669,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>65</second>
+										<second>68</second>
 									</item>
 								</second>
 							</item>
@@ -49709,7 +49709,7 @@
 						<name>gmem_addr_17</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>68</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -49725,7 +49725,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>65</second>
+										<second>68</second>
 									</item>
 								</second>
 							</item>
@@ -49766,7 +49766,7 @@
 						<name>empty_95</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>68</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -49782,7 +49782,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>65</second>
+										<second>68</second>
 									</item>
 								</second>
 							</item>
@@ -49825,7 +49825,7 @@
 						<name>gmem_addr_17_read</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>68</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -49841,7 +49841,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>65</second>
+										<second>68</second>
 									</item>
 								</second>
 							</item>
@@ -49900,7 +49900,7 @@
 						<name>gmem_addr_17_read_1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>68</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -49916,7 +49916,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>65</second>
+										<second>68</second>
 									</item>
 								</second>
 							</item>
@@ -49975,7 +49975,7 @@
 						<name>gmem_addr_17_read_2</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>68</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -49991,7 +49991,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>65</second>
+										<second>68</second>
 									</item>
 								</second>
 							</item>
@@ -50050,7 +50050,7 @@
 						<name>gmem_addr_17_read_3</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>68</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -50066,7 +50066,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>65</second>
+										<second>68</second>
 									</item>
 								</second>
 							</item>
@@ -50125,7 +50125,7 @@
 						<name>gmem_addr_17_read_4</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>68</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -50141,7 +50141,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>65</second>
+										<second>68</second>
 									</item>
 								</second>
 							</item>
@@ -50200,7 +50200,7 @@
 						<name>gmem_addr_17_read_5</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>68</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -50216,7 +50216,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>65</second>
+										<second>68</second>
 									</item>
 								</second>
 							</item>
@@ -50275,7 +50275,7 @@
 						<name>gmem_addr_17_read_6</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>68</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -50291,7 +50291,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>65</second>
+										<second>68</second>
 									</item>
 								</second>
 							</item>
@@ -50350,7 +50350,7 @@
 						<name>gmem_addr_17_read_7</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>68</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -50366,7 +50366,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>65</second>
+										<second>68</second>
 									</item>
 								</second>
 							</item>
@@ -50425,7 +50425,7 @@
 						<name>gmem_addr_17_read_8</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>68</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -50441,7 +50441,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>65</second>
+										<second>68</second>
 									</item>
 								</second>
 							</item>
@@ -50500,7 +50500,7 @@
 						<name>gmem_addr_17_read_9</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>68</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -50516,7 +50516,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>65</second>
+										<second>68</second>
 									</item>
 								</second>
 							</item>
@@ -50575,7 +50575,7 @@
 						<name>gmem_addr_17_read_10</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>68</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -50591,7 +50591,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>65</second>
+										<second>68</second>
 									</item>
 								</second>
 							</item>
@@ -50650,7 +50650,7 @@
 						<name>gmem_addr_17_read_11</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>68</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -50666,7 +50666,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>65</second>
+										<second>68</second>
 									</item>
 								</second>
 							</item>
@@ -50725,7 +50725,7 @@
 						<name>gmem_addr_17_read_12</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>68</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -50741,7 +50741,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>65</second>
+										<second>68</second>
 									</item>
 								</second>
 							</item>
@@ -50800,7 +50800,7 @@
 						<name>gmem_addr_17_read_13</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>68</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -50816,7 +50816,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>65</second>
+										<second>68</second>
 									</item>
 								</second>
 							</item>
@@ -50875,7 +50875,7 @@
 						<name>gmem_addr_17_read_14</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>68</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -50891,7 +50891,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>65</second>
+										<second>68</second>
 									</item>
 								</second>
 							</item>
@@ -50950,7 +50950,7 @@
 						<name>gmem_addr_17_read_15</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>68</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -50966,7 +50966,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>65</second>
+										<second>68</second>
 									</item>
 								</second>
 							</item>
@@ -62638,10 +62638,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1243</id>
-						<name>br_ln62</name>
+						<name>br_ln65</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>62</lineNumber>
+						<lineNumber>65</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -62657,7 +62657,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>62</second>
+										<second>65</second>
 									</item>
 								</second>
 							</item>
@@ -62694,10 +62694,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1245</id>
-						<name>br_ln61</name>
+						<name>br_ln63</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>61</lineNumber>
+						<lineNumber>63</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -62713,7 +62713,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>61</second>
+										<second>63</second>
 									</item>
 								</second>
 							</item>
@@ -62753,7 +62753,7 @@
 						<name>empty_96</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -62769,7 +62769,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -62810,7 +62810,7 @@
 						<name>empty_97</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -62826,7 +62826,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -62867,7 +62867,7 @@
 						<name>empty_98</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -62883,7 +62883,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -62924,7 +62924,7 @@
 						<name>empty_99</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -62940,7 +62940,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -62981,7 +62981,7 @@
 						<name>empty_100</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -62997,7 +62997,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -63038,7 +63038,7 @@
 						<name>empty_101</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -63054,7 +63054,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -63095,7 +63095,7 @@
 						<name>empty_102</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -63111,7 +63111,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -63152,7 +63152,7 @@
 						<name>empty_103</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -63168,7 +63168,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -63209,7 +63209,7 @@
 						<name>empty_104</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -63225,7 +63225,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -63266,7 +63266,7 @@
 						<name>empty_105</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -63282,7 +63282,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -63323,7 +63323,7 @@
 						<name>empty_106</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -63339,7 +63339,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -63380,7 +63380,7 @@
 						<name>empty_107</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -63396,7 +63396,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -63437,7 +63437,7 @@
 						<name>empty_108</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -63453,7 +63453,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -63551,7 +63551,7 @@
 						<name>empty_110</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -63567,7 +63567,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -63608,7 +63608,7 @@
 						<name>empty_111</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -63624,7 +63624,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -63665,7 +63665,7 @@
 						<name>p_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -63681,7 +63681,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -63724,7 +63724,7 @@
 						<name>p_cast16_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -63740,7 +63740,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -63780,7 +63780,7 @@
 						<name>gmem_addr_1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -63796,7 +63796,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -63837,7 +63837,7 @@
 						<name>empty_112</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -63853,7 +63853,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -63892,10 +63892,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1267</id>
-						<name>gmem_addr_1_write_ln52</name>
+						<name>gmem_addr_1_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -63911,7 +63911,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -63953,10 +63953,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1268</id>
-						<name>gmem_addr_1_write_ln52</name>
+						<name>gmem_addr_1_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -63972,7 +63972,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -64014,10 +64014,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1269</id>
-						<name>gmem_addr_1_write_ln52</name>
+						<name>gmem_addr_1_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -64033,7 +64033,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -64075,10 +64075,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1270</id>
-						<name>gmem_addr_1_write_ln52</name>
+						<name>gmem_addr_1_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -64094,7 +64094,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -64136,10 +64136,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1271</id>
-						<name>gmem_addr_1_write_ln52</name>
+						<name>gmem_addr_1_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -64155,7 +64155,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -64197,10 +64197,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1272</id>
-						<name>gmem_addr_1_write_ln52</name>
+						<name>gmem_addr_1_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -64216,7 +64216,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -64258,10 +64258,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1273</id>
-						<name>gmem_addr_1_write_ln52</name>
+						<name>gmem_addr_1_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -64277,7 +64277,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -64319,10 +64319,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1274</id>
-						<name>gmem_addr_1_write_ln52</name>
+						<name>gmem_addr_1_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -64338,7 +64338,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -64380,10 +64380,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1275</id>
-						<name>gmem_addr_1_write_ln52</name>
+						<name>gmem_addr_1_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -64399,7 +64399,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -64441,10 +64441,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1276</id>
-						<name>gmem_addr_1_write_ln52</name>
+						<name>gmem_addr_1_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -64460,7 +64460,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -64502,10 +64502,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1277</id>
-						<name>gmem_addr_1_write_ln52</name>
+						<name>gmem_addr_1_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -64521,7 +64521,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -64563,10 +64563,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1278</id>
-						<name>gmem_addr_1_write_ln52</name>
+						<name>gmem_addr_1_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -64582,7 +64582,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -64624,10 +64624,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1279</id>
-						<name>gmem_addr_1_write_ln52</name>
+						<name>gmem_addr_1_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -64643,7 +64643,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -64685,10 +64685,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1280</id>
-						<name>gmem_addr_1_write_ln52</name>
+						<name>gmem_addr_1_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -64704,7 +64704,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -64746,10 +64746,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1281</id>
-						<name>gmem_addr_1_write_ln52</name>
+						<name>gmem_addr_1_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -64765,7 +64765,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -64807,10 +64807,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1282</id>
-						<name>gmem_addr_1_write_ln52</name>
+						<name>gmem_addr_1_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -64826,7 +64826,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -64871,7 +64871,7 @@
 						<name>empty_113</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -64887,7 +64887,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -64929,7 +64929,7 @@
 						<name>p_cast1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -64945,7 +64945,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -64988,7 +64988,7 @@
 						<name>p_cast17_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -65004,7 +65004,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -65044,7 +65044,7 @@
 						<name>gmem_addr_2</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -65060,7 +65060,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -65101,7 +65101,7 @@
 						<name>empty_114</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -65117,7 +65117,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -65157,10 +65157,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1288</id>
-						<name>gmem_addr_2_write_ln52</name>
+						<name>gmem_addr_2_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -65176,7 +65176,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -65219,10 +65219,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1289</id>
-						<name>gmem_addr_2_write_ln52</name>
+						<name>gmem_addr_2_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -65238,7 +65238,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -65280,10 +65280,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1290</id>
-						<name>gmem_addr_2_write_ln52</name>
+						<name>gmem_addr_2_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -65299,7 +65299,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -65341,10 +65341,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1291</id>
-						<name>gmem_addr_2_write_ln52</name>
+						<name>gmem_addr_2_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -65360,7 +65360,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -65402,10 +65402,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1292</id>
-						<name>gmem_addr_2_write_ln52</name>
+						<name>gmem_addr_2_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -65421,7 +65421,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -65463,10 +65463,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1293</id>
-						<name>gmem_addr_2_write_ln52</name>
+						<name>gmem_addr_2_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -65482,7 +65482,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -65524,10 +65524,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1294</id>
-						<name>gmem_addr_2_write_ln52</name>
+						<name>gmem_addr_2_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -65543,7 +65543,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -65585,10 +65585,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1295</id>
-						<name>gmem_addr_2_write_ln52</name>
+						<name>gmem_addr_2_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -65604,7 +65604,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -65646,10 +65646,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1296</id>
-						<name>gmem_addr_2_write_ln52</name>
+						<name>gmem_addr_2_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -65665,7 +65665,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -65707,10 +65707,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1297</id>
-						<name>gmem_addr_2_write_ln52</name>
+						<name>gmem_addr_2_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -65726,7 +65726,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -65768,10 +65768,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1298</id>
-						<name>gmem_addr_2_write_ln52</name>
+						<name>gmem_addr_2_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -65787,7 +65787,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -65829,10 +65829,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1299</id>
-						<name>gmem_addr_2_write_ln52</name>
+						<name>gmem_addr_2_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -65848,7 +65848,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -65890,10 +65890,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1300</id>
-						<name>gmem_addr_2_write_ln52</name>
+						<name>gmem_addr_2_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -65909,7 +65909,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -65951,10 +65951,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1301</id>
-						<name>gmem_addr_2_write_ln52</name>
+						<name>gmem_addr_2_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -65970,7 +65970,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -66012,10 +66012,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1302</id>
-						<name>gmem_addr_2_write_ln52</name>
+						<name>gmem_addr_2_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -66031,7 +66031,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -66073,10 +66073,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1303</id>
-						<name>gmem_addr_2_write_ln52</name>
+						<name>gmem_addr_2_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -66092,7 +66092,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -66137,7 +66137,7 @@
 						<name>empty_115</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -66153,7 +66153,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -67463,7 +67463,7 @@
 						<name>p_cast3</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -67479,7 +67479,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -67522,7 +67522,7 @@
 						<name>p_cast19_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -67538,7 +67538,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -67578,7 +67578,7 @@
 						<name>gmem_addr_4</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -67594,7 +67594,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -67635,7 +67635,7 @@
 						<name>empty_118</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -67651,7 +67651,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -67691,10 +67691,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1330</id>
-						<name>gmem_addr_4_write_ln52</name>
+						<name>gmem_addr_4_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -67710,7 +67710,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -67753,10 +67753,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1331</id>
-						<name>gmem_addr_4_write_ln52</name>
+						<name>gmem_addr_4_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -67772,7 +67772,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -67814,10 +67814,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1332</id>
-						<name>gmem_addr_4_write_ln52</name>
+						<name>gmem_addr_4_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -67833,7 +67833,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -67875,10 +67875,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1333</id>
-						<name>gmem_addr_4_write_ln52</name>
+						<name>gmem_addr_4_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -67894,7 +67894,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -67936,10 +67936,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1334</id>
-						<name>gmem_addr_4_write_ln52</name>
+						<name>gmem_addr_4_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -67955,7 +67955,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -67997,10 +67997,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1335</id>
-						<name>gmem_addr_4_write_ln52</name>
+						<name>gmem_addr_4_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -68016,7 +68016,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -68058,10 +68058,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1336</id>
-						<name>gmem_addr_4_write_ln52</name>
+						<name>gmem_addr_4_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -68077,7 +68077,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -68119,10 +68119,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1337</id>
-						<name>gmem_addr_4_write_ln52</name>
+						<name>gmem_addr_4_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -68138,7 +68138,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -68180,10 +68180,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1338</id>
-						<name>gmem_addr_4_write_ln52</name>
+						<name>gmem_addr_4_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -68199,7 +68199,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -68241,10 +68241,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1339</id>
-						<name>gmem_addr_4_write_ln52</name>
+						<name>gmem_addr_4_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -68260,7 +68260,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -68302,10 +68302,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1340</id>
-						<name>gmem_addr_4_write_ln52</name>
+						<name>gmem_addr_4_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -68321,7 +68321,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -68363,10 +68363,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1341</id>
-						<name>gmem_addr_4_write_ln52</name>
+						<name>gmem_addr_4_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -68382,7 +68382,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -68424,10 +68424,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1342</id>
-						<name>gmem_addr_4_write_ln52</name>
+						<name>gmem_addr_4_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -68443,7 +68443,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -68485,10 +68485,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1343</id>
-						<name>gmem_addr_4_write_ln52</name>
+						<name>gmem_addr_4_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -68504,7 +68504,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -68546,10 +68546,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1344</id>
-						<name>gmem_addr_4_write_ln52</name>
+						<name>gmem_addr_4_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -68565,7 +68565,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -68607,10 +68607,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1345</id>
-						<name>gmem_addr_4_write_ln52</name>
+						<name>gmem_addr_4_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -68626,7 +68626,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -68671,7 +68671,7 @@
 						<name>empty_119</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -68687,7 +68687,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -68730,7 +68730,7 @@
 						<name>p_cast4</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -68746,7 +68746,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -68789,7 +68789,7 @@
 						<name>p_cast20_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -68805,7 +68805,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -68845,7 +68845,7 @@
 						<name>gmem_addr_5</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -68861,7 +68861,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -68902,7 +68902,7 @@
 						<name>empty_120</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -68918,7 +68918,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -68958,10 +68958,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1351</id>
-						<name>gmem_addr_5_write_ln52</name>
+						<name>gmem_addr_5_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -68977,7 +68977,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -69020,10 +69020,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1352</id>
-						<name>gmem_addr_5_write_ln52</name>
+						<name>gmem_addr_5_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -69039,7 +69039,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -69081,10 +69081,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1353</id>
-						<name>gmem_addr_5_write_ln52</name>
+						<name>gmem_addr_5_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -69100,7 +69100,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -69142,10 +69142,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1354</id>
-						<name>gmem_addr_5_write_ln52</name>
+						<name>gmem_addr_5_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -69161,7 +69161,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -69203,10 +69203,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1355</id>
-						<name>gmem_addr_5_write_ln52</name>
+						<name>gmem_addr_5_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -69222,7 +69222,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -69264,10 +69264,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1356</id>
-						<name>gmem_addr_5_write_ln52</name>
+						<name>gmem_addr_5_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -69283,7 +69283,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -69325,10 +69325,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1357</id>
-						<name>gmem_addr_5_write_ln52</name>
+						<name>gmem_addr_5_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -69344,7 +69344,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -69386,10 +69386,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1358</id>
-						<name>gmem_addr_5_write_ln52</name>
+						<name>gmem_addr_5_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -69405,7 +69405,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -69447,10 +69447,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1359</id>
-						<name>gmem_addr_5_write_ln52</name>
+						<name>gmem_addr_5_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -69466,7 +69466,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -69508,10 +69508,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1360</id>
-						<name>gmem_addr_5_write_ln52</name>
+						<name>gmem_addr_5_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -69527,7 +69527,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -69569,10 +69569,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1361</id>
-						<name>gmem_addr_5_write_ln52</name>
+						<name>gmem_addr_5_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -69588,7 +69588,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -69630,10 +69630,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1362</id>
-						<name>gmem_addr_5_write_ln52</name>
+						<name>gmem_addr_5_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -69649,7 +69649,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -69691,10 +69691,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1363</id>
-						<name>gmem_addr_5_write_ln52</name>
+						<name>gmem_addr_5_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -69710,7 +69710,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -69752,10 +69752,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1364</id>
-						<name>gmem_addr_5_write_ln52</name>
+						<name>gmem_addr_5_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -69771,7 +69771,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -69813,10 +69813,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1365</id>
-						<name>gmem_addr_5_write_ln52</name>
+						<name>gmem_addr_5_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -69832,7 +69832,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -69874,10 +69874,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1366</id>
-						<name>gmem_addr_5_write_ln52</name>
+						<name>gmem_addr_5_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -69893,7 +69893,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -69938,7 +69938,7 @@
 						<name>empty_121</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -69954,7 +69954,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -69997,7 +69997,7 @@
 						<name>p_cast5</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -70013,7 +70013,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -70056,7 +70056,7 @@
 						<name>p_cast21_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -70072,7 +70072,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -70112,7 +70112,7 @@
 						<name>gmem_addr_6</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -70128,7 +70128,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -70169,7 +70169,7 @@
 						<name>empty_122</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -70185,7 +70185,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -70225,10 +70225,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1372</id>
-						<name>gmem_addr_6_write_ln52</name>
+						<name>gmem_addr_6_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -70244,7 +70244,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -70287,10 +70287,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1373</id>
-						<name>gmem_addr_6_write_ln52</name>
+						<name>gmem_addr_6_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -70306,7 +70306,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -70348,10 +70348,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1374</id>
-						<name>gmem_addr_6_write_ln52</name>
+						<name>gmem_addr_6_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -70367,7 +70367,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -70409,10 +70409,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1375</id>
-						<name>gmem_addr_6_write_ln52</name>
+						<name>gmem_addr_6_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -70428,7 +70428,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -70470,10 +70470,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1376</id>
-						<name>gmem_addr_6_write_ln52</name>
+						<name>gmem_addr_6_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -70489,7 +70489,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -70531,10 +70531,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1377</id>
-						<name>gmem_addr_6_write_ln52</name>
+						<name>gmem_addr_6_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -70550,7 +70550,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -70592,10 +70592,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1378</id>
-						<name>gmem_addr_6_write_ln52</name>
+						<name>gmem_addr_6_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -70611,7 +70611,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -70653,10 +70653,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1379</id>
-						<name>gmem_addr_6_write_ln52</name>
+						<name>gmem_addr_6_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -70672,7 +70672,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -70714,10 +70714,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1380</id>
-						<name>gmem_addr_6_write_ln52</name>
+						<name>gmem_addr_6_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -70733,7 +70733,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -70775,10 +70775,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1381</id>
-						<name>gmem_addr_6_write_ln52</name>
+						<name>gmem_addr_6_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -70794,7 +70794,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -70836,10 +70836,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1382</id>
-						<name>gmem_addr_6_write_ln52</name>
+						<name>gmem_addr_6_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -70855,7 +70855,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -70897,10 +70897,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1383</id>
-						<name>gmem_addr_6_write_ln52</name>
+						<name>gmem_addr_6_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -70916,7 +70916,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -70958,10 +70958,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1384</id>
-						<name>gmem_addr_6_write_ln52</name>
+						<name>gmem_addr_6_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -70977,7 +70977,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -71019,10 +71019,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1385</id>
-						<name>gmem_addr_6_write_ln52</name>
+						<name>gmem_addr_6_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -71038,7 +71038,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -71080,10 +71080,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1386</id>
-						<name>gmem_addr_6_write_ln52</name>
+						<name>gmem_addr_6_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -71099,7 +71099,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -71141,10 +71141,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1387</id>
-						<name>gmem_addr_6_write_ln52</name>
+						<name>gmem_addr_6_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -71160,7 +71160,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -71205,7 +71205,7 @@
 						<name>empty_123</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -71221,7 +71221,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -71264,7 +71264,7 @@
 						<name>p_cast6</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -71280,7 +71280,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -71323,7 +71323,7 @@
 						<name>p_cast22_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -71339,7 +71339,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -71379,7 +71379,7 @@
 						<name>gmem_addr_7</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -71395,7 +71395,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -71436,7 +71436,7 @@
 						<name>empty_124</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -71452,7 +71452,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -71492,10 +71492,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1393</id>
-						<name>gmem_addr_7_write_ln52</name>
+						<name>gmem_addr_7_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -71511,7 +71511,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -71554,10 +71554,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1394</id>
-						<name>gmem_addr_7_write_ln52</name>
+						<name>gmem_addr_7_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -71573,7 +71573,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -71615,10 +71615,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1395</id>
-						<name>gmem_addr_7_write_ln52</name>
+						<name>gmem_addr_7_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -71634,7 +71634,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -71676,10 +71676,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1396</id>
-						<name>gmem_addr_7_write_ln52</name>
+						<name>gmem_addr_7_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -71695,7 +71695,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -71737,10 +71737,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1397</id>
-						<name>gmem_addr_7_write_ln52</name>
+						<name>gmem_addr_7_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -71756,7 +71756,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -71798,10 +71798,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1398</id>
-						<name>gmem_addr_7_write_ln52</name>
+						<name>gmem_addr_7_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -71817,7 +71817,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -71859,10 +71859,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1399</id>
-						<name>gmem_addr_7_write_ln52</name>
+						<name>gmem_addr_7_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -71878,7 +71878,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -71920,10 +71920,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1400</id>
-						<name>gmem_addr_7_write_ln52</name>
+						<name>gmem_addr_7_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -71939,7 +71939,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -71981,10 +71981,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1401</id>
-						<name>gmem_addr_7_write_ln52</name>
+						<name>gmem_addr_7_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -72000,7 +72000,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -72042,10 +72042,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1402</id>
-						<name>gmem_addr_7_write_ln52</name>
+						<name>gmem_addr_7_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -72061,7 +72061,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -72103,10 +72103,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1403</id>
-						<name>gmem_addr_7_write_ln52</name>
+						<name>gmem_addr_7_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -72122,7 +72122,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -72164,10 +72164,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1404</id>
-						<name>gmem_addr_7_write_ln52</name>
+						<name>gmem_addr_7_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -72183,7 +72183,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -72225,10 +72225,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1405</id>
-						<name>gmem_addr_7_write_ln52</name>
+						<name>gmem_addr_7_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -72244,7 +72244,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -72286,10 +72286,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1406</id>
-						<name>gmem_addr_7_write_ln52</name>
+						<name>gmem_addr_7_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -72305,7 +72305,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -72347,10 +72347,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1407</id>
-						<name>gmem_addr_7_write_ln52</name>
+						<name>gmem_addr_7_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -72366,7 +72366,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -72408,10 +72408,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1408</id>
-						<name>gmem_addr_7_write_ln52</name>
+						<name>gmem_addr_7_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -72427,7 +72427,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -72472,7 +72472,7 @@
 						<name>empty_125</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -72488,7 +72488,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -72531,7 +72531,7 @@
 						<name>p_cast7</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -72547,7 +72547,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -72590,7 +72590,7 @@
 						<name>p_cast23_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -72606,7 +72606,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -72646,7 +72646,7 @@
 						<name>gmem_addr_8</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -72662,7 +72662,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -72703,7 +72703,7 @@
 						<name>empty_126</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -72719,7 +72719,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -72759,10 +72759,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1414</id>
-						<name>gmem_addr_8_write_ln52</name>
+						<name>gmem_addr_8_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -72778,7 +72778,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -72821,10 +72821,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1415</id>
-						<name>gmem_addr_8_write_ln52</name>
+						<name>gmem_addr_8_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -72840,7 +72840,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -72882,10 +72882,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1416</id>
-						<name>gmem_addr_8_write_ln52</name>
+						<name>gmem_addr_8_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -72901,7 +72901,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -72943,10 +72943,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1417</id>
-						<name>gmem_addr_8_write_ln52</name>
+						<name>gmem_addr_8_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -72962,7 +72962,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -73004,10 +73004,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1418</id>
-						<name>gmem_addr_8_write_ln52</name>
+						<name>gmem_addr_8_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -73023,7 +73023,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -73065,10 +73065,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1419</id>
-						<name>gmem_addr_8_write_ln52</name>
+						<name>gmem_addr_8_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -73084,7 +73084,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -73126,10 +73126,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1420</id>
-						<name>gmem_addr_8_write_ln52</name>
+						<name>gmem_addr_8_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -73145,7 +73145,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -73187,10 +73187,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1421</id>
-						<name>gmem_addr_8_write_ln52</name>
+						<name>gmem_addr_8_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -73206,7 +73206,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -73248,10 +73248,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1422</id>
-						<name>gmem_addr_8_write_ln52</name>
+						<name>gmem_addr_8_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -73267,7 +73267,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -73309,10 +73309,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1423</id>
-						<name>gmem_addr_8_write_ln52</name>
+						<name>gmem_addr_8_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -73328,7 +73328,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -73370,10 +73370,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1424</id>
-						<name>gmem_addr_8_write_ln52</name>
+						<name>gmem_addr_8_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -73389,7 +73389,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -73431,10 +73431,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1425</id>
-						<name>gmem_addr_8_write_ln52</name>
+						<name>gmem_addr_8_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -73450,7 +73450,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -73492,10 +73492,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1426</id>
-						<name>gmem_addr_8_write_ln52</name>
+						<name>gmem_addr_8_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -73511,7 +73511,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -73553,10 +73553,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1427</id>
-						<name>gmem_addr_8_write_ln52</name>
+						<name>gmem_addr_8_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -73572,7 +73572,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -73614,10 +73614,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1428</id>
-						<name>gmem_addr_8_write_ln52</name>
+						<name>gmem_addr_8_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -73633,7 +73633,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -73675,10 +73675,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1429</id>
-						<name>gmem_addr_8_write_ln52</name>
+						<name>gmem_addr_8_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -73694,7 +73694,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -73739,7 +73739,7 @@
 						<name>empty_127</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -73755,7 +73755,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -73798,7 +73798,7 @@
 						<name>p_cast8</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -73814,7 +73814,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -73857,7 +73857,7 @@
 						<name>p_cast24_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -73873,7 +73873,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -73913,7 +73913,7 @@
 						<name>gmem_addr_9</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -73929,7 +73929,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -73970,7 +73970,7 @@
 						<name>empty_128</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -73986,7 +73986,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -74026,10 +74026,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1435</id>
-						<name>gmem_addr_9_write_ln52</name>
+						<name>gmem_addr_9_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -74045,7 +74045,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -74088,10 +74088,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1436</id>
-						<name>gmem_addr_9_write_ln52</name>
+						<name>gmem_addr_9_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -74107,7 +74107,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -74149,10 +74149,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1437</id>
-						<name>gmem_addr_9_write_ln52</name>
+						<name>gmem_addr_9_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -74168,7 +74168,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -74210,10 +74210,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1438</id>
-						<name>gmem_addr_9_write_ln52</name>
+						<name>gmem_addr_9_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -74229,7 +74229,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -74271,10 +74271,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1439</id>
-						<name>gmem_addr_9_write_ln52</name>
+						<name>gmem_addr_9_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -74290,7 +74290,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -74332,10 +74332,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1440</id>
-						<name>gmem_addr_9_write_ln52</name>
+						<name>gmem_addr_9_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -74351,7 +74351,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -74393,10 +74393,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1441</id>
-						<name>gmem_addr_9_write_ln52</name>
+						<name>gmem_addr_9_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -74412,7 +74412,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -74454,10 +74454,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1442</id>
-						<name>gmem_addr_9_write_ln52</name>
+						<name>gmem_addr_9_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -74473,7 +74473,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -74515,10 +74515,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1443</id>
-						<name>gmem_addr_9_write_ln52</name>
+						<name>gmem_addr_9_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -74534,7 +74534,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -74576,10 +74576,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1444</id>
-						<name>gmem_addr_9_write_ln52</name>
+						<name>gmem_addr_9_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -74595,7 +74595,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -74637,10 +74637,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1445</id>
-						<name>gmem_addr_9_write_ln52</name>
+						<name>gmem_addr_9_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -74656,7 +74656,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -74698,10 +74698,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1446</id>
-						<name>gmem_addr_9_write_ln52</name>
+						<name>gmem_addr_9_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -74717,7 +74717,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -74759,10 +74759,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1447</id>
-						<name>gmem_addr_9_write_ln52</name>
+						<name>gmem_addr_9_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -74778,7 +74778,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -74820,10 +74820,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1448</id>
-						<name>gmem_addr_9_write_ln52</name>
+						<name>gmem_addr_9_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -74839,7 +74839,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -74881,10 +74881,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1449</id>
-						<name>gmem_addr_9_write_ln52</name>
+						<name>gmem_addr_9_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -74900,7 +74900,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -74942,10 +74942,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1450</id>
-						<name>gmem_addr_9_write_ln52</name>
+						<name>gmem_addr_9_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -74961,7 +74961,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -75006,7 +75006,7 @@
 						<name>empty_129</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -75022,7 +75022,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -75065,7 +75065,7 @@
 						<name>p_cast10</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -75081,7 +75081,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -75124,7 +75124,7 @@
 						<name>p_cast25_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -75140,7 +75140,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -75180,7 +75180,7 @@
 						<name>gmem_addr_10</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -75196,7 +75196,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -75237,7 +75237,7 @@
 						<name>empty_130</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -75253,7 +75253,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -75293,10 +75293,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1456</id>
-						<name>gmem_addr_10_write_ln52</name>
+						<name>gmem_addr_10_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -75312,7 +75312,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -75355,10 +75355,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1457</id>
-						<name>gmem_addr_10_write_ln52</name>
+						<name>gmem_addr_10_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -75374,7 +75374,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -75416,10 +75416,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1458</id>
-						<name>gmem_addr_10_write_ln52</name>
+						<name>gmem_addr_10_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -75435,7 +75435,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -75477,10 +75477,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1459</id>
-						<name>gmem_addr_10_write_ln52</name>
+						<name>gmem_addr_10_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -75496,7 +75496,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -75538,10 +75538,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1460</id>
-						<name>gmem_addr_10_write_ln52</name>
+						<name>gmem_addr_10_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -75557,7 +75557,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -75599,10 +75599,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1461</id>
-						<name>gmem_addr_10_write_ln52</name>
+						<name>gmem_addr_10_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -75618,7 +75618,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -75660,10 +75660,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1462</id>
-						<name>gmem_addr_10_write_ln52</name>
+						<name>gmem_addr_10_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -75679,7 +75679,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -75721,10 +75721,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1463</id>
-						<name>gmem_addr_10_write_ln52</name>
+						<name>gmem_addr_10_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -75740,7 +75740,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -75782,10 +75782,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1464</id>
-						<name>gmem_addr_10_write_ln52</name>
+						<name>gmem_addr_10_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -75801,7 +75801,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -75843,10 +75843,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1465</id>
-						<name>gmem_addr_10_write_ln52</name>
+						<name>gmem_addr_10_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -75862,7 +75862,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -75904,10 +75904,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1466</id>
-						<name>gmem_addr_10_write_ln52</name>
+						<name>gmem_addr_10_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -75923,7 +75923,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -75965,10 +75965,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1467</id>
-						<name>gmem_addr_10_write_ln52</name>
+						<name>gmem_addr_10_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -75984,7 +75984,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -76026,10 +76026,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1468</id>
-						<name>gmem_addr_10_write_ln52</name>
+						<name>gmem_addr_10_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -76045,7 +76045,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -76087,10 +76087,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1469</id>
-						<name>gmem_addr_10_write_ln52</name>
+						<name>gmem_addr_10_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -76106,7 +76106,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -76148,10 +76148,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1470</id>
-						<name>gmem_addr_10_write_ln52</name>
+						<name>gmem_addr_10_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -76167,7 +76167,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -76209,10 +76209,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1471</id>
-						<name>gmem_addr_10_write_ln52</name>
+						<name>gmem_addr_10_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -76228,7 +76228,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -76273,7 +76273,7 @@
 						<name>empty_131</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -76289,7 +76289,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -76332,7 +76332,7 @@
 						<name>p_cast11</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -76348,7 +76348,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -76391,7 +76391,7 @@
 						<name>p_cast26_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -76407,7 +76407,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -76447,7 +76447,7 @@
 						<name>gmem_addr_11</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -76463,7 +76463,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -76504,7 +76504,7 @@
 						<name>empty_132</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -76520,7 +76520,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -76560,10 +76560,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1477</id>
-						<name>gmem_addr_11_write_ln52</name>
+						<name>gmem_addr_11_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -76579,7 +76579,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -76622,10 +76622,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1478</id>
-						<name>gmem_addr_11_write_ln52</name>
+						<name>gmem_addr_11_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -76641,7 +76641,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -76683,10 +76683,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1479</id>
-						<name>gmem_addr_11_write_ln52</name>
+						<name>gmem_addr_11_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -76702,7 +76702,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -76744,10 +76744,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1480</id>
-						<name>gmem_addr_11_write_ln52</name>
+						<name>gmem_addr_11_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -76763,7 +76763,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -76805,10 +76805,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1481</id>
-						<name>gmem_addr_11_write_ln52</name>
+						<name>gmem_addr_11_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -76824,7 +76824,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -76866,10 +76866,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1482</id>
-						<name>gmem_addr_11_write_ln52</name>
+						<name>gmem_addr_11_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -76885,7 +76885,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -76927,10 +76927,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1483</id>
-						<name>gmem_addr_11_write_ln52</name>
+						<name>gmem_addr_11_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -76946,7 +76946,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -76988,10 +76988,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1484</id>
-						<name>gmem_addr_11_write_ln52</name>
+						<name>gmem_addr_11_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -77007,7 +77007,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -77049,10 +77049,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1485</id>
-						<name>gmem_addr_11_write_ln52</name>
+						<name>gmem_addr_11_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -77068,7 +77068,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -77110,10 +77110,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1486</id>
-						<name>gmem_addr_11_write_ln52</name>
+						<name>gmem_addr_11_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -77129,7 +77129,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -77171,10 +77171,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1487</id>
-						<name>gmem_addr_11_write_ln52</name>
+						<name>gmem_addr_11_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -77190,7 +77190,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -77232,10 +77232,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1488</id>
-						<name>gmem_addr_11_write_ln52</name>
+						<name>gmem_addr_11_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -77251,7 +77251,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -77293,10 +77293,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1489</id>
-						<name>gmem_addr_11_write_ln52</name>
+						<name>gmem_addr_11_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -77312,7 +77312,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -77354,10 +77354,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1490</id>
-						<name>gmem_addr_11_write_ln52</name>
+						<name>gmem_addr_11_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -77373,7 +77373,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -77415,10 +77415,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1491</id>
-						<name>gmem_addr_11_write_ln52</name>
+						<name>gmem_addr_11_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -77434,7 +77434,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -77476,10 +77476,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1492</id>
-						<name>gmem_addr_11_write_ln52</name>
+						<name>gmem_addr_11_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -77495,7 +77495,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -77540,7 +77540,7 @@
 						<name>empty_133</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -77556,7 +77556,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -77599,7 +77599,7 @@
 						<name>p_cast12</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -77615,7 +77615,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -77658,7 +77658,7 @@
 						<name>p_cast27_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -77674,7 +77674,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -77714,7 +77714,7 @@
 						<name>gmem_addr_12</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -77730,7 +77730,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -77771,7 +77771,7 @@
 						<name>empty_134</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -77787,7 +77787,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -77827,10 +77827,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1498</id>
-						<name>gmem_addr_12_write_ln52</name>
+						<name>gmem_addr_12_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -77846,7 +77846,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -77889,10 +77889,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1499</id>
-						<name>gmem_addr_12_write_ln52</name>
+						<name>gmem_addr_12_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -77908,7 +77908,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -77950,10 +77950,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1500</id>
-						<name>gmem_addr_12_write_ln52</name>
+						<name>gmem_addr_12_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -77969,7 +77969,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -78011,10 +78011,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1501</id>
-						<name>gmem_addr_12_write_ln52</name>
+						<name>gmem_addr_12_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -78030,7 +78030,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -78072,10 +78072,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1502</id>
-						<name>gmem_addr_12_write_ln52</name>
+						<name>gmem_addr_12_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -78091,7 +78091,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -78133,10 +78133,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1503</id>
-						<name>gmem_addr_12_write_ln52</name>
+						<name>gmem_addr_12_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -78152,7 +78152,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -78194,10 +78194,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1504</id>
-						<name>gmem_addr_12_write_ln52</name>
+						<name>gmem_addr_12_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -78213,7 +78213,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -78255,10 +78255,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1505</id>
-						<name>gmem_addr_12_write_ln52</name>
+						<name>gmem_addr_12_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -78274,7 +78274,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -78316,10 +78316,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1506</id>
-						<name>gmem_addr_12_write_ln52</name>
+						<name>gmem_addr_12_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -78335,7 +78335,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -78377,10 +78377,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1507</id>
-						<name>gmem_addr_12_write_ln52</name>
+						<name>gmem_addr_12_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -78396,7 +78396,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -78438,10 +78438,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1508</id>
-						<name>gmem_addr_12_write_ln52</name>
+						<name>gmem_addr_12_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -78457,7 +78457,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -78499,10 +78499,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1509</id>
-						<name>gmem_addr_12_write_ln52</name>
+						<name>gmem_addr_12_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -78518,7 +78518,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -78560,10 +78560,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1510</id>
-						<name>gmem_addr_12_write_ln52</name>
+						<name>gmem_addr_12_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -78579,7 +78579,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -78621,10 +78621,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1511</id>
-						<name>gmem_addr_12_write_ln52</name>
+						<name>gmem_addr_12_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -78640,7 +78640,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -78682,10 +78682,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1512</id>
-						<name>gmem_addr_12_write_ln52</name>
+						<name>gmem_addr_12_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -78701,7 +78701,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -78743,10 +78743,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1513</id>
-						<name>gmem_addr_12_write_ln52</name>
+						<name>gmem_addr_12_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -78762,7 +78762,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -78807,7 +78807,7 @@
 						<name>empty_135</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -78823,7 +78823,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -78866,7 +78866,7 @@
 						<name>p_cast13</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -78882,7 +78882,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -78925,7 +78925,7 @@
 						<name>p_cast28_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -78941,7 +78941,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -78981,7 +78981,7 @@
 						<name>gmem_addr_13</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -78997,7 +78997,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -79038,7 +79038,7 @@
 						<name>empty_136</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -79054,7 +79054,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -79094,10 +79094,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1519</id>
-						<name>gmem_addr_13_write_ln52</name>
+						<name>gmem_addr_13_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -79113,7 +79113,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -79156,10 +79156,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1520</id>
-						<name>gmem_addr_13_write_ln52</name>
+						<name>gmem_addr_13_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -79175,7 +79175,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -79217,10 +79217,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1521</id>
-						<name>gmem_addr_13_write_ln52</name>
+						<name>gmem_addr_13_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -79236,7 +79236,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -79278,10 +79278,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1522</id>
-						<name>gmem_addr_13_write_ln52</name>
+						<name>gmem_addr_13_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -79297,7 +79297,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -79339,10 +79339,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1523</id>
-						<name>gmem_addr_13_write_ln52</name>
+						<name>gmem_addr_13_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -79358,7 +79358,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -79400,10 +79400,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1524</id>
-						<name>gmem_addr_13_write_ln52</name>
+						<name>gmem_addr_13_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -79419,7 +79419,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -79461,10 +79461,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1525</id>
-						<name>gmem_addr_13_write_ln52</name>
+						<name>gmem_addr_13_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -79480,7 +79480,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -79522,10 +79522,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1526</id>
-						<name>gmem_addr_13_write_ln52</name>
+						<name>gmem_addr_13_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -79541,7 +79541,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -79583,10 +79583,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1527</id>
-						<name>gmem_addr_13_write_ln52</name>
+						<name>gmem_addr_13_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -79602,7 +79602,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -79644,10 +79644,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1528</id>
-						<name>gmem_addr_13_write_ln52</name>
+						<name>gmem_addr_13_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -79663,7 +79663,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -79705,10 +79705,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1529</id>
-						<name>gmem_addr_13_write_ln52</name>
+						<name>gmem_addr_13_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -79724,7 +79724,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -79766,10 +79766,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1530</id>
-						<name>gmem_addr_13_write_ln52</name>
+						<name>gmem_addr_13_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -79785,7 +79785,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -79827,10 +79827,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1531</id>
-						<name>gmem_addr_13_write_ln52</name>
+						<name>gmem_addr_13_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -79846,7 +79846,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -79888,10 +79888,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1532</id>
-						<name>gmem_addr_13_write_ln52</name>
+						<name>gmem_addr_13_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -79907,7 +79907,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -79949,10 +79949,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1533</id>
-						<name>gmem_addr_13_write_ln52</name>
+						<name>gmem_addr_13_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -79968,7 +79968,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -80010,10 +80010,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1534</id>
-						<name>gmem_addr_13_write_ln52</name>
+						<name>gmem_addr_13_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -80029,7 +80029,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -80074,7 +80074,7 @@
 						<name>empty_137</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -80090,7 +80090,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -80133,7 +80133,7 @@
 						<name>p_cast14</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -80149,7 +80149,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -80192,7 +80192,7 @@
 						<name>p_cast29_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -80208,7 +80208,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -80248,7 +80248,7 @@
 						<name>gmem_addr_14</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -80264,7 +80264,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -80305,7 +80305,7 @@
 						<name>empty_138</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -80321,7 +80321,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -80361,10 +80361,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1540</id>
-						<name>gmem_addr_14_write_ln52</name>
+						<name>gmem_addr_14_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -80380,7 +80380,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -80423,10 +80423,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1541</id>
-						<name>gmem_addr_14_write_ln52</name>
+						<name>gmem_addr_14_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -80442,7 +80442,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -80484,10 +80484,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1542</id>
-						<name>gmem_addr_14_write_ln52</name>
+						<name>gmem_addr_14_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -80503,7 +80503,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -80545,10 +80545,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1543</id>
-						<name>gmem_addr_14_write_ln52</name>
+						<name>gmem_addr_14_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -80564,7 +80564,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -80606,10 +80606,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1544</id>
-						<name>gmem_addr_14_write_ln52</name>
+						<name>gmem_addr_14_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -80625,7 +80625,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -80667,10 +80667,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1545</id>
-						<name>gmem_addr_14_write_ln52</name>
+						<name>gmem_addr_14_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -80686,7 +80686,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -80728,10 +80728,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1546</id>
-						<name>gmem_addr_14_write_ln52</name>
+						<name>gmem_addr_14_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -80747,7 +80747,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -80789,10 +80789,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1547</id>
-						<name>gmem_addr_14_write_ln52</name>
+						<name>gmem_addr_14_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -80808,7 +80808,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -80850,10 +80850,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1548</id>
-						<name>gmem_addr_14_write_ln52</name>
+						<name>gmem_addr_14_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -80869,7 +80869,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -80911,10 +80911,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1549</id>
-						<name>gmem_addr_14_write_ln52</name>
+						<name>gmem_addr_14_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -80930,7 +80930,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -80972,10 +80972,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1550</id>
-						<name>gmem_addr_14_write_ln52</name>
+						<name>gmem_addr_14_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -80991,7 +80991,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -81033,10 +81033,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1551</id>
-						<name>gmem_addr_14_write_ln52</name>
+						<name>gmem_addr_14_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -81052,7 +81052,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -81094,10 +81094,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1552</id>
-						<name>gmem_addr_14_write_ln52</name>
+						<name>gmem_addr_14_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -81113,7 +81113,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -81155,10 +81155,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1553</id>
-						<name>gmem_addr_14_write_ln52</name>
+						<name>gmem_addr_14_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -81174,7 +81174,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -81216,10 +81216,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1554</id>
-						<name>gmem_addr_14_write_ln52</name>
+						<name>gmem_addr_14_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -81235,7 +81235,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -81277,10 +81277,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1555</id>
-						<name>gmem_addr_14_write_ln52</name>
+						<name>gmem_addr_14_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -81296,7 +81296,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -81341,7 +81341,7 @@
 						<name>empty_139</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -81357,7 +81357,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -81400,7 +81400,7 @@
 						<name>p_cast15</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -81416,7 +81416,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -81459,7 +81459,7 @@
 						<name>p_cast30_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -81475,7 +81475,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -81515,7 +81515,7 @@
 						<name>gmem_addr_15</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -81531,7 +81531,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -81572,7 +81572,7 @@
 						<name>empty_140</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -81588,7 +81588,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -81628,10 +81628,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1561</id>
-						<name>gmem_addr_15_write_ln52</name>
+						<name>gmem_addr_15_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -81647,7 +81647,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -81690,10 +81690,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1562</id>
-						<name>gmem_addr_15_write_ln52</name>
+						<name>gmem_addr_15_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -81709,7 +81709,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -81751,10 +81751,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1563</id>
-						<name>gmem_addr_15_write_ln52</name>
+						<name>gmem_addr_15_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -81770,7 +81770,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -81812,10 +81812,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1564</id>
-						<name>gmem_addr_15_write_ln52</name>
+						<name>gmem_addr_15_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -81831,7 +81831,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -81873,10 +81873,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1565</id>
-						<name>gmem_addr_15_write_ln52</name>
+						<name>gmem_addr_15_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -81892,7 +81892,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -81934,10 +81934,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1566</id>
-						<name>gmem_addr_15_write_ln52</name>
+						<name>gmem_addr_15_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -81953,7 +81953,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -81995,10 +81995,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1567</id>
-						<name>gmem_addr_15_write_ln52</name>
+						<name>gmem_addr_15_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -82014,7 +82014,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -82056,10 +82056,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1568</id>
-						<name>gmem_addr_15_write_ln52</name>
+						<name>gmem_addr_15_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -82075,7 +82075,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -82117,10 +82117,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1569</id>
-						<name>gmem_addr_15_write_ln52</name>
+						<name>gmem_addr_15_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -82136,7 +82136,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -82178,10 +82178,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1570</id>
-						<name>gmem_addr_15_write_ln52</name>
+						<name>gmem_addr_15_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -82197,7 +82197,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -82239,10 +82239,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1571</id>
-						<name>gmem_addr_15_write_ln52</name>
+						<name>gmem_addr_15_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -82258,7 +82258,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -82300,10 +82300,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1572</id>
-						<name>gmem_addr_15_write_ln52</name>
+						<name>gmem_addr_15_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -82319,7 +82319,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -82361,10 +82361,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1573</id>
-						<name>gmem_addr_15_write_ln52</name>
+						<name>gmem_addr_15_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -82380,7 +82380,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -82422,10 +82422,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1574</id>
-						<name>gmem_addr_15_write_ln52</name>
+						<name>gmem_addr_15_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -82441,7 +82441,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -82483,10 +82483,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1575</id>
-						<name>gmem_addr_15_write_ln52</name>
+						<name>gmem_addr_15_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -82502,7 +82502,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -82544,10 +82544,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1576</id>
-						<name>gmem_addr_15_write_ln52</name>
+						<name>gmem_addr_15_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -82563,7 +82563,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -82608,7 +82608,7 @@
 						<name>empty_141</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -82624,7 +82624,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -82667,7 +82667,7 @@
 						<name>trunc_ln</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -82683,7 +82683,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -82723,10 +82723,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1579</id>
-						<name>sext_ln52</name>
+						<name>sext_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -82742,7 +82742,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -82782,7 +82782,7 @@
 						<name>gmem_addr_16</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -82798,7 +82798,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -82839,7 +82839,7 @@
 						<name>empty_142</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -82855,7 +82855,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -82895,10 +82895,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1582</id>
-						<name>gmem_addr_16_write_ln52</name>
+						<name>gmem_addr_16_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -82914,7 +82914,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -82957,10 +82957,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1583</id>
-						<name>gmem_addr_16_write_ln52</name>
+						<name>gmem_addr_16_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -82976,7 +82976,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -83018,10 +83018,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1584</id>
-						<name>gmem_addr_16_write_ln52</name>
+						<name>gmem_addr_16_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -83037,7 +83037,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -83079,10 +83079,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1585</id>
-						<name>gmem_addr_16_write_ln52</name>
+						<name>gmem_addr_16_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -83098,7 +83098,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -83140,10 +83140,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1586</id>
-						<name>gmem_addr_16_write_ln52</name>
+						<name>gmem_addr_16_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -83159,7 +83159,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -83201,10 +83201,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1587</id>
-						<name>gmem_addr_16_write_ln52</name>
+						<name>gmem_addr_16_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -83220,7 +83220,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -83262,10 +83262,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1588</id>
-						<name>gmem_addr_16_write_ln52</name>
+						<name>gmem_addr_16_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -83281,7 +83281,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -83323,10 +83323,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1589</id>
-						<name>gmem_addr_16_write_ln52</name>
+						<name>gmem_addr_16_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -83342,7 +83342,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -83384,10 +83384,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1590</id>
-						<name>gmem_addr_16_write_ln52</name>
+						<name>gmem_addr_16_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -83403,7 +83403,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -83445,10 +83445,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1591</id>
-						<name>gmem_addr_16_write_ln52</name>
+						<name>gmem_addr_16_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -83464,7 +83464,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -83506,10 +83506,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1592</id>
-						<name>gmem_addr_16_write_ln52</name>
+						<name>gmem_addr_16_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -83525,7 +83525,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -83567,10 +83567,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1593</id>
-						<name>gmem_addr_16_write_ln52</name>
+						<name>gmem_addr_16_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -83586,7 +83586,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -83628,10 +83628,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1594</id>
-						<name>gmem_addr_16_write_ln52</name>
+						<name>gmem_addr_16_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -83647,7 +83647,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -83689,10 +83689,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1595</id>
-						<name>gmem_addr_16_write_ln52</name>
+						<name>gmem_addr_16_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -83708,7 +83708,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -83750,10 +83750,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1596</id>
-						<name>gmem_addr_16_write_ln52</name>
+						<name>gmem_addr_16_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -83769,7 +83769,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -83811,10 +83811,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1597</id>
-						<name>gmem_addr_16_write_ln52</name>
+						<name>gmem_addr_16_write_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -83830,7 +83830,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -83875,7 +83875,7 @@
 						<name>empty_143</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -83891,7 +83891,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -83931,10 +83931,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1599</id>
-						<name>br_ln52</name>
+						<name>br_ln53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>52</lineNumber>
+						<lineNumber>53</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -83950,7 +83950,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>52</second>
+										<second>53</second>
 									</item>
 								</second>
 							</item>
@@ -84161,10 +84161,10 @@
 					<Obj>
 						<type>0</type>
 						<id>1605</id>
-						<name>_ln88</name>
+						<name>_ln91</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>88</lineNumber>
+						<lineNumber>91</lineNumber>
 						<contextFuncName>MM</contextFuncName>
 						<contextNormFuncName>MM</contextNormFuncName>
 						<inlineStackInfo>
@@ -84180,7 +84180,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>MM</second>
 										</first>
-										<second>88</second>
+										<second>91</second>
 									</item>
 								</second>
 							</item>
@@ -84809,7 +84809,7 @@
 					<Obj>
 						<type>2</type>
 						<id>4321</id>
-						<name>MM_Pipeline_VITIS_LOOP_67_8</name>
+						<name>MM_Pipeline_VITIS_LOOP_70_8</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -84833,7 +84833,7 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:MM_Pipeline_VITIS_LOOP_67_8&gt;</content>
+				<content>&lt;constant:MM_Pipeline_VITIS_LOOP_70_8&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_1585">
 				<Value>
@@ -85199,7 +85199,7 @@
 				<Obj>
 					<type>3</type>
 					<id>333</id>
-					<name>VITIS_LOOP_52_2</name>
+					<name>VITIS_LOOP_53_2</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -85236,7 +85236,7 @@
 				<Obj>
 					<type>3</type>
 					<id>359</id>
-					<name>VITIS_LOOP_52_2.split</name>
+					<name>VITIS_LOOP_53_2.split</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -85289,7 +85289,7 @@
 				<Obj>
 					<type>3</type>
 					<id>365</id>
-					<name>VITIS_LOOP_54_3</name>
+					<name>VITIS_LOOP_56_3</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -85324,7 +85324,7 @@
 				<Obj>
 					<type>3</type>
 					<id>424</id>
-					<name>VITIS_LOOP_54_3.split</name>
+					<name>VITIS_LOOP_56_3.split</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -85410,7 +85410,7 @@
 				<Obj>
 					<type>3</type>
 					<id>688</id>
-					<name>VITIS_LOOP_62_6</name>
+					<name>VITIS_LOOP_65_6</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -85703,7 +85703,7 @@
 				<Obj>
 					<type>3</type>
 					<id>694</id>
-					<name>VITIS_LOOP_62_6.split</name>
+					<name>VITIS_LOOP_65_6.split</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -85736,7 +85736,7 @@
 				<Obj>
 					<type>3</type>
 					<id>957</id>
-					<name>VITIS_LOOP_63_7</name>
+					<name>VITIS_LOOP_66_7</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -86028,7 +86028,7 @@
 				<Obj>
 					<type>3</type>
 					<id>1244</id>
-					<name>VITIS_LOOP_63_7.split</name>
+					<name>VITIS_LOOP_66_7.split</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -86373,7 +86373,7 @@
 				<Obj>
 					<type>3</type>
 					<id>1600</id>
-					<name>VITIS_LOOP_78_10</name>
+					<name>VITIS_LOOP_81_10</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -125513,8 +125513,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>1</mMinLatency>
-			<mMaxLatency>-1</mMaxLatency>
+			<mMinLatency>23480193</mMinLatency>
+			<mMaxLatency>23480193</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -125559,10 +125559,10 @@
 			</basic_blocks>
 			<mII>-1</mII>
 			<mDepth>-1</mDepth>
-			<mMinTripCount>0</mMinTripCount>
-			<mMaxTripCount>134217727</mMaxTripCount>
-			<mMinLatency>0</mMinLatency>
-			<mMaxLatency>-2</mMaxLatency>
+			<mMinTripCount>64</mMinTripCount>
+			<mMaxTripCount>64</mMaxTripCount>
+			<mMinLatency>23480192</mMinLatency>
+			<mMaxLatency>23480192</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -125592,8 +125592,8 @@
 		</item>
 		<item class_id_reference="22" object_id="_7127">
 			<mId>5</mId>
-			<mTag>VITIS_LOOP_52_2</mTag>
-			<mNormTag>VITIS_LOOP_52_2</mNormTag>
+			<mTag>VITIS_LOOP_53_2</mTag>
+			<mNormTag>VITIS_LOOP_53_2</mNormTag>
 			<mType>1</mType>
 			<sub_regions>
 				<count>3</count>
@@ -125608,10 +125608,10 @@
 			</basic_blocks>
 			<mII>-1</mII>
 			<mDepth>-1</mDepth>
-			<mMinTripCount>0</mMinTripCount>
-			<mMaxTripCount>134217727</mMaxTripCount>
-			<mMinLatency>0</mMinLatency>
-			<mMaxLatency>-2</mMaxLatency>
+			<mMinTripCount>8</mMinTripCount>
+			<mMaxTripCount>8</mMaxTripCount>
+			<mMinLatency>366872</mMinLatency>
+			<mMaxLatency>366872</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -125641,8 +125641,8 @@
 		</item>
 		<item class_id_reference="22" object_id="_7129">
 			<mId>7</mId>
-			<mTag>VITIS_LOOP_61_5</mTag>
-			<mNormTag>VITIS_LOOP_61_5</mNormTag>
+			<mTag>VITIS_LOOP_63_5</mTag>
+			<mNormTag>VITIS_LOOP_63_5</mNormTag>
 			<mType>1</mType>
 			<sub_regions>
 				<count>3</count>
@@ -125657,10 +125657,10 @@
 			</basic_blocks>
 			<mII>-1</mII>
 			<mDepth>-1</mDepth>
-			<mMinTripCount>0</mMinTripCount>
-			<mMaxTripCount>134217727</mMaxTripCount>
-			<mMinLatency>0</mMinLatency>
-			<mMaxLatency>268434526</mMaxLatency>
+			<mMinTripCount>49</mMinTripCount>
+			<mMaxTripCount>49</mMaxTripCount>
+			<mMinLatency>45570</mMinLatency>
+			<mMaxLatency>45570</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -125690,8 +125690,8 @@
 		</item>
 		<item class_id_reference="22" object_id="_7131">
 			<mId>9</mId>
-			<mTag>VITIS_LOOP_62_6</mTag>
-			<mNormTag>VITIS_LOOP_62_6</mNormTag>
+			<mTag>VITIS_LOOP_65_6</mTag>
+			<mNormTag>VITIS_LOOP_65_6</mNormTag>
 			<mType>1</mType>
 			<sub_regions>
 				<count>0</count>
@@ -162567,7 +162567,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln52_fu_8346</first>
+			<first>add_ln53_fu_8346</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -162575,7 +162575,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln61_1_fu_8597</first>
+			<first>add_ln63_1_fu_8597</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -162583,7 +162583,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln61_fu_8611</first>
+			<first>add_ln63_fu_8611</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -162591,7 +162591,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln62_1_fu_9017</first>
+			<first>add_ln65_1_fu_9017</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -162599,7 +162599,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln62_fu_9028</first>
+			<first>add_ln65_fu_9028</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -163183,7 +163183,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln52_fu_8341</first>
+			<first>icmp_ln53_fu_8341</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -163191,7 +163191,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln61_fu_8606</first>
+			<first>icmp_ln63_fu_8606</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -163199,7 +163199,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln62_fu_9022</first>
+			<first>icmp_ln65_fu_9022</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -169767,7 +169767,7 @@
 			</second>
 		</item>
 		<item>
-			<first>sext_ln52_fu_9007</first>
+			<first>sext_ln53_fu_9007</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -169775,7 +169775,7 @@
 			</second>
 		</item>
 		<item>
-			<first>sext_ln65_fu_9075</first>
+			<first>sext_ln68_fu_9075</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -170111,7 +170111,7 @@
 			</second>
 		</item>
 		<item>
-			<first>trunc_ln62_fu_9034</first>
+			<first>trunc_ln65_fu_9034</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -170135,7 +170135,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln52_fu_8337</first>
+			<first>zext_ln53_fu_8337</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -170143,7 +170143,7 @@
 			</second>
 		</item>
 		<item>
-			<first>zext_ln61_fu_8602</first>
+			<first>zext_ln63_fu_8602</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -170155,7 +170155,7 @@
 		<count>1</count>
 		<item_version>0</item_version>
 		<item>
-			<first>grp_MM_Pipeline_VITIS_LOOP_67_8_fu_7202</first>
+			<first>grp_MM_Pipeline_VITIS_LOOP_70_8_fu_7202</first>
 			<second>
 				<count>2</count>
 				<item_version>0</item_version>
@@ -179883,7 +179883,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln52_reg_11606</first>
+			<first>add_ln53_reg_11606</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -179891,7 +179891,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln61_1_reg_12016</first>
+			<first>add_ln63_1_reg_12016</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -179899,7 +179899,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln61_reg_12024</first>
+			<first>add_ln63_reg_12024</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -179907,7 +179907,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln62_1_reg_12151</first>
+			<first>add_ln65_1_reg_12151</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -179915,7 +179915,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln62_reg_12159</first>
+			<first>add_ln65_reg_12159</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -186859,7 +186859,7 @@
 			</second>
 		</item>
 		<item>
-			<first>trunc_ln62_reg_12164</first>
+			<first>trunc_ln65_reg_12164</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
