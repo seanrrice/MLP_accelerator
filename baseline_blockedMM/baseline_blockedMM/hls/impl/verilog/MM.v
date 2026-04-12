@@ -6,7 +6,7 @@
 
 `timescale 1 ns / 1 ps 
 
-(* CORE_GENERATION_INFO="MM_MM,hls_ip_2025_1,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7z020-clg400-1,HLS_INPUT_CLOCK=15.000000,HLS_INPUT_ARCH=dataflow,HLS_SYN_CLOCK=10.950000,HLS_SYN_LAT=-1,HLS_SYN_TPT=-1,HLS_SYN_MEM=116,HLS_SYN_DSP=0,HLS_SYN_FF=28838,HLS_SYN_LUT=84504,HLS_VERSION=2025_1}" *)
+(* CORE_GENERATION_INFO="MM_MM,hls_ip_2025_1,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7z020-clg400-1,HLS_INPUT_CLOCK=15.000000,HLS_INPUT_ARCH=dataflow,HLS_SYN_CLOCK=10.950000,HLS_SYN_LAT=7240942,HLS_SYN_TPT=7240943,HLS_SYN_MEM=116,HLS_SYN_DSP=0,HLS_SYN_FF=28838,HLS_SYN_LUT=84504,HLS_VERSION=2025_1}" *)
 
 module MM (
         s_axi_control_AWVALID,
@@ -768,11 +768,4 @@ assign writeTiles_U0_ap_continue = 1'b1;
 
 assign writeTiles_U0_ap_start = start_for_writeTiles_U0_empty_n;
 
-
-reg find_df_deadlock = 0;
-// synthesis translate_off
-`include "MM_hls_deadlock_detector.vh"
-// synthesis translate_on
-
 endmodule //MM
-

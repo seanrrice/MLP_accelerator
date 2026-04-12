@@ -646,10 +646,10 @@ entry:5 %B_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %B
 
 <Node id="47" bw="0" op_0_bw="0" op_1_bw="85" op_2_bw="58" op_3_bw="27" op_4_bw="31" op_5_bw="32" op_6_bw="64" op_7_bw="512" op_8_bw="512">
 <![CDATA[
-entry:40 %call_ln33 = call void @readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop, i85 %bound28, i58 %bound6, i27 %smax, i31 %tmp_3, i32 %P_read, i64 %B_read, i512 %gmem, i512 %B_stream
+entry:40 %call_ln36 = call void @readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop, i85 %bound28, i58 %bound6, i27 %smax, i31 %tmp_3, i32 %P_read, i64 %B_read, i512 %gmem, i512 %B_stream
 
 ]]></Node>
-<StgValue><ssdm name="call_ln33"/></StgValue>
+<StgValue><ssdm name="call_ln36"/></StgValue>
 </operation>
 </state>
 
@@ -694,10 +694,10 @@ entry:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %g
 
 <Node id="47" bw="0" op_0_bw="0" op_1_bw="85" op_2_bw="58" op_3_bw="27" op_4_bw="31" op_5_bw="32" op_6_bw="64" op_7_bw="512" op_8_bw="512">
 <![CDATA[
-entry:40 %call_ln33 = call void @readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop, i85 %bound28, i58 %bound6, i27 %smax, i31 %tmp_3, i32 %P_read, i64 %B_read, i512 %gmem, i512 %B_stream
+entry:40 %call_ln36 = call void @readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop, i85 %bound28, i58 %bound6, i27 %smax, i31 %tmp_3, i32 %P_read, i64 %B_read, i512 %gmem, i512 %B_stream
 
 ]]></Node>
-<StgValue><ssdm name="call_ln33"/></StgValue>
+<StgValue><ssdm name="call_ln36"/></StgValue>
 </operation>
 
 <operation id="50" st_id="6" stage="1" lat="1">
@@ -709,10 +709,10 @@ entry:40 %call_ln33 = call void @readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k
 
 <Node id="48" bw="0">
 <![CDATA[
-entry:41 %ret_ln52 = ret
+entry:41 %ret_ln58 = ret
 
 ]]></Node>
-<StgValue><ssdm name="ret_ln52"/></StgValue>
+<StgValue><ssdm name="ret_ln58"/></StgValue>
 </operation>
 </state>
 </state_list>

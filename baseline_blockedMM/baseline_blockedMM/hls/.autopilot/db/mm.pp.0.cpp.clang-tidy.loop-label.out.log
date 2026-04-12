@@ -123,47 +123,47 @@ C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_
                                                                                                                                    ^~~
                                                                                                                                    VITIS_LOOP_267_1: 
 C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41251:132: note: FIX-IT applied suggested code changes
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41490:2: warning: Added loop label VITIS_LOOP_72_1:   [xilinx-label-all-loops]
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41498:2: warning: Added loop label VITIS_LOOP_80_1:   [xilinx-label-all-loops]
  for (int j = 0; j < BLOCK_SIZE; j++){
  ^~~
- VITIS_LOOP_72_1: 
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41490:2: note: FIX-IT applied suggested code changes
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41555:58: warning:  hls::vector type top function variable AT requires aggregation [xilinx-aggregate-on-hls-vector]
+ VITIS_LOOP_80_1: 
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41498:2: note: FIX-IT applied suggested code changes
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41566:58: warning:  hls::vector type top function variable AT requires aggregation [xilinx-aggregate-on-hls-vector]
 __attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P) {
                                                          ^
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41555:126: note: FIX-IT applied suggested code changes
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41566:126: note: FIX-IT applied suggested code changes
 __attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P) {
                                                                                                                              ^
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41555:58: warning:  hls::vector type top function variable AT requires align attribute [xilinx-aggregate-on-hls-vector]
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41566:58: warning:  hls::vector type top function variable AT requires align attribute [xilinx-aggregate-on-hls-vector]
 __attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P) {
                                                          ^ ~
                                                             __attribute__((align_value(alignof(WIDE_DTYPE)))) 
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41555:60: note: FIX-IT applied suggested code changes
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41566:60: note: FIX-IT applied suggested code changes
 __attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P) {
                                                            ^
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41555:74: warning:  hls::vector type top function variable B requires aggregation [xilinx-aggregate-on-hls-vector]
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41566:74: warning:  hls::vector type top function variable B requires aggregation [xilinx-aggregate-on-hls-vector]
 __attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P) {
                                                                          ^
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41555:126: note: FIX-IT applied suggested code changes
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41566:126: note: FIX-IT applied suggested code changes
 __attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P) {
                                                                                                                              ^
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41555:74: warning:  hls::vector type top function variable B requires align attribute [xilinx-aggregate-on-hls-vector]
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41566:74: warning:  hls::vector type top function variable B requires align attribute [xilinx-aggregate-on-hls-vector]
 __attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P) {
                                                                          ^~
                                                                            __attribute__((align_value(alignof(WIDE_DTYPE)))) 
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41555:75: note: FIX-IT applied suggested code changes
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41566:75: note: FIX-IT applied suggested code changes
 __attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P) {
                                                                           ^
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41555:99: warning:  hls::vector type top function variable ABC requires aggregation [xilinx-aggregate-on-hls-vector]
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41566:99: warning:  hls::vector type top function variable ABC requires aggregation [xilinx-aggregate-on-hls-vector]
 __attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P) {
                                                                                                   ^
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41555:126: note: FIX-IT applied suggested code changes
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41566:126: note: FIX-IT applied suggested code changes
 __attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P) {
                                                                                                                              ^
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41555:99: warning:  hls::vector type top function variable ABC requires align attribute [xilinx-aggregate-on-hls-vector]
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41566:99: warning:  hls::vector type top function variable ABC requires align attribute [xilinx-aggregate-on-hls-vector]
 __attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P) {
                                                                                                   ^  ~
                                                                                                       __attribute__((align_value(alignof(WIDE_DTYPE)))) 
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41555:102: note: FIX-IT applied suggested code changes
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp:41566:102: note: FIX-IT applied suggested code changes
 __attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT, WIDE_DTYPE* B, DTYPE* C, WIDE_DTYPE* ABC, int N, int M, int P) {
                                                                                                      ^

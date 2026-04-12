@@ -311,7 +311,7 @@
 						<name>ib</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -327,7 +327,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -2000,10 +2000,10 @@
 					<Obj>
 						<type>0</type>
 						<id>52</id>
-						<name>trunc_ln65</name>
+						<name>trunc_ln71</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2019,7 +2019,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -2056,10 +2056,10 @@
 					<Obj>
 						<type>0</type>
 						<id>53</id>
-						<name>trunc_ln65_1</name>
+						<name>trunc_ln71_1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2075,7 +2075,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -2112,10 +2112,10 @@
 					<Obj>
 						<type>0</type>
 						<id>54</id>
-						<name>add_ln65</name>
+						<name>add_ln71</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2131,7 +2131,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -2169,10 +2169,10 @@
 					<Obj>
 						<type>0</type>
 						<id>55</id>
-						<name>add_ln65_1</name>
+						<name>add_ln71_1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2188,7 +2188,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -2226,10 +2226,10 @@
 					<Obj>
 						<type>0</type>
 						<id>56</id>
-						<name>add_ln65_2</name>
+						<name>add_ln71_2</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2245,7 +2245,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -2283,10 +2283,10 @@
 					<Obj>
 						<type>0</type>
 						<id>57</id>
-						<name>add_ln65_3</name>
+						<name>add_ln71_3</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2302,7 +2302,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -2340,10 +2340,10 @@
 					<Obj>
 						<type>0</type>
 						<id>58</id>
-						<name>add_ln65_4</name>
+						<name>add_ln71_4</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2359,7 +2359,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -2397,10 +2397,10 @@
 					<Obj>
 						<type>0</type>
 						<id>59</id>
-						<name>add_ln65_5</name>
+						<name>add_ln71_5</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2416,7 +2416,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -2454,10 +2454,10 @@
 					<Obj>
 						<type>0</type>
 						<id>60</id>
-						<name>add_ln65_6</name>
+						<name>add_ln71_6</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2473,7 +2473,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -2514,7 +2514,7 @@
 						<name>bit_sel</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2530,7 +2530,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -2569,10 +2569,10 @@
 					<Obj>
 						<type>0</type>
 						<id>62</id>
-						<name>xor_ln65</name>
+						<name>xor_ln71</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2588,7 +2588,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -2626,10 +2626,10 @@
 					<Obj>
 						<type>0</type>
 						<id>63</id>
-						<name>trunc_ln65_2</name>
+						<name>trunc_ln71_2</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2645,7 +2645,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -2682,10 +2682,10 @@
 					<Obj>
 						<type>0</type>
 						<id>64</id>
-						<name>add_ln65_7</name>
+						<name>add_ln71_7</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2701,7 +2701,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -2739,10 +2739,10 @@
 					<Obj>
 						<type>0</type>
 						<id>65</id>
-						<name>add_ln65_8</name>
+						<name>add_ln71_8</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2758,7 +2758,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -2796,10 +2796,10 @@
 					<Obj>
 						<type>0</type>
 						<id>66</id>
-						<name>add_ln65_9</name>
+						<name>add_ln71_9</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2815,7 +2815,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -2853,10 +2853,10 @@
 					<Obj>
 						<type>0</type>
 						<id>67</id>
-						<name>add_ln65_10</name>
+						<name>add_ln71_10</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2872,7 +2872,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -2910,10 +2910,10 @@
 					<Obj>
 						<type>0</type>
 						<id>68</id>
-						<name>add_ln65_11</name>
+						<name>add_ln71_11</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2929,7 +2929,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -2967,10 +2967,10 @@
 					<Obj>
 						<type>0</type>
 						<id>69</id>
-						<name>add_ln65_12</name>
+						<name>add_ln71_12</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2986,7 +2986,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -3024,10 +3024,10 @@
 					<Obj>
 						<type>0</type>
 						<id>70</id>
-						<name>add_ln65_13</name>
+						<name>add_ln71_13</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3043,7 +3043,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -3084,7 +3084,7 @@
 						<name>tmp_20</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3100,7 +3100,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -3142,7 +3142,7 @@
 						<name>p_cast492</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3158,7 +3158,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -3198,7 +3198,7 @@
 						<name>tmp_21</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3214,7 +3214,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -3256,7 +3256,7 @@
 						<name>p_cast493</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3272,7 +3272,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -3312,7 +3312,7 @@
 						<name>tmp_22</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3328,7 +3328,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -3370,7 +3370,7 @@
 						<name>p_cast494</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3386,7 +3386,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -3426,7 +3426,7 @@
 						<name>tmp_23</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3442,7 +3442,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -3484,7 +3484,7 @@
 						<name>p_cast495</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3500,7 +3500,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -3540,7 +3540,7 @@
 						<name>tmp_24</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3556,7 +3556,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -3598,7 +3598,7 @@
 						<name>p_cast496</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3614,7 +3614,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -3654,7 +3654,7 @@
 						<name>tmp_25</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3670,7 +3670,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -3712,7 +3712,7 @@
 						<name>p_cast497</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3728,7 +3728,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -3768,7 +3768,7 @@
 						<name>tmp_26</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3784,7 +3784,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -3826,7 +3826,7 @@
 						<name>p_cast498</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3842,7 +3842,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -3882,7 +3882,7 @@
 						<name>tmp_27</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3898,7 +3898,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -3940,7 +3940,7 @@
 						<name>p_cast499</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3956,7 +3956,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -3996,7 +3996,7 @@
 						<name>tmp_29</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -4012,7 +4012,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -4055,7 +4055,7 @@
 						<name>p_cast500</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -4071,7 +4071,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -4111,7 +4111,7 @@
 						<name>tmp_30</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -4127,7 +4127,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -4169,7 +4169,7 @@
 						<name>p_cast501</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -4185,7 +4185,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -4225,7 +4225,7 @@
 						<name>tmp_31</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -4241,7 +4241,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -4283,7 +4283,7 @@
 						<name>p_cast502</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -4299,7 +4299,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -4339,7 +4339,7 @@
 						<name>tmp_32</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -4355,7 +4355,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -4397,7 +4397,7 @@
 						<name>p_cast503</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -4413,7 +4413,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -4453,7 +4453,7 @@
 						<name>tmp_33</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -4469,7 +4469,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -4511,7 +4511,7 @@
 						<name>p_cast504</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -4527,7 +4527,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -4567,7 +4567,7 @@
 						<name>tmp_34</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -4583,7 +4583,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -4625,7 +4625,7 @@
 						<name>p_cast505</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -4641,7 +4641,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -4681,7 +4681,7 @@
 						<name>tmp_35</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -4697,7 +4697,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -4739,7 +4739,7 @@
 						<name>p_cast506</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -4755,7 +4755,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -4795,7 +4795,7 @@
 						<name>tmp_36</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -4811,7 +4811,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -4850,10 +4850,10 @@
 					<Obj>
 						<type>0</type>
 						<id>102</id>
-						<name>zext_ln65</name>
+						<name>zext_ln71</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -4869,7 +4869,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -4952,7 +4952,7 @@
 						<name>empty_46</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -4968,7 +4968,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -5010,7 +5010,7 @@
 						<name>tmp_37</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -5026,7 +5026,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -5065,10 +5065,10 @@
 					<Obj>
 						<type>0</type>
 						<id>106</id>
-						<name>ib_write_ln65</name>
+						<name>ib_write_ln71</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -5084,7 +5084,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -5122,10 +5122,10 @@
 					<Obj>
 						<type>0</type>
 						<id>107</id>
-						<name>br_ln65</name>
+						<name>br_ln71</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -5141,7 +5141,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -5181,7 +5181,7 @@
 						<name>ib_1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -5197,7 +5197,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -5219,7 +5219,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>524</item>
-					<item>1389</item>
+					<item>1387</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -5235,10 +5235,10 @@
 					<Obj>
 						<type>0</type>
 						<id>110</id>
-						<name>zext_ln65_1</name>
+						<name>zext_ln71_1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -5254,7 +5254,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -5291,10 +5291,10 @@
 					<Obj>
 						<type>0</type>
 						<id>111</id>
-						<name>icmp_ln65</name>
+						<name>icmp_ln71</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -5310,7 +5310,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -5348,10 +5348,10 @@
 					<Obj>
 						<type>0</type>
 						<id>112</id>
-						<name>add_ln65_14</name>
+						<name>add_ln71_14</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -5367,7 +5367,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -5405,10 +5405,10 @@
 					<Obj>
 						<type>0</type>
 						<id>113</id>
-						<name>br_ln65</name>
+						<name>br_ln71</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -5424,7 +5424,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -5466,7 +5466,7 @@
 						<name>tmp_38</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -5482,7 +5482,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -5524,7 +5524,7 @@
 						<name>p_cast508</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -5540,7 +5540,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -5580,7 +5580,7 @@
 						<name>empty_47</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -5596,7 +5596,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -5637,7 +5637,7 @@
 						<name>p_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -5653,7 +5653,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -5696,7 +5696,7 @@
 						<name>p_cast_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -5712,7 +5712,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -5752,7 +5752,7 @@
 						<name>gmem_addr</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -5768,7 +5768,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -5809,7 +5809,7 @@
 						<name>gmem_load_req</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -5825,7 +5825,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -5867,7 +5867,7 @@
 						<name>gmem_addr_read</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -5883,7 +5883,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -5906,7 +5906,7 @@
 					<item_version>0</item_version>
 					<item>557</item>
 					<item>558</item>
-					<item>1371</item>
+					<item>1369</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -5925,7 +5925,7 @@
 						<name>empty_48</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -5941,7 +5941,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -5982,7 +5982,7 @@
 						<name>empty_49</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -5998,7 +5998,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -6038,7 +6038,7 @@
 						<name>empty_50</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -6054,7 +6054,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -6095,7 +6095,7 @@
 						<name>p_cast2</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -6111,7 +6111,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -6154,7 +6154,7 @@
 						<name>p_cast15_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -6170,7 +6170,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -6210,7 +6210,7 @@
 						<name>gmem_addr_1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -6226,7 +6226,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -6267,7 +6267,7 @@
 						<name>gmem_load_1_req</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -6283,7 +6283,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -6307,7 +6307,7 @@
 					<item>572</item>
 					<item>573</item>
 					<item>574</item>
-					<item>1372</item>
+					<item>1370</item>
 				</oprand_edges>
 				<opcode>readreq</opcode>
 				<m_Display>0</m_Display>
@@ -6326,7 +6326,7 @@
 						<name>gmem_addr_1_read</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -6342,7 +6342,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -6365,8 +6365,8 @@
 					<item_version>0</item_version>
 					<item>575</item>
 					<item>576</item>
+					<item>1366</item>
 					<item>1368</item>
-					<item>1370</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -6385,7 +6385,7 @@
 						<name>empty_51</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -6401,7 +6401,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -6442,7 +6442,7 @@
 						<name>empty_52</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -6458,7 +6458,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -6498,7 +6498,7 @@
 						<name>empty_53</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -6514,7 +6514,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -6555,7 +6555,7 @@
 						<name>p_cast4</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -6571,7 +6571,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -6614,7 +6614,7 @@
 						<name>p_cast17_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -6630,7 +6630,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -6670,7 +6670,7 @@
 						<name>gmem_addr_2</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -6686,7 +6686,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -6727,7 +6727,7 @@
 						<name>gmem_load_2_req</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -6743,7 +6743,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -6767,7 +6767,7 @@
 					<item>590</item>
 					<item>591</item>
 					<item>592</item>
-					<item>1369</item>
+					<item>1367</item>
 				</oprand_edges>
 				<opcode>readreq</opcode>
 				<m_Display>0</m_Display>
@@ -6786,7 +6786,7 @@
 						<name>gmem_addr_2_read</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -6802,7 +6802,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -6825,8 +6825,8 @@
 					<item_version>0</item_version>
 					<item>593</item>
 					<item>594</item>
+					<item>1363</item>
 					<item>1365</item>
-					<item>1367</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -6845,7 +6845,7 @@
 						<name>empty_54</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -6861,7 +6861,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -6902,7 +6902,7 @@
 						<name>empty_55</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -6918,7 +6918,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -6958,7 +6958,7 @@
 						<name>empty_56</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -6974,7 +6974,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -7015,7 +7015,7 @@
 						<name>p_cast6</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -7031,7 +7031,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -7074,7 +7074,7 @@
 						<name>p_cast19_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -7090,7 +7090,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -7130,7 +7130,7 @@
 						<name>gmem_addr_3</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -7146,7 +7146,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -7187,7 +7187,7 @@
 						<name>gmem_load_3_req</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -7203,7 +7203,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -7227,7 +7227,7 @@
 					<item>608</item>
 					<item>609</item>
 					<item>610</item>
-					<item>1366</item>
+					<item>1364</item>
 				</oprand_edges>
 				<opcode>readreq</opcode>
 				<m_Display>0</m_Display>
@@ -7246,7 +7246,7 @@
 						<name>gmem_addr_3_read</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -7262,7 +7262,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -7285,8 +7285,8 @@
 					<item_version>0</item_version>
 					<item>611</item>
 					<item>612</item>
+					<item>1360</item>
 					<item>1362</item>
-					<item>1364</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -7305,7 +7305,7 @@
 						<name>empty_57</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -7321,7 +7321,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -7362,7 +7362,7 @@
 						<name>empty_58</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -7378,7 +7378,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -7418,7 +7418,7 @@
 						<name>empty_59</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -7434,7 +7434,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -7475,7 +7475,7 @@
 						<name>p_cast8</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -7491,7 +7491,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -7534,7 +7534,7 @@
 						<name>p_cast21_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -7550,7 +7550,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -7590,7 +7590,7 @@
 						<name>gmem_addr_4</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -7606,7 +7606,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -7647,7 +7647,7 @@
 						<name>gmem_load_4_req</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -7663,7 +7663,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -7687,7 +7687,7 @@
 					<item>626</item>
 					<item>627</item>
 					<item>628</item>
-					<item>1363</item>
+					<item>1361</item>
 				</oprand_edges>
 				<opcode>readreq</opcode>
 				<m_Display>0</m_Display>
@@ -7706,7 +7706,7 @@
 						<name>gmem_addr_4_read</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -7722,7 +7722,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -7745,8 +7745,8 @@
 					<item_version>0</item_version>
 					<item>629</item>
 					<item>630</item>
+					<item>1357</item>
 					<item>1359</item>
-					<item>1361</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -7765,7 +7765,7 @@
 						<name>empty_60</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -7781,7 +7781,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -7822,7 +7822,7 @@
 						<name>empty_61</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -7838,7 +7838,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -7878,7 +7878,7 @@
 						<name>empty_62</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -7894,7 +7894,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -7935,7 +7935,7 @@
 						<name>p_cast1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -7951,7 +7951,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -7994,7 +7994,7 @@
 						<name>p_cast23_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -8010,7 +8010,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -8050,7 +8050,7 @@
 						<name>gmem_addr_5</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -8066,7 +8066,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -8107,7 +8107,7 @@
 						<name>gmem_load_5_req</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -8123,7 +8123,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -8147,7 +8147,7 @@
 					<item>644</item>
 					<item>645</item>
 					<item>646</item>
-					<item>1360</item>
+					<item>1358</item>
 				</oprand_edges>
 				<opcode>readreq</opcode>
 				<m_Display>0</m_Display>
@@ -8166,7 +8166,7 @@
 						<name>gmem_addr_5_read</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -8182,7 +8182,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -8205,8 +8205,8 @@
 					<item_version>0</item_version>
 					<item>647</item>
 					<item>648</item>
+					<item>1354</item>
 					<item>1356</item>
-					<item>1358</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -8225,7 +8225,7 @@
 						<name>empty_63</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -8241,7 +8241,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -8282,7 +8282,7 @@
 						<name>empty_64</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -8298,7 +8298,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -8338,7 +8338,7 @@
 						<name>empty_65</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -8354,7 +8354,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -8395,7 +8395,7 @@
 						<name>p_cast3</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -8411,7 +8411,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -8454,7 +8454,7 @@
 						<name>p_cast25_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -8470,7 +8470,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -8510,7 +8510,7 @@
 						<name>gmem_addr_6</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -8526,7 +8526,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -8567,7 +8567,7 @@
 						<name>gmem_load_6_req</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -8583,7 +8583,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -8607,7 +8607,7 @@
 					<item>662</item>
 					<item>663</item>
 					<item>664</item>
-					<item>1357</item>
+					<item>1355</item>
 				</oprand_edges>
 				<opcode>readreq</opcode>
 				<m_Display>0</m_Display>
@@ -8626,7 +8626,7 @@
 						<name>gmem_addr_6_read</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -8642,7 +8642,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -8665,8 +8665,8 @@
 					<item_version>0</item_version>
 					<item>665</item>
 					<item>666</item>
+					<item>1351</item>
 					<item>1353</item>
-					<item>1355</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -8685,7 +8685,7 @@
 						<name>empty_66</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -8701,7 +8701,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -8742,7 +8742,7 @@
 						<name>empty_67</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -8758,7 +8758,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -8798,7 +8798,7 @@
 						<name>empty_68</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -8814,7 +8814,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -8855,7 +8855,7 @@
 						<name>p_cast5</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -8871,7 +8871,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -8914,7 +8914,7 @@
 						<name>p_cast27_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -8930,7 +8930,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -8970,7 +8970,7 @@
 						<name>gmem_addr_7</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -8986,7 +8986,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -9027,7 +9027,7 @@
 						<name>gmem_load_7_req</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -9043,7 +9043,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -9067,7 +9067,7 @@
 					<item>680</item>
 					<item>681</item>
 					<item>682</item>
-					<item>1354</item>
+					<item>1352</item>
 				</oprand_edges>
 				<opcode>readreq</opcode>
 				<m_Display>0</m_Display>
@@ -9086,7 +9086,7 @@
 						<name>gmem_addr_7_read</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -9102,7 +9102,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -9125,8 +9125,8 @@
 					<item_version>0</item_version>
 					<item>683</item>
 					<item>684</item>
+					<item>1348</item>
 					<item>1350</item>
-					<item>1352</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -9145,7 +9145,7 @@
 						<name>empty_69</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -9161,7 +9161,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -9202,7 +9202,7 @@
 						<name>empty_70</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -9218,7 +9218,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -9258,7 +9258,7 @@
 						<name>empty_71</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -9274,7 +9274,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -9315,7 +9315,7 @@
 						<name>p_cast7</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -9331,7 +9331,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -9374,7 +9374,7 @@
 						<name>p_cast29_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -9390,7 +9390,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -9430,7 +9430,7 @@
 						<name>gmem_addr_8</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -9446,7 +9446,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -9487,7 +9487,7 @@
 						<name>gmem_load_8_req</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -9503,7 +9503,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -9527,7 +9527,7 @@
 					<item>698</item>
 					<item>699</item>
 					<item>700</item>
-					<item>1351</item>
+					<item>1349</item>
 				</oprand_edges>
 				<opcode>readreq</opcode>
 				<m_Display>0</m_Display>
@@ -9546,7 +9546,7 @@
 						<name>gmem_addr_8_read</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -9562,7 +9562,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -9585,8 +9585,8 @@
 					<item_version>0</item_version>
 					<item>701</item>
 					<item>702</item>
+					<item>1345</item>
 					<item>1347</item>
-					<item>1349</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -9605,7 +9605,7 @@
 						<name>empty_72</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -9621,7 +9621,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -9662,7 +9662,7 @@
 						<name>empty_73</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -9678,7 +9678,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -9718,7 +9718,7 @@
 						<name>empty_74</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -9734,7 +9734,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -9775,7 +9775,7 @@
 						<name>p_cast9</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -9791,7 +9791,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -9834,7 +9834,7 @@
 						<name>p_cast31_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -9850,7 +9850,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -9890,7 +9890,7 @@
 						<name>gmem_addr_9</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -9906,7 +9906,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -9947,7 +9947,7 @@
 						<name>gmem_load_9_req</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -9963,7 +9963,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -9987,7 +9987,7 @@
 					<item>716</item>
 					<item>717</item>
 					<item>718</item>
-					<item>1348</item>
+					<item>1346</item>
 				</oprand_edges>
 				<opcode>readreq</opcode>
 				<m_Display>0</m_Display>
@@ -10006,7 +10006,7 @@
 						<name>gmem_addr_9_read</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -10022,7 +10022,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -10045,8 +10045,8 @@
 					<item_version>0</item_version>
 					<item>719</item>
 					<item>720</item>
+					<item>1342</item>
 					<item>1344</item>
-					<item>1346</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -10065,7 +10065,7 @@
 						<name>empty_75</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -10081,7 +10081,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -10122,7 +10122,7 @@
 						<name>empty_76</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -10138,7 +10138,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -10178,7 +10178,7 @@
 						<name>empty_77</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -10194,7 +10194,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -10235,7 +10235,7 @@
 						<name>p_cast10</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -10251,7 +10251,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -10294,7 +10294,7 @@
 						<name>p_cast33_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -10310,7 +10310,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -10350,7 +10350,7 @@
 						<name>gmem_addr_10</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -10366,7 +10366,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -10407,7 +10407,7 @@
 						<name>gmem_load_10_req</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -10423,7 +10423,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -10447,7 +10447,7 @@
 					<item>734</item>
 					<item>735</item>
 					<item>736</item>
-					<item>1345</item>
+					<item>1343</item>
 				</oprand_edges>
 				<opcode>readreq</opcode>
 				<m_Display>0</m_Display>
@@ -10466,7 +10466,7 @@
 						<name>gmem_addr_10_read</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -10482,7 +10482,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -10505,8 +10505,8 @@
 					<item_version>0</item_version>
 					<item>737</item>
 					<item>738</item>
+					<item>1339</item>
 					<item>1341</item>
-					<item>1343</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -10525,7 +10525,7 @@
 						<name>empty_78</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -10541,7 +10541,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -10582,7 +10582,7 @@
 						<name>empty_79</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -10598,7 +10598,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -10638,7 +10638,7 @@
 						<name>empty_80</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -10654,7 +10654,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -10695,7 +10695,7 @@
 						<name>p_cast11</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -10711,7 +10711,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -10754,7 +10754,7 @@
 						<name>p_cast35_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -10770,7 +10770,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -10810,7 +10810,7 @@
 						<name>gmem_addr_11</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -10826,7 +10826,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -10867,7 +10867,7 @@
 						<name>gmem_load_11_req</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -10883,7 +10883,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -10907,7 +10907,7 @@
 					<item>752</item>
 					<item>753</item>
 					<item>754</item>
-					<item>1342</item>
+					<item>1340</item>
 				</oprand_edges>
 				<opcode>readreq</opcode>
 				<m_Display>0</m_Display>
@@ -10926,7 +10926,7 @@
 						<name>gmem_addr_11_read</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -10942,7 +10942,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -10965,8 +10965,8 @@
 					<item_version>0</item_version>
 					<item>755</item>
 					<item>756</item>
+					<item>1336</item>
 					<item>1338</item>
-					<item>1340</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -10985,7 +10985,7 @@
 						<name>empty_81</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -11001,7 +11001,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -11042,7 +11042,7 @@
 						<name>empty_82</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -11058,7 +11058,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -11098,7 +11098,7 @@
 						<name>empty_83</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -11114,7 +11114,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -11155,7 +11155,7 @@
 						<name>p_cast12</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -11171,7 +11171,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -11214,7 +11214,7 @@
 						<name>p_cast37_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -11230,7 +11230,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -11270,7 +11270,7 @@
 						<name>gmem_addr_12</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -11286,7 +11286,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -11327,7 +11327,7 @@
 						<name>gmem_load_12_req</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -11343,7 +11343,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -11367,7 +11367,7 @@
 					<item>770</item>
 					<item>771</item>
 					<item>772</item>
-					<item>1339</item>
+					<item>1337</item>
 				</oprand_edges>
 				<opcode>readreq</opcode>
 				<m_Display>0</m_Display>
@@ -11386,7 +11386,7 @@
 						<name>gmem_addr_12_read</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -11402,7 +11402,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -11425,8 +11425,8 @@
 					<item_version>0</item_version>
 					<item>773</item>
 					<item>774</item>
+					<item>1333</item>
 					<item>1335</item>
-					<item>1337</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -11445,7 +11445,7 @@
 						<name>empty_84</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -11461,7 +11461,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -11502,7 +11502,7 @@
 						<name>empty_85</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -11518,7 +11518,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -11558,7 +11558,7 @@
 						<name>empty_86</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -11574,7 +11574,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -11615,7 +11615,7 @@
 						<name>p_cast13</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -11631,7 +11631,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -11674,7 +11674,7 @@
 						<name>p_cast39_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -11690,7 +11690,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -11730,7 +11730,7 @@
 						<name>gmem_addr_13</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -11746,7 +11746,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -11787,7 +11787,7 @@
 						<name>gmem_load_13_req</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -11803,7 +11803,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -11827,7 +11827,7 @@
 					<item>788</item>
 					<item>789</item>
 					<item>790</item>
-					<item>1336</item>
+					<item>1334</item>
 				</oprand_edges>
 				<opcode>readreq</opcode>
 				<m_Display>0</m_Display>
@@ -11846,7 +11846,7 @@
 						<name>gmem_addr_13_read</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -11862,7 +11862,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -11885,8 +11885,8 @@
 					<item_version>0</item_version>
 					<item>791</item>
 					<item>792</item>
+					<item>1330</item>
 					<item>1332</item>
-					<item>1334</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -11905,7 +11905,7 @@
 						<name>empty_87</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -11921,7 +11921,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -11962,7 +11962,7 @@
 						<name>empty_88</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -11978,7 +11978,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -12018,7 +12018,7 @@
 						<name>empty_89</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -12034,7 +12034,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -12075,7 +12075,7 @@
 						<name>p_cast14</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -12091,7 +12091,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -12134,7 +12134,7 @@
 						<name>p_cast41_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -12150,7 +12150,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -12190,7 +12190,7 @@
 						<name>gmem_addr_14</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -12206,7 +12206,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -12247,7 +12247,7 @@
 						<name>gmem_load_14_req</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -12263,7 +12263,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -12287,7 +12287,7 @@
 					<item>806</item>
 					<item>807</item>
 					<item>808</item>
-					<item>1333</item>
+					<item>1331</item>
 				</oprand_edges>
 				<opcode>readreq</opcode>
 				<m_Display>0</m_Display>
@@ -12306,7 +12306,7 @@
 						<name>gmem_addr_14_read</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -12322,7 +12322,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -12345,8 +12345,8 @@
 					<item_version>0</item_version>
 					<item>809</item>
 					<item>810</item>
+					<item>1327</item>
 					<item>1329</item>
-					<item>1331</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -12365,7 +12365,7 @@
 						<name>empty_90</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -12381,7 +12381,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -12422,7 +12422,7 @@
 						<name>empty_91</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -12438,7 +12438,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -12478,7 +12478,7 @@
 						<name>empty_92</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -12494,7 +12494,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -12535,7 +12535,7 @@
 						<name>p_cast15</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -12551,7 +12551,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -12594,7 +12594,7 @@
 						<name>p_cast43_cast</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -12610,7 +12610,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -12650,7 +12650,7 @@
 						<name>gmem_addr_15</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -12666,7 +12666,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -12707,7 +12707,7 @@
 						<name>gmem_load_15_req</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -12723,7 +12723,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -12747,7 +12747,7 @@
 					<item>824</item>
 					<item>825</item>
 					<item>826</item>
-					<item>1330</item>
+					<item>1328</item>
 				</oprand_edges>
 				<opcode>readreq</opcode>
 				<m_Display>0</m_Display>
@@ -12766,7 +12766,7 @@
 						<name>gmem_addr_15_read</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -12782,7 +12782,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -12805,8 +12805,8 @@
 					<item_version>0</item_version>
 					<item>827</item>
 					<item>828</item>
-					<item>1327</item>
-					<item>1328</item>
+					<item>1325</item>
+					<item>1326</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -12825,7 +12825,7 @@
 						<name>empty_93</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -12841,7 +12841,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -12882,7 +12882,7 @@
 						<name>empty_94</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -12898,7 +12898,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -12938,7 +12938,7 @@
 						<name>thr_or</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -12954,7 +12954,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -13010,7 +13010,7 @@
 						<name>thr_or1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -13026,7 +13026,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -13082,7 +13082,7 @@
 						<name>thr_or2</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -13098,7 +13098,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -13154,7 +13154,7 @@
 						<name>thr_or3</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -13170,7 +13170,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -13226,7 +13226,7 @@
 						<name>thr_or4</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -13242,7 +13242,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -13298,7 +13298,7 @@
 						<name>thr_or5</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -13314,7 +13314,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -13370,7 +13370,7 @@
 						<name>thr_or6</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -13386,7 +13386,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -13442,7 +13442,7 @@
 						<name>thr_or7</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -13458,7 +13458,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -13514,7 +13514,7 @@
 						<name>thr_or8</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -13530,7 +13530,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -13586,7 +13586,7 @@
 						<name>thr_or9</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -13602,7 +13602,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -13658,7 +13658,7 @@
 						<name>thr_or10</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -13674,7 +13674,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -13730,7 +13730,7 @@
 						<name>thr_or11</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -13746,7 +13746,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -13802,7 +13802,7 @@
 						<name>thr_or12</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -13818,7 +13818,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -13874,7 +13874,7 @@
 						<name>thr_or13</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -13890,7 +13890,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -13946,7 +13946,7 @@
 						<name>thr_or14</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -13962,7 +13962,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -14018,7 +14018,7 @@
 						<name>thr_or15</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -14034,7 +14034,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -14087,10 +14087,10 @@
 					<Obj>
 						<type>0</type>
 						<id>263</id>
-						<name>br_ln67</name>
+						<name>br_ln74</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>67</lineNumber>
+						<lineNumber>74</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -14106,7 +14106,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>67</second>
+										<second>74</second>
 									</item>
 								</second>
 							</item>
@@ -14146,7 +14146,7 @@
 						<name>jb</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>67</lineNumber>
+						<lineNumber>74</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -14162,7 +14162,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>67</second>
+										<second>74</second>
 									</item>
 								</second>
 							</item>
@@ -14202,10 +14202,10 @@
 					<Obj>
 						<type>0</type>
 						<id>266</id>
-						<name>zext_ln67</name>
+						<name>zext_ln74</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>67</lineNumber>
+						<lineNumber>74</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -14221,7 +14221,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>67</second>
+										<second>74</second>
 									</item>
 								</second>
 							</item>
@@ -14258,10 +14258,10 @@
 					<Obj>
 						<type>0</type>
 						<id>267</id>
-						<name>icmp_ln67</name>
+						<name>icmp_ln74</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>67</lineNumber>
+						<lineNumber>74</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -14277,7 +14277,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>67</second>
+										<second>74</second>
 									</item>
 								</second>
 							</item>
@@ -14315,10 +14315,10 @@
 					<Obj>
 						<type>0</type>
 						<id>268</id>
-						<name>add_ln67</name>
+						<name>add_ln74</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>67</lineNumber>
+						<lineNumber>74</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -14334,7 +14334,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>67</second>
+										<second>74</second>
 									</item>
 								</second>
 							</item>
@@ -14372,10 +14372,10 @@
 					<Obj>
 						<type>0</type>
 						<id>269</id>
-						<name>br_ln67</name>
+						<name>br_ln74</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>67</lineNumber>
+						<lineNumber>74</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -14391,7 +14391,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>67</second>
+										<second>74</second>
 									</item>
 								</second>
 							</item>
@@ -14430,10 +14430,10 @@
 					<Obj>
 						<type>0</type>
 						<id>273</id>
-						<name>_ln65</name>
+						<name>_ln71</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -14449,7 +14449,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -14521,10 +14521,10 @@
 					<Obj>
 						<type>0</type>
 						<id>274</id>
-						<name>_ln100</name>
+						<name>_ln109</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>100</lineNumber>
+						<lineNumber>109</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -14540,7 +14540,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>100</second>
+										<second>109</second>
 									</item>
 								</second>
 							</item>
@@ -14567,7 +14567,7 @@
 					<item>1160</item>
 					<item>1161</item>
 					<item>1162</item>
-					<item>1323</item>
+					<item>1321</item>
 				</oprand_edges>
 				<opcode>fence</opcode>
 				<m_Display>0</m_Display>
@@ -14610,7 +14610,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>1163</item>
-					<item>1373</item>
+					<item>1371</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -14653,7 +14653,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>1164</item>
-					<item>1374</item>
+					<item>1372</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -14696,7 +14696,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>1165</item>
-					<item>1375</item>
+					<item>1373</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -14739,7 +14739,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>1166</item>
-					<item>1376</item>
+					<item>1374</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -14782,7 +14782,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>1167</item>
-					<item>1377</item>
+					<item>1375</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -14825,7 +14825,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>1168</item>
-					<item>1378</item>
+					<item>1376</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -14868,7 +14868,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>1169</item>
-					<item>1379</item>
+					<item>1377</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -14911,7 +14911,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>1170</item>
-					<item>1380</item>
+					<item>1378</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -14954,7 +14954,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>1171</item>
-					<item>1381</item>
+					<item>1379</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -14997,7 +14997,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>1172</item>
-					<item>1382</item>
+					<item>1380</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -15040,7 +15040,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>1173</item>
-					<item>1383</item>
+					<item>1381</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -15083,7 +15083,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>1174</item>
-					<item>1384</item>
+					<item>1382</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -15126,7 +15126,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>1175</item>
-					<item>1385</item>
+					<item>1383</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -15169,7 +15169,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>1176</item>
-					<item>1386</item>
+					<item>1384</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -15212,7 +15212,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>1177</item>
-					<item>1387</item>
+					<item>1385</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -15255,7 +15255,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>1178</item>
-					<item>1388</item>
+					<item>1386</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -15271,10 +15271,10 @@
 					<Obj>
 						<type>0</type>
 						<id>291</id>
-						<name>_ln100</name>
+						<name>_ln109</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>100</lineNumber>
+						<lineNumber>109</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -15290,7 +15290,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>100</second>
+										<second>109</second>
 									</item>
 								</second>
 							</item>
@@ -15317,7 +15317,7 @@
 					<item>1182</item>
 					<item>1183</item>
 					<item>1184</item>
-					<item>1325</item>
+					<item>1323</item>
 				</oprand_edges>
 				<opcode>fence</opcode>
 				<m_Display>0</m_Display>
@@ -15377,8 +15377,8 @@
 					<item>1201</item>
 					<item>1202</item>
 					<item>1203</item>
+					<item>1322</item>
 					<item>1324</item>
-					<item>1326</item>
 				</oprand_edges>
 				<opcode>call</opcode>
 				<m_Display>0</m_Display>
@@ -15394,10 +15394,10 @@
 					<Obj>
 						<type>0</type>
 						<id>293</id>
-						<name>br_ln67</name>
+						<name>br_ln74</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>67</lineNumber>
+						<lineNumber>74</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -15413,7 +15413,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>67</second>
+										<second>74</second>
 									</item>
 								</second>
 							</item>
@@ -15450,10 +15450,10 @@
 					<Obj>
 						<type>0</type>
 						<id>295</id>
-						<name>ib_write_ln65</name>
+						<name>ib_write_ln71</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -15469,7 +15469,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -15492,8 +15492,8 @@
 					<item_version>0</item_version>
 					<item>1205</item>
 					<item>1206</item>
-					<item>1390</item>
-					<item>1391</item>
+					<item>1388</item>
+					<item>1389</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -15509,10 +15509,10 @@
 					<Obj>
 						<type>0</type>
 						<id>296</id>
-						<name>br_ln65</name>
+						<name>br_ln71</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>71</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -15528,7 +15528,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>65</second>
+										<second>71</second>
 									</item>
 								</second>
 							</item>
@@ -15565,10 +15565,10 @@
 					<Obj>
 						<type>0</type>
 						<id>298</id>
-						<name>_ln115</name>
+						<name>_ln124</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>115</lineNumber>
+						<lineNumber>124</lineNumber>
 						<contextFuncName>computeTiles</contextFuncName>
 						<contextNormFuncName>computeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -15584,7 +15584,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>computeTiles</second>
 										</first>
-										<second>115</second>
+										<second>124</second>
 									</item>
 								</second>
 							</item>
@@ -22814,539 +22814,539 @@
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1088">
-				<id>1315</id>
+				<id>1313</id>
 				<edge_type>2</edge_type>
 				<source_obj>108</source_obj>
 				<sink_obj>114</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1089">
-				<id>1316</id>
+				<id>1314</id>
 				<edge_type>2</edge_type>
 				<source_obj>114</source_obj>
 				<sink_obj>264</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1090">
-				<id>1317</id>
+				<id>1315</id>
 				<edge_type>2</edge_type>
 				<source_obj>114</source_obj>
 				<sink_obj>299</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1091">
-				<id>1318</id>
+				<id>1316</id>
 				<edge_type>2</edge_type>
 				<source_obj>264</source_obj>
 				<sink_obj>270</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1092">
-				<id>1319</id>
+				<id>1317</id>
 				<edge_type>2</edge_type>
 				<source_obj>270</source_obj>
 				<sink_obj>294</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1093">
-				<id>1320</id>
+				<id>1318</id>
 				<edge_type>2</edge_type>
 				<source_obj>270</source_obj>
 				<sink_obj>297</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1094">
-				<id>1321</id>
+				<id>1319</id>
 				<edge_type>2</edge_type>
 				<source_obj>294</source_obj>
 				<sink_obj>270</sink_obj>
 				<is_back_edge>1</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1095">
-				<id>1322</id>
+				<id>1320</id>
 				<edge_type>2</edge_type>
 				<source_obj>297</source_obj>
 				<sink_obj>114</sink_obj>
 				<is_back_edge>1</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1096">
-				<id>1323</id>
+				<id>1321</id>
 				<edge_type>4</edge_type>
 				<source_obj>273</source_obj>
 				<sink_obj>274</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1097">
-				<id>1324</id>
+				<id>1322</id>
 				<edge_type>4</edge_type>
 				<source_obj>274</source_obj>
 				<sink_obj>292</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1098">
-				<id>1325</id>
+				<id>1323</id>
 				<edge_type>4</edge_type>
 				<source_obj>273</source_obj>
 				<sink_obj>291</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1099">
-				<id>1326</id>
+				<id>1324</id>
 				<edge_type>4</edge_type>
 				<source_obj>291</source_obj>
 				<sink_obj>292</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1100">
-				<id>1327</id>
+				<id>1325</id>
 				<edge_type>4</edge_type>
 				<source_obj>243</source_obj>
 				<sink_obj>244</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1101">
-				<id>1328</id>
+				<id>1326</id>
 				<edge_type>4</edge_type>
 				<source_obj>236</source_obj>
 				<sink_obj>244</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1102">
-				<id>1329</id>
+				<id>1327</id>
 				<edge_type>4</edge_type>
 				<source_obj>235</source_obj>
 				<sink_obj>236</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1103">
-				<id>1330</id>
+				<id>1328</id>
 				<edge_type>4</edge_type>
 				<source_obj>235</source_obj>
 				<sink_obj>243</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1104">
-				<id>1331</id>
+				<id>1329</id>
 				<edge_type>4</edge_type>
 				<source_obj>228</source_obj>
 				<sink_obj>236</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1105">
-				<id>1332</id>
+				<id>1330</id>
 				<edge_type>4</edge_type>
 				<source_obj>227</source_obj>
 				<sink_obj>228</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1106">
-				<id>1333</id>
+				<id>1331</id>
 				<edge_type>4</edge_type>
 				<source_obj>227</source_obj>
 				<sink_obj>235</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1107">
-				<id>1334</id>
+				<id>1332</id>
 				<edge_type>4</edge_type>
 				<source_obj>220</source_obj>
 				<sink_obj>228</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1108">
-				<id>1335</id>
+				<id>1333</id>
 				<edge_type>4</edge_type>
 				<source_obj>219</source_obj>
 				<sink_obj>220</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1109">
-				<id>1336</id>
+				<id>1334</id>
 				<edge_type>4</edge_type>
 				<source_obj>219</source_obj>
 				<sink_obj>227</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1110">
-				<id>1337</id>
+				<id>1335</id>
 				<edge_type>4</edge_type>
 				<source_obj>212</source_obj>
 				<sink_obj>220</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1111">
-				<id>1338</id>
+				<id>1336</id>
 				<edge_type>4</edge_type>
 				<source_obj>211</source_obj>
 				<sink_obj>212</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1112">
-				<id>1339</id>
+				<id>1337</id>
 				<edge_type>4</edge_type>
 				<source_obj>211</source_obj>
 				<sink_obj>219</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1113">
-				<id>1340</id>
+				<id>1338</id>
 				<edge_type>4</edge_type>
 				<source_obj>204</source_obj>
 				<sink_obj>212</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1114">
-				<id>1341</id>
+				<id>1339</id>
 				<edge_type>4</edge_type>
 				<source_obj>203</source_obj>
 				<sink_obj>204</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1115">
-				<id>1342</id>
+				<id>1340</id>
 				<edge_type>4</edge_type>
 				<source_obj>203</source_obj>
 				<sink_obj>211</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1116">
-				<id>1343</id>
+				<id>1341</id>
 				<edge_type>4</edge_type>
 				<source_obj>196</source_obj>
 				<sink_obj>204</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1117">
-				<id>1344</id>
+				<id>1342</id>
 				<edge_type>4</edge_type>
 				<source_obj>195</source_obj>
 				<sink_obj>196</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1118">
-				<id>1345</id>
+				<id>1343</id>
 				<edge_type>4</edge_type>
 				<source_obj>195</source_obj>
 				<sink_obj>203</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1119">
-				<id>1346</id>
+				<id>1344</id>
 				<edge_type>4</edge_type>
 				<source_obj>188</source_obj>
 				<sink_obj>196</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1120">
-				<id>1347</id>
+				<id>1345</id>
 				<edge_type>4</edge_type>
 				<source_obj>187</source_obj>
 				<sink_obj>188</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1121">
-				<id>1348</id>
+				<id>1346</id>
 				<edge_type>4</edge_type>
 				<source_obj>187</source_obj>
 				<sink_obj>195</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1122">
-				<id>1349</id>
+				<id>1347</id>
 				<edge_type>4</edge_type>
 				<source_obj>180</source_obj>
 				<sink_obj>188</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1123">
-				<id>1350</id>
+				<id>1348</id>
 				<edge_type>4</edge_type>
 				<source_obj>179</source_obj>
 				<sink_obj>180</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1124">
-				<id>1351</id>
+				<id>1349</id>
 				<edge_type>4</edge_type>
 				<source_obj>179</source_obj>
 				<sink_obj>187</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1125">
-				<id>1352</id>
+				<id>1350</id>
 				<edge_type>4</edge_type>
 				<source_obj>172</source_obj>
 				<sink_obj>180</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1126">
-				<id>1353</id>
+				<id>1351</id>
 				<edge_type>4</edge_type>
 				<source_obj>171</source_obj>
 				<sink_obj>172</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1127">
-				<id>1354</id>
+				<id>1352</id>
 				<edge_type>4</edge_type>
 				<source_obj>171</source_obj>
 				<sink_obj>179</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1128">
-				<id>1355</id>
+				<id>1353</id>
 				<edge_type>4</edge_type>
 				<source_obj>164</source_obj>
 				<sink_obj>172</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1129">
-				<id>1356</id>
+				<id>1354</id>
 				<edge_type>4</edge_type>
 				<source_obj>163</source_obj>
 				<sink_obj>164</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1130">
-				<id>1357</id>
+				<id>1355</id>
 				<edge_type>4</edge_type>
 				<source_obj>163</source_obj>
 				<sink_obj>171</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1131">
-				<id>1358</id>
+				<id>1356</id>
 				<edge_type>4</edge_type>
 				<source_obj>156</source_obj>
 				<sink_obj>164</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1132">
-				<id>1359</id>
+				<id>1357</id>
 				<edge_type>4</edge_type>
 				<source_obj>155</source_obj>
 				<sink_obj>156</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1133">
-				<id>1360</id>
+				<id>1358</id>
 				<edge_type>4</edge_type>
 				<source_obj>155</source_obj>
 				<sink_obj>163</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1134">
-				<id>1361</id>
+				<id>1359</id>
 				<edge_type>4</edge_type>
 				<source_obj>148</source_obj>
 				<sink_obj>156</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1135">
-				<id>1362</id>
+				<id>1360</id>
 				<edge_type>4</edge_type>
 				<source_obj>147</source_obj>
 				<sink_obj>148</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1136">
-				<id>1363</id>
+				<id>1361</id>
 				<edge_type>4</edge_type>
 				<source_obj>147</source_obj>
 				<sink_obj>155</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1137">
-				<id>1364</id>
+				<id>1362</id>
 				<edge_type>4</edge_type>
 				<source_obj>140</source_obj>
 				<sink_obj>148</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1138">
-				<id>1365</id>
+				<id>1363</id>
 				<edge_type>4</edge_type>
 				<source_obj>139</source_obj>
 				<sink_obj>140</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1139">
-				<id>1366</id>
+				<id>1364</id>
 				<edge_type>4</edge_type>
 				<source_obj>139</source_obj>
 				<sink_obj>147</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1140">
-				<id>1367</id>
+				<id>1365</id>
 				<edge_type>4</edge_type>
 				<source_obj>132</source_obj>
 				<sink_obj>140</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1141">
-				<id>1368</id>
+				<id>1366</id>
 				<edge_type>4</edge_type>
 				<source_obj>131</source_obj>
 				<sink_obj>132</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1142">
-				<id>1369</id>
+				<id>1367</id>
 				<edge_type>4</edge_type>
 				<source_obj>131</source_obj>
 				<sink_obj>139</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1143">
-				<id>1370</id>
+				<id>1368</id>
 				<edge_type>4</edge_type>
 				<source_obj>124</source_obj>
 				<sink_obj>132</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1144">
-				<id>1371</id>
+				<id>1369</id>
 				<edge_type>4</edge_type>
 				<source_obj>123</source_obj>
 				<sink_obj>124</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1145">
-				<id>1372</id>
+				<id>1370</id>
 				<edge_type>4</edge_type>
 				<source_obj>123</source_obj>
 				<sink_obj>131</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1146">
-				<id>1373</id>
+				<id>1371</id>
 				<edge_type>4</edge_type>
 				<source_obj>273</source_obj>
 				<sink_obj>275</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1147">
-				<id>1374</id>
+				<id>1372</id>
 				<edge_type>4</edge_type>
 				<source_obj>273</source_obj>
 				<sink_obj>276</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1148">
-				<id>1375</id>
+				<id>1373</id>
 				<edge_type>4</edge_type>
 				<source_obj>273</source_obj>
 				<sink_obj>277</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1149">
-				<id>1376</id>
+				<id>1374</id>
 				<edge_type>4</edge_type>
 				<source_obj>273</source_obj>
 				<sink_obj>278</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1150">
-				<id>1377</id>
+				<id>1375</id>
 				<edge_type>4</edge_type>
 				<source_obj>273</source_obj>
 				<sink_obj>279</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1151">
-				<id>1378</id>
+				<id>1376</id>
 				<edge_type>4</edge_type>
 				<source_obj>273</source_obj>
 				<sink_obj>280</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1152">
-				<id>1379</id>
+				<id>1377</id>
 				<edge_type>4</edge_type>
 				<source_obj>273</source_obj>
 				<sink_obj>281</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1153">
-				<id>1380</id>
+				<id>1378</id>
 				<edge_type>4</edge_type>
 				<source_obj>273</source_obj>
 				<sink_obj>282</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1154">
-				<id>1381</id>
+				<id>1379</id>
 				<edge_type>4</edge_type>
 				<source_obj>273</source_obj>
 				<sink_obj>283</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1155">
-				<id>1382</id>
+				<id>1380</id>
 				<edge_type>4</edge_type>
 				<source_obj>273</source_obj>
 				<sink_obj>284</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1156">
-				<id>1383</id>
+				<id>1381</id>
 				<edge_type>4</edge_type>
 				<source_obj>273</source_obj>
 				<sink_obj>285</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1157">
-				<id>1384</id>
+				<id>1382</id>
 				<edge_type>4</edge_type>
 				<source_obj>273</source_obj>
 				<sink_obj>286</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1158">
-				<id>1385</id>
+				<id>1383</id>
 				<edge_type>4</edge_type>
 				<source_obj>273</source_obj>
 				<sink_obj>287</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1159">
-				<id>1386</id>
+				<id>1384</id>
 				<edge_type>4</edge_type>
 				<source_obj>273</source_obj>
 				<sink_obj>288</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1160">
-				<id>1387</id>
+				<id>1385</id>
 				<edge_type>4</edge_type>
 				<source_obj>273</source_obj>
 				<sink_obj>289</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1161">
-				<id>1388</id>
+				<id>1386</id>
 				<edge_type>4</edge_type>
 				<source_obj>273</source_obj>
 				<sink_obj>290</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1162">
-				<id>1389</id>
+				<id>1387</id>
 				<edge_type>4</edge_type>
 				<source_obj>106</source_obj>
 				<sink_obj>109</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1163">
-				<id>1390</id>
+				<id>1388</id>
 				<edge_type>4</edge_type>
 				<source_obj>106</source_obj>
 				<sink_obj>295</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_1164">
-				<id>1391</id>
+				<id>1389</id>
 				<edge_type>4</edge_type>
 				<source_obj>109</source_obj>
 				<sink_obj>295</sink_obj>
@@ -23377,8 +23377,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>1</mMinLatency>
-			<mMaxLatency>-1</mMaxLatency>
+			<mMinLatency>6438081</mMinLatency>
+			<mMaxLatency>6438081</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -23423,10 +23423,10 @@
 			</basic_blocks>
 			<mII>-1</mII>
 			<mDepth>-1</mDepth>
-			<mMinTripCount>0</mMinTripCount>
-			<mMaxTripCount>134217727</mMaxTripCount>
-			<mMinLatency>0</mMinLatency>
-			<mMaxLatency>-2</mMaxLatency>
+			<mMinTripCount>64</mMinTripCount>
+			<mMaxTripCount>64</mMaxTripCount>
+			<mMinLatency>6438080</mMinLatency>
+			<mMaxLatency>6438080</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -23471,10 +23471,10 @@
 			</basic_blocks>
 			<mII>-1</mII>
 			<mDepth>-1</mDepth>
-			<mMinTripCount>0</mMinTripCount>
-			<mMaxTripCount>134217727</mMaxTripCount>
-			<mMinLatency>0</mMinLatency>
-			<mMaxLatency>-671088411</mMaxLatency>
+			<mMinTripCount>8</mMinTripCount>
+			<mMaxTripCount>8</mMaxTripCount>
+			<mMinLatency>100568</mMinLatency>
+			<mMaxLatency>100568</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>

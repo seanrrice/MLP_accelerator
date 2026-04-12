@@ -22,20 +22,20 @@
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>undef</Best-caseLatency>
-<Average-caseLatency>undef</Average-caseLatency>
-<Worst-caseLatency>undef</Worst-caseLatency>
-<Best-caseRealTimeLatency>undef</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
-<Interval-min>undef</Interval-min>
-<Interval-max>undef</Interval-max>
+<Best-caseLatency>7240942</Best-caseLatency>
+<Average-caseLatency>7240942</Average-caseLatency>
+<Worst-caseLatency>7240942</Worst-caseLatency>
+<Best-caseRealTimeLatency>0.109 sec</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.109 sec</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.109 sec</Worst-caseRealTimeLatency>
+<Interval-min>7240942</Interval-min>
+<Interval-max>7240942</Interval-max>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:181~../MLP_baseline/mm.cpp:181</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:192~../MLP_baseline/mm.cpp:192</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 

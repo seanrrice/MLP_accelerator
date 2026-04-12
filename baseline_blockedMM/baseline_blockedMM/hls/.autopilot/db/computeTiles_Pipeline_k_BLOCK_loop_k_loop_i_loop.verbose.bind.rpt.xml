@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop'" level="0">
-<item name = "Date">Fri Apr 10 16:22:56 2026
+<item name = "Date">Sat Apr 11 17:34:14 2026
 </item>
 <item name = "Version">2025.1 (Build 6135595 on May 21 2025)</item>
 <item name = "Project">baseline_blockedMM</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">2, 34359738117, 30.000 ns, 515.396 sec, 1, 34359738113, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="">12549, 12549, 0.188 ms, 0.188 ms, 12545, 12545, loop auto-rewind stp (delay=0 clock cycles(s))</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,7 +35,7 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- k_BLOCK_loop_k_loop_i_loop">0, 34359738115, 5, 1, 1, 0 ~ 34359738112, yes</column>
+<column name="- k_BLOCK_loop_k_loop_i_loop">12547, 12547, 5, 1, 1, 12544, yes</column>
 </table>
 </item>
 </section>

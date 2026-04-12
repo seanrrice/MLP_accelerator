@@ -810,10 +810,10 @@
             <Obj>
               <type>0</type>
               <id>29</id>
-              <name>_ln181</name>
+              <name>_ln192</name>
               <fileName>../MLP_baseline/mm.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>181</lineNumber>
+              <lineNumber>192</lineNumber>
               <contextFuncName>MM_</contextFuncName>
               <contextNormFuncName>MM_s</contextNormFuncName>
               <inlineStackInfo>
@@ -829,7 +829,7 @@
                         <first>../MLP_baseline/mm.cpp</first>
                         <second>MM_</second>
                       </first>
-                      <second>181</second>
+                      <second>192</second>
                     </item>
                   </second>
                 </item>
@@ -872,10 +872,10 @@
             <Obj>
               <type>0</type>
               <id>30</id>
-              <name>_ln182</name>
+              <name>_ln193</name>
               <fileName>../MLP_baseline/mm.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>182</lineNumber>
+              <lineNumber>193</lineNumber>
               <contextFuncName>MM_</contextFuncName>
               <contextNormFuncName>MM_s</contextNormFuncName>
               <inlineStackInfo>
@@ -891,7 +891,7 @@
                         <first>../MLP_baseline/mm.cpp</first>
                         <second>MM_</second>
                       </first>
-                      <second>182</second>
+                      <second>193</second>
                     </item>
                   </second>
                 </item>
@@ -936,10 +936,10 @@
             <Obj>
               <type>0</type>
               <id>31</id>
-              <name>_ln183</name>
+              <name>_ln194</name>
               <fileName>../MLP_baseline/mm.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>183</lineNumber>
+              <lineNumber>194</lineNumber>
               <contextFuncName>MM_</contextFuncName>
               <contextNormFuncName>MM_s</contextNormFuncName>
               <inlineStackInfo>
@@ -955,7 +955,7 @@
                         <first>../MLP_baseline/mm.cpp</first>
                         <second>MM_</second>
                       </first>
-                      <second>183</second>
+                      <second>194</second>
                     </item>
                   </second>
                 </item>
@@ -1514,8 +1514,8 @@
         <mDepth>-1</mDepth>
         <mMinTripCount>-1</mMinTripCount>
         <mMaxTripCount>-1</mMaxTripCount>
-        <mMinLatency>-1</mMinLatency>
-        <mMaxLatency>-1</mMaxLatency>
+        <mMinLatency>7240942</mMinLatency>
+        <mMaxLatency>7240942</mMaxLatency>
         <mIsDfPipe>0</mIsDfPipe>
         <mDfPipe class_id="-1"></mDfPipe>
       </item>

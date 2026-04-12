@@ -10,10 +10,13 @@ static void readAtTiles(
     // (ib, jb, kb, k)
     i_BLOCK_loop:
     for (int ib=0; ib < N/BLOCK_SIZE; ib++){
+        #pragma HLS LOOP_TRIPCOUNT min=64 max=64
         j_BLOCK_loop:
         for(int jb=0; jb < P/BLOCK_SIZE; jb++){
+            #pragma HLS LOOP_TRIPCOUNT min=8 max=8
             k_BLOCK_loop:
             for(int kb = 0; kb < M / BLOCK_SIZE; kb++){
+                #pragma HLS LOOP_TRIPCOUNT min=49 max=49
                 k_loop:
                 for(int k = 0; k < BLOCK_SIZE; k++){
                     #pragma HLS PIPELINE II = 1
@@ -36,10 +39,13 @@ static void readBTiles(
     // (ib, jb, kb, k)
     i_BLOCK_loop:
     for (int ib = 0; ib < N / BLOCK_SIZE; ib++){
+        #pragma HLS LOOP_TRIPCOUNT min=64 max=64
         j_BLOCK_loop:
         for(int jb =0; jb < P / BLOCK_SIZE; jb++){
+            #pragma HLS LOOP_TRIPCOUNT min=8 max=8
             k_BLOCK_loop:
             for (int kb = 0; kb < M / BLOCK_SIZE; kb ++){
+                #pragma HLS LOOP_TRIPCOUNT min=49 max=49
                 k_loop:
                 for (int k = 0; k < BLOCK_SIZE; k ++){
                     #pragma HLS PIPELINE II = 1 
@@ -63,8 +69,10 @@ static void computeTiles(
 
     i_BLOCK_loop:
     for (int ib = 0; ib < N / BLOCK_SIZE; ib++) {
+        #pragma HLS LOOP_TRIPCOUNT min=64 max=64
         j_BLOCK_loop:
         for (int jb = 0; jb < P / BLOCK_SIZE; jb++) {
+            #pragma HLS LOOP_TRIPCOUNT min=8 max=8
             //Initialize local output tile with row bias
             block_init_outer_loop:
             for (int i = 0; i < BLOCK_SIZE; i++){
@@ -78,6 +86,7 @@ static void computeTiles(
             // Consume one A_line and one B_line per (kb, k)
             k_BLOCK_loop:
             for (int kb = 0; kb < M/BLOCK_SIZE; kb++){
+                #pragma HLS LOOP_TRIPCOUNT min=49 max=49    
                 k_loop:
                 for(int k = 0; k < BLOCK_SIZE; k++){
                     WIDE_DTYPE A_line = A_stream.read();
@@ -121,8 +130,10 @@ static void writeTiles(
 ) {
     i_BLOCK_loop:
     for (int ib = 0; ib < N / BLOCK_SIZE; ib++) {
+        #pragma HLS LOOP_TRIPCOUNT min=64 max=64
         j_BLOCK_loop:
         for (int jb = 0; jb < P / BLOCK_SIZE; jb++) {
+            #pragma HLS LOOP_TRIPCOUNT min=8 max=8
             j_output_loop:
             for (int j = 0; j < BLOCK_SIZE; j++) {
                 #pragma HLS PIPELINE II = 1

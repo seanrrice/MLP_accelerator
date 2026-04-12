@@ -239,7 +239,7 @@
 						<name>j</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>127</lineNumber>
+						<lineNumber>138</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -255,7 +255,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>127</second>
+										<second>138</second>
 									</item>
 								</second>
 							</item>
@@ -295,7 +295,7 @@
 						<name>jb</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>125</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -311,7 +311,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>125</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -393,7 +393,7 @@
 						<name>ib</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>123</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -409,7 +409,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>123</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -491,7 +491,7 @@
 						<name>ABC_load_read</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>120</lineNumber>
+						<lineNumber>129</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -507,7 +507,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>120</second>
+										<second>129</second>
 									</item>
 								</second>
 							</item>
@@ -548,7 +548,7 @@
 						<name>N_1_read</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>120</lineNumber>
+						<lineNumber>129</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -564,7 +564,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>120</second>
+										<second>129</second>
 									</item>
 								</second>
 							</item>
@@ -605,7 +605,7 @@
 						<name>bound6_read</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>120</lineNumber>
+						<lineNumber>129</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -621,7 +621,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>120</second>
+										<second>129</second>
 									</item>
 								</second>
 							</item>
@@ -662,7 +662,7 @@
 						<name>tmp_4_read</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>120</lineNumber>
+						<lineNumber>129</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -678,7 +678,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>120</second>
+										<second>129</second>
 									</item>
 								</second>
 							</item>
@@ -719,7 +719,7 @@
 						<name>bound</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>120</lineNumber>
+						<lineNumber>129</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -735,7 +735,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>120</second>
+										<second>129</second>
 									</item>
 								</second>
 							</item>
@@ -815,10 +815,10 @@
 					<Obj>
 						<type>0</type>
 						<id>20</id>
-						<name>ib_write_ln123</name>
+						<name>ib_write_ln132</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>123</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -834,7 +834,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>123</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -915,10 +915,10 @@
 					<Obj>
 						<type>0</type>
 						<id>22</id>
-						<name>jb_write_ln125</name>
+						<name>jb_write_ln135</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>125</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -934,7 +934,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>125</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -972,10 +972,10 @@
 					<Obj>
 						<type>0</type>
 						<id>23</id>
-						<name>j_write_ln127</name>
+						<name>j_write_ln138</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>127</lineNumber>
+						<lineNumber>138</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -991,7 +991,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>127</second>
+										<second>138</second>
 									</item>
 								</second>
 							</item>
@@ -1029,10 +1029,10 @@
 					<Obj>
 						<type>0</type>
 						<id>24</id>
-						<name>br_ln123</name>
+						<name>br_ln132</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>123</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -1048,7 +1048,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>123</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -1088,7 +1088,7 @@
 						<name>indvar_flatten20_load</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>123</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -1104,7 +1104,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>123</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -1126,7 +1126,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>117</item>
-					<item>330</item>
+					<item>328</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -1142,10 +1142,10 @@
 					<Obj>
 						<type>0</type>
 						<id>27</id>
-						<name>icmp_ln123</name>
+						<name>icmp_ln132</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>123</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -1161,7 +1161,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>123</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -1199,10 +1199,10 @@
 					<Obj>
 						<type>0</type>
 						<id>28</id>
-						<name>br_ln123</name>
+						<name>br_ln132</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>123</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -1218,7 +1218,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>123</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -1260,7 +1260,7 @@
 						<name>j_load</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>127</lineNumber>
+						<lineNumber>138</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -1276,7 +1276,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>127</second>
+										<second>138</second>
 									</item>
 								</second>
 							</item>
@@ -1298,7 +1298,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>123</item>
-					<item>338</item>
+					<item>336</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -1317,7 +1317,7 @@
 						<name>jb_load</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>123</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -1333,7 +1333,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>123</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -1355,7 +1355,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>124</item>
-					<item>336</item>
+					<item>334</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -1374,7 +1374,7 @@
 						<name>indvar_flatten_load</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>125</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -1390,7 +1390,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>125</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -1412,7 +1412,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>125</item>
-					<item>334</item>
+					<item>332</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -1431,7 +1431,7 @@
 						<name>ib_load</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>123</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -1447,7 +1447,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>123</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -1469,7 +1469,7 @@
 					<count>2</count>
 					<item_version>0</item_version>
 					<item>126</item>
-					<item>332</item>
+					<item>330</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -1485,10 +1485,10 @@
 					<Obj>
 						<type>0</type>
 						<id>34</id>
-						<name>add_ln123</name>
+						<name>add_ln132</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>123</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -1504,7 +1504,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>123</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -1542,10 +1542,10 @@
 					<Obj>
 						<type>0</type>
 						<id>37</id>
-						<name>icmp_ln125</name>
+						<name>icmp_ln135</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>125</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -1561,7 +1561,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>125</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -1599,10 +1599,10 @@
 					<Obj>
 						<type>0</type>
 						<id>38</id>
-						<name>select_ln123</name>
+						<name>select_ln132</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>123</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -1618,7 +1618,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>123</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -1657,10 +1657,10 @@
 					<Obj>
 						<type>0</type>
 						<id>39</id>
-						<name>xor_ln123</name>
+						<name>xor_ln132</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>123</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -1676,7 +1676,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>123</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -1714,10 +1714,10 @@
 					<Obj>
 						<type>0</type>
 						<id>40</id>
-						<name>icmp_ln127</name>
+						<name>icmp_ln138</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>127</lineNumber>
+						<lineNumber>138</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -1733,7 +1733,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>127</second>
+										<second>138</second>
 									</item>
 								</second>
 							</item>
@@ -1771,10 +1771,10 @@
 					<Obj>
 						<type>0</type>
 						<id>41</id>
-						<name>and_ln123</name>
+						<name>and_ln132</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>123</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -1790,7 +1790,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>123</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -1828,10 +1828,10 @@
 					<Obj>
 						<type>0</type>
 						<id>42</id>
-						<name>add_ln123_1</name>
+						<name>add_ln132_1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>123</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -1847,7 +1847,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>123</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -1885,10 +1885,10 @@
 					<Obj>
 						<type>0</type>
 						<id>43</id>
-						<name>select_ln123_1</name>
+						<name>select_ln132_1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>123</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -1904,7 +1904,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>123</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -1946,7 +1946,7 @@
 						<name>jb_2</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>125</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -1962,7 +1962,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>125</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -2000,10 +2000,10 @@
 					<Obj>
 						<type>0</type>
 						<id>45</id>
-						<name>or_ln125</name>
+						<name>or_ln135</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>125</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2019,7 +2019,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>125</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -2057,10 +2057,10 @@
 					<Obj>
 						<type>0</type>
 						<id>46</id>
-						<name>select_ln125</name>
+						<name>select_ln135</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>125</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2076,7 +2076,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>125</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -2115,10 +2115,10 @@
 					<Obj>
 						<type>0</type>
 						<id>47</id>
-						<name>select_ln125_1</name>
+						<name>select_ln135_1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>125</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2134,7 +2134,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>125</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -2176,7 +2176,7 @@
 						<name>mul1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>123</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2192,7 +2192,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>123</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -2234,7 +2234,7 @@
 						<name>mul</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>125</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2250,7 +2250,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>125</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -2289,10 +2289,10 @@
 					<Obj>
 						<type>0</type>
 						<id>50</id>
-						<name>zext_ln127</name>
+						<name>zext_ln138</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>127</lineNumber>
+						<lineNumber>138</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2308,7 +2308,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>127</second>
+										<second>138</second>
 									</item>
 								</second>
 							</item>
@@ -2348,7 +2348,7 @@
 						<name>AB_stream_read</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>129</lineNumber>
+						<lineNumber>140</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2364,7 +2364,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>129</second>
+										<second>140</second>
 									</item>
 								</second>
 							</item>
@@ -2402,10 +2402,10 @@
 					<Obj>
 						<type>0</type>
 						<id>53</id>
-						<name>add_ln130</name>
+						<name>add_ln141</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>130</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2421,7 +2421,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>130</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -2459,10 +2459,10 @@
 					<Obj>
 						<type>0</type>
 						<id>54</id>
-						<name>mul_ln130</name>
+						<name>mul_ln141</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>130</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2478,7 +2478,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>130</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -2516,10 +2516,10 @@
 					<Obj>
 						<type>0</type>
 						<id>55</id>
-						<name>add_ln130_1</name>
+						<name>add_ln141_1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>130</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2535,7 +2535,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>130</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -2576,7 +2576,7 @@
 						<name>tmp</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>130</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2592,7 +2592,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>130</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -2631,10 +2631,10 @@
 					<Obj>
 						<type>0</type>
 						<id>57</id>
-						<name>sub_ln130</name>
+						<name>sub_ln141</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>130</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2650,7 +2650,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>130</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -2691,7 +2691,7 @@
 						<name>tmp_5</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>130</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2707,7 +2707,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>130</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -2747,10 +2747,10 @@
 					<Obj>
 						<type>0</type>
 						<id>59</id>
-						<name>sub_ln130_1</name>
+						<name>sub_ln141_1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>130</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2766,7 +2766,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>130</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -2807,7 +2807,7 @@
 						<name>tmp_6</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>130</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2823,7 +2823,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>130</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -2863,10 +2863,10 @@
 					<Obj>
 						<type>0</type>
 						<id>61</id>
-						<name>select_ln130</name>
+						<name>select_ln141</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>130</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2882,7 +2882,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>130</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -2924,7 +2924,7 @@
 						<name>shl_ln</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>130</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2940,7 +2940,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>130</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -2979,10 +2979,10 @@
 					<Obj>
 						<type>0</type>
 						<id>63</id>
-						<name>sext_ln130</name>
+						<name>sext_ln141</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>130</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -2998,7 +2998,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>130</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -3035,10 +3035,10 @@
 					<Obj>
 						<type>0</type>
 						<id>64</id>
-						<name>add_ln130_2</name>
+						<name>add_ln141_2</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>130</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3054,7 +3054,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>130</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -3092,10 +3092,10 @@
 					<Obj>
 						<type>0</type>
 						<id>65</id>
-						<name>trunc_ln130_1</name>
+						<name>trunc_ln141_1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>130</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3111,7 +3111,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>130</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -3151,10 +3151,10 @@
 					<Obj>
 						<type>0</type>
 						<id>66</id>
-						<name>sext_ln130_1</name>
+						<name>sext_ln141_1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>130</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3170,7 +3170,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>130</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -3210,7 +3210,7 @@
 						<name>gmem_addr</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>130</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3226,7 +3226,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>130</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -3267,7 +3267,7 @@
 						<name>gmem_addr_req</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>130</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3283,7 +3283,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>130</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -3322,10 +3322,10 @@
 					<Obj>
 						<type>0</type>
 						<id>69</id>
-						<name>gmem_addr_write_ln130</name>
+						<name>gmem_addr_write_ln141</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>130</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3341,7 +3341,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>130</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -3366,7 +3366,7 @@
 					<item>225</item>
 					<item>226</item>
 					<item>228</item>
-					<item>325</item>
+					<item>323</item>
 				</oprand_edges>
 				<opcode>write</opcode>
 				<m_Display>0</m_Display>
@@ -3385,7 +3385,7 @@
 						<name>gmem_addr_resp</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>130</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3401,7 +3401,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>130</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -3424,7 +3424,7 @@
 					<item_version>0</item_version>
 					<item>230</item>
 					<item>231</item>
-					<item>324</item>
+					<item>322</item>
 				</oprand_edges>
 				<opcode>writeresp</opcode>
 				<m_Display>0</m_Display>
@@ -3443,7 +3443,7 @@
 						<name>j_1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>127</lineNumber>
+						<lineNumber>138</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3459,7 +3459,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>127</second>
+										<second>138</second>
 									</item>
 								</second>
 							</item>
@@ -3497,10 +3497,10 @@
 					<Obj>
 						<type>0</type>
 						<id>72</id>
-						<name>add_ln125_1</name>
+						<name>add_ln135_1</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>125</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3516,7 +3516,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>125</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -3554,10 +3554,10 @@
 					<Obj>
 						<type>0</type>
 						<id>73</id>
-						<name>select_ln125_2</name>
+						<name>select_ln135_2</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>125</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3573,7 +3573,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>125</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -3612,10 +3612,10 @@
 					<Obj>
 						<type>0</type>
 						<id>74</id>
-						<name>indvar_flatten20_write_ln123</name>
+						<name>indvar_flatten20_write_ln132</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>123</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3631,7 +3631,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>123</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -3654,8 +3654,8 @@
 					<item_version>0</item_version>
 					<item>241</item>
 					<item>242</item>
-					<item>331</item>
-					<item>340</item>
+					<item>329</item>
+					<item>338</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -3671,10 +3671,10 @@
 					<Obj>
 						<type>0</type>
 						<id>75</id>
-						<name>ib_write_ln123</name>
+						<name>ib_write_ln132</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>123</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3690,7 +3690,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>123</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -3713,8 +3713,8 @@
 					<item_version>0</item_version>
 					<item>243</item>
 					<item>244</item>
-					<item>326</item>
-					<item>333</item>
+					<item>324</item>
+					<item>331</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -3730,10 +3730,10 @@
 					<Obj>
 						<type>0</type>
 						<id>76</id>
-						<name>indvar_flatten_write_ln125</name>
+						<name>indvar_flatten_write_ln135</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>125</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3749,7 +3749,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>125</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -3772,8 +3772,8 @@
 					<item_version>0</item_version>
 					<item>245</item>
 					<item>246</item>
-					<item>327</item>
-					<item>335</item>
+					<item>325</item>
+					<item>333</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -3789,10 +3789,10 @@
 					<Obj>
 						<type>0</type>
 						<id>77</id>
-						<name>jb_write_ln125</name>
+						<name>jb_write_ln135</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>125</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3808,7 +3808,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>125</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -3831,8 +3831,8 @@
 					<item_version>0</item_version>
 					<item>247</item>
 					<item>248</item>
-					<item>328</item>
-					<item>337</item>
+					<item>326</item>
+					<item>335</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -3848,10 +3848,10 @@
 					<Obj>
 						<type>0</type>
 						<id>78</id>
-						<name>j_write_ln127</name>
+						<name>j_write_ln138</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>127</lineNumber>
+						<lineNumber>138</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3867,7 +3867,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>127</second>
+										<second>138</second>
 									</item>
 								</second>
 							</item>
@@ -3890,8 +3890,8 @@
 					<item_version>0</item_version>
 					<item>249</item>
 					<item>250</item>
-					<item>329</item>
-					<item>339</item>
+					<item>327</item>
+					<item>337</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -3907,10 +3907,10 @@
 					<Obj>
 						<type>0</type>
 						<id>79</id>
-						<name>br_ln127</name>
+						<name>br_ln138</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>127</lineNumber>
+						<lineNumber>138</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -3926,7 +3926,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>127</second>
+										<second>138</second>
 									</item>
 								</second>
 							</item>
@@ -5666,147 +5666,147 @@
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_219">
-				<id>320</id>
+				<id>318</id>
 				<edge_type>2</edge_type>
 				<source_obj>25</source_obj>
 				<sink_obj>29</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_220">
-				<id>321</id>
+				<id>319</id>
 				<edge_type>2</edge_type>
 				<source_obj>29</source_obj>
 				<sink_obj>82</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_221">
-				<id>322</id>
+				<id>320</id>
 				<edge_type>2</edge_type>
 				<source_obj>29</source_obj>
 				<sink_obj>80</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_222">
-				<id>323</id>
+				<id>321</id>
 				<edge_type>2</edge_type>
 				<source_obj>80</source_obj>
 				<sink_obj>29</sink_obj>
 				<is_back_edge>1</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_223">
-				<id>324</id>
+				<id>322</id>
 				<edge_type>4</edge_type>
 				<source_obj>69</source_obj>
 				<sink_obj>70</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_224">
-				<id>325</id>
+				<id>323</id>
 				<edge_type>4</edge_type>
 				<source_obj>68</source_obj>
 				<sink_obj>69</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_225">
-				<id>326</id>
+				<id>324</id>
 				<edge_type>4</edge_type>
 				<source_obj>33</source_obj>
 				<sink_obj>75</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_226">
-				<id>327</id>
+				<id>325</id>
 				<edge_type>4</edge_type>
 				<source_obj>32</source_obj>
 				<sink_obj>76</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_227">
-				<id>328</id>
+				<id>326</id>
 				<edge_type>4</edge_type>
 				<source_obj>31</source_obj>
 				<sink_obj>77</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_228">
-				<id>329</id>
+				<id>327</id>
 				<edge_type>4</edge_type>
 				<source_obj>30</source_obj>
 				<sink_obj>78</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_229">
-				<id>330</id>
+				<id>328</id>
 				<edge_type>4</edge_type>
 				<source_obj>19</source_obj>
 				<sink_obj>26</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_230">
-				<id>331</id>
+				<id>329</id>
 				<edge_type>4</edge_type>
 				<source_obj>19</source_obj>
 				<sink_obj>74</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_231">
-				<id>332</id>
+				<id>330</id>
 				<edge_type>4</edge_type>
 				<source_obj>20</source_obj>
 				<sink_obj>33</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_232">
-				<id>333</id>
+				<id>331</id>
 				<edge_type>4</edge_type>
 				<source_obj>20</source_obj>
 				<sink_obj>75</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_233">
-				<id>334</id>
+				<id>332</id>
 				<edge_type>4</edge_type>
 				<source_obj>21</source_obj>
 				<sink_obj>32</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_234">
-				<id>335</id>
+				<id>333</id>
 				<edge_type>4</edge_type>
 				<source_obj>21</source_obj>
 				<sink_obj>76</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_235">
-				<id>336</id>
+				<id>334</id>
 				<edge_type>4</edge_type>
 				<source_obj>22</source_obj>
 				<sink_obj>31</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_236">
-				<id>337</id>
+				<id>335</id>
 				<edge_type>4</edge_type>
 				<source_obj>22</source_obj>
 				<sink_obj>77</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_237">
-				<id>338</id>
+				<id>336</id>
 				<edge_type>4</edge_type>
 				<source_obj>23</source_obj>
 				<sink_obj>30</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_238">
-				<id>339</id>
+				<id>337</id>
 				<edge_type>4</edge_type>
 				<source_obj>23</source_obj>
 				<sink_obj>78</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_239">
-				<id>340</id>
+				<id>338</id>
 				<edge_type>4</edge_type>
 				<source_obj>26</source_obj>
 				<sink_obj>74</sink_obj>
@@ -5837,8 +5837,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>2</mMinLatency>
-			<mMaxLatency>27</mMaxLatency>
+			<mMinLatency>8203</mMinLatency>
+			<mMaxLatency>8203</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -5882,10 +5882,10 @@
 			</basic_blocks>
 			<mII>1</mII>
 			<mDepth>11</mDepth>
-			<mMinTripCount>0</mMinTripCount>
-			<mMaxTripCount>16</mMaxTripCount>
-			<mMinLatency>0</mMinLatency>
-			<mMaxLatency>25</mMaxLatency>
+			<mMinTripCount>8192</mMinTripCount>
+			<mMaxTripCount>8192</mMaxTripCount>
+			<mMinLatency>8201</mMinLatency>
+			<mMaxLatency>8201</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>

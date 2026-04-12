@@ -46,5 +46,5 @@ PASS: The output matches the golden output!
 INFO [HLS SIM]: The maximum depth reached by any hls::stream() instance in the design is 401408
 INFO: [SIM 211-1] CSim done with 0 errors.
 INFO: [SIM 211-3] *************** CSIM finish ***************
-INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 2 seconds. Total elapsed time: 16.502 seconds; peak allocated memory: 163.664 MB.
-INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 22s
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 2 seconds. Total elapsed time: 12.254 seconds; peak allocated memory: 163.344 MB.
+INFO: [vitis-run 60-791] Total elapsed time: 0h 0m 18s

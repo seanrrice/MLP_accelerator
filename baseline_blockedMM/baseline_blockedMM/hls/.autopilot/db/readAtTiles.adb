@@ -2481,10 +2481,10 @@
             <Obj>
               <type>0</type>
               <id>48</id>
-              <name>_ln28</name>
+              <name>_ln31</name>
               <fileName>../MLP_baseline/mm.cpp</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>28</lineNumber>
+              <lineNumber>31</lineNumber>
               <contextFuncName>readAtTiles</contextFuncName>
               <contextNormFuncName>readAtTiles</contextNormFuncName>
               <inlineStackInfo>
@@ -2500,7 +2500,7 @@
                         <first>../MLP_baseline/mm.cpp</first>
                         <second>readAtTiles</second>
                       </first>
-                      <second>28</second>
+                      <second>31</second>
                     </item>
                   </second>
                 </item>
@@ -3455,8 +3455,8 @@
         <mDepth>-1</mDepth>
         <mMinTripCount>-1</mMinTripCount>
         <mMaxTripCount>-1</mMaxTripCount>
-        <mMinLatency>-1</mMinLatency>
-        <mMaxLatency>-1</mMaxLatency>
+        <mMinLatency>401428</mMinLatency>
+        <mMaxLatency>401428</mMaxLatency>
         <mIsDfPipe>0</mIsDfPipe>
         <mDfPipe class_id="-1"></mDfPipe>
       </item>

@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'writeTiles'" level="0">
-<item name = "Date">Fri Apr 10 16:22:58 2026
+<item name = "Date">Sat Apr 11 17:34:16 2026
 </item>
 <item name = "Version">2025.1 (Build 6135595 on May 21 2025)</item>
 <item name = "Project">baseline_blockedMM</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">6, 288230371856744480, 90.000 ns, 4.3e+09 sec, 6, 288230371856744480, no</column>
+<column name="">8207, 8207, 0.123 ms, 0.123 ms, 8207, 8207, no</column>
 </table>
 </item>
 <item name = "Detail">

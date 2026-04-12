@@ -29,7 +29,7 @@ Args:
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - Callee:          'std::array<int, 16ul>::operator[](unsigned long)'
@@ -37,65 +37,65 @@ Args:
                        Line: 186, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          'computeTiles(hls::stream<hls::vector<int, 16ul>, 0>&, hls::stream<hls::vector<int, 16ul>, 0>&, int*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int)'
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 181, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 192, Column: 2 }
 Function:        MM
 Args:            
   - Callee:          'readAtTiles(hls::vector<int, 16ul>*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int)'
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 8, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          MM
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 137, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 148, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 182, Column: 5 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 193, Column: 5 }
 Function:        MM
 Args:            
   - Callee:          'readBTiles(hls::vector<int, 16ul>*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int)'
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 34, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 37, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          MM
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 137, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 148, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 183, Column: 5 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 194, Column: 5 }
 Function:        MM
 Args:            
   - Callee:          'computeTiles(hls::stream<hls::vector<int, 16ul>, 0>&, hls::stream<hls::vector<int, 16ul>, 0>&, int*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int)'
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          MM
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 137, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 148, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 184, Column: 5 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 195, Column: 5 }
 Function:        MM
 Args:            
   - Callee:          'writeTiles(hls::stream<hls::vector<int, 16ul>, 0>&, hls::vector<int, 16ul>*, int, int)'
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 121, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 130, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          MM
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 137, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 148, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Passed
 Pass:            reflow-infer-unroll
 Name:            ImplicitUnroll
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 90, Column: 25 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 99, Column: 25 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Loop '''
@@ -105,7 +105,7 @@ Args:
 --- !Passed
 Pass:            reflow-infer-unroll
 Name:            ImplicitUnroll
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 105, Column: 17 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 114, Column: 17 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Loop '''
@@ -115,13 +115,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Unrolling loop '''
   - LoopName:        block_init_outer_loop
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:70:13'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:78:13'
   - String:          ') '
   - String:          'in function '''
   - String:          computeTiles
@@ -131,13 +131,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_72_1
+  - LoopName:        VITIS_LOOP_80_1
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:72:19'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:19'
   - String:          ') '
   - String:          'in function '''
   - String:          computeTiles
@@ -147,13 +147,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_72_1
+  - LoopName:        VITIS_LOOP_80_1
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:72:19'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:19'
   - String:          ') '
   - String:          'in function '''
   - String:          computeTiles
@@ -163,13 +163,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_72_1
+  - LoopName:        VITIS_LOOP_80_1
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:72:19'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:19'
   - String:          ') '
   - String:          'in function '''
   - String:          computeTiles
@@ -179,13 +179,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_72_1
+  - LoopName:        VITIS_LOOP_80_1
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:72:19'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:19'
   - String:          ') '
   - String:          'in function '''
   - String:          computeTiles
@@ -195,13 +195,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_72_1
+  - LoopName:        VITIS_LOOP_80_1
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:72:19'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:19'
   - String:          ') '
   - String:          'in function '''
   - String:          computeTiles
@@ -211,13 +211,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_72_1
+  - LoopName:        VITIS_LOOP_80_1
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:72:19'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:19'
   - String:          ') '
   - String:          'in function '''
   - String:          computeTiles
@@ -227,13 +227,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_72_1
+  - LoopName:        VITIS_LOOP_80_1
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:72:19'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:19'
   - String:          ') '
   - String:          'in function '''
   - String:          computeTiles
@@ -243,13 +243,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_72_1
+  - LoopName:        VITIS_LOOP_80_1
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:72:19'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:19'
   - String:          ') '
   - String:          'in function '''
   - String:          computeTiles
@@ -259,13 +259,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_72_1
+  - LoopName:        VITIS_LOOP_80_1
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:72:19'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:19'
   - String:          ') '
   - String:          'in function '''
   - String:          computeTiles
@@ -275,13 +275,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_72_1
+  - LoopName:        VITIS_LOOP_80_1
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:72:19'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:19'
   - String:          ') '
   - String:          'in function '''
   - String:          computeTiles
@@ -291,13 +291,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_72_1
+  - LoopName:        VITIS_LOOP_80_1
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:72:19'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:19'
   - String:          ') '
   - String:          'in function '''
   - String:          computeTiles
@@ -307,13 +307,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_72_1
+  - LoopName:        VITIS_LOOP_80_1
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:72:19'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:19'
   - String:          ') '
   - String:          'in function '''
   - String:          computeTiles
@@ -323,13 +323,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_72_1
+  - LoopName:        VITIS_LOOP_80_1
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:72:19'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:19'
   - String:          ') '
   - String:          'in function '''
   - String:          computeTiles
@@ -339,13 +339,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_72_1
+  - LoopName:        VITIS_LOOP_80_1
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:72:19'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:19'
   - String:          ') '
   - String:          'in function '''
   - String:          computeTiles
@@ -355,13 +355,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_72_1
+  - LoopName:        VITIS_LOOP_80_1
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:72:19'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:19'
   - String:          ') '
   - String:          'in function '''
   - String:          computeTiles
@@ -371,13 +371,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Unrolling loop '''
-  - LoopName:        VITIS_LOOP_72_1
+  - LoopName:        VITIS_LOOP_80_1
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:72:19'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:80:19'
   - String:          ') '
   - String:          'in function '''
   - String:          computeTiles
@@ -387,13 +387,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Unrolling loop '''
   - LoopName:        j_loop
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:90:25'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:99:25'
   - String:          ') '
   - String:          'in function '''
   - String:          computeTiles
@@ -403,13 +403,13 @@ Args:
 --- !Passed
 Pass:            reflow-pragma-loop-unroll
 Name:            PragmaFullyUnroll
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Unrolling loop '''
   - LoopName:        i_output_loop
   - String:          ''' ('
-  - LoopLoc:         '../MLP_baseline/mm.cpp:105:17'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:114:17'
   - String:          ') '
   - String:          'in function '''
   - String:          computeTiles
@@ -419,7 +419,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 107, Column: 15 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 116, Column: 15 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -429,7 +429,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 107, Column: 15 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 116, Column: 15 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -439,7 +439,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 107, Column: 15 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 116, Column: 15 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -449,7 +449,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 107, Column: 15 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 116, Column: 15 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -459,7 +459,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 107, Column: 15 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 116, Column: 15 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -469,7 +469,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 107, Column: 15 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 116, Column: 15 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -479,7 +479,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 107, Column: 15 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 116, Column: 15 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -489,7 +489,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 107, Column: 15 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 116, Column: 15 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -499,7 +499,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 107, Column: 15 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 116, Column: 15 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -509,7 +509,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 107, Column: 15 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 116, Column: 15 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -519,7 +519,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 107, Column: 15 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 116, Column: 15 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -529,7 +529,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 107, Column: 15 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 116, Column: 15 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -539,7 +539,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 107, Column: 15 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 116, Column: 15 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -549,7 +549,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 107, Column: 15 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 116, Column: 15 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -559,7 +559,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 107, Column: 15 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 116, Column: 15 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -569,7 +569,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 92, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 101, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -579,7 +579,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 92, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 101, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -589,7 +589,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 92, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 101, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -599,7 +599,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 92, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 101, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -609,7 +609,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 92, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 101, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -619,7 +619,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 92, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 101, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -629,7 +629,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 92, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 101, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -639,7 +639,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 92, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 101, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -649,7 +649,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 92, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 101, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -659,7 +659,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 92, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 101, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -669,7 +669,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 92, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 101, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -679,7 +679,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 92, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 101, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -689,7 +689,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 92, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 101, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -699,7 +699,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 92, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 101, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -709,7 +709,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 92, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 101, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -719,7 +719,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -729,7 +729,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -739,7 +739,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -749,7 +749,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -759,7 +759,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -769,7 +769,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -779,7 +779,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -789,7 +789,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -799,7 +799,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -809,7 +809,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -819,7 +819,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -829,7 +829,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -839,7 +839,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -849,7 +849,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -859,7 +859,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -869,7 +869,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -879,7 +879,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -889,7 +889,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -899,7 +899,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -909,7 +909,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -919,7 +919,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -929,7 +929,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -939,7 +939,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -949,7 +949,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -959,7 +959,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -969,7 +969,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -979,7 +979,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -989,7 +989,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -999,7 +999,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1009,7 +1009,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1019,7 +1019,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1029,7 +1029,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1039,7 +1039,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1049,7 +1049,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1059,7 +1059,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1069,7 +1069,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1079,7 +1079,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1089,7 +1089,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1099,7 +1099,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1109,7 +1109,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1119,7 +1119,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1129,7 +1129,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1139,7 +1139,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1149,7 +1149,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1159,7 +1159,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1169,7 +1169,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1179,7 +1179,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1189,7 +1189,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1199,7 +1199,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1209,7 +1209,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1219,7 +1219,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1229,7 +1229,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1239,7 +1239,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1249,7 +1249,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1259,7 +1259,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1269,7 +1269,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1279,7 +1279,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1289,7 +1289,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1299,7 +1299,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1309,7 +1309,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1319,7 +1319,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1329,7 +1329,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1339,7 +1339,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1349,7 +1349,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1359,7 +1359,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1369,7 +1369,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1379,7 +1379,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1389,7 +1389,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1399,7 +1399,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1409,7 +1409,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1419,7 +1419,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1429,7 +1429,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1439,7 +1439,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1449,7 +1449,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1459,7 +1459,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1469,7 +1469,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1479,7 +1479,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1489,7 +1489,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1499,7 +1499,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1509,7 +1509,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1519,7 +1519,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1529,7 +1529,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1539,7 +1539,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1549,7 +1549,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1559,7 +1559,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1569,7 +1569,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1579,7 +1579,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1589,7 +1589,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1599,7 +1599,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1609,7 +1609,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1619,7 +1619,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1629,7 +1629,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1639,7 +1639,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1649,7 +1649,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1659,7 +1659,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1669,7 +1669,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1679,7 +1679,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1689,7 +1689,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1699,7 +1699,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1709,7 +1709,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1719,7 +1719,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1729,7 +1729,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1739,7 +1739,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1749,7 +1749,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1759,7 +1759,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1769,7 +1769,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1779,7 +1779,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1789,7 +1789,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1799,7 +1799,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1809,7 +1809,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1819,7 +1819,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1829,7 +1829,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1839,7 +1839,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1849,7 +1849,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1859,7 +1859,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1869,7 +1869,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1879,7 +1879,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1889,7 +1889,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1899,7 +1899,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1909,7 +1909,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1919,7 +1919,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1929,7 +1929,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1939,7 +1939,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1949,7 +1949,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1959,7 +1959,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1969,7 +1969,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1979,7 +1979,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1989,7 +1989,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -1999,7 +1999,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2009,7 +2009,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2019,7 +2019,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2029,7 +2029,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2039,7 +2039,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2049,7 +2049,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2059,7 +2059,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2069,7 +2069,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2079,7 +2079,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2089,7 +2089,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2099,7 +2099,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2109,7 +2109,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2119,7 +2119,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2129,7 +2129,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2139,7 +2139,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2149,7 +2149,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2159,7 +2159,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2169,7 +2169,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2179,7 +2179,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2189,7 +2189,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2199,7 +2199,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2209,7 +2209,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2219,7 +2219,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2229,7 +2229,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2239,7 +2239,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2249,7 +2249,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2259,7 +2259,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2269,7 +2269,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2279,7 +2279,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2289,7 +2289,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2299,7 +2299,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2309,7 +2309,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2319,7 +2319,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2329,7 +2329,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2339,7 +2339,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2349,7 +2349,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2359,7 +2359,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2369,7 +2369,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2379,7 +2379,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2389,7 +2389,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2399,7 +2399,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2409,7 +2409,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2419,7 +2419,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2429,7 +2429,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2439,7 +2439,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2449,7 +2449,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2459,7 +2459,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2469,7 +2469,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2479,7 +2479,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2489,7 +2489,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2499,7 +2499,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2509,7 +2509,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2519,7 +2519,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2529,7 +2529,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2539,7 +2539,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2549,7 +2549,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2559,7 +2559,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2569,7 +2569,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2579,7 +2579,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2589,7 +2589,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2599,7 +2599,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2609,7 +2609,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2619,7 +2619,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2629,7 +2629,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2639,7 +2639,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2649,7 +2649,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2659,7 +2659,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2669,7 +2669,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2679,7 +2679,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2689,7 +2689,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2699,7 +2699,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2709,7 +2709,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2719,7 +2719,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2729,7 +2729,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2739,7 +2739,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2749,7 +2749,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2759,7 +2759,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2769,7 +2769,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2779,7 +2779,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2789,7 +2789,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2799,7 +2799,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2809,7 +2809,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2819,7 +2819,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2829,7 +2829,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2839,7 +2839,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2849,7 +2849,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2859,7 +2859,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2869,7 +2869,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2879,7 +2879,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2889,7 +2889,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2899,7 +2899,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2909,7 +2909,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2919,7 +2919,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2929,7 +2929,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2939,7 +2939,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2949,7 +2949,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2959,7 +2959,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2969,7 +2969,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2979,7 +2979,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2989,7 +2989,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -2999,7 +2999,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3009,7 +3009,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3019,7 +3019,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3029,7 +3029,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3039,7 +3039,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3049,7 +3049,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3059,7 +3059,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3069,7 +3069,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3079,7 +3079,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3089,7 +3089,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3099,7 +3099,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3109,7 +3109,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3119,7 +3119,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3129,7 +3129,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3139,7 +3139,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3149,7 +3149,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3159,7 +3159,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3169,7 +3169,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3179,7 +3179,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3189,7 +3189,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3199,7 +3199,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3209,7 +3209,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3219,7 +3219,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3229,7 +3229,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3239,7 +3239,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3249,7 +3249,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3259,7 +3259,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3269,7 +3269,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 92, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 101, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3279,7 +3279,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 107, Column: 15 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 116, Column: 15 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3289,7 +3289,7 @@ Args:
 --- !Failure
 Pass:            reflow-function-uniquification
 Name:            FunctionUniquification
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Duplicating function '''
@@ -3342,7 +3342,7 @@ Args:
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 74, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 82, Column: 2 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - Callee:          'std::array<int, 16ul>::operator[](unsigned long) (.1)'
@@ -3350,13 +3350,13 @@ Args:
                        Line: 186, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          'computeTiles(hls::stream<hls::vector<int, 16ul>, 0>&, hls::stream<hls::vector<int, 16ul>, 0>&, int*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int)'
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 92, Column: 20 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 101, Column: 20 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - Callee:          'std::array<int, 16ul>::operator[](unsigned long)'
@@ -3364,59 +3364,59 @@ Args:
                        Line: 186, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          'computeTiles(hls::stream<hls::vector<int, 16ul>, 0>&, hls::stream<hls::vector<int, 16ul>, 0>&, int*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int)'
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 181, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 192, Column: 2 }
 Function:        MM
 Args:            
   - Callee:          'readAtTiles(hls::vector<int, 16ul>*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int)'
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 8, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          MM
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 137, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 148, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 182, Column: 5 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 193, Column: 5 }
 Function:        MM
 Args:            
   - Callee:          'readBTiles(hls::vector<int, 16ul>*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int)'
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 34, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 37, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          MM
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 137, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 148, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 183, Column: 5 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 194, Column: 5 }
 Function:        MM
 Args:            
   - Callee:          'computeTiles(hls::stream<hls::vector<int, 16ul>, 0>&, hls::stream<hls::vector<int, 16ul>, 0>&, int*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int)'
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          MM
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 137, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 148, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 184, Column: 5 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 195, Column: 5 }
 Function:        MM
 Args:            
   - Callee:          'writeTiles(hls::stream<hls::vector<int, 16ul>, 0>&, hls::vector<int, 16ul>*, int, int)'
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 121, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 130, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          MM
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 137, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 148, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
@@ -3425,7 +3425,7 @@ Name:            NeverInline
 Function:        apatb_MM_ir
 Args:            
   - Callee:          MM
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 137, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 148, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          apatb_MM_ir
   - String:          ' because it should never be inlined (cost=never)'
@@ -3467,7 +3467,7 @@ Args:
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Inlining function '''
@@ -3476,13 +3476,13 @@ Args:
                        Line: 186, Column: 0 }
   - String:          ''' into '''
   - Caller:          'computeTiles(hls::stream<hls::vector<int, 16ul>, 0>&, hls::stream<hls::vector<int, 16ul>, 0>&, int*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int)'
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-inliner
 Name:            Inline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Inlining function '''
@@ -3491,13 +3491,13 @@ Args:
                        Line: 186, Column: 0 }
   - String:          ''' into '''
   - Caller:          'computeTiles(hls::stream<hls::vector<int, 16ul>, 0>&, hls::stream<hls::vector<int, 16ul>, 0>&, int*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int)'
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
   - String:          ''''
 ...
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 61, Column: 16 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 67, Column: 16 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Applying '
@@ -3515,7 +3515,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 171, Column: 26 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 182, Column: 26 }
 Function:        MM
 Args:            
   - String:          'Aggregating '
@@ -3531,7 +3531,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 172, Column: 29 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 183, Column: 29 }
 Function:        MM
 Args:            
   - String:          'Aggregating '
@@ -3547,7 +3547,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 173, Column: 29 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 184, Column: 29 }
 Function:        MM
 Args:            
   - String:          'Aggregating '
@@ -3608,7 +3608,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 83, Column: 32 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 92, Column: 32 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Aggregating '
@@ -3624,7 +3624,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 61, Column: 16 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 67, Column: 16 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Aggregating '
@@ -3640,7 +3640,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 61, Column: 16 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 67, Column: 16 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Aggregating '
@@ -3656,7 +3656,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 61, Column: 16 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 67, Column: 16 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Aggregating '
@@ -3672,7 +3672,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 61, Column: 16 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 67, Column: 16 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Aggregating '
@@ -3688,7 +3688,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 61, Column: 16 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 67, Column: 16 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Aggregating '
@@ -3704,7 +3704,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 61, Column: 16 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 67, Column: 16 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Aggregating '
@@ -3720,7 +3720,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 61, Column: 16 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 67, Column: 16 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Aggregating '
@@ -3736,7 +3736,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 61, Column: 16 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 67, Column: 16 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Aggregating '
@@ -3752,7 +3752,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 61, Column: 16 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 67, Column: 16 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Aggregating '
@@ -3768,7 +3768,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 61, Column: 16 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 67, Column: 16 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Aggregating '
@@ -3784,7 +3784,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 61, Column: 16 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 67, Column: 16 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Aggregating '
@@ -3800,7 +3800,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 61, Column: 16 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 67, Column: 16 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Aggregating '
@@ -3816,7 +3816,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 61, Column: 16 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 67, Column: 16 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Aggregating '
@@ -3832,7 +3832,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 61, Column: 16 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 67, Column: 16 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Aggregating '
@@ -3848,7 +3848,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 61, Column: 16 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 67, Column: 16 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Aggregating '
@@ -3864,7 +3864,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 61, Column: 16 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 67, Column: 16 }
 Function:        _ZL12computeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEES4_PiS4_iii
 Args:            
   - String:          'Aggregating '
@@ -3880,13 +3880,13 @@ Args:
 --- !Missed
 Pass:            reflow-burst-inference
 Name:            CouldNotAnalyzePattern
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 20, Column: 22 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 23, Column: 22 }
 Function:        _ZL11readAtTilesPN3hls6vectorIiLm16EEERNS_6streamIS1_Li0EEEiii
 Args:            
   - String:          Could not analyze pattern
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 20, Column: 22 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 23, Column: 22 }
   - OrigDirection:   read
   - OrigID:          for.inc.load.8
   - ArrayName:       AT
@@ -3895,7 +3895,7 @@ Args:
   - String:          ' '
   - LoopName:        k_loop
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:18:17'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:21:17'
   - String:          ' '
   - Function:        'readAtTiles(hls::vector<int, 16ul>*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int)'
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 8, Column: 0 }
@@ -3904,13 +3904,13 @@ Args:
 --- !Missed
 Pass:            reflow-burst-inference
 Name:            CouldNotAnalyzePattern
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 46, Column: 22 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 52, Column: 22 }
 Function:        _ZL10readBTilesPN3hls6vectorIiLm16EEERNS_6streamIS1_Li0EEEiii
 Args:            
   - String:          Could not analyze pattern
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      load
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 46, Column: 22 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 52, Column: 22 }
   - OrigDirection:   read
   - OrigID:          for.inc.load.8
   - ArrayName:       B
@@ -3919,10 +3919,10 @@ Args:
   - String:          ' '
   - LoopName:        k_loop
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:44:17'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:50:17'
   - String:          ' '
   - Function:        'readBTiles(hls::vector<int, 16ul>*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int)'
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 34, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 37, Column: 0 }
   - String:          ' '
 ...
 --- !Passed
@@ -3943,10 +3943,10 @@ Args:
   - String:          ' '
   - LoopName:        j_BLOCK_loop
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:67:9'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:74:9'
   - String:          ' '
   - Function:        'computeTiles(hls::stream<hls::vector<int, 16ul>, 0>&, hls::stream<hls::vector<int, 16ul>, 0>&, int*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int)'
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
   - String:          ' '
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      load
@@ -4014,22 +4014,22 @@ Args:
   - String:          ' '
   - LoopName:        j_BLOCK_loop
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:67:9'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:74:9'
   - String:          ' '
   - Function:        'computeTiles(hls::stream<hls::vector<int, 16ul>, 0>&, hls::stream<hls::vector<int, 16ul>, 0>&, int*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int)'
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
 Pass:            reflow-burst-inference
 Name:            CouldNotAnalyzePattern
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 130, Column: 79 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 141, Column: 79 }
 Function:        _ZL10writeTilesRN3hls6streamINS_6vectorIiLm16EEELi0EEEPS2_ii
 Args:            
   - String:          Could not analyze pattern
   - String:          ' _XLX_SEP_ '
   - OrigAccess:      store
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 130, Column: 79 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 141, Column: 79 }
   - OrigDirection:   write
   - OrigID:          for.inc.store.13
   - ArrayName:       ABC
@@ -4038,10 +4038,10 @@ Args:
   - String:          ' '
   - LoopName:        j_output_loop
   - String:          ' '
-  - LoopLoc:         '../MLP_baseline/mm.cpp:127:13'
+  - LoopLoc:         '../MLP_baseline/mm.cpp:138:13'
   - String:          ' '
   - Function:        'writeTiles(hls::stream<hls::vector<int, 16ul>, 0>&, hls::vector<int, 16ul>*, int, int)'
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 121, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 130, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
@@ -4062,7 +4062,7 @@ Args:
   - BundleName:      gmem
   - String:          ' '
   - Function:        'computeTiles(hls::stream<hls::vector<int, 16ul>, 0>&, hls::stream<hls::vector<int, 16ul>, 0>&, int*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int)'
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
   - String:          ' '
 ...
 --- !Missed
@@ -4080,13 +4080,13 @@ Args:
   - BundleName:      gmem
   - String:          ' '
   - Function:        'computeTiles(hls::stream<hls::vector<int, 16ul>, 0>&, hls::stream<hls::vector<int, 16ul>, 0>&, int*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int)'
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
   - String:          ' '
 ...
 --- !Failure
 Pass:            reflow-dataflow-canon
 Name:            DataflowAggrMerge
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 137, Column: 0 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 148, Column: 0 }
 Function:        MM
 Args:            
   - String:          'Merging processes '
@@ -4099,7 +4099,7 @@ Args:
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 181, Column: 2 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 192, Column: 2 }
 Function:        Block_entry_gmem_rd_proc
 Args:            
   - Callee:          'readAtTiles(hls::vector<int, 16ul>*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int) (.1.1)'
@@ -4112,11 +4112,11 @@ Args:
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 182, Column: 5 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 193, Column: 5 }
 Function:        Block_entry_gmem_rd_proc
 Args:            
   - Callee:          'readBTiles(hls::vector<int, 16ul>*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int) (.1)'
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 34, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 37, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          Block_entry_gmem_rd_proc
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 0, Column: 0 }
@@ -4125,11 +4125,11 @@ Args:
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 183, Column: 5 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 194, Column: 5 }
 Function:        Block_entry_gmem_rd_proc
 Args:            
   - Callee:          'computeTiles(hls::stream<hls::vector<int, 16ul>, 0>&, hls::stream<hls::vector<int, 16ul>, 0>&, int*, hls::stream<hls::vector<int, 16ul>, 0>&, int, int, int) (.1)'
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 60, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 66, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          Block_entry_gmem_rd_proc
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 0, Column: 0 }
@@ -4138,26 +4138,26 @@ Args:
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 175, Column: 9 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 186, Column: 9 }
 Function:        MM
 Args:            
   - Callee:          Block_entry_gmem_rd_proc
     DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 0, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          MM
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 137, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 148, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...
 --- !Missed
 Pass:            inline
 Name:            NeverInline
-DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 184, Column: 5 }
+DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 195, Column: 5 }
 Function:        MM
 Args:            
   - Callee:          'writeTiles(hls::stream<hls::vector<int, 16ul>, 0>&, hls::vector<int, 16ul>*, int, int) (.1)'
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 121, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 130, Column: 0 }
   - String:          ' not inlined into '
   - Caller:          MM
-    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 137, Column: 0 }
+    DebugLoc:        { File: ../MLP_baseline/mm.cpp, Line: 148, Column: 0 }
   - String:          ' because it should never be inlined (cost=never)'
 ...

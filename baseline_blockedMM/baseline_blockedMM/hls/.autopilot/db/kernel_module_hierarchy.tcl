@@ -20,10 +20,10 @@ set ModuleHierarchy {[{
 			"SubLoops" : [
 			{"Name" : "j_BLOCK_loop","RefName" : "j_BLOCK_loop","ID" : "11","Type" : "no",
 				"SubInsts" : [
-				{"Name" : "grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_283", "RefName" : "computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop","ID" : "12","Type" : "sequential",
+				{"Name" : "grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_279", "RefName" : "computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop","ID" : "12","Type" : "sequential",
 						"SubLoops" : [
 						{"Name" : "k_BLOCK_loop_k_loop_i_loop","RefName" : "k_BLOCK_loop_k_loop_i_loop","ID" : "13","Type" : "pipeline"},]},
-				{"Name" : "grp_computeTiles_Pipeline_j_output_loop_fu_324", "RefName" : "computeTiles_Pipeline_j_output_loop","ID" : "14","Type" : "sequential",
+				{"Name" : "grp_computeTiles_Pipeline_j_output_loop_fu_320", "RefName" : "computeTiles_Pipeline_j_output_loop","ID" : "14","Type" : "sequential",
 						"SubLoops" : [
 						{"Name" : "j_output_loop","RefName" : "j_output_loop","ID" : "15","Type" : "pipeline"},]},]},]},]},]},
 	{"Name" : "writeTiles_U0", "RefName" : "writeTiles","ID" : "16","Type" : "sequential",

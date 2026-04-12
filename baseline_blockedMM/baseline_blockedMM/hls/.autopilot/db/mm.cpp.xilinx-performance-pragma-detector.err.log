@@ -46,7 +46,7 @@ In file included from C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_str
 C:/Xilinx/2025.1/Vitis/common/technology/autopilot/hls_stream_39.h:127:9: error: use of undeclared identifier '__fpga_fifo_push'
         __fpga_fifo_push(&V, &din);
         ^
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\..\MLP_baseline\mm.cpp:21:30: note: in instantiation of member function 'hls::stream<hls::vector<int, 16>, 0>::write' requested here
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\..\MLP_baseline\mm.cpp:24:30: note: in instantiation of member function 'hls::stream<hls::vector<int, 16>, 0>::write' requested here
                     A_stream.write(A_line);
                              ^
 In file included from C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\..\MLP_baseline\mm.cpp:2:
@@ -57,6 +57,6 @@ C:/Xilinx/2025.1/Vitis/common/technology/autopilot/hls_stream_39.h:98:9: error: 
 C:/Xilinx/2025.1/Vitis/common/technology/autopilot/hls_stream_39.h:109:9: note: in instantiation of member function 'hls::stream<hls::vector<int, 16>, 0>::read' requested here
         read(tmp);
         ^
-C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\..\MLP_baseline\mm.cpp:83:50: note: in instantiation of member function 'hls::stream<hls::vector<int, 16>, 0>::read' requested here
+C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\..\MLP_baseline\mm.cpp:92:50: note: in instantiation of member function 'hls::stream<hls::vector<int, 16>, 0>::read' requested here
                     WIDE_DTYPE A_line = A_stream.read();
                                                  ^

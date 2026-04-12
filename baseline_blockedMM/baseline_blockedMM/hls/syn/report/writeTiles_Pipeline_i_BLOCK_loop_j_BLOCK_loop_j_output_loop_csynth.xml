@@ -22,38 +22,23 @@
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>2</Best-caseLatency>
-<Average-caseLatency>72057591890444312</Average-caseLatency>
-<Worst-caseLatency>288230371856744480</Worst-caseLatency>
-<Best-caseRealTimeLatency>30.000 ns</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>1.1e+09 sec</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>4.3e+09 sec</Worst-caseRealTimeLatency>
-<Interval-min>1</Interval-min>
-<Interval-max>288230371856744480</Interval-max>
+<Best-caseLatency>8203</Best-caseLatency>
+<Average-caseLatency>8203</Average-caseLatency>
+<Worst-caseLatency>8203</Worst-caseLatency>
+<Best-caseRealTimeLatency>0.123 ms</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.123 ms</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.123 ms</Worst-caseRealTimeLatency>
+<Interval-min>8193</Interval-min>
+<Interval-max>8193</Interval-max>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
 <i_BLOCK_loop_j_BLOCK_loop_j_output_loop>
 <Slack>10.95</Slack>
-<TripCount>
-<range>
-<min>0</min>
-<max>288230371856744448</max>
-</range>
-</TripCount>
+<TripCount>8192</TripCount>
 <isPerfectNested>0</isPerfectNested>
-<Latency>
-<range>
-<min>0</min>
-<max>288230371856744480</max>
-</range>
-</Latency>
-<AbsoluteTimeLatency>
-<range>
-<min>0</min>
-<max>4323455577851167232</max>
-</range>
-</AbsoluteTimeLatency>
+<Latency>8201</Latency>
+<AbsoluteTimeLatency>123015</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>11</PipelineDepth>
 <PerformancePragma>-</PerformancePragma>
@@ -64,13 +49,13 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:127</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:138</SourceLocation>
 <SummaryOfLoopViolations>
 <i_BLOCK_loop_j_BLOCK_loop_j_output_loop>
 <Name>i_BLOCK_loop_j_BLOCK_loop_j_output_loop</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:123</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:132</SourceLocation>
 </i_BLOCK_loop_j_BLOCK_loop_j_output_loop>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>

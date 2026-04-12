@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop'" level="0">
-<item name = "Date">Fri Apr 10 16:22:54 2026
+<item name = "Date">Sat Apr 11 17:34:12 2026
 </item>
 <item name = "Version">2025.1 (Build 6135595 on May 21 2025)</item>
 <item name = "Project">baseline_blockedMM</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">?, ?, ?, ?, 0, 0, loop auto-rewind stp (delay=0 clock cycles(s))</column>
+<column name="">401423, 401423, 6.021 ms, 6.021 ms, 401409, 401409, loop auto-rewind stp (delay=0 clock cycles(s))</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,7 +35,7 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop">?, ?, 15, 1, 1, ?, yes</column>
+<column name="- i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop">401421, 401421, 15, 1, 1, 401408, yes</column>
 </table>
 </item>
 </section>

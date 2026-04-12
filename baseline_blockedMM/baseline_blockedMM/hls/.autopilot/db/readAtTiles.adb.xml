@@ -709,10 +709,10 @@ entry:40 %call_ln7 = call void @readAtTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k
 
 <Node id="48" bw="0">
 <![CDATA[
-entry:41 %ret_ln28 = ret
+entry:41 %ret_ln31 = ret
 
 ]]></Node>
-<StgValue><ssdm name="ret_ln28"/></StgValue>
+<StgValue><ssdm name="ret_ln31"/></StgValue>
 </operation>
 </state>
 </state_list>

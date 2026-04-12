@@ -32,11 +32,11 @@
         <hiertable>
             <header size="7" col0="Function" col1="Location" col2="Compile/Link" col3="Unroll/Inline" col4="Array/Struct" col5="Performance" col6="HW Transforms"/>
             <rows>
-                <row id="0" col0="MM" col1="mm.cpp:137" col2="448" col3="1010" col4="3911" col5="2037" col6="2364">
+                <row id="0" col0="MM" col1="mm.cpp:148" col2="448" col3="1010" col4="3911" col5="2037" col6="2364">
                     <row id="4" col0="readAtTiles" col1="mm.cpp:4" col2="60" col3="44" col4="160" col5="157" col6=""/>
-                    <row id="1" col0="readBTiles" col1="mm.cpp:30" col2="60" col3="44" col4="160" col5="157" col6=""/>
-                    <row id="2" col0="computeTiles" col1="mm.cpp:54" col2="232" col3="858" col4="3410" col5="1544" col6=""/>
-                    <row id="3" col0="writeTiles" col1="mm.cpp:117" col2="52" col3="35" col4="151" col5="149" col6="180"/>
+                    <row id="2" col0="readBTiles" col1="mm.cpp:33" col2="60" col3="44" col4="160" col5="157" col6=""/>
+                    <row id="3" col0="computeTiles" col1="mm.cpp:60" col2="232" col3="858" col4="3410" col5="1544" col6=""/>
+                    <row id="1" col0="writeTiles" col1="mm.cpp:126" col2="52" col3="35" col4="151" col5="149" col6="180"/>
                 </row>
             </rows>
             <notes/>

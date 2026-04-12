@@ -22,38 +22,23 @@
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>2</Best-caseLatency>
-<Average-caseLatency>17179868933</Average-caseLatency>
-<Worst-caseLatency>34359738117</Worst-caseLatency>
-<Best-caseRealTimeLatency>30.000 ns</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>257.698 sec</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>515.396 sec</Worst-caseRealTimeLatency>
-<Interval-min>1</Interval-min>
-<Interval-max>34359738113</Interval-max>
+<Best-caseLatency>12549</Best-caseLatency>
+<Average-caseLatency>12549</Average-caseLatency>
+<Worst-caseLatency>12549</Worst-caseLatency>
+<Best-caseRealTimeLatency>0.188 ms</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.188 ms</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.188 ms</Worst-caseRealTimeLatency>
+<Interval-min>12545</Interval-min>
+<Interval-max>12545</Interval-max>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
 <k_BLOCK_loop_k_loop_i_loop>
 <Slack>10.95</Slack>
-<TripCount>
-<range>
-<min>0</min>
-<max>34359738112</max>
-</range>
-</TripCount>
+<TripCount>12544</TripCount>
 <isPerfectNested>0</isPerfectNested>
-<Latency>
-<range>
-<min>0</min>
-<max>34359738115</max>
-</range>
-</Latency>
-<AbsoluteTimeLatency>
-<range>
-<min>0</min>
-<max>515396071725</max>
-</range>
-</AbsoluteTimeLatency>
+<Latency>12547</Latency>
+<AbsoluteTimeLatency>188205</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>5</PipelineDepth>
 <PerformancePragma>-</PerformancePragma>
@@ -64,13 +49,13 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:55~C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:186~../MLP_baseline/mm.cpp:92</SourceLocation>
+<SourceLocation>C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:55~C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:186~../MLP_baseline/mm.cpp:101</SourceLocation>
 <SummaryOfLoopViolations>
 <k_BLOCK_loop_k_loop_i_loop>
 <Name>k_BLOCK_loop_k_loop_i_loop</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:82</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:91</SourceLocation>
 </k_BLOCK_loop_k_loop_i_loop>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>

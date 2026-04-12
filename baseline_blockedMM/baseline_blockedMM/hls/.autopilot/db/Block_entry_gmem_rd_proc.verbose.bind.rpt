@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'Block_entry_gmem_rd_proc'
 ================================================================
-* Date:           Fri Apr 10 16:22:57 2026
+* Date:           Sat Apr 11 17:34:15 2026
 
 * Version:        2025.1 (Build 6135595 on May 21 2025)
 * Project:        baseline_blockedMM
@@ -25,23 +25,23 @@
 
 + Latency: 
     * Summary: 
-    +---------+---------+----------+----------+-----+-----+---------+
-    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
-    |   min   |   max   |    min   |    max   | min | max |   Type  |
-    +---------+---------+----------+----------+-----+-----+---------+
-    |        ?|        ?|         ?|         ?|    ?|    ?|       no|
-    +---------+---------+----------+----------+-----+-----+---------+
+    +---------+---------+-----------+-----------+---------+---------+---------+
+    |  Latency (cycles) |   Latency (absolute)  |      Interval     | Pipeline|
+    |   min   |   max   |    min    |    max    |   min   |   max   |   Type  |
+    +---------+---------+-----------+-----------+---------+---------+---------+
+    |  7240942|  7240942|  0.109 sec|  0.109 sec|  7240942|  7240942|       no|
+    +---------+---------+-----------+-----------+---------+---------+---------+
 
     + Detail: 
         * Instance: 
-        +-------------------------+--------------+---------+---------+-----------+----------+-----+-----+---------+
-        |                         |              |  Latency (cycles) |  Latency (absolute)  |  Interval | Pipeline|
-        |         Instance        |    Module    |   min   |   max   |    min    |    max   | min | max |   Type  |
-        +-------------------------+--------------+---------+---------+-----------+----------+-----+-----+---------+
-        |grp_readAtTiles_fu_132   |readAtTiles   |        ?|        ?|          ?|         ?|    ?|    ?|       no|
-        |grp_readBTiles_fu_147    |readBTiles    |        ?|        ?|          ?|         ?|    ?|    ?|       no|
-        |grp_computeTiles_fu_159  |computeTiles  |        1|        ?|  15.000 ns|         ?|    1|    ?|       no|
-        +-------------------------+--------------+---------+---------+-----------+----------+-----+-----+---------+
+        +-------------------------+--------------+---------+---------+-----------+-----------+---------+---------+---------+
+        |                         |              |  Latency (cycles) |   Latency (absolute)  |      Interval     | Pipeline|
+        |         Instance        |    Module    |   min   |   max   |    min    |    max    |   min   |   max   |   Type  |
+        +-------------------------+--------------+---------+---------+-----------+-----------+---------+---------+---------+
+        |grp_readAtTiles_fu_132   |readAtTiles   |   401428|   401428|   6.021 ms|   6.021 ms|   401428|   401428|       no|
+        |grp_readBTiles_fu_147    |readBTiles    |   401428|   401428|   6.021 ms|   6.021 ms|   401428|   401428|       no|
+        |grp_computeTiles_fu_159  |computeTiles  |  6438081|  6438081|  96.571 ms|  96.571 ms|  6438081|  6438081|       no|
+        +-------------------------+--------------+---------+---------+-----------+-----------+---------+---------+---------+
 
         * Loop: 
         N/A
@@ -95,21 +95,21 @@ ST_1 : Operation 11 [1/1] ( I:3.63ns O:3.63ns )   --->   "%write_ln0 = write voi
 ST_1 : Operation 12 [1/1] ( I:3.63ns O:3.63ns )   --->   "%write_ln0 = write void @_ssdm_op_Write.ap_fifo.i32P0A, i32 %N_c, i32 %N_read"   --->   Operation 12 'write' 'write_ln0' <Predicate = true> <Delay = 3.63> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 3.63> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 32> <Depth = 2> <FIFO>
 ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%B_stream = alloca i64 1"   --->   Operation 13 'alloca' 'B_stream' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO">   --->   Core 77 'FIFO' <Latency = 0> <II = 1> <Delay = 3.60> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 512> <Depth = 32> <FIFO>
 ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%A_stream = alloca i64 1"   --->   Operation 14 'alloca' 'A_stream' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO">   --->   Core 77 'FIFO' <Latency = 0> <II = 1> <Delay = 3.60> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 512> <Depth = 32> <FIFO>
-ST_1 : Operation 15 [2/2] (9.06ns)   --->   "%call_ln181 = call void @readAtTiles, i512 %gmem, i64 %AT_read, i512 %A_stream, i32 %N_read, i32 %M_read, i32 %P_read" [../MLP_baseline/mm.cpp:181->../MLP_baseline/mm.cpp:181]   --->   Operation 15 'call' 'call_ln181' <Predicate = true> <Delay = 9.06> <CoreType = "Generic">   --->   Generic Core
+ST_1 : Operation 15 [2/2] (9.06ns)   --->   "%call_ln192 = call void @readAtTiles, i512 %gmem, i64 %AT_read, i512 %A_stream, i32 %N_read, i32 %M_read, i32 %P_read" [../MLP_baseline/mm.cpp:192->../MLP_baseline/mm.cpp:192]   --->   Operation 15 'call' 'call_ln192' <Predicate = true> <Delay = 9.06> <CoreType = "Generic">   --->   Generic Core
 
 State 2 <SV = 1> <Delay = 0.00>
-ST_2 : Operation 16 [1/2] (0.00ns)   --->   "%call_ln181 = call void @readAtTiles, i512 %gmem, i64 %AT_read, i512 %A_stream, i32 %N_read, i32 %M_read, i32 %P_read" [../MLP_baseline/mm.cpp:181->../MLP_baseline/mm.cpp:181]   --->   Operation 16 'call' 'call_ln181' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+ST_2 : Operation 16 [1/2] (0.00ns)   --->   "%call_ln192 = call void @readAtTiles, i512 %gmem, i64 %AT_read, i512 %A_stream, i32 %N_read, i32 %M_read, i32 %P_read" [../MLP_baseline/mm.cpp:192->../MLP_baseline/mm.cpp:192]   --->   Operation 16 'call' 'call_ln192' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
 
 State 3 <SV = 2> <Delay = 9.06>
 ST_3 : Operation 17 [1/1] (0.00ns)   --->   "%B_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %B"   --->   Operation 17 'read' 'B_read' <Predicate = true> <Delay = 0.00>
-ST_3 : Operation 18 [2/2] (9.06ns)   --->   "%call_ln182 = call void @readBTiles, i512 %gmem, i64 %B_read, i512 %B_stream, i32 %N_read, i32 %M_read, i32 %P_read" [../MLP_baseline/mm.cpp:182->../MLP_baseline/mm.cpp:181]   --->   Operation 18 'call' 'call_ln182' <Predicate = true> <Delay = 9.06> <CoreType = "Generic">   --->   Generic Core
+ST_3 : Operation 18 [2/2] (9.06ns)   --->   "%call_ln193 = call void @readBTiles, i512 %gmem, i64 %B_read, i512 %B_stream, i32 %N_read, i32 %M_read, i32 %P_read" [../MLP_baseline/mm.cpp:193->../MLP_baseline/mm.cpp:192]   --->   Operation 18 'call' 'call_ln193' <Predicate = true> <Delay = 9.06> <CoreType = "Generic">   --->   Generic Core
 
 State 4 <SV = 3> <Delay = 0.00>
-ST_4 : Operation 19 [1/2] (0.00ns)   --->   "%call_ln182 = call void @readBTiles, i512 %gmem, i64 %B_read, i512 %B_stream, i32 %N_read, i32 %M_read, i32 %P_read" [../MLP_baseline/mm.cpp:182->../MLP_baseline/mm.cpp:181]   --->   Operation 19 'call' 'call_ln182' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
+ST_4 : Operation 19 [1/2] (0.00ns)   --->   "%call_ln193 = call void @readBTiles, i512 %gmem, i64 %B_read, i512 %B_stream, i32 %N_read, i32 %M_read, i32 %P_read" [../MLP_baseline/mm.cpp:193->../MLP_baseline/mm.cpp:192]   --->   Operation 19 'call' 'call_ln193' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
 
 State 5 <SV = 4> <Delay = 9.06>
 ST_5 : Operation 20 [1/1] (0.00ns)   --->   "%C_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %C"   --->   Operation 20 'read' 'C_read' <Predicate = true> <Delay = 0.00>
-ST_5 : Operation 21 [2/2] (9.06ns)   --->   "%call_ln183 = call void @computeTiles, i512 %A_stream, i512 %B_stream, i512 %gmem, i64 %C_read, i512 %AB_stream, i32 %N_read, i32 %M_read, i32 %P_read" [../MLP_baseline/mm.cpp:183->../MLP_baseline/mm.cpp:181]   --->   Operation 21 'call' 'call_ln183' <Predicate = true> <Delay = 9.06> <CoreType = "Generic">   --->   Generic Core
+ST_5 : Operation 21 [2/2] (9.06ns)   --->   "%call_ln194 = call void @computeTiles, i512 %A_stream, i512 %B_stream, i512 %gmem, i64 %C_read, i512 %AB_stream, i32 %N_read, i32 %M_read, i32 %P_read" [../MLP_baseline/mm.cpp:194->../MLP_baseline/mm.cpp:192]   --->   Operation 21 'call' 'call_ln194' <Predicate = true> <Delay = 9.06> <CoreType = "Generic">   --->   Generic Core
 
 State 6 <SV = 5> <Delay = 2.43>
 ST_6 : Operation 22 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %P_c, void @ap_fifo_str, i32 0, i32 0, void @p_str, i32 0, i32 0, void @p_str, void @p_str, void @p_str, i32 2, i32 2, i32 16, i32 16, void @p_str, void @ScalarProp_str, i32 4294967295, i32 0, i32 0"   --->   Operation 22 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
@@ -120,7 +120,7 @@ ST_6 : Operation 26 [1/1] (0.00ns)   --->   "%empty = specchannel i32 @_ssdm_op_
 ST_6 : Operation 27 [1/1] (0.00ns)   --->   "%empty_208 = specchannel i32 @_ssdm_op_SpecChannel, void @A_stream_str, i32 1, void @p_str, void @p_str, i32 32, i32 32, i512 %A_stream, i512 %A_stream"   --->   Operation 27 'specchannel' 'empty_208' <Predicate = true> <Delay = 0.00>
 ST_6 : Operation 28 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %A_stream, void @empty_13, i32 0, i32 0, void @empty_17, i32 0, i32 0, void @empty_17, void @empty_17, void @empty_17, i32 0, i32 0, i32 0, i32 0, void @empty_17, void @empty_17, i32 4294967295, i32 0, i32 0"   --->   Operation 28 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_6 : Operation 29 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %B_stream, void @empty_13, i32 0, i32 0, void @empty_17, i32 0, i32 0, void @empty_17, void @empty_17, void @empty_17, i32 0, i32 0, i32 0, i32 0, void @empty_17, void @empty_17, i32 4294967295, i32 0, i32 0"   --->   Operation 29 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 30 [1/2] (2.43ns)   --->   "%call_ln183 = call void @computeTiles, i512 %A_stream, i512 %B_stream, i512 %gmem, i64 %C_read, i512 %AB_stream, i32 %N_read, i32 %M_read, i32 %P_read" [../MLP_baseline/mm.cpp:183->../MLP_baseline/mm.cpp:181]   --->   Operation 30 'call' 'call_ln183' <Predicate = true> <Delay = 2.43> <CoreType = "Generic">   --->   Generic Core
+ST_6 : Operation 30 [1/2] (2.43ns)   --->   "%call_ln194 = call void @computeTiles, i512 %A_stream, i512 %B_stream, i512 %gmem, i64 %C_read, i512 %AB_stream, i32 %N_read, i32 %M_read, i32 %P_read" [../MLP_baseline/mm.cpp:194->../MLP_baseline/mm.cpp:192]   --->   Operation 30 'call' 'call_ln194' <Predicate = true> <Delay = 2.43> <CoreType = "Generic">   --->   Generic Core
 ST_6 : Operation 31 [1/1] (0.00ns)   --->   "%ret_ln0 = ret"   --->   Operation 31 'ret' 'ret_ln0' <Predicate = true> <Delay = 0.00>
 
 
@@ -159,9 +159,9 @@ write_ln0         (write        ) [ 0000000]
 write_ln0         (write        ) [ 0000000]
 B_stream          (alloca       ) [ 0011111]
 A_stream          (alloca       ) [ 0111111]
-call_ln181        (call         ) [ 0000000]
+call_ln192        (call         ) [ 0000000]
 B_read            (read         ) [ 0000100]
-call_ln182        (call         ) [ 0000000]
+call_ln193        (call         ) [ 0000000]
 C_read            (read         ) [ 0000001]
 specinterface_ln0 (specinterface) [ 0000000]
 specinterface_ln0 (specinterface) [ 0000000]
@@ -171,7 +171,7 @@ empty             (specchannel  ) [ 0000000]
 empty_208         (specchannel  ) [ 0000000]
 specinterface_ln0 (specinterface) [ 0000000]
 specinterface_ln0 (specinterface) [ 0000000]
-call_ln183        (call         ) [ 0000000]
+call_ln194        (call         ) [ 0000000]
 ret_ln0           (ret          ) [ 0000000]
 </LifeTime>
 
@@ -636,7 +636,7 @@ ret_ln0           (ret          ) [ 0000000]
 </pin_list>
 <bind>
 <opcode="call(48) " fcode="call"/>
-<opset="call_ln181/1 "/>
+<opset="call_ln192/1 "/>
 </bind>
 </comp>
 
@@ -653,7 +653,7 @@ ret_ln0           (ret          ) [ 0000000]
 </pin_list>
 <bind>
 <opcode="call(48) " fcode="call"/>
-<opset="call_ln182/3 "/>
+<opset="call_ln193/3 "/>
 </bind>
 </comp>
 
@@ -672,7 +672,7 @@ ret_ln0           (ret          ) [ 0000000]
 </pin_list>
 <bind>
 <opcode="call(48) " fcode="call"/>
-<opset="call_ln183/5 "/>
+<opset="call_ln194/5 "/>
 </bind>
 </comp>
 
@@ -893,7 +893,7 @@ ret_ln0           (ret          ) [ 0000000]
 	Port: Block_entry_gmem_rd_proc : C | {5 }
   - Chain level:
 	State 1
-		call_ln181 : 1
+		call_ln192 : 1
 	State 2
 	State 3
 	State 4

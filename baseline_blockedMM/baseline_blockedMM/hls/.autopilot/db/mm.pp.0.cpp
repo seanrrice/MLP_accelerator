@@ -41428,11 +41428,14 @@ static void readAtTiles(
 
     i_BLOCK_loop:
     for (int ib=0; ib < N/BLOCK_SIZE; ib++){
-        j_BLOCK_loop:
+#pragma HLS LOOP_TRIPCOUNT min=64 max=64
+ j_BLOCK_loop:
         for(int jb=0; jb < P/BLOCK_SIZE; jb++){
-            k_BLOCK_loop:
+#pragma HLS LOOP_TRIPCOUNT min=8 max=8
+ k_BLOCK_loop:
             for(int kb = 0; kb < M / BLOCK_SIZE; kb++){
-                k_loop:
+#pragma HLS LOOP_TRIPCOUNT min=49 max=49
+ k_loop:
                 for(int k = 0; k < BLOCK_SIZE; k++){
 #pragma HLS PIPELINE II = 1
  WIDE_DTYPE A_line = AT[((kb*BLOCK_SIZE + k) * N + ib * BLOCK_SIZE) / BLOCK_SIZE];
@@ -41454,11 +41457,14 @@ static void readBTiles(
 
     i_BLOCK_loop:
     for (int ib = 0; ib < N / BLOCK_SIZE; ib++){
-        j_BLOCK_loop:
+#pragma HLS LOOP_TRIPCOUNT min=64 max=64
+ j_BLOCK_loop:
         for(int jb =0; jb < P / BLOCK_SIZE; jb++){
-            k_BLOCK_loop:
+#pragma HLS LOOP_TRIPCOUNT min=8 max=8
+ k_BLOCK_loop:
             for (int kb = 0; kb < M / BLOCK_SIZE; kb ++){
-                k_loop:
+#pragma HLS LOOP_TRIPCOUNT min=49 max=49
+ k_loop:
                 for (int k = 0; k < BLOCK_SIZE; k ++){
 #pragma HLS PIPELINE II = 1
  WIDE_DTYPE B_line = B[((kb*BLOCK_SIZE + k) * P + jb * BLOCK_SIZE) / BLOCK_SIZE];
@@ -41481,13 +41487,15 @@ static void computeTiles(
 
  i_BLOCK_loop:
     for (int ib = 0; ib < N / BLOCK_SIZE; ib++) {
-        j_BLOCK_loop:
+#pragma HLS LOOP_TRIPCOUNT min=64 max=64
+ j_BLOCK_loop:
         for (int jb = 0; jb < P / BLOCK_SIZE; jb++) {
+#pragma HLS LOOP_TRIPCOUNT min=8 max=8
 
-            block_init_outer_loop:
+ block_init_outer_loop:
             for (int i = 0; i < BLOCK_SIZE; i++){
 #pragma HLS UNROLL
- VITIS_LOOP_72_1: for (int j = 0; j < BLOCK_SIZE; j++){
+ VITIS_LOOP_80_1: for (int j = 0; j < BLOCK_SIZE; j++){
 #pragma HLS UNROLL
  AB_block[i][j] = C[ib*BLOCK_SIZE + i];
                 }
@@ -41496,7 +41504,8 @@ static void computeTiles(
 
             k_BLOCK_loop:
             for (int kb = 0; kb < M/BLOCK_SIZE; kb++){
-                k_loop:
+#pragma HLS LOOP_TRIPCOUNT min=49 max=49
+ k_loop:
                 for(int k = 0; k < BLOCK_SIZE; k++){
                     WIDE_DTYPE A_line = A_stream.read();
                     WIDE_DTYPE B_line = B_stream.read();
@@ -41539,9 +41548,11 @@ static void writeTiles(
 ) {
     i_BLOCK_loop:
     for (int ib = 0; ib < N / BLOCK_SIZE; ib++) {
-        j_BLOCK_loop:
+#pragma HLS LOOP_TRIPCOUNT min=64 max=64
+ j_BLOCK_loop:
         for (int jb = 0; jb < P / BLOCK_SIZE; jb++) {
-            j_output_loop:
+#pragma HLS LOOP_TRIPCOUNT min=8 max=8
+ j_output_loop:
             for (int j = 0; j < BLOCK_SIZE; j++) {
 #pragma HLS PIPELINE II = 1
  WIDE_DTYPE col_vec = AB_stream.read();
@@ -41561,14 +41572,14 @@ __attribute__((sdx_kernel("MM", 0))) void MM(WIDE_DTYPE* AT __attribute__((align
 
 #line 1 "directive"
 #pragma HLSDIRECTIVE TOP name=MM
-# 137 "../MLP_baseline/mm.cpp"
+# 148 "../MLP_baseline/mm.cpp"
 
-# 149 "../MLP_baseline/mm.cpp"
+# 160 "../MLP_baseline/mm.cpp"
 #pragma HLS INTERFACE m_axi port=AT bundle=gmem depth=802816
 #pragma HLS INTERFACE m_axi port=B bundle=gmem depth=100352
 #pragma HLS INTERFACE m_axi port=C bundle=gmem depth=1024
 #pragma HLS INTERFACE m_axi port=ABC bundle=gmem depth=131072
-# 162 "../MLP_baseline/mm.cpp"
+# 173 "../MLP_baseline/mm.cpp"
 #pragma HLS INTERFACE s_axilite port=AT bundle=control
 #pragma HLS INTERFACE s_axilite port=B bundle=control
 #pragma HLS INTERFACE s_axilite port=C bundle=control

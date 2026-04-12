@@ -227,72 +227,72 @@ Diagnostics:
         Length:          0
         ReplacementText: 'VITIS_LOOP_267_1: '
   - DiagnosticName:  xilinx-label-all-loops
-    Message:         'Added loop label VITIS_LOOP_72_1:  '
-    FileOffset:      72
+    Message:         'Added loop label VITIS_LOOP_80_1:  '
+    FileOffset:      80
     FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\mm.cpp'
     Replacements:    
       - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-        Offset:          1213402
+        Offset:          1213640
         Length:          0
-        ReplacementText: 'VITIS_LOOP_72_1: '
+        ReplacementText: 'VITIS_LOOP_80_1: '
   - DiagnosticName:  xilinx-aggregate-on-hls-vector
     Message:         ' hls::vector type top function variable AT requires aggregation'
-    FileOffset:      137
+    FileOffset:      148
     FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\mm.cpp'
     Replacements:    
       - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-        Offset:          1215141
+        Offset:          1215467
         Length:          0
         ReplacementText: '
 #pragma HLS aggregate variable = AT
 '
   - DiagnosticName:  xilinx-aggregate-on-hls-vector
     Message:         ' hls::vector type top function variable AT requires align attribute'
-    FileOffset:      137
+    FileOffset:      148
     FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\mm.cpp'
     Replacements:    
       - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-        Offset:          1215075
+        Offset:          1215401
         Length:          0
         ReplacementText: ' __attribute__((align_value(alignof(WIDE_DTYPE)))) '
   - DiagnosticName:  xilinx-aggregate-on-hls-vector
     Message:         ' hls::vector type top function variable B requires aggregation'
-    FileOffset:      137
+    FileOffset:      148
     FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\mm.cpp'
     Replacements:    
       - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-        Offset:          1215141
+        Offset:          1215467
         Length:          0
         ReplacementText: '
 #pragma HLS aggregate variable = B
 '
   - DiagnosticName:  xilinx-aggregate-on-hls-vector
     Message:         ' hls::vector type top function variable B requires align attribute'
-    FileOffset:      137
+    FileOffset:      148
     FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\mm.cpp'
     Replacements:    
       - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-        Offset:          1215090
+        Offset:          1215416
         Length:          0
         ReplacementText: ' __attribute__((align_value(alignof(WIDE_DTYPE)))) '
   - DiagnosticName:  xilinx-aggregate-on-hls-vector
     Message:         ' hls::vector type top function variable ABC requires aggregation'
-    FileOffset:      137
+    FileOffset:      148
     FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\mm.cpp'
     Replacements:    
       - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-        Offset:          1215141
+        Offset:          1215467
         Length:          0
         ReplacementText: '
 #pragma HLS aggregate variable = ABC
 '
   - DiagnosticName:  xilinx-aggregate-on-hls-vector
     Message:         ' hls::vector type top function variable ABC requires align attribute'
-    FileOffset:      137
+    FileOffset:      148
     FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\MLP_baseline\mm.cpp'
     Replacements:    
       - FilePath:        'C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp'
-        Offset:          1215117
+        Offset:          1215443
         Length:          0
         ReplacementText: ' __attribute__((align_value(alignof(WIDE_DTYPE)))) '
 ...

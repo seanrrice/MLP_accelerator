@@ -1334,10 +1334,10 @@
 					<Obj>
 						<type>0</type>
 						<id>37</id>
-						<name>_ln134</name>
+						<name>_ln145</name>
 						<fileName>../MLP_baseline/mm.cpp</fileName>
 						<fileDirectory>C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM</fileDirectory>
-						<lineNumber>134</lineNumber>
+						<lineNumber>145</lineNumber>
 						<contextFuncName>writeTiles</contextFuncName>
 						<contextNormFuncName>writeTiles</contextNormFuncName>
 						<inlineStackInfo>
@@ -1353,7 +1353,7 @@
 											<first>../MLP_baseline/mm.cpp</first>
 											<second>writeTiles</second>
 										</first>
-										<second>134</second>
+										<second>145</second>
 									</item>
 								</second>
 							</item>
@@ -2099,8 +2099,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>6</mMinLatency>
-			<mMaxLatency>31</mMaxLatency>
+			<mMinLatency>8207</mMinLatency>
+			<mMaxLatency>8207</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>

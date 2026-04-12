@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'MM'" level="0">
-<item name = "Date">Fri Apr 10 16:22:58 2026
+<item name = "Date">Sat Apr 11 17:34:16 2026
 </item>
 <item name = "Version">2025.1 (Build 6135595 on May 21 2025)</item>
 <item name = "Project">baseline_blockedMM</item>
@@ -24,16 +24,16 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">?, ?, ?, ?, ?, ?, dataflow</column>
+<column name="">7240942, 7240942, 0.109 sec, 0.109 sec, 7240943, 7240943, dataflow</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="call_ln179_entry_proc_fu_160">entry_proc, 0, 0, 0 ns, 0 ns, 0, 0, no</column>
-<column name="grp_Block_entry_gmem_rd_proc_fu_167">Block_entry_gmem_rd_proc, ?, ?, ?, ?, ?, ?, no</column>
-<column name="grp_writeTiles_fu_188">writeTiles, 6, 288230371856744480, 90.000 ns, 4.3e+09 sec, 6, 288230371856744480, no</column>
+<column name="call_ln190_entry_proc_fu_160">entry_proc, 0, 0, 0 ns, 0 ns, 0, 0, no</column>
+<column name="grp_Block_entry_gmem_rd_proc_fu_167">Block_entry_gmem_rd_proc, 7240942, 7240942, 0.109 sec, 0.109 sec, 7240942, 7240942, no</column>
+<column name="grp_writeTiles_fu_188">writeTiles, 8207, 8207, 0.123 ms, 0.123 ms, 8207, 8207, no</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">

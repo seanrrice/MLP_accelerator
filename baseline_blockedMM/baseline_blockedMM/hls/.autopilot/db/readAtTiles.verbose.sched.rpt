@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'readAtTiles'
 ================================================================
-* Date:           Fri Apr 10 16:22:54 2026
+* Date:           Sat Apr 11 17:34:12 2026
 
 * Version:        2025.1 (Build 6135595 on May 21 2025)
 * Project:        baseline_blockedMM
@@ -25,12 +25,12 @@
 
 + Latency: 
     * Summary: 
-    +---------+---------+----------+----------+-----+-----+---------+
-    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
-    |   min   |   max   |    min   |    max   | min | max |   Type  |
-    +---------+---------+----------+----------+-----+-----+---------+
-    |        ?|        ?|         ?|         ?|    ?|    ?|       no|
-    +---------+---------+----------+----------+-----+-----+---------+
+    +---------+---------+----------+----------+--------+--------+---------+
+    |  Latency (cycles) |  Latency (absolute) |     Interval    | Pipeline|
+    |   min   |   max   |    min   |    max   |   min  |   max  |   Type  |
+    +---------+---------+----------+----------+--------+--------+---------+
+    |   401428|   401428|  6.021 ms|  6.021 ms|  401428|  401428|       no|
+    +---------+---------+----------+----------+--------+--------+---------+
 
     + Detail: 
         * Instance: 
@@ -133,7 +133,7 @@ State 6 <SV = 5> <Delay = 0.00>
 ST_6 : Operation 47 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %A_stream, void @empty_13, i32 0, i32 0, void @empty_17, i32 0, i32 0, void @empty_17, void @empty_17, void @empty_17, i32 0, i32 0, i32 0, i32 0, void @empty_17, void @empty_17, i32 4294967295, i32 0, i32 0"   --->   Operation 47 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_6 : Operation 48 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %gmem, void @empty_14, i32 0, i32 0, void @empty_17, i32 0, i32 802816, void @empty_18, void @empty, void @empty_17, i32 16, i32 16, i32 16, i32 16, void @empty_17, void @empty_17, i32 4294967295, i32 0, i32 0"   --->   Operation 48 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_6 : Operation 49 [1/2] (0.00ns)   --->   "%call_ln7 = call void @readAtTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop, i85 %bound25, i58 %bound6, i27 %smax, i31 %tmp_9, i32 %N_read, i64 %AT_read, i512 %gmem, i512 %A_stream" [../MLP_baseline/mm.cpp:7]   --->   Operation 49 'call' 'call_ln7' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
-ST_6 : Operation 50 [1/1] (0.00ns)   --->   "%ret_ln28 = ret" [../MLP_baseline/mm.cpp:28]   --->   Operation 50 'ret' 'ret_ln28' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 50 [1/1] (0.00ns)   --->   "%ret_ln31 = ret" [../MLP_baseline/mm.cpp:31]   --->   Operation 50 'ret' 'ret_ln31' <Predicate = true> <Delay = 0.00>
 
 
 ============================================================

@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'writeTiles'
 ================================================================
-* Date:           Fri Apr 10 16:22:58 2026
+* Date:           Sat Apr 11 17:34:16 2026
 
 * Version:        2025.1 (Build 6135595 on May 21 2025)
 * Project:        baseline_blockedMM
@@ -25,21 +25,21 @@
 
 + Latency: 
     * Summary: 
-    +---------+--------------------+-----------+-------------+-----+--------------------+---------+
-    |       Latency (cycles)       |    Latency (absolute)   |         Interval         | Pipeline|
-    |   min   |         max        |    min    |     max     | min |         max        |   Type  |
-    +---------+--------------------+-----------+-------------+-----+--------------------+---------+
-    |        6|  288230371856744480|  90.000 ns|  4.3e+09 sec|    6|  288230371856744480|       no|
-    +---------+--------------------+-----------+-------------+-----+--------------------+---------+
+    +---------+---------+----------+----------+------+------+---------+
+    |  Latency (cycles) |  Latency (absolute) |   Interval  | Pipeline|
+    |   min   |   max   |    min   |    max   |  min |  max |   Type  |
+    +---------+---------+----------+----------+------+------+---------+
+    |     8207|     8207|  0.123 ms|  0.123 ms|  8207|  8207|       no|
+    +---------+---------+----------+----------+------+------+---------+
 
     + Detail: 
         * Instance: 
-        +-----------------------------------------------------------------------+-------------------------------------------------------------+---------+--------------------+-----------+-------------+-----+--------------------+------------------------------------------------+
-        |                                                                       |                                                             |       Latency (cycles)       |    Latency (absolute)   |         Interval         |                    Pipeline                    |
-        |                                Instance                               |                            Module                           |   min   |         max        |    min    |     max     | min |         max        |                      Type                      |
-        +-----------------------------------------------------------------------+-------------------------------------------------------------+---------+--------------------+-----------+-------------+-----+--------------------+------------------------------------------------+
-        |grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_78  |writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop  |        2|  288230371856744480|  30.000 ns|  4.3e+09 sec|    1|  288230371856744480|  loop auto-rewind stp (delay=0 clock cycles(s))|
-        +-----------------------------------------------------------------------+-------------------------------------------------------------+---------+--------------------+-----------+-------------+-----+--------------------+------------------------------------------------+
+        +-----------------------------------------------------------------------+-------------------------------------------------------------+---------+---------+----------+----------+------+------+------------------------------------------------+
+        |                                                                       |                                                             |  Latency (cycles) |  Latency (absolute) |   Interval  |                    Pipeline                    |
+        |                                Instance                               |                            Module                           |   min   |   max   |    min   |    max   |  min |  max |                      Type                      |
+        +-----------------------------------------------------------------------+-------------------------------------------------------------+---------+---------+----------+----------+------+------+------------------------------------------------+
+        |grp_writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop_fu_78  |writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop  |     8203|     8203|  0.123 ms|  0.123 ms|  8193|  8193|  loop auto-rewind stp (delay=0 clock cycles(s))|
+        +-----------------------------------------------------------------------+-------------------------------------------------------------+---------+---------+----------+----------+------+------+------------------------------------------------+
 
         * Loop: 
         N/A
@@ -124,7 +124,7 @@ ST_5 : Operation 34 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface 
 ST_5 : Operation 35 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %AB_stream, void @empty_13, i32 0, i32 0, void @empty_17, i32 0, i32 0, void @empty_17, void @empty_17, void @empty_17, i32 0, i32 0, i32 0, i32 0, void @empty_17, void @empty_17, i32 4294967295, i32 0, i32 0"   --->   Operation 35 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_5 : Operation 36 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %gmem, void @empty_14, i32 0, i32 0, void @empty_17, i32 0, i32 802816, void @empty_18, void @empty, void @empty_17, i32 16, i32 16, i32 16, i32 16, void @empty_17, void @empty_17, i32 4294967295, i32 0, i32 0"   --->   Operation 36 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_5 : Operation 37 [1/2] (0.00ns)   --->   "%call_ln0 = call void @writeTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_j_output_loop, i31 %tmp_4, i58 %bound6, i512 %AB_stream, i32 %N_1, i64 %ABC_read, i512 %gmem"   --->   Operation 37 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Generic Core
-ST_5 : Operation 38 [1/1] (0.00ns)   --->   "%ret_ln134 = ret" [../MLP_baseline/mm.cpp:134]   --->   Operation 38 'ret' 'ret_ln134' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 38 [1/1] (0.00ns)   --->   "%ret_ln145 = ret" [../MLP_baseline/mm.cpp:145]   --->   Operation 38 'ret' 'ret_ln145' <Predicate = true> <Delay = 0.00>
 
 
 ============================================================
@@ -180,7 +180,7 @@ specinterface_ln0 (specinterface ) [ 000000]
 specinterface_ln0 (specinterface ) [ 000000]
 specinterface_ln0 (specinterface ) [ 000000]
 call_ln0          (call          ) [ 000000]
-ret_ln134         (ret           ) [ 000000]
+ret_ln145         (ret           ) [ 000000]
 </LifeTime>
 
 <model>

@@ -77,121 +77,154 @@
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/2025.1/Vitis/common/technology/autopilot\hls_vector.h:267:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="operator&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:13:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="readAtTiles" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=64 max=64" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:16:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="readAtTiles" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=8 max=8" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:19:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="readAtTiles" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=49 max=49" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:22:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="readAtTiles" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:42:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="readBTiles" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=64 max=64" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:45:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="readBTiles" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=8 max=8" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:48:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="readBTiles" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=49 max=49" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:51:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="readBTiles" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:62:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:68:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="computeTiles" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable= AB_block complete dim = 1" ARG_PragmaType="array_partition" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:71:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:72:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="computeTiles" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=64 max=64" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:75:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="computeTiles" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=8 max=8" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:79:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="computeTiles" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:73:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:81:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="computeTiles" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:88:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:89:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="computeTiles" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=49 max=49" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:97:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="computeTiles" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:91:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:100:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="computeTiles" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:101:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:110:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="computeTiles" ARG_PragmaIsValid="1" ARG_PragmaOptions="II =1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:106:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:115:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="computeTiles" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:128:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:133:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="writeTiles" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=64 max=64" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:136:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="writeTiles" ARG_PragmaIsValid="1" ARG_PragmaOptions="min=8 max=8" ARG_PragmaType="loop_tripcount" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:139:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="writeTiles" ARG_PragmaIsValid="1" ARG_PragmaOptions="II = 1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:138:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:149:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = AT" ARG_PragmaType="aggregate" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:140:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:151:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = B" ARG_PragmaType="aggregate" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:142:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:153:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable = ABC" ARG_PragmaType="aggregate" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
     <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="directive:1:9" msg_body="HLS pragma dump">
         <args ARG_PragmaContext="directive" ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=MM" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:149:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:160:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=AT bundle=gmem depth=802816" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:150:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:161:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=B bundle=gmem depth=100352" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:151:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:162:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=C bundle=gmem depth=1024" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:152:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:163:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="m_axi port=ABC bundle=gmem depth=131072" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:162:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:173:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=AT bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:163:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:174:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=B bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:164:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:175:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=C bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:165:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:176:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=ABC bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:166:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:177:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=N bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:167:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:178:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=M bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:168:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:179:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=P bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:169:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:180:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=return bundle=control" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:175:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:186:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=A_stream depth = 32" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:176:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:187:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=B_stream depth = 32" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:177:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:188:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaOptions="variable=AB_stream depth = 32" ARG_PragmaType="stream" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:179:9" msg_body="HLS pragma dump">
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:190:9" msg_body="HLS pragma dump">
         <args ARG_PragmaFunction="MM" ARG_PragmaIsValid="1" ARG_PragmaType="dataflow" ClangWarningOption="dump-hls-pragmas"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:90:25" msg_body="Loop 'j_loop' is marked as complete unroll implied by the pipeline pragma">
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:99:25" msg_body="Loop 'j_loop' is marked as complete unroll implied by the pipeline pragma">
         <args LoopName="j_loop"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:105:17" msg_body="Loop 'i_output_loop' is marked as complete unroll implied by the pipeline pragma">
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:114:17" msg_body="Loop 'i_output_loop' is marked as complete unroll implied by the pipeline pragma">
         <args LoopName="i_output_loop"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:60:0" msg_body="Unrolling loop 'block_init_outer_loop' (../MLP_baseline/mm.cpp:70:13) in function 'computeTiles' completely with a factor of 16">
-        <args Factor="16" LoopLoc="../MLP_baseline/mm.cpp:70:13" LoopName="block_init_outer_loop"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:66:0" msg_body="Unrolling loop 'block_init_outer_loop' (../MLP_baseline/mm.cpp:78:13) in function 'computeTiles' completely with a factor of 16">
+        <args Factor="16" LoopLoc="../MLP_baseline/mm.cpp:78:13" LoopName="block_init_outer_loop"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:60:0" msg_body="Unrolling loop 'VITIS_LOOP_72_1' (../MLP_baseline/mm.cpp:72:19) in function 'computeTiles' completely with a factor of 16">
-        <args Factor="16" LoopLoc="../MLP_baseline/mm.cpp:72:19" LoopName="VITIS_LOOP_72_1"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:66:0" msg_body="Unrolling loop 'VITIS_LOOP_80_1' (../MLP_baseline/mm.cpp:80:19) in function 'computeTiles' completely with a factor of 16">
+        <args Factor="16" LoopLoc="../MLP_baseline/mm.cpp:80:19" LoopName="VITIS_LOOP_80_1"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:60:0" msg_body="Unrolling loop 'j_loop' (../MLP_baseline/mm.cpp:90:25) in function 'computeTiles' completely with a factor of 16">
-        <args Factor="16" LoopLoc="../MLP_baseline/mm.cpp:90:25" LoopName="j_loop"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:66:0" msg_body="Unrolling loop 'j_loop' (../MLP_baseline/mm.cpp:99:25) in function 'computeTiles' completely with a factor of 16">
+        <args Factor="16" LoopLoc="../MLP_baseline/mm.cpp:99:25" LoopName="j_loop"/>
     </msg>
-    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:60:0" msg_body="Unrolling loop 'i_output_loop' (../MLP_baseline/mm.cpp:105:17) in function 'computeTiles' completely with a factor of 16">
-        <args Factor="16" LoopLoc="../MLP_baseline/mm.cpp:105:17" LoopName="i_output_loop"/>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:66:0" msg_body="Unrolling loop 'i_output_loop' (../MLP_baseline/mm.cpp:114:17) in function 'computeTiles' completely with a factor of 16">
+        <args Factor="16" LoopLoc="../MLP_baseline/mm.cpp:114:17" LoopName="i_output_loop"/>
     </msg>
-    <msg msg_groups="PRAGMA_INTERFACE" msg_id="214-366" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:107:15" msg_body="Duplicating function 'std::array&lt;int, 16ul&gt;::operator[](unsigned long)' as different function signatures were detected between this call site and other call site(s). This may impact the resources used in the design.">
+    <msg msg_groups="PRAGMA_INTERFACE" msg_id="214-366" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:116:15" msg_body="Duplicating function 'std::array&lt;int, 16ul&gt;::operator[](unsigned long)' as different function signatures were detected between this call site and other call site(s). This may impact the resources used in the design.">
         <args Name="std::array&lt;int, 16ul&gt;::operator[](unsigned long)"/>
     </msg>
-    <msg msg_groups="PRAGMA_INTERFACE" msg_id="214-366" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:92:2" msg_body="Duplicating function 'std::array&lt;int, 16ul&gt;::operator[](unsigned long)' as different function signatures were detected between this call site and other call site(s). This may impact the resources used in the design.">
+    <msg msg_groups="PRAGMA_INTERFACE" msg_id="214-366" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:101:2" msg_body="Duplicating function 'std::array&lt;int, 16ul&gt;::operator[](unsigned long)' as different function signatures were detected between this call site and other call site(s). This may impact the resources used in the design.">
         <args Name="std::array&lt;int, 16ul&gt;::operator[](unsigned long)"/>
     </msg>
-    <msg msg_groups="PRAGMA_INTERFACE" msg_id="214-366" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:74:2" msg_body="Duplicating function 'std::array&lt;int, 16ul&gt;::operator[](unsigned long)' as different function signatures were detected between this call site and other call site(s). This may impact the resources used in the design.">
+    <msg msg_groups="PRAGMA_INTERFACE" msg_id="214-366" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:82:2" msg_body="Duplicating function 'std::array&lt;int, 16ul&gt;::operator[](unsigned long)' as different function signatures were detected between this call site and other call site(s). This may impact the resources used in the design.">
         <args Name="std::array&lt;int, 16ul&gt;::operator[](unsigned long)"/>
     </msg>
     <msg msg_groups="PRAGMA_INTERFACE" msg_id="214-366" msg_severity="WARNING" msg_loc="C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:186:16" msg_body="Duplicating function 'std::__array_traits&lt;int, 16ul&gt;::_S_ref(int const (&amp;) [16], unsigned long)' as different function signatures were detected between this call site and other call site(s). This may impact the resources used in the design.">
@@ -203,76 +236,76 @@
     <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:186:0" msg_body="Inlining function 'std::__array_traits&lt;int, 16ul&gt;::_S_ref(int const (&amp;) [16], unsigned long) (.2)' into 'std::array&lt;int, 16ul&gt;::operator[](unsigned long)'">
         <args Callee="std::__array_traits&lt;int, 16ul&gt;::_S_ref(int const (&amp;) [16], unsigned long) (.2)" Callee-DebugLoc="File {C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array} Line 56 Column 0" Caller="std::array&lt;int, 16ul&gt;::operator[](unsigned long)" Caller-DebugLoc="File {C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array} Line 186 Column 0"/>
     </msg>
-    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:60:0" msg_body="Inlining function 'std::array&lt;int, 16ul&gt;::operator[](unsigned long) (.1)' into 'computeTiles(hls::stream&lt;hls::vector&lt;int, 16ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::vector&lt;int, 16ul&gt;, 0&gt;&amp;, int*, hls::stream&lt;hls::vector&lt;int, 16ul&gt;, 0&gt;&amp;, int, int, int)'">
-        <args Callee="std::array&lt;int, 16ul&gt;::operator[](unsigned long) (.1)" Callee-DebugLoc="File {C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array} Line 186 Column 0" Caller="computeTiles(hls::stream&lt;hls::vector&lt;int, 16ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::vector&lt;int, 16ul&gt;, 0&gt;&amp;, int*, hls::stream&lt;hls::vector&lt;int, 16ul&gt;, 0&gt;&amp;, int, int, int)" Caller-DebugLoc="File ../MLP_baseline/mm.cpp Line 60 Column 0"/>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:66:0" msg_body="Inlining function 'std::array&lt;int, 16ul&gt;::operator[](unsigned long) (.1)' into 'computeTiles(hls::stream&lt;hls::vector&lt;int, 16ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::vector&lt;int, 16ul&gt;, 0&gt;&amp;, int*, hls::stream&lt;hls::vector&lt;int, 16ul&gt;, 0&gt;&amp;, int, int, int)'">
+        <args Callee="std::array&lt;int, 16ul&gt;::operator[](unsigned long) (.1)" Callee-DebugLoc="File {C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array} Line 186 Column 0" Caller="computeTiles(hls::stream&lt;hls::vector&lt;int, 16ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::vector&lt;int, 16ul&gt;, 0&gt;&amp;, int*, hls::stream&lt;hls::vector&lt;int, 16ul&gt;, 0&gt;&amp;, int, int, int)" Caller-DebugLoc="File ../MLP_baseline/mm.cpp Line 66 Column 0"/>
     </msg>
-    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:60:0" msg_body="Inlining function 'std::array&lt;int, 16ul&gt;::operator[](unsigned long)' into 'computeTiles(hls::stream&lt;hls::vector&lt;int, 16ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::vector&lt;int, 16ul&gt;, 0&gt;&amp;, int*, hls::stream&lt;hls::vector&lt;int, 16ul&gt;, 0&gt;&amp;, int, int, int)'">
-        <args Callee="std::array&lt;int, 16ul&gt;::operator[](unsigned long)" Callee-DebugLoc="File {C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array} Line 186 Column 0" Caller="computeTiles(hls::stream&lt;hls::vector&lt;int, 16ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::vector&lt;int, 16ul&gt;, 0&gt;&amp;, int*, hls::stream&lt;hls::vector&lt;int, 16ul&gt;, 0&gt;&amp;, int, int, int)" Caller-DebugLoc="File ../MLP_baseline/mm.cpp Line 60 Column 0"/>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:66:0" msg_body="Inlining function 'std::array&lt;int, 16ul&gt;::operator[](unsigned long)' into 'computeTiles(hls::stream&lt;hls::vector&lt;int, 16ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::vector&lt;int, 16ul&gt;, 0&gt;&amp;, int*, hls::stream&lt;hls::vector&lt;int, 16ul&gt;, 0&gt;&amp;, int, int, int)'">
+        <args Callee="std::array&lt;int, 16ul&gt;::operator[](unsigned long)" Callee-DebugLoc="File {C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array} Line 186 Column 0" Caller="computeTiles(hls::stream&lt;hls::vector&lt;int, 16ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::vector&lt;int, 16ul&gt;, 0&gt;&amp;, int*, hls::stream&lt;hls::vector&lt;int, 16ul&gt;, 0&gt;&amp;, int, int, int)" Caller-DebugLoc="File ../MLP_baseline/mm.cpp Line 66 Column 0"/>
     </msg>
-    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:61:16" msg_body="Applying array_partition to 'AB_block': Complete partitioning on dimension 1.">
+    <msg msg_groups="PRAGMA_MISC" msg_id="214-248" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:67:16" msg_body="Applying array_partition to 'AB_block': Complete partitioning on dimension 1.">
         <args Dim="1" Mode="Complete" UOName="AB_block"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:171:26" msg_body="Aggregating fifo (hls::stream) variable 'A_stream' with compact=bit mode in 512-bits">
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:182:26" msg_body="Aggregating fifo (hls::stream) variable 'A_stream' with compact=bit mode in 512-bits">
         <args AggregateTypeName="compact=bit" Bitwidth="512" HwTyName="fifo (hls::stream)" Name="A_stream"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:172:29" msg_body="Aggregating fifo (hls::stream) variable 'B_stream' with compact=bit mode in 512-bits">
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:183:29" msg_body="Aggregating fifo (hls::stream) variable 'B_stream' with compact=bit mode in 512-bits">
         <args AggregateTypeName="compact=bit" Bitwidth="512" HwTyName="fifo (hls::stream)" Name="B_stream"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:173:29" msg_body="Aggregating fifo (hls::stream) variable 'AB_stream' with compact=bit mode in 512-bits">
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:184:29" msg_body="Aggregating fifo (hls::stream) variable 'AB_stream' with compact=bit mode in 512-bits">
         <args AggregateTypeName="compact=bit" Bitwidth="512" HwTyName="fifo (hls::stream)" Name="AB_stream"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:83:32" msg_body="Aggregating scalar variable 'A_line' with compact=bit mode in 512-bits">
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:92:32" msg_body="Aggregating scalar variable 'A_line' with compact=bit mode in 512-bits">
         <args AggregateTypeName="compact=bit" Bitwidth="512" HwTyName="scalar" Name="A_line"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:61:16" msg_body="Aggregating scalar variable 'AB_block_0' with compact=bit mode in 512-bits">
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:67:16" msg_body="Aggregating scalar variable 'AB_block_0' with compact=bit mode in 512-bits">
         <args AggregateTypeName="compact=bit" Bitwidth="512" HwTyName="scalar" Name="AB_block_0"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:61:16" msg_body="Aggregating scalar variable 'AB_block_1' with compact=bit mode in 512-bits">
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:67:16" msg_body="Aggregating scalar variable 'AB_block_1' with compact=bit mode in 512-bits">
         <args AggregateTypeName="compact=bit" Bitwidth="512" HwTyName="scalar" Name="AB_block_1"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:61:16" msg_body="Aggregating scalar variable 'AB_block_2' with compact=bit mode in 512-bits">
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:67:16" msg_body="Aggregating scalar variable 'AB_block_2' with compact=bit mode in 512-bits">
         <args AggregateTypeName="compact=bit" Bitwidth="512" HwTyName="scalar" Name="AB_block_2"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:61:16" msg_body="Aggregating scalar variable 'AB_block_3' with compact=bit mode in 512-bits">
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:67:16" msg_body="Aggregating scalar variable 'AB_block_3' with compact=bit mode in 512-bits">
         <args AggregateTypeName="compact=bit" Bitwidth="512" HwTyName="scalar" Name="AB_block_3"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:61:16" msg_body="Aggregating scalar variable 'AB_block_4' with compact=bit mode in 512-bits">
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:67:16" msg_body="Aggregating scalar variable 'AB_block_4' with compact=bit mode in 512-bits">
         <args AggregateTypeName="compact=bit" Bitwidth="512" HwTyName="scalar" Name="AB_block_4"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:61:16" msg_body="Aggregating scalar variable 'AB_block_5' with compact=bit mode in 512-bits">
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:67:16" msg_body="Aggregating scalar variable 'AB_block_5' with compact=bit mode in 512-bits">
         <args AggregateTypeName="compact=bit" Bitwidth="512" HwTyName="scalar" Name="AB_block_5"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:61:16" msg_body="Aggregating scalar variable 'AB_block_6' with compact=bit mode in 512-bits">
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:67:16" msg_body="Aggregating scalar variable 'AB_block_6' with compact=bit mode in 512-bits">
         <args AggregateTypeName="compact=bit" Bitwidth="512" HwTyName="scalar" Name="AB_block_6"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:61:16" msg_body="Aggregating scalar variable 'AB_block_7' with compact=bit mode in 512-bits">
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:67:16" msg_body="Aggregating scalar variable 'AB_block_7' with compact=bit mode in 512-bits">
         <args AggregateTypeName="compact=bit" Bitwidth="512" HwTyName="scalar" Name="AB_block_7"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:61:16" msg_body="Aggregating scalar variable 'AB_block_8' with compact=bit mode in 512-bits">
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:67:16" msg_body="Aggregating scalar variable 'AB_block_8' with compact=bit mode in 512-bits">
         <args AggregateTypeName="compact=bit" Bitwidth="512" HwTyName="scalar" Name="AB_block_8"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:61:16" msg_body="Aggregating scalar variable 'AB_block_9' with compact=bit mode in 512-bits">
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:67:16" msg_body="Aggregating scalar variable 'AB_block_9' with compact=bit mode in 512-bits">
         <args AggregateTypeName="compact=bit" Bitwidth="512" HwTyName="scalar" Name="AB_block_9"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:61:16" msg_body="Aggregating scalar variable 'AB_block_10' with compact=bit mode in 512-bits">
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:67:16" msg_body="Aggregating scalar variable 'AB_block_10' with compact=bit mode in 512-bits">
         <args AggregateTypeName="compact=bit" Bitwidth="512" HwTyName="scalar" Name="AB_block_10"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:61:16" msg_body="Aggregating scalar variable 'AB_block_11' with compact=bit mode in 512-bits">
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:67:16" msg_body="Aggregating scalar variable 'AB_block_11' with compact=bit mode in 512-bits">
         <args AggregateTypeName="compact=bit" Bitwidth="512" HwTyName="scalar" Name="AB_block_11"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:61:16" msg_body="Aggregating scalar variable 'AB_block_12' with compact=bit mode in 512-bits">
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:67:16" msg_body="Aggregating scalar variable 'AB_block_12' with compact=bit mode in 512-bits">
         <args AggregateTypeName="compact=bit" Bitwidth="512" HwTyName="scalar" Name="AB_block_12"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:61:16" msg_body="Aggregating scalar variable 'AB_block_13' with compact=bit mode in 512-bits">
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:67:16" msg_body="Aggregating scalar variable 'AB_block_13' with compact=bit mode in 512-bits">
         <args AggregateTypeName="compact=bit" Bitwidth="512" HwTyName="scalar" Name="AB_block_13"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:61:16" msg_body="Aggregating scalar variable 'AB_block_14' with compact=bit mode in 512-bits">
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:67:16" msg_body="Aggregating scalar variable 'AB_block_14' with compact=bit mode in 512-bits">
         <args AggregateTypeName="compact=bit" Bitwidth="512" HwTyName="scalar" Name="AB_block_14"/>
     </msg>
-    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:61:16" msg_body="Aggregating scalar variable 'AB_block_15' with compact=bit mode in 512-bits">
+    <msg msg_groups="PRAGMA_AGGREGATE" msg_id="214-241" msg_severity="INFO" msg_loc="../MLP_baseline/mm.cpp:67:16" msg_body="Aggregating scalar variable 'AB_block_15' with compact=bit mode in 512-bits">
         <args AggregateTypeName="compact=bit" Bitwidth="512" HwTyName="scalar" Name="AB_block_15"/>
     </msg>
-    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-475" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:137:0" msg_body="Merging processes 'readBTiles', 'computeTiles' and 'readAtTiles' in function 'MM' due to reads on 'gmem'">
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-475" msg_severity="WARNING" msg_loc="../MLP_baseline/mm.cpp:148:0" msg_body="Merging processes 'readBTiles', 'computeTiles' and 'readAtTiles' in function 'MM' due to reads on 'gmem'">
         <args FName="MM"/>
     </msg>
 </xilinx:hls_fe_msgs>

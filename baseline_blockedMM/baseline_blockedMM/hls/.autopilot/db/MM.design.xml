@@ -51,16 +51,16 @@
 <ID>159</ID>
 <InstancesList>
 <Instance>
-<InstName>grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_283</InstName>
+<InstName>grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_279</InstName>
 <ModuleName>computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop</ModuleName>
 <IsCompInst>true</IsCompInst>
-<ID>283</ID>
+<ID>279</ID>
 </Instance>
 <Instance>
-<InstName>grp_computeTiles_Pipeline_j_output_loop_fu_324</InstName>
+<InstName>grp_computeTiles_Pipeline_j_output_loop_fu_320</InstName>
 <ModuleName>computeTiles_Pipeline_j_output_loop</ModuleName>
 <IsCompInst>true</IsCompInst>
-<ID>324</ID>
+<ID>320</ID>
 </Instance>
 </InstancesList>
 </Instance>
@@ -320,13 +320,13 @@
 <EstimatedClockPeriod>10.950</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
-<Best-caseLatency>undef</Best-caseLatency>
-<Average-caseLatency>undef</Average-caseLatency>
-<Worst-caseLatency>undef</Worst-caseLatency>
-<Best-caseRealTimeLatency>undef</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
-<PipelineInitiationInterval>0</PipelineInitiationInterval>
+<Best-caseLatency>401423</Best-caseLatency>
+<Average-caseLatency>401423</Average-caseLatency>
+<Worst-caseLatency>401423</Worst-caseLatency>
+<Best-caseRealTimeLatency>6.021 ms</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>6.021 ms</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>6.021 ms</Worst-caseRealTimeLatency>
+<PipelineInitiationInterval>401409</PipelineInitiationInterval>
 <PipelineType>loop auto-rewind stp (delay=0 clock cycles(s))</PipelineType>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
@@ -334,10 +334,10 @@
 <i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop>
 <Name>i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop</Name>
 <Slack>10.95</Slack>
-<TripCount>undef</TripCount>
+<TripCount>401408</TripCount>
 <isPerfectNested>0</isPerfectNested>
-<Latency>undef</Latency>
-<AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
+<Latency>401421</Latency>
+<AbsoluteTimeLatency>6.021 ms</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>15</PipelineDepth>
 <PipelineType>yes</PipelineType>
@@ -349,7 +349,7 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:18</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:21</SourceLocation>
 <SummaryOfLoopViolations>
 <i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop>
 <Name>i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop</Name>
@@ -1062,13 +1062,13 @@
 <EstimatedClockPeriod>10.950</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
-<Best-caseLatency>undef</Best-caseLatency>
-<Average-caseLatency>undef</Average-caseLatency>
-<Worst-caseLatency>undef</Worst-caseLatency>
-<Best-caseRealTimeLatency>undef</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
-<PipelineInitiationInterval>undef</PipelineInitiationInterval>
+<Best-caseLatency>401428</Best-caseLatency>
+<Average-caseLatency>401428</Average-caseLatency>
+<Worst-caseLatency>401428</Worst-caseLatency>
+<Best-caseRealTimeLatency>6.021 ms</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>6.021 ms</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>6.021 ms</Worst-caseRealTimeLatency>
+<PipelineInitiationInterval>401428</PipelineInitiationInterval>
 <PipelineType>no</PipelineType>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
@@ -1805,13 +1805,13 @@
 <EstimatedClockPeriod>10.950</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
-<Best-caseLatency>undef</Best-caseLatency>
-<Average-caseLatency>undef</Average-caseLatency>
-<Worst-caseLatency>undef</Worst-caseLatency>
-<Best-caseRealTimeLatency>undef</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
-<PipelineInitiationInterval>0</PipelineInitiationInterval>
+<Best-caseLatency>401423</Best-caseLatency>
+<Average-caseLatency>401423</Average-caseLatency>
+<Worst-caseLatency>401423</Worst-caseLatency>
+<Best-caseRealTimeLatency>6.021 ms</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>6.021 ms</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>6.021 ms</Worst-caseRealTimeLatency>
+<PipelineInitiationInterval>401409</PipelineInitiationInterval>
 <PipelineType>loop auto-rewind stp (delay=0 clock cycles(s))</PipelineType>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
@@ -1819,10 +1819,10 @@
 <i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop>
 <Name>i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop</Name>
 <Slack>10.95</Slack>
-<TripCount>undef</TripCount>
+<TripCount>401408</TripCount>
 <isPerfectNested>0</isPerfectNested>
-<Latency>undef</Latency>
-<AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
+<Latency>401421</Latency>
+<AbsoluteTimeLatency>6.021 ms</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>15</PipelineDepth>
 <PipelineType>yes</PipelineType>
@@ -1834,13 +1834,13 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:44</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:50</SourceLocation>
 <SummaryOfLoopViolations>
 <i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop>
 <Name>i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:38</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:41</SourceLocation>
 </i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>
@@ -2547,20 +2547,20 @@
 <EstimatedClockPeriod>10.950</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
-<Best-caseLatency>undef</Best-caseLatency>
-<Average-caseLatency>undef</Average-caseLatency>
-<Worst-caseLatency>undef</Worst-caseLatency>
-<Best-caseRealTimeLatency>undef</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
-<PipelineInitiationInterval>undef</PipelineInitiationInterval>
+<Best-caseLatency>401428</Best-caseLatency>
+<Average-caseLatency>401428</Average-caseLatency>
+<Worst-caseLatency>401428</Worst-caseLatency>
+<Best-caseRealTimeLatency>6.021 ms</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>6.021 ms</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>6.021 ms</Worst-caseRealTimeLatency>
+<PipelineInitiationInterval>401428</PipelineInitiationInterval>
 <PipelineType>no</PipelineType>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:33</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:36</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 <AreaEstimates>
@@ -3290,13 +3290,13 @@
 <EstimatedClockPeriod>8.510</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
-<Best-caseLatency>2</Best-caseLatency>
-<Average-caseLatency>17179868933</Average-caseLatency>
-<Worst-caseLatency>34359738117</Worst-caseLatency>
-<Best-caseRealTimeLatency>30.000 ns</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>257.698 sec</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>515.396 sec</Worst-caseRealTimeLatency>
-<PipelineInitiationInterval>1 ~ 34359738113</PipelineInitiationInterval>
+<Best-caseLatency>12549</Best-caseLatency>
+<Average-caseLatency>12549</Average-caseLatency>
+<Worst-caseLatency>12549</Worst-caseLatency>
+<Best-caseRealTimeLatency>0.188 ms</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.188 ms</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.188 ms</Worst-caseRealTimeLatency>
+<PipelineInitiationInterval>12545</PipelineInitiationInterval>
 <PipelineType>loop auto-rewind stp (delay=0 clock cycles(s))</PipelineType>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
@@ -3304,15 +3304,10 @@
 <k_BLOCK_loop_k_loop_i_loop>
 <Name>k_BLOCK_loop_k_loop_i_loop</Name>
 <Slack>10.95</Slack>
-<TripCount>
-<range>
-<min>0</min>
-<max>34359738112</max>
-</range>
-</TripCount>
+<TripCount>12544</TripCount>
 <isPerfectNested>0</isPerfectNested>
-<Latency>0 ~ 34359738115</Latency>
-<AbsoluteTimeLatency>0 ns ~ 515.396 sec</AbsoluteTimeLatency>
+<Latency>12547</Latency>
+<AbsoluteTimeLatency>0.188 ms</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>5</PipelineDepth>
 <PipelineType>yes</PipelineType>
@@ -3324,13 +3319,13 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:55~C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:186~../MLP_baseline/mm.cpp:92</SourceLocation>
+<SourceLocation>C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:55~C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:186~../MLP_baseline/mm.cpp:101</SourceLocation>
 <SummaryOfLoopViolations>
 <k_BLOCK_loop_k_loop_i_loop>
 <Name>k_BLOCK_loop_k_loop_i_loop</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:82</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:91</SourceLocation>
 </k_BLOCK_loop_k_loop_i_loop>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>
@@ -4069,13 +4064,13 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:55~C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:186~../MLP_baseline/mm.cpp:107</SourceLocation>
+<SourceLocation>C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:55~C:/Xilinx/2025.1/Vitis/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\array:186~../MLP_baseline/mm.cpp:116</SourceLocation>
 <SummaryOfLoopViolations>
 <j_output_loop>
 <Name>j_output_loop</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:100</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:109</SourceLocation>
 </j_output_loop>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>
@@ -4413,13 +4408,13 @@
 <EstimatedClockPeriod>10.950</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
-<Best-caseLatency>1</Best-caseLatency>
-<Average-caseLatency>undef</Average-caseLatency>
-<Worst-caseLatency>undef</Worst-caseLatency>
-<Best-caseRealTimeLatency>15.000 ns</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
-<PipelineInitiationInterval>1 ~ ?</PipelineInitiationInterval>
+<Best-caseLatency>6438081</Best-caseLatency>
+<Average-caseLatency>6438081</Average-caseLatency>
+<Worst-caseLatency>6438081</Worst-caseLatency>
+<Best-caseRealTimeLatency>96.571 ms</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>96.571 ms</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>96.571 ms</Worst-caseRealTimeLatency>
+<PipelineInitiationInterval>6438081</PipelineInitiationInterval>
 <PipelineType>no</PipelineType>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
@@ -4427,22 +4422,12 @@
 <i_BLOCK_loop>
 <Name>i_BLOCK_loop</Name>
 <Slack>10.95</Slack>
-<TripCount>
-<range>
-<min>0</min>
-<max>134217727</max>
-</range>
-</TripCount>
+<TripCount>64</TripCount>
 <isPerfectNested>0</isPerfectNested>
-<Latency>0 ~ ?</Latency>
-<AbsoluteTimeLatency>0 ns ~ ?</AbsoluteTimeLatency>
-<IterationLatency>
-<range>
-<min>27</min>
-<max>4611685953331789824</max>
-</range>
-</IterationLatency>
-<PipelineDepth>27 ~ 4611685953331790080</PipelineDepth>
+<Latency>6438080</Latency>
+<AbsoluteTimeLatency>96.571 ms</AbsoluteTimeLatency>
+<IterationLatency>100595</IterationLatency>
+<PipelineDepth>100595</PipelineDepth>
 <PipelineType>no</PipelineType>
 <PerformancePragma>-</PerformancePragma>
 <InstanceList>
@@ -4450,27 +4435,17 @@
 <j_BLOCK_loop>
 <Name>j_BLOCK_loop</Name>
 <Slack>10.95</Slack>
-<TripCount>
-<range>
-<min>0</min>
-<max>134217727</max>
-</range>
-</TripCount>
+<TripCount>8</TripCount>
 <isPerfectNested>1</isPerfectNested>
-<Latency>0 ~ 4611685953331790053</Latency>
-<AbsoluteTimeLatency>0 ns ~ 6.9e+10 sec</AbsoluteTimeLatency>
-<IterationLatency>
-<range>
-<min>24</min>
-<max>34359738139</max>
-</range>
-</IterationLatency>
-<PipelineDepth>24 ~ 34359738139</PipelineDepth>
+<Latency>100568</Latency>
+<AbsoluteTimeLatency>1.509 ms</AbsoluteTimeLatency>
+<IterationLatency>12571</IterationLatency>
+<PipelineDepth>12571</PipelineDepth>
 <PipelineType>no</PipelineType>
 <PerformancePragma>-</PerformancePragma>
 <InstanceList>
-<Instance>grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_283</Instance>
-<Instance>grp_computeTiles_Pipeline_j_output_loop_fu_324</Instance>
+<Instance>grp_computeTiles_Pipeline_k_BLOCK_loop_k_loop_i_loop_fu_279</Instance>
+<Instance>grp_computeTiles_Pipeline_j_output_loop_fu_320</Instance>
 </InstanceList>
 </j_BLOCK_loop>
 </i_BLOCK_loop>
@@ -4478,18 +4453,18 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:65</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:71</SourceLocation>
 <SummaryOfLoopViolations>
 <i_BLOCK_loop>
 <Name>i_BLOCK_loop</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:65</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:71</SourceLocation>
 <j_BLOCK_loop>
 <Name>j_BLOCK_loop</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:67</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:74</SourceLocation>
 </j_BLOCK_loop>
 </i_BLOCK_loop>
 </SummaryOfLoopViolations>
@@ -5263,20 +5238,20 @@
 <EstimatedClockPeriod>10.950</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
-<Best-caseLatency>undef</Best-caseLatency>
-<Average-caseLatency>undef</Average-caseLatency>
-<Worst-caseLatency>undef</Worst-caseLatency>
-<Best-caseRealTimeLatency>undef</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
-<PipelineInitiationInterval>undef</PipelineInitiationInterval>
+<Best-caseLatency>7240942</Best-caseLatency>
+<Average-caseLatency>7240942</Average-caseLatency>
+<Worst-caseLatency>7240942</Worst-caseLatency>
+<Best-caseRealTimeLatency>0.109 sec</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.109 sec</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.109 sec</Worst-caseRealTimeLatency>
+<PipelineInitiationInterval>7240942</PipelineInitiationInterval>
 <PipelineType>no</PipelineType>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:181~../MLP_baseline/mm.cpp:181</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:192~../MLP_baseline/mm.cpp:192</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 <AreaEstimates>
@@ -6127,13 +6102,13 @@
 <EstimatedClockPeriod>10.950</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
-<Best-caseLatency>2</Best-caseLatency>
-<Average-caseLatency>72057591890444312</Average-caseLatency>
-<Worst-caseLatency>288230371856744480</Worst-caseLatency>
-<Best-caseRealTimeLatency>30.000 ns</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>1.1e+09 sec</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>4.3e+09 sec</Worst-caseRealTimeLatency>
-<PipelineInitiationInterval>1 ~ 288230371856744465</PipelineInitiationInterval>
+<Best-caseLatency>8203</Best-caseLatency>
+<Average-caseLatency>8203</Average-caseLatency>
+<Worst-caseLatency>8203</Worst-caseLatency>
+<Best-caseRealTimeLatency>0.123 ms</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.123 ms</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.123 ms</Worst-caseRealTimeLatency>
+<PipelineInitiationInterval>8193</PipelineInitiationInterval>
 <PipelineType>loop auto-rewind stp (delay=0 clock cycles(s))</PipelineType>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
@@ -6141,15 +6116,10 @@
 <i_BLOCK_loop_j_BLOCK_loop_j_output_loop>
 <Name>i_BLOCK_loop_j_BLOCK_loop_j_output_loop</Name>
 <Slack>10.95</Slack>
-<TripCount>
-<range>
-<min>0</min>
-<max>288230371856744448</max>
-</range>
-</TripCount>
+<TripCount>8192</TripCount>
 <isPerfectNested>0</isPerfectNested>
-<Latency>0 ~ 288230371856744473</Latency>
-<AbsoluteTimeLatency>0 ns ~ 4.3e+09 sec</AbsoluteTimeLatency>
+<Latency>8201</Latency>
+<AbsoluteTimeLatency>0.123 ms</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>11</PipelineDepth>
 <PipelineType>yes</PipelineType>
@@ -6161,13 +6131,13 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:127</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:138</SourceLocation>
 <SummaryOfLoopViolations>
 <i_BLOCK_loop_j_BLOCK_loop_j_output_loop>
 <Name>i_BLOCK_loop_j_BLOCK_loop_j_output_loop</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:123</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:132</SourceLocation>
 </i_BLOCK_loop_j_BLOCK_loop_j_output_loop>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>
@@ -6874,20 +6844,20 @@
 <EstimatedClockPeriod>10.950</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
-<Best-caseLatency>6</Best-caseLatency>
-<Average-caseLatency>72057591890444320</Average-caseLatency>
-<Worst-caseLatency>288230371856744480</Worst-caseLatency>
-<Best-caseRealTimeLatency>90.000 ns</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>1.1e+09 sec</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>4.3e+09 sec</Worst-caseRealTimeLatency>
-<PipelineInitiationInterval>6 ~ 288230371856744479</PipelineInitiationInterval>
+<Best-caseLatency>8207</Best-caseLatency>
+<Average-caseLatency>8207</Average-caseLatency>
+<Worst-caseLatency>8207</Worst-caseLatency>
+<Best-caseRealTimeLatency>0.123 ms</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.123 ms</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.123 ms</Worst-caseRealTimeLatency>
+<PipelineInitiationInterval>8207</PipelineInitiationInterval>
 <PipelineType>no</PipelineType>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:134</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:145</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 <AreaEstimates>
@@ -7724,21 +7694,21 @@
 <EstimatedClockPeriod>10.950</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
-<Best-caseLatency>undef</Best-caseLatency>
-<Average-caseLatency>undef</Average-caseLatency>
-<Worst-caseLatency>undef</Worst-caseLatency>
-<Best-caseRealTimeLatency>undef</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
-<DataflowPipelineThroughput>undef</DataflowPipelineThroughput>
-<PipelineInitiationInterval>undef</PipelineInitiationInterval>
+<Best-caseLatency>7240942</Best-caseLatency>
+<Average-caseLatency>7240942</Average-caseLatency>
+<Worst-caseLatency>7240942</Worst-caseLatency>
+<Best-caseRealTimeLatency>0.109 sec</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.109 sec</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.109 sec</Worst-caseRealTimeLatency>
+<DataflowPipelineThroughput>7240943</DataflowPipelineThroughput>
+<PipelineInitiationInterval>7240943</PipelineInitiationInterval>
 <PipelineType>dataflow</PipelineType>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:179</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:190</SourceLocation>
 </SummaryOfViolations>
 </PerformanceEstimates>
 <AreaEstimates>

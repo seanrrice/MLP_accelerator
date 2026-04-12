@@ -646,10 +646,10 @@ entry:5 %B_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %B
 
 <Node id="47" bw="0" op_0_bw="0" op_1_bw="85" op_2_bw="58" op_3_bw="27" op_4_bw="31" op_5_bw="32" op_6_bw="64" op_7_bw="512" op_8_bw="512">
 <![CDATA[
-entry:40 %call_ln33 = call void @readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop, i85 %bound28, i58 %bound6, i27 %smax, i31 %tmp_3, i32 %P_read, i64 %B_read, i512 %gmem, i512 %B_stream
+entry:40 %call_ln36 = call void @readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop, i85 %bound28, i58 %bound6, i27 %smax, i31 %tmp_3, i32 %P_read, i64 %B_read, i512 %gmem, i512 %B_stream
 
 ]]></Node>
-<StgValue><ssdm name="call_ln33"/></StgValue>
+<StgValue><ssdm name="call_ln36"/></StgValue>
 </operation>
 </state>
 
@@ -694,10 +694,10 @@ entry:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i512 %g
 
 <Node id="47" bw="0" op_0_bw="0" op_1_bw="85" op_2_bw="58" op_3_bw="27" op_4_bw="31" op_5_bw="32" op_6_bw="64" op_7_bw="512" op_8_bw="512">
 <![CDATA[
-entry:40 %call_ln33 = call void @readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop, i85 %bound28, i58 %bound6, i27 %smax, i31 %tmp_3, i32 %P_read, i64 %B_read, i512 %gmem, i512 %B_stream
+entry:40 %call_ln36 = call void @readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop, i85 %bound28, i58 %bound6, i27 %smax, i31 %tmp_3, i32 %P_read, i64 %B_read, i512 %gmem, i512 %B_stream
 
 ]]></Node>
-<StgValue><ssdm name="call_ln33"/></StgValue>
+<StgValue><ssdm name="call_ln36"/></StgValue>
 </operation>
 
 <operation id="50" st_id="6" stage="1" lat="1">
@@ -709,10 +709,10 @@ entry:40 %call_ln33 = call void @readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k
 
 <Node id="48" bw="0">
 <![CDATA[
-entry:41 %ret_ln52 = ret
+entry:41 %ret_ln58 = ret
 
 ]]></Node>
-<StgValue><ssdm name="ret_ln52"/></StgValue>
+<StgValue><ssdm name="ret_ln58"/></StgValue>
 </operation>
 </state>
 </state_list>
@@ -928,23 +928,23 @@ entry:41 %ret_ln52 = ret
 </dataflow>
 <dataflow id="165" from="B" to="B_read" fromId="57" toId="45">
 </dataflow>
-<dataflow id="167" from="readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop" to="call_ln33" fromId="166" toId="46">
+<dataflow id="167" from="readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop" to="call_ln36" fromId="166" toId="46">
 </dataflow>
-<dataflow id="168" from="bound28" to="call_ln33" fromId="44" toId="46">
+<dataflow id="168" from="bound28" to="call_ln36" fromId="44" toId="46">
 </dataflow>
-<dataflow id="169" from="bound6" to="call_ln33" fromId="38" toId="46">
+<dataflow id="169" from="bound6" to="call_ln36" fromId="38" toId="46">
 </dataflow>
-<dataflow id="170" from="smax" to="call_ln33" fromId="24" toId="46">
+<dataflow id="170" from="smax" to="call_ln36" fromId="24" toId="46">
 </dataflow>
-<dataflow id="171" from="tmp_3" to="call_ln33" fromId="35" toId="46">
+<dataflow id="171" from="tmp_3" to="call_ln36" fromId="35" toId="46">
 </dataflow>
-<dataflow id="172" from="P_read" to="call_ln33" fromId="7" toId="46">
+<dataflow id="172" from="P_read" to="call_ln36" fromId="7" toId="46">
 </dataflow>
-<dataflow id="173" from="B_read" to="call_ln33" fromId="45" toId="46">
+<dataflow id="173" from="B_read" to="call_ln36" fromId="45" toId="46">
 </dataflow>
-<dataflow id="174" from="gmem" to="call_ln33" fromId="56" toId="46">
+<dataflow id="174" from="gmem" to="call_ln36" fromId="56" toId="46">
 </dataflow>
-<dataflow id="175" from="B_stream" to="call_ln33" fromId="58" toId="46">
+<dataflow id="175" from="B_stream" to="call_ln36" fromId="58" toId="46">
 </dataflow>
 <dataflow id="177" from="_ssdm_op_SpecInterface" to="specinterface_ln0" fromId="176" toId="47">
 </dataflow>
@@ -1026,23 +1026,23 @@ entry:41 %ret_ln52 = ret
 </dataflow>
 <dataflow id="224" from="StgValue_72" to="specinterface_ln0" fromId="72" toId="48">
 </dataflow>
-<dataflow id="225" from="readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop" to="call_ln33" fromId="166" toId="49">
+<dataflow id="225" from="readBTiles_Pipeline_i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop" to="call_ln36" fromId="166" toId="49">
 </dataflow>
-<dataflow id="226" from="bound28" to="call_ln33" fromId="44" toId="49">
+<dataflow id="226" from="bound28" to="call_ln36" fromId="44" toId="49">
 </dataflow>
-<dataflow id="227" from="bound6" to="call_ln33" fromId="38" toId="49">
+<dataflow id="227" from="bound6" to="call_ln36" fromId="38" toId="49">
 </dataflow>
-<dataflow id="228" from="smax" to="call_ln33" fromId="24" toId="49">
+<dataflow id="228" from="smax" to="call_ln36" fromId="24" toId="49">
 </dataflow>
-<dataflow id="229" from="tmp_3" to="call_ln33" fromId="35" toId="49">
+<dataflow id="229" from="tmp_3" to="call_ln36" fromId="35" toId="49">
 </dataflow>
-<dataflow id="230" from="P_read" to="call_ln33" fromId="7" toId="49">
+<dataflow id="230" from="P_read" to="call_ln36" fromId="7" toId="49">
 </dataflow>
-<dataflow id="231" from="B_read" to="call_ln33" fromId="45" toId="49">
+<dataflow id="231" from="B_read" to="call_ln36" fromId="45" toId="49">
 </dataflow>
-<dataflow id="232" from="gmem" to="call_ln33" fromId="56" toId="49">
+<dataflow id="232" from="gmem" to="call_ln36" fromId="56" toId="49">
 </dataflow>
-<dataflow id="233" from="B_stream" to="call_ln33" fromId="58" toId="49">
+<dataflow id="233" from="B_stream" to="call_ln36" fromId="58" toId="49">
 </dataflow>
 </dataflows>
 

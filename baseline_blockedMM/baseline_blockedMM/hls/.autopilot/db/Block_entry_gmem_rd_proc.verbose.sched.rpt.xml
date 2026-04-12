@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'Block_entry_gmem_rd_proc'" level="0">
-<item name = "Date">Fri Apr 10 16:22:57 2026
+<item name = "Date">Sat Apr 11 17:34:15 2026
 </item>
 <item name = "Version">2025.1 (Build 6135595 on May 21 2025)</item>
 <item name = "Project">baseline_blockedMM</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">?, ?, ?, ?, ?, ?, no</column>
+<column name="">7240942, 7240942, 0.109 sec, 0.109 sec, 7240942, 7240942, no</column>
 </table>
 </item>
 <item name = "Detail">

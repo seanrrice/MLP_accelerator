@@ -1,16 +1,16 @@
 6 warnings generated.
 Trying to resolve conflict: The new insertion has the same insert location as an existing replacement.
-New replacement: C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp: 1215141:+0:"
+New replacement: C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp: 1215467:+0:"
 #pragma HLS aggregate variable = B
 "
-Existing replacement: C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp: 1215141:+0:"
+Existing replacement: C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp: 1215467:+0:"
 #pragma HLS aggregate variable = AT
 "
 Trying to resolve conflict: The new insertion has the same insert location as an existing replacement.
-New replacement: C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp: 1215141:+0:"
+New replacement: C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp: 1215467:+0:"
 #pragma HLS aggregate variable = ABC
 "
-Existing replacement: C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp: 1215141:+0:"
+Existing replacement: C:\Users\seanr\vitis_projects\Lab3_MLP_optimization\baseline_blockedMM\baseline_blockedMM\hls\.autopilot\db\mm.pp.0.cpp: 1215467:+0:"
 #pragma HLS aggregate variable = AT
 
 #pragma HLS aggregate variable = B

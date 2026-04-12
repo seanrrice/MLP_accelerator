@@ -22,23 +22,23 @@
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>undef</Best-caseLatency>
-<Average-caseLatency>undef</Average-caseLatency>
-<Worst-caseLatency>undef</Worst-caseLatency>
-<Best-caseRealTimeLatency>undef</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
-<Interval-min>0</Interval-min>
-<Interval-max>0</Interval-max>
+<Best-caseLatency>401423</Best-caseLatency>
+<Average-caseLatency>401423</Average-caseLatency>
+<Worst-caseLatency>401423</Worst-caseLatency>
+<Best-caseRealTimeLatency>6.021 ms</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>6.021 ms</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>6.021 ms</Worst-caseRealTimeLatency>
+<Interval-min>401409</Interval-min>
+<Interval-max>401409</Interval-max>
 <PerformancePragma>-</PerformancePragma>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
 <i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop>
 <Slack>10.95</Slack>
-<TripCount>undef</TripCount>
+<TripCount>401408</TripCount>
 <isPerfectNested>0</isPerfectNested>
-<Latency>undef</Latency>
-<AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
+<Latency>401421</Latency>
+<AbsoluteTimeLatency>6021315</AbsoluteTimeLatency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>15</PipelineDepth>
 <PerformancePragma>-</PerformancePragma>
@@ -49,13 +49,13 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:44</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:50</SourceLocation>
 <SummaryOfLoopViolations>
 <i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop>
 <Name>i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>../MLP_baseline/mm.cpp:38</SourceLocation>
+<SourceLocation>../MLP_baseline/mm.cpp:41</SourceLocation>
 </i_BLOCK_loop_j_BLOCK_loop_k_BLOCK_loop_k_loop>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>
