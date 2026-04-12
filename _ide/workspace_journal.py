@@ -7,3 +7,5 @@ client.set_workspace(path="Lab3_MLP_optimization")
 comp = client.get_component(name="baseline_blockedMM")
 comp.run(operation="SYNTHESIS")
 
+comp.run(operation="IMPLEMENTATION")
+
